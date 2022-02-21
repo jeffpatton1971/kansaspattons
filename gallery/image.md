@@ -1,0 +1,4 @@
+---
+layout: item
+---
+{{ page.title }}
