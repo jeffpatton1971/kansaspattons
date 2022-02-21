@@ -31,8 +31,9 @@ collections:
   gallery-2009-10-18:
     sort_by: index
     output: true
-    permalink: /kansaspattons/:collection/:name.html
   gallery-2009-10-28:
+    sort_by: index
+  gallery-2009-10-31:
     sort_by: index
 
 header_pages:
