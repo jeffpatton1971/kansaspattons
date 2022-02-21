@@ -16,8 +16,8 @@
 title: kansaspattons.org
 email: jeffrey@kansaspattons.org
 description: >- # this means to ignore newlines until "baseurl:"
-#baseurl: "/pattontech" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#baseraw_url: "/pattontech" # the subpath of your site, e.g. /blog
+raw_url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author: "Jeff Patton"
 
 #google_analytics: UA-8275694-2
