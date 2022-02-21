@@ -31,6 +31,7 @@ collections:
   gallery-2009-10-18:
     sort_by: index
     output: true
+    permalink: /gallery/:path/
   gallery-2009-10-28:
     sort_by: index
 
