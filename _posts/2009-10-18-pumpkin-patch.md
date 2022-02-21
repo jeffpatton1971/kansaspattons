@@ -13,5 +13,5 @@ With my sister and her family in town this weekend for Mary's birthday, we decid
 I have uploaded some of the pictures into the gallery below.
 
 {% for image in site.gallery-2009-10-18 %}
-  <div><img src="{{ image.image_path }}" alt="{{ image.title}}"/></div>
+  ![{{ image.title}}]({{ image.image_path }})
 {% endfor %}
