@@ -16,6 +16,6 @@ After being outside we went inside their plant, the kids got to see where all th
 
 After the fun and excitement they gave each of the children a cup full of apple slushy which considering the temperature maybe hot cider would have been a better choice.
 
-{% for image in site.gallery-2009-10-18 %}
-  ![{{ image.title}}]({{ image.image_path }})
+{% for image in site.gallery-2009-10-28 | sort: "index" %}
+  ![{{ image.title}}]({{ image.url }})
 {% endfor %}
