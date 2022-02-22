@@ -9,6 +9,6 @@ layout: default
 
   <div class="post-content">
     <img src="{{ page.raw_url }}">
-    <p><a href="{{ post_url page.post | absolute_url | replace: '.md','.html' }}">Return to Post</a></p>
+    <p><a href="{{ link page.post }}">Return to Post</a></p>
   </div>
 </article>
