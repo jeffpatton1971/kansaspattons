@@ -36,6 +36,7 @@ collections:
     output: true
   gallery-2009-10-31:
     sort_by: index
+    output: true
 
 header_pages:
  - posts.md
