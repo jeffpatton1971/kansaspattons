@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign postback = post_url page.post %}
+{% assign postback = page.post %}
 <article class="post">
 
   <header class="post-header">
@@ -10,6 +10,6 @@ layout: default
 
   <div class="post-content">
     <img src="{{ page.raw_url }}">
-    <p><a href="{{ postback }}">{{ postback }}</a></p>
+    <p><a href="{{ postback }}">Return</a></p>
   </div>
 </article>
