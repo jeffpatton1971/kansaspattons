@@ -14,6 +14,6 @@ After visiting Mass. St. we headed over to the nursing home off Wakarusa. We sta
 
 Enjoy the pictures!
 
-{% for image in site.gallery-2009-10-31 %}
+{% for image in site.gallery-2009-10-31-2 %}
   [![{{ image.title}}]({{ image.thumb_url }})]({{ image.url | relative_url }})
 {% endfor %}

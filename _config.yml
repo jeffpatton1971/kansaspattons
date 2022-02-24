@@ -34,7 +34,10 @@ collections:
   gallery-2009-10-28:
     sort_by: index
     output: true
-  gallery-2009-10-31:
+  gallery-2009-10-31-1:
+    sort_by: index
+    output: true
+  gallery-2009-10-31-2:
     sort_by: index
     output: true
 
