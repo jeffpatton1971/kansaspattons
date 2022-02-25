@@ -40,6 +40,9 @@ collections:
   gallery-2009-10-31-2:
     sort_by: index
     output: true
+  gallery-2009-11-02:
+    sort_by: index
+    output: true
 
 header_pages:
  - posts.md
