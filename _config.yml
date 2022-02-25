@@ -75,6 +75,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-sitemap
+  - jekyll-youtube
 #  - jekyll-include-cache
 
 # Exclude from processing.
