@@ -11,8 +11,6 @@ youtube:    https://youtu.be/iSOmsmuJmwc
 ---
 Natalie learning to ride a bike!
 
-{% youtube page.youtube %}
-
 {% for image in site.gallery-2009-11-02 %}
   [![{{ image.title}}]({{ image.thumb_url }})]({{ image.url | relative_url }})
 {% endfor %}
