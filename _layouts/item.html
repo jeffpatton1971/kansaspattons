@@ -75,7 +75,16 @@ layout: post
   {% if postback %}
     <a href="{{ postback | relative_url }}">Return to post</a>
   {% endif %}
-  <a href="{{ '/galleries/' | relative_url }}">View galleries</a>
+
+  {% if page.year and page.month and page.day %}
+    {% assign month_slug = page.month | prepend: "0" | slice: -2, 2 %}
+    {% assign day_slug = page.day | prepend: "0" | slice: -2, 2 %}
+    {% assign archive_path = '/galleries/' | append: page.year | append: '/' | append: month_slug | append: '/' | append: day_slug | append: '/' %}
+    <a href="{{ archive_path | relative_url }}">View this date</a>
+  {% else %}
+    <a href="{{ '/galleries/' | relative_url }}">View galleries</a>
+  {% endif %}
+
   <a href="{{ page.raw_url }}">Open full-size image</a>
 </div>
 
