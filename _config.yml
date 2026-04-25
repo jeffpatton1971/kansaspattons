@@ -37,9 +37,6 @@ collections:
 
   # Legacy dated gallery collections. Keep these until the existing image
   # documents have been migrated into _gallery.
-  gallery-2009-10-18:
-    sort_by: index
-    output: true
   gallery-2009-10-28:
     sort_by: index
     output: true
