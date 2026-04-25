@@ -4,6 +4,25 @@ title: Galleries
 permalink: /galleries/
 ---
 
+<style>
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gallery-item p {
+  margin-top: 0.35rem;
+  font-size: 0.9rem;
+}
+</style>
+
 {% assign images = site.gallery | sort: "taken_at" | reverse %}
 {% assign current_year = "" %}
 
