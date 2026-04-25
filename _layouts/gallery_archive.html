@@ -1,0 +1,73 @@
+---
+layout: page
+---
+
+<style>
+.gallery-archive-nav {
+  margin-bottom: 1.5rem;
+}
+
+.gallery-archive-nav a {
+  display: inline-block;
+  margin-right: 0.75rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gallery-item p {
+  margin-top: 0.35rem;
+  font-size: 0.9rem;
+}
+</style>
+
+{% assign images = site.gallery %}
+
+{% if page.year %}
+  {% assign images = images | where: "year", page.year %}
+{% endif %}
+
+{% if page.month %}
+  {% assign images = images | where: "month", page.month %}
+{% endif %}
+
+{% if page.day %}
+  {% assign images = images | where: "day", page.day %}
+{% endif %}
+
+{% assign images = images | sort: "taken_at" | reverse %}
+
+<nav class="gallery-archive-nav">
+  <a href="{{ '/galleries/' | relative_url }}">All galleries</a>
+  {% if page.year %}
+    <a href="{{ '/galleries/' | append: page.year | append: '/' | relative_url }}">{{ page.year }}</a>
+  {% endif %}
+  {% if page.year and page.month %}
+    {% assign month_path = '/galleries/' | append: page.year | append: '/' | append: page.month | append: '/' %}
+    <a href="{{ month_path | relative_url }}">{{ page.date_label | default: page.title }}</a>
+  {% endif %}
+</nav>
+
+{% if images == empty %}
+  <p>No images found for this archive.</p>
+{% else %}
+  <div class="gallery-grid">
+    {% for image in images %}
+      <div class="gallery-item">
+        <a href="{{ image.url | relative_url }}">
+          <img src="{{ image.thumb_url }}" alt="{{ image.title | escape }}">
+        </a>
+        <p>{{ image.title }}</p>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
