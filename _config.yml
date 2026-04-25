@@ -12,7 +12,7 @@
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# in the templates and content via {{ site.myvariable }}.
 title: kansaspattons.org
 email: jeffrey@kansaspattons.org
 description: >- # this means to ignore newlines until "baseurl:"
@@ -28,9 +28,15 @@ paginate: 5
 paginate_path: /posts/page:num
 
 collections:
-  gallery-2009-10-18:
-    sort_by: index
+  # New consolidated image collection. New imported images should be added under
+  # _gallery and grouped with front matter fields such as gallery, taken_at,
+  # year, month, day, weekday, source, source_url, post, and index.
+  gallery:
+    sort_by: taken_at
     output: true
+
+  # Legacy dated gallery collections. Keep these until the existing image
+  # documents have been migrated into _gallery.
   gallery-2009-10-28:
     sort_by: index
     output: true
@@ -46,6 +52,7 @@ collections:
 
 header_pages:
  - posts.md
+ - galleries.md
 # - organizations.md
 # - error-codes.md
 # - about.html

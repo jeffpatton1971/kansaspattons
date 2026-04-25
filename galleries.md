@@ -1,0 +1,32 @@
+---
+layout: page
+title: Galleries
+permalink: /galleries/
+---
+
+{% assign images = site.gallery | sort: "taken_at" | reverse %}
+{% assign current_year = "" %}
+
+{% for image in images %}
+  {% assign year = image.taken_at | date: "%Y" %}
+
+  {% if year != current_year %}
+    {% unless forloop.first %}
+      </div>
+    {% endunless %}
+    <h2>{{ year }}</h2>
+    <div class="gallery-grid">
+    {% assign current_year = year %}
+  {% endif %}
+
+  <div class="gallery-item">
+    <a href="{{ image.url | relative_url }}">
+      <img src="{{ image.thumb_url }}" alt="{{ image.title }}">
+    </a>
+    <p>{{ image.title }}</p>
+  </div>
+{% endfor %}
+
+{% if images != empty %}
+  </div>
+{% endif %}

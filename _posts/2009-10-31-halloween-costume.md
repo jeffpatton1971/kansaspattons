@@ -12,6 +12,4 @@ This year for Halloween Natalie’s choice of costumes ranged far and wide, but 
 
 Natalie then went Trick-or-Treating at [TARC](http://www.tarcinc.org/) like she does every year.
 
-{% for image in site.gallery-2009-10-31-1 %}
-  [![{{ image.title}}]({{ image.thumb_url }})]({{ image.url | relative_url }})
-{% endfor %}
+{% include gallery.html gallery="gallery-2009-10-31-1" %}

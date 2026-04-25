@@ -1,0 +1,5 @@
+{% assign images = site.gallery | where: "gallery", include.gallery | sort: "index" %}
+
+{% for image in images %}
+  [![{{ image.title }}]({{ image.thumb_url }})]({{ image.url | relative_url }})
+{% endfor %}
