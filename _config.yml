@@ -34,7 +34,7 @@ collections:
 
 header_pages:
  - posts.md
- - galleries.md
+ - galleries.html
 # - organizations.md
 # - error-codes.md
 # - about.html
