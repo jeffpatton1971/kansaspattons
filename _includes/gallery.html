@@ -1,0 +1,17 @@
+{% assign gallery_key = include.gallery %}
+
+{%- comment -%}
+Try new consolidated collection first
+{%- endcomment -%}
+{% assign images = site.gallery | where: "gallery", gallery_key | sort: "index" %}
+
+{%- comment -%}
+Fallback to legacy collection if nothing found
+{%- endcomment -%}
+{% if images == empty %}
+  {% assign images = site[gallery_key] %}
+{% endif %}
+
+{% for image in images %}
+  [![{{ image.title }}]({{ image.thumb_url }})]({{ image.url | relative_url }})
+{% endfor %}
