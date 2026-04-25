@@ -46,14 +46,50 @@ layout: page
 
 {% assign images = images | sort: "taken_at" | reverse %}
 
-<nav class="gallery-archive-nav">
-  <a href="{{ '/galleries/' | relative_url }}">All galleries</a>
-  {% if page.year %}
-    <a href="{{ '/galleries/' | append: page.year | append: '/' | relative_url }}">{{ page.year }}</a>
+{% assign month_names = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
+
+{% if page.month %}
+  {% assign month_index = page.month | minus: 1 %}
+  {% assign month_name = month_names[month_index] %}
+  {% assign month_slug = page.month | prepend: "0" | slice: -2, 2 %}
+{% endif %}
+
+{% if page.day %}
+  {% assign day_slug = page.day | prepend: "0" | slice: -2, 2 %}
+{% endif %}
+
+<h1>
+  {% if page.year and page.month and page.day %}
+    {{ month_name }} {{ page.day }}, {{ page.year }}
+  {% elsif page.year and page.month %}
+    {{ month_name }} {{ page.year }}
+  {% elsif page.year %}
+    {{ page.year }}
+  {% else %}
+    {{ page.title }}
   {% endif %}
+</h1>
+
+<nav class="gallery-archive-nav">
+  <a href="{{ '/galleries/' | relative_url }}">All</a>
+
+  {% if page.year %}
+    &raquo;
+    <a href="{{ '/galleries/' | append: page.year | append: '/' | relative_url }}">
+      {{ page.year }}
+    </a>
+  {% endif %}
+
   {% if page.year and page.month %}
-    {% assign month_path = '/galleries/' | append: page.year | append: '/' | append: page.month | append: '/' %}
-    <a href="{{ month_path | relative_url }}">{{ page.date_label | default: page.title }}</a>
+    &raquo;
+    <a href="{{ '/galleries/' | append: page.year | append: '/' | append: month_slug | append: '/' | relative_url }}">
+      {{ month_name }}
+    </a>
+  {% endif %}
+
+  {% if page.day %}
+    &raquo;
+    <span>{{ page.day }}</span>
   {% endif %}
 </nav>
 

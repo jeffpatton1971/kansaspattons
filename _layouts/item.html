@@ -53,3 +53,24 @@ layout: post
 </div>
 
 {{ content }}
+
+{% assign images = site.gallery | where: "gallery", page.gallery | sort: "index" %}
+
+{% for img in images %}
+  {% if img.url == page.url %}
+    {% assign current_index = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+
+{% assign prev = images[current_index | minus: 1] %}
+{% assign next = images[current_index | plus: 1] %}
+
+<div class="gallery-photo-actions">
+  {% if prev %}
+    <a href="{{ prev.url | relative_url }}">← Previous</a>
+  {% endif %}
+
+  {% if next %}
+    <a href="{{ next.url | relative_url }}">Next →</a>
+  {% endif %}
+</div>
