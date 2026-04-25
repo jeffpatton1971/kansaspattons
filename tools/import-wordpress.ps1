@@ -423,7 +423,8 @@ function Write-PostFile {
     $body = Convert-WordPressHtmlToMarkdown -Html $ContentHtml
 
     if (-not [string]::IsNullOrWhiteSpace($GalleryKey)) {
-        $body = $body -replace '<!-- wordpress-gallery -->', "{% include gallery.html gallery=\"$GalleryKey\" %}"
+        $galleryInclude = '{% include gallery.html gallery="' + $GalleryKey + '" %}'
+        $body = $body -replace '<!-- wordpress-gallery -->', $galleryInclude
     }
 
     $output = ($frontMatter -join "`r`n") + $body + "`r`n"
@@ -479,7 +480,7 @@ function Convert-YouTubeEmbeds {
                 return "`r`n`r`n<!-- youtube embed: $decodedSrc -->`r`n`r`n"
             }
 
-            return "`r`n`r`n{% include youtube.html id=\"$videoId\" %}`r`n`r`n"
+            return "`r`n`r`n{% include youtube.html id=""$videoId"" %}`r`n`r`n"
         })
 }
 
@@ -725,7 +726,15 @@ foreach ($post in $posts) {
                 if ($WriteGalleryItems) {
                     $sourceFileName = $blobPlan.FileName
                     $sourceSlug = Convert-ToSlug -Text ([System.IO.Path]::GetFileNameWithoutExtension($sourceFileName))
-                    $galleryItemFileName = "{0}-{1:000}-$sourceSlug.md" -f $galleryKey, $imageIndex
+                    # Extract base name (no extension)
+                    $baseName = [System.IO.Path]::GetFileNameWithoutExtension($sourceFileName)
+                    $cleanName = Convert-ToSlug -Text $baseName
+
+                    # Build ID (date + filename)
+                    $itemId = "{0:yyyy-MM-dd}-$cleanName" -f $date
+
+                    # Filename is just the image name
+                    $galleryItemFileName = "$cleanName.md"
                     $galleryItemPath = Join-Path "_gallery" $galleryItemFileName
 
                     Write-GalleryItemFile `
