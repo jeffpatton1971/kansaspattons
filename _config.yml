@@ -28,26 +28,8 @@ paginate: 5
 paginate_path: /posts/page:num
 
 collections:
-  # New consolidated image collection. New imported images should be added under
-  # _gallery and grouped with front matter fields such as gallery, taken_at,
-  # year, month, day, weekday, source, source_url, post, and index.
   gallery:
     sort_by: taken_at
-    output: true
-
-  # Legacy dated gallery collections. Keep these until the existing image
-  # documents have been migrated into _gallery.
-  gallery-2009-10-28:
-    sort_by: index
-    output: true
-  gallery-2009-10-31-1:
-    sort_by: index
-    output: true
-  gallery-2009-10-31-2:
-    sort_by: index
-    output: true
-  gallery-2009-11-02:
-    sort_by: index
     output: true
 
 header_pages:

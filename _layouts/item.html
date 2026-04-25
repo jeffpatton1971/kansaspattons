@@ -2,17 +2,67 @@
 layout: default
 ---
 {% assign postback = page.post %}
-<article class="post">
 
+<style>
+.gallery-photo-page {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.gallery-photo-frame {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.gallery-photo-frame img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.gallery-photo-meta {
+  color: #666;
+  font-size: 0.95rem;
+  margin-top: -0.5rem;
+}
+
+.gallery-photo-actions {
+  margin: 1.5rem 0;
+}
+
+.gallery-photo-actions a {
+  display: inline-block;
+  margin-right: 1rem;
+}
+</style>
+
+<article class="post gallery-photo-page">
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
+    {% if page.taken_at %}
+      <p class="gallery-photo-meta">{{ page.taken_at | date: "%B %-d, %Y" }}</p>
+    {% endif %}
   </header>
 
   <div class="post-content">
-    <img src="{{ page.raw_url }}">
-    <p><a href="{{ postback }}">Return</a></p>
-  </div>
-  <div>
+    <figure class="gallery-photo-frame">
+      <a href="{{ page.raw_url }}">
+        <img src="{{ page.raw_url }}" alt="{{ page.title | escape }}">
+      </a>
+      {% if page.title %}
+        <figcaption>{{ page.title | escape }}</figcaption>
+      {% endif %}
+    </figure>
+
+    <div class="gallery-photo-actions">
+      {% if postback %}
+        <a href="{{ postback }}">Return to post</a>
+      {% endif %}
+      <a href="{{ '/galleries/' | relative_url }}">View galleries</a>
+      <a href="{{ page.raw_url }}">Open full-size image</a>
+    </div>
+
     {{ content }}
   </div>
 </article>
