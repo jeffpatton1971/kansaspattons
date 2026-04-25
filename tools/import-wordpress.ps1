@@ -6,6 +6,7 @@ param(
 
     [switch]$DryRun,
     [switch]$WritePosts,
+    [switch]$WriteGalleryItems,
     [switch]$GetImages,
     [switch]$CreateGallery,
     [switch]$UploadImages,
@@ -274,6 +275,92 @@ function Test-IsDateTitle {
     }
 }
 
+function Get-GalleryKey {
+    param(
+        [datetime]$Date,
+        [string]$Slug
+    )
+
+    return "wordpress-{0:yyyy-MM-dd-HHmmss}-$Slug" -f $Date
+}
+
+function Get-PostPermalink {
+    param(
+        [datetime]$Date,
+        [string]$Slug
+    )
+
+    return "/blog/{0:yyyy/MM/dd}/$Slug.html" -f $Date
+}
+
+function Write-GalleryItemFile {
+    param(
+        [string]$Path,
+        [datetime]$Date,
+        [string]$Title,
+        [string]$GalleryKey,
+        [string]$RawUrl,
+        [string]$ThumbUrl,
+        [string]$PostUrl,
+        [int]$Index,
+        [string]$SourceImageUrl,
+        [string]$SourceFileName,
+        [switch]$DryRun,
+        [switch]$Force
+    )
+
+    if ((Test-Path $Path) -and -not $Force) {
+        Write-Host "Gallery item exists and -Force not set. Skipping write: $Path" -ForegroundColor Yellow
+        return
+    }
+
+    $itemId = [System.IO.Path]::GetFileNameWithoutExtension($Path)
+
+    $frontMatter = @()
+    $frontMatter += "---"
+    $frontMatter += "layout: item"
+    $frontMatter += "id: $itemId"
+    $frontMatter += "title: $(Escape-YamlString -Value $Title)"
+    $frontMatter += "description:"
+    $frontMatter += "tags: []"
+    $frontMatter += "taken_at: $($Date.ToString("yyyy-MM-dd"))"
+    $frontMatter += "year: $($Date.ToString("yyyy"))"
+    $frontMatter += "month: $($Date.ToString("MM"))"
+    $frontMatter += "day: $($Date.ToString("dd"))"
+    $frontMatter += "weekday: $($Date.ToString("dddd"))"
+    $frontMatter += "gallery: $GalleryKey"
+    $frontMatter += "source:"
+    $frontMatter += "  type: wordpress"
+    $frontMatter += "  url: $(Escape-YamlString -Value $SourceImageUrl)"
+    $frontMatter += "source_filename: $(Escape-YamlString -Value $SourceFileName)"
+    $frontMatter += "raw_url: $(Escape-YamlString -Value $RawUrl)"
+    $frontMatter += "thumb_url: $(Escape-YamlString -Value $ThumbUrl)"
+    $frontMatter += "post: $(Escape-YamlString -Value $PostUrl)"
+    $frontMatter += "index: $Index"
+    $frontMatter += "---"
+    $frontMatter += ""
+
+    $output = ($frontMatter -join "`r`n") + "`r`n"
+
+    if ($DryRun) {
+        Write-Host "DRY RUN: Would write gallery item:"
+        Write-Host "  Path: $Path"
+        Write-Host "  Gallery: $GalleryKey"
+        Write-Host "  Raw URL: $RawUrl"
+        Write-Host "  Thumb URL: $ThumbUrl"
+        Write-Host "  Post: $PostUrl"
+        return
+    }
+
+    $directory = Split-Path $Path -Parent
+    if (-not (Test-Path $directory)) {
+        New-Item -ItemType Directory -Path $directory | Out-Null
+    }
+
+    Set-Content -Path $Path -Value $output -Encoding UTF8
+    Write-Host "Wrote gallery item: $Path" -ForegroundColor Green
+}
+
 function Write-PostFile {
     param(
         [string]$Path,
@@ -285,8 +372,9 @@ function Write-PostFile {
         [string]$WordPressUrl,
         [object]$WordPressId,
         [bool]$Published,
+        [string]$GalleryKey,
         [switch]$DryRun,
-        [switch]$Overwrite
+        [switch]$Force
     )
 
     if ((Test-Path $Path) -and -not $Force) {
@@ -305,6 +393,11 @@ function Write-PostFile {
     $frontMatter += "  type: wordpress"
     $frontMatter += "  id: $WordPressId"
     $frontMatter += "  url: $(Escape-YamlString -Value $WordPressUrl)"
+
+    if (-not [string]::IsNullOrWhiteSpace($GalleryKey)) {
+        $frontMatter += "gallery: $(Escape-YamlString -Value $GalleryKey)"
+    }
+
     $frontMatter += "categories:"
 
     $categoryLines = Convert-ToYamlArray -Values $Categories
@@ -328,6 +421,11 @@ function Write-PostFile {
     $frontMatter += ""
 
     $body = Convert-WordPressHtmlToMarkdown -Html $ContentHtml
+
+    if (-not [string]::IsNullOrWhiteSpace($GalleryKey)) {
+        $body = $body -replace '<!-- wordpress-gallery -->', "{% include gallery.html gallery=\"$GalleryKey\" %}"
+    }
+
     $output = ($frontMatter -join "`r`n") + $body + "`r`n"
 
     if ($DryRun) {
@@ -336,6 +434,7 @@ function Write-PostFile {
         Write-Host "  Title: $Title"
         Write-Host "  Date: $($Date.ToString("yyyy-MM-dd HH:mm:ss"))"
         Write-Host "  Published: $Published"
+        Write-Host "  Gallery: $GalleryKey"
         Write-Host "  Tags: $($Tags -join ', ')"
         Write-Host "  Categories: $($Categories -join ', ')"
         Write-Host "  WP URL: $WordPressUrl"
@@ -380,7 +479,7 @@ function Convert-YouTubeEmbeds {
                 return "`r`n`r`n<!-- youtube embed: $decodedSrc -->`r`n`r`n"
             }
 
-            return "`r`n`r`n{% include youtube.html id=""$videoId"" %}`r`n`r`n"
+            return "`r`n`r`n{% include youtube.html id=\"$videoId\" %}`r`n`r`n"
         })
 }
 
@@ -405,9 +504,6 @@ function Convert-WordPressHtmlToMarkdown {
 
     # Remove leftover clear/break tags.
     $body = $body -replace '(?i)<br\s*/?>', "`r`n"
-
-    # Trim excessive blank lines.
-    $body = $body -replace "(`r?`n){3,}", "`r`n`r`n"
 
     # Trim excessive blank lines.
     $body = $body -replace "(`r?`n){3,}", "`r`n`r`n"
@@ -440,6 +536,7 @@ function Cleanup-WordPressLayoutDebris {
 
     return $clean.Trim()
 }
+
 # ---------- Main ----------
 
 Write-Host "Fetching WordPress tags..." -ForegroundColor Cyan
@@ -460,6 +557,7 @@ $existingPosts = 0
 $totalImages = 0
 $skippedPosts = 0
 $invalidDatePosts = 0
+$galleryItemsPlanned = 0
 $postsByYear = @{}
 $processedPostsByYear = @{}
 $skippedPostsByYear = @{}
@@ -557,6 +655,17 @@ foreach ($post in $posts) {
     $tagSlugs = Get-TermSlugs -Ids $post.tags -Lookup $tagLookup
     $categorySlugs = Get-TermSlugs -Ids $post.categories -Lookup $categoryLookup
 
+    $html = $post.content.rendered
+    $images = Extract-Images -Html $html
+
+    $galleryKey = $null
+    if ($images.Count -gt 0) {
+        $galleryKey = Get-GalleryKey -Date $date -Slug $slug
+    }
+
+    $postSlugForUrl = [System.IO.Path]::GetFileNameWithoutExtension($filename) -replace '^\d{4}-\d{2}-\d{2}-\d{6}-', ''
+    $postUrl = Get-PostPermalink -Date $date -Slug $postSlugForUrl
+
     $isDateTitle = Test-IsDateTitle -Title $title
     $published = -not $isDateTitle
 
@@ -571,6 +680,7 @@ foreach ($post in $posts) {
             -WordPressUrl $post.link `
             -WordPressId $post.id `
             -Published $published `
+            -GalleryKey $galleryKey `
             -DryRun:$DryRun `
             -Force:$Force
     }
@@ -592,9 +702,6 @@ foreach ($post in $posts) {
         Write-Host "Categories: none"
     }
 
-    $html = $post.content.rendered
-    $images = Extract-Images -Html $html
-
     if ($images.Count -gt 0) {
         Write-Host "Images found: $($images.Count)"
 
@@ -614,11 +721,34 @@ foreach ($post in $posts) {
                 Write-Host "    Thumb blob:  $($blobPlan.ThumbBlobPath)"
                 Write-Host "    raw_url:     $($blobPlan.RawUrl)"
                 Write-Host "    thumb_url:   $($blobPlan.ThumbUrl)"
+
+                if ($WriteGalleryItems) {
+                    $sourceFileName = $blobPlan.FileName
+                    $sourceSlug = Convert-ToSlug -Text ([System.IO.Path]::GetFileNameWithoutExtension($sourceFileName))
+                    $galleryItemFileName = "{0}-{1:000}-$sourceSlug.md" -f $galleryKey, $imageIndex
+                    $galleryItemPath = Join-Path "_gallery" $galleryItemFileName
+
+                    Write-GalleryItemFile `
+                        -Path $galleryItemPath `
+                        -Date $date `
+                        -Title $title `
+                        -GalleryKey $galleryKey `
+                        -RawUrl $blobPlan.RawUrl `
+                        -ThumbUrl $blobPlan.ThumbUrl `
+                        -PostUrl $postUrl `
+                        -Index $imageIndex `
+                        -SourceImageUrl $img `
+                        -SourceFileName $sourceFileName `
+                        -DryRun:$DryRun `
+                        -Force:$Force
+
+                    $galleryItemsPlanned++
+                }
             }
             catch {
                 Write-Host "  [$imageIndex]" -ForegroundColor Yellow
                 Write-Host "    Raw source:  $img"
-                Write-Host "    ERROR calculating blob plan: $($_.Exception.Message)" -ForegroundColor Red
+                Write-Host "    ERROR calculating blob/gallery plan: $($_.Exception.Message)" -ForegroundColor Red
             }
 
             $imageIndex++
@@ -640,6 +770,7 @@ Write-Host "Existing posts: $existingPosts"
 Write-Host "Skipped posts: $skippedPosts"
 Write-Host "Invalid-date posts: $invalidDatePosts"
 Write-Host "Total images found: $totalImages"
+Write-Host "Gallery items planned/written: $galleryItemsPlanned"
 
 Write-Host "`nPosts by year:" -ForegroundColor Cyan
 foreach ($year in ($postsByYear.Keys | Sort-Object)) {
