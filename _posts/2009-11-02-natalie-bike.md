@@ -13,6 +13,4 @@ Natalie learning to ride a bike!
 
 {% include youtubePlayer.html id=page.youtubeId %}
 
-{% for image in site.gallery-2009-11-02 %}
-  [![{{ image.title}}]({{ image.thumb_url }})]({{ image.url | relative_url }})
-{% endfor %}
+{% include gallery.html gallery="gallery-2009-11-02" %}
