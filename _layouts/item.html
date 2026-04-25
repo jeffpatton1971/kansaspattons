@@ -2,6 +2,21 @@
 layout: post
 ---
 {% assign postback = page.post %}
+{% assign gallery_images = site.gallery | where: "gallery", page.gallery | sort: "index" %}
+{% assign current_position = nil %}
+
+{% for image in gallery_images %}
+  {% if image.id == page.id %}
+    {% assign current_position = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+
+{% if current_position != nil %}
+  {% assign previous_position = current_position | minus: 1 %}
+  {% assign next_position = current_position | plus: 1 %}
+  {% assign previous_image = gallery_images[previous_position] %}
+  {% assign next_image = gallery_images[next_position] %}
+{% endif %}
 
 <style>
 .gallery-photo-frame {
@@ -21,11 +36,13 @@ layout: post
   font-size: 0.95rem;
 }
 
-.gallery-photo-actions {
+.gallery-photo-actions,
+.gallery-photo-pager {
   margin: 1.5rem 0;
 }
 
-.gallery-photo-actions a {
+.gallery-photo-actions a,
+.gallery-photo-pager a {
   display: inline-block;
   margin-right: 1rem;
 }
@@ -44,33 +61,22 @@ layout: post
   {% endif %}
 </figure>
 
+<div class="gallery-photo-pager">
+  {% if current_position != nil and current_position > 0 %}
+    <a href="{{ previous_image.url | relative_url }}">← Previous</a>
+  {% endif %}
+
+  {% if current_position != nil and next_position < gallery_images.size %}
+    <a href="{{ next_image.url | relative_url }}">Next →</a>
+  {% endif %}
+</div>
+
 <div class="gallery-photo-actions">
   {% if postback %}
-    <a href="{{ postback }}">Return to post</a>
+    <a href="{{ postback | relative_url }}">Return to post</a>
   {% endif %}
   <a href="{{ '/galleries/' | relative_url }}">View galleries</a>
   <a href="{{ page.raw_url }}">Open full-size image</a>
 </div>
 
 {{ content }}
-
-{% assign images = site.gallery | where: "gallery", page.gallery | sort: "index" %}
-
-{% for img in images %}
-  {% if img.url == page.url %}
-    {% assign current_index = forloop.index0 %}
-  {% endif %}
-{% endfor %}
-
-{% assign prev = images[current_index | minus: 1] %}
-{% assign next = images[current_index | plus: 1] %}
-
-<div class="gallery-photo-actions">
-  {% if prev %}
-    <a href="{{ prev.url | relative_url }}">← Previous</a>
-  {% endif %}
-
-  {% if next %}
-    <a href="{{ next.url | relative_url }}">Next →</a>
-  {% endif %}
-</div>
