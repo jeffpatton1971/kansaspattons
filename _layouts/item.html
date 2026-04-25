@@ -1,14 +1,9 @@
 ---
-layout: default
+layout: post
 ---
 {% assign postback = page.post %}
 
 <style>
-.gallery-photo-page {
-  max-width: 960px;
-  margin: 0 auto;
-}
-
 .gallery-photo-frame {
   margin: 1.5rem 0;
   text-align: center;
@@ -24,7 +19,6 @@ layout: default
 .gallery-photo-meta {
   color: #666;
   font-size: 0.95rem;
-  margin-top: -0.5rem;
 }
 
 .gallery-photo-actions {
@@ -37,32 +31,25 @@ layout: default
 }
 </style>
 
-<article class="post gallery-photo-page">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-    {% if page.taken_at %}
-      <p class="gallery-photo-meta">{{ page.taken_at | date: "%B %-d, %Y" }}</p>
-    {% endif %}
-  </header>
+{% if page.taken_at %}
+  <p class="gallery-photo-meta">{{ page.taken_at | date: "%B %-d, %Y" }}</p>
+{% endif %}
 
-  <div class="post-content">
-    <figure class="gallery-photo-frame">
-      <a href="{{ page.raw_url }}">
-        <img src="{{ page.raw_url }}" alt="{{ page.title | escape }}">
-      </a>
-      {% if page.title %}
-        <figcaption>{{ page.title | escape }}</figcaption>
-      {% endif %}
-    </figure>
+<figure class="gallery-photo-frame">
+  <a href="{{ page.raw_url }}">
+    <img src="{{ page.raw_url }}" alt="{{ page.title | escape }}">
+  </a>
+  {% if page.title %}
+    <figcaption>{{ page.title | escape }}</figcaption>
+  {% endif %}
+</figure>
 
-    <div class="gallery-photo-actions">
-      {% if postback %}
-        <a href="{{ postback }}">Return to post</a>
-      {% endif %}
-      <a href="{{ '/galleries/' | relative_url }}">View galleries</a>
-      <a href="{{ page.raw_url }}">Open full-size image</a>
-    </div>
+<div class="gallery-photo-actions">
+  {% if postback %}
+    <a href="{{ postback }}">Return to post</a>
+  {% endif %}
+  <a href="{{ '/galleries/' | relative_url }}">View galleries</a>
+  <a href="{{ page.raw_url }}">Open full-size image</a>
+</div>
 
-    {{ content }}
-  </div>
-</article>
+{{ content }}
