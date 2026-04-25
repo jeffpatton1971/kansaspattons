@@ -33,7 +33,11 @@ permalink: /galleries/
 {% unless forloop.first %}
 </div>
 {% endunless %}
-<h2>{{ year }}</h2>
+<h2>
+  <a href="{{ '/galleries/' | append: year | append: '/' | relative_url }}">
+    {{ year }}
+  </a>
+</h2>
 <div class="gallery-grid">
 {% assign current_year = year %}
 {% endif %}
