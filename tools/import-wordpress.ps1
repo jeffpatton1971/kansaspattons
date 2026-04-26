@@ -204,19 +204,19 @@ function Extract-Images {
         $metadata = ConvertFrom-WordPressImageMeta -MetadataRaw $metadataRaw
 
         $images += [pscustomobject]@{
-            Url              = $url
-            Src              = $src
-            Title            = Get-HtmlAttributeValue -Html $tag -Name "data-image-title"
-            Alt              = Get-HtmlAttributeValue -Html $tag -Name "alt"
-            Caption          = Get-HtmlAttributeValue -Html $tag -Name "data-image-caption"
-            Description      = Get-HtmlAttributeValue -Html $tag -Name "data-image-description"
-            AttachmentId     = Get-HtmlAttributeValue -Html $tag -Name "data-attachment-id"
-            Permalink        = Get-HtmlAttributeValue -Html $tag -Name "data-permalink"
-            OrigFile         = $origFile
-            OrigSize         = Get-HtmlAttributeValue -Html $tag -Name "data-orig-size"
-            LargeFile        = Get-HtmlAttributeValue -Html $tag -Name "data-large-file"
-            MetadataRaw      = $metadataRaw
-            Metadata         = $metadata
+            Url          = $url
+            Src          = $src
+            Title        = Get-HtmlAttributeValue -Html $tag -Name "data-image-title"
+            Alt          = Get-HtmlAttributeValue -Html $tag -Name "alt"
+            Caption      = Get-HtmlAttributeValue -Html $tag -Name "data-image-caption"
+            Description  = Get-HtmlAttributeValue -Html $tag -Name "data-image-description"
+            AttachmentId = Get-HtmlAttributeValue -Html $tag -Name "data-attachment-id"
+            Permalink    = Get-HtmlAttributeValue -Html $tag -Name "data-permalink"
+            OrigFile     = $origFile
+            OrigSize     = Get-HtmlAttributeValue -Html $tag -Name "data-orig-size"
+            LargeFile    = Get-HtmlAttributeValue -Html $tag -Name "data-large-file"
+            MetadataRaw  = $metadataRaw
+            Metadata     = $metadata
         }
 
         $seenUrls[$url] = $true
@@ -866,8 +866,14 @@ foreach ($post in $posts) {
                     $sourceFileName = $blobPlan.FileName
                     $baseName = [System.IO.Path]::GetFileNameWithoutExtension($sourceFileName)
                     $cleanName = Convert-ToSlug -Text $baseName
-                    $itemId = "{0:yyyy-MM-dd}-$cleanName" -f $date
-                    $galleryItemFileName = "$cleanName.md"
+                    $datePrefix = $date.ToString("yyyy-MM-dd")
+
+                    if ($cleanName.StartsWith($datePrefix)) {
+                        $itemId = $cleanName
+                    }
+                    else {
+                        $itemId = "$datePrefix-$cleanName"
+                    }                    $galleryItemFileName = "$cleanName.md"
                     $galleryItemPath = Join-Path "_gallery" $galleryItemFileName
                     $imageTitle = Get-ImageTitle -Image $image -SourceFileName $sourceFileName
 
