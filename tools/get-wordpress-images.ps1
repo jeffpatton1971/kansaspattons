@@ -6,16 +6,24 @@ param(
     [switch]$Force
 )
 
+$RepoRoot = Split-Path -Parent $PSScriptRoot
+
+if (-not [System.IO.Path]::IsPathRooted($GalleryPath)) {
+    $GalleryPath = Join-Path $RepoRoot $GalleryPath
+}
+
+if (-not [System.IO.Path]::IsPathRooted($OutputPath)) {
+    $OutputPath = Join-Path $RepoRoot $OutputPath
+}
+
 Write-Host "Starting WordPress image download (dry-run=$DryRun)" -ForegroundColor Cyan
+Write-Host "Repo root: $RepoRoot" -ForegroundColor Cyan
 Write-Host "Gallery path: $GalleryPath" -ForegroundColor Cyan
 Write-Host "Output path: $OutputPath" -ForegroundColor Cyan
 Write-Host "Thumbnail max width: $ThumbMaxWidth" -ForegroundColor Cyan
 
 function Get-FrontMatterValue {
-    param(
-        [string[]]$Lines,
-        [string]$Name
-    )
+    param([string[]]$Lines, [string]$Name)
 
     $pattern = '^' + [regex]::Escape($Name) + ':\s*(.*)$'
 
@@ -31,11 +39,7 @@ function Get-FrontMatterValue {
 }
 
 function Get-NestedFrontMatterValue {
-    param(
-        [string[]]$Lines,
-        [string]$Parent,
-        [string]$Name
-    )
+    param([string[]]$Lines, [string]$Parent, [string]$Name)
 
     $inParent = $false
     $parentPattern = '^' + [regex]::Escape($Parent) + ':\s*$'
@@ -61,16 +65,72 @@ function Get-NestedFrontMatterValue {
     return $null
 }
 
-function Get-ImageFormat {
+function Test-ImageFile {
     param([string]$Path)
 
-    $extension = [System.IO.Path]::GetExtension($Path).ToLowerInvariant()
+    if (-not (Test-Path $Path)) {
+        return $false
+    }
 
-    switch ($extension) {
-        ".png"  { return [System.Drawing.Imaging.ImageFormat]::Png }
-        ".gif"  { return [System.Drawing.Imaging.ImageFormat]::Gif }
-        ".bmp"  { return [System.Drawing.Imaging.ImageFormat]::Bmp }
-        default { return [System.Drawing.Imaging.ImageFormat]::Jpeg }
+    $stream = $null
+
+    try {
+        $stream = [System.IO.File]::OpenRead($Path)
+
+        if ($stream.Length -lt 12) {
+            return $false
+        }
+
+        $buffer = New-Object byte[] 12
+        [void]$stream.Read($buffer, 0, 12)
+
+        # JPG
+        if ($buffer[0] -eq 0xFF -and $buffer[1] -eq 0xD8) { return $true }
+
+        # PNG
+        if ($buffer[0] -eq 0x89 -and $buffer[1] -eq 0x50 -and $buffer[2] -eq 0x4E -and $buffer[3] -eq 0x47) { return $true }
+
+        # GIF
+        if ($buffer[0] -eq 0x47 -and $buffer[1] -eq 0x49 -and $buffer[2] -eq 0x46) { return $true }
+
+        # BMP
+        if ($buffer[0] -eq 0x42 -and $buffer[1] -eq 0x4D) { return $true }
+
+        return $false
+    }
+    finally {
+        if ($stream) { $stream.Dispose() }
+    }
+}
+
+function Invoke-ImageDownload {
+    param(
+        [string]$Uri,
+        [string]$OutFile
+    )
+
+    $directory = Split-Path $OutFile -Parent
+    if (-not (Test-Path $directory)) {
+        New-Item -ItemType Directory -Path $directory | Out-Null
+    }
+
+    Invoke-WebRequest `
+        -Uri $Uri `
+        -OutFile $OutFile `
+        -MaximumRedirection 5 `
+        -Headers @{ "User-Agent" = "Mozilla/5.0" } | Out-Null
+
+    if (-not (Test-ImageFile -Path $OutFile)) {
+        $preview = ""
+
+        try {
+            $preview = Get-Content -Path $OutFile -TotalCount 5 -ErrorAction Stop | Out-String
+        }
+        catch {
+            $preview = "Unable to read file preview."
+        }
+
+        throw "Downloaded file is not a recognized image. Path=$OutFile Preview=$preview"
     }
 }
 
@@ -83,12 +143,17 @@ function New-Thumbnail {
 
     Add-Type -AssemblyName System.Drawing
 
+    if (-not (Test-ImageFile -Path $InputPath)) {
+        throw "Cannot create thumbnail because raw file is not a recognized image: $InputPath"
+    }
+
     $image = $null
     $thumb = $null
     $graphics = $null
 
     try {
-        $image = [System.Drawing.Image]::FromFile($InputPath)
+        $absoluteInputPath = [System.IO.Path]::GetFullPath($InputPath)
+        $image = [System.Drawing.Image]::FromFile($absoluteInputPath)
 
         if ($image.Width -le $MaxWidth) {
             $newWidth = $image.Width
@@ -113,8 +178,14 @@ function New-Thumbnail {
             New-Item -ItemType Directory -Path $directory | Out-Null
         }
 
-        $format = Get-ImageFormat -Path $OutputPath
-        $thumb.Save($OutputPath, $format)
+        $jpgCodec = [System.Drawing.Imaging.ImageCodecInfo]::GetImageEncoders() |
+            Where-Object { $_.MimeType -eq "image/jpeg" }
+
+        $encoder = [System.Drawing.Imaging.Encoder]::Quality
+        $encoderParams = New-Object System.Drawing.Imaging.EncoderParameters(1)
+        $encoderParams.Param[0] = New-Object System.Drawing.Imaging.EncoderParameter($encoder, 85L)
+
+        $thumb.Save($OutputPath, $jpgCodec, $encoderParams)
     }
     finally {
         if ($graphics) { $graphics.Dispose() }
@@ -164,6 +235,7 @@ foreach ($file in $galleryFiles) {
 
         $rawDirectory = Join-Path $OutputPath (Join-Path "raw" (Join-Path $year (Join-Path $month $day)))
         $thumbDirectory = Join-Path $OutputPath (Join-Path "thumbs" (Join-Path $year (Join-Path $month $day)))
+
         $rawPath = Join-Path $rawDirectory $sourceFileName
         $thumbPath = Join-Path $thumbDirectory $sourceFileName
 
@@ -177,15 +249,19 @@ foreach ($file in $galleryFiles) {
         }
 
         if ((Test-Path $rawPath) -and -not $Force) {
-            Write-Host "Raw exists, skipping download: $rawPath" -ForegroundColor DarkGray
-            $skipped++
+            if (-not (Test-ImageFile -Path $rawPath)) {
+                Write-Host "Existing raw file is invalid; re-downloading: $rawPath" -ForegroundColor Yellow
+                Invoke-ImageDownload -Uri $sourceUrl -OutFile $rawPath
+                Write-Host "Downloaded: $rawPath" -ForegroundColor Green
+                $downloaded++
+            }
+            else {
+                Write-Host "Raw exists, skipping download: $rawPath" -ForegroundColor DarkGray
+                $skipped++
+            }
         }
         else {
-            if (-not (Test-Path $rawDirectory)) {
-                New-Item -ItemType Directory -Path $rawDirectory | Out-Null
-            }
-
-            Invoke-WebRequest -Uri $sourceUrl -OutFile $rawPath
+            Invoke-ImageDownload -Uri $sourceUrl -OutFile $rawPath
             Write-Host "Downloaded: $rawPath" -ForegroundColor Green
             $downloaded++
         }
