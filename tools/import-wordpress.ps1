@@ -334,7 +334,7 @@ function Add-YamlFieldIfPresent {
     )
 
     if (-not [string]::IsNullOrWhiteSpace($Value)) {
-        [void]$Lines.Add("$Indent$Name: $(Escape-YamlString -Value $Value)")
+        [void]$Lines.Add("${Indent}${Name}: $(Escape-YamlString -Value $Value)")
     }
 }
 
