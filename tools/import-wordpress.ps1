@@ -303,6 +303,7 @@ function Write-GalleryItemFile {
         [string]$ThumbUrl,
         [string]$PostUrl,
         [int]$Index,
+        [string]$ItemId,
         [string]$SourceImageUrl,
         [string]$SourceFileName,
         [switch]$DryRun,
@@ -313,8 +314,6 @@ function Write-GalleryItemFile {
         Write-Host "Gallery item exists and -Force not set. Skipping write: $Path" -ForegroundColor Yellow
         return
     }
-
-    $itemId = [System.IO.Path]::GetFileNameWithoutExtension($Path)
 
     $frontMatter = @()
     $frontMatter += "---"
@@ -739,6 +738,7 @@ foreach ($post in $posts) {
 
                     Write-GalleryItemFile `
                         -Path $galleryItemPath `
+                        -ItemId $itemId `
                         -Date $date `
                         -Title $title `
                         -GalleryKey $galleryKey `
