@@ -6,18 +6,7 @@ param(
     [switch]$Force
 )
 
-$RepoRoot = Split-Path -Parent $PSScriptRoot
-
-if (-not [System.IO.Path]::IsPathRooted($GalleryPath)) {
-    $GalleryPath = Join-Path $RepoRoot $GalleryPath
-}
-
-if (-not [System.IO.Path]::IsPathRooted($OutputPath)) {
-    $OutputPath = Join-Path $RepoRoot $OutputPath
-}
-
 Write-Host "Starting WordPress image download (dry-run=$DryRun)" -ForegroundColor Cyan
-Write-Host "Repo root: $RepoRoot" -ForegroundColor Cyan
 Write-Host "Gallery path: $GalleryPath" -ForegroundColor Cyan
 Write-Host "Output path: $OutputPath" -ForegroundColor Cyan
 Write-Host "Thumbnail max width: $ThumbMaxWidth" -ForegroundColor Cyan
@@ -85,74 +74,6 @@ function Get-ImageFormat {
     }
 }
 
-function Test-ImageFile {
-    param([string]$Path)
-
-    if (-not (Test-Path $Path)) {
-        return $false
-    }
-
-    $stream = $null
-    try {
-        $stream = [System.IO.File]::OpenRead($Path)
-        if ($stream.Length -lt 12) {
-            return $false
-        }
-
-        $buffer = New-Object byte[] 12
-        [void]$stream.Read($buffer, 0, 12)
-
-        # JPG FF D8, PNG 89 50 4E 47, GIF 47 49 46, BMP 42 4D
-        if ($buffer[0] -eq 0xFF -and $buffer[1] -eq 0xD8) { return $true }
-        if ($buffer[0] -eq 0x89 -and $buffer[1] -eq 0x50 -and $buffer[2] -eq 0x4E -and $buffer[3] -eq 0x47) { return $true }
-        if ($buffer[0] -eq 0x47 -and $buffer[1] -eq 0x49 -and $buffer[2] -eq 0x46) { return $true }
-        if ($buffer[0] -eq 0x42 -and $buffer[1] -eq 0x4D) { return $true }
-
-        return $false
-    }
-    finally {
-        if ($stream) { $stream.Dispose() }
-    }
-}
-
-function Invoke-ImageDownload {
-    param(
-        [string]$Uri,
-        [string]$OutFile
-    )
-
-    $directory = Split-Path $OutFile -Parent
-    if (-not (Test-Path $directory)) {
-        New-Item -ItemType Directory -Path $directory | Out-Null
-    }
-
-    $response = Invoke-WebRequest `
-        -Uri $Uri `
-        -OutFile $OutFile `
-        -PassThru `
-        -MaximumRedirection 5 `
-        -Headers @{ "User-Agent" = "Mozilla/5.0" }
-
-    $contentType = $response.Headers["Content-Type"]
-    if (-not $contentType) {
-        $contentType = $response.Headers["content-type"]
-    }
-
-    if (-not (Test-ImageFile -Path $OutFile)) {
-        $preview = ""
-        try {
-            $preview = Get-Content -Path $OutFile -TotalCount 5 -ErrorAction Stop | Out-String
-        }
-        catch {
-            $preview = "Unable to read file preview."
-        }
-
-        throw "Downloaded file is not a recognized image. Content-Type=$contentType; Path=$OutFile; Preview=$preview"
-    }
-
-    return $contentType
-}
-
 function New-Thumbnail {
     param(
         [string]$InputPath,
@@ -162,17 +83,12 @@ function New-Thumbnail {
 
     Add-Type -AssemblyName System.Drawing
 
-    if (-not (Test-ImageFile -Path $InputPath)) {
-        throw "Cannot create thumbnail because raw file is not a recognized image: $InputPath"
-    }
-
     $image = $null
     $thumb = $null
     $graphics = $null
 
     try {
-        $absoluteInputPath = [System.IO.Path]::GetFullPath($InputPath)
-        $image = [System.Drawing.Image]::FromFile($absoluteInputPath)
+        $image = [System.Drawing.Image]::FromFile($InputPath)
 
         if ($image.Width -le $MaxWidth) {
             $newWidth = $image.Width
@@ -261,20 +177,16 @@ foreach ($file in $galleryFiles) {
         }
 
         if ((Test-Path $rawPath) -and -not $Force) {
-            if (-not (Test-ImageFile -Path $rawPath)) {
-                Write-Host "Existing raw file is invalid; re-downloading: $rawPath" -ForegroundColor Yellow
-                $contentType = Invoke-ImageDownload -Uri $sourceUrl -OutFile $rawPath
-                Write-Host "Downloaded: $rawPath ($contentType)" -ForegroundColor Green
-                $downloaded++
-            }
-            else {
-                Write-Host "Raw exists, skipping download: $rawPath" -ForegroundColor DarkGray
-                $skipped++
-            }
+            Write-Host "Raw exists, skipping download: $rawPath" -ForegroundColor DarkGray
+            $skipped++
         }
         else {
-            $contentType = Invoke-ImageDownload -Uri $sourceUrl -OutFile $rawPath
-            Write-Host "Downloaded: $rawPath ($contentType)" -ForegroundColor Green
+            if (-not (Test-Path $rawDirectory)) {
+                New-Item -ItemType Directory -Path $rawDirectory | Out-Null
+            }
+
+            Invoke-WebRequest -Uri $sourceUrl -OutFile $rawPath
+            Write-Host "Downloaded: $rawPath" -ForegroundColor Green
             $downloaded++
         }
 
