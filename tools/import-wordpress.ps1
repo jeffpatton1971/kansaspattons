@@ -535,23 +535,24 @@ function Write-PostFile {
         $frontMatter += "gallery: $(Escape-YamlString -Value $GalleryKey)"
     }
 
-    $frontMatter += "categories:"
-
-    $categoryLines = Convert-ToYamlArray -Values $Categories
-    if ($categoryLines.Count -eq 1 -and $categoryLines[0] -eq "[]") {
-        $frontMatter[-1] = "categories: []"
+    if ($Categories -and $Categories.Count -gt 0) {
+        $frontMatter += "categories:"
+        foreach ($category in $Categories) {
+            $frontMatter += "  - $(Escape-YamlString -Value $category)"
+        }
     }
     else {
-        $frontMatter += $categoryLines
+        $frontMatter += "categories: []"
     }
 
-    $frontMatter += "tags:"
-    $tagLines = Convert-ToYamlArray -Values $Tags
-    if ($tagLines.Count -eq 1 -and $tagLines[0] -eq "[]") {
-        $frontMatter[-1] = "tags: []"
+    if ($Tags -and $Tags.Count -gt 0) {
+        $frontMatter += "tags:"
+        foreach ($tag in $Tags) {
+            $frontMatter += "  - $(Escape-YamlString -Value $tag)"
+        }
     }
     else {
-        $frontMatter += $tagLines
+        $frontMatter += "tags: []"
     }
 
     $frontMatter += "---"
@@ -564,7 +565,7 @@ function Write-PostFile {
         $body = $body -replace '<!-- wordpress-gallery -->', $galleryInclude
     }
 
-    $output = ($frontMatter -join "`r`n") + $body + "`r`n"
+    $output = ($frontMatter -join "`r`n") + "`r`n" + $body + "`r`n"
 
     if ($DryRun) {
         Write-Host "DRY RUN: Would write post:" -ForegroundColor Cyan
