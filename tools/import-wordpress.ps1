@@ -617,7 +617,7 @@ function Convert-YouTubeEmbeds {
                 return "`r`n`r`n<!-- youtube embed: $decodedSrc -->`r`n`r`n"
             }
 
-            return "`r`n`r`n{% include youtube.html id=""$videoId"" %}`r`n`r`n"
+            return "`r`n`r`n{% include youtubePlayer.html id=""$videoId"" %}`r`n`r`n"
         })
 }
 
