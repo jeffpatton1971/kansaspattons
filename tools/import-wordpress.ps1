@@ -136,6 +136,42 @@ function Get-OriginalWordPressImageUrl {
     return $clean
 }
 
+function Get-HtmlAttributeValue {
+    param(
+        [string]$Html,
+        [string]$Name
+    )
+
+    if ([string]::IsNullOrWhiteSpace($Html) -or [string]::IsNullOrWhiteSpace($Name)) {
+        return $null
+    }
+
+    $escapedName = [regex]::Escape($Name)
+    $pattern = $escapedName + '\s*=\s*(["''])(.*?)\1'
+    $match = [regex]::Match($Html, $pattern, [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
+
+    if (-not $match.Success) {
+        return $null
+    }
+
+    return [System.Net.WebUtility]::HtmlDecode($match.Groups[2].Value)
+}
+
+function ConvertFrom-WordPressImageMeta {
+    param([string]$MetadataRaw)
+
+    if ([string]::IsNullOrWhiteSpace($MetadataRaw)) {
+        return $null
+    }
+
+    try {
+        return $MetadataRaw | ConvertFrom-Json
+    }
+    catch {
+        return $null
+    }
+}
+
 function Extract-Images {
     param([string]$Html)
 
@@ -143,20 +179,50 @@ function Extract-Images {
         return @()
     }
 
-    $regex = '<img[^>]+src="([^">]+)"'
-    $matches = [regex]::Matches($Html, $regex)
+    $imgMatches = [regex]::Matches($Html, '<img\b[^>]*>', [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
+    $images = @()
+    $seenUrls = @{}
 
-    $urls = @()
+    foreach ($match in $imgMatches) {
+        $tag = $match.Value
 
-    foreach ($m in $matches) {
-        $url = Get-OriginalWordPressImageUrl -Url $m.Groups[1].Value
+        $src = Get-HtmlAttributeValue -Html $tag -Name "src"
+        $origFile = Get-HtmlAttributeValue -Html $tag -Name "data-orig-file"
 
-        if (-not [string]::IsNullOrWhiteSpace($url)) {
-            $urls += $url
+        $url = if (-not [string]::IsNullOrWhiteSpace($origFile)) { $origFile } else { $src }
+        $url = Get-OriginalWordPressImageUrl -Url $url
+
+        if ([string]::IsNullOrWhiteSpace($url)) {
+            continue
         }
+
+        if ($seenUrls.ContainsKey($url)) {
+            continue
+        }
+
+        $metadataRaw = Get-HtmlAttributeValue -Html $tag -Name "data-image-meta"
+        $metadata = ConvertFrom-WordPressImageMeta -MetadataRaw $metadataRaw
+
+        $images += [pscustomobject]@{
+            Url              = $url
+            Src              = $src
+            Title            = Get-HtmlAttributeValue -Html $tag -Name "data-image-title"
+            Alt              = Get-HtmlAttributeValue -Html $tag -Name "alt"
+            Caption          = Get-HtmlAttributeValue -Html $tag -Name "data-image-caption"
+            Description      = Get-HtmlAttributeValue -Html $tag -Name "data-image-description"
+            AttachmentId     = Get-HtmlAttributeValue -Html $tag -Name "data-attachment-id"
+            Permalink        = Get-HtmlAttributeValue -Html $tag -Name "data-permalink"
+            OrigFile         = $origFile
+            OrigSize         = Get-HtmlAttributeValue -Html $tag -Name "data-orig-size"
+            LargeFile        = Get-HtmlAttributeValue -Html $tag -Name "data-large-file"
+            MetadataRaw      = $metadataRaw
+            Metadata         = $metadata
+        }
+
+        $seenUrls[$url] = $true
     }
 
-    return $urls | Select-Object -Unique
+    return $images
 }
 
 function Get-FileNameFromUrl {
@@ -259,6 +325,62 @@ function Escape-YamlString {
     return """$safe"""
 }
 
+function Add-YamlFieldIfPresent {
+    param(
+        [System.Collections.ArrayList]$Lines,
+        [string]$Name,
+        [string]$Value,
+        [string]$Indent = ""
+    )
+
+    if (-not [string]::IsNullOrWhiteSpace($Value)) {
+        [void]$Lines.Add("$Indent$Name: $(Escape-YamlString -Value $Value)")
+    }
+}
+
+function Add-YamlExifFields {
+    param(
+        [System.Collections.ArrayList]$Lines,
+        [object]$Metadata
+    )
+
+    if (-not $Metadata) {
+        return
+    }
+
+    $properties = @($Metadata.PSObject.Properties | Where-Object {
+            $null -ne $_.Value -and -not [string]::IsNullOrWhiteSpace([string]$_.Value)
+        })
+
+    if ($properties.Count -eq 0) {
+        return
+    }
+
+    [void]$Lines.Add("exif:")
+
+    foreach ($property in $properties) {
+        [void]$Lines.Add("  $($property.Name): $(Escape-YamlString -Value ([string]$property.Value))")
+    }
+}
+
+function Get-ImageTitle {
+    param(
+        [object]$Image,
+        [string]$SourceFileName
+    )
+
+    $candidates = @($Image.Title, $Image.Alt, $Image.Caption)
+
+    foreach ($candidate in $candidates) {
+        if (-not [string]::IsNullOrWhiteSpace($candidate)) {
+            return $candidate
+        }
+    }
+
+    $baseName = [System.IO.Path]::GetFileNameWithoutExtension($SourceFileName)
+    return (($baseName -replace '[-_]+', ' ').Trim())
+}
+
 function Test-IsDateTitle {
     param([string]$Title)
 
@@ -304,6 +426,7 @@ function Write-GalleryItemFile {
         [string]$PostUrl,
         [int]$Index,
         [string]$ItemId,
+        [object]$Image,
         [string]$SourceImageUrl,
         [string]$SourceFileName,
         [switch]$DryRun,
@@ -315,38 +438,53 @@ function Write-GalleryItemFile {
         return
     }
 
-    $frontMatter = @()
-    $frontMatter += "---"
-    $frontMatter += "layout: item"
-    $frontMatter += "id: $itemId"
-    $frontMatter += "title: $(Escape-YamlString -Value $Title)"
-    $frontMatter += "description:"
-    $frontMatter += "tags: []"
-    $frontMatter += "taken_at: $($Date.ToString("yyyy-MM-dd"))"
-    $frontMatter += "year: $($Date.ToString("yyyy"))"
-    $frontMatter += "month: $($Date.ToString("MM"))"
-    $frontMatter += "day: $($Date.ToString("dd"))"
-    $frontMatter += "weekday: $($Date.ToString("dddd"))"
-    $frontMatter += "gallery: $GalleryKey"
-    $frontMatter += "source:"
-    $frontMatter += "  type: wordpress"
-    $frontMatter += "  url: $(Escape-YamlString -Value $SourceImageUrl)"
-    $frontMatter += "source_filename: $(Escape-YamlString -Value $SourceFileName)"
-    $frontMatter += "raw_url: $(Escape-YamlString -Value $RawUrl)"
-    $frontMatter += "thumb_url: $(Escape-YamlString -Value $ThumbUrl)"
-    $frontMatter += "post: $(Escape-YamlString -Value $PostUrl)"
-    $frontMatter += "index: $Index"
-    $frontMatter += "---"
-    $frontMatter += ""
+    $frontMatter = [System.Collections.ArrayList]@()
+    [void]$frontMatter.Add("---")
+    [void]$frontMatter.Add("layout: item")
+    [void]$frontMatter.Add("id: $itemId")
+    [void]$frontMatter.Add("title: $(Escape-YamlString -Value $Title)")
+    [void]$frontMatter.Add("description:")
+    [void]$frontMatter.Add("tags: []")
+    [void]$frontMatter.Add("taken_at: $($Date.ToString("yyyy-MM-dd"))")
+    [void]$frontMatter.Add("year: $($Date.ToString("yyyy"))")
+    [void]$frontMatter.Add("month: $($Date.ToString("MM"))")
+    [void]$frontMatter.Add("day: $($Date.ToString("dd"))")
+    [void]$frontMatter.Add("weekday: $($Date.ToString("dddd"))")
+    [void]$frontMatter.Add("gallery: $GalleryKey")
+    [void]$frontMatter.Add("source:")
+    [void]$frontMatter.Add("  type: wordpress")
+    [void]$frontMatter.Add("  url: $(Escape-YamlString -Value $SourceImageUrl)")
+    Add-YamlFieldIfPresent -Lines $frontMatter -Name "attachment_id" -Value $Image.AttachmentId -Indent "  "
+    Add-YamlFieldIfPresent -Lines $frontMatter -Name "permalink" -Value $Image.Permalink -Indent "  "
+    Add-YamlFieldIfPresent -Lines $frontMatter -Name "image_title" -Value $Image.Title -Indent "  "
+    Add-YamlFieldIfPresent -Lines $frontMatter -Name "image_caption" -Value $Image.Caption -Indent "  "
+    Add-YamlFieldIfPresent -Lines $frontMatter -Name "image_description" -Value $Image.Description -Indent "  "
+    Add-YamlFieldIfPresent -Lines $frontMatter -Name "orig_file" -Value $Image.OrigFile -Indent "  "
+    Add-YamlFieldIfPresent -Lines $frontMatter -Name "orig_size" -Value $Image.OrigSize -Indent "  "
+    Add-YamlFieldIfPresent -Lines $frontMatter -Name "large_file" -Value $Image.LargeFile -Indent "  "
+    Add-YamlFieldIfPresent -Lines $frontMatter -Name "metadata_raw" -Value $Image.MetadataRaw -Indent "  "
+    [void]$frontMatter.Add("source_filename: $(Escape-YamlString -Value $SourceFileName)")
+    [void]$frontMatter.Add("raw_url: $(Escape-YamlString -Value $RawUrl)")
+    [void]$frontMatter.Add("thumb_url: $(Escape-YamlString -Value $ThumbUrl)")
+    [void]$frontMatter.Add("post: $(Escape-YamlString -Value $PostUrl)")
+    [void]$frontMatter.Add("index: $Index")
+    Add-YamlExifFields -Lines $frontMatter -Metadata $Image.Metadata
+    [void]$frontMatter.Add("---")
+    [void]$frontMatter.Add("")
 
     $output = ($frontMatter -join "`r`n") + "`r`n"
 
     if ($DryRun) {
         Write-Host "DRY RUN: Would write gallery item:"
         Write-Host "  Path: $Path"
+        Write-Host "  ID: $ItemId"
+        Write-Host "  Title: $Title"
         Write-Host "  Gallery: $GalleryKey"
         Write-Host "  Raw URL: $RawUrl"
         Write-Host "  Thumb URL: $ThumbUrl"
+        Write-Host "  Source title: $($Image.Title)"
+        Write-Host "  Attachment ID: $($Image.AttachmentId)"
+        Write-Host "  Has metadata: $($null -ne $Image.Metadata)"
         Write-Host "  Post: $PostUrl"
         return
     }
@@ -707,46 +845,44 @@ foreach ($post in $posts) {
 
         $imageIndex = 1
 
-        foreach ($img in $images) {
+        foreach ($image in $images) {
             try {
                 $blobPlan = Get-BlobPlan `
                     -StorageAccountName $StorageAccountName `
                     -ContainerName $ContainerName `
                     -Date $date `
-                    -ImageUrl $img
+                    -ImageUrl $image.Url
 
                 Write-Host "  [$imageIndex]"
-                Write-Host "    Raw source:  $img"
+                Write-Host "    Raw source:  $($image.Url)"
                 Write-Host "    Raw blob:    $($blobPlan.RawBlobPath)"
                 Write-Host "    Thumb blob:  $($blobPlan.ThumbBlobPath)"
                 Write-Host "    raw_url:     $($blobPlan.RawUrl)"
                 Write-Host "    thumb_url:   $($blobPlan.ThumbUrl)"
+                Write-Host "    source title: $($image.Title)"
+                Write-Host "    attachment:  $($image.AttachmentId)"
 
                 if ($WriteGalleryItems) {
                     $sourceFileName = $blobPlan.FileName
-                    $sourceSlug = Convert-ToSlug -Text ([System.IO.Path]::GetFileNameWithoutExtension($sourceFileName))
-                    # Extract base name (no extension)
                     $baseName = [System.IO.Path]::GetFileNameWithoutExtension($sourceFileName)
                     $cleanName = Convert-ToSlug -Text $baseName
-
-                    # Build ID (date + filename)
                     $itemId = "{0:yyyy-MM-dd}-$cleanName" -f $date
-
-                    # Filename is just the image name
                     $galleryItemFileName = "$cleanName.md"
                     $galleryItemPath = Join-Path "_gallery" $galleryItemFileName
+                    $imageTitle = Get-ImageTitle -Image $image -SourceFileName $sourceFileName
 
                     Write-GalleryItemFile `
                         -Path $galleryItemPath `
                         -ItemId $itemId `
                         -Date $date `
-                        -Title $title `
+                        -Title $imageTitle `
                         -GalleryKey $galleryKey `
                         -RawUrl $blobPlan.RawUrl `
                         -ThumbUrl $blobPlan.ThumbUrl `
                         -PostUrl $postUrl `
                         -Index $imageIndex `
-                        -SourceImageUrl $img `
+                        -Image $image `
+                        -SourceImageUrl $image.Url `
                         -SourceFileName $sourceFileName `
                         -DryRun:$DryRun `
                         -Force:$Force
@@ -756,7 +892,7 @@ foreach ($post in $posts) {
             }
             catch {
                 Write-Host "  [$imageIndex]" -ForegroundColor Yellow
-                Write-Host "    Raw source:  $img"
+                Write-Host "    Raw source:  $($image.Url)"
                 Write-Host "    ERROR calculating blob/gallery plan: $($_.Exception.Message)" -ForegroundColor Red
             }
 
