@@ -1,3 +1,7 @@
+{% assign images = site.gallery | where: "gallery", include.gallery | sort: "index" %}
+
+{% if images.size > 0 %}
+
 <style>
 .post-gallery {
   display: grid;
@@ -17,8 +21,6 @@
 }
 </style>
 
-{% assign images = site.gallery | where: "gallery", include.gallery | sort: "index" %}
-
 <div class="post-gallery">
 {% for image in images %}
   <figure class="post-gallery-item">
@@ -28,3 +30,5 @@
   </figure>
 {% endfor %}
 </div>
+
+{% endif %}
