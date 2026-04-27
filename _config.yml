@@ -20,7 +20,7 @@ header_pages:
   - galleries.html
 
 markdown: kramdown
-theme: minima
+remote_theme: "jekyll/minima"
 
 minima:
   skin: solarized-dark
