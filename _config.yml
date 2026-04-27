@@ -23,7 +23,7 @@ markdown: kramdown
 theme: minima
 
 minima:
-  skin: solarized
+  skin: solarized-dark
   social_links:
     github: jeffpatton1971
     linkedin: jeffpatton
