@@ -19,7 +19,7 @@ header_pages:
   - posts.md
   - galleries.html
 
-markdown: GFM
+markdown: kramdown
 remote_theme: "jekyll/minima"
 
 minima:
