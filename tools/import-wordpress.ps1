@@ -589,7 +589,6 @@ function Write-PostFile {
     Set-Content -Path $Path -Value $output -Encoding UTF8
     Write-Host "Wrote post: $Path" -ForegroundColor Green
 }
-
 function Convert-YouTubeEmbeds {
     param([string]$Html)
 
