@@ -19,11 +19,11 @@ header_pages:
   - posts.md
   - galleries.html
 
-markdown: kramdown
+markdown: GFM
 remote_theme: "jekyll/minima"
 
 minima:
-  skin: solarized-dark
+  skin: solarized-light
   social_links:
     github: jeffpatton1971
     linkedin: jeffpatton
@@ -32,3 +32,4 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-remote-theme
