@@ -1,3 +1,4 @@
+<style>
 .post-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
@@ -20,6 +21,7 @@
   font-size: 0.8rem;
   text-align: center;
 }
+</style>
 
 {% assign images = site.gallery | where: "gallery", include.gallery | sort: "index" %}
 
