@@ -1,0 +1,71 @@
+---
+layout: page
+title: On This Day
+permalink: /on-this-day/
+---
+
+<h1 id="on-this-day-title">On This Day</h1>
+
+<p id="on-this-day-summary"></p>
+
+<div id="on-this-day-gallery" class="gallery-grid"></div>
+
+<script>
+const images = [
+{% for image in site.gallery %}
+  {
+    title: {{ image.title | jsonify }},
+    url: {{ image.url | relative_url | jsonify }},
+    thumb_url: {{ image.thumb_url | jsonify }},
+    taken_at: {{ image.taken_at | jsonify }},
+    year: {{ image.year | jsonify }},
+    month: {{ image.month | jsonify }},
+    day: {{ image.day | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+];
+
+const monthNames = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
+
+const params = new URLSearchParams(window.location.search);
+const today = new Date();
+
+const month = String(params.get("month") || today.getMonth() + 1).padStart(2, "0");
+const day = String(params.get("day") || today.getDate()).padStart(2, "0");
+
+const monthName = monthNames[parseInt(month, 10) - 1];
+
+const matches = images
+  .filter(image =>
+    String(image.month).padStart(2, "0") === month &&
+    String(image.day).padStart(2, "0") === day
+  )
+  .sort((a, b) => String(b.taken_at).localeCompare(String(a.taken_at)));
+
+document.getElementById("on-this-day-title").textContent =
+  `On This Day: ${monthName} ${parseInt(day, 10)}`;
+
+document.getElementById("on-this-day-summary").textContent =
+  `${matches.length} image${matches.length === 1 ? "" : "s"} found across all years.`;
+
+const gallery = document.getElementById("on-this-day-gallery");
+
+if (matches.length === 0) {
+  gallery.innerHTML = "<p>No images found for this day.</p>";
+} else {
+  gallery.innerHTML = matches.map(image => `
+    <div class="gallery-item">
+      <a href="${image.url}">
+        <img src="${image.thumb_url}" alt="${image.title || ""}" loading="lazy">
+      </a>
+      <p>
+        ${image.year || ""}
+        ${image.title ? " — " + image.title : ""}
+      </p>
+    </div>
+  `).join("");
+}
+</script>
