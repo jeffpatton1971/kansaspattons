@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "First Posting"
+id: 2013-04-12-first-posting
 date: 2013-04-12 08:48:01
 published: true
 comments: false
