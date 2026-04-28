@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "November 29, 2010"
+title: "Jonyce and Paul and a new name"
 date: 2010-11-29 17:59:00
 published: true
 comments: false
