@@ -2,6 +2,7 @@
 layout: post
 ---
 {% assign related_post = nil %}
+{% assign postback = nil %}
 
 {% if page.post_id %}
   {% assign related_post = site.posts | where: "id", page.post_id | first %}
@@ -9,7 +10,7 @@ layout: post
 
 {% if related_post %}
   {% assign postback = related_post.url %}
-{% else %}
+{% elsif page.post %}
   {% assign postback = page.post %}
 {% endif %}
 
