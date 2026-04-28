@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      "House Listing"
+id:         2009-07-17-house-listing
 date:       2009-07-17 08:39:00 -0600
 categories: blog
 tags:       July 2009

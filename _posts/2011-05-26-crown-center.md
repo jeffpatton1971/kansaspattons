@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Crown Center"
+id: 2011-05-26-crown-center
 date: 2011-05-26 20:07:00
 published: true
 comments: false

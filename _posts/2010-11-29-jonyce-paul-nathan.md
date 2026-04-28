@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jonyce and Paul and a new name"
+id: 2010-11-29-jonyce-paul-nathan
 date: 2010-11-29 17:59:00
 published: true
 comments: false

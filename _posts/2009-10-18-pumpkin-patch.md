@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      "Pumpkin Patch"
+id:         2009-10-18-pumpkin-patch
 date:       2009-10-18 02:46:00 -0600
 categories: blog
 tags:       October 2009 pumpkinpatch

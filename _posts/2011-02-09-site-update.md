@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Site Update"
+id: 2011-02-09-site-update
 date: 2011-02-09 13:17:00
 published: true
 comments: false

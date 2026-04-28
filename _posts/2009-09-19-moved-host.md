@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      "Moved to a new host"
+id:         2009-09-19-moved-host
 date:       2009-09-19 09:03:00 -0600
 categories: blog
 tags:       September 2009

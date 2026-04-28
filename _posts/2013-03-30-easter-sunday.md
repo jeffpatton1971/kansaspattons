@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Easter Sunday"
+id: 2013-03-30-easter-sunday
 date: 2013-03-30 12:41:34
 published: true
 comments: false

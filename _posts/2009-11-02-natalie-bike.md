@@ -1,9 +1,10 @@
 ---
 layout:     post
 title:      "First bike ride"
+id:         2009-11-02-natalie-bike
 date:       2009-11-02 09:55:00 -0600
 categories: blog
-tags:       November 2009 
+tags:       November 2009
 author:     Jeff
 comments:   false
 published:  true

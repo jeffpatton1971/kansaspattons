@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      "Realtor"
+id:         2009-07-24-more-showings
 date:       2009-07-24 08:42:00 -0600
 categories: blog
 tags:       July 2009
