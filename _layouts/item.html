@@ -5,7 +5,7 @@ layout: post
 {% assign postback = nil %}
 
 {% if page.post_id %}
-  {% assign related_post = site.posts | where: "id", page.post_id | first %}
+  {% assign related_post = site.posts | where_exp: "post", "post.path contains page.post_id" | first %}
 {% endif %}
 
 {% if related_post %}
@@ -84,19 +84,21 @@ layout: post
 </div>
 
 <div class="gallery-photo-actions">
+  <div style="border:1px solid #ccc; padding:0.75rem; margin-bottom:1rem; font-size:0.9rem;">
+    <strong>Postback debug</strong><br>
+    image post_id: {{ page.post_id }}<br>
+    matched post title: {{ related_post.title }}<br>
+    matched post id: {{ related_post.id }}<br>
+    matched post url: {{ related_post.url }}<br>
+    old post field: {{ page.post }}
+  </div>
+
   {% if postback %}
     <a href="{{ postback | relative_url }}">Return to post</a>
-  {% endif %}
-
-  {% if page.year and page.month and page.day %}
-    {% assign month_slug = page.month | prepend: "0" | slice: -2, 2 %}
-    {% assign day_slug = page.day | prepend: "0" | slice: -2, 2 %}
-    {% assign archive_path = '/galleries/' | append: page.year | append: '/' | append: month_slug | append: '/' | append: day_slug | append: '/' %}
-    <a href="{{ archive_path | relative_url }}">View this date</a>
   {% else %}
-    <a href="{{ '/galleries/' | relative_url }}">View galleries</a>
+    <strong>No related post found for post_id.</strong>
   {% endif %}
-
+  
   <a href="{{ page.raw_url }}">Open full-size image</a>
 </div>
 
