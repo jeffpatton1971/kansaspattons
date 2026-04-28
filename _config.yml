@@ -9,6 +9,7 @@ show_excerpts: true
 
 paginate: 10
 paginate_path: /posts/page:num
+permalink: /blog/:year/:month/:day/:title.html
 
 collections:
   gallery:
