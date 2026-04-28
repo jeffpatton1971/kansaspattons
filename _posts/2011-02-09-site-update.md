@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "February 9, 2011"
+title: "Site Update"
 date: 2011-02-09 13:17:00
 published: true
 comments: false
