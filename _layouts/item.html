@@ -1,7 +1,18 @@
 ---
 layout: post
 ---
-{% assign postback = page.post %}
+{% assign related_post = nil %}
+
+{% if page.post_id %}
+  {% assign related_post = site.posts | where: "id", page.post_id | first %}
+{% endif %}
+
+{% if related_post %}
+  {% assign postback = related_post.url %}
+{% else %}
+  {% assign postback = page.post %}
+{% endif %}
+
 {% assign gallery_images = site.gallery | where: "gallery", page.gallery | sort: "index" %}
 {% assign current_position = nil %}
 
