@@ -5,13 +5,11 @@ layout: post
 {% assign postback = nil %}
 
 {% if page.post_id %}
-  {% assign related_post = site.posts | where_exp: "post", "post.path contains page.post_id" | first %}
+  {% assign related_post = site.posts | where: "id", page.post_id | first %}
 {% endif %}
 
 {% if related_post %}
   {% assign postback = related_post.url %}
-{% elsif page.post %}
-  {% assign postback = page.post %}
 {% endif %}
 
 {% assign gallery_images = site.gallery | where: "gallery", page.gallery | sort: "index" %}
