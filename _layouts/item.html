@@ -23,6 +23,13 @@ layout: post
   {% endif %}
 {% endfor %}
 
+{% if current_position != nil %}
+  {% assign previous_position = current_position | minus: 1 %}
+  {% assign next_position = current_position | plus: 1 %}
+  {% assign previous_image = gallery_images[previous_position] %}
+  {% assign next_image = gallery_images[next_position] %}
+{% endif %}
+
 <style>
 .gallery-photo-frame {
   margin: 1.5rem 0;
