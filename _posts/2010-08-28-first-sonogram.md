@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "August 28, 2010"
+title: "First Sonogram"
 date: 2010-08-28 23:53:00
-published: false
+published: true
 comments: false
 source:
   type: wordpress
