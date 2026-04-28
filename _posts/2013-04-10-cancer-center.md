@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "April 10, 2013"
+title: "Cancer Center"
 id: 2013-04-10-cancer-center
 date: 2013-04-10 09:46:11
 published: true
