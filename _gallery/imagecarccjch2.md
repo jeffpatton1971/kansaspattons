@@ -23,7 +23,7 @@ source:
 source_filename: "imagecarccjch2.jpg"
 raw_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/images/wordpress/2011/05/26/imagecarccjch2.jpg"
 thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/wordpress/2011/05/26/imagecarccjch2.jpg"
-post: "/blog/2011/05/26/may-26-2011.html"
+post: "/blog/2011/05/26/crown-center.html"
 index: 13
 exif:
   aperture: "0"
