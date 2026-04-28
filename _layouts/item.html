@@ -5,7 +5,7 @@ layout: post
 {% assign postback = nil %}
 
 {% if page.post_id %}
-  {% assign related_post = site.posts | where_exp: "post", "post.path contains page.post_id" | first %}
+  {% assign related_post = site.posts | where: "id", page.post_id | first %}
 {% endif %}
 
 {% if related_post %}
@@ -98,7 +98,7 @@ layout: post
   {% else %}
     <strong>No related post found for post_id.</strong>
   {% endif %}
-  
+
   <a href="{{ page.raw_url }}">Open full-size image</a>
 </div>
 
