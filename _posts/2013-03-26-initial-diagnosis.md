@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "March 26, 2013"
+title: "Initial Diagnosis"
 date: 2013-03-26 09:27:25
-published: false
+published: true
 comments: false
 source:
   type: wordpress

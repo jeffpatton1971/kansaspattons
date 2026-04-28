@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "March 19, 2013"
+title: "Nathan's 2nd Birthday"
 date: 2013-03-19 10:22:10
 published: true
 comments: false
@@ -15,15 +15,5 @@ categories:
 tags: []
 ---
 Nathan’s birthday! For whatever reason we tend to spread birthdays out over a few days, this year we had a family birthday about a week beforehand, and then one at T-Rex Café and then one on his actual birthday! So I’ll add the pictures I have for all of them here
-
-Family Birthday
-
-{% include gallery.html gallery="wordpress-2013-03-19-102210-march-19-2013" %}
-
-T-Rex
-
-{% include gallery.html gallery="wordpress-2013-03-19-102210-march-19-2013" %}
-
-Birthday at Home
 
 {% include gallery.html gallery="wordpress-2013-03-19-102210-march-19-2013" %}
