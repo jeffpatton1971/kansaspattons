@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "March 31, 2013"
+title: "Hospital Visit"
 date: 2013-03-31 09:32:55
-published: false
+published: true
 comments: false
 source:
   type: wordpress
