@@ -5,7 +5,7 @@ layout: post
 {% assign postback = nil %}
 
 {% if page.post_id %}
-  {% assign related_post = site.posts | where: "id", page.post_id | first %}
+  {% assign related_post = site.posts | where_exp: "post", "post.path contains page.post_id" | first %}
 {% endif %}
 
 {% if related_post %}
@@ -22,13 +22,6 @@ layout: post
     {% assign current_position = forloop.index0 %}
   {% endif %}
 {% endfor %}
-
-{% if current_position != nil %}
-  {% assign previous_position = current_position | minus: 1 %}
-  {% assign next_position = current_position | plus: 1 %}
-  {% assign previous_image = gallery_images[previous_position] %}
-  {% assign next_image = gallery_images[next_position] %}
-{% endif %}
 
 <style>
 .gallery-photo-frame {
