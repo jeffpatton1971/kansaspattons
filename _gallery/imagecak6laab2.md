@@ -24,6 +24,7 @@ source_filename: "imagecak6laab2.jpg"
 raw_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/images/wordpress/2011/05/26/imagecak6laab2.jpg"
 thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/wordpress/2011/05/26/imagecak6laab2.jpg"
 post: "/blog/2011/05/26/crown-center.html"
+post_id: 2011-05-26-crown-center
 index: 18
 exif:
   aperture: "0"
