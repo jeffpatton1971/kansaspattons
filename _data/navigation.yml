@@ -1,0 +1,9 @@
+main:
+  - title: "Posts"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "On this day"
+    url: /on-this-day/
+  - title: "Gallery"
+    url: /galleries/
