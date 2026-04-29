@@ -17,7 +17,7 @@ include:
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 
-minimal_mistakes_skin: durt
+minimal_mistakes_skin: dirt
 
 plugins:
   - jekyll-feed
