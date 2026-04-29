@@ -21,10 +21,10 @@ header_pages:
   - galleries.html
 
 markdown: kramdown
-remote_theme: "jekyll/minima"
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 
 minima:
-  skin: solarized-light
+  skin: dirt
   social_links:
     github: jeffpatton1971
     linkedin: jeffpatton
@@ -34,3 +34,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-remote-theme
+  - jekyll-include-cache
