@@ -3,7 +3,7 @@ layout:     single
 title:      "First Posting"
 post_id:         2009-07-17-first-posting
 date:       2009-07-17 03:10:00 -0600
-categories: blog
+categories: site
 tags:       July 2009
 author:     Jeff
 comments:   false

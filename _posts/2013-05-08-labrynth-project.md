@@ -12,6 +12,7 @@ source:
 gallery: "wordpress-2013-05-08-081656-may-8-2013"
 categories:
   - "natalie"
+  - cpls
 tags: []
 ---
 Natalie finally finished her [project]({% post_url 2013-04-28-the-labrynth %}) for history. She’s pretty creative, and it looks really good!

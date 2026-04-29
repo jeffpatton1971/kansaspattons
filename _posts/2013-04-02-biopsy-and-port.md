@@ -12,6 +12,7 @@ source:
 gallery: "wordpress-2013-04-02-093848-april-2-2013"
 categories:
   - "nathan"
+  - cancer
 tags: []
 ---
 Monday morning he went under sedation and had a biopsy of his tumor done, and a port installed for the chemo. The port is just under his skin so there is nothing hanging out, which is good.

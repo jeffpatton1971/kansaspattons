@@ -10,7 +10,7 @@ source:
   id: 8
   url: "https://jeffspatton.wordpress.com/2013/04/12/first-posting/"
 categories:
-  - "family"
+  - "site"
 tags:
   - "first-post"
   - "intro"

@@ -12,6 +12,7 @@ source:
 gallery: "wordpress-2013-04-10-094611-april-10-2013"
 categories:
   - "nathan"
+  - cancer
 tags: []
 ---
 We took Nathan in for his second dose of chemo during this cycle. This is our first visit to the cancer center in Topeka so it took a little longer than perhaps it should have otherwise. The good news though is that next week it should be much shorter since we’re in the system now.
