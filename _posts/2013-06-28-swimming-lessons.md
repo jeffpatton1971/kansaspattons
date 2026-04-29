@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "June 28, 2013"
+title: "Swimming Lessons"
+post_id: 2013-06-28-swimming-lessons
 date: 2013-06-28 08:34:18
 published: true
 comments: false

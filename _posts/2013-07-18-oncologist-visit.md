@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "July 18, 2013"
+title: "Oncologist Visit"
+post_id: 2013-07-18-oncologist-visit
 date: 2013-07-18 19:30:04
 published: true
 comments: false
@@ -10,6 +11,7 @@ source:
   url: "https://jeffspatton.wordpress.com/2013/07/18/july-18-2013/"
 categories:
   - "nathan"
+  - cancer
 tags: []
 ---
 We met with Nathan’s oncologist today, mostly to set our mind at ease. It’s been a few days since visiting KU Med, and we’re still rather worried about the whole thing. She showed us where in Nathan’s liver that his tumor is, and potentially what part of Nathan’s liver could be removed. She let us know that while anything could happen in surgery, that doesn’t mean that it will.

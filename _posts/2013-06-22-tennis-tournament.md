@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "June 22, 2013"
+title: "Tennis Tournament"
+post_id: 2013-06-22-tennis-tournament
 date: 2013-06-22 07:47:04
 published: true
 comments: false
@@ -13,22 +14,19 @@ categories:
   - "family"
   - "natalie"
   - "nathan"
+  - tennis
 tags: []
 ---
 Today was a very busy day for the family. In the morning we had “Tykes on Bikes” which is an annual fundraiser for the Topeka Learning Center (I think). This is the second time we’ve gone and we had a lot of fun. They have some carnival games, those inflatable fun house things, a local bike shop is on site to give the kids bikes a tune-up and then a bike race. The race is broken down into age groups, Nathan has another year before he’ll be old enough to start. Natalie did pretty well she made it through the 9-10 yr old heats and came in 3rd.
-
-{% include gallery.html gallery="wordpress-2013-06-22-074704-june-22-2013" %}
 
 {% include youtubePlayer.html id="IGkEm6elJfc" %}
 
 In the afternoon Natalie had a tennis tournament at Wood Valley. They played for about 3 hours and had two teams, Natalie’s team didn’t win, but everyone had a really good time. The point of this “tournament” is for the kids to get used to playing the game. The way they are teaching the kids to play is by just playing the game. The will show them how to serve and then practice that for a bit, then start playing. Natalie is really enjoying tennis.
 
-{% include gallery.html gallery="wordpress-2013-06-22-074704-june-22-2013" %}
-
 {% include youtubePlayer.html id="FYTVlNcloWE" %}
 
 Finally we took Natalie swimming, she has been begging to go and it was really nice out. I can’t say that the water was warm, but you did eventually get used to it!
 
-{% include gallery.html gallery="wordpress-2013-06-22-074704-june-22-2013" %}
-
 {% include youtubePlayer.html id="ZZqnDFOPxFk" %}
+
+{% include gallery.html gallery="wordpress-2013-06-22-074704-june-22-2013" %}

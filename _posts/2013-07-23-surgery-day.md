@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "July 23, 2013"
+title: "Surgery Day"
+post_id: 2013-07-23-surgery-day
 date: 2013-07-23 13:00:00
 published: true
 comments: false
@@ -11,6 +12,7 @@ source:
 gallery: "wordpress-2013-07-23-130000-july-23-2013"
 categories:
   - "nathan"
+  - cancer
 tags: []
 ---
 Today is the day, we got moving very early this morning, he cried a little for milk when Malia woke him up, but she was able to calm him down. He got his last food/drink at about 11p the night before. We arrived at KU Med at 9a and they had us back in pre-op pretty much as soon as we arrived on the second floor. His surgery was supposed to be at noon, but Dr. Schmitt (who performed the surgery) had a cancellation so Nathan got bumped up.
@@ -26,8 +28,6 @@ About an hour later a nurse came and got Malia, my mom and dad and myself and to
 He told us that Nathan had done very well throughout the entire surgery and while they had typed and cross matched his blood, he lost very little blood and did not need a transfusion. He told us that Nathan had a tube down his throat to help him breathe, a tube down his nose to clear out his stomach and a catheter. He said that they ran IV’s in his wrist and foot, and the arterial line was in his other wrist. He told us that they would keep Nathan sedated for the rest of the day so Nathan’s body had some time to recover, and that they would slowly bring him out of it the next day. He also told us to expect to be in the PICU (Pediatric Intensive Care Unit) for at least a few days.
 
 They brought us up to the PICU about an hour later to see Nathan. They needed that hour to make sure he was stabilized and to clean him up. It was pretty rough seeing him all hooked up to everything like he was. He is such an active little boy and seeing him laying there with tubes and wires all over was rough.
-
-{% include gallery.html gallery="wordpress-2013-07-23-130000-july-23-2013" %}
 
 This next picture is Nathan in his bed, it’s not graphic or anything but I wanted to warn you.
 

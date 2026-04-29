@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "July 16, 2013"
+title: "KU Med Check-In"
+post_id: 2013-07-16-ku-med-check-in
 date: 2013-07-16 17:34:47
 published: true
 comments: false
@@ -11,6 +12,7 @@ source:
 gallery: "wordpress-2013-07-16-173447-july-16-2013"
 categories:
   - "nathan"
+  - cancer
 tags: []
 ---
 Today was our trip to KCK to talk with the doctor’s at KU Med who will remove the tumor from Nathan’s liver. I would love to say that the process was fast, efficient and streamlined, but in reality it was one of the most disorganized visit’s we’ve ever had.  We showed up at 9a for his 930 appointment with pre-anesthesia, and they had no record of his appointment. After they started looking deeper they had him scheduled for the previous day. They asked us why we missed it, and we said we didn’t schedule this, the doctor’s and nurses scheduled everything.
@@ -33,17 +35,11 @@ He told us to prepare for Nathan to be in the PICU for at least two days. He sai
 
 After we left the exam room, we headed down to get labs done. Another harrowing experience, thankfully when we finally got a nurse, they were very sweet. They were able to access his port and draw blood very quickly, in fact considering the entire morning at KU Med, I would say the most efficient part was drawing the lab. We’re hoping this is not indicative of our next experience there.
 
-{% include gallery.html gallery="wordpress-2013-07-16-173447-july-16-2013" %}
-
 After KU Med we decided to try and make the rest of the day fun for Nathan, so we decided to have lunch at Fritz Grill. It started out pretty well, Nathan got a kick out of the trains that would drop off the food. Then Natalie saw a roach, Malia freaked out before I was able to kill it. Then after she settled down, she was talking on the phone and saw a mouse run across the kitchen floor. That was it, Malia called the manager, we got free lunch and we may never go back to Fritz again.
-
-{% include gallery.html gallery="wordpress-2013-07-16-173447-july-16-2013" %}
 
 After lunch we stopped by the Sea Life Aquarium. It was really nice, we liked how it was laid out and the kids really enjoyed it. There was a nice little question and answer thing that Natalie really had fun with. You had to find the answers that were painted on the walls and at the end if you answered all the questions right, you got a little prize.
 
 We enjoyed the various exhibits, there was a fun little tide pool where you could touch starfish, sea anemones, shrimp and little hermit crabs. There were a couple of aquariums that had domes, so you could crawl in and see the fish up close. They also had a nice turtle exhibit, while they didn’t have very large sea turtles, they did have some nice displays showing off various types of turtles.
-
-{% include gallery.html gallery="wordpress-2013-07-16-173447-july-16-2013" %}
 
 After the Aquarium we went back to Crown Center for dessert. We got ice cream from Sheridan’s, I had a Butterfinger and M&M concrete, everyone else had chocolate ice cream…really?
 

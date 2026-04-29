@@ -24,6 +24,7 @@ source_filename: "photo42.jpg"
 raw_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/images/wordpress/2013/07/04/photo42.jpg"
 thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/wordpress/2013/07/04/photo42.jpg"
 post: "/blog/2013/07/04/july-4-2013.html"
+post_id: 2013-07-04-fourth-of-july
 index: 2
 exif:
   aperture: "0"

@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "July 9, 2013"
+title: "19th Anniversary"
+post_id: 2013-07-09-nineteenth-anniversary
 date: 2013-07-09 07:46:50
 published: true
 comments: false

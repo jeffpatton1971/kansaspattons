@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "June 23, 2013"
+title: "Nate Nat's Car"
+post_id: 2013-06-23-nate-nates-car
 date: 2013-06-23 08:06:36
 published: true
 comments: false
