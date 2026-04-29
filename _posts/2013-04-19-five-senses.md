@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Five Senses"
 post_id: 2013-04-19-five-senses
 date: 2013-04-19 17:15:26

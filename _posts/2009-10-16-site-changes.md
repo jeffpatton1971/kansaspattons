@@ -1,5 +1,5 @@
 ---
-layout:     post
+layout:     single
 title:      "Site Changes"
 post_id:         2009-10-16-site-changes
 date:       2009-10-16 09:05:00 -0600

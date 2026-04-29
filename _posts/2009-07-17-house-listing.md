@@ -1,5 +1,5 @@
 ---
-layout:     post
+layout:     single
 title:      "House Listing"
 post_id:         2009-07-17-house-listing
 date:       2009-07-17 08:39:00 -0600

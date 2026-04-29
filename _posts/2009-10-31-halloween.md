@@ -1,5 +1,5 @@
 ---
-layout:     post
+layout:     single
 title:      "Halloween"
 post_id:         2009-10-31-halloween
 date:       2009-10-31 09:55:00 -0600

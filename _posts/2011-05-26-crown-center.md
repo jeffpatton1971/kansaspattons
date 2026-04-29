@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Crown Center"
 post_id: 2011-05-26-crown-center
 date: 2011-05-26 20:07:00

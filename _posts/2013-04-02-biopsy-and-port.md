@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Biopsy and Port"
 post_id: 2013-04-02-biopsy-and-port
 date: 2013-04-02 09:38:48

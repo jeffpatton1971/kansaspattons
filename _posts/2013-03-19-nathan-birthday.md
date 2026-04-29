@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Nathan's 2nd Birthday"
 post_id: 2013-03-19-nathan-birthday
 date: 2013-03-19 10:22:10

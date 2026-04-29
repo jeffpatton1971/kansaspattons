@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Cancer Center"
 post_id: 2013-04-10-cancer-center
 date: 2013-04-10 09:46:11

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "The Labrynth"
 post_id: 2013-04-28-the-labrynth
 date: 2013-04-28 22:03:50

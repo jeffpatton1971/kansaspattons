@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Steamboat Arabia"
 post_id: 2013-04-29-steamboat-arabia
 date: 2013-04-29 22:13:44

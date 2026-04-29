@@ -521,7 +521,7 @@ function Write-PostFile {
 
     $frontMatter = @()
     $frontMatter += "---"
-    $frontMatter += "layout: post"
+    $frontMatter += "layout: single"
     $frontMatter += "title: $(Escape-YamlString -Value $Title)"
     $frontMatter += "date: $($Date.ToString("yyyy-MM-dd HH:mm:ss"))"
     $frontMatter += "published: $($Published.ToString().ToLowerInvariant())"

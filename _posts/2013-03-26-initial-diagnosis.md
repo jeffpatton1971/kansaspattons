@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Initial Diagnosis"
 post_id: 2013-03-26-initial-diagnosis
 date: 2013-03-26 09:27:25

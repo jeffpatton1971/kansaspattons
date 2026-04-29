@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Hospital Visit"
 post_id: 2013-03-31-hospital-visit
 date: 2013-03-31 09:32:55

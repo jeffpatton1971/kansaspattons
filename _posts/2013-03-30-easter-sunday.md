@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Easter Sunday"
 post_id: 2013-03-30-easter-sunday
 date: 2013-03-30 12:41:34

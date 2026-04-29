@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "First Sonogram"
 post_id: 2010-08-28-first-sonogram
 date: 2010-08-28 23:53:00

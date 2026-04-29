@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "First Posting"
 post_id: 2013-04-12-first-posting
 date: 2013-04-12 08:48:01

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Easter Baskets"
 post_id: 2013-03-31-easter-baskets
 date: 2013-03-31 13:00:41
