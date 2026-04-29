@@ -24,6 +24,7 @@ source_filename: "samsung-galaxy-555.jpg"
 raw_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/images/wordpress/2013/04/17/samsung-galaxy-555.jpg"
 thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/wordpress/2013/04/17/samsung-galaxy-555.jpg"
 post: "/blog/2013/04/17/april-17-2013-2.html"
+post_id: 2013-04-17-hair-cut
 index: 1
 exif:
   aperture: "2.6"
