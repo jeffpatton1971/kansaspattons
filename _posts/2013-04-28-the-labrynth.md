@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "April 28, 2013"
+title: "The Labrynth"
+post_id: 2013-04-28-the-labrynth
 date: 2013-04-28 22:03:50
 published: true
 comments: false
