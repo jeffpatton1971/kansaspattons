@@ -46,7 +46,7 @@ const matches = images
   .sort((a, b) => String(b.taken_at).localeCompare(String(a.taken_at)));
 
 document.getElementById("on-this-day-title").textContent =
-  `On This Day: ${monthName} ${parseInt(day, 10)}`;
+  `${monthName} ${parseInt(day, 10)}`;
 
 document.getElementById("on-this-day-summary").textContent =
   `${matches.length} image${matches.length === 1 ? "" : "s"} found across all years.`;
