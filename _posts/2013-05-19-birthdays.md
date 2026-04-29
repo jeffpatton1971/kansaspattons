@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "May 19, 2013"
+title: "Birthdays"
+post_id: 2013-05-19-birthdays
 date: 2013-05-19 07:45:16
 published: true
 comments: false

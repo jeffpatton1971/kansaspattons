@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "May 26, 2013"
+title: "Mower Shopping"
+post_id: 2013-05-26-mower-shopping
 date: 2013-05-26 08:55:59
 published: true
 comments: false

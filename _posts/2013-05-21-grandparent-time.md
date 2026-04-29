@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "May 21, 2013"
+title: "Grandparent Time"
+post_id: 2013-05-21-grandparent-time
 date: 2013-05-21 07:50:51
 published: true
 comments: false
