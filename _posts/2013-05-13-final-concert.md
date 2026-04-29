@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "May 13, 2013"
+title: "Final Concert"
+post_id: 2013-05-13-final-concert
 date: 2013-05-13 07:18:52
 published: true
 comments: false
