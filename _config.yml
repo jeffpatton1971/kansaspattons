@@ -12,7 +12,7 @@ paginate_path: /posts/page:num
 permalink: /blog/:year/:month/:day/:title.html
 
 include:
-  _pages
+  - _pages
 
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.28.0"
