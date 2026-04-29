@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "May 4, 2013"
+title: "Star Wars Day"
+post_id: 2013-05-04-star-wars-day
 date: 2013-05-04 07:59:42
 published: true
 comments: false
