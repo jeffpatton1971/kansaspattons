@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "August 10, 2013"
+title: "Tennis Tournament"
+post_id: 2013-08-10-tennis-tournament
 date: 2013-08-10 16:50:44
 published: true
 comments: false

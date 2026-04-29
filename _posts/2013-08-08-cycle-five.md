@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "August 8, 2013"
+title: "Cycle Five"
+post_id: 2013-08-08-cycle-five
 date: 2013-08-08 16:36:43
 published: true
 comments: false

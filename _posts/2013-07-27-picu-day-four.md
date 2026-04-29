@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "July 27, 2013"
+title: "PICU Day 4"
+post_id: 2013-07-27-picu-day-four
 date: 2013-07-27 11:01:30
 published: true
 comments: false

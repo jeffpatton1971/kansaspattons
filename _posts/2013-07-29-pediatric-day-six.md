@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "July 29, 2013"
+title: "Pediatric Day 6"
+post_id: 2013-07-29-pediatric-day-six
 date: 2013-07-29 11:18:51
 published: true
 comments: false

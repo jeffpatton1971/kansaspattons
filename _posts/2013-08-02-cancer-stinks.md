@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "August 2, 2013"
+title: "Cancer Stinks"
+post_id: 2013-08-02-cancer-stinks
 date: 2013-08-02 16:22:01
 published: true
 comments: false
