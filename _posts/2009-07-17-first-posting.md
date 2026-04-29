@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "First Posting"
-id:         2009-07-17-first-posting
+post_id:         2009-07-17-first-posting
 date:       2009-07-17 03:10:00 -0600
 categories: blog
 tags:       July 2009

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hospital Visit"
-id: 2013-03-31-hospital-visit
+post_id: 2013-03-31-hospital-visit
 date: 2013-03-31 09:32:55
 published: true
 comments: false

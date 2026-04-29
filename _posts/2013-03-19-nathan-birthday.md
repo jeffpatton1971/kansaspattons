@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Nathan's 2nd Birthday"
-id: 2013-03-19-nathan-birthday
+post_id: 2013-03-19-nathan-birthday
 date: 2013-03-19 10:22:10
 published: true
 comments: false

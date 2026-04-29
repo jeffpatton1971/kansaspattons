@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Halloween"
-id:         2009-10-31-halloween
+post_id:         2009-10-31-halloween
 date:       2009-10-31 09:55:00 -0600
 categories: blog
 tags:       October 2009 halloween

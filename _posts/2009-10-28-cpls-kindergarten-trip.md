@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Rees Fruit Farm Field Trip"
-id:         2009-10-28-cpls-kindergarten-trip
+post_id:         2009-10-28-cpls-kindergarten-trip
 date:       2009-10-28 09:55:00 -0600
 categories: blog
 tags:       October 2009 pumpkinpatch

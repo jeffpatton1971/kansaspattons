@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Initial Diagnosis"
-id: 2013-03-26-initial-diagnosis
+post_id: 2013-03-26-initial-diagnosis
 date: 2013-03-26 09:27:25
 published: true
 comments: false

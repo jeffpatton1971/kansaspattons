@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "First Sonogram"
-id: 2010-08-28-first-sonogram
+post_id: 2010-08-28-first-sonogram
 date: 2010-08-28 23:53:00
 published: true
 comments: false

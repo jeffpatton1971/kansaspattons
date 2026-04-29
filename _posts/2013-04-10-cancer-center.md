@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cancer Center"
-id: 2013-04-10-cancer-center
+post_id: 2013-04-10-cancer-center
 date: 2013-04-10 09:46:11
 published: true
 comments: false
