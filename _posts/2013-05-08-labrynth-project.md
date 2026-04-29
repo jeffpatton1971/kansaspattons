@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "May 8, 2013"
+title: "Labrynth Project"
+post_id: 2013-05-08-labrynth-project
 date: 2013-05-08 08:16:56
 published: true
 comments: false
@@ -13,6 +14,6 @@ categories:
   - "natalie"
 tags: []
 ---
-Natalie finally finished her [project](/blog//2013/04/28//2013-04-28-220350-april-28-2013.html) for history. She’s pretty creative, and it looks really good!
+Natalie finally finished her [project]({% post_url 2013-04-28-the-labrynth %}) for history. She’s pretty creative, and it looks really good!
 
 {% include gallery.html gallery="wordpress-2013-05-08-081656-may-8-2013" %}
