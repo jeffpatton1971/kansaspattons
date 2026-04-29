@@ -33,16 +33,16 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://patton-tech.com"
+    - label: "Bluesky"
+      icon: "fab fa-brands fa-bluesky"
+      url: "https://bsky.app/profile/jeffpatton.bsky.social"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/jeffpatton1971"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/jspatton1971"
 
 collections:
   gallery:
