@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "April 19, 2013"
+title: "Five Senses"
+post_id: 2013-04-19-five-senses
 date: 2013-04-19 17:15:26
 published: true
 comments: false
