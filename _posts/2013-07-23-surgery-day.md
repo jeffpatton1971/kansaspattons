@@ -13,7 +13,8 @@ gallery: "wordpress-2013-07-23-130000-july-23-2013"
 categories:
   - "nathan"
   - cancer
-tags: []
+tags:
+  - "wordpress"
 ---
 Today is the day, we got moving very early this morning, he cried a little for milk when Malia woke him up, but she was able to calm him down. He got his last food/drink at about 11p the night before. We arrived at KU Med at 9a and they had us back in pre-op pretty much as soon as we arrived on the second floor. His surgery was supposed to be at noon, but Dr. Schmitt (who performed the surgery) had a cancellation so Nathan got bumped up.
 

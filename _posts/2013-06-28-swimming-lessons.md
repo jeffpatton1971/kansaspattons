@@ -12,7 +12,8 @@ source:
 gallery: "wordpress-2013-06-28-083418-june-28-2013"
 categories:
   - "natalie"
-tags: []
+tags:
+  - "wordpress"
 ---
 Swimming lessons started up this week! I took my lunch break to take Natalie to her lessons today!
 

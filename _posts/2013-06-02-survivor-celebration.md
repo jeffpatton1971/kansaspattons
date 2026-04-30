@@ -16,7 +16,8 @@ categories:
   - "natalie"
   - "nathan"
   - cancer
-tags: []
+tags:
+  - "wordpress"
 ---
 The [American Cancer Society](https://www.cancer.org) has an annual survivor celebration. This is our first time going and Nathan and all the kids had a lot of fun! They had a photo booth, door prizes, comic relief and a great dinner. Malia’s sister Amy and her family joined as well as Lindsey and Jenny, who is Nathan’s best friend! Nathan really enjoyed the little spring loaded can toy they had at the tables.
 

@@ -4,7 +4,8 @@ title:      "Moved to a new host"
 post_id:         2009-09-19-moved-host
 date:       2009-09-19 09:03:00 -0600
 categories: site
-tags:       September 2009
+tags:
+  - "wordpress"
 author:     Jeff
 comments:   false
 published:  true

@@ -4,7 +4,8 @@ title:      "Computer Recycling"
 post_id:         2009-08-05-computer-recycling
 date:       2009-08-05 08:55:00 -0600
 categories: blog
-tags:       August 2009
+tags:
+  - "wordpress"
 author:     Jeff
 comments:   false
 published:  true

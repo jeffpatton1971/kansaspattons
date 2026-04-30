@@ -4,7 +4,8 @@ title:      "No Bathtub"
 post_id:         2009-08-04-no-bathtub
 date:       2009-08-08 08:52:00 -0600
 categories: blog
-tags:       August 2009
+tags:
+  - "wordpress"
 author:     Jeff
 comments:   false
 published:  true

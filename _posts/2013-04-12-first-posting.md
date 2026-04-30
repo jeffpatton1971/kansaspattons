@@ -12,9 +12,7 @@ source:
 categories:
   - "site"
 tags:
-  - "first-post"
-  - "intro"
-  - "welcome"
+  - "wordpress"
 ---
 This has been something that I have wanted to do now for the past several months and I feel badly that recent events have prompted me to get off my butt and start, but oh well, here we are. My plan is to document the meaningful events in the lives of our family, so that our children will have an idea of the things that happened in the past.
 

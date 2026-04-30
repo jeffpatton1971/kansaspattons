@@ -16,7 +16,8 @@ categories:
   - "field-trips"
   - "first-grade"
   - "natalie"
-tags: []
+tags:
+  - "wordpress"
 ---
 Today was the last field trip for Mrs. Jernigan’s first grade class. The trip was to Crown Center in Kansas City and the kids all seemed to have lots of fun. The main part of the field trip was to visit Kaleidoscope, a place where kids can use their imaginations to create fun stuff. I don’t have any pictures from in there as I wasn’t a helper, but I do have pictures from some of the other places we visited.
 

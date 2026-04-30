@@ -14,7 +14,8 @@ categories:
   - "natalie"
   - cpls
   - concerts
-tags: []
+tags:
+  - "wordpress"
 ---
 Natalie’s final concert was this evening. This year she learned to play the violin which she will continue next year. In addition to continuing the violin, we get to look forward to learning the recorder as well. Afterwards we went to Orange Leaf with some friends.
 

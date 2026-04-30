@@ -14,7 +14,8 @@ categories:
   - "family"
   - holidays
   - easter
-tags: []
+tags:
+  - "wordpress"
 ---
 It looks like the Easter bunny found our house!
 

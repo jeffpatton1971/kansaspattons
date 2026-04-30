@@ -13,7 +13,8 @@ gallery: "wordpress-2013-05-24-083741-may-24-2013"
 categories:
   - "nathan"
   - cancer
-tags: []
+tags:
+  - "wordpress"
 ---
 We get to go home today. Nathan’s oncologist came by today and talked to us about how Nathan is doing and how is body is reacting to all the medicine he’s been on. His counts this time around were good enough to start chemo, but they weren’t great. They want him to get a shot to boost his bone marrow production, it was a toss-up between daily shots that Malia and I would give him, or a one-time shot he would get in the hospital.
 

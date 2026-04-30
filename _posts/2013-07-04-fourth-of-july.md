@@ -15,7 +15,8 @@ categories:
   - summer
   - holidays
   - fourth-of-july
-tags: []
+tags:
+  - "wordpress"
 ---
 My all time favorite holiday! We took some cute pictures of the kids with the flag in the morning, but really didn’t do much most of the day. In fact the kids fell asleep that afternoon and we hadn’t even done anything yet! We hit the fireworks stands in the evening to get some supplies and then headed over to our friends house for dinner and fireworks.
 

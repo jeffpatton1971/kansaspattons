@@ -12,7 +12,8 @@ source:
 categories:
   - "nathan"
   - cancer
-tags: []
+tags:
+  - "wordpress"
 ---
 Nathan’s Oncologist called Malia today and told her she had spoken with the surgeon about Nathan. We are supposed to head to KU Med on Tuesday for lab work, and to talk with the doctor there, and then his surgery will be the following day. She said we should hear from KU Med prior to Tuesday for more details.
 

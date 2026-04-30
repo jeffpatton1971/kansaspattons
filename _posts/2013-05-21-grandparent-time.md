@@ -13,7 +13,8 @@ gallery: "wordpress-2013-05-21-075051-may-21-2013"
 categories:
   - "family"
   - "natalie"
-tags: []
+tags:
+  - "wordpress"
 ---
 My mom took Natalie and her cousins, Mary and Sarah for a day with great grandpa! I remember when I was a kid we would fly to Kansas for the summers and spend time with grandma and grandpa. I always had the best time with grandpa, working in the yard, or on cars or just tagging around with him wherever he went. Today the girls helped him plant flowers in the front yard.
 

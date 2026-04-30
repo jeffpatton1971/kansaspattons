@@ -13,7 +13,8 @@ gallery: "wordpress-2013-08-08-163643-august-8-2013"
 categories:
   - "nathan"
   - cancer
-tags: []
+tags:
+  - "wordpress"
 ---
 This is the first day of our second to last round of chemo.
 

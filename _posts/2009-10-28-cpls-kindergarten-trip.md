@@ -7,7 +7,8 @@ categories:
   - natalie
   - cpls
   - field-trips
-tags:       October 2009 pumpkinpatch
+tags:
+  - "wordpress"
 author:     Jeff
 comments:   false
 published:  true

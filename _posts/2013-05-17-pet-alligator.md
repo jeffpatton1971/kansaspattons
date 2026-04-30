@@ -14,7 +14,8 @@ categories:
   - "family"
   - summer
   - zoo
-tags: []
+tags:
+  - "wordpress"
 ---
 The first official day of summer for Natalie we visited the Zoo with Malia’s class. It was nice, Natalie got to pet an alligator!
 

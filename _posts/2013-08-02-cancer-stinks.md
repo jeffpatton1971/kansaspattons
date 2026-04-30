@@ -13,7 +13,8 @@ gallery: "wordpress-2013-08-02-162201-august-2-2013"
 categories:
   - "nathan"
   - cancer
-tags: []
+tags:
+  - "wordpress"
 ---
 A few weeks ago Malia signed up for a package from [Cancer Stinks](http://cancer-stinks.com), I don’t know if she found it on the web or Facebook, but his package came today. He was pretty excited about opening up the package, what kid isn’t, and got some really neat stuff. You should visit the site, it’s pretty cool what they are about and what they do.
 

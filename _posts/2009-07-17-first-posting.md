@@ -4,7 +4,8 @@ title:      "First Posting"
 post_id:         2009-07-17-first-posting
 date:       2009-07-17 03:10:00 -0600
 categories: site
-tags:       July 2009
+tags:
+  - "wordpress"
 author:     Jeff
 comments:   false
 published:  true

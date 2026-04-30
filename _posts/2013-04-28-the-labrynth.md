@@ -13,7 +13,8 @@ gallery: "wordpress-2013-04-28-220350-april-28-2013"
 categories:
   - "natalie"
   - cpls
-tags: []
+tags:
+  - "wordpress"
 ---
 Natalie started working on her final project for school today. Her project is about Greek mythology and she is making a labyrinth that the kids in her class should be able to walk around. I projected a simple circular labyrinth onto a large piece of cloth that mom bought, that is pretty much the extent of what I did.
 

@@ -14,7 +14,8 @@ categories:
   - "family"
   - holidays
   - easter
-tags: []
+tags:
+  - "wordpress"
 ---
 We decided to have our Easter egg hunt the day before Easter. The main reason was because Nathan will be checked into the hospital on Easter Sunday, and partly because it is supposed to be a miserable day Sunday weather wise.
 

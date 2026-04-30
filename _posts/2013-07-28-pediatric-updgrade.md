@@ -13,7 +13,8 @@ gallery: "wordpress-2013-07-28-111133-july-28-2013"
 categories:
   - "nathan"
   - cancer
-tags: []
+tags:
+  - "wordpress"
 ---
 Well, good news, today we got upgraded to a regular pediatric room! It’s a very fancy room, has a couch a bathroom IN the room with a shower and everything! On this side of the Ped’s floor they only monitor every few hours, so he’s more or less free of all wires, gadgets and gizmos! We also got a visit from Great-Grandpa! I think we’re all very ready to be done with this place, but I’ve got to say, the level of care has been wonderful! We see the doctor’s nearly every day and they are very encouraging.
 

@@ -4,7 +4,8 @@ title:      "Last day of vacation"
 post_id:         2009-08-09-last-day-of-vacation
 date:       2009-08-06 08:56:00 -0600
 categories: blog
-tags:       August 2009
+tags:
+  - "wordpress"
 author:     Jeff
 comments:   false
 published:  true

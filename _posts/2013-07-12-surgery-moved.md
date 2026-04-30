@@ -12,7 +12,8 @@ source:
 categories:
   - "nathan"
   - cancer
-tags: []
+tags:
+  - "wordpress"
 ---
 What a busy week! Malia got call from KU Med, we will go down Tuesday for lab work, and the surgery was moved to the following week. This is not what we wanted to hear! We both just want this tumor out, and being this close and then having it pushed back is akin to torture! They told Malia that there was no way they could have all the lab work done and before the following day. Needless to say she was NOT happy.
 

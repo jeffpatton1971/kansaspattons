@@ -13,7 +13,8 @@ gallery: "wordpress-2013-07-27-110130-july-27-2013"
 categories:
   - "nathan"
   - cancer
-tags: []
+tags:
+  - "wordpress"
 ---
 Nathan took another trip to the playroom today, Jim and Ramona got to see him up and playing around. Each day he seems to get more and more energy, so it’s awesome to see him getting around so well. He really enjoys playing the blocks, the trains and dinosaurs.
 

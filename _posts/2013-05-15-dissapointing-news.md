@@ -12,7 +12,8 @@ source:
 categories:
   - "nathan"
   - cancer
-tags: []
+tags:
+  - "wordpress"
 ---
 We got a call back from the doctor today, Nathan won’t be going in for surgery like we thought. While this is disappointing news, the surgeon believes that with two more cycles of chemo Nathan’s tumor will be even smaller and hopefully pull away from the vein that brings blood up from his lower half. The oncologist explained that in order for the surgery to be as safe as possible and to get as much of the tumor as possible the surgeon would like to get clear margins around the tumor.
 

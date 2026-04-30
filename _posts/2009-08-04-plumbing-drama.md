@@ -4,7 +4,8 @@ title:      "Plumbing Drama"
 post_id:         2009-08-04-plumbing-drama
 date:       2009-08-04 08:53:00 -0600
 categories: blog
-tags:       August 2009
+tags:
+  - "wordpress"
 author:     Jeff
 comments:   false
 published:  true

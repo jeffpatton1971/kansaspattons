@@ -4,7 +4,8 @@ title:      "Realtor"
 post_id:         2009-07-24-more-showings
 date:       2009-07-24 08:42:00 -0600
 categories: blog
-tags:       July 2009
+tags:
+  - "wordpress"
 author:     Jeff
 comments:   false
 published:  true

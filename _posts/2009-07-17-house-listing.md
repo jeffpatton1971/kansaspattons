@@ -4,7 +4,8 @@ title:      "House Listing"
 post_id:         2009-07-17-house-listing
 date:       2009-07-17 08:39:00 -0600
 categories: blog
-tags:       July 2009
+tags:
+  - "wordpress"
 author:     Jeff
 comments:   false
 published:  true
