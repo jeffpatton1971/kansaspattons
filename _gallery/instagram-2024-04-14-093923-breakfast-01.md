@@ -1,0 +1,28 @@
+---
+layout: item
+id: "instagram-2024-04-14-093923-breakfast-01"
+title: "Breakfast"
+description:
+post_id: 2024-04-14-093923-breakfast
+tags: []
+taken_at: 2024-04-14
+year: 2024
+month: 04
+day: 14
+weekday: Sunday
+gallery: "instagram-2024-04-14-093923-breakfast"
+source:
+  type: instagram
+  uri: "media/posts/202404/18024261917105810.jpg"
+  post_timestamp: 1713105563
+  media_timestamp: 1713105562
+  cross_post_source: "FB"
+  media_metadata_raw: "{\"camera_metadata\":{\"has_camera_metadata\":false}}"
+source_filename: "18024261917105810.jpg"
+raw_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/images/instagram/2024/04/14/18024261917105810.jpg"
+thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/instagram/2024/04/14/18024261917105810.jpg"
+post: "/blog/2024/04/14/093923-breakfast.html"
+index: 1
+---
+
+
