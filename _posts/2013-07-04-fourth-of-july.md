@@ -14,7 +14,7 @@ categories:
   - "family"
   - summer
   - holidays
-  - fourth-of-july
+  - "July 4th"
 tags:
   - "wordpress"
 ---
