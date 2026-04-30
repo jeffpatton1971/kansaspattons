@@ -1,4 +1,4 @@
-title: kansaspattons.org
+title: KansasPattons
 email: jeffrey@kansaspattons.org
 description: >-
 baseurl: "/kansaspattons"
@@ -29,7 +29,7 @@ plugins:
 author:
   name   : "Jeff Patton"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Just a dad who takes too many pictures."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
