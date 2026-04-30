@@ -12,7 +12,7 @@ source:
 gallery: "wordpress-2013-03-19-102210-march-19-2013"
 categories:
   - "family"
-  - "nathan"
+  - "Nathan"
   - birthdays
 tags:
   - "wordpress"

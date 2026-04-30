@@ -13,8 +13,8 @@ gallery: "wordpress-2013-06-02-091233-june-2-2012"
 categories:
   - "children"
   - "family"
-  - "natalie"
-  - "nathan"
+  - "Natalie"
+  - "Nathan"
   - cancer
 tags:
   - "wordpress"

@@ -11,8 +11,8 @@ source:
   url: "https://jeffspatton.wordpress.com/2013/05/13/may-13-2013/"
 gallery: "wordpress-2013-05-13-071852-may-13-2013"
 categories:
-  - "natalie"
-  - cpls
+  - "Natalie"
+  - "CPLS"
   - concerts
 tags:
   - "wordpress"

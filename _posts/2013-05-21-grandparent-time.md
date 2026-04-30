@@ -12,7 +12,7 @@ source:
 gallery: "wordpress-2013-05-21-075051-may-21-2013"
 categories:
   - "family"
-  - "natalie"
+  - "Natalie"
 tags:
   - "wordpress"
 ---

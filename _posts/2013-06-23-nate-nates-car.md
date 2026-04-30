@@ -11,7 +11,7 @@ source:
   url: "https://jeffspatton.wordpress.com/2013/06/23/june-23-2013/"
 gallery: "wordpress-2013-06-23-080636-june-23-2013"
 categories:
-  - "nathan"
+  - "Nathan"
 tags:
   - "wordpress"
 ---

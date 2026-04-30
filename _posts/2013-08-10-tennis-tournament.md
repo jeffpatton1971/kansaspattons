@@ -11,7 +11,7 @@ source:
   url: "https://jeffspatton.wordpress.com/2013/08/10/august-10-2013/"
 gallery: "wordpress-2013-08-10-165044-august-10-2013"
 categories:
-  - "natalie"
+  - "Natalie"
   - tennis
 tags:
   - "wordpress"

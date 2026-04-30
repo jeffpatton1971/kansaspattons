@@ -12,8 +12,8 @@ source:
 gallery: "wordpress-2013-06-22-074704-june-22-2013"
 categories:
   - "family"
-  - "natalie"
-  - "nathan"
+  - "Natalie"
+  - "Nathan"
   - tennis
 tags:
   - "wordpress"

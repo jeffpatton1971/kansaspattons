@@ -13,8 +13,8 @@ gallery: "wordpress-2013-05-19-074516-may-19-2013"
 categories:
   - "children"
   - "family"
-  - "natalie"
-  - "nathan"
+  - "Natalie"
+  - "Nathan"
 tags:
   - "wordpress"
 ---

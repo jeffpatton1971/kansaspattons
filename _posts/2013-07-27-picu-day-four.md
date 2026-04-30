@@ -11,7 +11,7 @@ source:
   url: "https://jeffspatton.wordpress.com/2013/07/27/july-27-2013/"
 gallery: "wordpress-2013-07-27-110130-july-27-2013"
 categories:
-  - "nathan"
+  - "Nathan"
   - cancer
 tags:
   - "wordpress"

@@ -12,7 +12,7 @@ source:
 gallery: "wordpress-2013-05-26-085559-may-26-2013"
 categories:
   - "family"
-  - "nathan"
+  - "Nathan"
 tags:
   - "wordpress"
 ---

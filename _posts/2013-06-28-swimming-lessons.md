@@ -11,7 +11,7 @@ source:
   url: "https://jeffspatton.wordpress.com/2013/06/28/june-28-2013/"
 gallery: "wordpress-2013-06-28-083418-june-28-2013"
 categories:
-  - "natalie"
+  - "Natalie"
 tags:
   - "wordpress"
 ---

@@ -4,8 +4,8 @@ title:      "Rees Fruit Farm Field Trip"
 post_id:         2009-10-28-cpls-kindergarten-trip
 date:       2009-10-28 09:55:00 -0600
 categories:
-  - natalie
-  - cpls
+  - "Natalie"
+  - "CPLS"
   - field-trips
 tags:
   - "wordpress"

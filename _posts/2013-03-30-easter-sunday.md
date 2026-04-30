@@ -13,7 +13,7 @@ gallery: "wordpress-2013-03-30-124134-march-30-2013"
 categories:
   - "family"
   - holidays
-  - easter
+  - "Easter"
 tags:
   - "wordpress"
 ---

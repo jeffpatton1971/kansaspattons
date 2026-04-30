@@ -13,8 +13,8 @@ gallery: "wordpress-2010-11-29-175900-november-29-2011"
 categories:
   - "family"
   - "holidays"
-  - "nathan"
-  - "thanksgiving"
+  - "Nathan"
+  - "Thanksgiving"
 tags:
   - "wordpress"
 ---

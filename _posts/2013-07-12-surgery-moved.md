@@ -10,7 +10,7 @@ source:
   id: 760
   url: "https://jeffspatton.wordpress.com/2013/07/12/july-12-2013/"
 categories:
-  - "nathan"
+  - "Nathan"
   - cancer
 tags:
   - "wordpress"

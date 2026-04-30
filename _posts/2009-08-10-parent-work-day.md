@@ -4,7 +4,7 @@ title:      "Parent Workday"
 post_id:         2009-08-10-parent-work-day
 date:       2009-08-10 09:02:00 -0600
 categories:
-  - cpls
+  - "CPLS"
 tags:
   - "wordpress"
 author:     Jeff

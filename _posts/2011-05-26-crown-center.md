@@ -11,11 +11,11 @@ source:
   url: "https://jeffspatton.wordpress.com/2011/05/26/may-26-2011/"
 gallery: "wordpress-2011-05-26-200700-may-26-2011"
 categories:
-  - "cpls"
+  - "CPLS"
   - "crown-center"
   - "field-trips"
   - "first-grade"
-  - "natalie"
+  - "Natalie"
 tags:
   - "wordpress"
 ---

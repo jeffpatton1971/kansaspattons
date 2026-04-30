@@ -11,8 +11,8 @@ source:
   url: "https://jeffspatton.wordpress.com/2013/05/08/may-8-2013/"
 gallery: "wordpress-2013-05-08-081656-may-8-2013"
 categories:
-  - "natalie"
-  - cpls
+  - "Natalie"
+  - "CPLS"
 tags:
   - "wordpress"
 ---

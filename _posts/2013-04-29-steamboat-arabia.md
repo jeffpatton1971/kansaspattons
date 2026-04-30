@@ -11,8 +11,8 @@ source:
   url: "https://jeffspatton.wordpress.com/2013/04/29/april-29-2013/"
 gallery: "wordpress-2013-04-29-221344-april-29-2013"
 categories:
-  - "natalie"
-  - cpls
+  - "Natalie"
+  - "CPLS"
   - field-trips
 tags:
   - "wordpress"
