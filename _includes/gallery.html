@@ -23,11 +23,18 @@
 
 <div class="post-gallery">
 {% for image in images %}
+  {% assign raw_url = image.raw_url | default: image.source.uri | downcase %}
+  {% assign is_video = false %}
+  {% if raw_url contains ".mp4" or raw_url contains ".mov" or raw_url contains ".m4v" or raw_url contains ".webm" %}
+    {% assign is_video = true %}
+  {% endif %}
+  {% unless is_video %}
   <figure class="post-gallery-item">
     <a href="{{ image.url | relative_url }}">
       <img src="{{ image.thumb_url | escape }}" alt="{{ image.title | escape }}" loading="lazy">
     </a>
   </figure>
+  {% endunless %}
 {% endfor %}
 </div>
 
