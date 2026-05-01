@@ -1,0 +1,28 @@
+---
+layout: item
+id: facebook-2003-09-18-095903-mobile-uploads-3390
+title: "Mobile uploads"
+description:
+tags: []
+taken_at: 2020-12-13
+year: 2020
+month: 12
+day: 13
+weekday: Sunday
+gallery: facebook-2003-09-18-095903-mobile-uploads
+post_id: 2003-09-18-095903-mobile-uploads
+source:
+  type: facebook
+  subtype: album
+  album_title: "Mobile uploads"
+  album_file: ".facebook\\your_facebook_activity\\posts\\album\\21.json"
+  uri: "your_facebook_activity/posts/media/Mobileuploads_10150097505423340/10158757539198340.jpg"
+  timestamp: 1607890953
+source_filename: "10158757539198340.jpg"
+raw_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/images/facebook/2020/12/13/10158757539198340.jpg"
+thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/facebook/2020/12/13/10158757539198340.jpg"
+post: "/blog/2003/09/18/095903-mobile-uploads.html"
+index: 3390
+media_type: image
+---
+

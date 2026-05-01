@@ -1,0 +1,673 @@
+Facebook Export Discovery Report
+Generated: 2026-04-30 16:19:45
+ExportPath: D:\CODE\Sites\kansaspattons\.facebook
+ReportPath: D:\CODE\Sites\kansaspattons\tools\facebook-export-report.txt
+
+Summary
+=======
+Total JSON files: 370
+Total media files: 6166
+Posts-related JSON candidates: 10
+Primary regular post JSON candidates: 1
+Album JSON candidates: 43
+Album count: 43
+Album media reference count: 5297
+Album missing media count: 0
+Message inbox folders total: 96
+Message inbox folders with photos: 11
+Message inbox folders skipped because no photos: 85
+JSON parse/inspection errors: 0
+
+Posts-Related JSON Candidates
+=============================
+- .facebook\your_facebook_activity\posts\check-ins.json (85977 bytes)
+- .facebook\your_facebook_activity\posts\edits_you_made_to_posts.json (80742 bytes)
+- .facebook\your_facebook_activity\posts\facebook_editor.json (2761 bytes)
+- .facebook\your_facebook_activity\posts\media_used_for_memories.json (67883 bytes)
+- .facebook\your_facebook_activity\posts\places_you_have_been_tagged_in.json (194805 bytes)
+- .facebook\your_facebook_activity\posts\posts_on_other_pages_and_profiles.json (57303 bytes)
+- .facebook\your_facebook_activity\posts\shared_memories.json (6760 bytes)
+- .facebook\your_facebook_activity\posts\your_posts__check_ins__photos_and_videos_1.json (4753210 bytes)
+- .facebook\your_facebook_activity\posts\your_uncategorized_photos.json (58134 bytes)
+- .facebook\your_facebook_activity\posts\your_videos.json (171276 bytes)
+
+Album JSON Candidates
+=====================
+- .facebook\your_facebook_activity\posts\album\0.json (18613 bytes)
+- .facebook\your_facebook_activity\posts\album\1.json (8663 bytes)
+- .facebook\your_facebook_activity\posts\album\10.json (3848 bytes)
+- .facebook\your_facebook_activity\posts\album\11.json (1727 bytes)
+- .facebook\your_facebook_activity\posts\album\12.json (25449 bytes)
+- .facebook\your_facebook_activity\posts\album\13.json (3011 bytes)
+- .facebook\your_facebook_activity\posts\album\14.json (1942 bytes)
+- .facebook\your_facebook_activity\posts\album\15.json (1028 bytes)
+- .facebook\your_facebook_activity\posts\album\16.json (1000 bytes)
+- .facebook\your_facebook_activity\posts\album\17.json (4053 bytes)
+- .facebook\your_facebook_activity\posts\album\18.json (15535 bytes)
+- .facebook\your_facebook_activity\posts\album\19.json (32195 bytes)
+- .facebook\your_facebook_activity\posts\album\2.json (5132 bytes)
+- .facebook\your_facebook_activity\posts\album\20.json (18290 bytes)
+- .facebook\your_facebook_activity\posts\album\21.json (1614919 bytes)
+- .facebook\your_facebook_activity\posts\album\22.json (1409 bytes)
+- .facebook\your_facebook_activity\posts\album\23.json (21124 bytes)
+- .facebook\your_facebook_activity\posts\album\24.json (1416 bytes)
+- .facebook\your_facebook_activity\posts\album\25.json (8688 bytes)
+- .facebook\your_facebook_activity\posts\album\26.json (6836 bytes)
+- .facebook\your_facebook_activity\posts\album\27.json (13580 bytes)
+- .facebook\your_facebook_activity\posts\album\28.json (2716 bytes)
+- .facebook\your_facebook_activity\posts\album\29.json (288319 bytes)
+- .facebook\your_facebook_activity\posts\album\3.json (3103 bytes)
+- .facebook\your_facebook_activity\posts\album\30.json (8955 bytes)
+- .facebook\your_facebook_activity\posts\album\31.json (895 bytes)
+- .facebook\your_facebook_activity\posts\album\32.json (4713 bytes)
+- .facebook\your_facebook_activity\posts\album\33.json (9940 bytes)
+- .facebook\your_facebook_activity\posts\album\34.json (9559 bytes)
+- .facebook\your_facebook_activity\posts\album\35.json (4107 bytes)
+- .facebook\your_facebook_activity\posts\album\36.json (1834 bytes)
+- .facebook\your_facebook_activity\posts\album\37.json (9188 bytes)
+- .facebook\your_facebook_activity\posts\album\38.json (7701 bytes)
+- .facebook\your_facebook_activity\posts\album\39.json (910 bytes)
+- .facebook\your_facebook_activity\posts\album\4.json (50047 bytes)
+- .facebook\your_facebook_activity\posts\album\40.json (5096 bytes)
+- .facebook\your_facebook_activity\posts\album\41.json (6120 bytes)
+- .facebook\your_facebook_activity\posts\album\42.json (1736 bytes)
+- .facebook\your_facebook_activity\posts\album\5.json (6619 bytes)
+- .facebook\your_facebook_activity\posts\album\6.json (2703 bytes)
+- .facebook\your_facebook_activity\posts\album\7.json (8232 bytes)
+- .facebook\your_facebook_activity\posts\album\8.json (1832 bytes)
+- .facebook\your_facebook_activity\posts\album\9.json (1542 bytes)
+
+Media Folder Counts
+===================
+- .facebook\your_facebook_activity\posts\media\Mobileuploads_10150097505423340: 3514
+- .facebook\your_facebook_activity\posts\media\Photos_429793088339: 803
+- .facebook\your_facebook_activity\posts\media\videos: 333
+- .facebook\your_facebook_activity\messages\inbox\triciamarsh_10153867638158340\photos: 157
+- .facebook\your_facebook_activity\posts\media\your_posts: 155
+- .facebook\your_facebook_activity\posts\media\BuffaloFieldTrip_10155661068233340: 116
+- .facebook\your_facebook_activity\posts\media\MobileUploads_137765653339: 99
+- .facebook\your_facebook_activity\posts\media\InstagramPhotos_10152000137868340: 95
+- .facebook\your_facebook_activity\messages\stickers_used: 94
+- .facebook\your_facebook_activity\posts\media\MobileUploads_50116078339: 79
+- .facebook\your_facebook_activity\posts\media\MobileUploads_105741183339: 66
+- .facebook\your_facebook_activity\messages\e2ee_cutover\maliapatton_10153620502333340\photos: 50
+- .facebook\your_facebook_activity\posts\media\NatalieandNathansDAYOFFUN_10150278911078340: 50
+- .facebook\your_facebook_activity\posts\media\THS89_132665528339: 43
+- .facebook\your_facebook_activity\posts\media\20144thgradeKCKAquariumfieldtrip_10152319014533340: 36
+- .facebook\your_facebook_activity\posts\media\Nathans6MoPictures_10150352988028340: 34
+- .facebook\your_facebook_activity\posts\media\Chicago2008_18382423339: 26
+- .facebook\your_facebook_activity\posts\media\StateCapitolFieldtrip_10150576654603340: 24
+- .facebook\your_facebook_activity\posts\media\Profilepictures_433468763339: 22
+- .facebook\your_facebook_activity\posts\media\WorkStuff_86938323339: 22
+- .facebook\your_facebook_activity\posts\media\Nathan_10150129484233340: 20
+- .facebook\your_facebook_activity\posts\media\WeddingPictures_10150303559563340: 20
+- .facebook\your_facebook_activity\posts\media\Coverphotos_10150327597298340: 19
+- .facebook\your_facebook_activity\posts\media\20144thgradeRenaissanceFaire_10152352831998340: 18
+- .facebook\your_facebook_activity\posts\media\Windows8_10150314897133340: 18
+- .facebook\your_facebook_activity\posts\media\NathanOneYear_10150732951523340: 17
+- .facebook\your_facebook_activity\posts\media\TexasTripWinter2008_42891083339: 15
+- .facebook\your_facebook_activity\messages\inbox\triciamarsh_10153867638158340\gifs: 13
+- .facebook\your_facebook_activity\messages\inbox\adamkrissylynetteand2others_2493979603959689\photos: 12
+- .facebook\your_facebook_activity\posts\media\MaliasCakes_41941678339: 12
+- .facebook\your_facebook_activity\posts\media\YoYos20112012_10150419658138340: 12
+- .facebook\your_facebook_activity\messages\message_requests\saracecedanandmalia_1882549188535368\photos: 11
+- .facebook\your_facebook_activity\posts\media\OurHouse_293803983339: 11
+- .facebook\your_facebook_activity\posts\media\Snow_496049988339: 11
+- .facebook\your_facebook_activity\posts\media\2016Lastdayofschool_10154125605288340: 9
+- .facebook\your_facebook_activity\posts\media\Christmas2008_41927448339: 9
+- .facebook\your_facebook_activity\posts\media\Easter2009_77117693339: 9
+- .facebook\your_facebook_activity\posts\media\Halloween2014_10152769868258340: 8
+- .facebook\your_facebook_activity\posts\media\IslandParadisePhotos_228813223339: 8
+- .facebook\your_facebook_activity\posts\media\BryanCollege_10151243170168340: 7
+- .facebook\your_facebook_activity\posts\media\June142008_16636278339: 7
+- .facebook\your_facebook_activity\posts\media\Weather_425454333339: 7
+- .facebook\your_facebook_activity\messages\e2ee_cutover\kathylynn_10157130299553340\photos: 6
+- .facebook\your_facebook_activity\messages\inbox\kathyandmalia_5040599365982519\photos: 6
+- .facebook\your_facebook_activity\posts\media\Haloween2008_41932343339: 6
+- .facebook\your_facebook_activity\posts\media\signs_137534138339: 6
+- .facebook\your_facebook_activity\posts\media\Halloween2007_41934858339: 5
+- .facebook\your_facebook_activity\posts\media\MyFamily_8682473339: 5
+- .facebook\your_facebook_activity\posts\media\NatalieatMichelleswedding_77122643339: 5
+- .facebook\your_facebook_activity\messages\inbox\annettekeeganphillips_10153867638133340\photos: 4
+- .facebook\your_facebook_activity\messages\e2ee_cutover\jonyceruiz_10153870113298179\videos: 3
+- .facebook\your_facebook_activity\messages\e2ee_cutover\peggynelson_10153437458351352\photos: 3
+- .facebook\your_facebook_activity\messages\e2ee_cutover\karenvaughn_10154828463193340\photos: 2
+- .facebook\your_facebook_activity\messages\inbox\cancerwarriorfamilies_881959105214139\photos: 2
+- .facebook\your_facebook_activity\messages\inbox\facebookuser_10157363856128340\photos: 2
+- .facebook\your_facebook_activity\messages\inbox\laceyskelton_10108388584057397\photos: 2
+- .facebook\your_facebook_activity\messages\inbox\triciamarsh_10153867638158340\videos: 2
+- .facebook\your_facebook_activity\messages\e2ee_cutover\aaronwislang_10155129552648340\photos: 1
+- .facebook\your_facebook_activity\messages\e2ee_cutover\debbiewillisbaker_10155783227823340\photos: 1
+- .facebook\your_facebook_activity\messages\e2ee_cutover\facebookuser_10159218986888340\photos: 1
+- .facebook\your_facebook_activity\messages\e2ee_cutover\jonyceruiz_10153870113298179\audio: 1
+- .facebook\your_facebook_activity\messages\e2ee_cutover\peggynelson_10153437458351352\videos: 1
+- .facebook\your_facebook_activity\messages\inbox\cairparavellatinschool_10155259755368340\photos: 1
+- .facebook\your_facebook_activity\messages\inbox\farongshults_10156191901998340\photos: 1
+- .facebook\your_facebook_activity\messages\inbox\jacquesarahcarolanneand13others_2492766917462843\photos: 1
+- .facebook\your_facebook_activity\messages\inbox\jamescartmill_10155395663723340\photos: 1
+- .facebook\your_facebook_activity\messages\inbox\triciamarsh_10153867638158340\audio: 1
+- .facebook\your_facebook_activity\messages\message_requests\marymitchellthun_10156834273958340\videos: 1
+- .facebook\your_facebook_activity\messages\support_files: 1
+- .facebook\your_facebook_activity\posts\media\LomogramPhotos_10151409860813340: 1
+- .facebook\your_facebook_activity\posts\media\LongExposure_10150989105928340: 1
+- .facebook\your_facebook_activity\posts\media\PurpleYourProfilePhotos_10152168114263340: 1
+- .facebook\your_facebook_activity\posts\media\Windows8coverphotocreator_10151249417258340: 1
+
+Sample Album Objects (first 3)
+==============================
+- File: .facebook\your_facebook_activity\posts\album\0.json
+  Title: 2014 4th grade KCK Aquarium field trip
+  Date range: 2014-04-15 09:51:36 to 2014-04-15 21:47:32
+  Description: 
+  Media references: 36
+  Missing media: 0
+  First media URIs:
+    - your_facebook_activity/posts/media/20144thgradeKCKAquariumfieldtrip_10152319014533340/10152319034838340.jpg
+      exists: True
+      local: .facebook\your_facebook_activity\posts\media\20144thgradeKCKAquariumfieldtrip_10152319014533340\10152319034838340.jpg
+    - your_facebook_activity/posts/media/20144thgradeKCKAquariumfieldtrip_10152319014533340/10152319036628340.jpg
+      exists: True
+      local: .facebook\your_facebook_activity\posts\media\20144thgradeKCKAquariumfieldtrip_10152319014533340\10152319036628340.jpg
+    - your_facebook_activity/posts/media/20144thgradeKCKAquariumfieldtrip_10152319014533340/10152319039003340.jpg
+      exists: True
+      local: .facebook\your_facebook_activity\posts\media\20144thgradeKCKAquariumfieldtrip_10152319014533340\10152319039003340.jpg
+    - your_facebook_activity/posts/media/20144thgradeKCKAquariumfieldtrip_10152319014533340/10152319039648340.jpg
+      exists: True
+      local: .facebook\your_facebook_activity\posts\media\20144thgradeKCKAquariumfieldtrip_10152319014533340\10152319039648340.jpg
+    - your_facebook_activity/posts/media/20144thgradeKCKAquariumfieldtrip_10152319014533340/10152319040818340.jpg
+      exists: True
+      local: .facebook\your_facebook_activity\posts\media\20144thgradeKCKAquariumfieldtrip_10152319014533340\10152319040818340.jpg
+- File: .facebook\your_facebook_activity\posts\album\1.json
+  Title: 2014 4th grade Renaissance Faire
+  Date range: 2014-04-27 19:05:13 to 2014-04-30 17:31:48
+  Description: 
+  Media references: 18
+  Missing media: 0
+  First media URIs:
+    - your_facebook_activity/posts/media/20144thgradeRenaissanceFaire_10152352831998340/10152353275488340.jpg
+      exists: True
+      local: .facebook\your_facebook_activity\posts\media\20144thgradeRenaissanceFaire_10152352831998340\10152353275488340.jpg
+    - your_facebook_activity/posts/media/20144thgradeRenaissanceFaire_10152352831998340/10152353275493340.jpg
+      exists: True
+      local: .facebook\your_facebook_activity\posts\media\20144thgradeRenaissanceFaire_10152352831998340\10152353275493340.jpg
+    - your_facebook_activity/posts/media/20144thgradeRenaissanceFaire_10152352831998340/10152353275498340.jpg
+      exists: True
+      local: .facebook\your_facebook_activity\posts\media\20144thgradeRenaissanceFaire_10152352831998340\10152353275498340.jpg
+    - your_facebook_activity/posts/media/20144thgradeRenaissanceFaire_10152352831998340/10152353275503340.jpg
+      exists: True
+      local: .facebook\your_facebook_activity\posts\media\20144thgradeRenaissanceFaire_10152352831998340\10152353275503340.jpg
+    - your_facebook_activity/posts/media/20144thgradeRenaissanceFaire_10152352831998340/10152353275508340.jpg
+      exists: True
+      local: .facebook\your_facebook_activity\posts\media\20144thgradeRenaissanceFaire_10152352831998340\10152353275508340.jpg
+- File: .facebook\your_facebook_activity\posts\album\10.json
+  Title: Halloween 2014
+  Date range: 2014-10-24 20:41:49 to 2014-10-25 09:26:26
+  Description: 
+  Media references: 8
+  Missing media: 0
+  First media URIs:
+    - your_facebook_activity/posts/media/Halloween2014_10152769868258340/10152769869968340.jpg
+      exists: True
+      local: .facebook\your_facebook_activity\posts\media\Halloween2014_10152769868258340\10152769869968340.jpg
+    - your_facebook_activity/posts/media/Halloween2014_10152769868258340/10152769870603340.jpg
+      exists: True
+      local: .facebook\your_facebook_activity\posts\media\Halloween2014_10152769868258340\10152769870603340.jpg
+    - your_facebook_activity/posts/media/Halloween2014_10152769868258340/10152769871073340.jpg
+      exists: True
+      local: .facebook\your_facebook_activity\posts\media\Halloween2014_10152769868258340\10152769871073340.jpg
+    - your_facebook_activity/posts/media/Halloween2014_10152769868258340/10152769871383340.jpg
+      exists: True
+      local: .facebook\your_facebook_activity\posts\media\Halloween2014_10152769868258340\10152769871383340.jpg
+    - your_facebook_activity/posts/media/Halloween2014_10152769868258340/10152769871788340.jpg
+      exists: True
+      local: .facebook\your_facebook_activity\posts\media\Halloween2014_10152769868258340\10152769871788340.jpg
+
+Album Details
+=============
+- .facebook\your_facebook_activity\posts\album\0.json
+  title: 2014 4th grade KCK Aquarium field trip
+  date_range: 2014-04-15 09:51:36 to 2014-04-15 21:47:32
+  media_references: 36
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\1.json
+  title: 2014 4th grade Renaissance Faire
+  date_range: 2014-04-27 19:05:13 to 2014-04-30 17:31:48
+  media_references: 18
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\10.json
+  title: Halloween 2014
+  date_range: 2014-10-24 20:41:49 to 2014-10-25 09:26:26
+  media_references: 8
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\11.json
+  title: Haloween 2008
+  date_range: 2008-12-26 09:38:17 to 2008-12-26 09:38:17
+  media_references: 6
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\12.json
+  title: Instagram Photos
+  date_range: 2014-02-14 07:31:22 to 2020-11-15 10:39:35
+  media_references: 95
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\13.json
+  title: Island Paradise Photos
+  date_range: 2009-12-30 17:57:47 to 2010-02-01 16:54:46
+  media_references: 8
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\14.json
+  title: June 14, 2008
+  date_range: 2008-06-15 22:15:25 to 2008-06-15 22:15:25
+  media_references: 7
+  missing_media: 0
+  description: Father/Daughter day at Gage Park
+- .facebook\your_facebook_activity\posts\album\15.json
+  title: Lomogram Photos
+  date_range: 2013-02-05 22:23:38 to 2013-02-05 22:23:38
+  media_references: 1
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\16.json
+  title: Long Exposure
+  date_range: 2012-06-24 22:12:20 to 2012-06-24 22:12:20
+  media_references: 1
+  missing_media: 0
+  description: Photos taken at long exposures
+- .facebook\your_facebook_activity\posts\album\17.json
+  title: Malia's Cakes
+  date_range: 2008-12-26 10:35:48 to 2016-03-13 17:08:49
+  media_references: 12
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\18.json
+  title: Mobile Uploads
+  date_range: 2009-07-18 16:41:35 to 2009-09-18 21:22:44
+  media_references: 66
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\19.json
+  title: Mobile Uploads
+  date_range: 2009-09-22 21:10:39 to 2011-01-29 20:33:43
+  media_references: 99
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\2.json
+  title: 2016 Last day of school
+  date_range: 2016-05-19 10:32:23 to 2016-05-19 17:20:50
+  media_references: 9
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\20.json
+  title: Mobile Uploads
+  date_range: 2009-02-06 18:26:46 to 2009-07-18 15:39:29
+  media_references: 79
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\21.json
+  title: Mobile uploads
+  date_range: 2003-09-18 09:59:03 to 2025-01-21 16:05:35
+  media_references: 3514
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\22.json
+  title: My Family
+  date_range: 2008-03-09 16:28:11 to 2008-03-24 11:22:06
+  media_references: 5
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\23.json
+  title: Natalie and Nathan's DAY OF FUN!
+  date_range: 2011-08-07 21:54:29 to 2011-08-07 22:15:28
+  media_references: 50
+  missing_media: 0
+  description: A visit to the Mulvane Art Museum to play with Lego's!
+- .facebook\your_facebook_activity\posts\album\24.json
+  title: Natalie at Michelle's wedding
+  date_range: 2009-04-28 14:02:38 to 2009-04-28 14:02:38
+  media_references: 5
+  missing_media: 0
+  description: A couple of pictures of Natalie in her flowergirl dress.
+- .facebook\your_facebook_activity\posts\album\25.json
+  title: Nathan
+  date_range: 2011-03-22 15:08:10 to 2011-04-02 12:16:50
+  media_references: 20
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\26.json
+  title: Nathan One Year
+  date_range: 2012-04-10 22:15:02 to 2012-04-10 22:19:49
+  media_references: 17
+  missing_media: 0
+  description: Nathan's one year photos
+- .facebook\your_facebook_activity\posts\album\27.json
+  title: Nathan's 6 Mo Pictures
+  date_range: 2011-10-12 19:21:57 to 2011-10-12 19:31:57
+  media_references: 34
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\28.json
+  title: Our House
+  date_range: 2009-04-18 12:27:47 to 2009-08-06 09:00:27
+  media_references: 11
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\29.json
+  title: Photos
+  date_range: 2010-08-24 22:04:31 to 2023-02-18 09:23:56
+  media_references: 803
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\3.json
+  title: Bryan College
+  date_range: 2012-11-10 11:34:06 to 2012-11-10 11:34:51
+  media_references: 7
+  missing_media: 0
+  description: Just found these sorting through all my photos.
+- .facebook\your_facebook_activity\posts\album\30.json
+  title: Profile pictures
+  date_range: 2008-03-03 09:16:10 to 2025-05-16 21:05:30
+  media_references: 22
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\31.json
+  title: Purple Your Profile Photos
+  date_range: 2014-02-03 22:18:47 to 2014-02-03 22:18:47
+  media_references: 1
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\32.json
+  title: Snow
+  date_range: 2011-01-10 11:16:13 to 2011-01-13 12:53:16
+  media_references: 11
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\33.json
+  title: State Capitol Field trip
+  date_range: 2012-02-02 14:23:02 to 2012-02-03 17:52:43
+  media_references: 24
+  missing_media: 0
+  description: Natalie's second grade class visit to the Capitol Building
+- .facebook\your_facebook_activity\posts\album\34.json
+  title: THS 89
+  date_range: 2009-09-10 23:40:19 to 2009-09-27 19:45:03
+  media_references: 43
+  missing_media: 0
+  description: Topeka High '89 Senior pictures Cotton Bowl pictures Random pictures Graduation pictures
+- .facebook\your_facebook_activity\posts\album\35.json
+  title: Texas Trip Winter 2008
+  date_range: 2009-01-01 09:26:24 to 2009-01-01 09:26:24
+  media_references: 15
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\36.json
+  title: Weather
+  date_range: 2010-08-12 22:36:55 to 2010-08-13 23:02:48
+  media_references: 7
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\37.json
+  title: Wedding Pictures
+  date_range: 2011-09-04 14:39:38 to 2011-09-04 15:43:15
+  media_references: 20
+  missing_media: 0
+  description: Self exaplanatory description here.
+- .facebook\your_facebook_activity\posts\album\38.json
+  title: Windows 8
+  date_range: 2011-09-13 20:28:05 to 2011-09-14 16:11:11
+  media_references: 18
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\39.json
+  title: Windows 8 cover photo creator
+  date_range: 2012-11-14 22:33:29 to 2012-11-14 22:33:29
+  media_references: 1
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\4.json
+  title: Buffalo Field Trip
+  date_range: 2017-09-30 13:02:50 to 2017-10-01 07:24:02
+  media_references: 116
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\40.json
+  title: Work Stuff
+  date_range: 2009-02-21 09:48:32 to 2009-10-30 07:52:53
+  media_references: 22
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\41.json
+  title: YoYo's 2011-2012
+  date_range: 2011-11-25 18:36:20 to 2011-11-25 18:40:55
+  media_references: 12
+  missing_media: 0
+  description: Patton men getting together for some fun
+- .facebook\your_facebook_activity\posts\album\42.json
+  title: signs
+  date_range: 2009-06-05 21:20:53 to 2011-04-09 15:16:58
+  media_references: 6
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\5.json
+  title: Chicago 2008
+  date_range: 2008-07-05 19:32:25 to 2008-07-07 23:18:04
+  media_references: 26
+  missing_media: 0
+  description: Family vacation with my sister
+- .facebook\your_facebook_activity\posts\album\6.json
+  title: Christmas 2008
+  date_range: 2008-12-26 08:56:54 to 2008-12-26 08:56:54
+  media_references: 9
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\7.json
+  title: Cover photos
+  date_range: 2011-05-28 11:55:26 to 2020-05-25 09:13:04
+  media_references: 19
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\8.json
+  title: Easter 2009
+  date_range: 2009-04-28 13:51:02 to 2009-04-28 13:51:02
+  media_references: 9
+  missing_media: 0
+- .facebook\your_facebook_activity\posts\album\9.json
+  title: Halloween 2007
+  date_range: 2008-12-26 09:53:40 to 2008-12-26 09:53:40
+  media_references: 5
+  missing_media: 0
+
+Sample Post Objects (first 3)
+=============================
+- File: .facebook\your_facebook_activity\posts\your_posts__check_ins__photos_and_videos_1.json
+  Object index: 0
+  Date: 2008-03-17 10:04:56
+  Title: Jeff Patton shared a link.
+  Text: Watch the game!
+  Media references: 0
+- File: .facebook\your_facebook_activity\posts\your_posts__check_ins__photos_and_videos_1.json
+  Object index: 1
+  Date: 2008-09-26 16:16:38
+  Title: Jeff Patton shared a link.
+  Text: This is AWEsome!
+  Media references: 0
+- File: .facebook\your_facebook_activity\posts\your_posts__check_ins__photos_and_videos_1.json
+  Object index: 2
+  Date: 2008-10-24 16:07:19
+  Title: Jeff Patton shared a link.
+  Text: 
+  Media references: 0
+
+Sample Message-Photo Folders (first 10)
+=======================================
+- Folder: adamkrissylynetteand2others_2493979603959689
+  Photo count: 12
+  Message JSON files: message_1.json
+  Date range: 2019-05-03 15:37:34 to 2019-05-03 16:01:48
+  First 5 photos: 1085475014910015.jpg, 2124557637836164.jpg, 2330020707257771.jpg, 2459730367393298.jpg, 284866035722533.jpg
+- Folder: annettekeeganphillips_10153867638133340
+  Photo count: 4
+  Message JSON files: message_1.json
+  Date range: 2010-11-10 16:36:56 to 2024-12-19 12:46:32
+  First 5 photos: 1012010949141681.jpg, 1559053690899951.jpg, 394696864743240.jpg, 526646314780439.jpg
+- Folder: cairparavellatinschool_10155259755368340
+  Photo count: 1
+  Message JSON files: message_1.json
+  Date range: 2017-05-25 22:57:11 to 2017-05-25 22:58:56
+  First 5 photos: 10155259755358340.jpg
+- Folder: cancerwarriorfamilies_881959105214139
+  Photo count: 2
+  Message JSON files: message_1.json
+  Date range: 2015-09-13 08:07:09 to 2018-03-31 08:39:58
+  First 5 photos: 10207560629004099.jpg, 736377452318.jpg
+- Folder: facebookuser_10157363856128340
+  Photo count: 2
+  Message JSON files: message_1.json
+  Date range: 2019-08-06 08:13:57 to 2021-03-24 19:53:40
+  First 5 photos: 2519094141460075.jpg, 715756202264501.jpg
+- Folder: farongshults_10156191901998340
+  Photo count: 1
+  Message JSON files: message_1.json
+  Date range: 2018-04-03 16:48:16 to 2022-01-10 10:58:11
+  First 5 photos: 414841826185566.png
+- Folder: jacquesarahcarolanneand13others_2492766917462843
+  Photo count: 1
+  Message JSON files: message_1.json
+  Date range: 2018-12-02 16:24:07 to 2019-01-17 17:23:57
+  First 5 photos: 357895164971176.jpg
+- Folder: jamescartmill_10155395663723340
+  Photo count: 1
+  Message JSON files: message_1.json
+  Date range: 2017-07-04 18:07:23 to 2020-04-20 18:27:16
+  First 5 photos: 228556304868251.jpg
+- Folder: kathyandmalia_5040599365982519
+  Photo count: 6
+  Message JSON files: message_1.json
+  Date range: 2021-02-07 09:27:10 to 2022-04-29 10:54:29
+  First 5 photos: 1142047226274500.jpg, 2675864412537924.jpg, 517106569955557.jpg, 773863263286170.jpg, 820813578810922.jpg
+- Folder: laceyskelton_10108388584057397
+  Photo count: 2
+  Message JSON files: message_1.json
+  Date range: 2020-04-01 17:25:54 to 2020-04-02 19:16:00
+  First 5 photos: 146206503483018.jpg, 702439230561768.jpg
+
+All Message-Photo Folders
+=========================
+- triciamarsh_10153867638158340
+  photo_count: 157
+  message_json_files: message_1.json
+  date_range: 2014-04-23 21:48:54 to 2024-06-17 13:17:28
+  first_5_photos: 10152337448728340.jpg, 10152337460558340.jpg, 10153867662578340.jpg, 10154470612838340.gif, 10154519389768340.jpg
+- adamkrissylynetteand2others_2493979603959689
+  photo_count: 12
+  message_json_files: message_1.json
+  date_range: 2019-05-03 15:37:34 to 2019-05-03 16:01:48
+  first_5_photos: 1085475014910015.jpg, 2124557637836164.jpg, 2330020707257771.jpg, 2459730367393298.jpg, 284866035722533.jpg
+- kathyandmalia_5040599365982519
+  photo_count: 6
+  message_json_files: message_1.json
+  date_range: 2021-02-07 09:27:10 to 2022-04-29 10:54:29
+  first_5_photos: 1142047226274500.jpg, 2675864412537924.jpg, 517106569955557.jpg, 773863263286170.jpg, 820813578810922.jpg
+- annettekeeganphillips_10153867638133340
+  photo_count: 4
+  message_json_files: message_1.json
+  date_range: 2010-11-10 16:36:56 to 2024-12-19 12:46:32
+  first_5_photos: 1012010949141681.jpg, 1559053690899951.jpg, 394696864743240.jpg, 526646314780439.jpg
+- cancerwarriorfamilies_881959105214139
+  photo_count: 2
+  message_json_files: message_1.json
+  date_range: 2015-09-13 08:07:09 to 2018-03-31 08:39:58
+  first_5_photos: 10207560629004099.jpg, 736377452318.jpg
+- facebookuser_10157363856128340
+  photo_count: 2
+  message_json_files: message_1.json
+  date_range: 2019-08-06 08:13:57 to 2021-03-24 19:53:40
+  first_5_photos: 2519094141460075.jpg, 715756202264501.jpg
+- laceyskelton_10108388584057397
+  photo_count: 2
+  message_json_files: message_1.json
+  date_range: 2020-04-01 17:25:54 to 2020-04-02 19:16:00
+  first_5_photos: 146206503483018.jpg, 702439230561768.jpg
+- cairparavellatinschool_10155259755368340
+  photo_count: 1
+  message_json_files: message_1.json
+  date_range: 2017-05-25 22:57:11 to 2017-05-25 22:58:56
+  first_5_photos: 10155259755358340.jpg
+- farongshults_10156191901998340
+  photo_count: 1
+  message_json_files: message_1.json
+  date_range: 2018-04-03 16:48:16 to 2022-01-10 10:58:11
+  first_5_photos: 414841826185566.png
+- jacquesarahcarolanneand13others_2492766917462843
+  photo_count: 1
+  message_json_files: message_1.json
+  date_range: 2018-12-02 16:24:07 to 2019-01-17 17:23:57
+  first_5_photos: 357895164971176.jpg
+- jamescartmill_10155395663723340
+  photo_count: 1
+  message_json_files: message_1.json
+  date_range: 2017-07-04 18:07:23 to 2020-04-20 18:27:16
+  first_5_photos: 228556304868251.jpg
+
+Message Inbox Folders Skipped Because No Photos
+===============================================
+- amycharleskarinaand3others_2066469243413976: no photos folder
+- amycharleskarinaand4others_2599017456789951: no photos folder
+- amyscritchfield_10156277508548340: no photos folder
+- angelatyroler_10153724592578340: no photos folder
+- ashleycartmill_10155395662168340: no photos folder
+- ashleyhartnett_10101858497193903: no photos folder
+- beckyjustinerikaand40others_401847046537329: no photos folder
+- cairparavelcheer_10156407528493340: no photos folder
+- carriemarierajewski_10159498307278340: no photos folder
+- charlescline_10153867638153340: no photos folder
+- chrisdodds_10156109759708340: no photos folder
+- cindypatton_10157255360858340: no photos folder
+- dianadaniellemirandaand8others_401734446598071: no photos folder
+- elizabethandmike_528462223873357: no photos folder
+- facebookuser_10153867638143340: no photos folder
+- facebookuser_10153867640228340: no photos folder
+- facebookuser_10155155165268340: no photos folder
+- facebookuser_10155155165283340: no photos folder
+- facebookuser_10155578895008340: no photos folder
+- facebookuser_10157363799153340: no photos folder
+- facebookuser_10157653336483340: no photos folder
+- facebookuser_10157857501498340: no photos folder
+- facebookuserelizabethmikeand13others_718075584940031: no photos folder
+- facebookusermikejoeand12others_365317333489509: no photos folder
+- family_1449002562044557: no photos folder
+- fredpatton_10153841105468340: no photos folder
+- fredpatton_10154809147153340: no photos folder
+- friends_570014596443191: no photos folder
+- gerardlecanu_10100391407744277: no photos folder
+- heatherkuder_10156803124533340: no photos folder
+- hi_3159154994194081: no photos folder
+- iloveyouall_2545282192170613: no photos folder
+- ingridvandervort_10155130447668340: no photos folder
+- ingridvandervort_10156469771108340: no photos folder
+- jaymegreen_10156417439288340: no photos folder
+- jeffandmalia_1383864858406734: no photos folder
+- jeffpatton_10154293647438340: no photos folder
+- jeniwebb_10153796952133340: no photos folder
+- jennifervilleneuve_10159155608528340: no photos folder
+- jeremywhiting_10156616345308340: no photos folder
+- jillhummels_10104602720558069: no photos folder
+- jimnelson_10153557242888340: no photos folder
+- jimrupprecht_10103406275872809: no photos folder
+- joepatton_10153200256417820: no photos folder
+- jonyceandmalia_9494500930645977: no photos folder
+- jonycekylestephanieand2others_388171397959583: no photos folder
+- juliefugett_10156417980210411: no photos folder
+- kansascityroyals_10154809147148340: no photos folder
+- kansasmensbasketball_10160990625528340: no photos folder
+- karinapricevoutas_10155155165273340: no photos folder
+- kathrynelizabeth_10153867638148340: no photos folder
+- kristennoeladamshunnicutt_10155420995918340: no photos folder
+- kristischutter_10153613595893340: no photos folder
+- kylestephaniemaliaandjeni_131779900362779: no photos folder
+- lindaaustinruiz_10154809147158340: no photos folder
+- lindafeatherston_10153867638138340: no photos folder
+- lorenfalk_10157615820548340: no photos folder
+- maryannevoutas_10153408880923340: no photos folder
+- megangreen_10157422365194688: no photos folder
+- messengerkids_10157363820413340: no photos folder
+- metaai_10161708342058340: no photos folder
+- mitchduncan_10154556772471056: no photos folder
+- morganleigh_10155155165288340: no photos folder
+- morganmichelle_10105175665317107: no photos folder
+- nametests_10156970339883340: no photos folder
+- nicholasstudt_10153510914513340: no photos folder
+- nickpatton_10153867640223340: no photos folder
+- paulameinhardtturnbull_10154805461048340: no photos folder
+- paulruiz_10155304900753340: no photos folder
+- peggyandjonyce_193751917467281: no photos folder
+- peggyjonyceandmalia_9354223147964558: no photos folder
+- peggyjonycejimandfacebookuser_2293960870684954: no photos folder
+- reesecartmill_10158203687428340: no photos folder
+- romymastin_10153828211518340: no photos folder
+- sanditolworthy_10155155165278340: no photos folder
+- sarahcarolanneamyand12others_760734727376591: no photos folder
+- sarahcarolanneamyand9others_1531031947153837: no photos folder
+- sarahpatton_10154781061243340: no photos folder
+- scottmcdaneld_10153795242988340: no photos folder
+- shawntravers_10155262858302299: no photos folder
+- staceycookhickam_10154805461043340: no photos folder
+- theresanioceescobar_10154656617068340: no photos folder
+- tiagoferreira_10155285233278340: no photos folder
+- tracifullerton_10158078397668340: no photos folder
+- triciamarsh_10159052767268340: no photos folder
+
