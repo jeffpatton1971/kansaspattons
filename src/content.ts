@@ -2,12 +2,24 @@ import type { HomeSummary, ImageIndex, PostDocument, PostIndex } from './types';
 
 const jsonCache = new Map<string, Promise<unknown>>();
 
-export function contentUrl(path: string) {
-  return `/content/${path.replace(/^\/+/, '')}`;
+type ApiListResponse<T> = {
+  generatedAt: string;
+  years: PostIndex['years'];
+  items: T[];
+};
+
+type ApiImageListResponse = {
+  generatedAt: string;
+  years: ImageIndex['years'];
+  items: ImageIndex['images'];
+};
+
+export function apiUrl(path: string) {
+  return `/api/${path.replace(/^\/+/, '')}`;
 }
 
 export function fetchJson<T>(path: string): Promise<T> {
-  const url = contentUrl(path);
+  const url = apiUrl(path);
 
   if (!jsonCache.has(url)) {
     jsonCache.set(
@@ -26,29 +38,41 @@ export function fetchJson<T>(path: string): Promise<T> {
 }
 
 export function fetchPostIndex() {
-  return fetchJson<PostIndex>('posts/index.json');
+  return fetchJson<ApiListResponse<PostIndex['posts'][number]>>('posts?limit=2000').then(toPostIndex);
 }
 
 export function fetchHomeSummary() {
-  return fetchJson<HomeSummary>('home.json');
+  return fetchJson<HomeSummary>('home');
 }
 
 export function fetchStoryIndex() {
-  return fetchJson<PostIndex>('stories/index.json');
+  return fetchJson<ApiListResponse<PostIndex['posts'][number]>>('stories?limit=2000').then(toPostIndex);
 }
 
 export function fetchEntryIndex() {
-  return fetchJson<PostIndex>('entries/index.json');
+  return fetchJson<ApiListResponse<PostIndex['posts'][number]>>('entries?limit=2000').then(toPostIndex);
 }
 
 export function fetchImageIndex() {
-  return fetchJson<ImageIndex>('images/index.json');
+  return fetchJson<ApiImageListResponse>('images?limit=10000').then((response) => ({
+    generatedAt: response.generatedAt,
+    images: response.items,
+    years: response.years,
+  }));
 }
 
 export function fetchPostDocument(year: string, month: string, day: string, slug: string) {
-  return fetchJson<PostDocument>(`posts/${year}/${month}/${day}/${slug}.json`);
+  return fetchJson<PostDocument>(`posts/${year}/${month}/${day}/${slug}`);
 }
 
 export function fetchStoryDocument(year: string, month: string, day: string, slug: string) {
-  return fetchJson<PostDocument>(`stories/${year}/${month}/${day}/${slug}.json`);
+  return fetchJson<PostDocument>(`stories/${year}/${month}/${day}/${slug}`);
+}
+
+function toPostIndex(response: ApiListResponse<PostIndex['posts'][number]>): PostIndex {
+  return {
+    generatedAt: response.generatedAt,
+    posts: response.items,
+    years: response.years,
+  };
 }

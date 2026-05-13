@@ -392,6 +392,55 @@ Detailed working notes for the React migration live here. This file is intention
   - Direct local content-reader smoke checks loaded `/home`, `posts/index.json`, and a real story document.
 - Local endpoint smoke testing is blocked until Azure Functions Core Tools is installed or otherwise available as `func`.
 
+### Local Functions Tooling Documentation
+
+- Added Windows and macOS setup notes to `api/README.md` for Azure Functions Core Tools.
+- Documented the expected `func --version` verification step.
+- Included Windows options:
+  - Microsoft-recommended v4.x 64-bit MSI path.
+  - `winget install Microsoft.Azure.FunctionsCoreTools`.
+  - `choco install azure-functions-core-tools`.
+  - `npm install -g azure-functions-core-tools@4`.
+- Included macOS Homebrew setup:
+  - `brew tap azure/functions`.
+  - `brew install azure-functions-core-tools@4`.
+  - `brew link --overwrite azure-functions-core-tools@4` for upgrades.
+- Added Azurite notes because the sample local settings use `AzureWebJobsStorage=UseDevelopmentStorage=true`.
+- Added example local endpoint URLs for `/api/home`, `/api/posts`, `/api/stories`, and `/api/images`.
+- Added troubleshooting notes for the case where Azurite is installed but `func` is not on `PATH`.
+- Added a note that npm deprecation warnings during Azurite installation are dependency warnings, not necessarily install failures.
+- Verified Azurite `3.35.0` starts locally and opens the blob endpoint on `127.0.0.1:10000`.
+- Created local, gitignored `api/local.settings.json` from the sample file for this workspace.
+- `func` is still not visible to Codex's current PowerShell process; endpoint smoke testing remains blocked until `func --version` works in the same shell context.
+
+### React API Wiring
+
+- Rewired the React content fetch layer from `/content/*.json` artifacts to `/api/...` endpoints.
+- Added a Vite dev proxy:
+  - `/api/*` routes to `http://localhost:7071`.
+- Added a compatibility adapter in `src/content.ts` so existing pages can continue receiving the current in-memory shapes:
+  - API `items` become `posts` for post/story/entry indexes.
+  - API `items` become `images` for the image index.
+- Added `GET /api/entries` for legacy `/blog/...` redirect lookups.
+- Widened API list limits for the compatibility pass:
+  - Posts/stories/entries allow up to 2,000 summaries.
+  - Images allow up to 10,000 summaries.
+- This is intentionally a transitional step:
+  - The site now runs through the API.
+  - The pages still load full archive lists in places where they did before.
+  - A later pass should move posts/stories/images pages to paged and grouped API calls instead of client-side full-index filtering.
+- Added `api/README.md` instructions for running the full local stack:
+  - Azurite.
+  - Azure Functions API.
+  - Vite React app with `/api` proxy.
+- Verification:
+  - `npm run api:build` passed.
+  - `npm run build` passed.
+  - Direct API smoke checks returned 200 for `/api/home`, `/api/posts`, `/api/stories`, `/api/images`, and `/api/entries`.
+  - Vite proxy smoke checks returned 200 for `/api/home`, `/api/posts`, `/api/stories`, `/api/images`, `/`, `/posts`, `/stories`, and `/images`.
+  - `/api/posts?limit=2000` returned 91 posts.
+  - `/api/images?limit=10000` returned 8,528 images.
+
 ### Post And Story Card Shapes
 
 - Started making the two content shapes visually distinct.

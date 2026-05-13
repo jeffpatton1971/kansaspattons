@@ -15,7 +15,7 @@ app.http('imagesList', {
       const filtered = filterByDate(index.images, query);
       const groupBy = groupByQuery(request);
       const grouped = groupBy ? groupImages(filtered, groupBy) : undefined;
-      const paged = groupBy ? undefined : pageItems(filtered, query, 48);
+      const paged = groupBy ? undefined : pageItems(filtered, query, 48, 10_000);
 
       return jsonResponse({
         generatedAt: index.generatedAt,

@@ -31,6 +31,8 @@ export async function loadHomePayload() {
     },
     counts: home.counts,
     recentEntries: home.recentEntries,
+    recentPosts: home.recentPosts,
+    recentStories: home.recentStories,
     recentImages: home.recentImages,
   };
 }

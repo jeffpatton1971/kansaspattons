@@ -32,6 +32,11 @@ Published behavior changes and bug fixes for the React site migration.
 - Added API list filtering and paging by date with cursor/limit query parameters.
 - Added API documentation and local settings sample for reading generated content from local files or a storage URL.
 - Added short-lived API artifact caching with configurable `CONTENT_CACHE_SECONDS`.
+- Added Windows and macOS setup documentation for Azure Functions Core Tools and Azurite.
+- Added troubleshooting notes for Azurite npm warnings and missing `func` PATH setup.
+- Added a Vite `/api` proxy for local React development against Azure Functions.
+- Added an `/api/entries` endpoint for legacy redirect lookups.
+- Added frontend API adapters so existing pages can consume API list responses.
 
 ### Changed
 
@@ -58,6 +63,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed individual post and story detail pages to use the shared archive shell with a left calendar rail and right metric rail.
 - Changed story detail pages to lead with the attached image carousel before rendering the story body.
 - Changed the content compiler to preserve scalar category and tag frontmatter values.
+- Changed the React content fetch layer to use `/api/...` endpoints instead of direct `/content/...` JSON files.
 - Simplified selected image detail into a breadcrumb-led view with the image as the primary focus.
 
 ### Fixed

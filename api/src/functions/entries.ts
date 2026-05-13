@@ -14,6 +14,25 @@ const entryFamilies = [
   { contentPath: 'stories', shape: 'story' },
 ] satisfies EntryFamily[];
 
+app.http('entriesList', {
+  methods: ['GET'],
+  authLevel: 'anonymous',
+  route: 'entries',
+  handler: async (request) =>
+    withErrors(async () => {
+      const index = await readContentJson<EntryIndex>('entries/index.json');
+      const filtered = filterByDate(index.posts, pageQuery(request));
+      const paged = pageItems(filtered, pageQuery(request), 24, 2_000);
+
+      return jsonResponse({
+        generatedAt: index.generatedAt,
+        filters: pageQuery(request),
+        years: index.years,
+        ...paged,
+      });
+    }),
+});
+
 for (const family of entryFamilies) {
   app.http(`${family.contentPath}List`, {
     methods: ['GET'],
@@ -23,7 +42,7 @@ for (const family of entryFamilies) {
       withErrors(async () => {
         const index = await readContentJson<EntryIndex>(`${family.contentPath}/index.json`);
         const filtered = filterByDate(index.posts, pageQuery(request));
-        const paged = pageItems(filtered, pageQuery(request), 24);
+        const paged = pageItems(filtered, pageQuery(request), 24, 2_000);
 
         return jsonResponse({
           generatedAt: index.generatedAt,
