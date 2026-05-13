@@ -39,6 +39,9 @@ Published behavior changes and bug fixes for the React site migration.
 - Added frontend API adapters so existing pages can consume API list responses.
 - Added `galleryId` filtering to the image API for related-image lookups.
 - Added grouped image API consumption for year, month, and day archive browsing.
+- Added an Azure Blob Storage publish script for generated JSON content artifacts.
+- Added dry-run publishing support and publish documentation for storage-backed API content.
+- Added a `_publish.json` manifest to storage publishes.
 
 ### Changed
 

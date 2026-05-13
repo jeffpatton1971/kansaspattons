@@ -209,3 +209,57 @@ The list endpoints return archive calendar data, filters, and paged items. Image
 2. Upload generated JSON artifacts to a storage account container/prefix.
 3. Point the Function app at that prefix with `CONTENT_BASE_URL`.
 4. React consumes the Function app endpoints instead of loading large generated indexes directly.
+
+### Publish JSON To Azure Storage
+
+The repo includes a publish script that uploads `public/content/**` to Azure Blob Storage.
+
+Dry run first:
+
+```powershell
+$env:CONTENT_STORAGE_ACCOUNT = "prdwebappstorage"
+$env:CONTENT_STORAGE_CONTAINER = "kansaspattons"
+$env:CONTENT_STORAGE_PREFIX = "content/kansaspattons/current"
+npm run publish:content:dry-run
+```
+
+The dry run rebuilds content, validates required artifacts, prints file counts, and shows the `CONTENT_BASE_URL` to use for the Function app.
+
+Actual upload:
+
+```powershell
+$env:CONTENT_STORAGE_ACCOUNT = "prdwebappstorage"
+$env:CONTENT_STORAGE_CONTAINER = "kansaspattons"
+$env:CONTENT_STORAGE_PREFIX = "content/kansaspattons/current"
+npm run publish:content
+```
+
+macOS/bash equivalent:
+
+```bash
+export CONTENT_STORAGE_ACCOUNT="prdwebappstorage"
+export CONTENT_STORAGE_CONTAINER="kansaspattons"
+export CONTENT_STORAGE_PREFIX="content/kansaspattons/current"
+npm run publish:content:dry-run
+```
+
+Authentication options:
+
+- Use `az login` and let `DefaultAzureCredential` authenticate the upload.
+- Or set `AZURE_STORAGE_CONNECTION_STRING`.
+
+Optional settings:
+
+- `CONTENT_PUBLISH_ROOT`: defaults to `public/content`.
+- `CONTENT_STORAGE_CACHE_CONTROL`: defaults to `public, max-age=60`.
+- `CONTENT_PUBLISH_DRY_RUN=true`: dry-run mode without passing `--dry-run`.
+
+The script uploads a `_publish.json` manifest into the target prefix with the publish timestamp, file count, byte count, and content base URL.
+
+After upload, set the Function app setting:
+
+```text
+CONTENT_BASE_URL=https://prdwebappstorage.blob.core.windows.net/kansaspattons/content/kansaspattons/current/
+```
+
+For the current HTTP reader, this URL must be readable by the Function app. That can mean public blob access for this content prefix or a future private-storage reader that uses Azure credentials.

@@ -473,6 +473,50 @@ Detailed working notes for the React migration live here. This file is intention
   - `/api/images?galleryId=instagram-2026-04-16-194804-better-late-than-never&limit=1000` returned 2 images.
   - Vite route smoke checks returned 200 for `/`, `/posts`, `/stories`, `/images`, `/images/2026`, `/images/2026/04`, and `/images/2026/04/16`.
 
+### Storage Publish Tool
+
+- Added `scripts/publish-content.ts` to publish generated JSON artifacts to Azure Blob Storage.
+- Added root scripts:
+  - `npm run publish:content`
+  - `npm run publish:content:dry-run`
+- Added Azure SDK dev dependencies:
+  - `@azure/identity`
+  - `@azure/storage-blob`
+- Publish configuration:
+  - `CONTENT_STORAGE_ACCOUNT`
+  - `CONTENT_STORAGE_CONTAINER`
+  - `CONTENT_STORAGE_PREFIX`, defaulting in docs to `content/kansaspattons/current`
+  - `AZURE_STORAGE_CONNECTION_STRING` as an alternate auth path
+  - `CONTENT_PUBLISH_ROOT`, defaulting to `public/content`
+  - `CONTENT_STORAGE_CACHE_CONTROL`, defaulting to `public, max-age=60`
+  - `CONTENT_PUBLISH_DRY_RUN=true` as an alternate dry-run flag
+- The script validates required artifacts before upload:
+  - `home.json`
+  - `site.json`
+  - `posts/index.json`
+  - `stories/index.json`
+  - `images/index.json`
+- Upload behavior:
+  - Uploads every generated content file under the configured prefix.
+  - Sets JSON content type and cache-control metadata.
+  - Writes `_publish.json` with publish timestamp, file count, byte count, and the content base URL.
+  - Prints the `CONTENT_BASE_URL` for the Function app.
+- Added publish instructions to `api/README.md` for PowerShell and macOS/bash.
+- Dry-run verification against the likely production target:
+  - Storage account: `prdwebappstorage`.
+  - Container: `kansaspattons`.
+  - Prefix: `content/kansaspattons/current`.
+  - Files: 1,154.
+  - Bytes: 12,298,442.
+  - Function app setting would be `CONTENT_BASE_URL=https://prdwebappstorage.blob.core.windows.net/kansaspattons/content/kansaspattons/current/`.
+- No real upload was performed during this iteration.
+- Verification:
+  - `npm run publish:content:dry-run` passed after a content rebuild.
+  - `npm run build` passed.
+  - `npm run api:build` passed.
+- Note:
+  - A parallel dry-run/build attempt caused temporary `EPERM rmdir` errors because two `build-content` runs cleaned `public/content` at the same time. Running the commands sequentially resolved it.
+
 ### Post And Story Card Shapes
 
 - Started making the two content shapes visually distinct.

@@ -7,6 +7,8 @@
     "dev": "npm run build:content && vite",
     "build:content": "tsx scripts/build-content.ts",
     "build": "npm run build:content && tsc -b && vite build",
+    "publish:content": "npm run build:content && tsx scripts/publish-content.ts",
+    "publish:content:dry-run": "npm run build:content && tsx scripts/publish-content.ts --dry-run",
     "api:build": "npm --prefix api run build",
     "api:start": "npm --prefix api start",
     "preview": "vite preview"
@@ -19,6 +21,8 @@
     "react-router-dom": "^7.15.0"
   },
   "devDependencies": {
+    "@azure/identity": "^4.13.1",
+    "@azure/storage-blob": "^12.31.0",
     "@types/markdown-it": "^14.1.2",
     "@types/node": "^25.7.0",
     "@types/react": "^19.2.14",
