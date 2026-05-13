@@ -3,6 +3,8 @@ layout:     single
 title:      "Pumpkin Patch"
 post_id:         2009-10-18-pumpkin-patch
 date:       2009-10-18 02:46:00 -0600
+source:
+  type: wordpress
 categories: family
 tags:
   - "wordpress"

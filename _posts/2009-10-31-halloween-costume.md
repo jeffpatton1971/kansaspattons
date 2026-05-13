@@ -3,6 +3,8 @@ layout:     single
 title:      "Halloween Costume"
 post_id:         2009-10-31-halloween-costume
 date:       2009-10-31 08:55:00 -0600
+source:
+  type: wordpress
 categories:
   - holidays
   - halloween

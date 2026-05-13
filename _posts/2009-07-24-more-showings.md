@@ -3,6 +3,8 @@ layout:     single
 title:      "Realtor"
 post_id:         2009-07-24-more-showings
 date:       2009-07-24 08:42:00 -0600
+source:
+  type: wordpress
 categories: blog
 tags:
   - "wordpress"

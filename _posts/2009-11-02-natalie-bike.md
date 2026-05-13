@@ -3,6 +3,8 @@ layout:     single
 title:      "First bike ride"
 post_id:         2009-11-02-natalie-bike
 date:       2009-11-02 09:55:00 -0600
+source:
+  type: wordpress
 categories: natalie
 tags:
   - "wordpress"

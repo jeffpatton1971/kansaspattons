@@ -3,6 +3,8 @@ layout:     single
 title:      "Plumbing Drama"
 post_id:         2009-08-04-plumbing-drama
 date:       2009-08-04 08:53:00 -0600
+source:
+  type: wordpress
 categories: blog
 tags:
   - "wordpress"

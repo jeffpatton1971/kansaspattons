@@ -3,6 +3,8 @@ layout:     single
 title:      "Computer Recycling"
 post_id:         2009-08-05-computer-recycling
 date:       2009-08-05 08:55:00 -0600
+source:
+  type: wordpress
 categories: blog
 tags:
   - "wordpress"

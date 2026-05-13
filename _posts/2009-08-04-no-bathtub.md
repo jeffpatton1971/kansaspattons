@@ -3,6 +3,8 @@ layout:     single
 title:      "No Bathtub"
 post_id:         2009-08-04-no-bathtub
 date:       2009-08-08 08:52:00 -0600
+source:
+  type: wordpress
 categories: blog
 tags:
   - "wordpress"
