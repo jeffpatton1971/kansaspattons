@@ -7,3 +7,5 @@ _site
 node_modules/
 dist/
 public/content/
+api/dist/
+api/local.settings.json

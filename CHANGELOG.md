@@ -27,6 +27,11 @@ Published behavior changes and bug fixes for the React site migration.
 - Added recent stories to the compact home page summary.
 - Added a shared compact home entry card for recent posts and recent stories.
 - Added a generated `recentEntries` home feed that combines recent posts and stories.
+- Added a TypeScript Azure Functions API scaffold for storage-backed content endpoints.
+- Added API endpoints for home, posts, stories, images, entry details, and image details.
+- Added API list filtering and paging by date with cursor/limit query parameters.
+- Added API documentation and local settings sample for reading generated content from local files or a storage URL.
+- Added short-lived API artifact caching with configurable `CONTENT_CACHE_SECONDS`.
 
 ### Changed
 

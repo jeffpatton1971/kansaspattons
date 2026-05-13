@@ -330,6 +330,68 @@ Detailed working notes for the React migration live here. This file is intention
 - Production build passed.
 - Smoke checks returned 200 for `/`, `/posts`, and `/stories`.
 
+### API And Published Content Direction
+
+- Discussed the first API surface as four route families:
+  - `/home`
+  - `/posts`
+  - `/stories`
+  - `/images`
+- Current thinking:
+  - Keep GitHub-authored Markdown as the canonical authoring source.
+  - Compile Markdown and gallery records during a publish action.
+  - Store normalized, rendered content as read-optimized JSON documents.
+  - Let React consume compact API responses instead of loading large archive indexes up front.
+- Recommended direction for the first real API pass:
+  - Treat the current generated JSON as a prototype for response contracts.
+  - Move toward publish-time JSON artifacts in object storage first.
+  - Add Azure Functions as a thin query/read layer when the client needs filtering, pagination, or route-specific composition.
+  - Consider Mongo/Cosmos-style document storage only if date/tag/source/location queries become awkward with static JSON shards.
+- Key open design point:
+  - Whether published content should live as immutable JSON blobs plus manifests, or as queryable documents in a database.
+  - The blob-first approach looks simpler and cheaper for read-mostly archive content; database storage becomes attractive if we want rich faceting, admin tools, search, or cross-site aggregation.
+
+### Storage-Backed API Scaffold
+
+- Started the first Markdown-to-JSON-to-API vertical slice.
+- Added a nested TypeScript Azure Functions app under `api/`.
+- Added root scripts:
+  - `npm run api:build`
+  - `npm run api:start`
+- Added endpoint families:
+  - `GET /api/home`
+  - `GET /api/posts`
+  - `GET /api/posts/{year}/{month}/{day}/{slug}`
+  - `GET /api/stories`
+  - `GET /api/stories/{year}/{month}/{day}/{slug}`
+  - `GET /api/images`
+  - `GET /api/images/{year}/{month}/{day}/{imageId}`
+- The API reads the same generated JSON artifacts currently used by React.
+- Added a content store abstraction:
+  - Uses `CONTENT_BASE_URL` when pointing at a storage account/container/prefix.
+  - Falls back to `CONTENT_LOCAL_ROOT` for local development against `public/content`.
+  - Caches JSON artifacts in memory per Function instance with `CONTENT_CACHE_SECONDS` defaulting to 60 seconds.
+- Added list API behavior:
+  - Date filters by `year`, `month`, and `day`.
+  - Cursor/limit paging.
+  - Calendar/archive metadata included with post, story, and image list responses.
+  - Image lists support `groupBy=year`, `groupBy=month`, and `groupBy=day` preview groups.
+- Added `/api/home` composition data:
+  - Site title.
+  - Nav items.
+  - Author card data.
+  - Counts.
+  - Recent post/story entries.
+  - Recent images.
+- Added `api/README.md` and `api/local.settings.sample.json`.
+- Added `api/dist/` and `api/local.settings.json` to `.gitignore`.
+- Verification:
+  - `npm install` inside `api/` completed with 0 vulnerabilities.
+  - `npm run api:build` passed.
+  - `npm run build` passed for the React/content app.
+  - Direct local content-reader smoke checks loaded `/home`, `posts/index.json`, and a real story document.
+- Local endpoint smoke testing is blocked until Azure Functions Core Tools is installed or otherwise available as `func`.
+
 ### Post And Story Card Shapes
 
 - Started making the two content shapes visually distinct.

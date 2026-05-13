@@ -1,0 +1,19 @@
+{
+  "name": "kansaspattons-content-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/src/functions/*.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "npm run build && func start",
+    "watch": "tsc -w -p tsconfig.json"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.7.0",
+    "typescript": "^6.0.3"
+  }
+}

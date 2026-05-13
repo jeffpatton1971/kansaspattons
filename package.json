@@ -7,6 +7,8 @@
     "dev": "npm run build:content && vite",
     "build:content": "tsx scripts/build-content.ts",
     "build": "npm run build:content && tsc -b && vite build",
+    "api:build": "npm --prefix api run build",
+    "api:start": "npm --prefix api start",
     "preview": "vite preview"
   },
   "dependencies": {
