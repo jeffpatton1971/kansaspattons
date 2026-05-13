@@ -1,14 +1,14 @@
 import { useNavigate, useParams } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
-import { imagesForPost, formatDateLabel } from '../archive';
+import { formatDateLabel } from '../archive';
 import { ArchiveCalendar } from '../components/ArchiveCalendar';
 import { ArchiveMetrics } from '../components/ArchiveMetrics';
 import { EntryMetadata } from '../components/EntryMetadata';
 import { ImageCarousel } from '../components/ImageCarousel';
 import { ErrorState, LoadingState } from '../components/LoadingState';
-import { fetchImageIndex, fetchPostDocument, fetchPostIndex, fetchStoryDocument, fetchStoryIndex } from '../content';
+import { fetchImagesForGalleries, fetchPostDocument, fetchPostIndex, fetchStoryDocument, fetchStoryIndex, type ArchiveQuery } from '../content';
 import { useAsyncData } from '../hooks';
-import type { PostDocument, PostIndex } from '../types';
+import type { ImageSummary, PostDocument, PostIndex } from '../types';
 
 type DetailParams = {
   year: string;
@@ -48,7 +48,7 @@ function EntryDetailPage({
   basePath: '/posts' | '/stories';
   calendarLabel: string;
   loader: (year: string, month: string, day: string, slug: string) => Promise<PostDocument>;
-  indexLoader: () => Promise<PostIndex>;
+  indexLoader: (query?: ArchiveQuery) => Promise<PostIndex>;
 }) {
   const params = useParams<DetailParams>();
   const navigate = useNavigate();
@@ -56,14 +56,14 @@ function EntryDetailPage({
     async () => {
       const [post, index] = await Promise.all([
         loader(params.year!, params.month!, params.day!, params.slug!),
-        indexLoader(),
+        indexLoader({ limit: 1 }),
       ]);
-      const imageIndex = post.galleryIds.length > 0 ? await fetchImageIndex() : undefined;
+      const imageIndex = await fetchImagesForGalleries(post.galleryIds);
 
       return {
         post,
         index,
-        relatedImages: imageIndex ? imagesForPost(imageIndex.images, post.galleryIds) : [],
+        relatedImages: imageIndex.images,
       };
     },
     [params.year, params.month, params.day, params.slug, loader, indexLoader],
@@ -113,7 +113,7 @@ function EntryDetailPage({
   );
 }
 
-function PostDetail({ post, relatedImages }: { post: PostDocument; relatedImages: ReturnType<typeof imagesForPost> }) {
+function PostDetail({ post, relatedImages }: { post: PostDocument; relatedImages: ImageSummary[] }) {
   return (
     <>
       <article className="post-detail">
@@ -131,7 +131,7 @@ function PostDetail({ post, relatedImages }: { post: PostDocument; relatedImages
   );
 }
 
-function StoryDetail({ post, relatedImages }: { post: PostDocument; relatedImages: ReturnType<typeof imagesForPost> }) {
+function StoryDetail({ post, relatedImages }: { post: PostDocument; relatedImages: ImageSummary[] }) {
   return (
     <article className="post-detail story-detail" aria-label={post.title}>
       <header>

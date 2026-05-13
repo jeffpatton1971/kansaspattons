@@ -14,9 +14,14 @@ export async function readContentJson<T>(relativePath: string): Promise<T> {
   const cached = jsonCache.get(cacheKey);
 
   if (!cached || cached.expiresAt <= Date.now()) {
+    const value = readContentJsonUncached<T>(contentPath).catch((error) => {
+      jsonCache.delete(cacheKey);
+      throw error;
+    });
+
     jsonCache.set(cacheKey, {
       expiresAt: Date.now() + cacheMilliseconds(),
-      value: readContentJsonUncached<T>(contentPath),
+      value,
     });
   }
 

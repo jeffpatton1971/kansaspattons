@@ -13,7 +13,16 @@ type LegacyParams = {
 export function LegacyPostRedirect() {
   const params = useParams<LegacyParams>();
   const slug = params.slug?.replace(/\.html$/, '');
-  const state = useAsyncData(fetchEntryIndex, []);
+  const state = useAsyncData(
+    () =>
+      fetchEntryIndex({
+        year: params.year,
+        month: params.month,
+        day: params.day,
+        limit: 2000,
+      }),
+    [params.year, params.month, params.day],
+  );
 
   if (!params.year || !params.month || !params.day || !slug) {
     return <Navigate to="/posts" replace />;

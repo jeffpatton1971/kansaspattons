@@ -12,7 +12,7 @@ app.http('imagesList', {
     withErrors(async () => {
       const index = await readContentJson<ImageIndex>('images/index.json');
       const query = pageQuery(request);
-      const filtered = filterByDate(index.images, query);
+      const filtered = filterByGallery(filterByDate(index.images, query), galleryIds(request));
       const groupBy = groupByQuery(request);
       const grouped = groupBy ? groupImages(filtered, groupBy) : undefined;
       const paged = groupBy ? undefined : pageItems(filtered, query, 48, 10_000);
@@ -82,6 +82,23 @@ function groupByQuery(request: HttpRequest): ImageGroupBy | undefined {
   }
 
   return undefined;
+}
+
+function galleryIds(request: HttpRequest) {
+  return (request.query.get('galleryId') || '')
+    .split(',')
+    .map((value) => value.trim())
+    .filter(Boolean);
+}
+
+function filterByGallery(images: ImageSummary[], galleryIds: string[]) {
+  if (galleryIds.length === 0) {
+    return images;
+  }
+
+  const ids = new Set(galleryIds);
+
+  return images.filter((image) => image.galleryId && ids.has(image.galleryId));
 }
 
 function groupImages(images: ImageSummary[], groupBy: ImageGroupBy): ImageGroup[] {

@@ -441,6 +441,38 @@ Detailed working notes for the React migration live here. This file is intention
   - `/api/posts?limit=2000` returned 91 posts.
   - `/api/images?limit=10000` returned 8,528 images.
 
+### API-Native Archive Loading
+
+- Moved the archive pages beyond full-index compatibility mode.
+- Posts and stories now call filtered, paged API requests for the current route:
+  - `/posts` calls `/api/posts?limit=48`.
+  - `/posts/:year/:month/:day` passes year/month/day filters.
+  - Stories follow the same pattern through `/api/stories`.
+- Posts and stories no longer fetch all summaries and then filter in React.
+- Image archives now use API grouping:
+  - `/images` calls `/api/images?groupBy=year`.
+  - `/images/:year` calls `/api/images?year=YYYY&groupBy=month`.
+  - `/images/:year/:month` calls `/api/images?year=YYYY&month=MM&groupBy=day`.
+  - `/images/:year/:month/:day` calls a day-scoped API list instead of the full image index.
+- Image group responses carry `count` plus a capped preview list, so broad archive pages can show totals without transferring all images.
+- Added `galleryId` filtering to `/api/images`.
+- Post/story detail pages now load related images with targeted gallery queries instead of loading all 8,528 images.
+- Legacy `/blog/...` redirects now query `/api/entries` with the legacy date scope instead of loading all entries.
+- Tightened the API content cache:
+  - Successful reads are still cached briefly.
+  - Failed reads are no longer cached, which avoids a 60-second stale 404 when a local content rebuild temporarily removes an artifact.
+- Verification:
+  - `npm run api:build` passed.
+  - `npm run build` passed.
+  - `/api/posts?limit=48` returned 48 of 91 posts.
+  - `/api/stories?year=2026&month=04&limit=48` returned 10 stories.
+  - `/api/images?groupBy=year` returned 20 year groups.
+  - `/api/images?year=2026&groupBy=month` returned 4 month groups.
+  - `/api/images?year=2026&month=04&groupBy=day` returned 8 day groups.
+  - `/api/images?year=2026&month=04&day=16&limit=10000` returned 2 images.
+  - `/api/images?galleryId=instagram-2026-04-16-194804-better-late-than-never&limit=1000` returned 2 images.
+  - Vite route smoke checks returned 200 for `/`, `/posts`, `/stories`, `/images`, `/images/2026`, `/images/2026/04`, and `/images/2026/04/16`.
+
 ### Post And Story Card Shapes
 
 - Started making the two content shapes visually distinct.

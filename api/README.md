@@ -198,9 +198,10 @@ http://127.0.0.1:5174/
 - `GET /api/stories/{year}/{month}/{day}/{slug}`
 - `GET /api/images?year=2026&month=04&day=16&cursor=0&limit=48`
 - `GET /api/images?groupBy=year`
+- `GET /api/images?galleryId=instagram-2026-04-16-194804-better-late-than-never`
 - `GET /api/images/{year}/{month}/{day}/{imageId}`
 
-The list endpoints return archive calendar data, filters, and paged items. Image lists can also return grouped previews with `groupBy=year`, `groupBy=month`, or `groupBy=day`.
+The list endpoints return archive calendar data, filters, and paged items. Image lists can also return grouped previews with `groupBy=year`, `groupBy=month`, or `groupBy=day`, or narrow to one or more galleries with comma-separated `galleryId` values.
 
 ## Publish Flow
 

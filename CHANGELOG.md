@@ -37,6 +37,8 @@ Published behavior changes and bug fixes for the React site migration.
 - Added a Vite `/api` proxy for local React development against Azure Functions.
 - Added an `/api/entries` endpoint for legacy redirect lookups.
 - Added frontend API adapters so existing pages can consume API list responses.
+- Added `galleryId` filtering to the image API for related-image lookups.
+- Added grouped image API consumption for year, month, and day archive browsing.
 
 ### Changed
 
@@ -64,6 +66,10 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed story detail pages to lead with the attached image carousel before rendering the story body.
 - Changed the content compiler to preserve scalar category and tag frontmatter values.
 - Changed the React content fetch layer to use `/api/...` endpoints instead of direct `/content/...` JSON files.
+- Changed post and story archive pages to request filtered, paged API results instead of full client-side indexes.
+- Changed image archive pages to request grouped or day-scoped API results instead of the full image index.
+- Changed post and story detail pages to fetch related images through targeted gallery API queries.
+- Changed legacy redirect lookups to query entries by date scope instead of loading all entries.
 - Simplified selected image detail into a breadcrumb-led view with the image as the primary focus.
 
 ### Fixed
@@ -73,3 +79,4 @@ Published behavior changes and bug fixes for the React site migration.
 - Fixed generated legacy post dates with spaced timezone offsets that could blank the `/posts` route at runtime.
 - Made date label rendering defensive so malformed dates do not crash archive pages.
 - Fixed missing numeric source metadata being emitted as `0` in generated content.
+- Prevented transient failed content artifact reads from being cached by the API.

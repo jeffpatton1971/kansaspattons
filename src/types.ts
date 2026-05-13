@@ -65,6 +65,7 @@ export type PostIndex = {
   generatedAt: string;
   posts: PostSummary[];
   years: ArchiveYear[];
+  page?: ApiPage;
 };
 
 export type ImageSummary = {
@@ -88,6 +89,24 @@ export type ImageIndex = {
   generatedAt: string;
   images: ImageSummary[];
   years: ArchiveYear[];
+  groups?: ImageGroup[];
+  groupBy?: 'year' | 'month' | 'day';
+  page?: ApiPage;
+};
+
+export type ApiPage = {
+  cursor: number;
+  limit: number;
+  total: number;
+  nextCursor?: number;
+};
+
+export type ImageGroup = {
+  key: string;
+  label: string;
+  href: string;
+  count: number;
+  images: ImageSummary[];
 };
 
 export type HomeSummary = {

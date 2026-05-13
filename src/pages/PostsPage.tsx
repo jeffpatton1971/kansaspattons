@@ -1,10 +1,10 @@
 import { Link, useParams } from 'react-router-dom';
-import { filterByDate, formatDateLabel, monthName } from '../archive';
+import { formatDateLabel, monthName } from '../archive';
 import { ArchiveCalendar, resolveSelection } from '../components/ArchiveCalendar';
 import { ArchiveMetrics } from '../components/ArchiveMetrics';
 import { ErrorState, LoadingState } from '../components/LoadingState';
 import { PostList, StoryList } from '../components/PostList';
-import { fetchPostIndex, fetchStoryIndex } from '../content';
+import { fetchPostIndex, fetchStoryIndex, type ArchiveQuery } from '../content';
 import { useAsyncData } from '../hooks';
 import type { PostIndex } from '../types';
 
@@ -18,7 +18,7 @@ type EntryArchivePageProps = {
   basePath: '/posts' | '/stories';
   label: string;
   titleLabel: string;
-  loader: () => Promise<PostIndex>;
+  loader: (query?: ArchiveQuery) => Promise<PostIndex>;
 };
 
 export function PostsPage() {
@@ -45,7 +45,12 @@ export function StoriesPage() {
 
 function EntryArchivePage({ basePath, label, titleLabel, loader }: EntryArchivePageProps) {
   const params = useParams<PostParams>();
-  const state = useAsyncData(loader, [basePath]);
+  const query = {
+    year: params.year,
+    month: params.month,
+    day: params.day,
+  };
+  const state = useAsyncData(() => loader(query), [basePath, params.year, params.month, params.day]);
 
   if (state.status === 'loading') {
     return <LoadingState label={`Loading ${titleLabel.toLowerCase()}`} />;
@@ -57,14 +62,11 @@ function EntryArchivePage({ basePath, label, titleLabel, loader }: EntryArchiveP
 
   const index = state.data;
   const selection = resolveSelection(index.years, params.year, params.month);
-  const activeParams = {
-    year: selection?.year.year,
-    month: selection?.month.month,
-    day: params.day,
-  };
-  const posts = filterByDate(index.posts, activeParams);
+  const activeParams = query;
+  const posts = index.posts;
+  const total = index.page?.total ?? posts.length;
 
-  const title = pageTitle(activeParams, posts.length);
+  const title = pageTitle(activeParams, total, titleLabel);
 
   return (
     <main className="page page--archive">
@@ -90,6 +92,11 @@ function EntryArchivePage({ basePath, label, titleLabel, loader }: EntryArchiveP
           </Link>
         </div>
         {basePath === '/stories' ? <StoryList stories={posts} /> : <PostList posts={posts} />}
+        {index.page && index.page.total > posts.length ? (
+          <p className="archive-count">
+            Showing {posts.length.toLocaleString()} of {index.page.total.toLocaleString()}
+          </p>
+        ) : null}
       </section>
 
       <aside className="archive-rail archive-rail--right">
@@ -99,7 +106,7 @@ function EntryArchivePage({ basePath, label, titleLabel, loader }: EntryArchiveP
   );
 }
 
-function pageTitle(params: PostParams, count: number) {
+function pageTitle(params: PostParams, count: number, titleLabel: string) {
   if (params.year && params.month && params.day) {
     return `${formatDateLabel(`${params.year}-${params.month}-${params.day}T00:00:00`)} (${count})`;
   }
@@ -112,5 +119,5 @@ function pageTitle(params: PostParams, count: number) {
     return `${params.year} (${count})`;
   }
 
-  return `Latest (${count})`;
+  return `All ${titleLabel} (${count})`;
 }

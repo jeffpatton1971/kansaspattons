@@ -717,6 +717,13 @@ h1 {
   font-weight: 700;
 }
 
+.archive-count {
+  margin: 18px 0 0;
+  color: #697370;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
 .image-tile {
   position: relative;
   display: block;
