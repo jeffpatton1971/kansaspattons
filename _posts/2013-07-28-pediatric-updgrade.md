@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Pediatric Upgrade"
+content_type: article
+slug: pediatric-updgrade
 post_id: 2013-07-28-pediatric-updgrade
 date: 2013-07-28 11:11:33
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -15,6 +18,9 @@ categories:
   - cancer
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "Well, good news, today we got upgraded to a regular pediatric room! It’s a very fancy room, has a couch a bathroom IN the room with a shower and everything! On this side of the Ped’s floor they only monitor every few hours, so he’s more or "
 ---
 Well, good news, today we got upgraded to a regular pediatric room! It’s a very fancy room, has a couch a bathroom IN the room with a shower and everything! On this side of the Ped’s floor they only monitor every few hours, so he’s more or less free of all wires, gadgets and gizmos! We also got a visit from Great-Grandpa! I think we’re all very ready to be done with this place, but I’ve got to say, the level of care has been wonderful! We see the doctor’s nearly every day and they are very encouraging.
 

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Have a ducky Monday! #ducks #mallards"
+content_type: story
+slug: 074917-have-a-ducky-monday-ducks-mallards
 post_id: 2021-03-29-074917-have-a-ducky-monday-ducks-mallards
 date: 2021-03-29 07:49:17
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "mallards"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Have a ducky Monday! #ducks #mallards"
 ---
 
 Have a ducky Monday! [#ducks](https://www.instagram.com/explore/tags/ducks/) [#mallards](https://www.instagram.com/explore/tags/mallards/)

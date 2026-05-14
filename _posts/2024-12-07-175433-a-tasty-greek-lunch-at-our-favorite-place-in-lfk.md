@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "A tasty #Greek lunch at our favorite place in #lfk"
+content_type: story
+slug: 175433-a-tasty-greek-lunch-at-our-favorite-place-in-lfk
 post_id: 2024-12-07-175433-a-tasty-greek-lunch-at-our-favorite-place-in-lfk
 date: 2024-12-07 17:54:33
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "lfk"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "A tasty #Greek lunch at our favorite place in #lfk"
 ---
 
 A tasty [#Greek](https://www.instagram.com/explore/tags/greek/) lunch at our favorite place in [#lfk](https://www.instagram.com/explore/tags/lfk/)

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#trickortreat #happyhalloween"
+content_type: story
+slug: 201230-trickortreat-happyhalloween
 post_id: 2023-10-31-201230-trickortreat-happyhalloween
 date: 2023-10-31 20:12:30
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "happyhalloween"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#trickortreat #happyhalloween"
 ---
 
 [#trickortreat](https://www.instagram.com/explore/tags/trickortreat/) [#happyhalloween](https://www.instagram.com/explore/tags/happyhalloween/)

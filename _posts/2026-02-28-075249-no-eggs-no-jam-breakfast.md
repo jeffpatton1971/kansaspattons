@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "No eggs…no jam… #breakfast 😂😂"
+content_type: story
+slug: 075249-no-eggs-no-jam-breakfast
 post_id: 2026-02-28-075249-no-eggs-no-jam-breakfast
 date: 2026-02-28 07:52:49
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "breakfast"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "No eggs…no jam… #breakfast 😂😂"
 ---
 
 No eggs…no jam… [#breakfast](https://www.instagram.com/explore/tags/breakfast/) 😂😂

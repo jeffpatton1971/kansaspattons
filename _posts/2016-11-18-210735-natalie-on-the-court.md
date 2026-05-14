@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Natalie on the court"
+content_type: story
+slug: 210735-natalie-on-the-court
 post_id: 2016-11-18-210735-natalie-on-the-court
 date: 2016-11-18 21:07:35
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Natalie"
+authors:
+  - "Jeff Patton"
+summary: "Natalie on the court"
 ---
 
 Natalie on the court

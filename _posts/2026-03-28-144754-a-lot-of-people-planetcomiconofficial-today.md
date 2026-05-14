@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "A lot of people @planetcomiconofficial today!"
+content_type: story
+slug: 144754-a-lot-of-people-planetcomiconofficial-today
 post_id: 2026-03-28-144754-a-lot-of-people-planetcomiconofficial-today
 date: 2026-03-28 14:47:54
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ gallery: "instagram-2026-03-28-144754-a-lot-of-people-planetcomiconofficial-toda
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "A lot of people @planetcomiconofficial today!"
 ---
 
 A lot of people [@planetcomiconofficial](https://www.instagram.com/planetcomiconofficial/) today!

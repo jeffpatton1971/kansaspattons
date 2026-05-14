@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#lunch with Nathan #pizza"
+content_type: story
+slug: 153219-lunch-with-nathan-pizza
 post_id: 2025-09-27-153219-lunch-with-nathan-pizza
 date: 2025-09-27 15:32:19
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -24,6 +27,9 @@ tags:
   - "instagram"
 categories:
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "#lunch with Nathan #pizza"
 ---
 
 [#lunch](https://www.instagram.com/explore/tags/lunch/) with Nathan [#pizza](https://www.instagram.com/explore/tags/pizza/)

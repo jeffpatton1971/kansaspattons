@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Had fun eating and shopping"
+content_type: story
+slug: 204249-had-fun-eating-and-shopping
 post_id: 2021-04-26-204249-had-fun-eating-and-shopping
 date: 2021-04-26 20:42:49
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2021-04-26-204249-had-fun-eating-and-shopping"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Had fun eating and shopping"
 ---
 
 Had fun eating and shopping

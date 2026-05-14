@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Two peas in a hot tub!"
+content_type: story
+slug: 132455-two-peas-in-a-hot-tub
 post_id: 2014-09-06-132455-two-peas-in-a-hot-tub
 date: 2014-09-06 13:24:55
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2014-09-06-132455-two-peas-in-a-hot-tub"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Two peas in a hot tub!"
 ---
 
 Two peas in a hot tub!

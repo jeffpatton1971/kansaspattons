@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#newbeginings #goodmorning #lfk"
+content_type: story
+slug: 072935-newbeginings-goodmorning-lfk
 post_id: 2025-06-02-072935-newbeginings-goodmorning-lfk
 date: 2025-06-02 07:29:35
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -25,6 +28,9 @@ tags:
   - "lfk"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#newbeginings #goodmorning #lfk"
 ---
 
 [#newbeginings](https://www.instagram.com/explore/tags/newbeginings/) [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#lfk](https://www.instagram.com/explore/tags/lfk/)

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#kansas #sunflowers"
+content_type: story
+slug: 095641-kansas-sunflowers
 post_id: 2021-08-14-095641-kansas-sunflowers
 date: 2021-08-14 09:56:41
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "sunflowers"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#kansas #sunflowers"
 ---
 
 [#kansas](https://www.instagram.com/explore/tags/kansas/) [#sunflowers](https://www.instagram.com/explore/tags/sunflowers/)

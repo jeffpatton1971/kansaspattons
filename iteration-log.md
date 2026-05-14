@@ -709,6 +709,42 @@ Detailed working notes for the React migration live here. This file is intention
 - Verification:
   - `npm run build` passed.
 
+### Full Post Frontmatter Normalization
+
+- Goal:
+  - Stop relying on compiler inference for imported posts.
+  - Make every `_posts` Markdown file declare the new content shape directly.
+- Added `scripts/normalize-post-frontmatter.ts`.
+- Added `npm run normalize:posts`.
+- The normalizer is idempotent and supports:
+  - `npm run normalize:posts -- --dry-run`
+  - `npm run normalize:posts`
+- Normalized every `_posts/*.md` file to include:
+  - `content_type`
+  - `slug`
+  - `post_id`
+  - `status`
+  - `authors`
+  - `summary`
+- Migration counts:
+  - 1,148 Markdown post files processed.
+  - 91 files classified as `article`.
+  - 1,014 files classified as `story`.
+  - 43 files classified as `gallery`.
+  - 1,143 files received explicit `content_type`.
+  - 1,146 files received explicit `slug`.
+  - 2 files received or corrected `post_id`.
+  - 1,148 files received explicit `status`.
+  - 1,143 files received explicit `authors`.
+  - 1,143 files received explicit `summary`.
+- Compiler follow-up:
+  - `scripts/build-content.ts` now honors explicit `slug` frontmatter for post/story routes.
+  - It also falls back to top-level `id` when `post_id` is absent.
+- Verification:
+  - A post-frontmatter validation pass found zero missing normalized fields.
+  - `npm run normalize:posts -- --dry-run` reports zero pending changes after the migration.
+  - `npm run build` passed and still generated 1,105 entries, 1,117 galleries, and 8,528 images.
+
 ### Post And Story Card Shapes
 
 - Started making the two content shapes visually distinct.

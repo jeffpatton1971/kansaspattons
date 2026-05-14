@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "What a wonderful time this evening with some truly wonderful and special kids!"
+content_type: story
+slug: 193924-what-a-wonderful-time-this-evening-with-some-truly-wonderful-and-special-kids
 post_id: 2018-09-25-193924-what-a-wonderful-time-this-evening-with-some-truly-wonderful-and-special-kids
 date: 2018-09-25 19:39:24
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-09-25-193924-what-a-wonderful-time-this-evening-with-so
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "What a wonderful time this evening with some truly wonderful and special kids!"
 ---
 
 What a wonderful time this evening with some truly wonderful and special kids!

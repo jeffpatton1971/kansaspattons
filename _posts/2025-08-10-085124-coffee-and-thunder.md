@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Coffee and thunder"
+content_type: story
+slug: 085124-coffee-and-thunder
 post_id: 2025-08-10-085124-coffee-and-thunder
 date: 2025-08-10 08:51:24
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-08-10-085124-coffee-and-thunder"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Coffee and thunder"
 ---
 
 Coffee and thunder

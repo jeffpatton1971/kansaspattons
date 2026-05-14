@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Starting the morning off right!"
+content_type: story
+slug: 070231-starting-the-morning-off-right
 post_id: 2014-06-02-070231-starting-the-morning-off-right
 date: 2014-06-02 07:02:31
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2014-06-02-070231-starting-the-morning-off-right"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Starting the morning off right!"
 ---
 
 Starting the morning off right!

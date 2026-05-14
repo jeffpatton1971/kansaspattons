@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#breakfast is served"
+content_type: story
+slug: 084453-breakfast-is-served
 post_id: 2025-03-16-084453-breakfast-is-served
 date: 2025-03-16 08:44:53
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "breakfast"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#breakfast is served"
 ---
 
 [#breakfast](https://www.instagram.com/explore/tags/breakfast/) is served

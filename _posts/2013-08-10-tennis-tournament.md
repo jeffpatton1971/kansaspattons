@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Tennis Tournament"
+content_type: article
+slug: tennis-tournament
 post_id: 2013-08-10-tennis-tournament
 date: 2013-08-10 16:50:44
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -15,6 +18,9 @@ categories:
   - tennis
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "Today Woodvalley Tennis had a tournament and pool party. Natalie was able to bring one friend to play tennis and then to swim afterwards. Natalie invited her friend Megan, and they had fun playing tennis."
 ---
 Today Woodvalley Tennis had a tournament and pool party. Natalie was able to bring one friend to play tennis and then to swim afterwards. Natalie invited her friend Megan, and they had fun playing tennis.
 

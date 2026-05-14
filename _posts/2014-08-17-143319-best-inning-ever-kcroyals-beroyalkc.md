@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Best! Inning! Ever! @kcroyals #beroyalkc"
+content_type: story
+slug: 143319-best-inning-ever-kcroyals-beroyalkc
 post_id: 2014-08-17-143319-best-inning-ever-kcroyals-beroyalkc
 date: 2014-08-17 14:33:19
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -22,6 +25,9 @@ tags:
   - "beroyalkc"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Best!Inning!Ever!@kcroyals #beroyalkc"
 ---
 
 Best!

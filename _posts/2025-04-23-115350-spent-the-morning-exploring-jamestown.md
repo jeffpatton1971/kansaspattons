@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Spent the morning exploring Jamestown"
+content_type: story
+slug: 115350-spent-the-morning-exploring-jamestown
 post_id: 2025-04-23-115350-spent-the-morning-exploring-jamestown
 date: 2025-04-23 11:53:50
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-04-23-115350-spent-the-morning-exploring-jamestown"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Spent the morning exploring Jamestown"
 ---
 
 Spent the morning exploring Jamestown

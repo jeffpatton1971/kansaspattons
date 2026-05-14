@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Enjoyed a lovely #candelightconcert with @fountaincitystringquartet"
+content_type: story
+slug: 230841-enjoyed-a-lovely-candelightconcert-with-fountaincitystringquartet
 post_id: 2025-12-19-230841-enjoyed-a-lovely-candelightconcert-with-fountaincitystringquartet
 date: 2025-12-19 23:08:41
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -22,6 +25,9 @@ tags:
   - "candelightconcert"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Enjoyed a lovely #candelightconcert with @fountaincitystringquartet"
 ---
 
 Enjoyed a lovely [#candelightconcert](https://www.instagram.com/explore/tags/candelightconcert/) with [@fountaincitystringquartet](https://www.instagram.com/fountaincitystringquartet/)

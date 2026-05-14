@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nice family picnic"
+content_type: story
+slug: 122014-nice-family-picnic
 post_id: 2021-06-05-122014-nice-family-picnic
 date: 2021-06-05 12:20:14
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2021-06-05-122014-nice-family-picnic"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Nice family picnic"
 ---
 
 Nice family picnic

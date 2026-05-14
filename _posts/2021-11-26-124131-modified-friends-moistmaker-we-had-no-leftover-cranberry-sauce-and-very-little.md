@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Modified @friends #moistmaker we had no leftover cranberry sauce and very little gravy soo..."
+content_type: story
+slug: 124131-modified-friends-moistmaker-we-had-no-leftover-cranberry-sauce-and-very-little
 post_id: 2021-11-26-124131-modified-friends-moistmaker-we-had-no-leftover-cranberry-sauce-and-very-little
 date: 2021-11-26 12:41:31
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -22,6 +25,9 @@ tags:
   - "moistmaker"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Modified @friends #moistmaker we had no leftover cranberry sauce and very little gravy soo…Turkey then potatoes and gravy topped with  grandmas dressing 🥰"
 ---
 
 Modified [@friends](https://www.instagram.com/friends/) [#moistmaker](https://www.instagram.com/explore/tags/moistmaker/) we had no leftover cranberry sauce and very little gravy soo…Turkey then potatoes and gravy topped with  grandmas dressing 🥰

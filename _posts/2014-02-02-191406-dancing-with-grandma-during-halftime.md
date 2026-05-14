@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Dancing with Grandma during halftime"
+content_type: story
+slug: 191406-dancing-with-grandma-during-halftime
 post_id: 2014-02-02-191406-dancing-with-grandma-during-halftime
 date: 2014-02-02 19:14:06
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Grandma"
+authors:
+  - "Jeff Patton"
+summary: "Dancing with Grandma during halftime"
 ---
 
 Dancing with Grandma during halftime

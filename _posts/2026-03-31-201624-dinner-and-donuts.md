@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Dinner and donuts 🖤💛"
+content_type: story
+slug: 201624-dinner-and-donuts
 post_id: 2026-03-31-201624-dinner-and-donuts
 date: 2026-03-31 20:16:24
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2026-03-31-201624-dinner-and-donuts"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Dinner and donuts 🖤💛"
 ---
 
 Dinner and donuts 🖤💛

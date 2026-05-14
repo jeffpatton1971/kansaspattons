@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Cycle Five"
+content_type: article
+slug: cycle-five
 post_id: 2013-08-08-cycle-five
 date: 2013-08-08 16:36:43
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -15,6 +18,9 @@ categories:
   - cancer
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "This is the first day of our second to last round of chemo."
 ---
 This is the first day of our second to last round of chemo.
 

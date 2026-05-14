@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "I will agree to this every single day and twice on Sundays"
+content_type: story
+slug: 074255-i-will-agree-to-this-every-single-day-and-twice-on-sundays
 post_id: 2025-06-24-074255-i-will-agree-to-this-every-single-day-and-twice-on-sundays
 date: 2025-06-24 07:42:55
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-06-24-074255-i-will-agree-to-this-every-single-day-and-
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "I will agree to this every single day and twice on Sundays"
 ---
 
 I will agree to this every single day and twice on Sundays

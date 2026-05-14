@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "First Sonogram"
+content_type: article
+slug: first-sonogram
 post_id: 2010-08-28-first-sonogram
 date: 2010-08-28 23:53:00
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -15,6 +18,9 @@ categories:
   - "Nathan"
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "So here she is, I call the baby a she, Malia calls the baby a he, odds are she’s right. This is at 10 weeks, this is the first time Malia or I had ever seen a sonogram in real life. Next time I’ll see if they can give us a video, what you d"
 ---
 So here she is, I call the baby a she, Malia calls the baby a he, odds are she’s right. This is at 10 weeks, this is the first time Malia or I had ever seen a sonogram in real life. Next time I’ll see if they can give us a video, what you don’t see is the movement, the baby was quite active.
 

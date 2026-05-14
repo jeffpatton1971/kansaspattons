@@ -1,6 +1,8 @@
 ---
 layout:     single
 title:      "Last day of vacation"
+content_type: article
+slug: last-day-of-vacation
 post_id:         2009-08-09-last-day-of-vacation
 date:       2009-08-06 08:56:00 -0600
 source:
@@ -9,8 +11,12 @@ categories: blog
 tags:
   - "wordpress"
 author:     Jeff
+authors:
+  - Jeff
+summary: "If only every day could start out like this. Woke up around 7a, Malia went off to work at 730 and I made a pot of coffee. By 8a I was relaxing on the back porch listening to the wind in the trees, sipping my coffee and enjoying the cool bre"
 comments:   false
 published:  true
+status: published
 ---
 If only every day could start out like this. Woke up around 7a, Malia went off to work at 730 and I made a pot of coffee. By 8a I was relaxing on the back porch listening to the wind in the trees, sipping my coffee and enjoying the cool breeze. Everything was serene and peacful, and that’s when it happened!
 

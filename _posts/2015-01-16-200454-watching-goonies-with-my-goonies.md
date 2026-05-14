@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Watching Goonies with my goonies!"
+content_type: story
+slug: 200454-watching-goonies-with-my-goonies
 post_id: 2015-01-16-200454-watching-goonies-with-my-goonies
 date: 2015-01-16 20:04:54
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2015-01-16-200454-watching-goonies-with-my-goonies"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Watching Goonies with my goonies!"
 ---
 
 Watching Goonies with my goonies!

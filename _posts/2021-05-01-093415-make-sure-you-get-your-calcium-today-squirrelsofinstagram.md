@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Make sure you get your calcium today! #squirrelsofinstagram"
+content_type: story
+slug: 093415-make-sure-you-get-your-calcium-today-squirrelsofinstagram
 post_id: 2021-05-01-093415-make-sure-you-get-your-calcium-today-squirrelsofinstagram
 date: 2021-05-01 09:34:15
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "squirrelsofinstagram"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Make sure you get your calcium today! #squirrelsofinstagram"
 ---
 
 Make sure you get your calcium today! [#squirrelsofinstagram](https://www.instagram.com/explore/tags/squirrelsofinstagram/)

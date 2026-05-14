@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nate Nat's Car"
+content_type: article
+slug: nate-nates-car
 post_id: 2013-06-23-nate-nates-car
 date: 2013-06-23 08:06:36
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -14,6 +17,9 @@ categories:
   - "Nathan"
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "We decided to get Nathan one of those trikes that had a handle on it. That way we could take him on walks and he could peddle along, but unfortunately when we went shopping we couldn’t find one, so we bought him a car! He loves his little c"
 ---
 We decided to get Nathan one of those trikes that had a handle on it. That way we could take him on walks and he could peddle along, but unfortunately when we went shopping we couldn’t find one, so we bought him a car! He loves his little car, he calls it “Nate Nate’s car” and wants to take it everywhere!
 

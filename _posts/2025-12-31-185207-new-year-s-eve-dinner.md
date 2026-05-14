@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "New Year’s Eve Dinner 🖤💛"
+content_type: story
+slug: 185207-new-year-s-eve-dinner
 post_id: 2025-12-31-185207-new-year-s-eve-dinner
 date: 2025-12-31 18:52:07
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "New Year"
+authors:
+  - "Jeff Patton"
+summary: "New Year’s Eve Dinner 🖤💛"
 ---
 
 New Year’s Eve Dinner 🖤💛

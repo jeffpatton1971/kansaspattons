@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Fun day with these two, McD’s for lunch and then Pokémon hunting after"
+content_type: story
+slug: 175527-fun-day-with-these-two-mcd-s-for-lunch-and-then-pok-mon-hunting-after
 post_id: 2018-01-20-175527-fun-day-with-these-two-mcd-s-for-lunch-and-then-pok-mon-hunting-after
 date: 2018-01-20 17:55:27
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-01-20-175527-fun-day-with-these-two-mcd-s-for-lunch-and
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Fun day with these two, McD’s for lunch and then Pokémon hunting after"
 ---
 
 Fun day with these two, McD’s for lunch and then Pokémon hunting after

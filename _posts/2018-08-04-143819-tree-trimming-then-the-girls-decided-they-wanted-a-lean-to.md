@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Tree trimming then the girls decided they wanted a lean-to"
+content_type: story
+slug: 143819-tree-trimming-then-the-girls-decided-they-wanted-a-lean-to
 post_id: 2018-08-04-143819-tree-trimming-then-the-girls-decided-they-wanted-a-lean-to
 date: 2018-08-04 14:38:19
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-08-04-143819-tree-trimming-then-the-girls-decided-they-
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Tree trimming then the girls decided they wanted a lean-to"
 ---
 
 Tree trimming then the girls decided they wanted a lean-to

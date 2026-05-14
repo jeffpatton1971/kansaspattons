@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Had a wonderful thing helping my sister this weekend! Headed home"
+content_type: story
+slug: 110308-had-a-wonderful-thing-helping-my-sister-this-weekend-headed-home
 post_id: 2025-04-13-110308-had-a-wonderful-thing-helping-my-sister-this-weekend-headed-home
 date: 2025-04-13 11:03:08
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-04-13-110308-had-a-wonderful-thing-helping-my-sister-th
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Had a wonderful thing helping my sister this weekend! Headed home"
 ---
 
 Had a wonderful thing helping my sister this weekend! Headed home

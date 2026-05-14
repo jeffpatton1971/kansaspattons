@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Thursday’s @theroost920mass 🖤💛"
+content_type: story
+slug: 100045-thursday-s-theroost920mass
 post_id: 2026-03-05-100045-thursday-s-theroost920mass
 date: 2026-03-05 10:00:45
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ gallery: "instagram-2026-03-05-100045-thursday-s-theroost920mass"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Thursday’s @theroost920mass 🖤💛"
 ---
 
 Thursday’s [@theroost920mass](https://www.instagram.com/theroost920mass/) 🖤💛

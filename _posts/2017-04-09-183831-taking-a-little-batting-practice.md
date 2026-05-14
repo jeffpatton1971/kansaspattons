@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Taking a little batting practice"
+content_type: story
+slug: 183831-taking-a-little-batting-practice
 post_id: 2017-04-09-183831-taking-a-little-batting-practice
 date: 2017-04-09 18:38:31
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2017-04-09-183831-taking-a-little-batting-practice"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Taking a little batting practice"
 ---
 
 Taking a little batting practice

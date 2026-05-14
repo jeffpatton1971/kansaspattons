@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "So this just happened! @kcroyals #beroyalkc #royals"
+content_type: story
+slug: 215732-so-this-just-happened-kcroyals-beroyalkc-royals
 post_id: 2014-08-11-215732-so-this-just-happened-kcroyals-beroyalkc-royals
 date: 2014-08-11 21:57:32
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -24,6 +27,9 @@ tags:
   - "royals"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "So this just happened! @kcroyals #beroyalkc #royals"
 ---
 
 So this just happened! [@kcroyals](https://www.instagram.com/kcroyals/) [#beroyalkc](https://www.instagram.com/explore/tags/beroyalkc/) [#royals](https://www.instagram.com/explore/tags/royals/)

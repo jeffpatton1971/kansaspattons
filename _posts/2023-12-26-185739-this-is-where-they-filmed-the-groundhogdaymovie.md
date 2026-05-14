@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "This is where they filmed the #groundhogdaymovie"
+content_type: story
+slug: 185739-this-is-where-they-filmed-the-groundhogdaymovie
 post_id: 2023-12-26-185739-this-is-where-they-filmed-the-groundhogdaymovie
 date: 2023-12-26 18:57:39
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "groundhogdaymovie"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "This is where they filmed the #groundhogdaymovie"
 ---
 
 This is where they filmed the [#groundhogdaymovie](https://www.instagram.com/explore/tags/groundhogdaymovie/)

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Oops! Forgot to post this pic from my walk... the clouds and moon looked cool"
+content_type: story
+slug: 183245-oops-forgot-to-post-this-pic-from-my-walk-the-clouds-and-moon-looked-cool
 post_id: 2019-10-23-183245-oops-forgot-to-post-this-pic-from-my-walk-the-clouds-and-moon-looked-cool
 date: 2019-10-23 18:32:45
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-10-23-183245-oops-forgot-to-post-this-pic-from-my-walk-
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Oops! Forgot to post this pic from my walk... the clouds and moon looked cool"
 ---
 
 Oops! Forgot to post this pic from my walk... the clouds and moon looked cool

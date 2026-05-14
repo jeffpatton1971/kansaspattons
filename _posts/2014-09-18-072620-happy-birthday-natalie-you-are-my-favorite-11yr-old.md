@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Happy Birthday Natalie! You are my favorite 11yr old"
+content_type: story
+slug: 072620-happy-birthday-natalie-you-are-my-favorite-11yr-old
 post_id: 2014-09-18-072620-happy-birthday-natalie-you-are-my-favorite-11yr-old
 date: 2014-09-18 07:26:20
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
 categories:
   - "Natalie"
   - "birthday"
+authors:
+  - "Jeff Patton"
+summary: "Happy Birthday Natalie! You are my favorite 11yr old"
 ---
 
 Happy Birthday Natalie! You are my favorite 11yr old

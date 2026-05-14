@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nathan had a wonderful day today!"
+content_type: story
+slug: 221450-nathan-had-a-wonderful-day-today
 post_id: 2014-11-28-221450-nathan-had-a-wonderful-day-today
 date: 2014-11-28 22:14:50
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "Nathan had a wonderful day today!"
 ---
 
 Nathan had a wonderful day today!

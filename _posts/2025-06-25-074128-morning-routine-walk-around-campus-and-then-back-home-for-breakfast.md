@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Morning routine. Walk around campus and then back home for breakfast"
+content_type: story
+slug: 074128-morning-routine-walk-around-campus-and-then-back-home-for-breakfast
 post_id: 2025-06-25-074128-morning-routine-walk-around-campus-and-then-back-home-for-breakfast
 date: 2025-06-25 07:41:28
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-06-25-074128-morning-routine-walk-around-campus-and-the
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Morning routine. Walk around campus and then back home for breakfast"
 ---
 
 Morning routine. Walk around campus and then back home for breakfast

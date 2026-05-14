@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Progress was made. Stringers and maybe the pickets tomorrow"
+content_type: story
+slug: 183313-progress-was-made-stringers-and-maybe-the-pickets-tomorrow
 post_id: 2019-10-26-183313-progress-was-made-stringers-and-maybe-the-pickets-tomorrow
 date: 2019-10-26 18:33:13
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-10-26-183313-progress-was-made-stringers-and-maybe-the-
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Progress was made. Stringers and maybe the pickets tomorrow"
 ---
 
 Progress was made. Stringers and maybe the pickets tomorrow

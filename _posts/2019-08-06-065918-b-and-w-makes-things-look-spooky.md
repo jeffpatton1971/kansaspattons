@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "B&W makes things look spooky"
+content_type: story
+slug: 065918-b-and-w-makes-things-look-spooky
 post_id: 2019-08-06-065918-b-and-w-makes-things-look-spooky
 date: 2019-08-06 06:59:18
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-08-06-065918-b-and-w-makes-things-look-spooky"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "B&W makes things look spooky"
 ---
 
 B&amp;W makes things look spooky

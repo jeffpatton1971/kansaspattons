@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Night night sissy"
+content_type: story
+slug: 221320-night-night-sissy
 post_id: 2013-12-17-221320-night-night-sissy
 date: 2013-12-17 22:13:20
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2013-12-17-221320-night-night-sissy"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Night night sissy"
 ---
 
 Night night sissy

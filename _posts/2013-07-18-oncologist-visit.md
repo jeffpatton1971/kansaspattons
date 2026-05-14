@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Oncologist Visit"
+content_type: article
+slug: oncologist-visit
 post_id: 2013-07-18-oncologist-visit
 date: 2013-07-18 19:30:04
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -14,6 +17,9 @@ categories:
   - cancer
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "We met with Nathan’s oncologist today, mostly to set our mind at ease. It’s been a few days since visiting KU Med, and we’re still rather worried about the whole thing. She showed us where in Nathan’s liver that his tumor is, and potentiall"
 ---
 We met with Nathan’s oncologist today, mostly to set our mind at ease. It’s been a few days since visiting KU Med, and we’re still rather worried about the whole thing. She showed us where in Nathan’s liver that his tumor is, and potentially what part of Nathan’s liver could be removed. She let us know that while anything could happen in surgery, that doesn’t mean that it will.
 

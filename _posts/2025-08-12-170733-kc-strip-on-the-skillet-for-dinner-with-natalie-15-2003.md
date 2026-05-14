@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "KC Strip on the skillet for dinner with @natalie.15.2003"
+content_type: story
+slug: 170733-kc-strip-on-the-skillet-for-dinner-with-natalie-15-2003
 post_id: 2025-08-12-170733-kc-strip-on-the-skillet-for-dinner-with-natalie-15-2003
 date: 2025-08-12 17:07:33
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "instagram"
 categories:
   - "Natalie"
+authors:
+  - "Jeff Patton"
+summary: "KC Strip on the skillet for dinner with @natalie.15.2003"
 ---
 
 KC Strip on the skillet for dinner with [@natalie.15.2003](https://www.instagram.com/natalie.15.2003/)

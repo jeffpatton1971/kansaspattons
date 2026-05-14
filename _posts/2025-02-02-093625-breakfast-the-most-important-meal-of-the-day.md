@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#breakfast the most important meal of the day!"
+content_type: story
+slug: 093625-breakfast-the-most-important-meal-of-the-day
 post_id: 2025-02-02-093625-breakfast-the-most-important-meal-of-the-day
 date: 2025-02-02 09:36:25
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "breakfast"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#breakfast the most important meal of the day!"
 ---
 
 [#breakfast](https://www.instagram.com/explore/tags/breakfast/) the most important meal of the day!

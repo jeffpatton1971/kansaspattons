@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Put a Pokémon puzzle together with this guy last night"
+content_type: story
+slug: 172828-put-a-pok-mon-puzzle-together-with-this-guy-last-night
 post_id: 2018-01-22-172828-put-a-pok-mon-puzzle-together-with-this-guy-last-night
 date: 2018-01-22 17:28:28
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-01-22-172828-put-a-pok-mon-puzzle-together-with-this-gu
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Put a Pokémon puzzle together with this guy last night"
 ---
 
 Put a Pokémon puzzle together with this guy last night

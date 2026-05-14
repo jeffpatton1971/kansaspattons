@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Was a cheerleader today at Helen’s Rock"
+content_type: story
+slug: 123223-was-a-cheerleader-today-at-helen-s-rock
 post_id: 2019-05-02-123223-was-a-cheerleader-today-at-helen-s-rock
 date: 2019-05-02 12:32:23
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-05-02-123223-was-a-cheerleader-today-at-helen-s-rock"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Was a cheerleader today at Helen’s Rock"
 ---
 
 Was a cheerleader today at Helen’s Rock

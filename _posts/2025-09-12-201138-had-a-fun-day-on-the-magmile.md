@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Had a fun day on the #magmile"
+content_type: story
+slug: 201138-had-a-fun-day-on-the-magmile
 post_id: 2025-09-12-201138-had-a-fun-day-on-the-magmile
 date: 2025-09-12 20:11:38
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "magmile"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Had a fun day on the #magmile"
 ---
 
 Had a fun day on the [#magmile](https://www.instagram.com/explore/tags/magmile/)

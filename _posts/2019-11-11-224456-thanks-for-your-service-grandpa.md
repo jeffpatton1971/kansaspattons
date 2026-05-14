@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Thanks for your service grandpa"
+content_type: story
+slug: 224456-thanks-for-your-service-grandpa
 post_id: 2019-11-11-224456-thanks-for-your-service-grandpa
 date: 2019-11-11 22:44:56
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Grandpa"
+authors:
+  - "Jeff Patton"
+summary: "Thanks for your service grandpa"
 ---
 
 Thanks for your service grandpa

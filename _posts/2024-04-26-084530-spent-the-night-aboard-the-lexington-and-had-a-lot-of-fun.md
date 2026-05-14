@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Spent the night aboard the Lexington and had a lot of fun"
+content_type: story
+slug: 084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun
 post_id: 2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun
 date: 2024-04-26 08:45:30
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-h
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Spent the night aboard the Lexington and had a lot of fun"
 ---
 
 Spent the night aboard the Lexington and had a lot of fun

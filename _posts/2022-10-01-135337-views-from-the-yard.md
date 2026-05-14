@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "views from the yard"
+content_type: story
+slug: 135337-views-from-the-yard
 post_id: 2022-10-01-135337-views-from-the-yard
 date: 2022-10-01 13:53:37
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2022-10-01-135337-views-from-the-yard"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "views from the yard"
 ---
 
 views from the yard

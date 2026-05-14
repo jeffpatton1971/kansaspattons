@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Natalie made donuts"
+content_type: story
+slug: 153755-natalie-made-donuts
 post_id: 2022-11-13-153755-natalie-made-donuts
 date: 2022-11-13 15:37:55
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Natalie"
+authors:
+  - "Jeff Patton"
+summary: "Natalie made donuts"
 ---
 
 Natalie made donuts

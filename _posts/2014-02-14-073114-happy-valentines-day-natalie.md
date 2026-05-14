@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Happy Valentines Day Natalie!"
+content_type: story
+slug: 073114-happy-valentines-day-natalie
 post_id: 2014-02-14-073114-happy-valentines-day-natalie
 date: 2014-02-14 07:31:14
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Natalie"
+authors:
+  - "Jeff Patton"
+summary: "Happy Valentines Day Natalie!"
 ---
 
 Happy Valentines Day Natalie!

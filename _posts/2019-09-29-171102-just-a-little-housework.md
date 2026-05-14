@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Just a little housework"
+content_type: story
+slug: 171102-just-a-little-housework
 post_id: 2019-09-29-171102-just-a-little-housework
 date: 2019-09-29 17:11:02
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-09-29-171102-just-a-little-housework"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Just a little housework"
 ---
 
 Just a little housework

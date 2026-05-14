@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Stopped by the #rackspacecastle today before everything gets moved…ngl…was a little sad"
+content_type: story
+slug: 190049-stopped-by-the-rackspacecastle-today-before-everything-gets-moved-ngl-was-a
 post_id: 2023-06-12-190049-stopped-by-the-rackspacecastle-today-before-everything-gets-moved-ngl-was-a
 date: 2023-06-12 19:00:49
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "rackspacecastle"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Stopped by the #rackspacecastle today before everything gets moved…ngl…was a little sad"
 ---
 
 Stopped by the [#rackspacecastle](https://www.instagram.com/explore/tags/rackspacecastle/) today before everything gets moved…ngl…was a little sad

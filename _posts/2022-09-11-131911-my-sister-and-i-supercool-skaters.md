@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "My sister and I #supercool #skaters"
+content_type: story
+slug: 131911-my-sister-and-i-supercool-skaters
 post_id: 2022-09-11-131911-my-sister-and-i-supercool-skaters
 date: 2022-09-11 13:19:11
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "skaters"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "My sister and I #supercool #skaters"
 ---
 
 My sister and I [#supercool](https://www.instagram.com/explore/tags/supercool/) [#skaters](https://www.instagram.com/explore/tags/skaters/)

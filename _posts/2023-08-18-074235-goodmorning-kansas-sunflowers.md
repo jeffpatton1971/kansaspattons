@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#goodmorning #kansas #sunflowers"
+content_type: story
+slug: 074235-goodmorning-kansas-sunflowers
 post_id: 2023-08-18-074235-goodmorning-kansas-sunflowers
 date: 2023-08-18 07:42:35
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -25,6 +28,9 @@ tags:
   - "sunflowers"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#goodmorning #kansas #sunflowers"
 ---
 
 [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#kansas](https://www.instagram.com/explore/tags/kansas/) [#sunflowers](https://www.instagram.com/explore/tags/sunflowers/)

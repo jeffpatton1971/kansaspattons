@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Leftover steak makes for a tasty breakfast"
+content_type: story
+slug: 073903-leftover-steak-makes-for-a-tasty-breakfast
 post_id: 2020-08-18-073903-leftover-steak-makes-for-a-tasty-breakfast
 date: 2020-08-18 07:39:03
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2020-08-18-073903-leftover-steak-makes-for-a-tasty-breakfast
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Leftover steak makes for a tasty breakfast"
 ---
 
 Leftover steak makes for a tasty breakfast

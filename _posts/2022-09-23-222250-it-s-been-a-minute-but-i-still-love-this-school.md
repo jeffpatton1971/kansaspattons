@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "it’s been a minute but i still love this school"
+content_type: story
+slug: 222250-it-s-been-a-minute-but-i-still-love-this-school
 post_id: 2022-09-23-222250-it-s-been-a-minute-but-i-still-love-this-school
 date: 2022-09-23 22:22:50
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2022-09-23-222250-it-s-been-a-minute-but-i-still-love-this-s
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "it’s been a minute but i still love this school"
 ---
 
 it’s been a minute but i still love this school

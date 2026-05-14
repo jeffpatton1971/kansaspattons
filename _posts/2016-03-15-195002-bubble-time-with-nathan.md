@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Bubble time with Nathan"
+content_type: story
+slug: 195002-bubble-time-with-nathan
 post_id: 2016-03-15-195002-bubble-time-with-nathan
 date: 2016-03-15 19:50:02
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "Bubble time with Nathan"
 ---
 
 Bubble time with Nathan

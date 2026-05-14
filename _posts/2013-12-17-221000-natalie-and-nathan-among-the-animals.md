@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Natalie and Nathan among the animals"
+content_type: story
+slug: 221000-natalie-and-nathan-among-the-animals
 post_id: 2013-12-17-221000-natalie-and-nathan-among-the-animals
 date: 2013-12-17 22:10:00
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
 categories:
   - "Natalie"
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "Natalie and Nathan among the animals"
 ---
 
 Natalie and Nathan among the animals

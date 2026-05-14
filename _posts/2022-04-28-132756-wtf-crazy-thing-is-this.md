@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "WTF crazy thing is this?"
+content_type: story
+slug: 132756-wtf-crazy-thing-is-this
 post_id: 2022-04-28-132756-wtf-crazy-thing-is-this
 date: 2022-04-28 13:27:56
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2022-04-28-132756-wtf-crazy-thing-is-this"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "WTF crazy thing is this?"
 ---
 
 WTF crazy thing is this?

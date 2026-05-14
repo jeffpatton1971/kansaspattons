@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Happy Valentine's Day from the Patton's!"
+content_type: story
+slug: 092528-happy-valentine-s-day-from-the-patton-s
 post_id: 2015-02-14-092528-happy-valentine-s-day-from-the-patton-s
 date: 2015-02-14 09:25:28
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2015-02-14-092528-happy-valentine-s-day-from-the-patton-s"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Happy Valentine's Day from the Patton's!"
 ---
 
 Happy Valentine's Day from the Patton's!

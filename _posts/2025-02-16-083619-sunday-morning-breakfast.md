@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Sunday Morning breakfast"
+content_type: story
+slug: 083619-sunday-morning-breakfast
 post_id: 2025-02-16-083619-sunday-morning-breakfast
 date: 2025-02-16 08:36:19
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-02-16-083619-sunday-morning-breakfast"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Sunday Morning breakfast"
 ---
 
 Sunday Morning breakfast

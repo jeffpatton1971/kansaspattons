@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Pink enough today #nofilter"
+content_type: story
+slug: 072629-pink-enough-today-nofilter
 post_id: 2019-09-10-072629-pink-enough-today-nofilter
 date: 2019-09-10 07:26:29
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "nofilter"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Pink enough today #nofilter"
 ---
 
 Pink enough today [#nofilter](https://www.instagram.com/explore/tags/nofilter/)

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "After lunch glass bottom boat ride and then on the long road home"
+content_type: story
+slug: 150833-after-lunch-glass-bottom-boat-ride-and-then-on-the-long-road-home
 post_id: 2021-04-29-150833-after-lunch-glass-bottom-boat-ride-and-then-on-the-long-road-home
 date: 2021-04-29 15:08:33
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2021-04-29-150833-after-lunch-glass-bottom-boat-ride-and-the
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "After lunch glass bottom boat ride and then on the long road home"
 ---
 
 After lunch glass bottom boat ride and then on the long road home

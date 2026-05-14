@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Hanging with Nick!"
+content_type: story
+slug: 121546-hanging-with-nick
 post_id: 2014-11-16-121546-hanging-with-nick
 date: 2014-11-16 12:15:46
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2014-11-16-121546-hanging-with-nick"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Hanging with Nick!"
 ---
 
 Hanging with Nick!

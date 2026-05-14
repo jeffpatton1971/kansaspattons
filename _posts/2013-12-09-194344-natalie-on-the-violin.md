@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Natalie on the violin"
+content_type: story
+slug: 194344-natalie-on-the-violin
 post_id: 2013-12-09-194344-natalie-on-the-violin
 date: 2013-12-09 19:43:44
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Natalie"
+authors:
+  - "Jeff Patton"
+summary: "Natalie on the violin"
 ---
 
 Natalie on the violin

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Having pizza with this crazy kid"
+content_type: story
+slug: 185645-having-pizza-with-this-crazy-kid
 post_id: 2018-11-13-185645-having-pizza-with-this-crazy-kid
 date: 2018-11-13 18:56:45
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-11-13-185645-having-pizza-with-this-crazy-kid"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Having pizza with this crazy kid"
 ---
 
 Having pizza with this crazy kid

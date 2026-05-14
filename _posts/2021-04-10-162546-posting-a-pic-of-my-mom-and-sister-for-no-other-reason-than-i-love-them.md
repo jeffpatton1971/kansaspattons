@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Posting a pic of my mom and sister for no other reason than i love them... contrary to wha..."
+content_type: story
+slug: 162546-posting-a-pic-of-my-mom-and-sister-for-no-other-reason-than-i-love-them
 post_id: 2021-04-10-162546-posting-a-pic-of-my-mom-and-sister-for-no-other-reason-than-i-love-them
 date: 2021-04-10 16:25:46
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2021-04-10-162546-posting-a-pic-of-my-mom-and-sister-for-no-
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Posting a pic of my mom and sister for no other reason than i love them... contrary to what my face looks like in this 😂😂"
 ---
 
 Posting a pic of my mom and sister for no other reason than i love them... contrary to what my face looks like in this 😂😂

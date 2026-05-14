@@ -54,6 +54,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Added Tailwind CSS v4 and shadcn/ui as the shared styling foundation for this site and future sibling sites.
 - Added initial shadcn primitives for buttons, cards, badges, separators, skeletons, and tooltips.
 - Added design-system documentation for the Tailwind/shadcn setup and cross-site styling direction.
+- Added a repeatable `normalize:posts` script for applying the new frontmatter shape across imported Markdown posts.
 
 ### Changed
 
@@ -98,6 +99,8 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed Facebook album imports to generate as galleries instead of story entries.
 - Excluded Facebook Mobile Uploads albums from story and gallery archives while keeping their individual images in `/images`.
 - Changed the archive right rail to use shadcn cards, badges, separators, and skeleton loading states.
+- Converted all `_posts` Markdown files to explicit `content_type`, `slug`, `post_id`, `status`, `authors`, and `summary` frontmatter.
+- Changed the content compiler to honor explicit post `slug` and top-level `id` frontmatter during JSON generation.
 
 ### Fixed
 

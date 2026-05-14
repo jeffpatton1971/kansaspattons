@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Happy Birthday Princess"
+content_type: story
+slug: 123944-happy-birthday-princess
 post_id: 2022-09-18-123944-happy-birthday-princess
 date: 2022-09-18 12:39:44
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "birthday"
+authors:
+  - "Jeff Patton"
+summary: "Happy Birthday Princess"
 ---
 
 Happy Birthday Princess

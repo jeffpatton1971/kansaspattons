@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Decent pic of the #christmasstar sadly couldn’t get one through ye olde binoculars 😂"
+content_type: story
+slug: 181002-decent-pic-of-the-christmasstar-sadly-couldn-t-get-one-through-ye-olde
 post_id: 2020-12-21-181002-decent-pic-of-the-christmasstar-sadly-couldn-t-get-one-through-ye-olde
 date: 2020-12-21 18:10:02
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "christmasstar"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Decent pic of the #christmasstar sadly couldn’t get one through ye olde binoculars 😂"
 ---
 
 Decent pic of the [#christmasstar](https://www.instagram.com/explore/tags/christmasstar/) sadly couldn’t get one through ye olde binoculars 😂

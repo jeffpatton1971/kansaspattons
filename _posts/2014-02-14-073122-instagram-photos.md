@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "Instagram Photos"
+content_type: gallery
+slug: 073122-instagram-photos
 date: 2014-02-14 07:31:22
 published: true
+status: published
 comments: false
 post_id: 2014-02-14-073122-instagram-photos
 source:
@@ -19,6 +22,9 @@ categories:
   - album
 tags: []
 gallery: facebook-2014-02-14-073122-instagram-photos
+authors:
+  - "Jeff Patton"
+summary: "Instagram Photos Facebook album."
 ---
 
 {% include gallery.html gallery="facebook-2014-02-14-073122-instagram-photos" %}

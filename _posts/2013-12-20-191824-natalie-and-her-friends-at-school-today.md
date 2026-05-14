@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Natalie and her friends at school today"
+content_type: story
+slug: 191824-natalie-and-her-friends-at-school-today
 post_id: 2013-12-20-191824-natalie-and-her-friends-at-school-today
 date: 2013-12-20 19:18:24
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Natalie"
+authors:
+  - "Jeff Patton"
+summary: "Natalie and her friends at school today"
 ---
 
 Natalie and her friends at school today

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Before and after Christmas Decorations"
+content_type: story
+slug: 181812-before-and-after-christmas-decorations
 post_id: 2019-12-01-181812-before-and-after-christmas-decorations
 date: 2019-12-01 18:18:12
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Christmas"
+authors:
+  - "Jeff Patton"
+summary: "Before and after Christmas Decorations"
 ---
 
 Before and after Christmas Decorations

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#goodmorning #gulfcoast"
+content_type: story
+slug: 073254-goodmorning-gulfcoast
 post_id: 2022-06-05-073254-goodmorning-gulfcoast
 date: 2022-06-05 07:32:54
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "gulfcoast"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#goodmorning #gulfcoast"
 ---
 
 [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#gulfcoast](https://www.instagram.com/explore/tags/gulfcoast/)

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Watching #tennis today with @natalie.15.2003"
+content_type: story
+slug: 130211-watching-tennis-today-with-natalie-15-2003
 post_id: 2025-04-17-130211-watching-tennis-today-with-natalie-15-2003
 date: 2025-04-17 13:02:11
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "instagram"
 categories:
   - "Natalie"
+authors:
+  - "Jeff Patton"
+summary: "Watching #tennis today with @natalie.15.2003"
 ---
 
 Watching [#tennis](https://www.instagram.com/explore/tags/tennis/) today with [@natalie.15.2003](https://www.instagram.com/natalie.15.2003/)

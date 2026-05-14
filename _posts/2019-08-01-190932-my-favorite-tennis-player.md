@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "My favorite tennis player"
+content_type: story
+slug: 190932-my-favorite-tennis-player
 post_id: 2019-08-01-190932-my-favorite-tennis-player
 date: 2019-08-01 19:09:32
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-08-01-190932-my-favorite-tennis-player"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "My favorite tennis player"
 ---
 
 My favorite tennis player

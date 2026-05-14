@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#breakfast #sundaymornings #mood"
+content_type: story
+slug: 073231-breakfast-sundaymornings-mood
 post_id: 2025-05-18-073231-breakfast-sundaymornings-mood
 date: 2025-05-18 07:32:31
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -25,6 +28,9 @@ tags:
   - "mood"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#breakfast #sundaymornings #mood"
 ---
 
 [#breakfast](https://www.instagram.com/explore/tags/breakfast/) [#sundaymornings](https://www.instagram.com/explore/tags/sundaymornings/) [#mood](https://www.instagram.com/explore/tags/mood/)

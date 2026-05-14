@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Wonderful dinner after a relaxing day"
+content_type: story
+slug: 192645-wonderful-dinner-after-a-relaxing-day
 post_id: 2018-05-26-192645-wonderful-dinner-after-a-relaxing-day
 date: 2018-05-26 19:26:45
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-05-26-192645-wonderful-dinner-after-a-relaxing-day"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Wonderful dinner after a relaxing day"
 ---
 
 Wonderful dinner after a relaxing day

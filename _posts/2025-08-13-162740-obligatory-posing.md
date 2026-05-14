@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Obligatory posing"
+content_type: story
+slug: 162740-obligatory-posing
 post_id: 2025-08-13-162740-obligatory-posing
 date: 2025-08-13 16:27:40
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-08-13-162740-obligatory-posing"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Obligatory posing"
 ---
 
 Obligatory posing

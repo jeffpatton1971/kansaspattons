@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "first day of sixth grade #traditions"
+content_type: story
+slug: 155256-first-day-of-sixth-grade-traditions
 post_id: 2022-08-17-155256-first-day-of-sixth-grade-traditions
 date: 2022-08-17 15:52:56
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "traditions"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "first day of sixth grade #traditions"
 ---
 
 first day of sixth grade [#traditions](https://www.instagram.com/explore/tags/traditions/)

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#happythanksgivng"
+content_type: story
+slug: 181505-happythanksgivng
 post_id: 2025-11-27-181505-happythanksgivng
 date: 2025-11-27 18:15:05
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "happythanksgivng"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#happythanksgivng"
 ---
 
 [#happythanksgivng](https://www.instagram.com/explore/tags/happythanksgivng/)

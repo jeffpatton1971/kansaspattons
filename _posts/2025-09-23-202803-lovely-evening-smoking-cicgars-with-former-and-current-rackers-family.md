@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Lovely evening smoking #cicgars with former and current #rackers. #family"
+content_type: story
+slug: 202803-lovely-evening-smoking-cicgars-with-former-and-current-rackers-family
 post_id: 2025-09-23-202803-lovely-evening-smoking-cicgars-with-former-and-current-rackers-family
 date: 2025-09-23 20:28:03
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -25,6 +28,9 @@ tags:
   - "family"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Lovely evening smoking #cicgars with former and current #rackers.  #family"
 ---
 
 Lovely evening smoking [#cicgars](https://www.instagram.com/explore/tags/cicgars/) with former and current [#rackers](https://www.instagram.com/explore/tags/rackers/).  [#family](https://www.instagram.com/explore/tags/family/)

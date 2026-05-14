@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Discovery tour was fun"
+content_type: story
+slug: 184611-discovery-tour-was-fun
 post_id: 2023-06-16-184611-discovery-tour-was-fun
 date: 2023-06-16 18:46:11
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2023-06-16-184611-discovery-tour-was-fun"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Discovery tour was fun"
 ---
 
 Discovery tour was fun

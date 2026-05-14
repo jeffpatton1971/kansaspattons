@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "Nathan's 6 Mo Pictures"
+content_type: gallery
+slug: 192157-nathan-s-6-mo-pictures
 date: 2011-10-12 19:21:57
 published: true
+status: published
 comments: false
 post_id: 2011-10-12-192157-nathan-s-6-mo-pictures
 source:
@@ -19,6 +22,9 @@ categories:
   - album
 tags: []
 gallery: facebook-2011-10-12-192157-nathan-s-6-mo-pictures
+authors:
+  - "Jeff Patton"
+summary: "Nathan's 6 Mo Pictures Facebook album."
 ---
 
 {% include gallery.html gallery="facebook-2011-10-12-192157-nathan-s-6-mo-pictures" %}

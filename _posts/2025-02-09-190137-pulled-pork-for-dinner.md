@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Pulled pork for dinner"
+content_type: story
+slug: 190137-pulled-pork-for-dinner
 post_id: 2025-02-09-190137-pulled-pork-for-dinner
 date: 2025-02-09 19:01:37
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-02-09-190137-pulled-pork-for-dinner"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Pulled pork for dinner"
 ---
 
 Pulled pork for dinner

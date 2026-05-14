@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "A little breakfast to start the day #lfk"
+content_type: story
+slug: 090304-a-little-breakfast-to-start-the-day-lfk
 post_id: 2025-07-12-090304-a-little-breakfast-to-start-the-day-lfk
 date: 2025-07-12 09:03:04
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "lfk"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "A little breakfast to start the day #lfk"
 ---
 
 A little breakfast to start the day [#lfk](https://www.instagram.com/explore/tags/lfk/)

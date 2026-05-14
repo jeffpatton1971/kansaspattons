@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Natalie before the play today"
+content_type: story
+slug: 121807-natalie-before-the-play-today
 post_id: 2013-12-14-121807-natalie-before-the-play-today
 date: 2013-12-14 12:18:07
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Natalie"
+authors:
+  - "Jeff Patton"
+summary: "Natalie before the play today"
 ---
 
 Natalie before the play today

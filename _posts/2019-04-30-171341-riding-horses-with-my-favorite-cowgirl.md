@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Riding horses with my favorite cowgirl"
+content_type: story
+slug: 171341-riding-horses-with-my-favorite-cowgirl
 post_id: 2019-04-30-171341-riding-horses-with-my-favorite-cowgirl
 date: 2019-04-30 17:13:41
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-04-30-171341-riding-horses-with-my-favorite-cowgirl"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Riding horses with my favorite cowgirl"
 ---
 
 Riding horses with my favorite cowgirl

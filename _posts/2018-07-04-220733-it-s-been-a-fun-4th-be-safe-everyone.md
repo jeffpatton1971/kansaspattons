@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "It’s been a fun 4th! Be safe everyone"
+content_type: story
+slug: 220733-it-s-been-a-fun-4th-be-safe-everyone
 post_id: 2018-07-04-220733-it-s-been-a-fun-4th-be-safe-everyone
 date: 2018-07-04 22:07:33
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-07-04-220733-it-s-been-a-fun-4th-be-safe-everyone"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "It’s been a fun 4th! Be safe everyone"
 ---
 
 It’s been a fun 4th! Be safe everyone

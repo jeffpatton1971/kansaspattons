@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Had a fun and educational visit"
+content_type: story
+slug: 161020-had-a-fun-and-educational-visit
 post_id: 2022-05-07-161020-had-a-fun-and-educational-visit
 date: 2022-05-07 16:10:20
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2022-05-07-161020-had-a-fun-and-educational-visit"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Had a fun and educational visit"
 ---
 
 Had a fun and educational visit

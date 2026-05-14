@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Somethin to ride too"
+content_type: story
+slug: 191005-somethin-to-ride-too
 post_id: 2019-11-07-191005-somethin-to-ride-too
 date: 2019-11-07 19:10:05
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-11-07-191005-somethin-to-ride-too"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Somethin to ride too"
 ---
 
 Somethin to ride too

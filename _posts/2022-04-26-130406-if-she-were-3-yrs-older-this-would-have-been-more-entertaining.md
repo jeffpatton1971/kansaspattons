@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "If she were 3 yrs older this would have been more entertaining"
+content_type: story
+slug: 130406-if-she-were-3-yrs-older-this-would-have-been-more-entertaining
 post_id: 2022-04-26-130406-if-she-were-3-yrs-older-this-would-have-been-more-entertaining
 date: 2022-04-26 13:04:06
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2022-04-26-130406-if-she-were-3-yrs-older-this-would-have-be
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "If she were 3 yrs older this would have been more entertaining"
 ---
 
 If she were 3 yrs older this would have been more entertaining

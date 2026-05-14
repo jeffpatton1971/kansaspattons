@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "great day for #baseball practice"
+content_type: story
+slug: 172802-great-day-for-baseball-practice
 post_id: 2023-05-02-172802-great-day-for-baseball-practice
 date: 2023-05-02 17:28:02
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "baseball"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "great day for #baseball practice"
 ---
 
 great day for [#baseball](https://www.instagram.com/explore/tags/baseball/) practice

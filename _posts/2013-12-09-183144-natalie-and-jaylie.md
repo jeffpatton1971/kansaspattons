@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Natalie and Jaylie"
+content_type: story
+slug: 183144-natalie-and-jaylie
 post_id: 2013-12-09-183144-natalie-and-jaylie
 date: 2013-12-09 18:31:44
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Natalie"
+authors:
+  - "Jeff Patton"
+summary: "Natalie and Jaylie"
 ---
 
 Natalie and Jaylie

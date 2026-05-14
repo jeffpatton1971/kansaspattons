@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "long day but we made it"
+content_type: story
+slug: 212847-long-day-but-we-made-it
 post_id: 2023-06-11-212847-long-day-but-we-made-it
 date: 2023-06-11 21:28:47
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2023-06-11-212847-long-day-but-we-made-it"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "long day but we made it"
 ---
 
 long day but we made it

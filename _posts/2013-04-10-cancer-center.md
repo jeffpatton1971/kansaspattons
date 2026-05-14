@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Cancer Center"
+content_type: article
+slug: cancer-center
 post_id: 2013-04-10-cancer-center
 date: 2013-04-10 09:46:11
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -15,6 +18,9 @@ categories:
   - cancer
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "We took Nathan in for his second dose of chemo during this cycle. This is our first visit to the cancer center in Topeka so it took a little longer than perhaps it should have otherwise. The good news though is that next week it should be m"
 ---
 We took Nathan in for his second dose of chemo during this cycle. This is our first visit to the cancer center in Topeka so it took a little longer than perhaps it should have otherwise. The good news though is that next week it should be much shorter since we’re in the system now.
 

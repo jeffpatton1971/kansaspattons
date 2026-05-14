@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "First college visit in the books"
+content_type: story
+slug: 183556-first-college-visit-in-the-books
 post_id: 2021-09-17-183556-first-college-visit-in-the-books
 date: 2021-09-17 18:35:56
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2021-09-17-183556-first-college-visit-in-the-books"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "First college visit in the books"
 ---
 
 First college visit in the books

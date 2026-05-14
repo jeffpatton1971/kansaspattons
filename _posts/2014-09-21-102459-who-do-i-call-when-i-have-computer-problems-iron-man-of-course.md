@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Who do I call when I have computer problems? Iron Man of course!"
+content_type: story
+slug: 102459-who-do-i-call-when-i-have-computer-problems-iron-man-of-course
 post_id: 2014-09-21-102459-who-do-i-call-when-i-have-computer-problems-iron-man-of-course
 date: 2014-09-21 10:24:59
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2014-09-21-102459-who-do-i-call-when-i-have-computer-problem
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Who do I call when I have computer problems? Iron Man of course!"
 ---
 
 Who do I call when I have computer problems? Iron Man of course!

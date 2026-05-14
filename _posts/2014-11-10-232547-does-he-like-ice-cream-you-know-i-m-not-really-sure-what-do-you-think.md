@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Does he like ice cream? You know I'm not really sure, what do you think?"
+content_type: story
+slug: 232547-does-he-like-ice-cream-you-know-i-m-not-really-sure-what-do-you-think
 post_id: 2014-11-10-232547-does-he-like-ice-cream-you-know-i-m-not-really-sure-what-do-you-think
 date: 2014-11-10 23:25:47
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2014-11-10-232547-does-he-like-ice-cream-you-know-i-m-not-re
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Does he like ice cream? You know I'm not really sure, what do you think?"
 ---
 
 Does he like ice cream? You know I'm not really sure, what do you think?

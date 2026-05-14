@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Last day of high school and a tradition we’ve had since Nat was a little girl"
+content_type: story
+slug: 121256-last-day-of-high-school-and-a-tradition-we-ve-had-since-nat-was-a-little-girl
 post_id: 2022-05-13-121256-last-day-of-high-school-and-a-tradition-we-ve-had-since-nat-was-a-little-girl
 date: 2022-05-13 12:12:56
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2022-05-13-121256-last-day-of-high-school-and-a-tradition-we
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Last day of high school and a tradition we’ve had since Nat was a little girl"
 ---
 
 Last day of high school and a tradition we’ve had since Nat was a little girl

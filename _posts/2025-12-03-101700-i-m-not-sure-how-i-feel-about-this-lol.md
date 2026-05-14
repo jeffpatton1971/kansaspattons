@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "I’m not sure how I feel about this lol"
+content_type: story
+slug: 101700-i-m-not-sure-how-i-feel-about-this-lol
 post_id: 2025-12-03-101700-i-m-not-sure-how-i-feel-about-this-lol
 date: 2025-12-03 10:17:00
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-12-03-101700-i-m-not-sure-how-i-feel-about-this-lol"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "I’m not sure how I feel about this lol"
 ---
 
 I’m not sure how I feel about this lol

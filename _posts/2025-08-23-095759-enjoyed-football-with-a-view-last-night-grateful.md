@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Enjoyed football with a view last night #grateful"
+content_type: story
+slug: 095759-enjoyed-football-with-a-view-last-night-grateful
 post_id: 2025-08-23-095759-enjoyed-football-with-a-view-last-night-grateful
 date: 2025-08-23 09:57:59
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "grateful"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Enjoyed football with a view last night #grateful"
 ---
 
 Enjoyed football with a view last night [#grateful](https://www.instagram.com/explore/tags/grateful/)

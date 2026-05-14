@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Slo-mo underwater firecracker"
+content_type: story
+slug: 183541-slo-mo-underwater-firecracker
 post_id: 2018-07-04-183541-slo-mo-underwater-firecracker
 date: 2018-07-04 18:35:41
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-07-04-183541-slo-mo-underwater-firecracker"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Slo-mo underwater firecracker"
 ---
 
 Slo-mo underwater firecracker

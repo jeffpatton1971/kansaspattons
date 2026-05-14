@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Strange things goin down @hoborlando"
+content_type: story
+slug: 194321-strange-things-goin-down-hoborlando
 post_id: 2021-04-26-194321-strange-things-goin-down-hoborlando
 date: 2021-04-26 19:43:21
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ gallery: "instagram-2021-04-26-194321-strange-things-goin-down-hoborlando"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Strange things goin down @hoborlando"
 ---
 
 Strange things goin down [@hoborlando](https://www.instagram.com/hoborlando/)

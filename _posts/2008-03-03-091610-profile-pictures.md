@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "Profile pictures"
+content_type: gallery
+slug: 091610-profile-pictures
 date: 2008-03-03 09:16:10
 published: true
+status: published
 comments: false
 post_id: 2008-03-03-091610-profile-pictures
 source:
@@ -19,6 +22,9 @@ categories:
   - album
 tags: []
 gallery: facebook-2008-03-03-091610-profile-pictures
+authors:
+  - "Jeff Patton"
+summary: "Profile pictures Facebook album."
 ---
 
 {% include gallery.html gallery="facebook-2008-03-03-091610-profile-pictures" %}

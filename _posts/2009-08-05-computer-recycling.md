@@ -1,6 +1,8 @@
 ---
 layout:     single
 title:      "Computer Recycling"
+content_type: article
+slug: computer-recycling
 post_id:         2009-08-05-computer-recycling
 date:       2009-08-05 08:55:00 -0600
 source:
@@ -9,8 +11,12 @@ categories: blog
 tags:
   - "wordpress"
 author:     Jeff
+authors:
+  - Jeff
+summary: "Spent the entire day downstairs, got rid of all my old computer stuff. I took it to Extreme Recycling and I’m pretty sure they thought that all those computers could not have possibly come from one house! Sadly, they did, I filled an entire"
 comments:   false
 published:  true
+status: published
 ---
 Spent the entire day downstairs, got rid of all my old computer stuff. I took it to Extreme Recycling and I’m pretty sure they thought that all those computers could not have possibly come from one house! Sadly, they did, I filled an entire mini-van with computers and computer parts. I feel like I should be in CCA, Computer Collector’s Annonymous!
 

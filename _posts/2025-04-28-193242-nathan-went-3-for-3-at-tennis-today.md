@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nathan went 3 for 3 at tennis today!"
+content_type: story
+slug: 193242-nathan-went-3-for-3-at-tennis-today
 post_id: 2025-04-28-193242-nathan-went-3-for-3-at-tennis-today
 date: 2025-04-28 19:32:42
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "Nathan went 3 for 3 at tennis today!"
 ---
 
 Nathan went 3 for 3 at tennis today!

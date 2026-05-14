@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Cycle Four"
+content_type: article
+slug: cycle-four
 post_id: 2013-06-07-cycle-four
 date: 2013-06-07 14:14:40
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -15,6 +18,9 @@ categories:
   - cancer
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "Nathan had his final chemo session for this round today and Natalie went with us. This is the first time that Natalie has joined us during one of his treatments, she was a little nervous about what it would be like, but she got through it j"
 ---
 Nathan had his final chemo session for this round today and Natalie went with us. This is the first time that Natalie has joined us during one of his treatments, she was a little nervous about what it would be like, but she got through it just fine. She was worried there would be shots and things but it’s really super quick, and the nurse is very good.
 

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Catching the rain"
+content_type: story
+slug: 200424-catching-the-rain
 post_id: 2014-06-22-200424-catching-the-rain
 date: 2014-06-22 20:04:24
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2014-06-22-200424-catching-the-rain"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Catching the rain"
 ---
 
 Catching the rain

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Easter Sunday"
+content_type: article
+slug: easter-sunday
 post_id: 2013-03-30-easter-sunday
 date: 2013-03-30 12:41:34
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -16,6 +19,9 @@ categories:
   - "Easter"
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "We decided to have our Easter egg hunt the day before Easter. The main reason was because Nathan will be checked into the hospital on Easter Sunday, and partly because it is supposed to be a miserable day Sunday weather wise. So here are th"
 ---
 We decided to have our Easter egg hunt the day before Easter. The main reason was because Nathan will be checked into the hospital on Easter Sunday, and partly because it is supposed to be a miserable day Sunday weather wise.
 

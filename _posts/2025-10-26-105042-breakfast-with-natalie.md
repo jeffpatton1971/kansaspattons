@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Breakfast with Natalie"
+content_type: story
+slug: 105042-breakfast-with-natalie
 post_id: 2025-10-26-105042-breakfast-with-natalie
 date: 2025-10-26 10:50:42
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Natalie"
+authors:
+  - "Jeff Patton"
+summary: "Breakfast with Natalie"
 ---
 
 Breakfast with Natalie

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Julia, Natalie and Zion after the concert Monday"
+content_type: story
+slug: 121659-julia-natalie-and-zion-after-the-concert-monday
 post_id: 2013-12-14-121659-julia-natalie-and-zion-after-the-concert-monday
 date: 2013-12-14 12:16:59
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Natalie"
+authors:
+  - "Jeff Patton"
+summary: "Julia, Natalie and Zion after the concert Monday"
 ---
 
 Julia, Natalie and Zion after the concert Monday

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Yard work done just as the rain comes in"
+content_type: story
+slug: 132543-yard-work-done-just-as-the-rain-comes-in
 post_id: 2019-09-28-132543-yard-work-done-just-as-the-rain-comes-in
 date: 2019-09-28 13:25:43
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-09-28-132543-yard-work-done-just-as-the-rain-comes-in"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Yard work done just as the rain comes in"
 ---
 
 Yard work done just as the rain comes in

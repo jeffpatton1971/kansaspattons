@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "beautiful day for #baseball practice"
+content_type: story
+slug: 143003-beautiful-day-for-baseball-practice
 post_id: 2023-04-29-143003-beautiful-day-for-baseball-practice
 date: 2023-04-29 14:30:03
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "baseball"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "beautiful day for #baseball practice"
 ---
 
 beautiful day for [#baseball](https://www.instagram.com/explore/tags/baseball/) practice

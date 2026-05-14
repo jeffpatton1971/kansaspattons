@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#breakfast for mom"
+content_type: story
+slug: 084113-breakfast-for-mom
 post_id: 2024-10-26-084113-breakfast-for-mom
 date: 2024-10-26 08:41:13
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "breakfast"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#breakfast for mom"
 ---
 
 [#breakfast](https://www.instagram.com/explore/tags/breakfast/) for mom

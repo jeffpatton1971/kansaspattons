@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "A little #kansas bbq"
+content_type: story
+slug: 161534-a-little-kansas-bbq
 post_id: 2022-09-04-161534-a-little-kansas-bbq
 date: 2022-09-04 16:15:34
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "kansas"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "A little #kansas bbq"
 ---
 
 A little [#kansas](https://www.instagram.com/explore/tags/kansas/) bbq

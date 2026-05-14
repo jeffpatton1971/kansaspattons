@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Natalie and Nathan watching a show"
+content_type: story
+slug: 211548-natalie-and-nathan-watching-a-show
 post_id: 2014-03-01-211548-natalie-and-nathan-watching-a-show
 date: 2014-03-01 21:15:48
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
 categories:
   - "Natalie"
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "Natalie and Nathan watching a show"
 ---
 
 Natalie and Nathan watching a show

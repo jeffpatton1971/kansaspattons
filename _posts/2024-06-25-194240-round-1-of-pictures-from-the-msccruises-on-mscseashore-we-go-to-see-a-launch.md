@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Round 1 of pictures from the #msccruises on #mscseashore . We go to see a launch from #cap..."
+content_type: story
+slug: 194240-round-1-of-pictures-from-the-msccruises-on-mscseashore-we-go-to-see-a-launch
 post_id: 2024-06-25-194240-round-1-of-pictures-from-the-msccruises-on-mscseashore-we-go-to-see-a-launch
 date: 2024-06-25 19:42:40
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -26,6 +29,9 @@ tags:
   - "capecanaveral"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Round 1 of pictures from the #msccruises on #mscseashore . We go to see a launch from #capecanaveral from the ship and @natalie__patton found her favorite spot on the ship"
 ---
 
 Round 1 of pictures from the [#msccruises](https://www.instagram.com/explore/tags/msccruises/) on [#mscseashore](https://www.instagram.com/explore/tags/mscseashore/) . We go to see a launch from [#capecanaveral](https://www.instagram.com/explore/tags/capecanaveral/) from the ship and [@natalie__patton](https://www.instagram.com/natalie__patton/) found her favorite spot on the ship

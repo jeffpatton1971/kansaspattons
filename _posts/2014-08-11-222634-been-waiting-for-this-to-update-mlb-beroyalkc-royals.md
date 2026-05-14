@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Been waiting for this to update @mlb #beroyalkc #royals"
+content_type: story
+slug: 222634-been-waiting-for-this-to-update-mlb-beroyalkc-royals
 post_id: 2014-08-11-222634-been-waiting-for-this-to-update-mlb-beroyalkc-royals
 date: 2014-08-11 22:26:34
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -24,6 +27,9 @@ tags:
   - "royals"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Been waiting for this to update @mlb #beroyalkc #royals"
 ---
 
 Been waiting for this to update [@mlb](https://www.instagram.com/mlb/) [#beroyalkc](https://www.instagram.com/explore/tags/beroyalkc/) [#royals](https://www.instagram.com/explore/tags/royals/)

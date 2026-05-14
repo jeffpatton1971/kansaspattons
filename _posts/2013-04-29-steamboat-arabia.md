@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Steamboat Arabia"
+content_type: article
+slug: steamboat-arabia
 post_id: 2013-04-29-steamboat-arabia
 date: 2013-04-29 22:13:44
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -16,6 +19,9 @@ categories:
   - field-trips
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "Today was the field trip for the third grade class, we visited the Steamboat Arabia museum in Kansas City. The Arabia sank in 1856 with about 200 ton of merchandise destined for people headed west. It sank in the Missouri river and was disc"
 ---
 Today was the field trip for the third grade class, we visited the [Steamboat Arabia museum](http://1856.com) in Kansas City. The Arabia sank in 1856 with about 200 ton of merchandise destined for people headed west. It sank in the Missouri river and was discovered in 1988 50ft below a cornfield in Kansas. When you walk through the museum, it’s like the tour guide said, “it’s like walking through an 1800’s version of Wal-Mart.”
 

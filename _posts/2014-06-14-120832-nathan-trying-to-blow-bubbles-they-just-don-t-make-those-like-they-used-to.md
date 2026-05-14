@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nathan trying to blow bubbles...they just don't make those like they used to"
+content_type: story
+slug: 120832-nathan-trying-to-blow-bubbles-they-just-don-t-make-those-like-they-used-to
 post_id: 2014-06-14-120832-nathan-trying-to-blow-bubbles-they-just-don-t-make-those-like-they-used-to
 date: 2014-06-14 12:08:32
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "Nathan trying to blow bubbles...they just don't make those like they used to"
 ---
 
 Nathan trying to blow bubbles...they just don't make those like they used to

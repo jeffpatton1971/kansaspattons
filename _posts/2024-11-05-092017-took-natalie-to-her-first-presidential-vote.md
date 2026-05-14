@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Took Natalie to her first Presidential #vote"
+content_type: story
+slug: 092017-took-natalie-to-her-first-presidential-vote
 post_id: 2024-11-05-092017-took-natalie-to-her-first-presidential-vote
 date: 2024-11-05 09:20:17
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -22,6 +25,9 @@ tags:
   - "instagram"
 categories:
   - "Natalie"
+authors:
+  - "Jeff Patton"
+summary: "Took Natalie to her first Presidential #vote"
 ---
 
 Took Natalie to her first Presidential [#vote](https://www.instagram.com/explore/tags/vote/)

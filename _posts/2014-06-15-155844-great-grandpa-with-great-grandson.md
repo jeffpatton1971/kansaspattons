@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Great Grandpa with Great Grandson"
+content_type: story
+slug: 155844-great-grandpa-with-great-grandson
 post_id: 2014-06-15-155844-great-grandpa-with-great-grandson
 date: 2014-06-15 15:58:44
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Grandpa"
+authors:
+  - "Jeff Patton"
+summary: "Great Grandpa with Great Grandson"
 ---
 
 Great Grandpa with Great Grandson

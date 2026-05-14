@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Natalie and Julia"
+content_type: story
+slug: 120617-natalie-and-julia
 post_id: 2013-12-14-120617-natalie-and-julia
 date: 2013-12-14 12:06:17
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Natalie"
+authors:
+  - "Jeff Patton"
+summary: "Natalie and Julia"
 ---
 
 Natalie and Julia

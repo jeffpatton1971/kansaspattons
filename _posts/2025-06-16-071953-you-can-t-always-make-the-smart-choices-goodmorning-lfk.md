@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "You can’t always make the smart choices! #goodmorning #lfk"
+content_type: story
+slug: 071953-you-can-t-always-make-the-smart-choices-goodmorning-lfk
 post_id: 2025-06-16-071953-you-can-t-always-make-the-smart-choices-goodmorning-lfk
 date: 2025-06-16 07:19:53
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "lfk"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "You can’t always make the smart choices! #goodmorning #lfk"
 ---
 
 You can’t always make the smart choices! [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#lfk](https://www.instagram.com/explore/tags/lfk/)

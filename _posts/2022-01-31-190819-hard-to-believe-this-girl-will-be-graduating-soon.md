@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Hard to believe this girl will be graduating soon"
+content_type: story
+slug: 190819-hard-to-believe-this-girl-will-be-graduating-soon
 post_id: 2022-01-31-190819-hard-to-believe-this-girl-will-be-graduating-soon
 date: 2022-01-31 19:08:19
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2022-01-31-190819-hard-to-believe-this-girl-will-be-graduati
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Hard to believe this girl will be graduating soon"
 ---
 
 Hard to believe this girl will be graduating soon

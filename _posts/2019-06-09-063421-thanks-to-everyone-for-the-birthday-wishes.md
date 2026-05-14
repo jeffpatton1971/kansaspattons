@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Thanks to everyone for the birthday wishes!"
+content_type: story
+slug: 063421-thanks-to-everyone-for-the-birthday-wishes
 post_id: 2019-06-09-063421-thanks-to-everyone-for-the-birthday-wishes
 date: 2019-06-09 06:34:21
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "birthday"
+authors:
+  - "Jeff Patton"
+summary: "Thanks to everyone for the birthday wishes!"
 ---
 
 Thanks to everyone for the birthday wishes!

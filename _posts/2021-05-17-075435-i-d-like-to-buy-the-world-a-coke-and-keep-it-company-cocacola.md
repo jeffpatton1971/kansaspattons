@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "“I’d like to buy the world a Coke and keep it company” @cocacola"
+content_type: story
+slug: 075435-i-d-like-to-buy-the-world-a-coke-and-keep-it-company-cocacola
 post_id: 2021-05-17-075435-i-d-like-to-buy-the-world-a-coke-and-keep-it-company-cocacola
 date: 2021-05-17 07:54:35
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ gallery: "instagram-2021-05-17-075435-i-d-like-to-buy-the-world-a-coke-and-keep-
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "“I’d like to buy the world a Coke and keep it company” @cocacola"
 ---
 
 “I’d like to buy the world a Coke and keep it company” [@cocacola](https://www.instagram.com/cocacola/)

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Ready to watch @starwars #riseofskywalker with my favorite Star Wars fan!"
+content_type: story
+slug: 120312-ready-to-watch-starwars-riseofskywalker-with-my-favorite-star-wars-fan
 post_id: 2020-01-04-120312-ready-to-watch-starwars-riseofskywalker-with-my-favorite-star-wars-fan
 date: 2020-01-04 12:03:12
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -22,6 +25,9 @@ tags:
   - "riseofskywalker"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Ready to watch @starwars #riseofskywalker with my favorite Star Wars fan!"
 ---
 
 Ready to watch [@starwars](https://www.instagram.com/starwars/) [#riseofskywalker](https://www.instagram.com/explore/tags/riseofskywalker/) with my favorite Star Wars fan!

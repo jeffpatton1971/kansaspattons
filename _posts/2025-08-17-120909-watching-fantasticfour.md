@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Watching @fantasticfour"
+content_type: story
+slug: 120909-watching-fantasticfour
 post_id: 2025-08-17-120909-watching-fantasticfour
 date: 2025-08-17 12:09:09
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ gallery: "instagram-2025-08-17-120909-watching-fantasticfour"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Watching @fantasticfour"
 ---
 
 Watching [@fantasticfour](https://www.instagram.com/fantasticfour/)

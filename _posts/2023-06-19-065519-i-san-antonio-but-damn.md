@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "i ❤️ san antonio….but damn!"
+content_type: story
+slug: 065519-i-san-antonio-but-damn
 post_id: 2023-06-19-065519-i-san-antonio-but-damn
 date: 2023-06-19 06:55:19
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2023-06-19-065519-i-san-antonio-but-damn"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "i ❤️ san antonio….but damn!"
 ---
 
 i ❤️ san antonio….but damn!

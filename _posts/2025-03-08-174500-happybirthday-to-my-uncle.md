@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#happybirthday to my uncle"
+content_type: story
+slug: 174500-happybirthday-to-my-uncle
 post_id: 2025-03-08-174500-happybirthday-to-my-uncle
 date: 2025-03-08 17:45:00
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "happybirthday"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#happybirthday to my uncle"
 ---
 
 [#happybirthday](https://www.instagram.com/explore/tags/happybirthday/) to my uncle

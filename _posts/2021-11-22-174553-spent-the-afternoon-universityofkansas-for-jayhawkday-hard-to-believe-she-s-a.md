@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Spent the afternoon @universityofkansas for #jayhawkday hard to believe she’s a senior"
+content_type: story
+slug: 174553-spent-the-afternoon-universityofkansas-for-jayhawkday-hard-to-believe-she-s-a
 post_id: 2021-11-22-174553-spent-the-afternoon-universityofkansas-for-jayhawkday-hard-to-believe-she-s-a
 date: 2021-11-22 17:45:53
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -22,6 +25,9 @@ tags:
   - "jayhawkday"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Spent the afternoon @universityofkansas for #jayhawkday hard to believe she’s a senior"
 ---
 
 Spent the afternoon [@universityofkansas](https://www.instagram.com/universityofkansas/) for [#jayhawkday](https://www.instagram.com/explore/tags/jayhawkday/) hard to believe she’s a senior

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Late night activities included the @spacex launch from the pad we visited earlier today!"
+content_type: story
+slug: 231804-late-night-activities-included-the-spacex-launch-from-the-pad-we-visited
 post_id: 2021-04-28-231804-late-night-activities-included-the-spacex-launch-from-the-pad-we-visited
 date: 2021-04-28 23:18:04
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ gallery: "instagram-2021-04-28-231804-late-night-activities-included-the-spacex-
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Late night activities included the @spacex  launch from the pad we visited earlier today!"
 ---
 
 Late night activities included the [@spacex](https://www.instagram.com/spacex/)  launch from the pad we visited earlier today!

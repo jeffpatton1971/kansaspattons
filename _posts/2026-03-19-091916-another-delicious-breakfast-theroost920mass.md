@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Another delicious #breakfast @theroost920mass 🖤💛"
+content_type: story
+slug: 091916-another-delicious-breakfast-theroost920mass
 post_id: 2026-03-19-091916-another-delicious-breakfast-theroost920mass
 date: 2026-03-19 09:19:16
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -22,6 +25,9 @@ tags:
   - "breakfast"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Another delicious #breakfast @theroost920mass 🖤💛"
 ---
 
 Another delicious [#breakfast](https://www.instagram.com/explore/tags/breakfast/) [@theroost920mass](https://www.instagram.com/theroost920mass/) 🖤💛

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Thanks for the wonderful experience!"
+content_type: story
+slug: 131518-thanks-for-the-wonderful-experience
 post_id: 2017-04-25-131518-thanks-for-the-wonderful-experience
 date: 2017-04-25 13:15:18
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2017-04-25-131518-thanks-for-the-wonderful-experience"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Thanks for the wonderful experience!"
 ---
 
 Thanks for the wonderful experience!

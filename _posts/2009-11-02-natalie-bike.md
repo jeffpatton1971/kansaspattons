@@ -1,6 +1,8 @@
 ---
 layout:     single
 title:      "First bike ride"
+content_type: article
+slug: natalie-bike
 post_id:         2009-11-02-natalie-bike
 date:       2009-11-02 09:55:00 -0600
 source:
@@ -9,8 +11,12 @@ categories: natalie
 tags:
   - "wordpress"
 author:     Jeff
+authors:
+  - Jeff
+summary: "Natalie learning to ride a bike!"
 comments:   false
 published:  true
+status: published
 youtubeId:    iSOmsmuJmwc
 ---
 Natalie learning to ride a bike!

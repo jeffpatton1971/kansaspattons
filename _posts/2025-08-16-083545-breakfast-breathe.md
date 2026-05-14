@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#breakfast #breathe"
+content_type: story
+slug: 083545-breakfast-breathe
 post_id: 2025-08-16-083545-breakfast-breathe
 date: 2025-08-16 08:35:45
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "breathe"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#breakfast #breathe"
 ---
 
 [#breakfast](https://www.instagram.com/explore/tags/breakfast/) [#breathe](https://www.instagram.com/explore/tags/breathe/)

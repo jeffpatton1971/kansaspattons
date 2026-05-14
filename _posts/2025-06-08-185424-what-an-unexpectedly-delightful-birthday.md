@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "What an unexpectedly delightful birthday!"
+content_type: story
+slug: 185424-what-an-unexpectedly-delightful-birthday
 post_id: 2025-06-08-185424-what-an-unexpectedly-delightful-birthday
 date: 2025-06-08 18:54:24
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "birthday"
+authors:
+  - "Jeff Patton"
+summary: "What an unexpectedly delightful birthday!"
 ---
 
 What an unexpectedly delightful birthday!

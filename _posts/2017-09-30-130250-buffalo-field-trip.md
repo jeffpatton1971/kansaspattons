@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "Buffalo Field Trip"
+content_type: gallery
+slug: 130250-buffalo-field-trip
 date: 2017-09-30 13:02:50
 published: true
+status: published
 comments: false
 post_id: 2017-09-30-130250-buffalo-field-trip
 source:
@@ -19,6 +22,9 @@ categories:
   - album
 tags: []
 gallery: facebook-2017-09-30-130250-buffalo-field-trip
+authors:
+  - "Jeff Patton"
+summary: "Buffalo Field Trip Facebook album."
 ---
 
 {% include gallery.html gallery="facebook-2017-09-30-130250-buffalo-field-trip" %}

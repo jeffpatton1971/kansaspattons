@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "First time watching @sportingkcii great game and good win!"
+content_type: story
+slug: 202208-first-time-watching-sportingkcii-great-game-and-good-win
 post_id: 2023-07-02-202208-first-time-watching-sportingkcii-great-game-and-good-win
 date: 2023-07-02 20:22:08
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ gallery: "instagram-2023-07-02-202208-first-time-watching-sportingkcii-great-gam
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "First time watching @sportingkcii great game and good win!"
 ---
 
 First time watching [@sportingkcii](https://www.instagram.com/sportingkcii/) great game and good win!

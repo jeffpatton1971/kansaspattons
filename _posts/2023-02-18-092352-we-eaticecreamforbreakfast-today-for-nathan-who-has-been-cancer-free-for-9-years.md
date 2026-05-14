@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "we @eaticecreamforbreakfast today for Nathan who has been cancer-free for 9 years!"
+content_type: story
+slug: 092352-we-eaticecreamforbreakfast-today-for-nathan-who-has-been-cancer-free-for-9-years
 post_id: 2023-02-18-092352-we-eaticecreamforbreakfast-today-for-nathan-who-has-been-cancer-free-for-9-years
 date: 2023-02-18 09:23:52
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -22,6 +25,9 @@ tags:
 categories:
   - "Nathan"
   - "cancer"
+authors:
+  - "Jeff Patton"
+summary: "we @eaticecreamforbreakfast today for Nathan who has been cancer-free for 9 years!"
 ---
 
 we [@eaticecreamforbreakfast](https://www.instagram.com/eaticecreamforbreakfast/) today for Nathan who has been cancer-free for 9 years!

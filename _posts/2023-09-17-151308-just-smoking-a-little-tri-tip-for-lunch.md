@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Just #smoking a little tri-tip for lunch"
+content_type: story
+slug: 151308-just-smoking-a-little-tri-tip-for-lunch
 post_id: 2023-09-17-151308-just-smoking-a-little-tri-tip-for-lunch
 date: 2023-09-17 15:13:08
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "smoking"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Just #smoking a little tri-tip for lunch"
 ---
 
 Just [#smoking](https://www.instagram.com/explore/tags/smoking/) a little tri-tip for lunch

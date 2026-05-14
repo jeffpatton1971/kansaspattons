@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nathan turned 14 today #happybirthday"
+content_type: story
+slug: 212409-nathan-turned-14-today-happybirthday
 post_id: 2025-03-19-212409-nathan-turned-14-today-happybirthday
 date: 2025-03-19 21:24:09
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -22,6 +25,9 @@ tags:
   - "instagram"
 categories:
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "Nathan turned 14 today #happybirthday"
 ---
 
 Nathan turned 14 today [#happybirthday](https://www.instagram.com/explore/tags/happybirthday/)

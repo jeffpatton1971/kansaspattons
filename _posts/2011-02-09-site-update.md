@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Site Update"
+content_type: article
+slug: site-update
 post_id: 2011-02-09-site-update
 date: 2011-02-09 13:17:00
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -13,5 +16,8 @@ categories:
   - site
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "You may or may not notice but I have updated the look and feel of the website. After moving to a new server, I have moved this over to .net and made some slight changes to the css to accommodate some new features."
 ---
 You may or may not notice but I have updated the look and feel of the website. After moving to a new server, I have moved this over to .net and made some slight changes to the css to accommodate some new features.

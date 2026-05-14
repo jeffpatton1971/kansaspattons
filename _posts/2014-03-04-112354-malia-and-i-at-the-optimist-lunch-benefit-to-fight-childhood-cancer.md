@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Malia and I at the Optimist lunch benefit to fight childhood cancer"
+content_type: story
+slug: 112354-malia-and-i-at-the-optimist-lunch-benefit-to-fight-childhood-cancer
 post_id: 2014-03-04-112354-malia-and-i-at-the-optimist-lunch-benefit-to-fight-childhood-cancer
 date: 2014-03-04 11:23:54
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "cancer"
+authors:
+  - "Jeff Patton"
+summary: "Malia and I at the Optimist lunch benefit to fight childhood cancer"
 ---
 
 Malia and I at the Optimist lunch benefit to fight childhood cancer

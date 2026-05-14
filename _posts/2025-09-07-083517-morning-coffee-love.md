@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#morning #coffee #love"
+content_type: story
+slug: 083517-morning-coffee-love
 post_id: 2025-09-07-083517-morning-coffee-love
 date: 2025-09-07 08:35:17
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -25,6 +28,9 @@ tags:
   - "love"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#morning #coffee #love"
 ---
 
 [#morning](https://www.instagram.com/explore/tags/morning/) [#coffee](https://www.instagram.com/explore/tags/coffee/) [#love](https://www.instagram.com/explore/tags/love/)

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Just a little T-Bone on Texas Independence Day"
+content_type: story
+slug: 192422-just-a-little-t-bone-on-texas-independence-day
 post_id: 2020-03-02-192422-just-a-little-t-bone-on-texas-independence-day
 date: 2020-03-02 19:24:22
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2020-03-02-192422-just-a-little-t-bone-on-texas-independence
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Just a little T-Bone on Texas Independence Day"
 ---
 
 Just a little T-Bone on Texas Independence Day

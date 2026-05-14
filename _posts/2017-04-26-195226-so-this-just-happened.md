@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "So... This just happened"
+content_type: story
+slug: 195226-so-this-just-happened
 post_id: 2017-04-26-195226-so-this-just-happened
 date: 2017-04-26 19:52:26
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2017-04-26-195226-so-this-just-happened"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "So... This just happened"
 ---
 
 So... This just happened

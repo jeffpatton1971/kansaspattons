@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "watching how they make the marbles"
+content_type: story
+slug: 122441-watching-how-they-make-the-marbles
 post_id: 2023-03-17-122441-watching-how-they-make-the-marbles
 date: 2023-03-17 12:24:41
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2023-03-17-122441-watching-how-they-make-the-marbles"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "watching how they make the marbles"
 ---
 
 watching how they make the marbles

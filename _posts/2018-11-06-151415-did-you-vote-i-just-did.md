@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Did you #vote? I just did!"
+content_type: story
+slug: 151415-did-you-vote-i-just-did
 post_id: 2018-11-06-151415-did-you-vote-i-just-did
 date: 2018-11-06 15:14:15
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "vote"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Did you #vote? I just did!"
 ---
 
 Did you [#vote](https://www.instagram.com/explore/tags/vote/)? I just did!

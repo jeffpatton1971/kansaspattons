@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#goodmorning #walkinglfk"
+content_type: story
+slug: 060023-goodmorning-walkinglfk
 post_id: 2025-06-17-060023-goodmorning-walkinglfk
 date: 2025-06-17 06:00:23
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "walkinglfk"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#goodmorning #walkinglfk"
 ---
 
 [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#walkinglfk](https://www.instagram.com/explore/tags/walkinglfk/)

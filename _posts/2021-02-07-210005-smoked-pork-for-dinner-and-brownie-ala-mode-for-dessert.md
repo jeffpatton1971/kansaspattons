@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Smoked pork for dinner and brownie ala mode for dessert"
+content_type: story
+slug: 210005-smoked-pork-for-dinner-and-brownie-ala-mode-for-dessert
 post_id: 2021-02-07-210005-smoked-pork-for-dinner-and-brownie-ala-mode-for-dessert
 date: 2021-02-07 21:00:05
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2021-02-07-210005-smoked-pork-for-dinner-and-brownie-ala-mod
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Smoked pork for dinner and brownie ala mode for dessert"
 ---
 
 Smoked pork for dinner and brownie ala mode for dessert

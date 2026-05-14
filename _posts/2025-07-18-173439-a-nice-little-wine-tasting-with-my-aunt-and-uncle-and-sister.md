@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "A nice little wine tasting with my aunt and uncle and sister"
+content_type: story
+slug: 173439-a-nice-little-wine-tasting-with-my-aunt-and-uncle-and-sister
 post_id: 2025-07-18-173439-a-nice-little-wine-tasting-with-my-aunt-and-uncle-and-sister
 date: 2025-07-18 17:34:39
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-07-18-173439-a-nice-little-wine-tasting-with-my-aunt-an
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "A nice little wine tasting with my aunt and uncle and sister"
 ---
 
 A nice little wine tasting with my aunt and uncle and sister

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Happy Fathers Day Grandpa. During my growing up you were like a father to me, and I just w..."
+content_type: story
+slug: 211842-happy-fathers-day-grandpa-during-my-growing-up-you-were-like-a-father-to-me-and
 post_id: 2014-06-15-211842-happy-fathers-day-grandpa-during-my-growing-up-you-were-like-a-father-to-me-and
 date: 2014-06-15 21:18:42
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Grandpa"
+authors:
+  - "Jeff Patton"
+summary: "Happy Fathers Day Grandpa. During my growing up you were like a father to me, and I just want you to know I love you"
 ---
 
 Happy Fathers Day Grandpa. During my growing up you were like a father to me, and I just want you to know I love you

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Natalie’s first meet, her doubles team won!"
+content_type: story
+slug: 100400-natalie-s-first-meet-her-doubles-team-won
 post_id: 2018-09-08-100400-natalie-s-first-meet-her-doubles-team-won
 date: 2018-09-08 10:04:00
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Natalie"
+authors:
+  - "Jeff Patton"
+summary: "Natalie’s first meet, her doubles team won!"
 ---
 
 Natalie’s first meet, her doubles team won!

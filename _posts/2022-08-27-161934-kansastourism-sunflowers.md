@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "@kansastourism #sunflowers"
+content_type: story
+slug: 161934-kansastourism-sunflowers
 post_id: 2022-08-27-161934-kansastourism-sunflowers
 date: 2022-08-27 16:19:34
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -22,6 +25,9 @@ tags:
   - "sunflowers"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "@kansastourism #sunflowers"
 ---
 
 [@kansastourism](https://www.instagram.com/kansastourism/) [#sunflowers](https://www.instagram.com/explore/tags/sunflowers/)

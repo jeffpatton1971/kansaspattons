@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Christmas parade"
+content_type: story
+slug: 202218-christmas-parade
 post_id: 2025-11-28-202218-christmas-parade
 date: 2025-11-28 20:22:18
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Christmas"
+authors:
+  - "Jeff Patton"
+summary: "Christmas parade"
 ---
 
 Christmas parade

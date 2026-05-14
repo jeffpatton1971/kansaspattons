@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Longest meal ever!"
+content_type: story
+slug: 091447-longest-meal-ever
 post_id: 2018-09-01-091447-longest-meal-ever
 date: 2018-09-01 09:14:47
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-09-01-091447-longest-meal-ever"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Longest meal ever!"
 ---
 
 Longest meal ever!

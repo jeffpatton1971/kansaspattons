@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Tasty lunch before a long trip"
+content_type: story
+slug: 160003-tasty-lunch-before-a-long-trip
 post_id: 2025-04-10-160003-tasty-lunch-before-a-long-trip
 date: 2025-04-10 16:00:03
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-04-10-160003-tasty-lunch-before-a-long-trip"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Tasty lunch before a long trip"
 ---
 
 Tasty lunch before a long trip

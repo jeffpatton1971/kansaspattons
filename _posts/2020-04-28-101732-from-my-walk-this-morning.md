@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "From my walk this morning"
+content_type: story
+slug: 101732-from-my-walk-this-morning
 post_id: 2020-04-28-101732-from-my-walk-this-morning
 date: 2020-04-28 10:17:32
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2020-04-28-101732-from-my-walk-this-morning"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "From my walk this morning"
 ---
 
 From my walk this morning

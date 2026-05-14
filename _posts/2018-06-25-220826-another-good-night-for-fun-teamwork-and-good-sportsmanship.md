@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Another good night for fun, teamwork and good sportsmanship"
+content_type: story
+slug: 220826-another-good-night-for-fun-teamwork-and-good-sportsmanship
 post_id: 2018-06-25-220826-another-good-night-for-fun-teamwork-and-good-sportsmanship
 date: 2018-06-25 22:08:26
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-06-25-220826-another-good-night-for-fun-teamwork-and-go
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Another good night for fun, teamwork and good sportsmanship"
 ---
 
 Another good night for fun, teamwork and good sportsmanship

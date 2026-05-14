@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Went white water rafting with Natalie. 10 our of 10 would recommend @raft_masters and 10 o..."
+content_type: story
+slug: 173840-went-white-water-rafting-with-natalie-10-our-of-10-would-recommend-raft-masters
 post_id: 2022-04-25-173840-went-white-water-rafting-with-natalie-10-our-of-10-would-recommend-raft-masters
 date: 2022-04-25 17:38:40
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "instagram"
 categories:
   - "Natalie"
+authors:
+  - "Jeff Patton"
+summary: "Went white water rafting with Natalie. 10 our of 10 would recommend @raft_masters and 10 out of 10 would recommend staying IN THE BOAT! It’s a lot more fun that way…. Thanks for pulling me back in every time😂😂"
 ---
 
 Went white water rafting with Natalie. 10 our of 10 would recommend [@raft_masters](https://www.instagram.com/raft_masters/) and 10 out of 10 would recommend staying IN THE BOAT! It’s a lot more fun that way…. Thanks for pulling me back in every time😂😂

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nathan and Sarah snuggled up on the couch"
+content_type: story
+slug: 093135-nathan-and-sarah-snuggled-up-on-the-couch
 post_id: 2014-03-17-093135-nathan-and-sarah-snuggled-up-on-the-couch
 date: 2014-03-17 09:31:35
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
 categories:
   - "Nathan"
   - "Sarah"
+authors:
+  - "Jeff Patton"
+summary: "Nathan and Sarah snuggled up on the couch"
 ---
 
 Nathan and Sarah snuggled up on the couch

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Taking some batting practice with my favorite baseball player #littleleague #baseball"
+content_type: story
+slug: 175503-taking-some-batting-practice-with-my-favorite-baseball-player-littleleague
 post_id: 2020-05-30-175503-taking-some-batting-practice-with-my-favorite-baseball-player-littleleague
 date: 2020-05-30 17:55:03
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "baseball"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Taking some batting practice with my favorite baseball player #littleleague #baseball"
 ---
 
 Taking some batting practice with my favorite baseball player [#littleleague](https://www.instagram.com/explore/tags/littleleague/) [#baseball](https://www.instagram.com/explore/tags/baseball/)

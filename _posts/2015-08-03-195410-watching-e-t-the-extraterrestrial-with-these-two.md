@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Watching E.T. The Extraterrestrial with these two"
+content_type: story
+slug: 195410-watching-e-t-the-extraterrestrial-with-these-two
 post_id: 2015-08-03-195410-watching-e-t-the-extraterrestrial-with-these-two
 date: 2015-08-03 19:54:10
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2015-08-03-195410-watching-e-t-the-extraterrestrial-with-the
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Watching E.T. The Extraterrestrial with these two"
 ---
 
 Watching E.T. The Extraterrestrial with these two

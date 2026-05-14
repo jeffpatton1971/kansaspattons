@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#breakfsst for dinner with @cometeer"
+content_type: story
+slug: 184839-breakfsst-for-dinner-with-cometeer
 post_id: 2025-01-23-184839-breakfsst-for-dinner-with-cometeer
 date: 2025-01-23 18:48:39
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -22,6 +25,9 @@ tags:
   - "breakfsst"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#breakfsst for dinner with @cometeer"
 ---
 
 [#breakfsst](https://www.instagram.com/explore/tags/breakfsst/) for dinner with [@cometeer](https://www.instagram.com/cometeer/)

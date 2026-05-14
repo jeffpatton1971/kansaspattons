@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Easter Baskets"
+content_type: article
+slug: easter-baskets
 post_id: 2013-03-31-easter-baskets
 date: 2013-03-31 13:00:41
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -16,6 +19,9 @@ categories:
   - "Easter"
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "It looks like the Easter bunny found our house!"
 ---
 It looks like the Easter bunny found our house!
 

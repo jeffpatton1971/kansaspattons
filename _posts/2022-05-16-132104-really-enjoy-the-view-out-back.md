@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Really enjoy the view out back"
+content_type: story
+slug: 132104-really-enjoy-the-view-out-back
 post_id: 2022-05-16-132104-really-enjoy-the-view-out-back
 date: 2022-05-16 13:21:04
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2022-05-16-132104-really-enjoy-the-view-out-back"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Really enjoy the view out back"
 ---
 
 Really enjoy the view out back

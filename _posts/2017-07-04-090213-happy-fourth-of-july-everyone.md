@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Happy fourth of July everyone"
+content_type: story
+slug: 090213-happy-fourth-of-july-everyone
 post_id: 2017-07-04-090213-happy-fourth-of-july-everyone
 date: 2017-07-04 09:02:13
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "July 4th"
+authors:
+  - "Jeff Patton"
+summary: "Happy fourth of July everyone"
 ---
 
 Happy fourth of July everyone

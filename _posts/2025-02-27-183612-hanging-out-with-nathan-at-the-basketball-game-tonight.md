@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Hanging out with Nathan at the basketball game tonight"
+content_type: story
+slug: 183612-hanging-out-with-nathan-at-the-basketball-game-tonight
 post_id: 2025-02-27-183612-hanging-out-with-nathan-at-the-basketball-game-tonight
 date: 2025-02-27 18:36:12
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "Hanging out with Nathan at the basketball game tonight"
 ---
 
 Hanging out with Nathan at the basketball game tonight

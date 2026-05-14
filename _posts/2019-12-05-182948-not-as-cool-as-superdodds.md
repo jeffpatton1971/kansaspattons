@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Not as cool as @superdodds"
+content_type: story
+slug: 182948-not-as-cool-as-superdodds
 post_id: 2019-12-05-182948-not-as-cool-as-superdodds
 date: 2019-12-05 18:29:48
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ gallery: "instagram-2019-12-05-182948-not-as-cool-as-superdodds"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Not as cool as @superdodds"
 ---
 
 Not as cool as [@superdodds](https://www.instagram.com/superdodds/)

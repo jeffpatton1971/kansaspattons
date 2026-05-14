@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Riding an airboat…saw several gators!"
+content_type: story
+slug: 131003-riding-an-airboat-saw-several-gators
 post_id: 2022-06-19-131003-riding-an-airboat-saw-several-gators
 date: 2022-06-19 13:10:03
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2022-06-19-131003-riding-an-airboat-saw-several-gators"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Riding an airboat…saw several gators!"
 ---
 
 Riding an airboat…saw several gators!

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Six days out my tree"
+content_type: story
+slug: 200315-six-days-out-my-tree
 post_id: 2021-11-16-200315-six-days-out-my-tree
 date: 2021-11-16 20:03:15
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2021-11-16-200315-six-days-out-my-tree"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Six days out my tree"
 ---
 
 Six days out my tree

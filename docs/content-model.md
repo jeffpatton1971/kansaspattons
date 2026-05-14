@@ -206,6 +206,22 @@ type ImageAsset = {
 
 ## Migration Notes
 
+All Markdown posts in `_posts` have been normalized to declare the source content shape explicitly. Each post now carries:
+
+- `content_type`
+- `slug`
+- `post_id`
+- `status`
+- `authors`
+- `summary`
+
+The normalizer can be rerun safely:
+
+```powershell
+npm run normalize:posts -- --dry-run
+npm run normalize:posts
+```
+
 The current JSON still includes compatibility fields such as `contentShape: "post" | "story"` and `excerpt`. New code should prefer:
 
 - `type` over `contentShape`.

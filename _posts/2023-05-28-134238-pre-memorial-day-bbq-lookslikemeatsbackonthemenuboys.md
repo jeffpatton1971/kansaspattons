@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "pre-memorial day bbq #lookslikemeatsbackonthemenuboys"
+content_type: story
+slug: 134238-pre-memorial-day-bbq-lookslikemeatsbackonthemenuboys
 post_id: 2023-05-28-134238-pre-memorial-day-bbq-lookslikemeatsbackonthemenuboys
 date: 2023-05-28 13:42:38
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "lookslikemeatsbackonthemenuboys"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "pre-memorial day bbq #lookslikemeatsbackonthemenuboys"
 ---
 
 pre-memorial day bbq [#lookslikemeatsbackonthemenuboys](https://www.instagram.com/explore/tags/lookslikemeatsbackonthemenuboys/)

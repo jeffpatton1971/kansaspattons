@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nate super enjoyed the fishing"
+content_type: story
+slug: 075456-nate-super-enjoyed-the-fishing
 post_id: 2018-06-24-075456-nate-super-enjoyed-the-fishing
 date: 2018-06-24 07:54:56
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "Nate super enjoyed the fishing"
 ---
 
 Nate super enjoyed the fishing

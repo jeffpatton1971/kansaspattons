@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Hanging out with some really cool kids for St Baldricks"
+content_type: story
+slug: 192321-hanging-out-with-some-really-cool-kids-for-st-baldricks
 post_id: 2018-09-28-192321-hanging-out-with-some-really-cool-kids-for-st-baldricks
 date: 2018-09-28 19:23:21
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-09-28-192321-hanging-out-with-some-really-cool-kids-for
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Hanging out with some really cool kids for St Baldricks"
 ---
 
 Hanging out with some really cool kids for St Baldricks

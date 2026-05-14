@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Glow Jump for Childhood Cancer. Going Gold for my favorite cancer survivor!"
+content_type: story
+slug: 211618-glow-jump-for-childhood-cancer-going-gold-for-my-favorite-cancer-survivor
 post_id: 2019-09-21-211618-glow-jump-for-childhood-cancer-going-gold-for-my-favorite-cancer-survivor
 date: 2019-09-21 21:16:18
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "cancer"
+authors:
+  - "Jeff Patton"
+summary: "Glow Jump for Childhood Cancer. Going Gold for my favorite cancer survivor!"
 ---
 
 Glow Jump for Childhood Cancer. Going Gold for my favorite cancer survivor!

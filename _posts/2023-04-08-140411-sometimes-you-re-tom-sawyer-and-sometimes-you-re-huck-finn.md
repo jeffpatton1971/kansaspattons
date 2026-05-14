@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Sometimes you’re Tom Sawyer and sometimes you’re Huck Finn"
+content_type: story
+slug: 140411-sometimes-you-re-tom-sawyer-and-sometimes-you-re-huck-finn
 post_id: 2023-04-08-140411-sometimes-you-re-tom-sawyer-and-sometimes-you-re-huck-finn
 date: 2023-04-08 14:04:11
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2023-04-08-140411-sometimes-you-re-tom-sawyer-and-sometimes-
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Sometimes you’re Tom Sawyer and sometimes you’re Huck Finn"
 ---
 
 Sometimes you’re Tom Sawyer and sometimes you’re Huck Finn

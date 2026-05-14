@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "View this morning"
+content_type: story
+slug: 071847-view-this-morning
 post_id: 2024-04-30-071847-view-this-morning
 date: 2024-04-30 07:18:47
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2024-04-30-071847-view-this-morning"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "View this morning"
 ---
 
 View this morning

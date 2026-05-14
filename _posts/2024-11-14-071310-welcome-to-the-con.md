@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Welcome to the con."
+content_type: story
+slug: 071310-welcome-to-the-con
 post_id: 2024-11-14-071310-welcome-to-the-con
 date: 2024-11-14 07:13:10
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2024-11-14-071310-welcome-to-the-con"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Welcome to the con."
 ---
 
 Welcome to the con.

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#morningwalk #psexpress"
+content_type: story
+slug: 070801-morningwalk-psexpress
 post_id: 2021-10-07-070801-morningwalk-psexpress
 date: 2021-10-07 07:08:01
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "psexpress"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#morningwalk #psexpress"
 ---
 
 [#morningwalk](https://www.instagram.com/explore/tags/morningwalk/) [#psexpress](https://www.instagram.com/explore/tags/psexpress/)

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "When your tank has gold elims and kills...you’re dps players are doing it wrong #overwatch"
+content_type: story
+slug: 202625-when-your-tank-has-gold-elims-and-kills-you-re-dps-players-are-doing-it-wrong
 post_id: 2019-03-26-202625-when-your-tank-has-gold-elims-and-kills-you-re-dps-players-are-doing-it-wrong
 date: 2019-03-26 20:26:25
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "overwatch"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "When your tank has gold elims and kills...you’re dps players are doing it wrong #overwatch"
 ---
 
 When your tank has gold elims and kills...you’re dps players are doing it wrong [#overwatch](https://www.instagram.com/explore/tags/overwatch/)

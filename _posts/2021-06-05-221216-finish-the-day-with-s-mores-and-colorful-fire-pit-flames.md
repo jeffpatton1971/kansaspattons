@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Finish the day with s’mores and colorful fire pit flames"
+content_type: story
+slug: 221216-finish-the-day-with-s-mores-and-colorful-fire-pit-flames
 post_id: 2021-06-05-221216-finish-the-day-with-s-mores-and-colorful-fire-pit-flames
 date: 2021-06-05 22:12:16
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2021-06-05-221216-finish-the-day-with-s-mores-and-colorful-f
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Finish the day with s’mores and colorful fire pit flames"
 ---
 
 Finish the day with s’mores and colorful fire pit flames

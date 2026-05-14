@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#morningwalk across campus"
+content_type: story
+slug: 071812-morningwalk-across-campus
 post_id: 2025-06-24-071812-morningwalk-across-campus
 date: 2025-06-24 07:18:12
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "morningwalk"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#morningwalk across campus"
 ---
 
 [#morningwalk](https://www.instagram.com/explore/tags/morningwalk/) across campus

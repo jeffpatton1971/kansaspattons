@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Start your day with a good #breakfast"
+content_type: story
+slug: 085111-start-your-day-with-a-good-breakfast
 post_id: 2025-01-26-085111-start-your-day-with-a-good-breakfast
 date: 2025-01-26 08:51:11
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "breakfast"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Start your day with a good #breakfast"
 ---
 
 Start your day with a good [#breakfast](https://www.instagram.com/explore/tags/breakfast/)

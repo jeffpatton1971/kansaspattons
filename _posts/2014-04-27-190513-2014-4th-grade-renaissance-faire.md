@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "2014 4th grade Renaissance Faire"
+content_type: gallery
+slug: 190513-2014-4th-grade-renaissance-faire
 date: 2014-04-27 19:05:13
 published: true
+status: published
 comments: false
 post_id: 2014-04-27-190513-2014-4th-grade-renaissance-faire
 source:
@@ -19,6 +22,9 @@ categories:
   - album
 tags: []
 gallery: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire
+authors:
+  - "Jeff Patton"
+summary: "2014 4th grade Renaissance Faire Facebook album."
 ---
 
 {% include gallery.html gallery="facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire" %}

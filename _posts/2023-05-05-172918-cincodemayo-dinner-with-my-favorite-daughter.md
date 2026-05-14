@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#cincodemayo dinner with my favorite daughter"
+content_type: story
+slug: 172918-cincodemayo-dinner-with-my-favorite-daughter
 post_id: 2023-05-05-172918-cincodemayo-dinner-with-my-favorite-daughter
 date: 2023-05-05 17:29:18
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "cincodemayo"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#cincodemayo dinner with my favorite daughter"
 ---
 
 [#cincodemayo](https://www.instagram.com/explore/tags/cincodemayo/) dinner with my favorite daughter

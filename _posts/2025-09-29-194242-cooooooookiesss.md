@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Cooooooookiesss"
+content_type: story
+slug: 194242-cooooooookiesss
 post_id: 2025-09-29-194242-cooooooookiesss
 date: 2025-09-29 19:42:42
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-09-29-194242-cooooooookiesss"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: Cooooooookiesss
 ---
 
 Cooooooookiesss

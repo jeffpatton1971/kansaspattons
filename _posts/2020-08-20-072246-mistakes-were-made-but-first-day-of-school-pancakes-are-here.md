@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Mistakes were made but first day of school pancakes are here"
+content_type: story
+slug: 072246-mistakes-were-made-but-first-day-of-school-pancakes-are-here
 post_id: 2020-08-20-072246-mistakes-were-made-but-first-day-of-school-pancakes-are-here
 date: 2020-08-20 07:22:46
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2020-08-20-072246-mistakes-were-made-but-first-day-of-school
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Mistakes were made but first day of school pancakes are here"
 ---
 
 Mistakes were made but first day of school pancakes are here

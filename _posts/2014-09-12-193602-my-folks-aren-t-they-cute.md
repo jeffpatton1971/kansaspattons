@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "My folks...aren't they cute?"
+content_type: story
+slug: 193602-my-folks-aren-t-they-cute
 post_id: 2014-09-12-193602-my-folks-aren-t-they-cute
 date: 2014-09-12 19:36:02
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2014-09-12-193602-my-folks-aren-t-they-cute"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "My folks...aren't they cute?"
 ---
 
 My folks...aren't they cute?

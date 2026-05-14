@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "dinner and dessert"
+content_type: story
+slug: 183824-dinner-and-dessert
 post_id: 2023-02-26-183824-dinner-and-dessert
 date: 2023-02-26 18:38:24
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2023-02-26-183824-dinner-and-dessert"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "dinner and dessert"
 ---
 
 dinner and dessert

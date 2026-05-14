@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "hope everyone had a fun and safe fourth"
+content_type: story
+slug: 220348-hope-everyone-had-a-fun-and-safe-fourth
 post_id: 2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth
 date: 2023-07-04 22:03:48
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "hope everyone had a fun and safe fourth"
 ---
 
 hope everyone had a fun and safe fourth

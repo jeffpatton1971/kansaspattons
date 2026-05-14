@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "If you won’t let me tune at fortissimo then nevermind"
+content_type: story
+slug: 185258-if-you-won-t-let-me-tune-at-fortissimo-then-nevermind
 post_id: 2019-11-22-185258-if-you-won-t-let-me-tune-at-fortissimo-then-nevermind
 date: 2019-11-22 18:52:58
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-11-22-185258-if-you-won-t-let-me-tune-at-fortissimo-the
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "If you won’t let me tune at fortissimo then nevermind"
 ---
 
 If you won’t let me tune at fortissimo then nevermind

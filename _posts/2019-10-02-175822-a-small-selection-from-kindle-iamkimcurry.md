@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "A small selection from Kindle @iamkimcurry"
+content_type: story
+slug: 175822-a-small-selection-from-kindle-iamkimcurry
 post_id: 2019-10-02-175822-a-small-selection-from-kindle-iamkimcurry
 date: 2019-10-02 17:58:22
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ gallery: "instagram-2019-10-02-175822-a-small-selection-from-kindle-iamkimcurry"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "A small selection from Kindle @iamkimcurry"
 ---
 
 A small selection from Kindle [@iamkimcurry](https://www.instagram.com/iamkimcurry/)

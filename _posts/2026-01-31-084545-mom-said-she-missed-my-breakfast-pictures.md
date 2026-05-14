@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Mom said she missed my #breakfast pictures"
+content_type: story
+slug: 084545-mom-said-she-missed-my-breakfast-pictures
 post_id: 2026-01-31-084545-mom-said-she-missed-my-breakfast-pictures
 date: 2026-01-31 08:45:45
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "breakfast"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Mom said she missed my #breakfast pictures"
 ---
 
 Mom said she missed my [#breakfast](https://www.instagram.com/explore/tags/breakfast/) pictures

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "PICU Day 1"
+content_type: article
+slug: picu-day-one
 post_id: 2013-07-24-picu-day-one
 date: 2013-07-24 13:35:55
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -15,6 +18,9 @@ categories:
   - cancer
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "Last night was a rough night, Nathan started to wake up on his own, so they had to give him more sedation to keep him down. In addition to that he started running a fever, they treated it with Tylenol and started checking his temp every 2 h"
 ---
 Last night was a rough night, Nathan started to wake up on his own, so they had to give him more sedation to keep him down. In addition to that he started running a fever, they treated it with Tylenol and started checking his temp every 2 hours. The doctor came by this morning and went over everything they did. He told us that the incision is similar to an inverted chevron (upside down checkmark). All of his stitches are on the inside so we don’t have to come back to get any stitches removed. They told us they would wake him up this morning and remove the breathing tube and catheter.
 

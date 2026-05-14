@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Natalie just finished working on this one"
+content_type: story
+slug: 193410-natalie-just-finished-working-on-this-one
 post_id: 2021-05-31-193410-natalie-just-finished-working-on-this-one
 date: 2021-05-31 19:34:10
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Natalie"
+authors:
+  - "Jeff Patton"
+summary: "Natalie just finished working on this one"
 ---
 
 Natalie just finished working on this one

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Another Pokémon Community Day is in the books and we had some fun and caught some new Poké..."
+content_type: story
+slug: 160645-another-pok-mon-community-day-is-in-the-books-and-we-had-some-fun-and-caught
 post_id: 2018-06-16-160645-another-pok-mon-community-day-is-in-the-books-and-we-had-some-fun-and-caught
 date: 2018-06-16 16:06:45
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-06-16-160645-another-pok-mon-community-day-is-in-the-bo
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Another Pokémon Community Day is in the books and we had some fun and caught some new Pokémon!"
 ---
 
 Another Pokémon Community Day is in the books and we had some fun and caught some new Pokémon!

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Breakfast in Lawrence and dinner in Crystal Lake 🖤💛"
+content_type: story
+slug: 220141-breakfast-in-lawrence-and-dinner-in-crystal-lake
 post_id: 2026-04-10-220141-breakfast-in-lawrence-and-dinner-in-crystal-lake
 date: 2026-04-10 22:01:41
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2026-04-10-220141-breakfast-in-lawrence-and-dinner-in-crysta
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Breakfast in Lawrence and dinner in Crystal Lake 🖤💛"
 ---
 
 Breakfast in Lawrence and dinner in Crystal Lake 🖤💛

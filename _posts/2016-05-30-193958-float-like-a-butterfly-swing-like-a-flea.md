@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Float like a butterfly, swing like a flea!"
+content_type: story
+slug: 193958-float-like-a-butterfly-swing-like-a-flea
 post_id: 2016-05-30-193958-float-like-a-butterfly-swing-like-a-flea
 date: 2016-05-30 19:39:58
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2016-05-30-193958-float-like-a-butterfly-swing-like-a-flea"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Float like a butterfly, swing like a flea!"
 ---
 
 Float like a butterfly, swing like a flea!

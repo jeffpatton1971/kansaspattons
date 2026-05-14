@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#goodmorning #kansas"
+content_type: story
+slug: 084229-goodmorning-kansas
 post_id: 2023-05-29-084229-goodmorning-kansas
 date: 2023-05-29 08:42:29
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "kansas"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#goodmorning #kansas"
 ---
 
 [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#kansas](https://www.instagram.com/explore/tags/kansas/)

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Be Royal @kcroyals"
+content_type: story
+slug: 220934-be-royal-kcroyals
 post_id: 2014-06-18-220934-be-royal-kcroyals
 date: 2014-06-18 22:09:34
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ gallery: "instagram-2014-06-18-220934-be-royal-kcroyals"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Be Royal @kcroyals"
 ---
 
 Be Royal [@kcroyals](https://www.instagram.com/kcroyals/)

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Just building houses"
+content_type: story
+slug: 202048-just-building-houses
 post_id: 2014-06-25-202048-just-building-houses
 date: 2014-06-25 20:20:48
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2014-06-25-202048-just-building-houses"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Just building houses"
 ---
 
 Just building houses

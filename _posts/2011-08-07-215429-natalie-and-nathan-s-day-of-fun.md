@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "Natalie and Nathan's DAY OF FUN!"
+content_type: gallery
+slug: 215429-natalie-and-nathan-s-day-of-fun
 date: 2011-08-07 21:54:29
 published: true
+status: published
 comments: false
 post_id: 2011-08-07-215429-natalie-and-nathan-s-day-of-fun
 source:
@@ -20,6 +23,9 @@ categories:
   - album
 tags: []
 gallery: facebook-2011-08-07-215429-natalie-and-nathan-s-day-of-fun
+authors:
+  - "Jeff Patton"
+summary: "Natalie and Nathan's DAY OF FUN! Facebook album."
 ---
 
 A visit to the Mulvane Art Museum to play with Lego's!

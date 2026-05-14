@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "PICU Day 2"
+content_type: article
+slug: picu-day-two
 post_id: 2013-07-25-picu-day-two
 date: 2013-07-25 13:55:57
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -15,6 +18,9 @@ categories:
   - cancer
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "Another long night, Malia and I have taken to sleeping in shifts. Malia get’s the “bed” until about 3 and then switches to the rocking chair until morning. He’s still got a fever and the PICU doc and the surgeon are having a bit of a turf w"
 ---
 Another long night, Malia and I have taken to sleeping in shifts. Malia get’s the “bed” until about 3 and then switches to the rocking chair until morning. He’s still got a fever and the PICU doc and the surgeon are having a bit of a turf war over giving him blood.
 

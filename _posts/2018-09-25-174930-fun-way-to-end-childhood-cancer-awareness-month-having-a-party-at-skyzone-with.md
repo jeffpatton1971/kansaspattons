@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Fun way to end Childhood Cancer Awareness month. Having a party at SkyZone with some of th..."
+content_type: story
+slug: 174930-fun-way-to-end-childhood-cancer-awareness-month-having-a-party-at-skyzone-with
 post_id: 2018-09-25-174930-fun-way-to-end-childhood-cancer-awareness-month-having-a-party-at-skyzone-with
 date: 2018-09-25 17:49:30
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
 categories:
   - "Nathan"
   - "cancer"
+authors:
+  - "Jeff Patton"
+summary: "Fun way to end Childhood Cancer Awareness month. Having a party at SkyZone with some of the friends we met while going through cancer with Nathan"
 ---
 
 Fun way to end Childhood Cancer Awareness month. Having a party at SkyZone with some of the friends we met while going through cancer with Nathan

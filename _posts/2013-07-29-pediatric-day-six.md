@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Pediatric Day 6"
+content_type: article
+slug: pediatric-day-six
 post_id: 2013-07-29-pediatric-day-six
 date: 2013-07-29 11:18:51
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -15,6 +18,9 @@ categories:
   - cancer
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "Today was another big day, he got moving maybe a littler earlier than he should have and fell asleep in the playroom. We got dressed in Pj’s today and tried out some food, it’s been a while. Finally another walk around the floor and visitin"
 ---
 Today was another big day, he got moving maybe a littler earlier than he should have and fell asleep in the playroom. We got dressed in Pj’s today and tried out some food, it’s been a while. Finally another walk around the floor and visiting the playroom.
 

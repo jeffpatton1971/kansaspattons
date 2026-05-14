@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Just a little Pokémon hunting with my favorite trainers"
+content_type: story
+slug: 192347-just-a-little-pok-mon-hunting-with-my-favorite-trainers
 post_id: 2018-08-01-192347-just-a-little-pok-mon-hunting-with-my-favorite-trainers
 date: 2018-08-01 19:23:47
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-08-01-192347-just-a-little-pok-mon-hunting-with-my-favo
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Just a little Pokémon hunting with my favorite trainers"
 ---
 
 Just a little Pokémon hunting with my favorite trainers

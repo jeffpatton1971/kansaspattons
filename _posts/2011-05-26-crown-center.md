@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Crown Center"
+content_type: article
+slug: crown-center
 post_id: 2011-05-26-crown-center
 date: 2011-05-26 20:07:00
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -18,6 +21,9 @@ categories:
   - "Natalie"
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "Today was the last field trip for Mrs. Jernigan’s first grade class. The trip was to Crown Center in Kansas City and the kids all seemed to have lots of fun. The main part of the field trip was to visit Kaleidoscope, a place where kids can "
 ---
 Today was the last field trip for Mrs. Jernigan’s first grade class. The trip was to Crown Center in Kansas City and the kids all seemed to have lots of fun. The main part of the field trip was to visit Kaleidoscope, a place where kids can use their imaginations to create fun stuff. I don’t have any pictures from in there as I wasn’t a helper, but I do have pictures from some of the other places we visited.
 

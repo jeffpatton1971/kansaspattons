@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Just a little snowy out"
+content_type: story
+slug: 150814-just-a-little-snowy-out
 post_id: 2025-11-29-150814-just-a-little-snowy-out
 date: 2025-11-29 15:08:14
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-11-29-150814-just-a-little-snowy-out"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Just a little snowy out"
 ---
 
 Just a little snowy out

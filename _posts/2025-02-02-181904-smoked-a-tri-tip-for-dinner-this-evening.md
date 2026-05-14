@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#smoked a tri-tip for dinner this evening"
+content_type: story
+slug: 181904-smoked-a-tri-tip-for-dinner-this-evening
 post_id: 2025-02-02-181904-smoked-a-tri-tip-for-dinner-this-evening
 date: 2025-02-02 18:19:04
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "smoked"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#smoked a tri-tip for dinner this evening"
 ---
 
 [#smoked](https://www.instagram.com/explore/tags/smoked/) a tri-tip for dinner this evening

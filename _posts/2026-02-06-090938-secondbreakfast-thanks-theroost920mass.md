@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#secondbreakfast thanks @theroost920mass 🖤💛"
+content_type: story
+slug: 090938-secondbreakfast-thanks-theroost920mass
 post_id: 2026-02-06-090938-secondbreakfast-thanks-theroost920mass
 date: 2026-02-06 09:09:38
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -22,6 +25,9 @@ tags:
   - "secondbreakfast"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#secondbreakfast thanks @theroost920mass 🖤💛"
 ---
 
 [#secondbreakfast](https://www.instagram.com/explore/tags/secondbreakfast/) thanks [@theroost920mass](https://www.instagram.com/theroost920mass/) 🖤💛

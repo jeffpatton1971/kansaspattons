@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Miss my Lumia1020 when I take dark pictures like this"
+content_type: story
+slug: 073317-miss-my-lumia1020-when-i-take-dark-pictures-like-this
 post_id: 2019-09-05-073317-miss-my-lumia1020-when-i-take-dark-pictures-like-this
 date: 2019-09-05 07:33:17
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-09-05-073317-miss-my-lumia1020-when-i-take-dark-picture
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Miss my Lumia1020 when I take dark pictures like this"
 ---
 
 Miss my Lumia1020 when I take dark pictures like this

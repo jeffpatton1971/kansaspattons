@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Feels like Fall today"
+content_type: story
+slug: 074217-feels-like-fall-today
 post_id: 2020-11-11-074217-feels-like-fall-today
 date: 2020-11-11 07:42:17
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "fall"
+authors:
+  - "Jeff Patton"
+summary: "Feels like Fall today"
 ---
 
 Feels like Fall today

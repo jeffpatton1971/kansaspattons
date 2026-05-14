@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Thanks Mom #jrrtolkien #lordoftherings"
+content_type: story
+slug: 162055-thanks-mom-jrrtolkien-lordoftherings
 post_id: 2020-03-17-162055-thanks-mom-jrrtolkien-lordoftherings
 date: 2020-03-17 16:20:55
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "lordoftherings"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Thanks Mom #jrrtolkien #lordoftherings"
 ---
 
 Thanks Mom [#jrrtolkien](https://www.instagram.com/explore/tags/jrrtolkien/) [#lordoftherings](https://www.instagram.com/explore/tags/lordoftherings/)

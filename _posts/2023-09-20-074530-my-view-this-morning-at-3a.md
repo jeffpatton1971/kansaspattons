@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "my view this morning at 3a"
+content_type: story
+slug: 074530-my-view-this-morning-at-3a
 post_id: 2023-09-20-074530-my-view-this-morning-at-3a
 date: 2023-09-20 07:45:30
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2023-09-20-074530-my-view-this-morning-at-3a"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "my view this morning at 3a"
 ---
 
 my view this morning at 3a

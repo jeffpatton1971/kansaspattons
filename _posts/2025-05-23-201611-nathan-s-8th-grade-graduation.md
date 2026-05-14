@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nathan’s 8th grade graduation"
+content_type: story
+slug: 201611-nathan-s-8th-grade-graduation
 post_id: 2025-05-23-201611-nathan-s-8th-grade-graduation
 date: 2025-05-23 20:16:11
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "Nathan’s 8th grade graduation"
 ---
 
 Nathan’s 8th grade graduation

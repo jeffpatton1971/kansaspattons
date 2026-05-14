@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Going to be a hot one on the field today…Ready for some baseball"
+content_type: story
+slug: 084840-going-to-be-a-hot-one-on-the-field-today-ready-for-some-baseball
 post_id: 2021-06-19-084840-going-to-be-a-hot-one-on-the-field-today-ready-for-some-baseball
 date: 2021-06-19 08:48:40
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2021-06-19-084840-going-to-be-a-hot-one-on-the-field-today-r
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Going to be a hot one on the field today…Ready for some baseball"
 ---
 
 Going to be a hot one on the field today…Ready for some baseball

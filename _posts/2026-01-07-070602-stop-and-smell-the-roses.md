@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Stop and smell the roses"
+content_type: story
+slug: 070602-stop-and-smell-the-roses
 post_id: 2026-01-07-070602-stop-and-smell-the-roses
 date: 2026-01-07 07:06:02
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2026-01-07-070602-stop-and-smell-the-roses"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Stop and smell the roses"
 ---
 
 Stop and smell the roses

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Having dinner with the kids and watching some quality movies"
+content_type: story
+slug: 181528-having-dinner-with-the-kids-and-watching-some-quality-movies
 post_id: 2025-05-20-181528-having-dinner-with-the-kids-and-watching-some-quality-movies
 date: 2025-05-20 18:15:28
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-05-20-181528-having-dinner-with-the-kids-and-watching-s
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Having dinner with the kids and watching some quality movies"
 ---
 
 Having dinner with the kids and watching some quality movies

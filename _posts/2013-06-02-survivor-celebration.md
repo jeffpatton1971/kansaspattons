@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Survivor Celebration"
+content_type: article
+slug: survivor-celebration
 post_id: 2013-06-02-survivor-celebration
 date: 2013-06-02 09:12:33
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -18,6 +21,9 @@ categories:
   - cancer
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "The American Cancer Society has an annual survivor celebration. This is our first time going and Nathan and all the kids had a lot of fun! They had a photo booth, door prizes, comic relief and a great dinner. Malia’s sister Amy and her fami"
 ---
 The [American Cancer Society](https://www.cancer.org) has an annual survivor celebration. This is our first time going and Nathan and all the kids had a lot of fun! They had a photo booth, door prizes, comic relief and a great dinner. Malia’s sister Amy and her family joined as well as Lindsey and Jenny, who is Nathan’s best friend! Nathan really enjoyed the little spring loaded can toy they had at the tables.
 

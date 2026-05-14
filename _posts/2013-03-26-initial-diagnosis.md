@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Initial Diagnosis"
+content_type: article
+slug: initial-diagnosis
 post_id: 2013-03-26-initial-diagnosis
 date: 2013-03-26 09:27:25
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -14,6 +17,9 @@ categories:
   - cancer
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "Nathan went in earlier this week for a regular checkup and his doctor said that his liver felt a little large and that we needed to take him to the hospital for an ultrasound. We had the ultrasound the next day and the radiologist said it a"
 ---
 Nathan went in earlier this week for a regular checkup and his doctor said that his liver felt a little large and that we needed to take him to the hospital for an ultrasound. We had the ultrasound the next day and the radiologist said it appeared that Nathan had a mass in his liver. We met with a pediatric oncologist who will become Nathan’s new doctor for the foreseeable future.
 

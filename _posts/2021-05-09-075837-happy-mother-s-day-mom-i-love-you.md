@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Happy Mother’s Day mom, I love you."
+content_type: story
+slug: 075837-happy-mother-s-day-mom-i-love-you
 post_id: 2021-05-09-075837-happy-mother-s-day-mom-i-love-you
 date: 2021-05-09 07:58:37
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2021-05-09-075837-happy-mother-s-day-mom-i-love-you"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Happy Mother’s Day mom, I love you."
 ---
 
 Happy Mother’s Day mom, I love you.

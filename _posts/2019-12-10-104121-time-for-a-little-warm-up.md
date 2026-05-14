@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Time for a little warm-up"
+content_type: story
+slug: 104121-time-for-a-little-warm-up
 post_id: 2019-12-10-104121-time-for-a-little-warm-up
 date: 2019-12-10 10:41:21
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-12-10-104121-time-for-a-little-warm-up"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Time for a little warm-up"
 ---
 
 Time for a little warm-up

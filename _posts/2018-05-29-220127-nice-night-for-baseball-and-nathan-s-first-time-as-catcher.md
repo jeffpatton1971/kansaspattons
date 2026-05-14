@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nice night for baseball and Nathan’s first time as catcher"
+content_type: story
+slug: 220127-nice-night-for-baseball-and-nathan-s-first-time-as-catcher
 post_id: 2018-05-29-220127-nice-night-for-baseball-and-nathan-s-first-time-as-catcher
 date: 2018-05-29 22:01:27
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "Nice night for baseball and Nathan’s first time as catcher"
 ---
 
 Nice night for baseball and Nathan’s first time as catcher

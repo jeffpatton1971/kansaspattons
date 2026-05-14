@@ -2,9 +2,11 @@
 layout: single
 title: "Better late than never 💛🖤"
 content_type: story
+slug: 194804-better-late-than-never
 post_id: 2026-04-16-194804-better-late-than-never
 date: 2026-04-16 19:48:04
 published: true
+status: published
 comments: false
 source:
   type: instagram

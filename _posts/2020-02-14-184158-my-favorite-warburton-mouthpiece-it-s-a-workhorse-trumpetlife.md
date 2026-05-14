@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "My favorite #warburton #mouthpiece it’s a workhorse #trumpetlife"
+content_type: story
+slug: 184158-my-favorite-warburton-mouthpiece-it-s-a-workhorse-trumpetlife
 post_id: 2020-02-14-184158-my-favorite-warburton-mouthpiece-it-s-a-workhorse-trumpetlife
 date: 2020-02-14 18:41:58
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -25,6 +28,9 @@ tags:
   - "trumpetlife"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "My favorite #warburton #mouthpiece it’s a workhorse #trumpetlife"
 ---
 
 My favorite [#warburton](https://www.instagram.com/explore/tags/warburton/) [#mouthpiece](https://www.instagram.com/explore/tags/mouthpiece/) it’s a workhorse [#trumpetlife](https://www.instagram.com/explore/tags/trumpetlife/)

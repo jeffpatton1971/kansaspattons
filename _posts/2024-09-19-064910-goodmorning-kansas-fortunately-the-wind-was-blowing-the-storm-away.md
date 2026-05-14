@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#goodmorning #kansas fortunately the wind was blowing the storm away"
+content_type: story
+slug: 064910-goodmorning-kansas-fortunately-the-wind-was-blowing-the-storm-away
 post_id: 2024-09-19-064910-goodmorning-kansas-fortunately-the-wind-was-blowing-the-storm-away
 date: 2024-09-19 06:49:10
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "kansas"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#goodmorning #kansas fortunately the wind was blowing the storm away"
 ---
 
 [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#kansas](https://www.instagram.com/explore/tags/kansas/) fortunately the wind was blowing the storm away

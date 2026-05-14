@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "A good morning for #coffee"
+content_type: story
+slug: 073420-a-good-morning-for-coffee
 post_id: 2025-03-23-073420-a-good-morning-for-coffee
 date: 2025-03-23 07:34:20
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "coffee"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "A good morning for #coffee"
 ---
 
 A good morning for [#coffee](https://www.instagram.com/explore/tags/coffee/)

@@ -1,6 +1,8 @@
 ---
 layout:     single
 title:      "House Listing"
+content_type: article
+slug: house-listing
 post_id:         2009-07-17-house-listing
 date:       2009-07-17 08:39:00 -0600
 source:
@@ -9,8 +11,12 @@ categories: blog
 tags:
   - "wordpress"
 author:     Jeff
+authors:
+  - Jeff
+summary: "We’ve lived in our current home for the past 7 years and in that time we have made many improvements to it. When I get the chance I will put up all the before and after pictures that we have of the things we have done. But for now you will "
 comments:   false
 published:  true
+status: published
 ---
 We’ve lived in our current home for the past 7 years and in that time we have made many improvements to it. When I get the chance I will put up all the before and after pictures that we have of the things we have done.
 

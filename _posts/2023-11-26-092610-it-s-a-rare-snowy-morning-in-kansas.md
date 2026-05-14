@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "It’s a rare #snowy #morning in #kansas"
+content_type: story
+slug: 092610-it-s-a-rare-snowy-morning-in-kansas
 post_id: 2023-11-26-092610-it-s-a-rare-snowy-morning-in-kansas
 date: 2023-11-26 09:26:10
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -25,6 +28,9 @@ tags:
   - "kansas"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "It’s a rare #snowy #morning in #kansas"
 ---
 
 It’s a rare [#snowy](https://www.instagram.com/explore/tags/snowy/) [#morning](https://www.instagram.com/explore/tags/morning/) in [#kansas](https://www.instagram.com/explore/tags/kansas/)

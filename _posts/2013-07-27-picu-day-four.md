@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "PICU Day 4"
+content_type: article
+slug: picu-day-four
 post_id: 2013-07-27-picu-day-four
 date: 2013-07-27 11:01:30
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -15,6 +18,9 @@ categories:
   - cancer
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "Nathan took another trip to the playroom today, Jim and Ramona got to see him up and playing around. Each day he seems to get more and more energy, so it’s awesome to see him getting around so well. He really enjoys playing the blocks, the "
 ---
 Nathan took another trip to the playroom today, Jim and Ramona got to see him up and playing around. Each day he seems to get more and more energy, so it’s awesome to see him getting around so well. He really enjoys playing the blocks, the trains and dinosaurs.
 

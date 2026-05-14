@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#goodmorning #hibiscus"
+content_type: story
+slug: 101142-goodmorning-hibiscus
 post_id: 2021-06-26-101142-goodmorning-hibiscus
 date: 2021-06-26 10:11:42
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "hibiscus"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#goodmorning #hibiscus"
 ---
 
 [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#hibiscus](https://www.instagram.com/explore/tags/hibiscus/)

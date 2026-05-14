@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Celebrating my son who has been cancer free since 2013 on @eaticecreamforbreakfast day #ea..."
+content_type: story
+slug: 072928-celebrating-my-son-who-has-been-cancer-free-since-2013-on
 post_id: 2021-02-18-072928-celebrating-my-son-who-has-been-cancer-free-since-2013-on
 date: 2021-02-18 07:29:28
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -27,6 +30,9 @@ tags:
   - "instagram"
 categories:
   - "cancer"
+authors:
+  - "Jeff Patton"
+summary: "Celebrating my son who has been cancer free since 2013 on @eaticecreamforbreakfast day #eaticecreamforbreakfastday  #eaticecreamforbreakfast #childhoodcancerawareness"
 ---
 
 Celebrating my son who has been cancer free since 2013 on [@eaticecreamforbreakfast](https://www.instagram.com/eaticecreamforbreakfast/) day [#eaticecreamforbreakfastday](https://www.instagram.com/explore/tags/eaticecreamforbreakfastday/)  [#eaticecreamforbreakfast](https://www.instagram.com/explore/tags/eaticecreamforbreakfast/) [#childhoodcancerawareness](https://www.instagram.com/explore/tags/childhoodcancerawareness/)

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Apparently it was breakfast day in Lawrence so… @culvers 🥰"
+content_type: story
+slug: 114410-apparently-it-was-breakfast-day-in-lawrence-so-culvers
 post_id: 2025-08-17-114410-apparently-it-was-breakfast-day-in-lawrence-so-culvers
 date: 2025-08-17 11:44:10
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ gallery: "instagram-2025-08-17-114410-apparently-it-was-breakfast-day-in-lawrenc
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Apparently it was breakfast day in Lawrence so… @culvers 🥰"
 ---
 
 Apparently it was breakfast day in Lawrence so… [@culvers](https://www.instagram.com/culvers/) 🥰

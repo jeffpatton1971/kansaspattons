@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "First day of school for these two!"
+content_type: story
+slug: 083300-first-day-of-school-for-these-two
 post_id: 2018-08-16-083300-first-day-of-school-for-these-two
 date: 2018-08-16 08:33:00
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-08-16-083300-first-day-of-school-for-these-two"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "First day of school for these two!"
 ---
 
 First day of school for these two!

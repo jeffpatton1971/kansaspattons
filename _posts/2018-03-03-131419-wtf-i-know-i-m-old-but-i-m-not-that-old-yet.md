@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "WTF?!?! I know I’m old but I’m not that old yet!!"
+content_type: story
+slug: 131419-wtf-i-know-i-m-old-but-i-m-not-that-old-yet
 post_id: 2018-03-03-131419-wtf-i-know-i-m-old-but-i-m-not-that-old-yet
 date: 2018-03-03 13:14:19
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-03-03-131419-wtf-i-know-i-m-old-but-i-m-not-that-old-ye
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "WTF?!?! I know I’m old but I’m not that old yet!!"
 ---
 
 WTF?!?! I know I’m old but I’m not that old yet!!

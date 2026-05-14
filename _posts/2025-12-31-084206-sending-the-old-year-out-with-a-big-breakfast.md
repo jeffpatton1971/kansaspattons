@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Sending the old year out with a big breakfast"
+content_type: story
+slug: 084206-sending-the-old-year-out-with-a-big-breakfast
 post_id: 2025-12-31-084206-sending-the-old-year-out-with-a-big-breakfast
 date: 2025-12-31 08:42:06
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-12-31-084206-sending-the-old-year-out-with-a-big-breakf
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Sending the old year out with a big breakfast"
 ---
 
 Sending the old year out with a big breakfast

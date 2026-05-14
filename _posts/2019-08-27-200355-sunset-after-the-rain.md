@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Sunset after the rain"
+content_type: story
+slug: 200355-sunset-after-the-rain
 post_id: 2019-08-27-200355-sunset-after-the-rain
 date: 2019-08-27 20:03:55
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-08-27-200355-sunset-after-the-rain"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Sunset after the rain"
 ---
 
 Sunset after the rain

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "A foggy morning walk in #kansas"
+content_type: story
+slug: 070833-a-foggy-morning-walk-in-kansas
 post_id: 2024-12-09-070833-a-foggy-morning-walk-in-kansas
 date: 2024-12-09 07:08:33
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "kansas"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "A foggy morning walk in #kansas"
 ---
 
 A foggy morning walk in [#kansas](https://www.instagram.com/explore/tags/kansas/)

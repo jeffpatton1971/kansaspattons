@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#peaceful #breakfast"
+content_type: story
+slug: 083410-peaceful-breakfast
 post_id: 2025-08-14-083410-peaceful-breakfast
 date: 2025-08-14 08:34:10
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "breakfast"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#peaceful #breakfast"
 ---
 
 [#peaceful](https://www.instagram.com/explore/tags/peaceful/) [#breakfast](https://www.instagram.com/explore/tags/breakfast/)

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Somewhere over the rainbow #kansas"
+content_type: story
+slug: 165727-somewhere-over-the-rainbow-kansas
 post_id: 2023-12-03-165727-somewhere-over-the-rainbow-kansas
 date: 2023-12-03 16:57:27
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,10 @@ tags:
   - "kansas"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Somewhere over the rainbow
+#kansas"
 ---
 
 Somewhere over the rainbow

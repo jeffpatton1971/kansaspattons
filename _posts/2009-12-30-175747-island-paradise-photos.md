@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "Island Paradise Photos"
+content_type: gallery
+slug: 175747-island-paradise-photos
 date: 2009-12-30 17:57:47
 published: true
+status: published
 comments: false
 post_id: 2009-12-30-175747-island-paradise-photos
 source:
@@ -19,6 +22,9 @@ categories:
   - album
 tags: []
 gallery: facebook-2009-12-30-175747-island-paradise-photos
+authors:
+  - "Jeff Patton"
+summary: "Island Paradise Photos Facebook album."
 ---
 
 {% include gallery.html gallery="facebook-2009-12-30-175747-island-paradise-photos" %}

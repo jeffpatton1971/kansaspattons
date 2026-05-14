@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Thanks to my daughter I’m ready for the #SuperBowl"
+content_type: story
+slug: 123640-thanks-to-my-daughter-i-m-ready-for-the-superbowl
 post_id: 2025-02-09-123640-thanks-to-my-daughter-i-m-ready-for-the-superbowl
 date: 2025-02-09 12:36:40
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "superbowl"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Thanks to my daughter I’m ready for the #SuperBowl"
 ---
 
 Thanks to my daughter I’m ready for the [#SuperBowl](https://www.instagram.com/explore/tags/superbowl/)

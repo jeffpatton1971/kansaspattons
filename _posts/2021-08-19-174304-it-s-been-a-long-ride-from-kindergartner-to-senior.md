@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "It’s been a long ride…from Kindergartner to Senior"
+content_type: story
+slug: 174304-it-s-been-a-long-ride-from-kindergartner-to-senior
 post_id: 2021-08-19-174304-it-s-been-a-long-ride-from-kindergartner-to-senior
 date: 2021-08-19 17:43:04
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2021-08-19-174304-it-s-been-a-long-ride-from-kindergartner-t
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "It’s been a long ride…from Kindergartner to Senior"
 ---
 
 It’s been a long ride…from Kindergartner to Senior

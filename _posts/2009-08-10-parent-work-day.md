@@ -1,6 +1,8 @@
 ---
 layout:     single
 title:      "Parent Workday"
+content_type: article
+slug: parent-work-day
 post_id:         2009-08-10-parent-work-day
 date:       2009-08-10 09:02:00 -0600
 source:
@@ -10,8 +12,12 @@ categories:
 tags:
   - "wordpress"
 author:     Jeff
+authors:
+  - Jeff
+summary: "I had a jam packed weekend of fun let me tell you! Actually it wasn’t too bad and I did wind up getting some sun out of it! Natalie starts Kindergarten August 24th and her school, Cair Paravel Latin School, had a parent work day. I got ther"
 comments:   false
 published:  true
+status: published
 ---
 I had a jam packed weekend of fun let me tell you! Actually it wasn’t too bad and I did wind up getting some sun out of it!
 

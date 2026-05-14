@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "First Posting"
+content_type: article
+slug: first-posting
 post_id: 2013-04-12-first-posting
 date: 2013-04-12 08:48:01
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -13,6 +16,9 @@ categories:
   - "site"
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "This has been something that I have wanted to do now for the past several months and I feel badly that recent events have prompted me to get off my butt and start, but oh well, here we are. My plan is to document the meaningful events in th"
 ---
 This has been something that I have wanted to do now for the past several months and I feel badly that recent events have prompted me to get off my butt and start, but oh well, here we are. My plan is to document the meaningful events in the lives of our family, so that our children will have an idea of the things that happened in the past.
 

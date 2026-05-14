@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Loaded up and headed to Virginia"
+content_type: story
+slug: 200425-loaded-up-and-headed-to-virginia
 post_id: 2025-04-20-200425-loaded-up-and-headed-to-virginia
 date: 2025-04-20 20:04:25
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-04-20-200425-loaded-up-and-headed-to-virginia"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Loaded up and headed to Virginia"
 ---
 
 Loaded up and headed to Virginia

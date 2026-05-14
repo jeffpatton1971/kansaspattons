@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#skyobservation with my son"
+content_type: story
+slug: 215621-skyobservation-with-my-son
 post_id: 2023-10-30-215621-skyobservation-with-my-son
 date: 2023-10-30 21:56:21
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "skyobservation"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#skyobservation with my son"
 ---
 
 [#skyobservation](https://www.instagram.com/explore/tags/skyobservation/) with my son

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#littleleague #baseball"
+content_type: story
+slug: 182628-littleleague-baseball
 post_id: 2020-06-09-182628-littleleague-baseball
 date: 2020-06-09 18:26:28
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "baseball"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#littleleague #baseball"
 ---
 
 [#littleleague](https://www.instagram.com/explore/tags/littleleague/) [#baseball](https://www.instagram.com/explore/tags/baseball/)

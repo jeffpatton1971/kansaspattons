@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Always have fun visiting #monticello"
+content_type: story
+slug: 110434-always-have-fun-visiting-monticello
 post_id: 2025-04-25-110434-always-have-fun-visiting-monticello
 date: 2025-04-25 11:04:34
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "monticello"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Always have fun visiting #monticello"
 ---
 
 Always have fun visiting [#monticello](https://www.instagram.com/explore/tags/monticello/)

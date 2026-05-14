@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "8th grade graduation dance"
+content_type: story
+slug: 110658-8th-grade-graduation-dance
 post_id: 2018-05-26-110658-8th-grade-graduation-dance
 date: 2018-05-26 11:06:58
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-05-26-110658-8th-grade-graduation-dance"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "8th grade graduation dance"
 ---
 
 8th grade graduation dance

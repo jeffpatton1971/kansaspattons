@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Wavy clouds tonight"
+content_type: story
+slug: 212730-wavy-clouds-tonight
 post_id: 2025-03-29-212730-wavy-clouds-tonight
 date: 2025-03-29 21:27:30
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-03-29-212730-wavy-clouds-tonight"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Wavy clouds tonight"
 ---
 
 Wavy clouds tonight

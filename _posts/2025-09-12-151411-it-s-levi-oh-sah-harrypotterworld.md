@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "It’s Levi-oh-sah #harrypotterworld"
+content_type: story
+slug: 151411-it-s-levi-oh-sah-harrypotterworld
 post_id: 2025-09-12-151411-it-s-levi-oh-sah-harrypotterworld
 date: 2025-09-12 15:14:11
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "harrypotterworld"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "It’s Levi-oh-sah #harrypotterworld"
 ---
 
 It’s Levi-oh-sah [#harrypotterworld](https://www.instagram.com/explore/tags/harrypotterworld/)

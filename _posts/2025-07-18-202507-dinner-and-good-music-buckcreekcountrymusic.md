@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Dinner and good music @buckcreekcountrymusic"
+content_type: story
+slug: 202507-dinner-and-good-music-buckcreekcountrymusic
 post_id: 2025-07-18-202507-dinner-and-good-music-buckcreekcountrymusic
 date: 2025-07-18 20:25:07
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ gallery: "instagram-2025-07-18-202507-dinner-and-good-music-buckcreekcountrymusi
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Dinner and good music @buckcreekcountrymusic"
 ---
 
 Dinner and good music [@buckcreekcountrymusic](https://www.instagram.com/buckcreekcountrymusic/)

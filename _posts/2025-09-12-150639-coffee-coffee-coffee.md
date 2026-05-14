@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#coffee #coffee #coffee 🤪"
+content_type: story
+slug: 150639-coffee-coffee-coffee
 post_id: 2025-09-12-150639-coffee-coffee-coffee
 date: 2025-09-12 15:06:39
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "coffee"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#coffee #coffee #coffee 🤪"
 ---
 
 [#coffee](https://www.instagram.com/explore/tags/coffee/) [#coffee](https://www.instagram.com/explore/tags/coffee/) [#coffee](https://www.instagram.com/explore/tags/coffee/) 🤪

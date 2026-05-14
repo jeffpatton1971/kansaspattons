@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "“My two middle teeth are lonely!”"
+content_type: story
+slug: 101635-my-two-middle-teeth-are-lonely
 post_id: 2018-08-05-101635-my-two-middle-teeth-are-lonely
 date: 2018-08-05 10:16:35
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-08-05-101635-my-two-middle-teeth-are-lonely"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "“My two middle teeth are lonely!”"
 ---
 
 “My two middle teeth are lonely!”

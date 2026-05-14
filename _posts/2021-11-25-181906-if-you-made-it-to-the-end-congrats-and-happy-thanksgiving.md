@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "If you made it to the end congrats and happy thanksgiving"
+content_type: story
+slug: 181906-if-you-made-it-to-the-end-congrats-and-happy-thanksgiving
 post_id: 2021-11-25-181906-if-you-made-it-to-the-end-congrats-and-happy-thanksgiving
 date: 2021-11-25 18:19:06
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Thanksgiving"
+authors:
+  - "Jeff Patton"
+summary: "If you made it to the end congrats and happy thanksgiving"
 ---
 
 If you made it to the end congrats and happy thanksgiving

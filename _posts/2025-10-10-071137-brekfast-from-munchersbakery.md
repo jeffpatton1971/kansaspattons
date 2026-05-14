@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#brekfast from @munchersbakery"
+content_type: story
+slug: 071137-brekfast-from-munchersbakery
 post_id: 2025-10-10-071137-brekfast-from-munchersbakery
 date: 2025-10-10 07:11:37
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -22,6 +25,9 @@ tags:
   - "brekfast"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#brekfast from @munchersbakery"
 ---
 
 [#brekfast](https://www.instagram.com/explore/tags/brekfast/) from [@munchersbakery](https://www.instagram.com/munchersbakery/)

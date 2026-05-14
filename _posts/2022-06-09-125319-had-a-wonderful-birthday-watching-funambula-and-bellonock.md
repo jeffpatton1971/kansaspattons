@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Had a wonderful birthday watching #FUNAMBULA and @bellonock"
+content_type: story
+slug: 125319-had-a-wonderful-birthday-watching-funambula-and-bellonock
 post_id: 2022-06-09-125319-had-a-wonderful-birthday-watching-funambula-and-bellonock
 date: 2022-06-09 12:53:19
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "instagram"
 categories:
   - "birthday"
+authors:
+  - "Jeff Patton"
+summary: "Had a wonderful birthday watching #FUNAMBULA and @bellonock"
 ---
 
 Had a wonderful birthday watching [#FUNAMBULA](https://www.instagram.com/explore/tags/funambula/) and [@bellonock](https://www.instagram.com/bellonock/)

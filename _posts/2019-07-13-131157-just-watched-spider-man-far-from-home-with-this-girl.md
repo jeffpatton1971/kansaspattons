@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Just watched Spider-Man far from home with this girl!"
+content_type: story
+slug: 131157-just-watched-spider-man-far-from-home-with-this-girl
 post_id: 2019-07-13-131157-just-watched-spider-man-far-from-home-with-this-girl
 date: 2019-07-13 13:11:57
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-07-13-131157-just-watched-spider-man-far-from-home-with
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Just watched Spider-Man far from home with this girl!"
 ---
 
 Just watched Spider-Man far from home with this girl!

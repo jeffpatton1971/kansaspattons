@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "It’s over! I have the high ground! @starwars @lego"
+content_type: story
+slug: 190832-it-s-over-i-have-the-high-ground-starwars-lego
 post_id: 2023-06-22-190832-it-s-over-i-have-the-high-ground-starwars-lego
 date: 2023-06-22 19:08:32
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ gallery: "instagram-2023-06-22-190832-it-s-over-i-have-the-high-ground-starwars-
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "It’s over! I have the high ground! @starwars @lego"
 ---
 
 It’s over! I have the high ground! [@starwars](https://www.instagram.com/starwars/) [@lego](https://www.instagram.com/lego/)

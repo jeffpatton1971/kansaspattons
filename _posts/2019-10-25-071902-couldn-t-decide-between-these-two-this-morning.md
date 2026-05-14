@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Couldn’t decide between these two this morning"
+content_type: story
+slug: 071902-couldn-t-decide-between-these-two-this-morning
 post_id: 2019-10-25-071902-couldn-t-decide-between-these-two-this-morning
 date: 2019-10-25 07:19:02
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-10-25-071902-couldn-t-decide-between-these-two-this-mor
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Couldn’t decide between these two this morning"
 ---
 
 Couldn’t decide between these two this morning

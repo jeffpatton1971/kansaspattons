@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Messing around with the camera settings"
+content_type: story
+slug: 221721-messing-around-with-the-camera-settings
 post_id: 2022-07-14-221721-messing-around-with-the-camera-settings
 date: 2022-07-14 22:17:21
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2022-07-14-221721-messing-around-with-the-camera-settings"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Messing around with the camera settings"
 ---
 
 Messing around with the camera settings

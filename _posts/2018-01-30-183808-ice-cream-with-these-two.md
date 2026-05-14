@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Ice cream with these two"
+content_type: story
+slug: 183808-ice-cream-with-these-two
 post_id: 2018-01-30-183808-ice-cream-with-these-two
 date: 2018-01-30 18:38:08
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-01-30-183808-ice-cream-with-these-two"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Ice cream with these two"
 ---
 
 Ice cream with these two

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "First game of the season"
+content_type: story
+slug: 203847-first-game-of-the-season
 post_id: 2018-04-18-203847-first-game-of-the-season
 date: 2018-04-18 20:38:47
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-04-18-203847-first-game-of-the-season"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "First game of the season"
 ---
 
 First game of the season

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#goodweather and #goodbreakfast"
+content_type: story
+slug: 094111-goodweather-and-goodbreakfast
 post_id: 2025-08-03-094111-goodweather-and-goodbreakfast
 date: 2025-08-03 09:41:11
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "goodbreakfast"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#goodweather and #goodbreakfast"
 ---
 
 [#goodweather](https://www.instagram.com/explore/tags/goodweather/) and [#goodbreakfast](https://www.instagram.com/explore/tags/goodbreakfast/)

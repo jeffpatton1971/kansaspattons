@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "This girl…who would not share her photo ID photo…is enrolled @washburnuniversity"
+content_type: story
+slug: 212810-this-girl-who-would-not-share-her-photo-id-photo-is-enrolled-washburnuniversity
 post_id: 2022-05-24-212810-this-girl-who-would-not-share-her-photo-id-photo-is-enrolled-washburnuniversity
 date: 2022-05-24 21:28:10
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ gallery: "instagram-2022-05-24-212810-this-girl-who-would-not-share-her-photo-id
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "This girl…who would not share her photo ID photo…is enrolled @washburnuniversity"
 ---
 
 This girl…who would not share her photo ID photo…is enrolled [@washburnuniversity](https://www.instagram.com/washburnuniversity/)

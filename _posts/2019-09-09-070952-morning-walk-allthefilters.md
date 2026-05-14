@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Morning walk #allthefilters"
+content_type: story
+slug: 070952-morning-walk-allthefilters
 post_id: 2019-09-09-070952-morning-walk-allthefilters
 date: 2019-09-09 07:09:52
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "allthefilters"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Morning walk #allthefilters"
 ---
 
 Morning walk [#allthefilters](https://www.instagram.com/explore/tags/allthefilters/)

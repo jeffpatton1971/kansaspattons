@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Last Round Before Surgery"
+content_type: article
+slug: before-surgery
 post_id: 2013-06-18-before-surgery
 date: 2013-06-18 07:19:55
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -15,6 +18,9 @@ categories:
   - cancer
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "Today is the last cycle of chemo before Nathan has his surgery. If things progress well we should be looking at the middle of July for the surgery to remove his tumor. As always the chemo has been doing it’s job very well and Nathan has bee"
 ---
 Today is the last cycle of chemo before Nathan has his surgery. If things progress well we should be looking at the middle of July for the surgery to remove his tumor. As always the chemo has been doing it’s job very well and Nathan has been responding extremely well. His protein marker for the cancer has dropped another factor of 10, it’s currently at 38. If he keeps this up the marker will be down in the single digits by surgery time!
 

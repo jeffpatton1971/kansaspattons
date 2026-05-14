@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nathan's 2nd Birthday"
+content_type: article
+slug: nathan-birthday
 post_id: 2013-03-19-nathan-birthday
 date: 2013-03-19 10:22:10
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -16,6 +19,9 @@ categories:
   - birthdays
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "Nathan’s birthday! For whatever reason we tend to spread birthdays out over a few days, this year we had a family birthday about a week beforehand, and then one at T Rex Café and then one on his actual birthday! So I’ll add the pictures I h"
 ---
 Nathan’s birthday! For whatever reason we tend to spread birthdays out over a few days, this year we had a family birthday about a week beforehand, and then one at T-Rex Café and then one on his actual birthday! So I’ll add the pictures I have for all of them here
 

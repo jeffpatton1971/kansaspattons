@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Sometimes when you feel sick it's better to be in mom's bed with all your toys"
+content_type: story
+slug: 200059-sometimes-when-you-feel-sick-it-s-better-to-be-in-mom-s-bed-with-all-your-toys
 post_id: 2015-03-01-200059-sometimes-when-you-feel-sick-it-s-better-to-be-in-mom-s-bed-with-all-your-toys
 date: 2015-03-01 20:00:59
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2015-03-01-200059-sometimes-when-you-feel-sick-it-s-better-t
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Sometimes when you feel sick it's better to be in mom's bed with all your toys"
 ---
 
 Sometimes when you feel sick it's better to be in mom's bed with all your toys

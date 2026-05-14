@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "So many kids in the hot tub"
+content_type: story
+slug: 184911-so-many-kids-in-the-hot-tub
 post_id: 2018-08-25-184911-so-many-kids-in-the-hot-tub
 date: 2018-08-25 18:49:11
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-08-25-184911-so-many-kids-in-the-hot-tub"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "So many kids in the hot tub"
 ---
 
 So many kids in the hot tub

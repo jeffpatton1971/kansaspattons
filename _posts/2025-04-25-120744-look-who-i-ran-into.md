@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Look who I ran into!"
+content_type: story
+slug: 120744-look-who-i-ran-into
 post_id: 2025-04-25-120744-look-who-i-ran-into
 date: 2025-04-25 12:07:44
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-04-25-120744-look-who-i-ran-into"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Look who I ran into!"
 ---
 
 Look who I ran into!

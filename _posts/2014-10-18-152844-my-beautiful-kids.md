@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "My beautiful kids"
+content_type: story
+slug: 152844-my-beautiful-kids
 post_id: 2014-10-18-152844-my-beautiful-kids
 date: 2014-10-18 15:28:44
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2014-10-18-152844-my-beautiful-kids"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "My beautiful kids"
 ---
 
 My beautiful kids

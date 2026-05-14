@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#kansas #sunflowers🌻 and #bumblebee"
+content_type: story
+slug: 083233-kansas-sunflowers-and-bumblebee
 post_id: 2023-08-27-083233-kansas-sunflowers-and-bumblebee
 date: 2023-08-27 08:32:33
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -25,6 +28,9 @@ tags:
   - "bumblebee"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#kansas #sunflowers🌻 and #bumblebee"
 ---
 
 [#kansas](https://www.instagram.com/explore/tags/kansas/) [#sunflowers](https://www.instagram.com/explore/tags/sunflowers/)🌻 and [#bumblebee](https://www.instagram.com/explore/tags/bumblebee/)

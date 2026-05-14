@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Had another fun trip on @americanrover"
+content_type: story
+slug: 140410-had-another-fun-trip-on-americanrover
 post_id: 2025-04-22-140410-had-another-fun-trip-on-americanrover
 date: 2025-04-22 14:04:10
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ gallery: "instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Had another fun trip on @americanrover"
 ---
 
 Had another fun trip on [@americanrover](https://www.instagram.com/americanrover/)

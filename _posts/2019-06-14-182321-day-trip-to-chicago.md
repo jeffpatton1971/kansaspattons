@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Day trip to Chicago"
+content_type: story
+slug: 182321-day-trip-to-chicago
 post_id: 2019-06-14-182321-day-trip-to-chicago
 date: 2019-06-14 18:23:21
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-06-14-182321-day-trip-to-chicago"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Day trip to Chicago"
 ---
 
 Day trip to Chicago

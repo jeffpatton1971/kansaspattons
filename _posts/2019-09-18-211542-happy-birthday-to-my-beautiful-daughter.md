@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Happy Birthday to my beautiful daughter"
+content_type: story
+slug: 211542-happy-birthday-to-my-beautiful-daughter
 post_id: 2019-09-18-211542-happy-birthday-to-my-beautiful-daughter
 date: 2019-09-18 21:15:42
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "birthday"
+authors:
+  - "Jeff Patton"
+summary: "Happy Birthday to my beautiful daughter"
 ---
 
 Happy Birthday to my beautiful daughter

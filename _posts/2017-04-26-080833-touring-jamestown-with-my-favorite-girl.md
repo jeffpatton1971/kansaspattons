@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Touring Jamestown with my favorite girl"
+content_type: story
+slug: 080833-touring-jamestown-with-my-favorite-girl
 post_id: 2017-04-26-080833-touring-jamestown-with-my-favorite-girl
 date: 2017-04-26 08:08:33
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2017-04-26-080833-touring-jamestown-with-my-favorite-girl"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Touring Jamestown with my favorite girl"
 ---
 
 Touring Jamestown with my favorite girl

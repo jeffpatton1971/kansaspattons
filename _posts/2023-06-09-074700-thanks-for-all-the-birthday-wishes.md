@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "thanks for all the birthday wishes"
+content_type: story
+slug: 074700-thanks-for-all-the-birthday-wishes
 post_id: 2023-06-09-074700-thanks-for-all-the-birthday-wishes
 date: 2023-06-09 07:47:00
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ tags:
   - "instagram"
 categories:
   - "birthday"
+authors:
+  - "Jeff Patton"
+summary: "thanks for all the birthday wishes"
 ---
 
 thanks for all the birthday wishes

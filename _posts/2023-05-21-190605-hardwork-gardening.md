@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#hardwork #gardening"
+content_type: story
+slug: 190605-hardwork-gardening
 post_id: 2023-05-21-190605-hardwork-gardening
 date: 2023-05-21 19:06:05
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "gardening"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#hardwork #gardening"
 ---
 
 [#hardwork](https://www.instagram.com/explore/tags/hardwork/) [#gardening](https://www.instagram.com/explore/tags/gardening/)

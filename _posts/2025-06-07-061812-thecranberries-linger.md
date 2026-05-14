@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "@thecranberries #linger"
+content_type: story
+slug: 061812-thecranberries-linger
 post_id: 2025-06-07-061812-thecranberries-linger
 date: 2025-06-07 06:18:12
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -22,6 +25,9 @@ tags:
   - "linger"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "@thecranberries #linger"
 ---
 
 [@thecranberries](https://www.instagram.com/thecranberries/) [#linger](https://www.instagram.com/explore/tags/linger/)

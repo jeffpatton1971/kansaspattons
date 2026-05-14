@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Working hard...hardly working..."
+content_type: story
+slug: 130600-working-hard-hardly-working
 post_id: 2019-09-14-130600-working-hard-hardly-working
 date: 2019-09-14 13:06:00
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-09-14-130600-working-hard-hardly-working"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Working hard...hardly working..."
 ---
 
 Working hard...hardly working...

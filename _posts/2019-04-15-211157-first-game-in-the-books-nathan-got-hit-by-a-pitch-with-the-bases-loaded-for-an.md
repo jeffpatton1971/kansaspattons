@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "First game in the books, Nathan got hit by a pitch with the bases loaded for an RBI"
+content_type: story
+slug: 211157-first-game-in-the-books-nathan-got-hit-by-a-pitch-with-the-bases-loaded-for-an
 post_id: 2019-04-15-211157-first-game-in-the-books-nathan-got-hit-by-a-pitch-with-the-bases-loaded-for-an
 date: 2019-04-15 21:11:57
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "First game in the books, Nathan got hit by a pitch with the bases loaded for an RBI"
 ---
 
 First game in the books, Nathan got hit by a pitch with the bases loaded for an RBI

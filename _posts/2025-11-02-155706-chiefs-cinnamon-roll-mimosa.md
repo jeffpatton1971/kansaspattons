@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Chiefs + Cinnamon Roll + Mimosa"
+content_type: story
+slug: 155706-chiefs-cinnamon-roll-mimosa
 post_id: 2025-11-02-155706-chiefs-cinnamon-roll-mimosa
 date: 2025-11-02 15:57:06
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-11-02-155706-chiefs-cinnamon-roll-mimosa"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Chiefs + Cinnamon Roll + Mimosa"
 ---
 
 Chiefs + Cinnamon Roll + Mimosa

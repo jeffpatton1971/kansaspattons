@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Good morning …the butter got a little too hot this morning"
+content_type: story
+slug: 073244-good-morning-the-butter-got-a-little-too-hot-this-morning
 post_id: 2025-07-15-073244-good-morning-the-butter-got-a-little-too-hot-this-morning
 date: 2025-07-15 07:32:44
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-07-15-073244-good-morning-the-butter-got-a-little-too-h
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Good morning …the butter got a little too hot this morning"
 ---
 
 Good morning …the butter got a little too hot this morning

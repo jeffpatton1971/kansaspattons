@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Post-Season game 1 Win! #owls"
+content_type: story
+slug: 200707-post-season-game-1-win-owls
 post_id: 2019-06-26-200707-post-season-game-1-win-owls
 date: 2019-06-26 20:07:07
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "owls"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Post-Season game 1 Win! #owls"
 ---
 
 Post-Season game 1 Win! [#owls](https://www.instagram.com/explore/tags/owls/)

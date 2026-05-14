@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Natalie & co singing before the play"
+content_type: story
+slug: 121014-natalie-and-co-singing-before-the-play
 post_id: 2013-12-14-121014-natalie-and-co-singing-before-the-play
 date: 2013-12-14 12:10:14
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Natalie"
+authors:
+  - "Jeff Patton"
+summary: "Natalie & co singing before the play"
 ---
 
 Natalie &amp; co singing before the play

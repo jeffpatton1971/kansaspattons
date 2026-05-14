@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Late start #breakfast"
+content_type: story
+slug: 081237-late-start-breakfast
 post_id: 2025-10-22-081237-late-start-breakfast
 date: 2025-10-22 08:12:37
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "breakfast"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Late start #breakfast"
 ---
 
 Late start [#breakfast](https://www.instagram.com/explore/tags/breakfast/)

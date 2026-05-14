@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "glove positioning is key…i think he won’t make this mistake again #baseball"
+content_type: story
+slug: 190836-glove-positioning-is-key-i-think-he-won-t-make-this-mistake-again-baseball
 post_id: 2023-05-02-190836-glove-positioning-is-key-i-think-he-won-t-make-this-mistake-again-baseball
 date: 2023-05-02 19:08:36
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "baseball"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "glove positioning is key…i think he won’t make this mistake again #baseball"
 ---
 
 glove positioning is key…i think he won’t make this mistake again [#baseball](https://www.instagram.com/explore/tags/baseball/)

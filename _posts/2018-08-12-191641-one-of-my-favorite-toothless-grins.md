@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "One of my favorite toothless grins!!"
+content_type: story
+slug: 191641-one-of-my-favorite-toothless-grins
 post_id: 2018-08-12-191641-one-of-my-favorite-toothless-grins
 date: 2018-08-12 19:16:41
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-08-12-191641-one-of-my-favorite-toothless-grins"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "One of my favorite toothless grins!!"
 ---
 
 One of my favorite toothless grins!!

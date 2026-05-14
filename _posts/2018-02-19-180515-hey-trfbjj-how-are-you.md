@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Hey @trfbjj how are you"
+content_type: story
+slug: 180515-hey-trfbjj-how-are-you
 post_id: 2018-02-19-180515-hey-trfbjj-how-are-you
 date: 2018-02-19 18:05:15
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ gallery: "instagram-2018-02-19-180515-hey-trfbjj-how-are-you"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Hey @trfbjj how are you"
 ---
 
 Hey [@trfbjj](https://www.instagram.com/trfbjj/) how are you

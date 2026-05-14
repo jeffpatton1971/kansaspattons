@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Sunday dinner…smoked tri-tip at moms request"
+content_type: story
+slug: 185435-sunday-dinner-smoked-tri-tip-at-moms-request
 post_id: 2025-03-09-185435-sunday-dinner-smoked-tri-tip-at-moms-request
 date: 2025-03-09 18:54:35
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-03-09-185435-sunday-dinner-smoked-tri-tip-at-moms-reque
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Sunday dinner…smoked tri-tip at moms request"
 ---
 
 Sunday dinner…smoked tri-tip at moms request

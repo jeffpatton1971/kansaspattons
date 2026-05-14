@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "After a visit with the audiologists at @childrensmercy off to have some fun at @daveandbus..."
+content_type: story
+slug: 201215-after-a-visit-with-the-audiologists-at-childrensmercy-off-to-have-some-fun-at
 post_id: 2019-05-30-201215-after-a-visit-with-the-audiologists-at-childrensmercy-off-to-have-some-fun-at
 date: 2019-05-30 20:12:15
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ gallery: "instagram-2019-05-30-201215-after-a-visit-with-the-audiologists-at-chi
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "After a visit with the audiologists at @childrensmercy off to have some fun at @daveandbusters"
 ---
 
 After a visit with the audiologists at [@childrensmercy](https://www.instagram.com/childrensmercy/) off to have some fun at [@daveandbusters](https://www.instagram.com/daveandbusters/)

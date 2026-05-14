@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Watching this girl play tennis"
+content_type: story
+slug: 172336-watching-this-girl-play-tennis
 post_id: 2018-09-24-172336-watching-this-girl-play-tennis
 date: 2018-09-24 17:23:36
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-09-24-172336-watching-this-girl-play-tennis"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Watching this girl play tennis"
 ---
 
 Watching this girl play tennis

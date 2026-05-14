@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "first time visiting and definitely glad to have gone. a lot of very cool aircraft and incr..."
+content_type: story
+slug: 144356-first-time-visiting-and-definitely-glad-to-have-gone-a-lot-of-very-cool
 post_id: 2023-05-12-144356-first-time-visiting-and-definitely-glad-to-have-gone-a-lot-of-very-cool
 date: 2023-05-12 14:43:56
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2023-05-12-144356-first-time-visiting-and-definitely-glad-to
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "first time visiting and definitely glad to have gone. a lot of very cool aircraft and incredibly knowledgeable guides."
 ---
 
 first time visiting and definitely glad to have gone. a lot of very cool aircraft and incredibly knowledgeable guides.

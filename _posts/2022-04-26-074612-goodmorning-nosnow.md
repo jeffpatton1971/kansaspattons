@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#goodmorning #nosnow"
+content_type: story
+slug: 074612-goodmorning-nosnow
 post_id: 2022-04-26-074612-goodmorning-nosnow
 date: 2022-04-26 07:46:12
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "nosnow"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#goodmorning #nosnow"
 ---
 
 [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#nosnow](https://www.instagram.com/explore/tags/nosnow/)

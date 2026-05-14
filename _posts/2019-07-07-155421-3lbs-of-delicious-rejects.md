@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "3lbs of delicious rejects!"
+content_type: story
+slug: 155421-3lbs-of-delicious-rejects
 post_id: 2019-07-07-155421-3lbs-of-delicious-rejects
 date: 2019-07-07 15:54:21
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-07-07-155421-3lbs-of-delicious-rejects"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "3lbs of delicious rejects!"
 ---
 
 3lbs of delicious rejects!

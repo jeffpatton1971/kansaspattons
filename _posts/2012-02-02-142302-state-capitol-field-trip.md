@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "State Capitol Field trip"
+content_type: gallery
+slug: 142302-state-capitol-field-trip
 date: 2012-02-02 14:23:02
 published: true
+status: published
 comments: false
 post_id: 2012-02-02-142302-state-capitol-field-trip
 source:
@@ -20,6 +23,9 @@ categories:
   - album
 tags: []
 gallery: facebook-2012-02-02-142302-state-capitol-field-trip
+authors:
+  - "Jeff Patton"
+summary: "State Capitol Field trip Facebook album."
 ---
 
 Natalie's second grade class visit to the Capitol Building

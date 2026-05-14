@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Here I thought roosters were supposed to wake you up!!"
+content_type: story
+slug: 065155-here-i-thought-roosters-were-supposed-to-wake-you-up
 post_id: 2019-04-24-065155-here-i-thought-roosters-were-supposed-to-wake-you-up
 date: 2019-04-24 06:51:55
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-04-24-065155-here-i-thought-roosters-were-supposed-to-w
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Here I thought roosters were supposed to wake you up!!"
 ---
 
 Here I thought roosters were supposed to wake you up!!

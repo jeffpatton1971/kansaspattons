@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "It's a hard knock life!"
+content_type: story
+slug: 072904-it-s-a-hard-knock-life
 post_id: 2015-02-24-072904-it-s-a-hard-knock-life
 date: 2015-02-24 07:29:04
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2015-02-24-072904-it-s-a-hard-knock-life"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "It's a hard knock life!"
 ---
 
 It's a hard knock life!

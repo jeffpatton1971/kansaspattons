@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Mass selfies have broken out"
+content_type: story
+slug: 162121-mass-selfies-have-broken-out
 post_id: 2019-11-28-162121-mass-selfies-have-broken-out
 date: 2019-11-28 16:21:21
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-11-28-162121-mass-selfies-have-broken-out"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Mass selfies have broken out"
 ---
 
 Mass selfies have broken out

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#breakfast @theroost920mass 🖤💛"
+content_type: story
+slug: 095600-breakfast-theroost920mass
 post_id: 2026-02-12-095600-breakfast-theroost920mass
 date: 2026-02-12 09:56:00
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -22,6 +25,9 @@ tags:
   - "breakfast"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#breakfast @theroost920mass 🖤💛"
 ---
 
 [#breakfast](https://www.instagram.com/explore/tags/breakfast/) [@theroost920mass](https://www.instagram.com/theroost920mass/) 🖤💛

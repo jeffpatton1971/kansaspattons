@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Planets all in a line"
+content_type: story
+slug: 053656-planets-all-in-a-line
 post_id: 2022-06-24-053656-planets-all-in-a-line
 date: 2022-06-24 05:36:56
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2022-06-24-053656-planets-all-in-a-line"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Planets all in a line"
 ---
 
 Planets all in a line

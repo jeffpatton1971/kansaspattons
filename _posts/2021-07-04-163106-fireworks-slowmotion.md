@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#fireworks #slowmotion"
+content_type: story
+slug: 163106-fireworks-slowmotion
 post_id: 2021-07-04-163106-fireworks-slowmotion
 date: 2021-07-04 16:31:06
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "slowmotion"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#fireworks #slowmotion"
 ---
 
 [#fireworks](https://www.instagram.com/explore/tags/fireworks/) [#slowmotion](https://www.instagram.com/explore/tags/slowmotion/)

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "End of the school year tradtion…fries and shakes @bobos1948"
+content_type: story
+slug: 154535-end-of-the-school-year-tradtion-fries-and-shakes-bobos1948
 post_id: 2021-05-20-154535-end-of-the-school-year-tradtion-fries-and-shakes-bobos1948
 date: 2021-05-20 15:45:35
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ gallery: "instagram-2021-05-20-154535-end-of-the-school-year-tradtion-fries-and-
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "End of the school year tradtion…fries and shakes @bobos1948"
 ---
 
 End of the school year tradtion…fries and shakes [@bobos1948](https://www.instagram.com/bobos1948/)

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "KU Med Check-In"
+content_type: article
+slug: ku-med-check-in
 post_id: 2013-07-16-ku-med-check-in
 date: 2013-07-16 17:34:47
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -15,6 +18,9 @@ categories:
   - cancer
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "Today was our trip to KCK to talk with the doctor’s at KU Med who will remove the tumor from Nathan’s liver. I would love to say that the process was fast, efficient and streamlined, but in reality it was one of the most disorganized visit’"
 ---
 Today was our trip to KCK to talk with the doctor’s at KU Med who will remove the tumor from Nathan’s liver. I would love to say that the process was fast, efficient and streamlined, but in reality it was one of the most disorganized visit’s we’ve ever had.  We showed up at 9a for his 930 appointment with pre-anesthesia, and they had no record of his appointment. After they started looking deeper they had him scheduled for the previous day. They asked us why we missed it, and we said we didn’t schedule this, the doctor’s and nurses scheduled everything.
 

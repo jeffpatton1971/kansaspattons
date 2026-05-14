@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Out for breakfast with mom"
+content_type: story
+slug: 085857-out-for-breakfast-with-mom
 post_id: 2025-03-09-085857-out-for-breakfast-with-mom
 date: 2025-03-09 08:58:57
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-03-09-085857-out-for-breakfast-with-mom"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Out for breakfast with mom"
 ---
 
 Out for breakfast with mom

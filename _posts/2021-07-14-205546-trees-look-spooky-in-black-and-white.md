@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Trees look spooky in black and white"
+content_type: story
+slug: 205546-trees-look-spooky-in-black-and-white
 post_id: 2021-07-14-205546-trees-look-spooky-in-black-and-white
 date: 2021-07-14 20:55:46
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2021-07-14-205546-trees-look-spooky-in-black-and-white"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Trees look spooky in black and white"
 ---
 
 Trees look spooky in black and white

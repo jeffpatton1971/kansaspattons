@@ -303,13 +303,13 @@ async function buildPosts() {
       continue;
     }
 
-    const slug = slugFromPostFilename(filename);
+    const slug = textValue(parsed.data.slug) || slugFromPostFilename(filename);
     const galleryIds = galleryIncludes(parsed.content, parsed.data);
     const cleanMarkdown = removeJekyllIncludes(parsed.content);
     const bodyHtml = sanitizeHtml(markdown.render(cleanMarkdown), sanitizeOptions);
     const date = normalizedDate(parsed.data.date, parts);
     const title = textValue(parsed.data.title) || titleFromSlug(slug);
-    const id = textValue(parsed.data.post_id) || slug;
+    const id = textValue(parsed.data.post_id) || textValue(parsed.data.id) || slug;
     const source = entrySource(parsed.data);
     const type = classifySourceContentType(source.type, parsed.data);
     const summary = textValue(parsed.data.summary) || textValue(parsed.data.excerpt) || excerptFromMarkdown(cleanMarkdown);

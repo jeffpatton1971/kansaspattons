@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "An excellent dinner before a very long drive home"
+content_type: story
+slug: 134207-an-excellent-dinner-before-a-very-long-drive-home
 post_id: 2025-04-25-134207-an-excellent-dinner-before-a-very-long-drive-home
 date: 2025-04-25 13:42:07
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-04-25-134207-an-excellent-dinner-before-a-very-long-dri
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "An excellent dinner before a very long drive home"
 ---
 
 An excellent dinner before a very long drive home

@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "npm run build:content && vite",
     "build:content": "tsx scripts/build-content.ts",
+    "normalize:posts": "tsx scripts/normalize-post-frontmatter.ts",
     "build": "npm run build:content && tsc -b && vite build",
     "publish:content": "npm run build:content && tsx scripts/publish-content.ts",
     "publish:content:dry-run": "npm run build:content && tsx scripts/publish-content.ts --dry-run",

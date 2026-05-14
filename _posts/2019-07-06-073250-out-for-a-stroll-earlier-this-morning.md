@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Out for a stroll earlier this morning"
+content_type: story
+slug: 073250-out-for-a-stroll-earlier-this-morning
 post_id: 2019-07-06-073250-out-for-a-stroll-earlier-this-morning
 date: 2019-07-06 07:32:50
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-07-06-073250-out-for-a-stroll-earlier-this-morning"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Out for a stroll earlier this morning"
 ---
 
 Out for a stroll earlier this morning

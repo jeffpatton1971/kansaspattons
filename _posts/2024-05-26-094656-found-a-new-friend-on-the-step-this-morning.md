@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Found a new friend on the step this morning"
+content_type: story
+slug: 094656-found-a-new-friend-on-the-step-this-morning
 post_id: 2024-05-26-094656-found-a-new-friend-on-the-step-this-morning
 date: 2024-05-26 09:46:56
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2024-05-26-094656-found-a-new-friend-on-the-step-this-mornin
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Found a new friend on the step this morning"
 ---
 
 Found a new friend on the step this morning

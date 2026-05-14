@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Biopsy and Port"
+content_type: article
+slug: biopsy-and-port
 post_id: 2013-04-02-biopsy-and-port
 date: 2013-04-02 09:38:48
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -15,6 +18,9 @@ categories:
   - cancer
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "Monday morning he went under sedation and had a biopsy of his tumor done, and a port installed for the chemo. The port is just under his skin so there is nothing hanging out, which is good. Nathan’s tumor is what they called pure fetal hist"
 ---
 Monday morning he went under sedation and had a biopsy of his tumor done, and a port installed for the chemo. The port is just under his skin so there is nothing hanging out, which is good.
 

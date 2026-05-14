@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Round 4 of cruise pictures these were at #oceancaymscmarinereserve lovely weather and lots..."
+content_type: story
+slug: 195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely
 post_id: 2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely
 date: 2024-06-25 19:55:03
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "oceancaymscmarinereserve"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Round 4 of cruise pictures these were at #oceancaymscmarinereserve lovely weather and lots of fun"
 ---
 
 Round 4 of cruise pictures these were at [#oceancaymscmarinereserve](https://www.instagram.com/explore/tags/oceancaymscmarinereserve/) lovely weather and lots of fun

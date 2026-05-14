@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nathan and Annika"
+content_type: story
+slug: 141143-nathan-and-annika
 post_id: 2014-07-05-141143-nathan-and-annika
 date: 2014-07-05 14:11:43
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "Nathan and Annika"
 ---
 
 Nathan and Annika

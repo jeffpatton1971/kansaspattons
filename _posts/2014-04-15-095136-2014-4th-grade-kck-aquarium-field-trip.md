@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "2014 4th grade KCK Aquarium field trip"
+content_type: gallery
+slug: 095136-2014-4th-grade-kck-aquarium-field-trip
 date: 2014-04-15 09:51:36
 published: true
+status: published
 comments: false
 post_id: 2014-04-15-095136-2014-4th-grade-kck-aquarium-field-trip
 source:
@@ -19,6 +22,9 @@ categories:
   - album
 tags: []
 gallery: facebook-2014-04-15-095136-2014-4th-grade-kck-aquarium-field-trip
+authors:
+  - "Jeff Patton"
+summary: "2014 4th grade KCK Aquarium field trip Facebook album."
 ---
 
 {% include gallery.html gallery="facebook-2014-04-15-095136-2014-4th-grade-kck-aquarium-field-trip" %}

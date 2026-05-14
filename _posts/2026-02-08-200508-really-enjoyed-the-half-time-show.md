@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Really enjoyed the half time show!"
+content_type: story
+slug: 200508-really-enjoyed-the-half-time-show
 post_id: 2026-02-08-200508-really-enjoyed-the-half-time-show
 date: 2026-02-08 20:05:08
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2026-02-08-200508-really-enjoyed-the-half-time-show"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Really enjoyed the half time show!"
 ---
 
 Really enjoyed the half time show!

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Final Concert"
+content_type: article
+slug: final-concert
 post_id: 2013-05-13-final-concert
 date: 2013-05-13 07:18:52
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -16,6 +19,9 @@ categories:
   - concerts
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "Natalie’s final concert was this evening. This year she learned to play the violin which she will continue next year. In addition to continuing the violin, we get to look forward to learning the recorder as well. Afterwards we went to Orang"
 ---
 Natalie’s final concert was this evening. This year she learned to play the violin which she will continue next year. In addition to continuing the violin, we get to look forward to learning the recorder as well. Afterwards we went to Orange Leaf with some friends.
 

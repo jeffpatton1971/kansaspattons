@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "A rare moment, Natalie smiling"
+content_type: story
+slug: 212541-a-rare-moment-natalie-smiling
 post_id: 2013-12-09-212541-a-rare-moment-natalie-smiling
 date: 2013-12-09 21:25:41
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Natalie"
+authors:
+  - "Jeff Patton"
+summary: "A rare moment, Natalie smiling"
 ---
 
 A rare moment, Natalie smiling

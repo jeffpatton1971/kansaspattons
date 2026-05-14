@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Friday night lights"
+content_type: story
+slug: 200616-friday-night-lights
 post_id: 2019-10-04-200616-friday-night-lights
 date: 2019-10-04 20:06:16
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2019-10-04-200616-friday-night-lights"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Friday night lights"
 ---
 
 Friday night lights

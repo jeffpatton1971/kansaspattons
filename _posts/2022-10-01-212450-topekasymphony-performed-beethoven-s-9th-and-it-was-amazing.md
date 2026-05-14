@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "@topekasymphony performed Beethoven’s 9th and it was amazing"
+content_type: story
+slug: 212450-topekasymphony-performed-beethoven-s-9th-and-it-was-amazing
 post_id: 2022-10-01-212450-topekasymphony-performed-beethoven-s-9th-and-it-was-amazing
 date: 2022-10-01 21:24:50
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ gallery: "instagram-2022-10-01-212450-topekasymphony-performed-beethoven-s-9th-a
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "@topekasymphony performed Beethoven’s 9th and it was amazing"
 ---
 
 [@topekasymphony](https://www.instagram.com/topekasymphony/) performed Beethoven’s 9th and it was amazing

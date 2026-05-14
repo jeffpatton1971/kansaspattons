@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Mower Shopping"
+content_type: article
+slug: mower-shopping
 post_id: 2013-05-26-mower-shopping
 date: 2013-05-26 08:55:59
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -15,6 +18,9 @@ categories:
   - "Nathan"
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "Nathan helped me pick out a new mower since ours died. He had a lot of fun on the riding mowers, but we settled for a push mower."
 ---
 Nathan helped me pick out a new mower since ours died. He had a lot of fun on the riding mowers, but we settled for a push mower.
 

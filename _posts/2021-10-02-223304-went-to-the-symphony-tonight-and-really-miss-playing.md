@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Went to the Symphony tonight and really miss playing"
+content_type: story
+slug: 223304-went-to-the-symphony-tonight-and-really-miss-playing
 post_id: 2021-10-02-223304-went-to-the-symphony-tonight-and-really-miss-playing
 date: 2021-10-02 22:33:04
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2021-10-02-223304-went-to-the-symphony-tonight-and-really-mi
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Went to the Symphony tonight and really miss playing"
 ---
 
 Went to the Symphony tonight and really miss playing

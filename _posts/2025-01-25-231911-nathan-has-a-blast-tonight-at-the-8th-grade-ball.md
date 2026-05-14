@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nathan has a blast tonight at the 8th grade ball"
+content_type: story
+slug: 231911-nathan-has-a-blast-tonight-at-the-8th-grade-ball
 post_id: 2025-01-25-231911-nathan-has-a-blast-tonight-at-the-8th-grade-ball
 date: 2025-01-25 23:19:11
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "Nathan has a blast tonight at the 8th grade ball"
 ---
 
 Nathan has a blast tonight at the 8th grade ball

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "First grade field trip to Council Grove"
+content_type: story
+slug: 110220-first-grade-field-trip-to-council-grove
 post_id: 2018-05-26-110220-first-grade-field-trip-to-council-grove
 date: 2018-05-26 11:02:20
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-05-26-110220-first-grade-field-trip-to-council-grove"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "First grade field trip to Council Grove"
 ---
 
 First grade field trip to Council Grove

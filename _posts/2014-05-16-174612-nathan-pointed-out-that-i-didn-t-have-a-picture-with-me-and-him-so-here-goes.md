@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nathan pointed out that I didn't have a picture with me and him, so here goes."
+content_type: story
+slug: 174612-nathan-pointed-out-that-i-didn-t-have-a-picture-with-me-and-him-so-here-goes
 post_id: 2014-05-16-174612-nathan-pointed-out-that-i-didn-t-have-a-picture-with-me-and-him-so-here-goes
 date: 2014-05-16 17:46:12
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "Nathan pointed out that I didn't have a picture with me and him, so here goes."
 ---
 
 Nathan pointed out that I didn't have a picture with me and him, so here goes.

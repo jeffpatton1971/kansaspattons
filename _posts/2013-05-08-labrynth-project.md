@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Labrynth Project"
+content_type: article
+slug: labrynth-project
 post_id: 2013-05-08-labrynth-project
 date: 2013-05-08 08:16:56
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -15,6 +18,9 @@ categories:
   - "CPLS"
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "Natalie finally finished her project for history. She’s pretty creative, and it looks really good!"
 ---
 Natalie finally finished her [project]({% post_url 2013-04-28-the-labrynth %}) for history. She’s pretty creative, and it looks really good!
 

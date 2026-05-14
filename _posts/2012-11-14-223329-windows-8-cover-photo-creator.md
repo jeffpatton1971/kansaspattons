@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "Windows 8 cover photo creator"
+content_type: gallery
+slug: 223329-windows-8-cover-photo-creator
 date: 2012-11-14 22:33:29
 published: true
+status: published
 comments: false
 post_id: 2012-11-14-223329-windows-8-cover-photo-creator
 source:
@@ -19,6 +22,9 @@ categories:
   - album
 tags: []
 gallery: facebook-2012-11-14-223329-windows-8-cover-photo-creator
+authors:
+  - "Jeff Patton"
+summary: "Windows 8 cover photo creator Facebook album."
 ---
 
 {% include gallery.html gallery="facebook-2012-11-14-223329-windows-8-cover-photo-creator" %}

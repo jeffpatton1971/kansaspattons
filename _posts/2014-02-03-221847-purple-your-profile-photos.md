@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "Purple Your Profile Photos"
+content_type: gallery
+slug: 221847-purple-your-profile-photos
 date: 2014-02-03 22:18:47
 published: true
+status: published
 comments: false
 post_id: 2014-02-03-221847-purple-your-profile-photos
 source:
@@ -19,6 +22,9 @@ categories:
   - album
 tags: []
 gallery: facebook-2014-02-03-221847-purple-your-profile-photos
+authors:
+  - "Jeff Patton"
+summary: "Purple Your Profile Photos Facebook album."
 ---
 
 {% include gallery.html gallery="facebook-2014-02-03-221847-purple-your-profile-photos" %}

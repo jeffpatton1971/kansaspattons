@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nathan in the news!"
+content_type: story
+slug: 073209-nathan-in-the-news
 post_id: 2018-09-26-073209-nathan-in-the-news
 date: 2018-09-26 07:32:09
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "Nathan in the news!"
 ---
 
 Nathan in the news!

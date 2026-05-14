@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Hunting #pokemon with my favorite trainer @pokemongoapp"
+content_type: story
+slug: 155237-hunting-pokemon-with-my-favorite-trainer-pokemongoapp
 post_id: 2020-05-31-155237-hunting-pokemon-with-my-favorite-trainer-pokemongoapp
 date: 2020-05-31 15:52:37
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -22,6 +25,9 @@ tags:
   - "pokemon"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Hunting #pokemon with my favorite trainer @pokemongoapp"
 ---
 
 Hunting [#pokemon](https://www.instagram.com/explore/tags/pokemon/) with my favorite trainer [@pokemongoapp](https://www.instagram.com/pokemongoapp/)

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Some more exploring after lunch"
+content_type: story
+slug: 150244-some-more-exploring-after-lunch
 post_id: 2022-05-06-150244-some-more-exploring-after-lunch
 date: 2022-05-06 15:02:44
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2022-05-06-150244-some-more-exploring-after-lunch"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Some more exploring after lunch"
 ---
 
 Some more exploring after lunch

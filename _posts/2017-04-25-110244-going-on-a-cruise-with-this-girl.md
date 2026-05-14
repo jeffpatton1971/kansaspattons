@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Going on a cruise with this girl"
+content_type: story
+slug: 110244-going-on-a-cruise-with-this-girl
 post_id: 2017-04-25-110244-going-on-a-cruise-with-this-girl
 date: 2017-04-25 11:02:44
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2017-04-25-110244-going-on-a-cruise-with-this-girl"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Going on a cruise with this girl"
 ---
 
 Going on a cruise with this girl

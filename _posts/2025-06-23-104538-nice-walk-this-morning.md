@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nice walk this morning"
+content_type: story
+slug: 104538-nice-walk-this-morning
 post_id: 2025-06-23-104538-nice-walk-this-morning
 date: 2025-06-23 10:45:38
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-06-23-104538-nice-walk-this-morning"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Nice walk this morning"
 ---
 
 Nice walk this morning

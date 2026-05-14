@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#yardwork #gardening"
+content_type: story
+slug: 195130-yardwork-gardening
 post_id: 2023-06-07-195130-yardwork-gardening
 date: 2023-06-07 19:51:30
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "gardening"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#yardwork #gardening"
 ---
 
 [#yardwork](https://www.instagram.com/explore/tags/yardwork/) [#gardening](https://www.instagram.com/explore/tags/gardening/)

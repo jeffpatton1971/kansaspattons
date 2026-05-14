@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "lovely time at the garden"
+content_type: story
+slug: 165738-lovely-time-at-the-garden
 post_id: 2023-06-15-165738-lovely-time-at-the-garden
 date: 2023-06-15 16:57:38
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2023-06-15-165738-lovely-time-at-the-garden"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "lovely time at the garden"
 ---
 
 lovely time at the garden

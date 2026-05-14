@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Beef. It’s what’s for dinner!"
+content_type: story
+slug: 180150-beef-it-s-what-s-for-dinner
 post_id: 2018-07-10-180150-beef-it-s-what-s-for-dinner
 date: 2018-07-10 18:01:50
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-07-10-180150-beef-it-s-what-s-for-dinner"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Beef. It’s what’s for dinner!"
 ---
 
 Beef. It’s what’s for dinner!

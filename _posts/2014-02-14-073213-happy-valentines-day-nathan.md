@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Happy Valentines Day Nathan!"
+content_type: story
+slug: 073213-happy-valentines-day-nathan
 post_id: 2014-02-14-073213-happy-valentines-day-nathan
 date: 2014-02-14 07:32:13
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "Happy Valentines Day Nathan!"
 ---
 
 Happy Valentines Day Nathan!

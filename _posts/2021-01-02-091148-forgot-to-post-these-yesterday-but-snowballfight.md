@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Forgot to post these yesterday but #snowballfight"
+content_type: story
+slug: 091148-forgot-to-post-these-yesterday-but-snowballfight
 post_id: 2021-01-02-091148-forgot-to-post-these-yesterday-but-snowballfight
 date: 2021-01-02 09:11:48
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "snowballfight"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Forgot to post these yesterday but #snowballfight"
 ---
 
 Forgot to post these yesterday but [#snowballfight](https://www.instagram.com/explore/tags/snowballfight/)

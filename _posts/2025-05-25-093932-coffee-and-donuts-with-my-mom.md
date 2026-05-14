@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Coffee and donuts with my mom"
+content_type: story
+slug: 093932-coffee-and-donuts-with-my-mom
 post_id: 2025-05-25-093932-coffee-and-donuts-with-my-mom
 date: 2025-05-25 09:39:32
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-05-25-093932-coffee-and-donuts-with-my-mom"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Coffee and donuts with my mom"
 ---
 
 Coffee and donuts with my mom

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Enjoying an afternoon @crystalbridgesmuseum #cpls"
+content_type: story
+slug: 131942-enjoying-an-afternoon-crystalbridgesmuseum-cpls
 post_id: 2022-05-06-131942-enjoying-an-afternoon-crystalbridgesmuseum-cpls
 date: 2022-05-06 13:19:42
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "instagram"
 categories:
   - "CPLS"
+authors:
+  - "Jeff Patton"
+summary: "Enjoying an afternoon @crystalbridgesmuseum #cpls"
 ---
 
 Enjoying an afternoon [@crystalbridgesmuseum](https://www.instagram.com/crystalbridgesmuseum/) [#cpls](https://www.instagram.com/explore/tags/cpls/)

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "It's December, no more beard."
+content_type: story
+slug: 093726-it-s-december-no-more-beard
 post_id: 2017-12-02-093726-it-s-december-no-more-beard
 date: 2017-12-02 09:37:26
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2017-12-02-093726-it-s-december-no-more-beard"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "It's December, no more beard."
 ---
 
 It's December, no more beard.

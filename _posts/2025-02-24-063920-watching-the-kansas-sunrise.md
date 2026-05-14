@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Watching the #kansas #sunrise"
+content_type: story
+slug: 063920-watching-the-kansas-sunrise
 post_id: 2025-02-24-063920-watching-the-kansas-sunrise
 date: 2025-02-24 06:39:20
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "sunrise"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Watching the #kansas #sunrise"
 ---
 
 Watching the [#kansas](https://www.instagram.com/explore/tags/kansas/) [#sunrise](https://www.instagram.com/explore/tags/sunrise/)

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Mini-8 awards ceremony"
+content_type: story
+slug: 113859-mini-8-awards-ceremony
 post_id: 2018-07-07-113859-mini-8-awards-ceremony
 date: 2018-07-07 11:38:59
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-07-07-113859-mini-8-awards-ceremony"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Mini-8 awards ceremony"
 ---
 
 Mini-8 awards ceremony

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#traditions first day of school in the books"
+content_type: story
+slug: 162654-traditions-first-day-of-school-in-the-books
 post_id: 2025-08-13-162654-traditions-first-day-of-school-in-the-books
 date: 2025-08-13 16:26:54
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "traditions"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#traditions first day of school in the books"
 ---
 
 [#traditions](https://www.instagram.com/explore/tags/traditions/) first day of school in the books

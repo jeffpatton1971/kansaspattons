@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#breakfastfordinner"
+content_type: story
+slug: 190417-breakfastfordinner
 post_id: 2023-04-06-190417-breakfastfordinner
 date: 2023-04-06 19:04:17
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "breakfastfordinner"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#breakfastfordinner"
 ---
 
 [#breakfastfordinner](https://www.instagram.com/explore/tags/breakfastfordinner/)

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Tasty #lunch #tacos"
+content_type: story
+slug: 124055-tasty-lunch-tacos
 post_id: 2025-09-23-124055-tasty-lunch-tacos
 date: 2025-09-23 12:40:55
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "tacos"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Tasty #lunch #tacos"
 ---
 
 Tasty [#lunch](https://www.instagram.com/explore/tags/lunch/) [#tacos](https://www.instagram.com/explore/tags/tacos/)

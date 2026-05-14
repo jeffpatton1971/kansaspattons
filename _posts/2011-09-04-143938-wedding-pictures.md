@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "Wedding Pictures"
+content_type: gallery
+slug: 143938-wedding-pictures
 date: 2011-09-04 14:39:38
 published: true
+status: published
 comments: false
 post_id: 2011-09-04-143938-wedding-pictures
 source:
@@ -20,6 +23,9 @@ categories:
   - album
 tags: []
 gallery: facebook-2011-09-04-143938-wedding-pictures
+authors:
+  - "Jeff Patton"
+summary: "Wedding Pictures Facebook album."
 ---
 
 Self exaplanatory description here.

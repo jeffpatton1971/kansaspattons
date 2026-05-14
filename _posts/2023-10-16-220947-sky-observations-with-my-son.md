@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Sky Observations with my son"
+content_type: story
+slug: 220947-sky-observations-with-my-son
 post_id: 2023-10-16-220947-sky-observations-with-my-son
 date: 2023-10-16 22:09:47
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2023-10-16-220947-sky-observations-with-my-son"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Sky Observations with my son"
 ---
 
 Sky Observations with my son

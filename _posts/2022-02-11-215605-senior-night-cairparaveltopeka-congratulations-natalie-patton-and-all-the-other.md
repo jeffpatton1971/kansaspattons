@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Senior night @cairparaveltopeka congratulations @natalie__patton and all the other seniors..."
+content_type: story
+slug: 215605-senior-night-cairparaveltopeka-congratulations-natalie-patton-and-all-the-other
 post_id: 2022-02-11-215605-senior-night-cairparaveltopeka-congratulations-natalie-patton-and-all-the-other
 date: 2022-02-11 21:56:05
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ gallery: "instagram-2022-02-11-215605-senior-night-cairparaveltopeka-congratulat
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Senior night @cairparaveltopeka  congratulations @natalie__patton and all the other seniors it’s been a wild ride"
 ---
 
 Senior night [@cairparaveltopeka](https://www.instagram.com/cairparaveltopeka/)  congratulations [@natalie__patton](https://www.instagram.com/natalie__patton/) and all the other seniors it’s been a wild ride

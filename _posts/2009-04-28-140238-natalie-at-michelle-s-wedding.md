@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "Natalie at Michelle's wedding"
+content_type: gallery
+slug: 140238-natalie-at-michelle-s-wedding
 date: 2009-04-28 14:02:38
 published: true
+status: published
 comments: false
 post_id: 2009-04-28-140238-natalie-at-michelle-s-wedding
 source:
@@ -20,6 +23,9 @@ categories:
   - album
 tags: []
 gallery: facebook-2009-04-28-140238-natalie-at-michelle-s-wedding
+authors:
+  - "Jeff Patton"
+summary: "Natalie at Michelle's wedding Facebook album."
 ---
 
 A couple of pictures of Natalie in her flowergirl dress.

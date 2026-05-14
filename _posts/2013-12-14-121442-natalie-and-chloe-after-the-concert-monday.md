@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Natalie and Chloe after the concert Monday"
+content_type: story
+slug: 121442-natalie-and-chloe-after-the-concert-monday
 post_id: 2013-12-14-121442-natalie-and-chloe-after-the-concert-monday
 date: 2013-12-14 12:14:42
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Natalie"
+authors:
+  - "Jeff Patton"
+summary: "Natalie and Chloe after the concert Monday"
 ---
 
 Natalie and Chloe after the concert Monday

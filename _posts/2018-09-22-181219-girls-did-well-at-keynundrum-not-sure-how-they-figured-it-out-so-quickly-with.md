@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Girls did well at keynundrum not sure how they figured it out so quickly with the amount o..."
+content_type: story
+slug: 181219-girls-did-well-at-keynundrum-not-sure-how-they-figured-it-out-so-quickly-with
 post_id: 2018-09-22-181219-girls-did-well-at-keynundrum-not-sure-how-they-figured-it-out-so-quickly-with
 date: 2018-09-22 18:12:19
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-09-22-181219-girls-did-well-at-keynundrum-not-sure-how-
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Girls did well at keynundrum not sure how they figured it out so quickly with the amount of singing and talking"
 ---
 
 Girls did well at keynundrum not sure how they figured it out so quickly with the amount of singing and talking

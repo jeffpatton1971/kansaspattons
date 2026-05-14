@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "It’s the little things"
+content_type: story
+slug: 092825-it-s-the-little-things
 post_id: 2023-04-08-092825-it-s-the-little-things
 date: 2023-04-08 09:28:25
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2023-04-08-092825-it-s-the-little-things"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "It’s the little things"
 ---
 
 It’s the little things

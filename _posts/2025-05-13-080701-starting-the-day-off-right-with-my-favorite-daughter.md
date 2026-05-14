@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Starting the day off right with my favorite daughter"
+content_type: story
+slug: 080701-starting-the-day-off-right-with-my-favorite-daughter
 post_id: 2025-05-13-080701-starting-the-day-off-right-with-my-favorite-daughter
 date: 2025-05-13 08:07:01
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-05-13-080701-starting-the-day-off-right-with-my-favorit
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Starting the day off right with my favorite daughter"
 ---
 
 Starting the day off right with my favorite daughter

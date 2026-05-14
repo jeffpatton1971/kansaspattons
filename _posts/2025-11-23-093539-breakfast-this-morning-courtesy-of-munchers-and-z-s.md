@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#breakfast this morning courtesy of munchers and z’s"
+content_type: story
+slug: 093539-breakfast-this-morning-courtesy-of-munchers-and-z-s
 post_id: 2025-11-23-093539-breakfast-this-morning-courtesy-of-munchers-and-z-s
 date: 2025-11-23 09:35:39
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "breakfast"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#breakfast this morning courtesy of munchers and z’s"
 ---
 
 [#breakfast](https://www.instagram.com/explore/tags/breakfast/) this morning courtesy of munchers and z’s

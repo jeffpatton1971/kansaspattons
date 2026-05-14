@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Little drive in to work this week"
+content_type: story
+slug: 193049-little-drive-in-to-work-this-week
 post_id: 2018-11-25-193049-little-drive-in-to-work-this-week
 date: 2018-11-25 19:30:49
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-11-25-193049-little-drive-in-to-work-this-week"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Little drive in to work this week"
 ---
 
 Little drive in to work this week

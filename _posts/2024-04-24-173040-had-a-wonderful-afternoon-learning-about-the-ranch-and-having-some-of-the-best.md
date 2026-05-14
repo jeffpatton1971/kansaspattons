@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Had a wonderful afternoon learning about the ranch and having some of the best BBQ I’ve ha..."
+content_type: story
+slug: 173040-had-a-wonderful-afternoon-learning-about-the-ranch-and-having-some-of-the-best
 post_id: 2024-04-24-173040-had-a-wonderful-afternoon-learning-about-the-ranch-and-having-some-of-the-best
 date: 2024-04-24 17:30:40
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2024-04-24-173040-had-a-wonderful-afternoon-learning-about-t
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Had a wonderful afternoon learning about the ranch and having some of the best BBQ I’ve had in Texas"
 ---
 
 Had a wonderful afternoon learning about the ranch and having some of the best BBQ I’ve had in Texas

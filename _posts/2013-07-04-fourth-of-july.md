@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "July 4, 2013"
+content_type: article
+slug: fourth-of-july
 post_id: 2013-07-04-fourth-of-july
 date: 2013-07-04 07:25:30
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -17,6 +20,9 @@ categories:
   - "July 4th"
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "My all time favorite holiday! We took some cute pictures of the kids with the flag in the morning, but really didn’t do much most of the day. In fact the kids fell asleep that afternoon and we hadn’t even done anything yet! We hit the firew"
 ---
 My all time favorite holiday! We took some cute pictures of the kids with the flag in the morning, but really didn’t do much most of the day. In fact the kids fell asleep that afternoon and we hadn’t even done anything yet! We hit the fireworks stands in the evening to get some supplies and then headed over to our friends house for dinner and fireworks.
 

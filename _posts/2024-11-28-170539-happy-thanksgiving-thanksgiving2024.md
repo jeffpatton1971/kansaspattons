@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Happy Thanksgiving #thanksgiving2024"
+content_type: story
+slug: 170539-happy-thanksgiving-thanksgiving2024
 post_id: 2024-11-28-170539-happy-thanksgiving-thanksgiving2024
 date: 2024-11-28 17:05:39
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -22,6 +25,9 @@ tags:
   - "instagram"
 categories:
   - "Thanksgiving"
+authors:
+  - "Jeff Patton"
+summary: "Happy Thanksgiving #thanksgiving2024"
 ---
 
 Happy Thanksgiving [#thanksgiving2024](https://www.instagram.com/explore/tags/thanksgiving2024/)

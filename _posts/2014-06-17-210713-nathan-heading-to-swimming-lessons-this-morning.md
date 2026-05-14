@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nathan heading to swimming lessons this morning"
+content_type: story
+slug: 210713-nathan-heading-to-swimming-lessons-this-morning
 post_id: 2014-06-17-210713-nathan-heading-to-swimming-lessons-this-morning
 date: 2014-06-17 21:07:13
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "Nathan heading to swimming lessons this morning"
 ---
 
 Nathan heading to swimming lessons this morning

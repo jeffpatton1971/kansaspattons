@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Playing catch with Nathan"
+content_type: story
+slug: 144543-playing-catch-with-nathan
 post_id: 2015-03-21-144543-playing-catch-with-nathan
 date: 2015-03-21 14:45:43
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "Playing catch with Nathan"
 ---
 
 Playing catch with Nathan

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Baseball players"
+content_type: story
+slug: 200208-baseball-players
 post_id: 2015-05-26-200208-baseball-players
 date: 2015-05-26 20:02:08
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2015-05-26-200208-baseball-players"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Baseball players"
 ---
 
 Baseball players

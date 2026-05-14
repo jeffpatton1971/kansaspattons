@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Good wholesome fun...amiright?"
+content_type: story
+slug: 074214-good-wholesome-fun-amiright
 post_id: 2018-04-24-074214-good-wholesome-fun-amiright
 date: 2018-04-24 07:42:14
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-04-24-074214-good-wholesome-fun-amiright"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Good wholesome fun...amiright?"
 ---
 
 Good wholesome fun...amiright?

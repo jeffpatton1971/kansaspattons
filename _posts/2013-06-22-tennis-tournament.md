@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Tennis Tournament"
+content_type: article
+slug: tennis-tournament
 post_id: 2013-06-22-tennis-tournament
 date: 2013-06-22 07:47:04
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -17,6 +20,9 @@ categories:
   - tennis
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "Today was a very busy day for the family. In the morning we had “Tykes on Bikes” which is an annual fundraiser for the Topeka Learning Center (I think). This is the second time we’ve gone and we had a lot of fun. They have some carnival gam"
 ---
 Today was a very busy day for the family. In the morning we had “Tykes on Bikes” which is an annual fundraiser for the Topeka Learning Center (I think). This is the second time we’ve gone and we had a lot of fun. They have some carnival games, those inflatable fun house things, a local bike shop is on site to give the kids bikes a tune-up and then a bike race. The race is broken down into age groups, Nathan has another year before he’ll be old enough to start. Natalie did pretty well she made it through the 9-10 yr old heats and came in 3rd.
 

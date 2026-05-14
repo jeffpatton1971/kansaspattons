@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Five Senses"
+content_type: article
+slug: five-senses
 post_id: 2013-04-19-five-senses
 date: 2013-04-19 17:15:26
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -15,6 +18,9 @@ categories:
   - "CPLS"
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "Today was the 5 senses fair at Cair Paravel. We gathered in the lunchroom and the parents had setup a table for each of the 5 senses, sight, touch, hearing, smelling, feeling. For whatever reason we didn’t get the smell one, but the other’s"
 ---
 Today was the 5 senses fair at Cair Paravel. We gathered in the lunchroom and the parents had setup a table for each of the 5 senses, sight, touch, hearing, smelling, feeling. For whatever reason we didn’t get the smell one, but the other’s were fun. At the taste table the kids had to dry off their tongues, and then either salt or sugar was dropped on their tongues. They learned that on each bump of their tongue (there is a technical term) there are 250 taste buds.
 

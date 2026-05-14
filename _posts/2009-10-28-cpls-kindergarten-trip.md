@@ -1,6 +1,8 @@
 ---
 layout:     single
 title:      "Rees Fruit Farm Field Trip"
+content_type: article
+slug: cpls-kindergarten-trip
 post_id:         2009-10-28-cpls-kindergarten-trip
 date:       2009-10-28 09:55:00 -0600
 source:
@@ -12,8 +14,12 @@ categories:
 tags:
   - "wordpress"
 author:     Jeff
+authors:
+  - Jeff
+summary: "Today was the CPLS kindergarten field trip to Rees Fruit Farm. The farm is located right on Hwy 24 and is hard to miss. We left the school at 930a and I had my daughter and her friend Haven in the car. Let me tell you, I never knew two girl"
 comments:   false
 published:  true
+status: published
 ---
 Today was the CPLS kindergarten field trip to [Rees Fruit Farm](http://www.reesfruitfarm.com/). The farm is located right on Hwy 24 and is hard to miss. We left the school at 930a and I had my daughter and her friend Haven in the car. Let me tell you, I never knew two girls could talk so much, so loudly about anything that literally popped into their heads! Basically we did three things; pick pumpkins from the patch, take a hayride through the orchard, and tour their processing plant.
 

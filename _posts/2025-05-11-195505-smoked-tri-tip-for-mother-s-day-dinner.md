@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Smoked Tri-tip for Mother’s Day dinner"
+content_type: story
+slug: 195505-smoked-tri-tip-for-mother-s-day-dinner
 post_id: 2025-05-11-195505-smoked-tri-tip-for-mother-s-day-dinner
 date: 2025-05-11 19:55:05
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-05-11-195505-smoked-tri-tip-for-mother-s-day-dinner"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Smoked Tri-tip for Mother’s Day dinner"
 ---
 
 Smoked Tri-tip for Mother’s Day dinner

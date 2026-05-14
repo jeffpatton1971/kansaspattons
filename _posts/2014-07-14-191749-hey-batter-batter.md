@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Hey batter batter"
+content_type: story
+slug: 191749-hey-batter-batter
 post_id: 2014-07-14-191749-hey-batter-batter
 date: 2014-07-14 19:17:49
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2014-07-14-191749-hey-batter-batter"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Hey batter batter"
 ---
 
 Hey batter batter

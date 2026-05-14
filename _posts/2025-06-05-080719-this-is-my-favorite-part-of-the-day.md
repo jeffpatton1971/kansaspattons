@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "This is my favorite part of the day"
+content_type: story
+slug: 080719-this-is-my-favorite-part-of-the-day
 post_id: 2025-06-05-080719-this-is-my-favorite-part-of-the-day
 date: 2025-06-05 08:07:19
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-06-05-080719-this-is-my-favorite-part-of-the-day"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "This is my favorite part of the day"
 ---
 
 This is my favorite part of the day

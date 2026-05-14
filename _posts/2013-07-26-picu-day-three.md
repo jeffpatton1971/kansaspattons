@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "PICU Day 3"
+content_type: article
+slug: picu-day-three
 post_id: 2013-07-26-picu-day-three
 date: 2013-07-26 14:49:34
 published: true
+status: published
 comments: false
 source:
   type: wordpress
@@ -15,6 +18,9 @@ categories:
   - cancer
 tags:
   - "wordpress"
+authors:
+  - "Jeff Patton"
+summary: "Getting pain med’s every few hours makes for long nights, thankfully it looks like his fever is starting to level out. We talked with the doctor this morning and it looks like his Hemoglobin hasn’t dropped, so I think we’re out of the woods"
 ---
 Getting pain med’s every few hours makes for long nights, thankfully it looks like his fever is starting to level out. We talked with the doctor this morning and it looks like his Hemoglobin hasn’t dropped, so I think we’re out of the woods for adding blood to Nathan. Some more good news, the doctor said it sounds as though his bowels are starting to wake up and that the tube in his nose can finally come out! The doctor also wanted us to see if we can get Nathan to walk around a bit.
 

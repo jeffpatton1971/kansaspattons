@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Couldn’t decide which I liked more so here’s both #morningwalk"
+content_type: story
+slug: 072754-couldn-t-decide-which-i-liked-more-so-here-s-both-morningwalk
 post_id: 2020-04-08-072754-couldn-t-decide-which-i-liked-more-so-here-s-both-morningwalk
 date: 2020-04-08 07:27:54
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "morningwalk"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Couldn’t decide which I liked more so here’s both #morningwalk"
 ---
 
 Couldn’t decide which I liked more so here’s both [#morningwalk](https://www.instagram.com/explore/tags/morningwalk/)

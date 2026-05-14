@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Putting together a beyblade arena for Nathan"
+content_type: story
+slug: 200428-putting-together-a-beyblade-arena-for-nathan
 post_id: 2019-03-23-200428-putting-together-a-beyblade-arena-for-nathan
 date: 2019-03-23 20:04:28
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Nathan"
+authors:
+  - "Jeff Patton"
+summary: "Putting together a beyblade arena for Nathan"
 ---
 
 Putting together a beyblade arena for Nathan

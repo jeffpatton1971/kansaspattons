@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#goodmorning #rockskipping"
+content_type: story
+slug: 071703-goodmorning-rockskipping
 post_id: 2022-05-06-071703-goodmorning-rockskipping
 date: 2022-05-06 07:17:03
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "rockskipping"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#goodmorning #rockskipping"
 ---
 
 [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#rockskipping](https://www.instagram.com/explore/tags/rockskipping/)

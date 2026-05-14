@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Another beautiful #kansas morning"
+content_type: story
+slug: 070019-another-beautiful-kansas-morning
 post_id: 2023-10-18-070019-another-beautiful-kansas-morning
 date: 2023-10-18 07:00:19
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ tags:
   - "kansas"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Another beautiful #kansas morning"
 ---
 
 Another beautiful [#kansas](https://www.instagram.com/explore/tags/kansas/) morning

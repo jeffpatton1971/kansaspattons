@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Tennis meet at Sabetha"
+content_type: story
+slug: 181633-tennis-meet-at-sabetha
 post_id: 2018-09-17-181633-tennis-meet-at-sabetha
 date: 2018-09-17 18:16:33
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-09-17-181633-tennis-meet-at-sabetha"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Tennis meet at Sabetha"
 ---
 
 Tennis meet at Sabetha

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Clear skies makes for good pictures"
+content_type: story
+slug: 225745-clear-skies-makes-for-good-pictures
 post_id: 2021-01-19-225745-clear-skies-makes-for-good-pictures
 date: 2021-01-19 22:57:45
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2021-01-19-225745-clear-skies-makes-for-good-pictures"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Clear skies makes for good pictures"
 ---
 
 Clear skies makes for good pictures

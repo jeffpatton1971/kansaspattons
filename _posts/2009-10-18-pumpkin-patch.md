@@ -1,6 +1,8 @@
 ---
 layout:     single
 title:      "Pumpkin Patch"
+content_type: article
+slug: pumpkin-patch
 post_id:         2009-10-18-pumpkin-patch
 date:       2009-10-18 02:46:00 -0600
 source:
@@ -9,8 +11,12 @@ categories: family
 tags:
   - "wordpress"
 author:     Jeff
+authors:
+  - Jeff
+summary: "With my sister and her family in town this weekend for Mary's birthday, we decided we might also visit the pumpkin patch! Natalie has been several times and always enjoys it, this was Mary’s first time that I’m aware of. We actually wound u"
 comments:   false
 published:  true
+status: published
 ---
 With my sister and her family in town this weekend for Mary's birthday, we decided we might also visit the pumpkin patch! Natalie has been several times and always enjoys it, this was Mary’s first time that I’m aware of. We actually wound up visiting two patches as the one in Topeka you couldn’t pick pumpkin from the patch, and my sister really wanted to be able to do this. So there was a place in Lawrence that we found that had an actual patch that you picked your pumpkins from.
 

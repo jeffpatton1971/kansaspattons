@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Dinner and shopping with my favorite daughter"
+content_type: story
+slug: 202523-dinner-and-shopping-with-my-favorite-daughter
 post_id: 2025-03-18-202523-dinner-and-shopping-with-my-favorite-daughter
 date: 2025-03-18 20:25:23
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-03-18-202523-dinner-and-shopping-with-my-favorite-daugh
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Dinner and shopping with my favorite daughter"
 ---
 
 Dinner and shopping with my favorite daughter

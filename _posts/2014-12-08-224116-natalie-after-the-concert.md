@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Natalie after the concert"
+content_type: story
+slug: 224116-natalie-after-the-concert
 post_id: 2014-12-08-224116-natalie-after-the-concert
 date: 2014-12-08 22:41:16
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -20,6 +23,9 @@ tags:
   - "instagram"
 categories:
   - "Natalie"
+authors:
+  - "Jeff Patton"
+summary: "Natalie after the concert"
 ---
 
 Natalie after the concert

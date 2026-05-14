@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Starting the first day of tour"
+content_type: story
+slug: 065512-starting-the-first-day-of-tour
 post_id: 2021-04-26-065512-starting-the-first-day-of-tour
 date: 2021-04-26 06:55:12
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2021-04-26-065512-starting-the-first-day-of-tour"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Starting the first day of tour"
 ---
 
 Starting the first day of tour

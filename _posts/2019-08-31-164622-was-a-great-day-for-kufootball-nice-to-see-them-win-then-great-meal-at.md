@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Was a great day for @kufootball nice to see them win! Then great meal at @biemersbbq"
+content_type: story
+slug: 164622-was-a-great-day-for-kufootball-nice-to-see-them-win-then-great-meal-at
 post_id: 2019-08-31-164622-was-a-great-day-for-kufootball-nice-to-see-them-win-then-great-meal-at
 date: 2019-08-31 16:46:22
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -21,6 +24,9 @@ gallery: "instagram-2019-08-31-164622-was-a-great-day-for-kufootball-nice-to-see
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Was a great day for @kufootball nice to see them win! Then great meal at @biemersbbq"
 ---
 
 Was a great day for [@kufootball](https://www.instagram.com/kufootball/) nice to see them win! Then great meal at [@biemersbbq](https://www.instagram.com/biemersbbq/)

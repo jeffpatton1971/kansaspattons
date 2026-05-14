@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#goodmorning #kansas #adobe #psexpress Needed to bring out the colors in this picture to m..."
+content_type: story
+slug: 063503-goodmorning-kansas-adobe-psexpress-needed-to-bring-out-the-colors-in-this
 post_id: 2023-10-25-063503-goodmorning-kansas-adobe-psexpress-needed-to-bring-out-the-colors-in-this
 date: 2023-10-25 06:35:03
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -27,6 +30,10 @@ tags:
   - "psexpress"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#goodmorning #kansas #adobe #psexpress 
+Needed to bring out the colors in this picture to match what I saw"
 ---
 
 [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#kansas](https://www.instagram.com/explore/tags/kansas/) [#adobe](https://www.instagram.com/explore/tags/adobe/) [#psexpress](https://www.instagram.com/explore/tags/psexpress/) 

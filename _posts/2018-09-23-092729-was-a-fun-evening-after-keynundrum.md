@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Was a fun evening after keynundrum"
+content_type: story
+slug: 092729-was-a-fun-evening-after-keynundrum
 post_id: 2018-09-23-092729-was-a-fun-evening-after-keynundrum
 date: 2018-09-23 09:27:29
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2018-09-23-092729-was-a-fun-evening-after-keynundrum"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Was a fun evening after keynundrum"
 ---
 
 Was a fun evening after keynundrum

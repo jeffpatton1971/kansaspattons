@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#breakfast #coffee"
+content_type: story
+slug: 083715-breakfast-coffee
 post_id: 2025-10-03-083715-breakfast-coffee
 date: 2025-10-03 08:37:15
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -23,6 +26,9 @@ tags:
   - "coffee"
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "#breakfast #coffee"
 ---
 
 [#breakfast](https://www.instagram.com/explore/tags/breakfast/) [#coffee](https://www.instagram.com/explore/tags/coffee/)

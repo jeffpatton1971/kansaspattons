@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Baked apple pancakes"
+content_type: story
+slug: 112353-baked-apple-pancakes
 post_id: 2025-10-17-112353-baked-apple-pancakes
 date: 2025-10-17 11:23:53
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -19,6 +22,9 @@ gallery: "instagram-2025-10-17-112353-baked-apple-pancakes"
 tags:
   - "instagram"
 categories: []
+authors:
+  - "Jeff Patton"
+summary: "Baked apple pancakes"
 ---
 
 Baked apple pancakes
