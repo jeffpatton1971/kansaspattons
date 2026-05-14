@@ -152,6 +152,7 @@ Classification rule:
 
 - `content_type: article` becomes `type: "article"` and `contentShape: "post"`.
 - `content_type: story` becomes `type: "story"` and `contentShape: "story"`.
+- `content_type: gallery` becomes a gallery metadata source and is merged into the generated gallery with the same `gallery` ID.
 - Without an explicit `content_type`, `source.type: wordpress` becomes `type: "article"`.
 - A `wordpress` tag also becomes `type: "article"`.
 - Everything else currently becomes `type: "story"`.
@@ -213,6 +214,7 @@ type GallerySummary = {
   day: string;
   slug: string;
   route: string;
+  legacyUrl?: string;
   authors: string[];
   summary: string;
   categories: string[];

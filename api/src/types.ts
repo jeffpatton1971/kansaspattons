@@ -146,6 +146,7 @@ export type GallerySummary = {
   day: string;
   slug: string;
   route: string;
+  legacyUrl?: string;
   authors?: string[];
   summary?: string;
   categories: string[];

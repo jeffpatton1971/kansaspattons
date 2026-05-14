@@ -624,6 +624,7 @@ Detailed working notes for the React migration live here. This file is intention
     - tags/categories/authors inherited from related content when available
   - Gallery details include the expanded image list.
   - Image source values now emit the source type from object frontmatter instead of `[object Object]`.
+  - Authored `content_type: gallery` posts are now treated as gallery metadata sources and merged into the generated gallery with the same `gallery` ID.
 - API changes:
   - Added `/api/galleries`.
   - Added `/api/galleries/{year}/{month}/{day}/{slug}`.
@@ -639,14 +640,16 @@ Detailed working notes for the React migration live here. This file is intention
   - `_posts/2009-10-16-site-changes.md` now has `content_type: article`, `authors`, and `summary`.
   - `_posts/2010-12-25-christmas-2025.md` now has `content_type: article`, `authors`, and `summary`.
   - `_posts/2026-04-16-194804-better-late-than-never.md` now has `content_type: story`, `authors`, and `summary`.
+  - `_posts/2003-09-18-095903-mobile-uploads.md` now has `content_type: gallery`, `slug`, `cover_image`, `authors`, and `summary`.
 - Generated output:
   - 91 articles.
-  - 1,057 stories.
+  - 1,056 stories.
   - 1,121 galleries.
   - 8,528 images.
 - Note:
-  - Large gallery detail documents are expected for large albums. The largest observed sample was the generated Mobile Uploads gallery at about 3.38 MB.
+  - Large gallery detail documents are expected for large albums. The sampled Mobile uploads gallery is about 3.13 MB.
   - This keeps broad archive responses light enough for now and only loads the large image list when a gallery is opened.
+  - The legacy Mobile uploads `/blog/...` route now redirects to `/galleries/2003/09/18/mobile-uploads`.
 - Verification:
   - `npm run build:content` passed.
   - `npm run api:build` passed.
@@ -655,7 +658,7 @@ Detailed working notes for the React migration live here. This file is intention
     - `CONTENT_SITE_KEY=kansaspattons`
     - `CONTENT_STORAGE_ACCOUNT=prdwebappstorage`
     - `CONTENT_STORAGE_CONTAINER=kansaspattons`
-  - Dry-run publish now sees 2,276 generated files and 29,763,159 bytes.
+  - Dry-run publish now sees 2,275 generated files and 28,887,920 bytes.
 
 ### Post And Story Card Shapes
 

@@ -146,6 +146,30 @@ tags:
 ---
 ```
 
+Current sampled gallery authoring uses an existing Facebook album post:
+
+```yaml
+---
+title: "Mobile uploads"
+content_type: gallery
+slug: mobile-uploads
+date: 2003-09-18 09:59:03
+authors:
+  - Jeff Patton
+summary: "A large Facebook mobile uploads album preserved as a first-class gallery."
+gallery: facebook-2003-09-18-095903-mobile-uploads
+cover_image: facebook-2003-09-18-095903-mobile-uploads-0001
+tags:
+  - facebook
+  - album
+categories:
+  - facebook
+  - album
+---
+```
+
+During generation, this source metadata is merged into the gallery produced from matching image records. Its legacy `/blog/...` URL redirects to the gallery route.
+
 ## Images
 
 Images are reusable assets.

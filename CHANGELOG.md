@@ -48,6 +48,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Added target content-model documentation for Articles, Stories, Galleries, and reusable Image assets.
 - Added generated gallery indexes and gallery detail documents derived from grouped image records.
 - Added API endpoints and React routes for `/galleries` and gallery detail pages.
+- Added support for authored `content_type: gallery` Markdown sources that enrich generated galleries.
 
 ### Changed
 
@@ -86,6 +87,8 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed generated article and story JSON to include the future content graph fields: `type`, `siteKey`, `status`, `authors`, `summary`, `imageIds`, and `related`.
 - Changed archive metrics and generated site counts to include galleries.
 - Added sample `content_type`, `authors`, and `summary` frontmatter to representative article/story Markdown files.
+- Changed the Mobile uploads Facebook album post into the sample authored gallery source with `content_type: gallery`, `slug`, `cover_image`, `authors`, and `summary`.
+- Updated legacy `/blog/...` redirects so a legacy gallery post can redirect to its `/galleries/...` route.
 
 ### Fixed
 

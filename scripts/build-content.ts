@@ -117,6 +117,7 @@ type GallerySummary = DateParts & {
   status: ContentStatus;
   slug: string;
   route: string;
+  legacyUrl?: string;
   authors: string[];
   summary: string;
   categories: string[];
@@ -139,6 +140,29 @@ type GalleryDocument = GallerySummary & {
   descriptionMarkdown?: string;
   descriptionHtml?: string;
   images: ImageSummary[];
+};
+
+type GallerySource = DateParts & {
+  siteKey: string;
+  id: string;
+  type: 'gallery';
+  title: string;
+  date: string;
+  status: ContentStatus;
+  slug: string;
+  route: string;
+  legacyUrl: string;
+  authors: string[];
+  summary: string;
+  categories: string[];
+  tags: string[];
+  sourceType?: string;
+  source?: EntrySource;
+  galleryId: string;
+  coverImageId?: string;
+  related: ContentLink[];
+  descriptionMarkdown?: string;
+  descriptionHtml?: string;
 };
 
 type ArchiveMonth = {
@@ -203,10 +227,10 @@ async function main() {
   await rm(outputRoot, { recursive: true, force: true });
   await mkdir(outputRoot, { recursive: true });
 
-  const posts = await buildPosts();
+  const { posts, gallerySources } = await buildPosts();
   const images = await buildImages(posts);
   applyEntryImages(posts, images);
-  const galleries = await buildGalleries(posts, images);
+  const galleries = await buildGalleries(posts, images, gallerySources);
   const blogPosts = posts.filter((post) => post.type === 'article');
   const stories = posts.filter((post) => post.type === 'story');
   await rewriteEntryDocuments(posts);
@@ -219,7 +243,7 @@ async function main() {
     url: optionalText(process.env.CONTENT_SITE_URL || process.env.SITE_URL),
     nav: siteNav(),
     author: siteAuthor(),
-    entries: posts.length,
+    entries: posts.length + galleries.length,
     posts: blogPosts.length,
     stories: stories.length,
     galleries: galleries.length,
@@ -240,7 +264,7 @@ async function main() {
     recentImages: images.slice(0, 18),
   });
 
-  console.log(`Generated ${posts.length} posts and ${images.length} images.`);
+  console.log(`Generated ${posts.length} entries, ${galleries.length} galleries, and ${images.length} images.`);
 }
 
 function ensureGeneratedContentPath() {
@@ -255,6 +279,7 @@ function ensureGeneratedContentPath() {
 async function buildPosts() {
   const files = await markdownFiles(postsRoot);
   const posts: PostDocument[] = [];
+  const gallerySources: GallerySource[] = [];
 
   for (const file of files) {
     const fullPath = path.join(postsRoot, file);
@@ -276,13 +301,44 @@ async function buildPosts() {
     const title = textValue(parsed.data.title) || titleFromSlug(slug);
     const id = textValue(parsed.data.post_id) || slug;
     const source = entrySource(parsed.data);
-    const type = classifyEntryType(source.type, parsed.data);
+    const type = classifySourceContentType(source.type, parsed.data);
+    const summary = textValue(parsed.data.summary) || textValue(parsed.data.excerpt) || excerptFromMarkdown(cleanMarkdown);
+
+    if (type === 'gallery') {
+      const galleryId = textValue(parsed.data.gallery) || id;
+      const gallerySlug = textValue(parsed.data.slug) || slugFromGalleryId(galleryId) || slug;
+
+      gallerySources.push({
+        siteKey,
+        id,
+        type,
+        title,
+        date,
+        status: contentStatus(parsed.data),
+        slug: gallerySlug,
+        route: `/galleries/${parts.year}/${parts.month}/${parts.day}/${gallerySlug}`,
+        legacyUrl: `/blog/${parts.year}/${parts.month}/${parts.day}/${slug}.html`,
+        authors: authors(parsed.data),
+        summary: summary || `${title} gallery`,
+        categories: stringArray(parsed.data.categories),
+        tags: stringArray(parsed.data.tags),
+        sourceType: source.type,
+        source: Object.keys(source).length > 0 ? source : undefined,
+        galleryId,
+        coverImageId: textValue(parsed.data.cover_image || parsed.data.coverImageId),
+        related: relatedLinks(parsed.data),
+        descriptionMarkdown: cleanMarkdown || undefined,
+        descriptionHtml: bodyHtml.trim() ? bodyHtml : undefined,
+        ...parts,
+      });
+      continue;
+    }
+
     const contentShape = type === 'article' ? 'post' : 'story';
     const basePath = type === 'article' ? '/posts' : '/stories';
     const route = `${basePath}/${parts.year}/${parts.month}/${parts.day}/${slug}`;
     const legacyUrl = `/blog/${parts.year}/${parts.month}/${parts.day}/${slug}.html`;
     const excerpt = excerptFromMarkdown(cleanMarkdown);
-    const summary = textValue(parsed.data.summary) || textValue(parsed.data.excerpt) || excerpt;
 
     const document: PostDocument = {
       siteKey,
@@ -318,7 +374,8 @@ async function buildPosts() {
   }
 
   posts.sort((a, b) => b.date.localeCompare(a.date));
-  return posts;
+  gallerySources.sort((a, b) => b.date.localeCompare(a.date));
+  return { posts, gallerySources };
 }
 
 async function rewriteEntryDocuments(posts: PostDocument[]) {
@@ -446,40 +503,53 @@ function applyEntryImages(posts: PostSummary[], images: ImageSummary[]) {
   }
 }
 
-async function buildGalleries(posts: PostDocument[], images: ImageSummary[]) {
+async function buildGalleries(posts: PostDocument[], images: ImageSummary[], gallerySources: GallerySource[]) {
   const groupedImages = imagesByGallery(images);
   const postsByGallery = postsByGalleryId(posts);
+  const gallerySourcesById = new Map(gallerySources.map((source) => [source.galleryId, source]));
   const galleries: GalleryDocument[] = [];
 
   for (const [galleryId, galleryImages] of groupedImages) {
+    const gallerySource = gallerySourcesById.get(galleryId);
     const relatedPosts = postsByGallery.get(galleryId) ?? [];
     const primaryPost = relatedPosts[0];
-    const cover = galleryImages.find((image) => image.id === textValue(primaryPost?.coverImage?.id)) ?? galleryImages[0];
-    const date = primaryPost?.date || cover.date;
-    const parts = partsFromDate(date) ?? {
+    const cover =
+      galleryImages.find((image) => image.id === gallerySource?.coverImageId) ??
+      galleryImages.find((image) => image.id === textValue(primaryPost?.coverImage?.id)) ??
+      galleryImages[0];
+    const date = gallerySource?.date || primaryPost?.date || cover.date;
+    const parts = gallerySource
+      ? {
+          year: gallerySource.year,
+          month: gallerySource.month,
+          day: gallerySource.day,
+        }
+      : partsFromDate(date) ?? {
       year: cover.year,
       month: cover.month,
       day: cover.day,
     };
-    const slug = slugFromGalleryId(galleryId);
-    const route = `/galleries/${parts.year}/${parts.month}/${parts.day}/${slug}`;
-    const summary = primaryPost?.summary || primaryPost?.excerpt || `${galleryImages.length.toLocaleString()} images`;
-    const source = primaryPost?.source;
+    const slug = gallerySource?.slug || slugFromGalleryId(galleryId);
+    const route = gallerySource?.route || `/galleries/${parts.year}/${parts.month}/${parts.day}/${slug}`;
+    const summary =
+      gallerySource?.summary || primaryPost?.summary || primaryPost?.excerpt || `${galleryImages.length.toLocaleString()} images`;
+    const source = gallerySource?.source || primaryPost?.source;
 
     galleries.push({
       siteKey,
       id: galleryId,
       type: 'gallery',
-      title: primaryPost?.title || titleFromSlug(slug),
+      title: gallerySource?.title || primaryPost?.title || titleFromSlug(slug),
       date,
-      status: primaryPost?.status || 'published',
+      status: gallerySource?.status || primaryPost?.status || 'published',
       slug,
       route,
-      authors: primaryPost?.authors ?? [],
+      legacyUrl: gallerySource?.legacyUrl || primaryPost?.legacyUrl,
+      authors: gallerySource?.authors ?? primaryPost?.authors ?? [],
       summary,
-      categories: primaryPost?.categories ?? [],
-      tags: primaryPost?.tags ?? [],
-      sourceType: primaryPost?.sourceType || galleryImages[0]?.source,
+      categories: gallerySource?.categories ?? primaryPost?.categories ?? [],
+      tags: gallerySource?.tags ?? primaryPost?.tags ?? [],
+      sourceType: gallerySource?.sourceType || primaryPost?.sourceType || galleryImages[0]?.source,
       source,
       imageIds: galleryImages.map((image) => image.id),
       imageCount: galleryImages.length,
@@ -490,15 +560,18 @@ async function buildGalleries(posts: PostDocument[], images: ImageSummary[]) {
         thumbUrl: cover.thumbUrl,
         alt: cover.alt || cover.title,
       },
-      related: relatedPosts.map((post) => ({
+      related: [
+        ...(gallerySource?.related ?? []),
+        ...relatedPosts.map((post) => ({
         type: post.type,
         id: post.id,
         title: post.title,
         route: post.route,
         rel: 'uses-gallery',
-      })),
-      descriptionMarkdown: primaryPost?.bodyMarkdown,
-      descriptionHtml: primaryPost?.bodyHtml,
+        })),
+      ],
+      descriptionMarkdown: gallerySource?.descriptionMarkdown || primaryPost?.bodyMarkdown,
+      descriptionHtml: gallerySource?.descriptionHtml || primaryPost?.bodyHtml,
       images: galleryImages,
       ...parts,
     });
@@ -796,7 +869,7 @@ function imageSource(value: unknown) {
   return textValue(value) || undefined;
 }
 
-function classifyEntryType(source: string | undefined, data: Frontmatter): EntryType {
+function classifySourceContentType(source: string | undefined, data: Frontmatter): ContentType {
   const explicitType = textValue(data.content_type || data.contentType || data.type).toLowerCase();
 
   if (explicitType === 'article' || explicitType === 'post') {
@@ -805,6 +878,10 @@ function classifyEntryType(source: string | undefined, data: Frontmatter): Entry
 
   if (explicitType === 'story') {
     return 'story';
+  }
+
+  if (explicitType === 'gallery') {
+    return 'gallery';
   }
 
   if (source === 'wordpress' || stringArray(data.tags).includes('wordpress')) {
