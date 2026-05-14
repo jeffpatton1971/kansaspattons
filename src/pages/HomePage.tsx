@@ -66,6 +66,7 @@ export function HomePage() {
               <div className="section-heading__links">
                 <Link to="/posts">Posts</Link>
                 <Link to="/stories">Stories</Link>
+                <Link to="/galleries">Galleries</Link>
               </div>
             </div>
             <EntrySummaryList entries={summary.recentEntries} />

@@ -33,6 +33,7 @@ function defaultNav() {
     { label: 'Home', href: '/' },
     { label: 'Posts', href: '/posts' },
     { label: 'Stories', href: '/stories' },
+    { label: 'Galleries', href: '/galleries' },
     { label: 'Images', href: '/images' },
   ];
 }

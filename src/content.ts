@@ -1,4 +1,16 @@
-import type { ApiPage, HomeSummary, ImageGroup, ImageIndex, ImageSummary, PostDocument, PostIndex, PostSummary } from './types';
+import type {
+  ApiPage,
+  GalleryDocument,
+  GalleryIndex,
+  GallerySummary,
+  HomeSummary,
+  ImageGroup,
+  ImageIndex,
+  ImageSummary,
+  PostDocument,
+  PostIndex,
+  PostSummary,
+} from './types';
 
 const jsonCache = new Map<string, Promise<unknown>>();
 
@@ -70,6 +82,17 @@ export function fetchEntryIndex(query: ArchiveQuery = {}) {
   return fetchJson<ApiListResponse<PostSummary>>(`entries${queryString({ limit: 48, ...query })}`).then(toPostIndex);
 }
 
+export function fetchGalleryIndex(query: ArchiveQuery = {}) {
+  return fetchJson<ApiListResponse<GallerySummary>>(`galleries${queryString({ limit: 48, ...query })}`).then(
+    (response): GalleryIndex => ({
+      generatedAt: response.generatedAt,
+      galleries: response.items,
+      years: response.years,
+      page: response.page,
+    }),
+  );
+}
+
 export function fetchImageIndex(query: ImageArchiveQuery = {}) {
   return fetchJson<ApiImageListResponse>(`images${queryString({ limit: 48, ...query })}`).then((response) => ({
     generatedAt: response.generatedAt,
@@ -99,6 +122,10 @@ export function fetchPostDocument(year: string, month: string, day: string, slug
 
 export function fetchStoryDocument(year: string, month: string, day: string, slug: string) {
   return fetchJson<PostDocument>(`stories/${year}/${month}/${day}/${slug}`);
+}
+
+export function fetchGalleryDocument(year: string, month: string, day: string, slug: string) {
+  return fetchJson<GalleryDocument>(`galleries/${year}/${month}/${day}/${slug}`);
 }
 
 function toPostIndex(response: ApiListResponse<PostSummary>): PostIndex {

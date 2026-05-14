@@ -4,6 +4,8 @@ The site is authored in Markdown and gallery Markdown records. `npm run build:co
 
 The JSON files are generated artifacts. Do not hand-edit files under `public/content`.
 
+For the broader target model and authoring examples, see [`content-model.md`](content-model.md).
+
 ## Generated File Layout
 
 ```text
@@ -15,6 +17,8 @@ public/content/
   posts/yyyy/mm/dd/post-slug.json
   stories/index.json
   stories/yyyy/mm/dd/story-slug.json
+  galleries/index.json
+  galleries/yyyy/mm/dd/gallery-slug.json
   images/index.json
 ```
 
@@ -33,6 +37,7 @@ type SiteSummary = {
   entries: number;
   posts: number;
   stories: number;
+  galleries: number;
   images: number;
 };
 
@@ -73,6 +78,7 @@ type HomeSummary = {
   counts: {
     posts: number;
     stories: number;
+    galleries: number;
     images: number;
   };
   recentEntries: EntrySummary[];
@@ -88,9 +94,12 @@ Entries come from `_posts/*.md`. Each entry is classified as either a WordPress-
 
 ```ts
 type EntrySummary = {
+  siteKey: string;
   id: string;
+  type: "article" | "story";
   title: string;
   date: string;
+  status: "draft" | "published" | "archived";
   contentShape: "post" | "story";
   year: string;
   month: string;
@@ -98,6 +107,8 @@ type EntrySummary = {
   slug: string;
   route: string;
   legacyUrl: string;
+  authors: string[];
+  summary: string;
   excerpt: string;
   categories: string[];
   tags: string[];
@@ -107,7 +118,11 @@ type EntrySummary = {
   sourceType?: string;
   source?: EntrySource;
   galleryIds: string[];
+  imageIds: string[];
+  related: ContentLink[];
+  caption?: string;
   coverImage?: {
+    id: string;
     rawUrl: string;
     thumbUrl: string;
     alt: string;
@@ -123,13 +138,23 @@ type EntrySource = {
   mediaCount?: number;
   crossPostSource?: string;
 };
+
+type ContentLink = {
+  type?: "article" | "story" | "gallery";
+  id: string;
+  title?: string;
+  route?: string;
+  rel?: string;
+};
 ```
 
 Classification rule:
 
-- `source.type: wordpress` becomes `contentShape: "post"`.
-- A `wordpress` tag also becomes `contentShape: "post"`.
-- Everything else currently becomes `contentShape: "story"`.
+- `content_type: article` becomes `type: "article"` and `contentShape: "post"`.
+- `content_type: story` becomes `type: "story"` and `contentShape: "story"`.
+- Without an explicit `content_type`, `source.type: wordpress` becomes `type: "article"`.
+- A `wordpress` tag also becomes `type: "article"`.
+- Everything else currently becomes `type: "story"`.
 
 ## Entry Detail
 
@@ -137,6 +162,7 @@ Detail files live under either `posts/yyyy/mm/dd/slug.json` or `stories/yyyy/mm/
 
 ```ts
 type EntryDocument = EntrySummary & {
+  bodyMarkdown: string;
   bodyHtml: string;
 };
 ```
@@ -149,7 +175,9 @@ Images come from `_gallery/*.md`.
 
 ```ts
 type ImageSummary = {
+  siteKey: string;
   id: string;
+  type: "image";
   title: string;
   date: string;
   year: string;
@@ -158,6 +186,8 @@ type ImageSummary = {
   route: string;
   rawUrl: string;
   thumbUrl: string;
+  caption?: string;
+  alt?: string;
   galleryId?: string;
   source?: string;
   sourceFilename?: string;
@@ -166,9 +196,55 @@ type ImageSummary = {
 };
 ```
 
+## Gallery Summary
+
+Galleries are generated from image records grouped by `gallery`.
+
+```ts
+type GallerySummary = {
+  siteKey: string;
+  id: string;
+  type: "gallery";
+  title: string;
+  date: string;
+  status: "draft" | "published" | "archived";
+  year: string;
+  month: string;
+  day: string;
+  slug: string;
+  route: string;
+  authors: string[];
+  summary: string;
+  categories: string[];
+  tags: string[];
+  sourceType?: string;
+  source?: EntrySource;
+  imageIds: string[];
+  imageCount: number;
+  coverImageId: string;
+  coverImage: {
+    id: string;
+    rawUrl: string;
+    thumbUrl: string;
+    alt: string;
+  };
+  related: ContentLink[];
+};
+```
+
+Gallery detail files add the expanded image payload:
+
+```ts
+type GalleryDocument = GallerySummary & {
+  descriptionMarkdown?: string;
+  descriptionHtml?: string;
+  images: ImageSummary[];
+};
+```
+
 ## Archive Index
 
-`posts/index.json`, `stories/index.json`, `entries/index.json`, and `images/index.json` include archive navigation data.
+`posts/index.json`, `stories/index.json`, `galleries/index.json`, `entries/index.json`, and `images/index.json` include archive navigation data.
 
 ```ts
 type ArchiveYear = {
@@ -208,6 +284,16 @@ Image index:
 type ImageIndex = {
   generatedAt: string;
   images: ImageSummary[];
+  years: ArchiveYear[];
+};
+```
+
+Gallery index:
+
+```ts
+type GalleryIndex = {
+  generatedAt: string;
+  galleries: GallerySummary[];
   years: ArchiveYear[];
 };
 ```

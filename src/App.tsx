@@ -1,6 +1,7 @@
 import { BookOpen, Images, Library, Newspaper } from 'lucide-react';
 import { NavLink, Route, Routes } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
+import { GalleriesPage } from './pages/GalleriesPage';
 import { ImagesPage } from './pages/ImagesPage';
 import { LegacyPostRedirect } from './pages/LegacyPostRedirect';
 import { NotFoundPage } from './pages/NotFoundPage';
@@ -24,6 +25,10 @@ export function App() {
             <BookOpen aria-hidden="true" size={17} />
             Stories
           </NavLink>
+          <NavLink to="/galleries">
+            <Images aria-hidden="true" size={17} />
+            Galleries
+          </NavLink>
           <NavLink to="/images">
             <Images aria-hidden="true" size={17} />
             Images
@@ -43,6 +48,11 @@ export function App() {
         <Route path="/stories/:year/:month" element={<StoriesPage />} />
         <Route path="/stories/:year/:month/:day" element={<StoriesPage />} />
         <Route path="/stories/:year/:month/:day/:slug" element={<StoryDetailPage />} />
+        <Route path="/galleries" element={<GalleriesPage />} />
+        <Route path="/galleries/:year" element={<GalleriesPage />} />
+        <Route path="/galleries/:year/:month" element={<GalleriesPage />} />
+        <Route path="/galleries/:year/:month/:day" element={<GalleriesPage />} />
+        <Route path="/galleries/:year/:month/:day/:slug" element={<GalleriesPage />} />
         <Route path="/blog/:year/:month/:day/:slug" element={<LegacyPostRedirect />} />
         <Route path="/images" element={<ImagesPage />} />
         <Route path="/images/:year" element={<ImagesPage />} />

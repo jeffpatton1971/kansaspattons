@@ -584,6 +584,79 @@ Detailed working notes for the React migration live here. This file is intention
     - `CONTENT_STORAGE_CONTAINER=kansaspattons`
   - Dry-run target remained `content/kansaspattons/current`.
 
+### Article, Story, Gallery Content Model
+
+- Goal:
+  - Document and wire up a cleaner content graph:
+    - Articles behind `/posts`.
+    - Stories behind `/stories`.
+    - Galleries behind `/galleries`.
+    - Images as reusable assets shared by all three.
+- Documentation:
+  - Added `docs/content-model.md`.
+  - Updated `docs/content-schema.md`.
+  - Updated `docs/multi-site-content.md`.
+  - Updated `api/README.md`.
+- Content model direction:
+  - `article` is the long-term name for WordPress/blog-shaped posts.
+  - `story` is the long-term name for image-first social posts.
+  - `gallery` is the long-term name for an image collection.
+  - `image` remains a reusable asset record.
+  - Compatibility fields such as `contentShape` and `excerpt` remain for now.
+- Generator changes:
+  - Entry JSON now includes:
+    - `siteKey`
+    - `type`
+    - `status`
+    - `authors`
+    - `summary`
+    - `imageIds`
+    - `related`
+    - story `caption`
+    - article/story `bodyMarkdown`
+  - Generated `site.json` and `home.json` now include gallery counts.
+  - Generated `site.json` nav now includes Galleries.
+  - Generated galleries are derived from image records grouped by `gallery`.
+  - Gallery summaries include:
+    - cover image
+    - image count
+    - related article/story links
+    - tags/categories/authors inherited from related content when available
+  - Gallery details include the expanded image list.
+  - Image source values now emit the source type from object frontmatter instead of `[object Object]`.
+- API changes:
+  - Added `/api/galleries`.
+  - Added `/api/galleries/{year}/{month}/{day}/{slug}`.
+  - Added `/api/sites/{site}/galleries`.
+  - Added `/api/sites/{site}/galleries/{year}/{month}/{day}/{slug}`.
+  - The publish script now validates `galleries/index.json`.
+- React changes:
+  - Added `/galleries` archive route.
+  - Added `/galleries/:year`, `/galleries/:year/:month`, and `/galleries/:year/:month/:day`.
+  - Added gallery detail route at `/galleries/:year/:month/:day/:slug`.
+  - Added Galleries to the top navigation, home Recent Updates link row, and right-rail metrics.
+- Sample authoring changes:
+  - `_posts/2009-10-16-site-changes.md` now has `content_type: article`, `authors`, and `summary`.
+  - `_posts/2010-12-25-christmas-2025.md` now has `content_type: article`, `authors`, and `summary`.
+  - `_posts/2026-04-16-194804-better-late-than-never.md` now has `content_type: story`, `authors`, and `summary`.
+- Generated output:
+  - 91 articles.
+  - 1,057 stories.
+  - 1,121 galleries.
+  - 8,528 images.
+- Note:
+  - Large gallery detail documents are expected for large albums. The largest observed sample was the generated Mobile Uploads gallery at about 3.38 MB.
+  - This keeps broad archive responses light enough for now and only loads the large image list when a gallery is opened.
+- Verification:
+  - `npm run build:content` passed.
+  - `npm run api:build` passed.
+  - `npm run build` passed.
+  - `npm run publish:content:dry-run` passed with:
+    - `CONTENT_SITE_KEY=kansaspattons`
+    - `CONTENT_STORAGE_ACCOUNT=prdwebappstorage`
+    - `CONTENT_STORAGE_CONTAINER=kansaspattons`
+  - Dry-run publish now sees 2,276 generated files and 29,763,159 bytes.
+
 ### Post And Story Card Shapes
 
 - Started making the two content shapes visually distinct.

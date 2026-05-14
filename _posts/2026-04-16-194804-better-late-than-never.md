@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Better late than never 💛🖤"
+content_type: story
 post_id: 2026-04-16-194804-better-late-than-never
 date: 2026-04-16 19:48:04
 published: true
@@ -16,6 +17,9 @@ hashtags: []
 handles: []
 location:
 gallery: "instagram-2026-04-16-194804-better-late-than-never"
+authors:
+  - Jeff Patton
+summary: "Better late than never 💛🖤"
 tags:
   - "instagram"
 categories: []

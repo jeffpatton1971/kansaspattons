@@ -71,6 +71,8 @@ GET /api/sites/{site}/posts
 GET /api/sites/{site}/posts/{year}/{month}/{day}/{slug}
 GET /api/sites/{site}/stories
 GET /api/sites/{site}/stories/{year}/{month}/{day}/{slug}
+GET /api/sites/{site}/galleries
+GET /api/sites/{site}/galleries/{year}/{month}/{day}/{slug}
 GET /api/sites/{site}/images
 GET /api/sites/{site}/images/{year}/{month}/{day}/{imageId}
 ```

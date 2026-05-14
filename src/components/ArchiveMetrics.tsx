@@ -28,6 +28,11 @@ export function ArchiveMetrics() {
         <strong>{counts.stories.toLocaleString()}</strong>
         <span>stories</span>
       </Link>
+      <Link to="/galleries" className="metric">
+        <Images aria-hidden="true" size={22} />
+        <strong>{(counts.galleries ?? 0).toLocaleString()}</strong>
+        <span>galleries</span>
+      </Link>
       <Link to="/images" className="metric">
         <Images aria-hidden="true" size={22} />
         <strong>{counts.images.toLocaleString()}</strong>

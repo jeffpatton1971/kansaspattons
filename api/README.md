@@ -12,7 +12,7 @@ The API reads content from one of two places:
 
 `CONTENT_BASE_URL` wins when it is set. This lets local development use generated files while deployed Functions read the same shape from an Azure Storage account.
 
-For the generated JSON contract, see [`../docs/content-schema.md`](../docs/content-schema.md). For the reusable multi-site storage/API pattern, see [`../docs/multi-site-content.md`](../docs/multi-site-content.md).
+For the target content model, see [`../docs/content-model.md`](../docs/content-model.md). For the generated JSON contract, see [`../docs/content-schema.md`](../docs/content-schema.md). For the reusable multi-site storage/API pattern, see [`../docs/multi-site-content.md`](../docs/multi-site-content.md).
 
 ### Multi-Site Content Sources
 
@@ -222,6 +222,10 @@ http://127.0.0.1:5174/
 - `GET /api/stories/{year}/{month}/{day}/{slug}`
 - `GET /api/sites/{site}/stories?year=2026&month=04&cursor=0&limit=24`
 - `GET /api/sites/{site}/stories/{year}/{month}/{day}/{slug}`
+- `GET /api/galleries?year=2010&month=12&cursor=0&limit=24`
+- `GET /api/galleries/{year}/{month}/{day}/{slug}`
+- `GET /api/sites/{site}/galleries?year=2010&month=12&cursor=0&limit=24`
+- `GET /api/sites/{site}/galleries/{year}/{month}/{day}/{slug}`
 - `GET /api/images?year=2026&month=04&day=16&cursor=0&limit=48`
 - `GET /api/images?groupBy=year`
 - `GET /api/images?galleryId=instagram-2026-04-16-194804-better-late-than-never`

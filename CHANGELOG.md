@@ -45,6 +45,9 @@ Published behavior changes and bug fixes for the React site migration.
 - Added generated content schema documentation for site, home, entry, image, archive, and API response shapes.
 - Added multi-site content hosting documentation for separate site repos, shared storage prefixes, and named API routes.
 - Added site-aware API routes under `/api/sites/{site}/...` for home, entries, posts, stories, and images.
+- Added target content-model documentation for Articles, Stories, Galleries, and reusable Image assets.
+- Added generated gallery indexes and gallery detail documents derived from grouped image records.
+- Added API endpoints and React routes for `/galleries` and gallery detail pages.
 
 ### Changed
 
@@ -80,6 +83,9 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed generated `site.json` to include a site key, navigation, and author metadata.
 - Changed the content publish script so its default storage prefix is based on `CONTENT_SITE_KEY`.
 - Changed the home page author card to read from API-provided site metadata.
+- Changed generated article and story JSON to include the future content graph fields: `type`, `siteKey`, `status`, `authors`, `summary`, `imageIds`, and `related`.
+- Changed archive metrics and generated site counts to include galleries.
+- Added sample `content_type`, `authors`, and `summary` frontmatter to representative article/story Markdown files.
 
 ### Fixed
 
@@ -89,3 +95,4 @@ Published behavior changes and bug fixes for the React site migration.
 - Made date label rendering defensive so malformed dates do not crash archive pages.
 - Fixed missing numeric source metadata being emitted as `0` in generated content.
 - Prevented transient failed content artifact reads from being cached by the API.
+- Fixed generated image source values so object frontmatter emits the source type instead of `[object Object]`.

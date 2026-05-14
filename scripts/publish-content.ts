@@ -118,7 +118,14 @@ async function contentFiles(contentRoot: string, prefix: string) {
 }
 
 async function assertContentLooksPublishable(contentRoot: string, files: PublishFile[]) {
-  const expected = ['home.json', 'site.json', 'posts/index.json', 'stories/index.json', 'images/index.json'];
+  const expected = [
+    'home.json',
+    'site.json',
+    'posts/index.json',
+    'stories/index.json',
+    'galleries/index.json',
+    'images/index.json',
+  ];
   const names = new Set(files.map((file) => file.relativePath));
   const missing = expected.filter((item) => !names.has(item));
 
@@ -130,13 +137,14 @@ async function assertContentLooksPublishable(contentRoot: string, files: Publish
     title?: string;
     posts?: number;
     stories?: number;
+    galleries?: number;
     images?: number;
   };
 
   console.log(
-    `Site summary: ${site.title ?? 'Untitled'}; posts=${site.posts ?? '?'} stories=${site.stories ?? '?'} images=${
-      site.images ?? '?'
-    }`,
+    `Site summary: ${site.title ?? 'Untitled'}; posts=${site.posts ?? '?'} stories=${
+      site.stories ?? '?'
+    } galleries=${site.galleries ?? '?'} images=${site.images ?? '?'}`,
   );
 }
 

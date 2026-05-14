@@ -12,7 +12,10 @@ type DateParts = {
   day: string;
 };
 
+type ContentType = 'article' | 'story' | 'gallery';
+type EntryType = Exclude<ContentType, 'gallery'>;
 type ContentShape = 'post' | 'story';
+type ContentStatus = 'draft' | 'published' | 'archived';
 
 type SiteNavItem = {
   label: string;
@@ -41,14 +44,27 @@ type EntrySource = {
   crossPostSource?: string;
 };
 
-type PostSummary = DateParts & {
+type ContentLink = {
+  type?: ContentType;
   id: string;
+  title?: string;
+  route?: string;
+  rel?: string;
+};
+
+type PostSummary = DateParts & {
+  siteKey: string;
+  id: string;
+  type: EntryType;
   title: string;
   date: string;
+  status: ContentStatus;
   contentShape: ContentShape;
   slug: string;
   route: string;
   legacyUrl: string;
+  authors: string[];
+  summary: string;
   excerpt: string;
   categories: string[];
   tags: string[];
@@ -58,7 +74,11 @@ type PostSummary = DateParts & {
   sourceType?: string;
   source?: EntrySource;
   galleryIds: string[];
+  imageIds: string[];
+  related: ContentLink[];
+  caption?: string;
   coverImage?: {
+    id: string;
     rawUrl: string;
     thumbUrl: string;
     alt: string;
@@ -66,21 +86,59 @@ type PostSummary = DateParts & {
 };
 
 type PostDocument = PostSummary & {
+  bodyMarkdown: string;
   bodyHtml: string;
 };
 
 type ImageSummary = DateParts & {
+  siteKey: string;
   id: string;
+  type: 'image';
   title: string;
   date: string;
   route: string;
   rawUrl: string;
   thumbUrl: string;
+  caption?: string;
+  alt?: string;
   galleryId?: string;
   source?: string;
   sourceFilename?: string;
   postId?: string;
   postRoute?: string;
+};
+
+type GallerySummary = DateParts & {
+  siteKey: string;
+  id: string;
+  type: 'gallery';
+  title: string;
+  date: string;
+  status: ContentStatus;
+  slug: string;
+  route: string;
+  authors: string[];
+  summary: string;
+  categories: string[];
+  tags: string[];
+  sourceType?: string;
+  source?: EntrySource;
+  imageIds: string[];
+  imageCount: number;
+  coverImageId: string;
+  coverImage: {
+    id: string;
+    rawUrl: string;
+    thumbUrl: string;
+    alt: string;
+  };
+  related: ContentLink[];
+};
+
+type GalleryDocument = GallerySummary & {
+  descriptionMarkdown?: string;
+  descriptionHtml?: string;
+  images: ImageSummary[];
 };
 
 type ArchiveMonth = {
@@ -147,9 +205,11 @@ async function main() {
 
   const posts = await buildPosts();
   const images = await buildImages(posts);
-  applyCoverImages(posts, images);
-  const blogPosts = posts.filter((post) => post.contentShape === 'post');
-  const stories = posts.filter((post) => post.contentShape === 'story');
+  applyEntryImages(posts, images);
+  const galleries = await buildGalleries(posts, images);
+  const blogPosts = posts.filter((post) => post.type === 'article');
+  const stories = posts.filter((post) => post.type === 'story');
+  await rewriteEntryDocuments(posts);
   await rewriteEntrySummaries(posts);
 
   await writeJson('site.json', {
@@ -162,6 +222,7 @@ async function main() {
     entries: posts.length,
     posts: blogPosts.length,
     stories: stories.length,
+    galleries: galleries.length,
     images: images.length,
   });
 
@@ -170,6 +231,7 @@ async function main() {
     counts: {
       posts: blogPosts.length,
       stories: stories.length,
+      galleries: galleries.length,
       images: images.length,
     },
     recentEntries: recentHomeEntries(blogPosts, stories, 6),
@@ -192,7 +254,7 @@ function ensureGeneratedContentPath() {
 
 async function buildPosts() {
   const files = await markdownFiles(postsRoot);
-  const posts: PostSummary[] = [];
+  const posts: PostDocument[] = [];
 
   for (const file of files) {
     const fullPath = path.join(postsRoot, file);
@@ -214,20 +276,28 @@ async function buildPosts() {
     const title = textValue(parsed.data.title) || titleFromSlug(slug);
     const id = textValue(parsed.data.post_id) || slug;
     const source = entrySource(parsed.data);
-    const contentShape = classifyContentShape(source.type, parsed.data);
-    const basePath = contentShape === 'post' ? '/posts' : '/stories';
+    const type = classifyEntryType(source.type, parsed.data);
+    const contentShape = type === 'article' ? 'post' : 'story';
+    const basePath = type === 'article' ? '/posts' : '/stories';
     const route = `${basePath}/${parts.year}/${parts.month}/${parts.day}/${slug}`;
     const legacyUrl = `/blog/${parts.year}/${parts.month}/${parts.day}/${slug}.html`;
+    const excerpt = excerptFromMarkdown(cleanMarkdown);
+    const summary = textValue(parsed.data.summary) || textValue(parsed.data.excerpt) || excerpt;
 
     const document: PostDocument = {
+      siteKey,
       id,
+      type,
       title,
       date,
+      status: contentStatus(parsed.data),
       contentShape,
       slug,
       route,
       legacyUrl,
-      excerpt: excerptFromMarkdown(cleanMarkdown),
+      authors: authors(parsed.data),
+      summary,
+      excerpt,
       categories: stringArray(parsed.data.categories),
       tags: stringArray(parsed.data.tags),
       hashtags: stringArray(parsed.data.hashtags),
@@ -236,48 +306,32 @@ async function buildPosts() {
       sourceType: source.type,
       source: Object.keys(source).length > 0 ? source : undefined,
       galleryIds,
+      imageIds: [],
+      related: relatedLinks(parsed.data),
+      caption: type === 'story' ? source.caption || summary : undefined,
+      bodyMarkdown: cleanMarkdown,
       bodyHtml,
       ...parts,
     };
 
-    await writeJson(`${contentShape === 'post' ? 'posts' : 'stories'}/${parts.year}/${parts.month}/${parts.day}/${slug}.json`, document);
-
-    const { bodyHtml: _bodyHtml, ...summary } = document;
-    posts.push(summary);
+    posts.push(document);
   }
 
   posts.sort((a, b) => b.date.localeCompare(a.date));
-  const blogPosts = posts.filter((post) => post.contentShape === 'post');
-  const stories = posts.filter((post) => post.contentShape === 'story');
-
-  await writeJson('posts/index.json', {
-    generatedAt: new Date().toISOString(),
-    posts: blogPosts,
-    years: archiveYears(blogPosts, '/posts'),
-  });
-
-  await writeJson('stories/index.json', {
-    generatedAt: new Date().toISOString(),
-    posts: stories,
-    years: archiveYears(stories, '/stories'),
-  });
-
-  await writeJson('entries/index.json', {
-    generatedAt: new Date().toISOString(),
-    posts,
-    years: archiveYears(posts, '/entries'),
-    shapes: {
-      posts: blogPosts.length,
-      stories: stories.length,
-    },
-  });
-
   return posts;
 }
 
-async function rewriteEntrySummaries(posts: PostSummary[]) {
-  const blogPosts = posts.filter((post) => post.contentShape === 'post');
-  const stories = posts.filter((post) => post.contentShape === 'story');
+async function rewriteEntryDocuments(posts: PostDocument[]) {
+  for (const post of posts) {
+    const folder = post.type === 'article' ? 'posts' : 'stories';
+    await writeJson(`${folder}/${post.year}/${post.month}/${post.day}/${post.slug}.json`, post);
+  }
+}
+
+async function rewriteEntrySummaries(posts: PostDocument[]) {
+  const summaries = posts.map(entrySummary);
+  const blogPosts = summaries.filter((post) => post.type === 'article');
+  const stories = summaries.filter((post) => post.type === 'story');
 
   await writeJson('posts/index.json', {
     generatedAt: new Date().toISOString(),
@@ -293,13 +347,18 @@ async function rewriteEntrySummaries(posts: PostSummary[]) {
 
   await writeJson('entries/index.json', {
     generatedAt: new Date().toISOString(),
-    posts,
-    years: archiveYears(posts, '/entries'),
+    posts: summaries,
+    years: archiveYears(summaries, '/entries'),
     shapes: {
       posts: blogPosts.length,
       stories: stories.length,
     },
   });
+}
+
+function entrySummary(post: PostDocument): PostSummary {
+  const { bodyHtml: _bodyHtml, bodyMarkdown: _bodyMarkdown, ...summary } = post;
+  return summary;
 }
 
 async function buildImages(posts: PostSummary[]) {
@@ -323,16 +382,21 @@ async function buildImages(posts: PostSummary[]) {
     const title = textValue(parsed.data.title) || textValue(parsed.data.description) || titleFromSlug(id);
     const date = normalizedDate(parsed.data.taken_at, parts);
     const postId = textValue(parsed.data.post_id);
+    const caption = textValue(parsed.data.caption) || textValue(parsed.data.description);
 
     images.push({
+      siteKey,
       id,
+      type: 'image',
       title,
       date,
       route: `/images/${parts.year}/${parts.month}/${parts.day}/${id}`,
       rawUrl: textValue(parsed.data.raw_url),
       thumbUrl: textValue(parsed.data.thumb_url) || textValue(parsed.data.raw_url),
+      caption: caption || undefined,
+      alt: textValue(parsed.data.alt) || caption || title,
       galleryId: textValue(parsed.data.gallery),
-      source: textValue(parsed.data.source),
+      source: imageSource(parsed.data.source),
       sourceFilename: textValue(parsed.data.source_filename),
       postId,
       postRoute: postId ? postRoutesById.get(postId) : undefined,
@@ -351,26 +415,161 @@ async function buildImages(posts: PostSummary[]) {
   return images;
 }
 
-function applyCoverImages(posts: PostSummary[], images: ImageSummary[]) {
-  const imagesByGallery = new Map<string, ImageSummary>();
+function applyEntryImages(posts: PostSummary[], images: ImageSummary[]) {
+  const imagesByGallery = new Map<string, ImageSummary[]>();
 
   for (const image of images) {
-    if (image.galleryId && !imagesByGallery.has(image.galleryId)) {
-      imagesByGallery.set(image.galleryId, image);
+    if (!image.galleryId) {
+      continue;
     }
+
+    if (!imagesByGallery.has(image.galleryId)) {
+      imagesByGallery.set(image.galleryId, []);
+    }
+
+    imagesByGallery.get(image.galleryId)!.push(image);
   }
 
   for (const post of posts) {
-    const cover = post.galleryIds.map((galleryId) => imagesByGallery.get(galleryId)).find(Boolean);
+    const relatedImages = post.galleryIds.flatMap((galleryId) => imagesByGallery.get(galleryId) ?? []);
+    const cover = relatedImages[0];
+    post.imageIds = relatedImages.map((image) => image.id);
 
     if (cover) {
       post.coverImage = {
+        id: cover.id,
         rawUrl: cover.rawUrl,
         thumbUrl: cover.thumbUrl,
-        alt: cover.title,
+        alt: cover.alt || cover.title,
       };
     }
   }
+}
+
+async function buildGalleries(posts: PostDocument[], images: ImageSummary[]) {
+  const groupedImages = imagesByGallery(images);
+  const postsByGallery = postsByGalleryId(posts);
+  const galleries: GalleryDocument[] = [];
+
+  for (const [galleryId, galleryImages] of groupedImages) {
+    const relatedPosts = postsByGallery.get(galleryId) ?? [];
+    const primaryPost = relatedPosts[0];
+    const cover = galleryImages.find((image) => image.id === textValue(primaryPost?.coverImage?.id)) ?? galleryImages[0];
+    const date = primaryPost?.date || cover.date;
+    const parts = partsFromDate(date) ?? {
+      year: cover.year,
+      month: cover.month,
+      day: cover.day,
+    };
+    const slug = slugFromGalleryId(galleryId);
+    const route = `/galleries/${parts.year}/${parts.month}/${parts.day}/${slug}`;
+    const summary = primaryPost?.summary || primaryPost?.excerpt || `${galleryImages.length.toLocaleString()} images`;
+    const source = primaryPost?.source;
+
+    galleries.push({
+      siteKey,
+      id: galleryId,
+      type: 'gallery',
+      title: primaryPost?.title || titleFromSlug(slug),
+      date,
+      status: primaryPost?.status || 'published',
+      slug,
+      route,
+      authors: primaryPost?.authors ?? [],
+      summary,
+      categories: primaryPost?.categories ?? [],
+      tags: primaryPost?.tags ?? [],
+      sourceType: primaryPost?.sourceType || galleryImages[0]?.source,
+      source,
+      imageIds: galleryImages.map((image) => image.id),
+      imageCount: galleryImages.length,
+      coverImageId: cover.id,
+      coverImage: {
+        id: cover.id,
+        rawUrl: cover.rawUrl,
+        thumbUrl: cover.thumbUrl,
+        alt: cover.alt || cover.title,
+      },
+      related: relatedPosts.map((post) => ({
+        type: post.type,
+        id: post.id,
+        title: post.title,
+        route: post.route,
+        rel: 'uses-gallery',
+      })),
+      descriptionMarkdown: primaryPost?.bodyMarkdown,
+      descriptionHtml: primaryPost?.bodyHtml,
+      images: galleryImages,
+      ...parts,
+    });
+  }
+
+  galleries.sort((a, b) => b.date.localeCompare(a.date));
+
+  await writeJson('galleries/index.json', {
+    generatedAt: new Date().toISOString(),
+    galleries: galleries.map(gallerySummary),
+    years: archiveYears(galleries, '/galleries'),
+  });
+
+  for (const gallery of galleries) {
+    await writeJson(`galleries/${gallery.year}/${gallery.month}/${gallery.day}/${gallery.slug}.json`, gallery);
+  }
+
+  return galleries;
+}
+
+function imagesByGallery(images: ImageSummary[]) {
+  const galleries = new Map<string, ImageSummary[]>();
+
+  for (const image of images) {
+    if (!image.galleryId) {
+      continue;
+    }
+
+    if (!galleries.has(image.galleryId)) {
+      galleries.set(image.galleryId, []);
+    }
+
+    galleries.get(image.galleryId)!.push(image);
+  }
+
+  for (const galleryImages of galleries.values()) {
+    galleryImages.sort((a, b) => a.date.localeCompare(b.date) || a.id.localeCompare(b.id));
+  }
+
+  return new Map([...galleries.entries()].sort(([a], [b]) => a.localeCompare(b)));
+}
+
+function postsByGalleryId(posts: PostDocument[]) {
+  const galleries = new Map<string, PostDocument[]>();
+
+  for (const post of posts) {
+    for (const galleryId of post.galleryIds) {
+      if (!galleries.has(galleryId)) {
+        galleries.set(galleryId, []);
+      }
+
+      galleries.get(galleryId)!.push(post);
+    }
+  }
+
+  for (const relatedPosts of galleries.values()) {
+    relatedPosts.sort((a, b) => b.date.localeCompare(a.date));
+  }
+
+  return galleries;
+}
+
+function gallerySummary(gallery: GalleryDocument): GallerySummary {
+  const {
+    descriptionMarkdown: _descriptionMarkdown,
+    descriptionHtml: _descriptionHtml,
+    images: _images,
+    ...summary
+  } = gallery;
+
+  return summary;
 }
 
 function recentHomeEntries(posts: PostSummary[], stories: PostSummary[], perShape: number) {
@@ -479,8 +678,29 @@ function partsFromFrontmatter(data: Frontmatter): DateParts | undefined {
   };
 }
 
+function partsFromDate(value: string): DateParts | undefined {
+  const match = /^(\d{4})-(\d{2})-(\d{2})/.exec(value);
+
+  if (!match) {
+    return undefined;
+  }
+
+  return {
+    year: match[1],
+    month: match[2],
+    day: match[3],
+  };
+}
+
 function slugFromPostFilename(filename: string) {
   return filename.replace(/^\d{4}-\d{2}-\d{2}-/, '');
+}
+
+function slugFromGalleryId(value: string) {
+  return value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
 }
 
 function galleryIncludes(content: string, data: Frontmatter) {
@@ -563,12 +783,113 @@ function entrySource(data: Frontmatter): EntrySource {
   });
 }
 
-function classifyContentShape(source: string | undefined, data: Frontmatter): ContentShape {
+function imageSource(value: unknown) {
+  if (!value) {
+    return undefined;
+  }
+
+  if (typeof value === 'object' && !(value instanceof Date)) {
+    const data = value as Frontmatter;
+    return textValue(data.type) || undefined;
+  }
+
+  return textValue(value) || undefined;
+}
+
+function classifyEntryType(source: string | undefined, data: Frontmatter): EntryType {
+  const explicitType = textValue(data.content_type || data.contentType || data.type).toLowerCase();
+
+  if (explicitType === 'article' || explicitType === 'post') {
+    return 'article';
+  }
+
+  if (explicitType === 'story') {
+    return 'story';
+  }
+
   if (source === 'wordpress' || stringArray(data.tags).includes('wordpress')) {
-    return 'post';
+    return 'article';
   }
 
   return 'story';
+}
+
+function contentStatus(data: Frontmatter): ContentStatus {
+  const explicit = textValue(data.status).toLowerCase();
+
+  if (explicit === 'draft' || explicit === 'archived') {
+    return explicit;
+  }
+
+  if (data.published === false || textValue(data.published).toLowerCase() === 'false') {
+    return 'draft';
+  }
+
+  return 'published';
+}
+
+function authors(data: Frontmatter) {
+  const values = stringArray(data.authors);
+
+  if (values.length > 0) {
+    return values;
+  }
+
+  const author = textValue(data.author);
+  return author ? [author] : [];
+}
+
+function relatedLinks(data: Frontmatter): ContentLink[] {
+  const related = data.related;
+
+  if (typeof related === 'string') {
+    return related.trim() ? [{ id: related.trim() }] : [];
+  }
+
+  if (!Array.isArray(related)) {
+    return [];
+  }
+
+  return related
+    .map((item) => {
+      if (typeof item === 'string') {
+        return item.trim() ? { id: item.trim() } : undefined;
+      }
+
+      if (!item || typeof item !== 'object' || item instanceof Date) {
+        return undefined;
+      }
+
+      const value = item as Frontmatter;
+      const id = textValue(value.id || value.post_id || value.slug || value.route);
+
+      if (!id) {
+        return undefined;
+      }
+
+      return compactObject({
+        type: contentLinkType(value.type),
+        id,
+        title: textValue(value.title),
+        route: textValue(value.route || value.href || value.url),
+        rel: textValue(value.rel),
+      });
+    })
+    .filter(Boolean) as ContentLink[];
+}
+
+function contentLinkType(value: unknown): ContentType | undefined {
+  const type = textValue(value).toLowerCase();
+
+  if (type === 'article' || type === 'story' || type === 'gallery') {
+    return type;
+  }
+
+  if (type === 'post') {
+    return 'article';
+  }
+
+  return undefined;
 }
 
 function stringArray(value: unknown) {
@@ -633,6 +954,7 @@ function siteNav(): SiteNavItem[] {
     { label: 'Home', href: '/' },
     { label: 'Posts', href: '/posts' },
     { label: 'Stories', href: '/stories' },
+    { label: 'Galleries', href: '/galleries' },
     { label: 'Images', href: '/images' },
   ];
 }

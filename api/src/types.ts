@@ -19,6 +19,9 @@ export type ArchiveYear = {
 };
 
 export type ContentShape = 'post' | 'story';
+export type ContentType = 'article' | 'story' | 'gallery';
+export type EntryType = Exclude<ContentType, 'gallery'>;
+export type ContentStatus = 'draft' | 'published' | 'archived';
 
 export type SiteNavItem = {
   label: string;
@@ -55,10 +58,21 @@ export type EntrySource = {
   crossPostSource?: string;
 };
 
-export type EntrySummary = {
+export type ContentLink = {
+  type?: ContentType;
   id: string;
+  title?: string;
+  route?: string;
+  rel?: string;
+};
+
+export type EntrySummary = {
+  siteKey?: string;
+  id: string;
+  type?: EntryType;
   title: string;
   date: string;
+  status?: ContentStatus;
   contentShape: ContentShape;
   year: string;
   month: string;
@@ -66,6 +80,8 @@ export type EntrySummary = {
   slug: string;
   route: string;
   legacyUrl: string;
+  authors?: string[];
+  summary?: string;
   excerpt: string;
   categories: string[];
   tags: string[];
@@ -75,7 +91,11 @@ export type EntrySummary = {
   sourceType?: string;
   source?: EntrySource;
   galleryIds: string[];
+  imageIds?: string[];
+  related?: ContentLink[];
+  caption?: string;
   coverImage?: {
+    id?: string;
     rawUrl: string;
     thumbUrl: string;
     alt: string;
@@ -83,6 +103,7 @@ export type EntrySummary = {
 };
 
 export type EntryDocument = EntrySummary & {
+  bodyMarkdown?: string;
   bodyHtml: string;
 };
 
@@ -93,7 +114,9 @@ export type EntryIndex = {
 };
 
 export type ImageSummary = {
+  siteKey?: string;
   id: string;
+  type?: 'image';
   title: string;
   date: string;
   year: string;
@@ -102,11 +125,55 @@ export type ImageSummary = {
   route: string;
   rawUrl: string;
   thumbUrl: string;
+  caption?: string;
+  alt?: string;
   galleryId?: string;
   source?: string;
   sourceFilename?: string;
   postId?: string;
   postRoute?: string;
+};
+
+export type GallerySummary = {
+  siteKey?: string;
+  id: string;
+  type: 'gallery';
+  title: string;
+  date: string;
+  status?: ContentStatus;
+  year: string;
+  month: string;
+  day: string;
+  slug: string;
+  route: string;
+  authors?: string[];
+  summary?: string;
+  categories: string[];
+  tags: string[];
+  sourceType?: string;
+  source?: EntrySource;
+  imageIds: string[];
+  imageCount: number;
+  coverImageId: string;
+  coverImage: {
+    id: string;
+    rawUrl: string;
+    thumbUrl: string;
+    alt: string;
+  };
+  related?: ContentLink[];
+};
+
+export type GalleryDocument = GallerySummary & {
+  descriptionMarkdown?: string;
+  descriptionHtml?: string;
+  images: ImageSummary[];
+};
+
+export type GalleryIndex = {
+  generatedAt: string;
+  galleries: GallerySummary[];
+  years: ArchiveYear[];
 };
 
 export type ImageIndex = {
@@ -121,6 +188,7 @@ export type HomeSummary = {
   counts: {
     posts: number;
     stories: number;
+    galleries?: number;
     images: number;
   };
   recentEntries: EntrySummary[];
@@ -139,5 +207,6 @@ export type SiteSummary = {
   entries: number;
   posts: number;
   stories: number;
+  galleries?: number;
   images: number;
 };
