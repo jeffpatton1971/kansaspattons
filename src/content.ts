@@ -26,6 +26,7 @@ export type ArchiveQuery = {
 export type ImageArchiveQuery = ArchiveQuery & {
   groupBy?: 'year' | 'month' | 'day';
   galleryIds?: string[];
+  imageIds?: string[];
 };
 
 type ApiListResponse<T> = {
@@ -117,6 +118,18 @@ export function fetchImagesForGalleries(galleryIds: string[]) {
   return fetchImageIndex({ galleryIds, limit: 1000 });
 }
 
+export function fetchImagesForEntry(imageIds: string[], galleryIds: string[]) {
+  if (imageIds.length === 0 && galleryIds.length === 0) {
+    return Promise.resolve<ImageIndex>({
+      generatedAt: new Date(0).toISOString(),
+      images: [],
+      years: [],
+    });
+  }
+
+  return fetchImageIndex({ imageIds, galleryIds, limit: 1000 });
+}
+
 export function fetchPostDocument(year: string, month: string, day: string, slug: string) {
   return fetchJson<PostDocument>(`posts/${year}/${month}/${day}/${slug}`);
 }
@@ -138,7 +151,7 @@ function toPostIndex(response: ApiListResponse<PostSummary>): PostIndex {
   };
 }
 
-function queryString(query: ArchiveQuery & { groupBy?: string; galleryIds?: string[] }) {
+function queryString(query: ArchiveQuery & { groupBy?: string; galleryIds?: string[]; imageIds?: string[] }) {
   const params = new URLSearchParams();
 
   if (query.year) {
@@ -171,6 +184,10 @@ function queryString(query: ArchiveQuery & { groupBy?: string; galleryIds?: stri
 
   if (query.galleryIds && query.galleryIds.length > 0) {
     params.set('galleryId', query.galleryIds.join(','));
+  }
+
+  if (query.imageIds && query.imageIds.length > 0) {
+    params.set('imageId', query.imageIds.join(','));
   }
 
   const text = params.toString();

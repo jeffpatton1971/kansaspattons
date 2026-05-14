@@ -47,7 +47,7 @@ async function imagesListHandler(request: HttpRequest) {
   return withErrors(async () => {
     const index = await readContentJson<ImageIndex>('images/index.json', siteKeyFromRequest(request));
     const query = pageQuery(request);
-    const filtered = filterByGallery(filterByDate(index.images, query), galleryIds(request));
+    const filtered = filterByRelationship(filterByDate(index.images, query), imageIds(request), galleryIds(request));
     const groupBy = groupByQuery(request);
     const grouped = groupBy ? groupImages(filtered, groupBy) : undefined;
     const paged = groupBy ? undefined : pageItems(filtered, query, 48, 10_000);
@@ -112,14 +112,24 @@ function galleryIds(request: HttpRequest) {
     .filter(Boolean);
 }
 
-function filterByGallery(images: ImageSummary[], galleryIds: string[]) {
-  if (galleryIds.length === 0) {
+function imageIds(request: HttpRequest) {
+  return (request.query.get('imageId') || '')
+    .split(',')
+    .map((value) => value.trim())
+    .filter(Boolean);
+}
+
+function filterByRelationship(images: ImageSummary[], imageIds: string[], galleryIds: string[]) {
+  if (imageIds.length === 0 && galleryIds.length === 0) {
     return images;
   }
 
-  const ids = new Set(galleryIds);
+  const directIds = new Set(imageIds);
+  const galleryIdSet = new Set(galleryIds);
 
-  return images.filter((image) => image.galleryId && ids.has(image.galleryId));
+  return images.filter(
+    (image) => directIds.has(image.id) || Boolean(image.galleryId && galleryIdSet.has(image.galleryId)),
+  );
 }
 
 function groupImages(images: ImageSummary[], groupBy: ImageGroupBy): ImageGroup[] {

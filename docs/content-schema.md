@@ -160,6 +160,7 @@ type ContentLink = {
 Classification rule:
 
 - All `_posts` Markdown files are now expected to carry explicit `content_type`, `slug`, `post_id`, `status`, `authors`, and `summary` frontmatter.
+- Direct post images can be authored with rich `images` frontmatter. The compiler resolves those entries into generated `imageIds` and `coverImage`.
 - `content_type: article` becomes `type: "article"` and `contentShape: "post"`.
 - `content_type: story` becomes `type: "story"` and `contentShape: "story"`.
 - `content_type: gallery` becomes a gallery metadata source and is merged into the generated gallery with the same `gallery` ID.
@@ -348,4 +349,12 @@ type ImageGroup = {
   count: number;
   images: ImageSummary[];
 };
+```
+
+Image list endpoints also accept relationship filters:
+
+```text
+GET /api/images?imageId=2013-05-29-wp-20130529-002
+GET /api/images?galleryId=gallery-2009-10-18
+GET /api/images?imageId=one,two&galleryId=gallery-id
 ```

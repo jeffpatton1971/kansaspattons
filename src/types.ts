@@ -102,6 +102,7 @@ export type PostSummary = {
   imageIds?: string[];
   related?: ContentLink[];
   caption?: string;
+  coverImageId?: string;
   coverImage?: {
     id?: string;
     rawUrl: string;

@@ -84,6 +84,7 @@ type PostSummary = DateParts & {
   imageIds: string[];
   related: ContentLink[];
   caption?: string;
+  coverImageId?: string;
   coverImage?: {
     id: string;
     rawUrl: string;
@@ -303,13 +304,15 @@ async function buildPosts() {
       continue;
     }
 
-    const slug = textValue(parsed.data.slug) || slugFromPostFilename(filename);
+    const filenameSlug = slugFromPostFilename(filename);
+    const slug = textValue(parsed.data.slug) || filenameSlug;
     const galleryIds = galleryIncludes(parsed.content, parsed.data);
+    const directImageIds = imageReferences(parsed.data);
     const cleanMarkdown = removeJekyllIncludes(parsed.content);
     const bodyHtml = sanitizeHtml(markdown.render(cleanMarkdown), sanitizeOptions);
     const date = normalizedDate(parsed.data.date, parts);
     const title = textValue(parsed.data.title) || titleFromSlug(slug);
-    const id = textValue(parsed.data.post_id) || textValue(parsed.data.id) || slug;
+    const id = textValue(parsed.data.post_id) || textValue(parsed.data.id) || filenameSlug;
     const source = entrySource(parsed.data);
     const type = classifySourceContentType(source.type, parsed.data);
     const summary = textValue(parsed.data.summary) || textValue(parsed.data.excerpt) || excerptFromMarkdown(cleanMarkdown);
@@ -331,7 +334,7 @@ async function buildPosts() {
         status: contentStatus(parsed.data),
         slug: gallerySlug,
         route: `/galleries/${parts.year}/${parts.month}/${parts.day}/${gallerySlug}`,
-        legacyUrl: `/blog/${parts.year}/${parts.month}/${parts.day}/${slug}.html`,
+        legacyUrl: `/blog/${parts.year}/${parts.month}/${parts.day}/${filenameSlug}.html`,
         authors: authors(parsed.data),
         summary: summary || `${title} gallery`,
         categories: stringArray(parsed.data.categories),
@@ -351,7 +354,7 @@ async function buildPosts() {
     const contentShape = type === 'article' ? 'post' : 'story';
     const basePath = type === 'article' ? '/posts' : '/stories';
     const route = `${basePath}/${parts.year}/${parts.month}/${parts.day}/${slug}`;
-    const legacyUrl = `/blog/${parts.year}/${parts.month}/${parts.day}/${slug}.html`;
+    const legacyUrl = `/blog/${parts.year}/${parts.month}/${parts.day}/${filenameSlug}.html`;
     const excerpt = excerptFromMarkdown(cleanMarkdown);
 
     const document: PostDocument = {
@@ -376,9 +379,10 @@ async function buildPosts() {
       sourceType: source.type,
       source: Object.keys(source).length > 0 ? source : undefined,
       galleryIds,
-      imageIds: [],
+      imageIds: directImageIds,
       related: relatedLinks(parsed.data),
       caption: type === 'story' ? source.caption || summary : undefined,
+      coverImageId: optionalText(parsed.data.cover_image || parsed.data.coverImage || parsed.data.coverImageId),
       bodyMarkdown: cleanMarkdown,
       bodyHtml,
       ...parts,
@@ -487,6 +491,7 @@ async function buildImages(posts: PostSummary[]) {
 }
 
 function applyEntryImages(posts: PostSummary[], images: ImageSummary[]) {
+  const imagesById = new Map(images.map((image) => [image.id, image]));
   const imagesByGallery = new Map<string, ImageSummary[]>();
 
   for (const image of images) {
@@ -502,8 +507,10 @@ function applyEntryImages(posts: PostSummary[], images: ImageSummary[]) {
   }
 
   for (const post of posts) {
-    const relatedImages = post.galleryIds.flatMap((galleryId) => imagesByGallery.get(galleryId) ?? []);
-    const cover = relatedImages[0];
+    const directImages = post.imageIds.map((imageId) => imagesById.get(imageId)).filter(Boolean) as ImageSummary[];
+    const galleryImages = post.galleryIds.flatMap((galleryId) => imagesByGallery.get(galleryId) ?? []);
+    const relatedImages = uniqueImages([...directImages, ...galleryImages]);
+    const cover = imagesById.get(post.coverImageId ?? '') ?? relatedImages[0];
     post.imageIds = relatedImages.map((image) => image.id);
 
     if (cover) {
@@ -515,6 +522,19 @@ function applyEntryImages(posts: PostSummary[], images: ImageSummary[]) {
       };
     }
   }
+}
+
+function uniqueImages(images: ImageSummary[]) {
+  const seen = new Set<string>();
+
+  return images.filter((image) => {
+    if (seen.has(image.id)) {
+      return false;
+    }
+
+    seen.add(image.id);
+    return true;
+  });
 }
 
 async function buildGalleries(posts: PostDocument[], images: ImageSummary[], gallerySources: GallerySource[]) {
@@ -838,6 +858,35 @@ function galleryIncludes(content: string, data: Frontmatter) {
   }
 
   return [...ids];
+}
+
+function imageReferences(data: Frontmatter) {
+  const values = data.images ?? data.image_ids ?? data.imageIds;
+
+  if (typeof values === 'string') {
+    return values
+      .split(',')
+      .map((value) => value.trim())
+      .filter(Boolean);
+  }
+
+  if (!Array.isArray(values)) {
+    return [];
+  }
+
+  return values
+    .map((item) => {
+      if (typeof item === 'string') {
+        return item.trim();
+      }
+
+      if (!item || typeof item !== 'object' || item instanceof Date) {
+        return '';
+      }
+
+      return textValue((item as Frontmatter).id || (item as Frontmatter).file || (item as Frontmatter).filename);
+    })
+    .filter(Boolean);
 }
 
 function removeJekyllIncludes(content: string) {

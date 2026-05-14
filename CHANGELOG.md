@@ -55,6 +55,8 @@ Published behavior changes and bug fixes for the React site migration.
 - Added initial shadcn primitives for buttons, cards, badges, separators, skeletons, and tooltips.
 - Added design-system documentation for the Tailwind/shadcn setup and cross-site styling direction.
 - Added a repeatable `normalize:posts` script for applying the new frontmatter shape across imported Markdown posts.
+- Added rich direct `images` frontmatter support for posts that attach images without creating a gallery page.
+- Added `imageId` filtering to the image API so post details can fetch direct image attachments.
 
 ### Changed
 
@@ -101,6 +103,8 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed the archive right rail to use shadcn cards, badges, separators, and skeleton loading states.
 - Converted all `_posts` Markdown files to explicit `content_type`, `slug`, `post_id`, `status`, `authors`, and `summary` frontmatter.
 - Changed the content compiler to honor explicit post `slug` and top-level `id` frontmatter during JSON generation.
+- Changed the Pumpkin Patch sample into an article plus a first-class gallery source with rich image references.
+- Changed the Big Boy sample into an article with a direct image attachment instead of a one-image gallery.
 
 ### Fixed
 

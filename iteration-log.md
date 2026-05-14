@@ -745,6 +745,30 @@ Detailed working notes for the React migration live here. This file is intention
   - `npm run normalize:posts -- --dry-run` reports zero pending changes after the migration.
   - `npm run build` passed and still generated 1,105 entries, 1,117 galleries, and 8,528 images.
 
+### Direct Images Versus True Galleries
+
+- Clarified the content authoring distinction:
+  - Use a first-class `content_type: gallery` page when an image set deserves browseable album treatment.
+  - Use direct `images` frontmatter when images are just attachments to an article or story.
+- Updated the Pumpkin Patch sample:
+  - `_posts/2009-10-18-pumpkin-patch.md` remains the article.
+  - Added `_posts/2009-10-18-pumpkin-patch-gallery.md` as the first-class gallery source.
+  - The gallery source uses rich image references with `id`, `caption`, and `alt` placeholders.
+  - The article now links to the gallery through `related` instead of embedding the old Jekyll gallery include.
+- Updated the Big Boy sample:
+  - `_posts/2013-05-29-big-boy.md` now uses direct `images` frontmatter and `cover_image`.
+  - `_gallery/wp-20130529-002.md` no longer has a `gallery` value, so it no longer generates a one-image gallery.
+- Compiler/API/UI changes:
+  - `scripts/build-content.ts` now resolves rich `images` frontmatter into generated `imageIds`.
+  - Direct image attachments can set `coverImage`.
+  - The image API supports `imageId` query filtering in addition to `galleryId`.
+  - Post/story details now fetch both direct image attachments and gallery-backed images.
+  - Legacy URLs are derived from the filename slug while modern routes use explicit `slug` frontmatter.
+- Verification:
+  - `npm run build` passed and now generates 1,105 entries, 1,116 galleries, and 8,528 images.
+  - `npm run api:build` passed.
+  - `npm run normalize:posts -- --dry-run` reports zero pending changes across 1,149 `_posts` files.
+
 ### Post And Story Card Shapes
 
 - Started making the two content shapes visually distinct.

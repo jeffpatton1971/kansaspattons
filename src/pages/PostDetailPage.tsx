@@ -6,7 +6,7 @@ import { ArchiveMetrics } from '../components/ArchiveMetrics';
 import { EntryMetadata } from '../components/EntryMetadata';
 import { ImageCarousel } from '../components/ImageCarousel';
 import { ErrorState, LoadingState } from '../components/LoadingState';
-import { fetchImagesForGalleries, fetchPostDocument, fetchPostIndex, fetchStoryDocument, fetchStoryIndex, type ArchiveQuery } from '../content';
+import { fetchImagesForEntry, fetchPostDocument, fetchPostIndex, fetchStoryDocument, fetchStoryIndex, type ArchiveQuery } from '../content';
 import { useAsyncData } from '../hooks';
 import type { ImageSummary, PostDocument, PostIndex } from '../types';
 
@@ -58,7 +58,7 @@ function EntryDetailPage({
         loader(params.year!, params.month!, params.day!, params.slug!),
         indexLoader({ limit: 1 }),
       ]);
-      const imageIndex = await fetchImagesForGalleries(post.galleryIds);
+      const imageIndex = await fetchImagesForEntry(post.imageIds ?? [], post.galleryIds);
 
       return {
         post,

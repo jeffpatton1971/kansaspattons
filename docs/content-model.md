@@ -42,6 +42,12 @@ type ContentLink = {
   route?: string;
   rel?: string;
 };
+
+type ContentImageRef = {
+  id: string;
+  caption?: string;
+  alt?: string;
+};
 ```
 
 ## Articles
@@ -53,6 +59,7 @@ type Article = ContentBase & {
   type: "article";
   bodyMarkdown: string;
   bodyHtml: string;
+  images?: ContentImageRef[];
   imageIds: string[];
   galleryIds: string[];
 };
@@ -76,7 +83,19 @@ gallery: "wordpress-2010-12-25-013400-december-25-2010"
 ---
 ```
 
-An article can embed images directly in Markdown, reference one or more galleries, or do both.
+An article can embed images directly in Markdown, reference one or more galleries, attach images directly with `images`, or combine those patterns.
+
+Single-image or small image sets should usually use direct image references:
+
+```yaml
+cover_image: 2013-05-29-wp-20130529-002
+images:
+  - id: 2013-05-29-wp-20130529-002
+    caption:
+    alt:
+```
+
+Meaningful photo sets should use a gallery instead of pretending every attached image set is a gallery.
 
 ## Stories
 
@@ -119,6 +138,7 @@ Galleries are image collections and live under `/galleries`. A gallery may stand
 ```ts
 type Gallery = ContentBase & {
   type: "gallery";
+  images?: ContentImageRef[];
   imageIds: string[];
   imageCount: number;
   coverImageId: string;
@@ -169,6 +189,20 @@ categories:
 ```
 
 During generation, this source metadata is merged into the gallery produced from matching image records. Its legacy `/blog/...` URL redirects to the gallery route.
+
+Example of the newer rich gallery authoring shape:
+
+```yaml
+gallery: gallery-2009-10-18
+cover_image: 2009-10-18-img58363
+images:
+  - id: 2009-10-18-img58363
+    caption:
+    alt:
+  - id: 2009-10-18-img58393
+    caption:
+    alt:
+```
 
 Facebook album imports are treated as galleries by default. Facebook's catch-all `Mobile Uploads` albums are the exception: they are marked with `exclude_from_archives: true` and are not published as galleries or story entries. Their individual image records still remain available through `/images` by date.
 
