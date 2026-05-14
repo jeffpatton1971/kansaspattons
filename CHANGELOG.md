@@ -59,6 +59,8 @@ Published behavior changes and bug fixes for the React site migration.
 - Added `imageId` filtering to the image API so post details can fetch direct image attachments.
 - Added inline rendering for galleries referenced through post/story `related` metadata.
 - Added a repeatable gallery relationship migration script with dry-run validation and an explicit write command.
+- Added focused, non-clickable story image carousel controls for story detail pages.
+- Added a gallery peek carousel that shows the selected image with previous/next images angled beside it.
 
 ### Changed
 
@@ -112,6 +114,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed small Facebook album imports into direct-image stories while keeping larger named Facebook albums as gallery documents.
 - Reduced generated galleries from broad imported image groups to meaningful `4+` image gallery sets, while keeping Facebook Mobile Uploads excluded.
 - Changed story detail rendering so stories backed by related galleries still lead with an image carousel.
+- Changed gallery detail pages and inline related galleries to use the gallery peek carousel instead of thumbnail grids or clickable image strips.
 
 ### Fixed
 

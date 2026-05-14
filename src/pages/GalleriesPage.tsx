@@ -2,7 +2,7 @@ import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { formatDateLabel, monthName } from '../archive';
 import { ArchiveCalendar, resolveSelection } from '../components/ArchiveCalendar';
 import { ArchiveMetrics } from '../components/ArchiveMetrics';
-import { ImageGrid } from '../components/ImageGrid';
+import { GalleryPeekCarousel } from '../components/GalleryPeekCarousel';
 import { ErrorState, LoadingState } from '../components/LoadingState';
 import { fetchGalleryDocument, fetchGalleryIndex } from '../content';
 import { useAsyncData } from '../hooks';
@@ -152,7 +152,7 @@ function GalleryDetailPage({ params }: { params: Required<GalleryParams> }) {
             )}
           </div>
         ) : null}
-        <ImageGrid images={gallery.images} />
+        <GalleryPeekCarousel images={gallery.images} title={gallery.title} />
       </article>
 
       <aside className="archive-rail archive-rail--right">

@@ -4,7 +4,9 @@ import { formatDateLabel } from '../archive';
 import { ArchiveCalendar } from '../components/ArchiveCalendar';
 import { ArchiveMetrics } from '../components/ArchiveMetrics';
 import { EntryMetadata } from '../components/EntryMetadata';
+import { GalleryPeekCarousel } from '../components/GalleryPeekCarousel';
 import { ImageCarousel } from '../components/ImageCarousel';
+import { StoryImageCarousel } from '../components/StoryImageCarousel';
 import { ErrorState, LoadingState } from '../components/LoadingState';
 import {
   fetchGalleryDocument,
@@ -175,7 +177,7 @@ function StoryDetail({
         </header>
 
         {relatedImages.length > 0 ? (
-          <ImageCarousel images={relatedImages} title="Story images" />
+          <StoryImageCarousel images={relatedImages} />
         ) : leadGallery ? (
           <StoryGalleryLead gallery={leadGallery} />
         ) : (
@@ -192,7 +194,7 @@ function StoryDetail({
 function StoryGalleryLead({ gallery }: { gallery: GalleryDocument }) {
   return (
     <section className="story-gallery-lead">
-      <ImageCarousel images={gallery.images} title="Story gallery" />
+      <StoryImageCarousel images={gallery.images} title="Story gallery" />
       <Link className="quiet-link" to={gallery.route}>
         Open gallery
       </Link>
@@ -219,7 +221,7 @@ function RelatedGallerySections({ galleries }: { galleries: GalleryDocument[] })
               Open gallery
             </Link>
           </div>
-          <ImageCarousel images={gallery.images} title={gallery.title} />
+          <GalleryPeekCarousel images={gallery.images} title={gallery.title} />
         </section>
       ))}
     </>

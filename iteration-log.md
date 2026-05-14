@@ -792,6 +792,17 @@ Detailed working notes for the React migration live here. This file is intention
   - `npm run api:build` passed.
   - `npm run normalize:posts -- --dry-run` reports zero pending changes across `1,418` `_posts` files.
 
+### Story And Gallery Carousel Rendering
+
+- Split image rendering into content-specific UI:
+  - Stories now use a focused, Instagram-like carousel with one large image and controls below it.
+  - Story images are no longer clickable inside the carousel.
+  - Stories backed by related gallery documents use the same focused carousel for the lead media.
+  - Galleries now use a peek carousel with the selected image centered and previous/next images angled out from the sides.
+- Updated gallery detail pages and inline related galleries to use the gallery peek carousel instead of thumbnail grids or horizontal clickable strips.
+- Verification:
+  - `npm run build` passed and generated `1,109` entries, `305` galleries, and `8,528` images.
+
 ### Post And Story Card Shapes
 
 - Started making the two content shapes visually distinct.
