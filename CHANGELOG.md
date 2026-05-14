@@ -115,6 +115,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Reduced generated galleries from broad imported image groups to meaningful `4+` image gallery sets, while keeping Facebook Mobile Uploads excluded.
 - Changed story detail rendering so stories backed by related galleries still lead with an image carousel.
 - Changed gallery detail pages and inline related galleries to use the gallery peek carousel instead of thumbnail grids or clickable image strips.
+- Centered story carousel media and capped its frame width so story photos no longer render oversized or left-aligned.
 
 ### Fixed
 

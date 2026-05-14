@@ -800,8 +800,13 @@ Detailed working notes for the React migration live here. This file is intention
   - Stories backed by related gallery documents use the same focused carousel for the lead media.
   - Galleries now use a peek carousel with the selected image centered and previous/next images angled out from the sides.
 - Updated gallery detail pages and inline related galleries to use the gallery peek carousel instead of thumbnail grids or horizontal clickable strips.
+- Follow-up story carousel adjustment:
+  - Centered the story image frame within the detail column.
+  - Capped the story image frame at `640px`.
+  - Changed story images to `object-fit: contain` so the photo is not cropped just to fill the square.
 - Verification:
   - `npm run build` passed and generated `1,109` entries, `305` galleries, and `8,528` images.
+  - Follow-up `npm run build` passed with the story image sizing adjustment.
 
 ### Post And Story Card Shapes
 
