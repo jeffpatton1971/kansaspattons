@@ -15,11 +15,18 @@ source:
   caption: "@topekasymphony performed Beethoven’s 9th and it was amazing"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2022-10-01-212450-topekasymphony-performed-beethoven-s-9th-and-it-was-amazing-01
+images:
+  - id: instagram-2022-10-01-212450-topekasymphony-performed-beethoven-s-9th-and-it-was-amazing-01
+    caption:
+    alt:
+  - id: instagram-2022-10-01-212450-topekasymphony-performed-beethoven-s-9th-and-it-was-amazing-02
+    caption:
+    alt:
 hashtags: []
 handles:
   - "topekasymphony"
 location:
-gallery: "instagram-2022-10-01-212450-topekasymphony-performed-beethoven-s-9th-and-it-was-amazing"
 tags:
   - "instagram"
 categories: []
@@ -27,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "@topekasymphony performed Beethoven’s 9th and it was amazing"
 ---
-
 [@topekasymphony](https://www.instagram.com/topekasymphony/) performed Beethoven’s 9th and it was amazing
-
-{% include gallery.html gallery="instagram-2022-10-01-212450-topekasymphony-performed-beethoven-s-9th-and-it-was-amazing" %}
-

@@ -11,7 +11,6 @@ year: 2021
 month: 10
 day: 09
 weekday: Saturday
-gallery: "instagram-2021-10-09-182327-seniorpictures"
 source:
   type: instagram
   uri: "media/other/17910569798010644.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/10/09/182327-seniorpictures.html"
 index: 1
 ---
-
 

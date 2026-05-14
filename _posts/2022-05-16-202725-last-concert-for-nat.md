@@ -15,10 +15,14 @@ source:
   caption: "Last concert for Nat"
   media_count: 8
   cross_post_source: "FB"
+cover_image: instagram-2022-05-16-202725-last-concert-for-nat-01
+related:
+  - type: gallery
+    id: instagram-2022-05-16-202725-last-concert-for-nat
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2022-05-16-202725-last-concert-for-nat"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Last concert for Nat"
 ---
-
 Last concert for Nat
-
-{% include gallery.html gallery="instagram-2022-05-16-202725-last-concert-for-nat" %}
-

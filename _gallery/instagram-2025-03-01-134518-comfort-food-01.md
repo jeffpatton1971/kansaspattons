@@ -10,7 +10,6 @@ year: 2025
 month: 03
 day: 01
 weekday: Saturday
-gallery: "instagram-2025-03-01-134518-comfort-food"
 source:
   type: instagram
   uri: "media/posts/202503/18197684479307623.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/03/01/134518-comfort-food.html"
 index: 1
 ---
-
 

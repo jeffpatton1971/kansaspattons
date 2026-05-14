@@ -15,10 +15,17 @@ source:
   caption: "Better late than never 💛🖤"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2026-04-16-194804-better-late-than-never-01
+images:
+  - id: instagram-2026-04-16-194804-better-late-than-never-01
+    caption:
+    alt:
+  - id: instagram-2026-04-16-194804-better-late-than-never-02
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2026-04-16-194804-better-late-than-never"
 authors:
   - Jeff Patton
 summary: "Better late than never 💛🖤"
@@ -26,8 +33,4 @@ tags:
   - "instagram"
 categories: []
 ---
-
 Better late than never 💛🖤
-
-{% include gallery.html gallery="instagram-2026-04-16-194804-better-late-than-never" %}
-

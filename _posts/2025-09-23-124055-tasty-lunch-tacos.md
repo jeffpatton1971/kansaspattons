@@ -15,12 +15,16 @@ source:
   caption: "Tasty #lunch #tacos"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-09-23-124055-tasty-lunch-tacos-01
+images:
+  - id: instagram-2025-09-23-124055-tasty-lunch-tacos-01
+    caption:
+    alt:
 hashtags:
   - "lunch"
   - "tacos"
 handles: []
 location:
-gallery: "instagram-2025-09-23-124055-tasty-lunch-tacos"
 tags:
   - "lunch"
   - "tacos"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "Tasty #lunch #tacos"
 ---
-
 Tasty [#lunch](https://www.instagram.com/explore/tags/lunch/) [#tacos](https://www.instagram.com/explore/tags/tacos/)
-
-{% include gallery.html gallery="instagram-2025-09-23-124055-tasty-lunch-tacos" %}
-

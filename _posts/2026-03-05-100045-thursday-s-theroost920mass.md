@@ -15,11 +15,15 @@ source:
   caption: "Thursday’s @theroost920mass 🖤💛"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2026-03-05-100045-thursday-s-theroost920mass-01
+images:
+  - id: instagram-2026-03-05-100045-thursday-s-theroost920mass-01
+    caption:
+    alt:
 hashtags: []
 handles:
   - "theroost920mass"
 location:
-gallery: "instagram-2026-03-05-100045-thursday-s-theroost920mass"
 tags:
   - "instagram"
 categories: []
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Thursday’s @theroost920mass 🖤💛"
 ---
-
 Thursday’s [@theroost920mass](https://www.instagram.com/theroost920mass/) 🖤💛
-
-{% include gallery.html gallery="instagram-2026-03-05-100045-thursday-s-theroost920mass" %}
-

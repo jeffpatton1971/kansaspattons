@@ -10,7 +10,6 @@ year: 2014
 month: 08
 day: 28
 weekday: Thursday
-gallery: "instagram-2014-08-28-215817-took-this-the-other-day-didn-t-see-the-rainbow-at-the-time"
 source:
   type: instagram
   uri: "media/other/17843341126063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/08/28/215817-took-this-the-other-day-didn-t-see-the-rainbow-at-the-time.html"
 index: 1
 ---
-
 

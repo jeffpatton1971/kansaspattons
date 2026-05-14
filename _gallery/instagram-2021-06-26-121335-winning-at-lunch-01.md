@@ -12,7 +12,6 @@ year: 2021
 month: 06
 day: 26
 weekday: Saturday
-gallery: "instagram-2021-06-26-121335-winning-at-lunch"
 source:
   type: instagram
   uri: "media/other/17931780286581281.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/06/26/121335-winning-at-lunch.html"
 index: 1
 ---
-
 

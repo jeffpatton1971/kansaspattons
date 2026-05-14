@@ -11,7 +11,6 @@ year: 2022
 month: 08
 day: 02
 weekday: Tuesday
-gallery: "instagram-2022-08-02-185136-voting-as-a-democrat-in-kansas-makes-me-feel-like-the-little-girl-in-miracle-on"
 source:
   type: instagram
   uri: "media/posts/202208/17929813271300495.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/08/02/185136-voting-as-a-democrat-in-kansas-makes-me-feel-like-the-little-girl-in-miracle-on.html"
 index: 1
 ---
-
 

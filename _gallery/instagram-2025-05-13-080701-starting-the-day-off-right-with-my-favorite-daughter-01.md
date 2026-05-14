@@ -10,7 +10,6 @@ year: 2025
 month: 05
 day: 13
 weekday: Tuesday
-gallery: "instagram-2025-05-13-080701-starting-the-day-off-right-with-my-favorite-daughter"
 source:
   type: instagram
   uri: "media/posts/202505/18080811193688144.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/05/13/080701-starting-the-day-off-right-with-my-favorite-daughter.html"
 index: 1
 ---
-
 

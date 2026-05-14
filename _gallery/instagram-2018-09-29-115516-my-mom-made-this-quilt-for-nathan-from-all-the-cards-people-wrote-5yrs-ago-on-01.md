@@ -10,7 +10,6 @@ year: 2018
 month: 09
 day: 29
 weekday: Saturday
-gallery: "instagram-2018-09-29-115516-my-mom-made-this-quilt-for-nathan-from-all-the-cards-people-wrote-5yrs-ago-on"
 source:
   type: instagram
   uri: "media/other/17866351654302972.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/09/29/115516-my-mom-made-this-quilt-for-nathan-from-all-the-cards-people-wrote-5yrs-ago-on.html"
 index: 1
 ---
-
 

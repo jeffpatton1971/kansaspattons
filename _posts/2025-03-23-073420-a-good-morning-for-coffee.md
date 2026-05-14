@@ -15,11 +15,15 @@ source:
   caption: "A good morning for #coffee"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-03-23-073420-a-good-morning-for-coffee-01
+images:
+  - id: instagram-2025-03-23-073420-a-good-morning-for-coffee-01
+    caption:
+    alt:
 hashtags:
   - "coffee"
 handles: []
 location:
-gallery: "instagram-2025-03-23-073420-a-good-morning-for-coffee"
 tags:
   - "coffee"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "A good morning for #coffee"
 ---
-
 A good morning for [#coffee](https://www.instagram.com/explore/tags/coffee/)
-
-{% include gallery.html gallery="instagram-2025-03-23-073420-a-good-morning-for-coffee" %}
-

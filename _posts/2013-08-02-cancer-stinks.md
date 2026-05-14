@@ -12,7 +12,11 @@ source:
   type: wordpress
   id: 1221
   url: "https://jeffspatton.wordpress.com/2013/08/02/august-2-2013/"
-gallery: "wordpress-2013-08-02-162201-august-2-2013"
+cover_image: "2013-08-02-wp-20130802-15-39-32-pro"
+related:
+  - type: gallery
+    id: wordpress-2013-08-02-162201-august-2-2013
+    rel: photos
 categories:
   - "Nathan"
   - cancer
@@ -23,5 +27,3 @@ authors:
 summary: "A few weeks ago Malia signed up for a package from Cancer Stinks, I don’t know if she found it on the web or Facebook, but his package came today. He was pretty excited about opening up the package, what kid isn’t, and got some really neat "
 ---
 A few weeks ago Malia signed up for a package from [Cancer Stinks](http://cancer-stinks.com), I don’t know if she found it on the web or Facebook, but his package came today. He was pretty excited about opening up the package, what kid isn’t, and got some really neat stuff. You should visit the site, it’s pretty cool what they are about and what they do.
-
-{% include gallery.html gallery="wordpress-2013-08-02-162201-august-2-2013" %}

@@ -15,10 +15,14 @@ source:
   caption: "We made it to camera rock!"
   media_count: 8
   cross_post_source: "FB"
+cover_image: instagram-2019-04-30-123341-we-made-it-to-camera-rock-01
+related:
+  - type: gallery
+    id: instagram-2019-04-30-123341-we-made-it-to-camera-rock
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-04-30-123341-we-made-it-to-camera-rock"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "We made it to camera rock!"
 ---
-
 We made it to camera rock!
-
-{% include gallery.html gallery="instagram-2019-04-30-123341-we-made-it-to-camera-rock" %}
-

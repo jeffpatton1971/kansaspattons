@@ -10,7 +10,6 @@ year: 2026
 month: 04
 day: 01
 weekday: Wednesday
-gallery: "instagram-2026-04-01-204336-tiny-tacos-and-truly"
 source:
   type: instagram
   uri: "media/posts/202604/18019420208819728.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/04/01/204336-tiny-tacos-and-truly.html"
 index: 1
 ---
-
 

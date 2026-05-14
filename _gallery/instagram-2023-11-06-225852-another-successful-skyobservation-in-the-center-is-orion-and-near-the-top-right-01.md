@@ -11,7 +11,6 @@ year: 2023
 month: 11
 day: 06
 weekday: Monday
-gallery: "instagram-2023-11-06-225852-another-successful-skyobservation-in-the-center-is-orion-and-near-the-top-right"
 source:
   type: instagram
   uri: "media/posts/202311/18019582105865126.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/11/06/225852-another-successful-skyobservation-in-the-center-is-orion-and-near-the-top-right.html"
 index: 1
 ---
-
 

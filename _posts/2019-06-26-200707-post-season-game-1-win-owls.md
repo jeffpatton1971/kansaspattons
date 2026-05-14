@@ -15,11 +15,15 @@ source:
   caption: "Post-Season game 1 Win! #owls"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-06-26-200707-post-season-game-1-win-owls-01
+images:
+  - id: instagram-2019-06-26-200707-post-season-game-1-win-owls-01
+    caption:
+    alt:
 hashtags:
   - "owls"
 handles: []
 location:
-gallery: "instagram-2019-06-26-200707-post-season-game-1-win-owls"
 tags:
   - "owls"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Post-Season game 1 Win! #owls"
 ---
-
 Post-Season game 1 Win! [#owls](https://www.instagram.com/explore/tags/owls/)
-
-{% include gallery.html gallery="instagram-2019-06-26-200707-post-season-game-1-win-owls" %}
-

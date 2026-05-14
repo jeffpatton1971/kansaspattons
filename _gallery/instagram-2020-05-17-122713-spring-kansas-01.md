@@ -12,7 +12,6 @@ year: 2020
 month: 05
 day: 17
 weekday: Sunday
-gallery: "instagram-2020-05-17-122713-spring-kansas"
 source:
   type: instagram
   uri: "media/other/17844932555142923.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/05/17/122713-spring-kansas.html"
 index: 1
 ---
-
 

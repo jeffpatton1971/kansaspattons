@@ -15,11 +15,15 @@ source:
   caption: "Had another fun trip on @americanrover"
   media_count: 10
   cross_post_source: "FB"
+cover_image: instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover-01
+related:
+  - type: gallery
+    id: instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover
+    rel: photos
 hashtags: []
 handles:
   - "americanrover"
 location:
-gallery: "instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover"
 tags:
   - "instagram"
 categories: []
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Had another fun trip on @americanrover"
 ---
-
 Had another fun trip on [@americanrover](https://www.instagram.com/americanrover/)
-
-{% include gallery.html gallery="instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover" %}
-

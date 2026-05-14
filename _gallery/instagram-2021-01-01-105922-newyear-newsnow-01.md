@@ -12,7 +12,6 @@ year: 2021
 month: 01
 day: 01
 weekday: Friday
-gallery: "instagram-2021-01-01-105922-newyear-newsnow"
 source:
   type: instagram
   uri: "media/other/17883714076927499.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/01/01/105922-newyear-newsnow.html"
 index: 1
 ---
-
 

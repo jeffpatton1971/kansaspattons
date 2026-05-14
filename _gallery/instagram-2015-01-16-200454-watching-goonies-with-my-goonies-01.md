@@ -10,7 +10,6 @@ year: 2015
 month: 01
 day: 16
 weekday: Friday
-gallery: "instagram-2015-01-16-200454-watching-goonies-with-my-goonies"
 source:
   type: instagram
   uri: "media/other/17843544106063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2015/01/16/200454-watching-goonies-with-my-goonies.html"
 index: 1
 ---
-
 

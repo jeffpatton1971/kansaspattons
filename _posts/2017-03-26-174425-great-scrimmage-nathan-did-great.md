@@ -15,10 +15,14 @@ source:
   caption: "Great scrimmage, Nathan did great"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2017-03-26-174425-great-scrimmage-nathan-did-great-01
+images:
+  - id: instagram-2017-03-26-174425-great-scrimmage-nathan-did-great-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2017-03-26-174425-great-scrimmage-nathan-did-great"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Great scrimmage, Nathan did great"
 ---
-
 Great scrimmage, Nathan did great
-
-{% include gallery.html gallery="instagram-2017-03-26-174425-great-scrimmage-nathan-did-great" %}
-

@@ -10,7 +10,6 @@ year: 2026
 month: 03
 day: 05
 weekday: Thursday
-gallery: "instagram-2026-03-05-100045-thursday-s-theroost920mass"
 source:
   type: instagram
   uri: "media/posts/202603/18081412058040069.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/03/05/100045-thursday-s-theroost920mass.html"
 index: 1
 ---
-
 

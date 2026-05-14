@@ -10,7 +10,6 @@ year: 2019
 month: 07
 day: 06
 weekday: Saturday
-gallery: "instagram-2019-07-06-073250-out-for-a-stroll-earlier-this-morning"
 source:
   type: instagram
   uri: "media/other/17987118199247498.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/07/06/073250-out-for-a-stroll-earlier-this-morning.html"
 index: 1
 ---
-
 

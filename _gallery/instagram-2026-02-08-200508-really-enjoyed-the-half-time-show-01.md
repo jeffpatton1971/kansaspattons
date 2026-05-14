@@ -10,7 +10,6 @@ year: 2026
 month: 02
 day: 08
 weekday: Sunday
-gallery: "instagram-2026-02-08-200508-really-enjoyed-the-half-time-show"
 source:
   type: instagram
   uri: "media/posts/202602/18444498868129784.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/02/08/200508-really-enjoyed-the-half-time-show.html"
 index: 1
 ---
-
 

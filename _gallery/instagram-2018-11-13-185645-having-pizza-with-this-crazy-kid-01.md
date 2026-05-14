@@ -10,7 +10,6 @@ year: 2018
 month: 11
 day: 13
 weekday: Tuesday
-gallery: "instagram-2018-11-13-185645-having-pizza-with-this-crazy-kid"
 source:
   type: instagram
   uri: "media/other/17868832102288387.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/11/13/185645-having-pizza-with-this-crazy-kid.html"
 index: 1
 ---
-
 

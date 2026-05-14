@@ -12,7 +12,14 @@ source:
   type: wordpress
   id: 1137
   url: "https://jeffspatton.wordpress.com/2013/07/24/july-24-2013/"
-gallery: "wordpress-2013-07-24-133555-july-24-2013"
+cover_image: "2013-07-24-wp-20130724-001"
+images:
+  - id: "2013-07-24-wp-20130724-001"
+    caption:
+    alt:
+  - id: "2013-07-24-wp-20130724-007"
+    caption:
+    alt:
 categories:
   - "Nathan"
   - cancer
@@ -27,5 +34,3 @@ Last night was a rough night, Nathan started to wake up on his own, so they had 
 So I was concerned that they were going to remove his catheter while he was still awake, thankfully they removed his breathing tube and catheter while he was asleep. They left the tube in his nose to drain out his tummy, they told us that wouldn’t come out until what was coming out was clear. He’s also not able to start and fluids until after that comes out, so hopefully it happens soon.
 
 Malia got to hold Nathan in her lap for the first time since before the surgery, that was the most exciting thing that happened today.
-
-{% include gallery.html gallery="wordpress-2013-07-24-133555-july-24-2013" %}

@@ -10,7 +10,6 @@ year: 2014
 month: 12
 day: 08
 weekday: Monday
-gallery: "instagram-2014-12-08-224116-natalie-after-the-concert"
 source:
   type: instagram
   uri: "media/other/17843530366063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/12/08/224116-natalie-after-the-concert.html"
 index: 1
 ---
-
 

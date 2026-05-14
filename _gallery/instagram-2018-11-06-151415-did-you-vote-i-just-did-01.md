@@ -11,7 +11,6 @@ year: 2018
 month: 11
 day: 06
 weekday: Tuesday
-gallery: "instagram-2018-11-06-151415-did-you-vote-i-just-did"
 source:
   type: instagram
   uri: "media/other/17974810390094497.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/11/06/151415-did-you-vote-i-just-did.html"
 index: 1
 ---
-
 

@@ -15,11 +15,15 @@ source:
   caption: "One of the reasons i love #LFK"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2022-06-04-150058-one-of-the-reasons-i-love-lfk-01
+images:
+  - id: instagram-2022-06-04-150058-one-of-the-reasons-i-love-lfk-01
+    caption:
+    alt:
 hashtags:
   - "lfk"
 handles: []
 location:
-gallery: "instagram-2022-06-04-150058-one-of-the-reasons-i-love-lfk"
 tags:
   - "lfk"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "One of the reasons i love #LFK"
 ---
-
 One of the reasons i love [#LFK](https://www.instagram.com/explore/tags/lfk/)
-
-{% include gallery.html gallery="instagram-2022-06-04-150058-one-of-the-reasons-i-love-lfk" %}
-

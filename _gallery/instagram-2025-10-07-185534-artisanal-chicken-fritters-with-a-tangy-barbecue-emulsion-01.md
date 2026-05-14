@@ -10,7 +10,6 @@ year: 2025
 month: 10
 day: 07
 weekday: Tuesday
-gallery: "instagram-2025-10-07-185534-artisanal-chicken-fritters-with-a-tangy-barbecue-emulsion"
 source:
   type: instagram
   uri: "media/posts/202510/17902593801264470.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/10/07/185534-artisanal-chicken-fritters-with-a-tangy-barbecue-emulsion.html"
 index: 1
 ---
-
 

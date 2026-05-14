@@ -11,7 +11,6 @@ year: 2025
 month: 08
 day: 05
 weekday: Tuesday
-gallery: "instagram-2025-08-05-185452-dinner-love"
 source:
   type: instagram
   uri: "media/posts/202508/18083406730855003.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/08/05/185452-dinner-love.html"
 index: 1
 ---
-
 

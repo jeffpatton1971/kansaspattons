@@ -15,10 +15,14 @@ source:
   caption: "We really do love them both!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2015-03-16-211500-we-really-do-love-them-both-01
+images:
+  - id: instagram-2015-03-16-211500-we-really-do-love-them-both-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2015-03-16-211500-we-really-do-love-them-both"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "We really do love them both!"
 ---
-
 We really do love them both!
-
-{% include gallery.html gallery="instagram-2015-03-16-211500-we-really-do-love-them-both" %}
-

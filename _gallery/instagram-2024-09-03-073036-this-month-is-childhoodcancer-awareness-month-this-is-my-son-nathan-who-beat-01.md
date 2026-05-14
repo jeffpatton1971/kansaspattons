@@ -12,7 +12,6 @@ year: 2024
 month: 09
 day: 03
 weekday: Tuesday
-gallery: "instagram-2024-09-03-073036-this-month-is-childhoodcancer-awareness-month-this-is-my-son-nathan-who-beat"
 source:
   type: instagram
   uri: "media/posts/202409/17868067323185446.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/09/03/073036-this-month-is-childhoodcancer-awareness-month-this-is-my-son-nathan-who-beat.html"
 index: 1
 ---
-
 

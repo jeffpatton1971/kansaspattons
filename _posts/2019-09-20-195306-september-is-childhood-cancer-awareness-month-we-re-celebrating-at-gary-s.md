@@ -15,10 +15,14 @@ source:
   caption: "September is Childhood Cancer Awareness month, we’re celebrating at Gary’s Berries with all the families who have gone through a similar journey as we did"
   media_count: 10
   cross_post_source: "FB"
+cover_image: instagram-2019-09-20-195306-september-is-childhood-cancer-awareness-month-we-re-celebrating-at-gary-s-01
+related:
+  - type: gallery
+    id: instagram-2019-09-20-195306-september-is-childhood-cancer-awareness-month-we-re-celebrating-at-gary-s
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-09-20-195306-september-is-childhood-cancer-awareness-month-we-re-celebrating-at-gary-s"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "September is Childhood Cancer Awareness month, we’re celebrating at Gary’s Berries with all the families who have gone through a similar journey as we did"
 ---
-
 September is Childhood Cancer Awareness month, we’re celebrating at Gary’s Berries with all the families who have gone through a similar journey as we did
-
-{% include gallery.html gallery="instagram-2019-09-20-195306-september-is-childhood-cancer-awareness-month-we-re-celebrating-at-gary-s" %}
-

@@ -13,7 +13,6 @@ year: 2025
 month: 09
 day: 07
 weekday: Sunday
-gallery: "instagram-2025-09-07-083517-morning-coffee-love"
 source:
   type: instagram
   uri: "media/posts/202509/17895585825295563.jpg"
@@ -27,5 +26,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/09/07/083517-morning-coffee-love.html"
 index: 1
 ---
-
 

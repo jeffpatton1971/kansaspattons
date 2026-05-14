@@ -11,7 +11,6 @@ year: 2025
 month: 04
 day: 06
 weekday: Sunday
-gallery: "instagram-2025-04-06-122501-watching-the-minecraftmovie-with-my-favorite-people"
 source:
   type: instagram
   uri: "media/posts/202504/18062920640061642.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/04/06/122501-watching-the-minecraftmovie-with-my-favorite-people.html"
 index: 1
 ---
-
 

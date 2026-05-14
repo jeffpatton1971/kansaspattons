@@ -10,7 +10,6 @@ year: 2019
 month: 11
 day: 11
 weekday: Monday
-gallery: "instagram-2019-11-11-224456-thanks-for-your-service-grandpa"
 source:
   type: instagram
   uri: "media/other/17844518278759085.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/11/11/224456-thanks-for-your-service-grandpa.html"
 index: 1
 ---
-
 

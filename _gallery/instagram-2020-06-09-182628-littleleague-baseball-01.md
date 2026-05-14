@@ -12,7 +12,6 @@ year: 2020
 month: 06
 day: 09
 weekday: Tuesday
-gallery: "instagram-2020-06-09-182628-littleleague-baseball"
 source:
   type: instagram
   uri: "media/other/17848764083117174.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/06/09/182628-littleleague-baseball.html"
 index: 1
 ---
-
 

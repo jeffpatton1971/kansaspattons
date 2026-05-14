@@ -15,10 +15,14 @@ source:
   caption: "hope everyone had a fun and safe fourth"
   media_count: 6
   cross_post_source: "FB"
+cover_image: instagram-2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth-01
+related:
+  - type: gallery
+    id: instagram-2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "hope everyone had a fun and safe fourth"
 ---
-
 hope everyone had a fun and safe fourth
-
-{% include gallery.html gallery="instagram-2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth" %}
-

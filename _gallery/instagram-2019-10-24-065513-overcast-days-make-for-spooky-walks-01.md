@@ -10,7 +10,6 @@ year: 2019
 month: 10
 day: 24
 weekday: Thursday
-gallery: "instagram-2019-10-24-065513-overcast-days-make-for-spooky-walks"
 source:
   type: instagram
   uri: "media/other/18111401860060210.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/10/24/065513-overcast-days-make-for-spooky-walks.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2022
 month: 04
 day: 26
 weekday: Tuesday
-gallery: "instagram-2022-04-26-233923-clear-night"
 source:
   type: instagram
   uri: "media/other/17903205797570834.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/04/26/233923-clear-night.html"
 index: 1
 ---
-
 

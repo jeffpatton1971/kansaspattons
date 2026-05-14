@@ -11,7 +11,6 @@ year: 2024
 month: 07
 day: 02
 weekday: Tuesday
-gallery: "instagram-2024-07-02-065705-glad-to-be-back-home-in-kansas"
 source:
   type: instagram
   uri: "media/posts/202407/17888469210058086.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/07/02/065705-glad-to-be-back-home-in-kansas.html"
 index: 1
 ---
-
 

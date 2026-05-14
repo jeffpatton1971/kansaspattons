@@ -10,7 +10,6 @@ year: 2019
 month: 10
 day: 30
 weekday: Wednesday
-gallery: "instagram-2019-10-30-210759-it-s-a-little-cold"
 source:
   type: instagram
   uri: "media/other/17985965662281595.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/10/30/210759-it-s-a-little-cold.html"
 index: 1
 ---
-
 

@@ -15,10 +15,14 @@ source:
   caption: "My favorite tennis player"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-08-01-190932-my-favorite-tennis-player-01
+images:
+  - id: instagram-2019-08-01-190932-my-favorite-tennis-player-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-08-01-190932-my-favorite-tennis-player"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "My favorite tennis player"
 ---
-
 My favorite tennis player
-
-{% include gallery.html gallery="instagram-2019-08-01-190932-my-favorite-tennis-player" %}
-

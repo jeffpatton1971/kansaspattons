@@ -10,7 +10,6 @@ year: 2023
 month: 09
 day: 18
 weekday: Monday
-gallery: "instagram-2023-09-18-084210-it-s-hard-to-believe-that-my-little-princess-is-20"
 source:
   type: instagram
   uri: "media/posts/202309/17990455268470057.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/09/18/084210-it-s-hard-to-believe-that-my-little-princess-is-20.html"
 index: 3
 ---
-
 

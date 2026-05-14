@@ -15,11 +15,15 @@ source:
   caption: "Not as cool as @superdodds"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-12-05-182948-not-as-cool-as-superdodds-01
+images:
+  - id: instagram-2019-12-05-182948-not-as-cool-as-superdodds-01
+    caption:
+    alt:
 hashtags: []
 handles:
   - "superdodds"
 location:
-gallery: "instagram-2019-12-05-182948-not-as-cool-as-superdodds"
 tags:
   - "instagram"
 categories: []
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Not as cool as @superdodds"
 ---
-
 Not as cool as [@superdodds](https://www.instagram.com/superdodds/)
-
-{% include gallery.html gallery="instagram-2019-12-05-182948-not-as-cool-as-superdodds" %}
-

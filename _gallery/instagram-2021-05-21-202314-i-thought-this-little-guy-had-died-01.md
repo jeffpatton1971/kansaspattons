@@ -10,7 +10,6 @@ year: 2021
 month: 05
 day: 21
 weekday: Friday
-gallery: "instagram-2021-05-21-202314-i-thought-this-little-guy-had-died"
 source:
   type: instagram
   uri: "media/other/17888698250183672.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/05/21/202314-i-thought-this-little-guy-had-died.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2022
 month: 04
 day: 25
 weekday: Monday
-gallery: "instagram-2022-04-25-173840-went-white-water-rafting-with-natalie-10-our-of-10-would-recommend-raft-masters"
 source:
   type: instagram
   uri: "media/other/17948477320751191.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/04/25/173840-went-white-water-rafting-with-natalie-10-our-of-10-would-recommend-raft-masters.html"
 index: 1
 ---
-
 

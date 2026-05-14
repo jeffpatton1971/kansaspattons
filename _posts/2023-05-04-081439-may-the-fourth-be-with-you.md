@@ -14,10 +14,14 @@ source:
   timestamp: 1683206079
   caption: "May the fourth be with you"
   media_count: 1
+cover_image: instagram-2023-05-04-081439-may-the-fourth-be-with-you-01
+images:
+  - id: instagram-2023-05-04-081439-may-the-fourth-be-with-you-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2023-05-04-081439-may-the-fourth-be-with-you"
 tags:
   - "instagram"
 categories: []
@@ -25,8 +29,4 @@ authors:
   - "Jeff Patton"
 summary: "May the fourth be with you"
 ---
-
 May the fourth be with you
-
-{% include gallery.html gallery="instagram-2023-05-04-081439-may-the-fourth-be-with-you" %}
-

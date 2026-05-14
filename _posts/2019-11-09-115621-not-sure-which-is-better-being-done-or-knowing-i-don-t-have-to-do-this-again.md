@@ -15,10 +15,14 @@ source:
   caption: "Not sure which is better being done or knowing I don’t have to do this again for several months"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-11-09-115621-not-sure-which-is-better-being-done-or-knowing-i-don-t-have-to-do-this-again-01
+images:
+  - id: instagram-2019-11-09-115621-not-sure-which-is-better-being-done-or-knowing-i-don-t-have-to-do-this-again-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-11-09-115621-not-sure-which-is-better-being-done-or-knowing-i-don-t-have-to-do-this-again"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Not sure which is better being done or knowing I don’t have to do this again for several months"
 ---
-
 Not sure which is better being done or knowing I don’t have to do this again for several months
-
-{% include gallery.html gallery="instagram-2019-11-09-115621-not-sure-which-is-better-being-done-or-knowing-i-don-t-have-to-do-this-again" %}
-

@@ -15,11 +15,15 @@ source:
   caption: "Had fun at our #firstrodeo"
   media_count: 10
   cross_post_source: "FB"
+cover_image: instagram-2023-06-17-213145-had-fun-at-our-firstrodeo-01
+related:
+  - type: gallery
+    id: instagram-2023-06-17-213145-had-fun-at-our-firstrodeo
+    rel: photos
 hashtags:
   - "firstrodeo"
 handles: []
 location:
-gallery: "instagram-2023-06-17-213145-had-fun-at-our-firstrodeo"
 tags:
   - "firstrodeo"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Had fun at our #firstrodeo"
 ---
-
 Had fun at our [#firstrodeo](https://www.instagram.com/explore/tags/firstrodeo/)
-
-{% include gallery.html gallery="instagram-2023-06-17-213145-had-fun-at-our-firstrodeo" %}
-

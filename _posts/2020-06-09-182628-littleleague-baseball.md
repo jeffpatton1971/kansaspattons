@@ -15,12 +15,16 @@ source:
   caption: "#littleleague #baseball"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2020-06-09-182628-littleleague-baseball-01
+images:
+  - id: instagram-2020-06-09-182628-littleleague-baseball-01
+    caption:
+    alt:
 hashtags:
   - "littleleague"
   - "baseball"
 handles: []
 location:
-gallery: "instagram-2020-06-09-182628-littleleague-baseball"
 tags:
   - "littleleague"
   - "baseball"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "#littleleague #baseball"
 ---
-
 [#littleleague](https://www.instagram.com/explore/tags/littleleague/) [#baseball](https://www.instagram.com/explore/tags/baseball/)
-
-{% include gallery.html gallery="instagram-2020-06-09-182628-littleleague-baseball" %}
-

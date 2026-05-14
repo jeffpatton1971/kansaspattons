@@ -10,7 +10,6 @@ year: 2022
 month: 09
 day: 23
 weekday: Friday
-gallery: "instagram-2022-09-23-222250-it-s-been-a-minute-but-i-still-love-this-school"
 source:
   type: instagram
   uri: "media/other/17958135887009337.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/09/23/222250-it-s-been-a-minute-but-i-still-love-this-school.html"
 index: 1
 ---
-
 

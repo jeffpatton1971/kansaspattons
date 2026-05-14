@@ -10,7 +10,6 @@ year: 2021
 month: 09
 day: 17
 weekday: Friday
-gallery: "instagram-2021-09-17-183556-first-college-visit-in-the-books"
 source:
   type: instagram
   uri: "media/posts/202109/17872256216554625.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/09/17/183556-first-college-visit-in-the-books.html"
 index: 1
 ---
-
 

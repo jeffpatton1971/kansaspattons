@@ -15,10 +15,14 @@ source:
   caption: "If you made it to the end congrats and happy thanksgiving"
   media_count: 9
   cross_post_source: "FB"
+cover_image: instagram-2021-11-25-181906-if-you-made-it-to-the-end-congrats-and-happy-thanksgiving-01
+related:
+  - type: gallery
+    id: instagram-2021-11-25-181906-if-you-made-it-to-the-end-congrats-and-happy-thanksgiving
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-11-25-181906-if-you-made-it-to-the-end-congrats-and-happy-thanksgiving"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "If you made it to the end congrats and happy thanksgiving"
 ---
-
 If you made it to the end congrats and happy thanksgiving
-
-{% include gallery.html gallery="instagram-2021-11-25-181906-if-you-made-it-to-the-end-congrats-and-happy-thanksgiving" %}
-

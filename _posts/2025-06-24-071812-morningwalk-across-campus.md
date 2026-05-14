@@ -15,11 +15,15 @@ source:
   caption: "#morningwalk across campus"
   media_count: 5
   cross_post_source: "FB"
+cover_image: instagram-2025-06-24-071812-morningwalk-across-campus-01
+related:
+  - type: gallery
+    id: instagram-2025-06-24-071812-morningwalk-across-campus
+    rel: photos
 hashtags:
   - "morningwalk"
 handles: []
 location:
-gallery: "instagram-2025-06-24-071812-morningwalk-across-campus"
 tags:
   - "morningwalk"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "#morningwalk across campus"
 ---
-
 [#morningwalk](https://www.instagram.com/explore/tags/morningwalk/) across campus
-
-{% include gallery.html gallery="instagram-2025-06-24-071812-morningwalk-across-campus" %}
-

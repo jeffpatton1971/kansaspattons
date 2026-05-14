@@ -10,7 +10,6 @@ year: 2019
 month: 08
 day: 31
 weekday: Saturday
-gallery: "instagram-2019-08-31-111358-it-s-been-a-while-since-i-ve-been-to-a-ku-football-game-instajfug-but-when-did"
 source:
   type: instagram
   uri: "media/other/18060717652144547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/08/31/111358-it-s-been-a-while-since-i-ve-been-to-a-ku-football-game-instajfug-but-when-did.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2019
 month: 09
 day: 14
 weekday: Saturday
-gallery: "instagram-2019-09-14-130600-working-hard-hardly-working"
 source:
   type: instagram
   uri: "media/other/17842882306668827.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/09/14/130600-working-hard-hardly-working.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2022
 month: 06
 day: 22
 weekday: Wednesday
-gallery: "instagram-2022-06-22-122404-tacobell-and-taylorswift-on-spotify-make-for-one-happy-natalie-patton"
 source:
   type: instagram
   uri: "media/other/17984038918487462.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/06/22/122404-tacobell-and-taylorswift-on-spotify-make-for-one-happy-natalie-patton.html"
 index: 1
 ---
-
 

@@ -15,10 +15,14 @@ source:
   caption: "Coffee and thunder"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-08-10-085124-coffee-and-thunder-01
+images:
+  - id: instagram-2025-08-10-085124-coffee-and-thunder-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-08-10-085124-coffee-and-thunder"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Coffee and thunder"
 ---
-
 Coffee and thunder
-
-{% include gallery.html gallery="instagram-2025-08-10-085124-coffee-and-thunder" %}
-

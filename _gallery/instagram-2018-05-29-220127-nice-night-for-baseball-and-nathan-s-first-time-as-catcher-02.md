@@ -10,7 +10,6 @@ year: 2018
 month: 05
 day: 29
 weekday: Tuesday
-gallery: "instagram-2018-05-29-220127-nice-night-for-baseball-and-nathan-s-first-time-as-catcher"
 source:
   type: instagram
   uri: "media/posts/201805/17949798322033691.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/05/29/220127-nice-night-for-baseball-and-nathan-s-first-time-as-catcher.html"
 index: 2
 ---
-
 

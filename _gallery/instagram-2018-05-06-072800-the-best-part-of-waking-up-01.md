@@ -10,7 +10,6 @@ year: 2018
 month: 05
 day: 06
 weekday: Sunday
-gallery: "instagram-2018-05-06-072800-the-best-part-of-waking-up"
 source:
   type: instagram
   uri: "media/other/17942667304019068.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/05/06/072800-the-best-part-of-waking-up.html"
 index: 1
 ---
-
 

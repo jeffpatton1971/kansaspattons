@@ -10,7 +10,6 @@ year: 2025
 month: 02
 day: 28
 weekday: Friday
-gallery: "instagram-2025-02-28-141432-my-view-from-the-deck"
 source:
   type: instagram
   uri: "media/posts/202502/18079717120643588.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/02/28/141432-my-view-from-the-deck.html"
 index: 1
 ---
-
 

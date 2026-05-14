@@ -10,7 +10,6 @@ year: 2023
 month: 02
 day: 05
 weekday: Sunday
-gallery: "instagram-2023-02-05-095017-soo-talented"
 source:
   type: instagram
   uri: "media/other/18025774084467789.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/02/05/095017-soo-talented.html"
 index: 1
 ---
-
 

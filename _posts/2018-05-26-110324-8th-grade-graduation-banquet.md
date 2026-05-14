@@ -15,10 +15,14 @@ source:
   caption: "8th grade graduation banquet"
   media_count: 5
   cross_post_source: "FB"
+cover_image: instagram-2018-05-26-110324-8th-grade-graduation-banquet-01
+related:
+  - type: gallery
+    id: instagram-2018-05-26-110324-8th-grade-graduation-banquet
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-05-26-110324-8th-grade-graduation-banquet"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "8th grade graduation banquet"
 ---
-
 8th grade graduation banquet
-
-{% include gallery.html gallery="instagram-2018-05-26-110324-8th-grade-graduation-banquet" %}
-

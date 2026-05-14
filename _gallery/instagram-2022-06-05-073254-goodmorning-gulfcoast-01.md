@@ -12,7 +12,6 @@ year: 2022
 month: 06
 day: 05
 weekday: Sunday
-gallery: "instagram-2022-06-05-073254-goodmorning-gulfcoast"
 source:
   type: instagram
   uri: "media/other/17962820869684220.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/06/05/073254-goodmorning-gulfcoast.html"
 index: 1
 ---
-
 

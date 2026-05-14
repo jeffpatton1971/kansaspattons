@@ -10,7 +10,6 @@ year: 2022
 month: 11
 day: 13
 weekday: Sunday
-gallery: "instagram-2022-11-13-153755-natalie-made-donuts"
 source:
   type: instagram
   uri: "media/other/17955046595227019.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/11/13/153755-natalie-made-donuts.html"
 index: 1
 ---
-
 

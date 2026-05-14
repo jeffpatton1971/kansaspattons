@@ -11,7 +11,6 @@ year: 2023
 month: 06
 day: 27
 weekday: Tuesday
-gallery: "instagram-2023-06-27-203955-overtherainbow"
 source:
   type: instagram
   uri: "media/posts/202306/17921762945735190.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/06/27/203955-overtherainbow.html"
 index: 1
 ---
-
 

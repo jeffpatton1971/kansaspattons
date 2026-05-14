@@ -15,10 +15,14 @@ source:
   caption: "Dinner and fun at the beach this evening"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2025-04-23-193516-dinner-and-fun-at-the-beach-this-evening-01
+related:
+  - type: gallery
+    id: instagram-2025-04-23-193516-dinner-and-fun-at-the-beach-this-evening
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-04-23-193516-dinner-and-fun-at-the-beach-this-evening"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Dinner and fun at the beach this evening"
 ---
-
 Dinner and fun at the beach this evening
-
-{% include gallery.html gallery="instagram-2025-04-23-193516-dinner-and-fun-at-the-beach-this-evening" %}
-

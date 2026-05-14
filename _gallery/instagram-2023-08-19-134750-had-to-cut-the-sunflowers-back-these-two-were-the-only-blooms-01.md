@@ -11,7 +11,6 @@ year: 2023
 month: 08
 day: 19
 weekday: Saturday
-gallery: "instagram-2023-08-19-134750-had-to-cut-the-sunflowers-back-these-two-were-the-only-blooms"
 source:
   type: instagram
   uri: "media/posts/202308/17844044124049304.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/08/19/134750-had-to-cut-the-sunflowers-back-these-two-were-the-only-blooms.html"
 index: 1
 ---
-
 

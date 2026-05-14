@@ -10,7 +10,6 @@ year: 2018
 month: 07
 day: 07
 weekday: Saturday
-gallery: "instagram-2018-07-07-113859-mini-8-awards-ceremony"
 source:
   type: instagram
   uri: "media/posts/201807/17899512784205008.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/07/07/113859-mini-8-awards-ceremony.html"
 index: 2
 ---
-
 

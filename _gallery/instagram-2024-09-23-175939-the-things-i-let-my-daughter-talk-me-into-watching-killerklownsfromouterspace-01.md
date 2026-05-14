@@ -11,7 +11,6 @@ year: 2024
 month: 09
 day: 23
 weekday: Monday
-gallery: "instagram-2024-09-23-175939-the-things-i-let-my-daughter-talk-me-into-watching-killerklownsfromouterspace"
 source:
   type: instagram
   uri: "media/posts/202409/18021983756425056.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/09/23/175939-the-things-i-let-my-daughter-talk-me-into-watching-killerklownsfromouterspace.html"
 index: 1
 ---
-
 

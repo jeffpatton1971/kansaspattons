@@ -12,7 +12,11 @@ source:
   type: wordpress
   id: 574
   url: "https://jeffspatton.wordpress.com/2013/05/26/may-26-2013/"
-gallery: "wordpress-2013-05-26-085559-may-26-2013"
+cover_image: "2013-05-26-wp-20130526-005"
+related:
+  - type: gallery
+    id: wordpress-2013-05-26-085559-may-26-2013
+    rel: photos
 categories:
   - "family"
   - "Nathan"
@@ -23,5 +27,3 @@ authors:
 summary: "Nathan helped me pick out a new mower since ours died. He had a lot of fun on the riding mowers, but we settled for a push mower."
 ---
 Nathan helped me pick out a new mower since ours died. He had a lot of fun on the riding mowers, but we settled for a push mower.
-
-{% include gallery.html gallery="wordpress-2013-05-26-085559-may-26-2013" %}

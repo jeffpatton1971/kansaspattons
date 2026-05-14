@@ -10,7 +10,6 @@ year: 2020
 month: 05
 day: 17
 weekday: Sunday
-gallery: "instagram-2020-05-17-104930-homemade-hash-browns"
 source:
   type: instagram
   uri: "media/posts/202005/17959798846317157.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/05/17/104930-homemade-hash-browns.html"
 index: 1
 ---
-
 

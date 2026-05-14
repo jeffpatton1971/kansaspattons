@@ -10,7 +10,6 @@ year: 2019
 month: 07
 day: 13
 weekday: Saturday
-gallery: "instagram-2019-07-13-131157-just-watched-spider-man-far-from-home-with-this-girl"
 source:
   type: instagram
   uri: "media/other/18055414069081453.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/07/13/131157-just-watched-spider-man-far-from-home-with-this-girl.html"
 index: 1
 ---
-
 

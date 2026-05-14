@@ -11,7 +11,6 @@ year: 2023
 month: 05
 day: 05
 weekday: Friday
-gallery: "instagram-2023-05-05-172918-cincodemayo-dinner-with-my-favorite-daughter"
 source:
   type: instagram
   uri: "media/posts/202305/17888650766817599.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/05/05/172918-cincodemayo-dinner-with-my-favorite-daughter.html"
 index: 1
 ---
-
 

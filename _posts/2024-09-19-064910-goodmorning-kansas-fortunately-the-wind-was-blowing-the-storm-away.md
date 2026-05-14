@@ -15,12 +15,16 @@ source:
   caption: "#goodmorning #kansas fortunately the wind was blowing the storm away"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2024-09-19-064910-goodmorning-kansas-fortunately-the-wind-was-blowing-the-storm-away-01
+images:
+  - id: instagram-2024-09-19-064910-goodmorning-kansas-fortunately-the-wind-was-blowing-the-storm-away-01
+    caption:
+    alt:
 hashtags:
   - "goodmorning"
   - "kansas"
 handles: []
 location:
-gallery: "instagram-2024-09-19-064910-goodmorning-kansas-fortunately-the-wind-was-blowing-the-storm-away"
 tags:
   - "goodmorning"
   - "kansas"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "#goodmorning #kansas fortunately the wind was blowing the storm away"
 ---
-
 [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#kansas](https://www.instagram.com/explore/tags/kansas/) fortunately the wind was blowing the storm away
-
-{% include gallery.html gallery="instagram-2024-09-19-064910-goodmorning-kansas-fortunately-the-wind-was-blowing-the-storm-away" %}
-

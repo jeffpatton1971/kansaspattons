@@ -10,7 +10,6 @@ year: 2018
 month: 09
 day: 18
 weekday: Tuesday
-gallery: "instagram-2018-09-18-072146-happy-birthday-to-my-favorite-girl-hard-to-believe-it-s-been-15yrs-i-love-you"
 source:
   type: instagram
   uri: "media/posts/201809/17948736466160920.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/09/18/072146-happy-birthday-to-my-favorite-girl-hard-to-believe-it-s-been-15yrs-i-love-you.html"
 index: 1
 ---
-
 

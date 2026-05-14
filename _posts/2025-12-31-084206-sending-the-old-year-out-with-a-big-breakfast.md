@@ -15,10 +15,14 @@ source:
   caption: "Sending the old year out with a big breakfast"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-12-31-084206-sending-the-old-year-out-with-a-big-breakfast-01
+images:
+  - id: instagram-2025-12-31-084206-sending-the-old-year-out-with-a-big-breakfast-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-12-31-084206-sending-the-old-year-out-with-a-big-breakfast"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Sending the old year out with a big breakfast"
 ---
-
 Sending the old year out with a big breakfast
-
-{% include gallery.html gallery="instagram-2025-12-31-084206-sending-the-old-year-out-with-a-big-breakfast" %}
-

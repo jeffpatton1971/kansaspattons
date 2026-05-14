@@ -10,7 +10,6 @@ year: 2019
 month: 09
 day: 29
 weekday: Sunday
-gallery: "instagram-2019-09-29-171102-just-a-little-housework"
 source:
   type: instagram
   uri: "media/posts/201909/18004534798252949.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/09/29/171102-just-a-little-housework.html"
 index: 1
 ---
-
 

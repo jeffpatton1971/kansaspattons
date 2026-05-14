@@ -10,7 +10,6 @@ year: 2020
 month: 07
 day: 04
 weekday: Saturday
-gallery: "instagram-2020-07-04-100040-fourth-of-july-pancakes"
 source:
   type: instagram
   uri: "media/other/18156439891053570.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/07/04/100040-fourth-of-july-pancakes.html"
 index: 1
 ---
-
 

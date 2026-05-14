@@ -11,7 +11,6 @@ year: 2021
 month: 09
 day: 22
 weekday: Wednesday
-gallery: "instagram-2021-09-22-205849-filters-are-fun"
 source:
   type: instagram
   uri: "media/other/17948589922550274.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/09/22/205849-filters-are-fun.html"
 index: 1
 ---
-
 

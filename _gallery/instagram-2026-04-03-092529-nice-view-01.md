@@ -10,7 +10,6 @@ year: 2026
 month: 04
 day: 03
 weekday: Friday
-gallery: "instagram-2026-04-03-092529-nice-view"
 source:
   type: instagram
   uri: "media/posts/202604/18100026130770852.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/04/03/092529-nice-view.html"
 index: 1
 ---
-
 

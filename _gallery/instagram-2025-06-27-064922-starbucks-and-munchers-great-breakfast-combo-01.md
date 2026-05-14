@@ -12,7 +12,6 @@ year: 2025
 month: 06
 day: 27
 weekday: Friday
-gallery: "instagram-2025-06-27-064922-starbucks-and-munchers-great-breakfast-combo"
 source:
   type: instagram
   uri: "media/posts/202506/18068409977102299.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/06/27/064922-starbucks-and-munchers-great-breakfast-combo.html"
 index: 1
 ---
-
 

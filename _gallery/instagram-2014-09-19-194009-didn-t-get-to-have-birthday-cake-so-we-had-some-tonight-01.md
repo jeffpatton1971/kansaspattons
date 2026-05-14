@@ -10,7 +10,6 @@ year: 2014
 month: 09
 day: 19
 weekday: Friday
-gallery: "instagram-2014-09-19-194009-didn-t-get-to-have-birthday-cake-so-we-had-some-tonight"
 source:
   type: instagram
   uri: "media/other/17843350729063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/09/19/194009-didn-t-get-to-have-birthday-cake-so-we-had-some-tonight.html"
 index: 1
 ---
-
 

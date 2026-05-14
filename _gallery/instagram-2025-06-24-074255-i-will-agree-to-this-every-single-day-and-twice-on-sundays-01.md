@@ -10,7 +10,6 @@ year: 2025
 month: 06
 day: 24
 weekday: Tuesday
-gallery: "instagram-2025-06-24-074255-i-will-agree-to-this-every-single-day-and-twice-on-sundays"
 source:
   type: instagram
   uri: "media/posts/202506/18045963098552248.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/06/24/074255-i-will-agree-to-this-every-single-day-and-twice-on-sundays.html"
 index: 1
 ---
-
 

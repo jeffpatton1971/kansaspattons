@@ -15,12 +15,19 @@ source:
   caption: "#goodmorning #rockskipping"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2022-05-06-071703-goodmorning-rockskipping-01
+images:
+  - id: instagram-2022-05-06-071703-goodmorning-rockskipping-01
+    caption:
+    alt:
+  - id: instagram-2022-05-06-071703-goodmorning-rockskipping-02
+    caption:
+    alt:
 hashtags:
   - "goodmorning"
   - "rockskipping"
 handles: []
 location:
-gallery: "instagram-2022-05-06-071703-goodmorning-rockskipping"
 tags:
   - "goodmorning"
   - "rockskipping"
@@ -30,8 +37,4 @@ authors:
   - "Jeff Patton"
 summary: "#goodmorning #rockskipping"
 ---
-
 [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#rockskipping](https://www.instagram.com/explore/tags/rockskipping/)
-
-{% include gallery.html gallery="instagram-2022-05-06-071703-goodmorning-rockskipping" %}
-

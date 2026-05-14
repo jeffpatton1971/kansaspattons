@@ -10,7 +10,6 @@ year: 2024
 month: 09
 day: 18
 weekday: Wednesday
-gallery: "instagram-2024-09-18-191437-i-don-t-know-how-this-person-is-21yrs-old-today"
 source:
   type: instagram
   uri: "media/posts/202409/18059853040680927.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/09/18/191437-i-don-t-know-how-this-person-is-21yrs-old-today.html"
 index: 1
 ---
-
 

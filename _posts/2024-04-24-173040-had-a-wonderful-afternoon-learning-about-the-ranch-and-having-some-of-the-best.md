@@ -15,10 +15,14 @@ source:
   caption: "Had a wonderful afternoon learning about the ranch and having some of the best BBQ I’ve had in Texas"
   media_count: 8
   cross_post_source: "FB"
+cover_image: instagram-2024-04-24-173040-had-a-wonderful-afternoon-learning-about-the-ranch-and-having-some-of-the-best-01
+related:
+  - type: gallery
+    id: instagram-2024-04-24-173040-had-a-wonderful-afternoon-learning-about-the-ranch-and-having-some-of-the-best
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2024-04-24-173040-had-a-wonderful-afternoon-learning-about-the-ranch-and-having-some-of-the-best"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Had a wonderful afternoon learning about the ranch and having some of the best BBQ I’ve had in Texas"
 ---
-
 Had a wonderful afternoon learning about the ranch and having some of the best BBQ I’ve had in Texas
-
-{% include gallery.html gallery="instagram-2024-04-24-173040-had-a-wonderful-afternoon-learning-about-the-ranch-and-having-some-of-the-best" %}
-

@@ -10,7 +10,6 @@ year: 2022
 month: 04
 day: 26
 weekday: Tuesday
-gallery: "instagram-2022-04-26-130406-if-she-were-3-yrs-older-this-would-have-been-more-entertaining"
 source:
   type: instagram
   uri: "media/other/18225295630191370.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/04/26/130406-if-she-were-3-yrs-older-this-would-have-been-more-entertaining.html"
 index: 1
 ---
-
 

@@ -11,7 +11,6 @@ year: 2023
 month: 05
 day: 02
 weekday: Tuesday
-gallery: "instagram-2023-05-02-190836-glove-positioning-is-key-i-think-he-won-t-make-this-mistake-again-baseball"
 source:
   type: instagram
   uri: "media/posts/202305/17991993484789972.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/05/02/190836-glove-positioning-is-key-i-think-he-won-t-make-this-mistake-again-baseball.html"
 index: 1
 ---
-
 

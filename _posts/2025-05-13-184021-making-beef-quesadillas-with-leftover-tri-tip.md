@@ -15,10 +15,17 @@ source:
   caption: "Making beef quesadillas with leftover tri-tip"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2025-05-13-184021-making-beef-quesadillas-with-leftover-tri-tip-01
+images:
+  - id: instagram-2025-05-13-184021-making-beef-quesadillas-with-leftover-tri-tip-01
+    caption:
+    alt:
+  - id: instagram-2025-05-13-184021-making-beef-quesadillas-with-leftover-tri-tip-02
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-05-13-184021-making-beef-quesadillas-with-leftover-tri-tip"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "Making beef quesadillas with leftover tri-tip"
 ---
-
 Making beef quesadillas with leftover tri-tip
-
-{% include gallery.html gallery="instagram-2025-05-13-184021-making-beef-quesadillas-with-leftover-tri-tip" %}
-

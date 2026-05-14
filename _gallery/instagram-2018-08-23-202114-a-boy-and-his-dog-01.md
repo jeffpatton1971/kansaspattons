@@ -10,7 +10,6 @@ year: 2018
 month: 08
 day: 23
 weekday: Thursday
-gallery: "instagram-2018-08-23-202114-a-boy-and-his-dog"
 source:
   type: instagram
   uri: "media/other/17974578409002217.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/08/23/202114-a-boy-and-his-dog.html"
 index: 1
 ---
-
 

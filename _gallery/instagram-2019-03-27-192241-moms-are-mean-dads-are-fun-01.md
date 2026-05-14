@@ -10,7 +10,6 @@ year: 2019
 month: 03
 day: 27
 weekday: Wednesday
-gallery: "instagram-2019-03-27-192241-moms-are-mean-dads-are-fun"
 source:
   type: instagram
   uri: "media/other/18027526546125512.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/03/27/192241-moms-are-mean-dads-are-fun.html"
 index: 1
 ---
-
 

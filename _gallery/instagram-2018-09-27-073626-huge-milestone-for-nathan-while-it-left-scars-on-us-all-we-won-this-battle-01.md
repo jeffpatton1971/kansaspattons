@@ -10,7 +10,6 @@ year: 2018
 month: 09
 day: 27
 weekday: Thursday
-gallery: "instagram-2018-09-27-073626-huge-milestone-for-nathan-while-it-left-scars-on-us-all-we-won-this-battle"
 source:
   type: instagram
   uri: "media/other/17940838426199415.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/09/27/073626-huge-milestone-for-nathan-while-it-left-scars-on-us-all-we-won-this-battle.html"
 index: 1
 ---
-
 

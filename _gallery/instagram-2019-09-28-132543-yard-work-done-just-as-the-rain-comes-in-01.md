@@ -10,7 +10,6 @@ year: 2019
 month: 09
 day: 28
 weekday: Saturday
-gallery: "instagram-2019-09-28-132543-yard-work-done-just-as-the-rain-comes-in"
 source:
   type: instagram
   uri: "media/other/17921681749334283.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/09/28/132543-yard-work-done-just-as-the-rain-comes-in.html"
 index: 1
 ---
-
 

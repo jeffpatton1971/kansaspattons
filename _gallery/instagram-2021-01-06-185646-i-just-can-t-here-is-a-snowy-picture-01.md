@@ -10,7 +10,6 @@ year: 2021
 month: 01
 day: 06
 weekday: Wednesday
-gallery: "instagram-2021-01-06-185646-i-just-can-t-here-is-a-snowy-picture"
 source:
   type: instagram
   uri: "media/other/18153926800097587.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/01/06/185646-i-just-can-t-here-is-a-snowy-picture.html"
 index: 1
 ---
-
 

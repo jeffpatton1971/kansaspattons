@@ -11,7 +11,6 @@ year: 2021
 month: 04
 day: 12
 weekday: Monday
-gallery: "instagram-2021-04-12-063026-morningwalk"
 source:
   type: instagram
   uri: "media/other/17896262899954255.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/04/12/063026-morningwalk.html"
 index: 1
 ---
-
 

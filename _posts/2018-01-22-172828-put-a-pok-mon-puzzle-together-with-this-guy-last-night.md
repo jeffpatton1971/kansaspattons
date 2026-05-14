@@ -15,10 +15,14 @@ source:
   caption: "Put a Pokémon puzzle together with this guy last night"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-01-22-172828-put-a-pok-mon-puzzle-together-with-this-guy-last-night-01
+images:
+  - id: instagram-2018-01-22-172828-put-a-pok-mon-puzzle-together-with-this-guy-last-night-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-01-22-172828-put-a-pok-mon-puzzle-together-with-this-guy-last-night"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Put a Pokémon puzzle together with this guy last night"
 ---
-
 Put a Pokémon puzzle together with this guy last night
-
-{% include gallery.html gallery="instagram-2018-01-22-172828-put-a-pok-mon-puzzle-together-with-this-guy-last-night" %}
-

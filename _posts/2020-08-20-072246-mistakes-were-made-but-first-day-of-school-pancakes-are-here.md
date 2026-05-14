@@ -15,10 +15,14 @@ source:
   caption: "Mistakes were made but first day of school pancakes are here"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2020-08-20-072246-mistakes-were-made-but-first-day-of-school-pancakes-are-here-01
+related:
+  - type: gallery
+    id: instagram-2020-08-20-072246-mistakes-were-made-but-first-day-of-school-pancakes-are-here
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2020-08-20-072246-mistakes-were-made-but-first-day-of-school-pancakes-are-here"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Mistakes were made but first day of school pancakes are here"
 ---
-
 Mistakes were made but first day of school pancakes are here
-
-{% include gallery.html gallery="instagram-2020-08-20-072246-mistakes-were-made-but-first-day-of-school-pancakes-are-here" %}
-

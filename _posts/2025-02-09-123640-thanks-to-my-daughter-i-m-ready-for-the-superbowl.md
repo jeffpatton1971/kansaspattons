@@ -15,11 +15,15 @@ source:
   caption: "Thanks to my daughter I’m ready for the #SuperBowl"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-02-09-123640-thanks-to-my-daughter-i-m-ready-for-the-superbowl-01
+images:
+  - id: instagram-2025-02-09-123640-thanks-to-my-daughter-i-m-ready-for-the-superbowl-01
+    caption:
+    alt:
 hashtags:
   - "superbowl"
 handles: []
 location:
-gallery: "instagram-2025-02-09-123640-thanks-to-my-daughter-i-m-ready-for-the-superbowl"
 tags:
   - "superbowl"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Thanks to my daughter I’m ready for the #SuperBowl"
 ---
-
 Thanks to my daughter I’m ready for the [#SuperBowl](https://www.instagram.com/explore/tags/superbowl/)
-
-{% include gallery.html gallery="instagram-2025-02-09-123640-thanks-to-my-daughter-i-m-ready-for-the-superbowl" %}
-

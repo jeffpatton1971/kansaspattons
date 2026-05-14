@@ -10,7 +10,6 @@ year: 2025
 month: 08
 day: 13
 weekday: Wednesday
-gallery: "instagram-2025-08-13-083013-he-s-so-happy"
 source:
   type: instagram
   uri: "media/posts/202508/18307372054172462.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/08/13/083013-he-s-so-happy.html"
 index: 1
 ---
-
 

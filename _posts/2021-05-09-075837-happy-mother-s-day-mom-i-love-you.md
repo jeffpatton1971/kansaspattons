@@ -15,10 +15,14 @@ source:
   caption: "Happy Mother’s Day mom, I love you."
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-05-09-075837-happy-mother-s-day-mom-i-love-you-01
+images:
+  - id: instagram-2021-05-09-075837-happy-mother-s-day-mom-i-love-you-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-05-09-075837-happy-mother-s-day-mom-i-love-you"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Happy Mother’s Day mom, I love you."
 ---
-
 Happy Mother’s Day mom, I love you.
-
-{% include gallery.html gallery="instagram-2021-05-09-075837-happy-mother-s-day-mom-i-love-you" %}
-

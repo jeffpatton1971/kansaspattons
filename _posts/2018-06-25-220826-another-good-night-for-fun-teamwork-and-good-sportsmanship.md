@@ -15,10 +15,14 @@ source:
   caption: "Another good night for fun, teamwork and good sportsmanship"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2018-06-25-220826-another-good-night-for-fun-teamwork-and-good-sportsmanship-01
+related:
+  - type: gallery
+    id: instagram-2018-06-25-220826-another-good-night-for-fun-teamwork-and-good-sportsmanship
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-06-25-220826-another-good-night-for-fun-teamwork-and-good-sportsmanship"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Another good night for fun, teamwork and good sportsmanship"
 ---
-
 Another good night for fun, teamwork and good sportsmanship
-
-{% include gallery.html gallery="instagram-2018-06-25-220826-another-good-night-for-fun-teamwork-and-good-sportsmanship" %}
-

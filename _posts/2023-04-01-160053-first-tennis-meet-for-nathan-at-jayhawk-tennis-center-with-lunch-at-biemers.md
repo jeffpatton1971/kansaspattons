@@ -14,10 +14,14 @@ source:
   timestamp: 1680382853
   caption: "First tennis meet for Nathan at Jayhawk Tennis Center with lunch at Biemers after!"
   media_count: 7
+cover_image: instagram-2023-04-01-160053-first-tennis-meet-for-nathan-at-jayhawk-tennis-center-with-lunch-at-biemers-01
+related:
+  - type: gallery
+    id: instagram-2023-04-01-160053-first-tennis-meet-for-nathan-at-jayhawk-tennis-center-with-lunch-at-biemers
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2023-04-01-160053-first-tennis-meet-for-nathan-at-jayhawk-tennis-center-with-lunch-at-biemers"
 tags:
   - "instagram"
 categories:
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "First tennis meet for Nathan at Jayhawk Tennis Center with lunch at Biemers after!"
 ---
-
 First tennis meet for Nathan at Jayhawk Tennis Center with lunch at Biemers after!
-
-{% include gallery.html gallery="instagram-2023-04-01-160053-first-tennis-meet-for-nathan-at-jayhawk-tennis-center-with-lunch-at-biemers" %}
-

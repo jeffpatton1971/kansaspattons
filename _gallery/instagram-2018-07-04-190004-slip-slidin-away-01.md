@@ -10,7 +10,6 @@ year: 2018
 month: 07
 day: 04
 weekday: Wednesday
-gallery: "instagram-2018-07-04-190004-slip-slidin-away"
 source:
   type: instagram
   uri: "media/other/17928808474193120.mp4"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/07/04/190004-slip-slidin-away.html"
 index: 1
 ---
-
 

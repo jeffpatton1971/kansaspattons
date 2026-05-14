@@ -10,7 +10,6 @@ year: 2015
 month: 03
 day: 01
 weekday: Sunday
-gallery: "instagram-2015-03-01-200059-sometimes-when-you-feel-sick-it-s-better-to-be-in-mom-s-bed-with-all-your-toys"
 source:
   type: instagram
   uri: "media/other/17841744568063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2015/03/01/200059-sometimes-when-you-feel-sick-it-s-better-to-be-in-mom-s-bed-with-all-your-toys.html"
 index: 1
 ---
-
 

@@ -12,7 +12,6 @@ year: 2025
 month: 08
 day: 16
 weekday: Saturday
-gallery: "instagram-2025-08-16-083545-breakfast-breathe"
 source:
   type: instagram
   uri: "media/posts/202508/18069531310927021.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/08/16/083545-breakfast-breathe.html"
 index: 1
 ---
-
 

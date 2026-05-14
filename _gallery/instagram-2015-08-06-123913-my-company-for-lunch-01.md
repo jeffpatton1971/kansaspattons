@@ -10,7 +10,6 @@ year: 2015
 month: 08
 day: 06
 weekday: Thursday
-gallery: "instagram-2015-08-06-123913-my-company-for-lunch"
 source:
   type: instagram
   uri: "media/other/17842101976063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2015/08/06/123913-my-company-for-lunch.html"
 index: 1
 ---
-
 

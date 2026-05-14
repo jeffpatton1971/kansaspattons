@@ -15,12 +15,16 @@ source:
   caption: "#hardwork #gardening"
   media_count: 5
   cross_post_source: "FB"
+cover_image: instagram-2023-05-21-190605-hardwork-gardening-01
+related:
+  - type: gallery
+    id: instagram-2023-05-21-190605-hardwork-gardening
+    rel: photos
 hashtags:
   - "hardwork"
   - "gardening"
 handles: []
 location:
-gallery: "instagram-2023-05-21-190605-hardwork-gardening"
 tags:
   - "hardwork"
   - "gardening"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "#hardwork #gardening"
 ---
-
 [#hardwork](https://www.instagram.com/explore/tags/hardwork/) [#gardening](https://www.instagram.com/explore/tags/gardening/)
-
-{% include gallery.html gallery="instagram-2023-05-21-190605-hardwork-gardening" %}
-

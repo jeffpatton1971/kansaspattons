@@ -10,7 +10,6 @@ year: 2018
 month: 08
 day: 04
 weekday: Saturday
-gallery: "instagram-2018-08-04-143819-tree-trimming-then-the-girls-decided-they-wanted-a-lean-to"
 source:
   type: instagram
   uri: "media/other/17945856814084045.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/08/04/143819-tree-trimming-then-the-girls-decided-they-wanted-a-lean-to.html"
 index: 1
 ---
-
 

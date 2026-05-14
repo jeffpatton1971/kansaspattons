@@ -15,12 +15,16 @@ source:
   caption: "@kansastourism #sunflowers"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2022-08-27-161934-kansastourism-sunflowers-01
+images:
+  - id: instagram-2022-08-27-161934-kansastourism-sunflowers-01
+    caption:
+    alt:
 hashtags:
   - "sunflowers"
 handles:
   - "kansastourism"
 location:
-gallery: "instagram-2022-08-27-161934-kansastourism-sunflowers"
 tags:
   - "sunflowers"
   - "instagram"
@@ -29,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "@kansastourism #sunflowers"
 ---
-
 [@kansastourism](https://www.instagram.com/kansastourism/) [#sunflowers](https://www.instagram.com/explore/tags/sunflowers/)
-
-{% include gallery.html gallery="instagram-2022-08-27-161934-kansastourism-sunflowers" %}
-

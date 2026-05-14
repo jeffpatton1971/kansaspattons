@@ -10,7 +10,6 @@ year: 2015
 month: 02
 day: 28
 weekday: Saturday
-gallery: "instagram-2015-02-28-172754-nathan-and-happy"
 source:
   type: instagram
   uri: "media/other/17843555557063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2015/02/28/172754-nathan-and-happy.html"
 index: 1
 ---
-
 

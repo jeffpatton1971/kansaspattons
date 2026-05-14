@@ -15,12 +15,16 @@ source:
   caption: "Just got our second  #covidvacccine shot we are done and done! Thanks @pfizerinc"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-04-22-150720-just-got-our-second-covidvacccine-shot-we-are-done-and-done-thanks-pfizerinc-01
+images:
+  - id: instagram-2021-04-22-150720-just-got-our-second-covidvacccine-shot-we-are-done-and-done-thanks-pfizerinc-01
+    caption:
+    alt:
 hashtags:
   - "covidvacccine"
 handles:
   - "pfizerinc"
 location:
-gallery: "instagram-2021-04-22-150720-just-got-our-second-covidvacccine-shot-we-are-done-and-done-thanks-pfizerinc"
 tags:
   - "covidvacccine"
   - "instagram"
@@ -29,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "Just got our second  #covidvacccine shot we are done and done! Thanks @pfizerinc"
 ---
-
 Just got our second  [#covidvacccine](https://www.instagram.com/explore/tags/covidvacccine/) shot we are done and done! Thanks [@pfizerinc](https://www.instagram.com/pfizerinc/)
-
-{% include gallery.html gallery="instagram-2021-04-22-150720-just-got-our-second-covidvacccine-shot-we-are-done-and-done-thanks-pfizerinc" %}
-

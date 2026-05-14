@@ -15,10 +15,14 @@ source:
   caption: "Snow...because potato!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-03-30-072427-snow-because-potato-01
+images:
+  - id: instagram-2019-03-30-072427-snow-because-potato-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-03-30-072427-snow-because-potato"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Snow...because potato!"
 ---
-
 Snow...because potato!
-
-{% include gallery.html gallery="instagram-2019-03-30-072427-snow-because-potato" %}
-

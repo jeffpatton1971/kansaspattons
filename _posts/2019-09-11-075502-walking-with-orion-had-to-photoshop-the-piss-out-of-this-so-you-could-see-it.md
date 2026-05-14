@@ -15,10 +15,14 @@ source:
   caption: "Walking with Orion...had to photoshop the piss out of this so you could see it"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-09-11-075502-walking-with-orion-had-to-photoshop-the-piss-out-of-this-so-you-could-see-it-01
+images:
+  - id: instagram-2019-09-11-075502-walking-with-orion-had-to-photoshop-the-piss-out-of-this-so-you-could-see-it-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-09-11-075502-walking-with-orion-had-to-photoshop-the-piss-out-of-this-so-you-could-see-it"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Walking with Orion...had to photoshop the piss out of this so you could see it"
 ---
-
 Walking with Orion...had to photoshop the piss out of this so you could see it
-
-{% include gallery.html gallery="instagram-2019-09-11-075502-walking-with-orion-had-to-photoshop-the-piss-out-of-this-so-you-could-see-it" %}
-

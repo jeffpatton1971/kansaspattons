@@ -15,10 +15,14 @@ source:
   caption: "Had a fun evening at the kids campout...Nate really enjoyed the fishing"
   media_count: 9
   cross_post_source: "FB"
+cover_image: instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing-01
+related:
+  - type: gallery
+    id: instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Had a fun evening at the kids campout...Nate really enjoyed the fishing"
 ---
-
 Had a fun evening at the kids campout...Nate really enjoyed the fishing
-
-{% include gallery.html gallery="instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing" %}
-

@@ -10,7 +10,6 @@ year: 2025
 month: 05
 day: 11
 weekday: Sunday
-gallery: "instagram-2025-05-11-195505-smoked-tri-tip-for-mother-s-day-dinner"
 source:
   type: instagram
   uri: "media/posts/202505/17852928777442284.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/05/11/195505-smoked-tri-tip-for-mother-s-day-dinner.html"
 index: 1
 ---
-
 

@@ -15,12 +15,16 @@ source:
   caption: "Had fun with Natalie today watching the #eclipse2024 over #kansas. We had fun making a pinhole camera and then a friend on Facebook posted a pic of a pasta strainer view!"
   media_count: 6
   cross_post_source: "FB"
+cover_image: instagram-2024-04-08-140445-had-fun-with-natalie-today-watching-the-eclipse2024-over-kansas-we-had-fun-01
+related:
+  - type: gallery
+    id: instagram-2024-04-08-140445-had-fun-with-natalie-today-watching-the-eclipse2024-over-kansas-we-had-fun
+    rel: photos
 hashtags:
   - "eclipse2024"
   - "kansas"
 handles: []
 location:
-gallery: "instagram-2024-04-08-140445-had-fun-with-natalie-today-watching-the-eclipse2024-over-kansas-we-had-fun"
 tags:
   - "eclipse2024"
   - "kansas"
@@ -31,8 +35,4 @@ authors:
   - "Jeff Patton"
 summary: "Had fun with Natalie today watching the #eclipse2024 over #kansas. We had fun making a pinhole camera and then a friend on Facebook posted a pic of a pasta strainer view!"
 ---
-
 Had fun with Natalie today watching the [#eclipse2024](https://www.instagram.com/explore/tags/eclipse2024/) over [#kansas](https://www.instagram.com/explore/tags/kansas/). We had fun making a pinhole camera and then a friend on Facebook posted a pic of a pasta strainer view!
-
-{% include gallery.html gallery="instagram-2024-04-08-140445-had-fun-with-natalie-today-watching-the-eclipse2024-over-kansas-we-had-fun" %}
-

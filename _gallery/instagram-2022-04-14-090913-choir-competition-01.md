@@ -10,7 +10,6 @@ year: 2022
 month: 04
 day: 14
 weekday: Thursday
-gallery: "instagram-2022-04-14-090913-choir-competition"
 source:
   type: instagram
   uri: "media/posts/202204/17946549541787013.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/04/14/090913-choir-competition.html"
 index: 1
 ---
-
 

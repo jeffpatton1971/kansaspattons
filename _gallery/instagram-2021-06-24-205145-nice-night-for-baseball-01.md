@@ -11,7 +11,6 @@ year: 2021
 month: 06
 day: 24
 weekday: Thursday
-gallery: "instagram-2021-06-24-205145-nice-night-for-baseball"
 source:
   type: instagram
   uri: "media/other/17976930190384688.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/06/24/205145-nice-night-for-baseball.html"
 index: 1
 ---
-
 

@@ -15,10 +15,14 @@ source:
   caption: "Little drive in to work this week"
   media_count: 6
   cross_post_source: "FB"
+cover_image: instagram-2018-11-25-193049-little-drive-in-to-work-this-week-01
+related:
+  - type: gallery
+    id: instagram-2018-11-25-193049-little-drive-in-to-work-this-week
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-11-25-193049-little-drive-in-to-work-this-week"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Little drive in to work this week"
 ---
-
 Little drive in to work this week
-
-{% include gallery.html gallery="instagram-2018-11-25-193049-little-drive-in-to-work-this-week" %}
-

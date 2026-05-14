@@ -11,7 +11,6 @@ year: 2023
 month: 07
 day: 11
 weekday: Tuesday
-gallery: "instagram-2023-07-11-191526-prayingmantis"
 source:
   type: instagram
   uri: "media/posts/202307/17894902469838793.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/07/11/191526-prayingmantis.html"
 index: 1
 ---
-
 

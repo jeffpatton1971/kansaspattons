@@ -10,7 +10,6 @@ year: 2023
 month: 08
 day: 26
 weekday: Saturday
-gallery: "instagram-2023-08-26-121610-a-little-dessert-don-t-ask-me-to-spell-it-but-i-will-eat-it"
 source:
   type: instagram
   uri: "media/posts/202308/17899871330838882.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/08/26/121610-a-little-dessert-don-t-ask-me-to-spell-it-but-i-will-eat-it.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2021
 month: 03
 day: 19
 weekday: Friday
-gallery: "instagram-2021-03-19-143632-this-little-boy-turned-10-today"
 source:
   type: instagram
   uri: "media/posts/202103/17869182578360949.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/03/19/143632-this-little-boy-turned-10-today.html"
 index: 1
 ---
-
 

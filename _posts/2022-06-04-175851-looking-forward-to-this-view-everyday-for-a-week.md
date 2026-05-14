@@ -15,10 +15,14 @@ source:
   caption: "Looking forward to this view everyday for a week!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2022-06-04-175851-looking-forward-to-this-view-everyday-for-a-week-01
+images:
+  - id: instagram-2022-06-04-175851-looking-forward-to-this-view-everyday-for-a-week-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2022-06-04-175851-looking-forward-to-this-view-everyday-for-a-week"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Looking forward to this view everyday for a week!"
 ---
-
 Looking forward to this view everyday for a week!
-
-{% include gallery.html gallery="instagram-2022-06-04-175851-looking-forward-to-this-view-everyday-for-a-week" %}
-

@@ -15,10 +15,14 @@ source:
   caption: "It was play ball this afternoon!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2016-05-15-165329-it-was-play-ball-this-afternoon-01
+images:
+  - id: instagram-2016-05-15-165329-it-was-play-ball-this-afternoon-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2016-05-15-165329-it-was-play-ball-this-afternoon"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "It was play ball this afternoon!"
 ---
-
 It was play ball this afternoon!
-
-{% include gallery.html gallery="instagram-2016-05-15-165329-it-was-play-ball-this-afternoon" %}
-

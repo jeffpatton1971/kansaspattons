@@ -10,7 +10,6 @@ year: 2018
 month: 06
 day: 03
 weekday: Sunday
-gallery: "instagram-2018-06-03-222611-nathan-s-ant-farm"
 source:
   type: instagram
   uri: "media/other/17936063371107231.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/06/03/222611-nathan-s-ant-farm.html"
 index: 1
 ---
-
 

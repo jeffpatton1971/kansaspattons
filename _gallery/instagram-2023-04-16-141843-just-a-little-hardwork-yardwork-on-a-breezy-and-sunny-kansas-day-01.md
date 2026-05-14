@@ -13,7 +13,6 @@ year: 2023
 month: 04
 day: 16
 weekday: Sunday
-gallery: "instagram-2023-04-16-141843-just-a-little-hardwork-yardwork-on-a-breezy-and-sunny-kansas-day"
 source:
   type: instagram
   uri: "media/posts/202304/17969443022128189.jpg"
@@ -27,5 +26,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/04/16/141843-just-a-little-hardwork-yardwork-on-a-breezy-and-sunny-kansas-day.html"
 index: 1
 ---
-
 

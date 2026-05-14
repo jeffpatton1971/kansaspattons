@@ -12,7 +12,6 @@ year: 2019
 month: 12
 day: 17
 weekday: Tuesday
-gallery: "instagram-2019-12-17-185301-christmas-concert-with-some-brass-trumpetplayer-nomicneeded"
 source:
   type: instagram
   uri: "media/other/18097133308098724.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/12/17/185301-christmas-concert-with-some-brass-trumpetplayer-nomicneeded.html"
 index: 1
 ---
-
 

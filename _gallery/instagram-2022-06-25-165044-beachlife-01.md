@@ -11,7 +11,6 @@ year: 2022
 month: 06
 day: 25
 weekday: Saturday
-gallery: "instagram-2022-06-25-165044-beachlife"
 source:
   type: instagram
   uri: "media/posts/202206/17893950635584548.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/06/25/165044-beachlife.html"
 index: 1
 ---
-
 

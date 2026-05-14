@@ -11,7 +11,6 @@ year: 2025
 month: 07
 day: 12
 weekday: Saturday
-gallery: "instagram-2025-07-12-090304-a-little-breakfast-to-start-the-day-lfk"
 source:
   type: instagram
   uri: "media/posts/202507/18099442618583314.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/07/12/090304-a-little-breakfast-to-start-the-day-lfk.html"
 index: 1
 ---
-
 

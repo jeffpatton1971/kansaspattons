@@ -12,7 +12,6 @@ year: 2025
 month: 01
 day: 10
 weekday: Friday
-gallery: "instagram-2025-01-10-080453-breakfast-latte"
 source:
   type: instagram
   uri: "media/posts/202501/18073442734710740.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/01/10/080453-breakfast-latte.html"
 index: 1
 ---
-
 

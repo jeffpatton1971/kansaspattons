@@ -15,6 +15,11 @@ source:
   caption: "#goodmorning #kansas #adobe #psexpress \nNeeded to bring out the colors in this picture to match what I saw"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2023-10-25-063503-goodmorning-kansas-adobe-psexpress-needed-to-bring-out-the-colors-in-this-01
+images:
+  - id: instagram-2023-10-25-063503-goodmorning-kansas-adobe-psexpress-needed-to-bring-out-the-colors-in-this-01
+    caption:
+    alt:
 hashtags:
   - "goodmorning"
   - "kansas"
@@ -22,7 +27,6 @@ hashtags:
   - "psexpress"
 handles: []
 location:
-gallery: "instagram-2023-10-25-063503-goodmorning-kansas-adobe-psexpress-needed-to-bring-out-the-colors-in-this"
 tags:
   - "goodmorning"
   - "kansas"
@@ -35,9 +39,5 @@ authors:
 summary: "#goodmorning #kansas #adobe #psexpress 
 Needed to bring out the colors in this picture to match what I saw"
 ---
-
 [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#kansas](https://www.instagram.com/explore/tags/kansas/) [#adobe](https://www.instagram.com/explore/tags/adobe/) [#psexpress](https://www.instagram.com/explore/tags/psexpress/) 
 Needed to bring out the colors in this picture to match what I saw
-
-{% include gallery.html gallery="instagram-2023-10-25-063503-goodmorning-kansas-adobe-psexpress-needed-to-bring-out-the-colors-in-this" %}
-

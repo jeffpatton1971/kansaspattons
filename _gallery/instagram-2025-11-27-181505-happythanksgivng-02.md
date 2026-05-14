@@ -11,7 +11,6 @@ year: 2025
 month: 11
 day: 27
 weekday: Thursday
-gallery: "instagram-2025-11-27-181505-happythanksgivng"
 source:
   type: instagram
   uri: "media/posts/202511/18101635144664782.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/11/27/181505-happythanksgivng.html"
 index: 2
 ---
-
 

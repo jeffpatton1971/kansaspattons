@@ -15,11 +15,15 @@ source:
   caption: "I missed the #bloodmooneclipse but here is an overcast moon"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-03-14-214919-i-missed-the-bloodmooneclipse-but-here-is-an-overcast-moon-01
+images:
+  - id: instagram-2025-03-14-214919-i-missed-the-bloodmooneclipse-but-here-is-an-overcast-moon-01
+    caption:
+    alt:
 hashtags:
   - "bloodmooneclipse"
 handles: []
 location:
-gallery: "instagram-2025-03-14-214919-i-missed-the-bloodmooneclipse-but-here-is-an-overcast-moon"
 tags:
   - "bloodmooneclipse"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "I missed the #bloodmooneclipse but here is an overcast moon"
 ---
-
 I missed the [#bloodmooneclipse](https://www.instagram.com/explore/tags/bloodmooneclipse/) but here is an overcast moon
-
-{% include gallery.html gallery="instagram-2025-03-14-214919-i-missed-the-bloodmooneclipse-but-here-is-an-overcast-moon" %}
-

@@ -15,12 +15,16 @@ source:
   caption: "#goodmorning #hibiscus"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-06-26-101142-goodmorning-hibiscus-01
+images:
+  - id: instagram-2021-06-26-101142-goodmorning-hibiscus-01
+    caption:
+    alt:
 hashtags:
   - "goodmorning"
   - "hibiscus"
 handles: []
 location:
-gallery: "instagram-2021-06-26-101142-goodmorning-hibiscus"
 tags:
   - "goodmorning"
   - "hibiscus"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "#goodmorning #hibiscus"
 ---
-
 [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#hibiscus](https://www.instagram.com/explore/tags/hibiscus/)
-
-{% include gallery.html gallery="instagram-2021-06-26-101142-goodmorning-hibiscus" %}
-

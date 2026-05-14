@@ -15,10 +15,14 @@ source:
   caption: "Pulled pork for dinner"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2025-02-09-190137-pulled-pork-for-dinner-01
+related:
+  - type: gallery
+    id: instagram-2025-02-09-190137-pulled-pork-for-dinner
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-02-09-190137-pulled-pork-for-dinner"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Pulled pork for dinner"
 ---
-
 Pulled pork for dinner
-
-{% include gallery.html gallery="instagram-2025-02-09-190137-pulled-pork-for-dinner" %}
-

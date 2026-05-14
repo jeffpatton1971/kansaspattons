@@ -15,12 +15,16 @@ source:
   caption: "My sister and I #supercool #skaters"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2022-09-11-131911-my-sister-and-i-supercool-skaters-01
+images:
+  - id: instagram-2022-09-11-131911-my-sister-and-i-supercool-skaters-01
+    caption:
+    alt:
 hashtags:
   - "supercool"
   - "skaters"
 handles: []
 location:
-gallery: "instagram-2022-09-11-131911-my-sister-and-i-supercool-skaters"
 tags:
   - "supercool"
   - "skaters"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "My sister and I #supercool #skaters"
 ---
-
 My sister and I [#supercool](https://www.instagram.com/explore/tags/supercool/) [#skaters](https://www.instagram.com/explore/tags/skaters/)
-
-{% include gallery.html gallery="instagram-2022-09-11-131911-my-sister-and-i-supercool-skaters" %}
-

@@ -10,7 +10,6 @@ year: 2015
 month: 03
 day: 21
 weekday: Saturday
-gallery: "instagram-2015-03-21-144543-playing-catch-with-nathan"
 source:
   type: instagram
   uri: "media/other/17841776326063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2015/03/21/144543-playing-catch-with-nathan.html"
 index: 1
 ---
-
 

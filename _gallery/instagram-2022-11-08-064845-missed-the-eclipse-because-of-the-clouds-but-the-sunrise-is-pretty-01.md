@@ -10,7 +10,6 @@ year: 2022
 month: 11
 day: 08
 weekday: Tuesday
-gallery: "instagram-2022-11-08-064845-missed-the-eclipse-because-of-the-clouds-but-the-sunrise-is-pretty"
 source:
   type: instagram
   uri: "media/other/17975230813730826.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/11/08/064845-missed-the-eclipse-because-of-the-clouds-but-the-sunrise-is-pretty.html"
 index: 1
 ---
-
 

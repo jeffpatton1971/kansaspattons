@@ -15,11 +15,15 @@ source:
   caption: "A lot of people @planetcomiconofficial today!"
   media_count: 8
   cross_post_source: "FB"
+cover_image: instagram-2026-03-28-144754-a-lot-of-people-planetcomiconofficial-today-01
+related:
+  - type: gallery
+    id: instagram-2026-03-28-144754-a-lot-of-people-planetcomiconofficial-today
+    rel: photos
 hashtags: []
 handles:
   - "planetcomiconofficial"
 location:
-gallery: "instagram-2026-03-28-144754-a-lot-of-people-planetcomiconofficial-today"
 tags:
   - "instagram"
 categories: []
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "A lot of people @planetcomiconofficial today!"
 ---
-
 A lot of people [@planetcomiconofficial](https://www.instagram.com/planetcomiconofficial/) today!
-
-{% include gallery.html gallery="instagram-2026-03-28-144754-a-lot-of-people-planetcomiconofficial-today" %}
-

@@ -11,7 +11,6 @@ year: 2023
 month: 10
 day: 18
 weekday: Wednesday
-gallery: "instagram-2023-10-18-070019-another-beautiful-kansas-morning"
 source:
   type: instagram
   uri: "media/posts/202310/18013689826782656.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/10/18/070019-another-beautiful-kansas-morning.html"
 index: 1
 ---
-
 

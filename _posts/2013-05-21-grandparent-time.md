@@ -12,7 +12,11 @@ source:
   type: wordpress
   id: 537
   url: "https://jeffspatton.wordpress.com/2013/05/21/may-21-2013/"
-gallery: "wordpress-2013-05-21-075051-may-21-2013"
+cover_image: "2013-05-21-13-21-23"
+images:
+  - id: "2013-05-21-13-21-23"
+    caption:
+    alt:
 categories:
   - "family"
   - "Natalie"
@@ -23,5 +27,3 @@ authors:
 summary: "My mom took Natalie and her cousins, Mary and Sarah for a day with great grandpa! I remember when I was a kid we would fly to Kansas for the summers and spend time with grandma and grandpa. I always had the best time with grandpa, working i"
 ---
 My mom took Natalie and her cousins, Mary and Sarah for a day with great grandpa! I remember when I was a kid we would fly to Kansas for the summers and spend time with grandma and grandpa. I always had the best time with grandpa, working in the yard, or on cars or just tagging around with him wherever he went. Today the girls helped him plant flowers in the front yard.
-
-{% include gallery.html gallery="wordpress-2013-05-21-075051-may-21-2013" %}

@@ -10,7 +10,6 @@ year: 2022
 month: 10
 day: 01
 weekday: Saturday
-gallery: "instagram-2022-10-01-135337-views-from-the-yard"
 source:
   type: instagram
   uri: "media/posts/202210/18155767033256032.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/10/01/135337-views-from-the-yard.html"
 index: 1
 ---
-
 

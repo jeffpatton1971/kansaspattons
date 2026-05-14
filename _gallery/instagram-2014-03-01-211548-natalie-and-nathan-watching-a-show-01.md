@@ -10,7 +10,6 @@ year: 2014
 month: 03
 day: 01
 weekday: Saturday
-gallery: "instagram-2014-03-01-211548-natalie-and-nathan-watching-a-show"
 source:
   type: instagram
   uri: "media/other/17842452688063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/03/01/211548-natalie-and-nathan-watching-a-show.html"
 index: 1
 ---
-
 

@@ -11,7 +11,6 @@ year: 2025
 month: 04
 day: 03
 weekday: Thursday
-gallery: "instagram-2025-04-03-200638-just-a-dude-posting-food"
 source:
   type: instagram
   uri: "media/posts/202504/17983334558671588.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/04/03/200638-just-a-dude-posting-food.html"
 index: 1
 ---
-
 

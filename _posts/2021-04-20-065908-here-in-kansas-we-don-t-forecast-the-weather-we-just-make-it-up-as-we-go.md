@@ -15,10 +15,14 @@ source:
   caption: "Here in Kansas we don’t forecast the weather we just make it up as we go!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-04-20-065908-here-in-kansas-we-don-t-forecast-the-weather-we-just-make-it-up-as-we-go-01
+images:
+  - id: instagram-2021-04-20-065908-here-in-kansas-we-don-t-forecast-the-weather-we-just-make-it-up-as-we-go-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-04-20-065908-here-in-kansas-we-don-t-forecast-the-weather-we-just-make-it-up-as-we-go"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Here in Kansas we don’t forecast the weather we just make it up as we go!"
 ---
-
 Here in Kansas we don’t forecast the weather we just make it up as we go!
-
-{% include gallery.html gallery="instagram-2021-04-20-065908-here-in-kansas-we-don-t-forecast-the-weather-we-just-make-it-up-as-we-go" %}
-

@@ -15,10 +15,14 @@ source:
   caption: "Gotta catch 'em all... Pokémon!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2017-04-19-214345-gotta-catch-em-all-pok-mon-01
+images:
+  - id: instagram-2017-04-19-214345-gotta-catch-em-all-pok-mon-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2017-04-19-214345-gotta-catch-em-all-pok-mon"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Gotta catch 'em all... Pokémon!"
 ---
-
 Gotta catch 'em all... Pokémon!
-
-{% include gallery.html gallery="instagram-2017-04-19-214345-gotta-catch-em-all-pok-mon" %}
-

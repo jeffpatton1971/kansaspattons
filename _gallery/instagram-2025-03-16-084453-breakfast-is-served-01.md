@@ -11,7 +11,6 @@ year: 2025
 month: 03
 day: 16
 weekday: Sunday
-gallery: "instagram-2025-03-16-084453-breakfast-is-served"
 source:
   type: instagram
   uri: "media/posts/202503/18094265821555276.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/03/16/084453-breakfast-is-served.html"
 index: 1
 ---
-
 

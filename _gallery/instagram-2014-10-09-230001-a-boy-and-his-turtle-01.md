@@ -10,7 +10,6 @@ year: 2014
 month: 10
 day: 09
 weekday: Thursday
-gallery: "instagram-2014-10-09-230001-a-boy-and-his-turtle"
 source:
   type: instagram
   uri: "media/other/17841791173063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/10/09/230001-a-boy-and-his-turtle.html"
 index: 1
 ---
-
 

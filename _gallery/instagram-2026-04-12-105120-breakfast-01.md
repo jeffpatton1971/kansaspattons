@@ -10,7 +10,6 @@ year: 2026
 month: 04
 day: 12
 weekday: Sunday
-gallery: "instagram-2026-04-12-105120-breakfast"
 source:
   type: instagram
   uri: "media/posts/202604/17993014337952246.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/04/12/105120-breakfast.html"
 index: 1
 ---
-
 

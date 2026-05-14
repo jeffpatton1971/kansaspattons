@@ -15,10 +15,20 @@ source:
   caption: "It’s hard to believe that my little princess is 20"
   media_count: 3
   cross_post_source: "FB"
+cover_image: instagram-2023-09-18-084210-it-s-hard-to-believe-that-my-little-princess-is-20-01
+images:
+  - id: instagram-2023-09-18-084210-it-s-hard-to-believe-that-my-little-princess-is-20-01
+    caption:
+    alt:
+  - id: instagram-2023-09-18-084210-it-s-hard-to-believe-that-my-little-princess-is-20-02
+    caption:
+    alt:
+  - id: instagram-2023-09-18-084210-it-s-hard-to-believe-that-my-little-princess-is-20-03
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2023-09-18-084210-it-s-hard-to-believe-that-my-little-princess-is-20"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +36,4 @@ authors:
   - "Jeff Patton"
 summary: "It’s hard to believe that my little princess is 20"
 ---
-
 It’s hard to believe that my little princess is 20
-
-{% include gallery.html gallery="instagram-2023-09-18-084210-it-s-hard-to-believe-that-my-little-princess-is-20" %}
-

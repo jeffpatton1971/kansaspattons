@@ -22,10 +22,64 @@ categories:
   - album
 tags: []
 gallery: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire
+cover_image: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0001
+images:
+  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0001
+    caption:
+    alt:
+  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0002
+    caption:
+    alt:
+  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0003
+    caption:
+    alt:
+  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0004
+    caption:
+    alt:
+  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0005
+    caption:
+    alt:
+  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0006
+    caption:
+    alt:
+  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0007
+    caption:
+    alt:
+  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0008
+    caption:
+    alt:
+  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0009
+    caption:
+    alt:
+  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0010
+    caption:
+    alt:
+  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0011
+    caption:
+    alt:
+  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0012
+    caption:
+    alt:
+  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0013
+    caption:
+    alt:
+  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0014
+    caption:
+    alt:
+  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0015
+    caption:
+    alt:
+  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0016
+    caption:
+    alt:
+  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0017
+    caption:
+    alt:
+  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0018
+    caption:
+    alt:
 authors:
   - "Jeff Patton"
 summary: "2014 4th grade Renaissance Faire Facebook album."
 ---
-
-{% include gallery.html gallery="facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire" %}
 

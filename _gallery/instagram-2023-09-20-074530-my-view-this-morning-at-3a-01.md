@@ -10,7 +10,6 @@ year: 2023
 month: 09
 day: 20
 weekday: Wednesday
-gallery: "instagram-2023-09-20-074530-my-view-this-morning-at-3a"
 source:
   type: instagram
   uri: "media/posts/202309/17987139593368268.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/09/20/074530-my-view-this-morning-at-3a.html"
 index: 1
 ---
-
 

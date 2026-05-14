@@ -11,7 +11,6 @@ year: 2025
 month: 08
 day: 13
 weekday: Wednesday
-gallery: "instagram-2025-08-13-162654-traditions-first-day-of-school-in-the-books"
 source:
   type: instagram
   uri: "media/posts/202508/18068336957272190.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/08/13/162654-traditions-first-day-of-school-in-the-books.html"
 index: 3
 ---
-
 

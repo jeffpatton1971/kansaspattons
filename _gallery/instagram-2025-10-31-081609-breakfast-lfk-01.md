@@ -12,7 +12,6 @@ year: 2025
 month: 10
 day: 31
 weekday: Friday
-gallery: "instagram-2025-10-31-081609-breakfast-lfk"
 source:
   type: instagram
   uri: "media/posts/202510/18031921181720597.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/10/31/081609-breakfast-lfk.html"
 index: 1
 ---
-
 

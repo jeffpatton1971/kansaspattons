@@ -10,7 +10,6 @@ year: 2025
 month: 04
 day: 25
 weekday: Friday
-gallery: "instagram-2025-04-25-120744-look-who-i-ran-into"
 source:
   type: instagram
   uri: "media/posts/202504/17903035539155838.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/04/25/120744-look-who-i-ran-into.html"
 index: 1
 ---
-
 

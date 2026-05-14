@@ -15,10 +15,14 @@ source:
   caption: "what a great opportunity to visit such an important site and learn about a ruling that is still very important today"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2023-05-12-103142-what-a-great-opportunity-to-visit-such-an-important-site-and-learn-about-a-01
+related:
+  - type: gallery
+    id: instagram-2023-05-12-103142-what-a-great-opportunity-to-visit-such-an-important-site-and-learn-about-a
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2023-05-12-103142-what-a-great-opportunity-to-visit-such-an-important-site-and-learn-about-a"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "what a great opportunity to visit such an important site and learn about a ruling that is still very important today"
 ---
-
 what a great opportunity to visit such an important site and learn about a ruling that is still very important today
-
-{% include gallery.html gallery="instagram-2023-05-12-103142-what-a-great-opportunity-to-visit-such-an-important-site-and-learn-about-a" %}
-

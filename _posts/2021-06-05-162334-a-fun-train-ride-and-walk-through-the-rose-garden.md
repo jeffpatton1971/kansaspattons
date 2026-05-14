@@ -15,10 +15,14 @@ source:
   caption: "A fun train ride and walk through the rose garden"
   media_count: 5
   cross_post_source: "FB"
+cover_image: instagram-2021-06-05-162334-a-fun-train-ride-and-walk-through-the-rose-garden-01
+related:
+  - type: gallery
+    id: instagram-2021-06-05-162334-a-fun-train-ride-and-walk-through-the-rose-garden
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-06-05-162334-a-fun-train-ride-and-walk-through-the-rose-garden"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "A fun train ride and walk through the rose garden"
 ---
-
 A fun train ride and walk through the rose garden
-
-{% include gallery.html gallery="instagram-2021-06-05-162334-a-fun-train-ride-and-walk-through-the-rose-garden" %}
-

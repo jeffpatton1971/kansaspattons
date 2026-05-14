@@ -11,7 +11,6 @@ year: 2022
 month: 05
 day: 27
 weekday: Friday
-gallery: "instagram-2022-05-27-072549-goodmorning"
 source:
   type: instagram
   uri: "media/other/18294378304000535.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/05/27/072549-goodmorning.html"
 index: 1
 ---
-
 

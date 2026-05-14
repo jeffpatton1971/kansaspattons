@@ -12,7 +12,6 @@ year: 2014
 month: 08
 day: 11
 weekday: Monday
-gallery: "instagram-2014-08-11-222634-been-waiting-for-this-to-update-mlb-beroyalkc-royals"
 source:
   type: instagram
   uri: "media/other/17843335219063547.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/08/11/222634-been-waiting-for-this-to-update-mlb-beroyalkc-royals.html"
 index: 1
 ---
-
 

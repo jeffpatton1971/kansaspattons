@@ -15,10 +15,14 @@ source:
   caption: "I thought this little guy had died"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-05-21-202314-i-thought-this-little-guy-had-died-01
+images:
+  - id: instagram-2021-05-21-202314-i-thought-this-little-guy-had-died-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-05-21-202314-i-thought-this-little-guy-had-died"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "I thought this little guy had died"
 ---
-
 I thought this little guy had died
-
-{% include gallery.html gallery="instagram-2021-05-21-202314-i-thought-this-little-guy-had-died" %}
-

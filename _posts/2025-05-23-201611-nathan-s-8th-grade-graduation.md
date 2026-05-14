@@ -15,10 +15,14 @@ source:
   caption: "Nathan’s 8th grade graduation"
   media_count: 6
   cross_post_source: "FB"
+cover_image: instagram-2025-05-23-201611-nathan-s-8th-grade-graduation-01
+related:
+  - type: gallery
+    id: instagram-2025-05-23-201611-nathan-s-8th-grade-graduation
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-05-23-201611-nathan-s-8th-grade-graduation"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Nathan’s 8th grade graduation"
 ---
-
 Nathan’s 8th grade graduation
-
-{% include gallery.html gallery="instagram-2025-05-23-201611-nathan-s-8th-grade-graduation" %}
-

@@ -10,7 +10,6 @@ year: 2018
 month: 09
 day: 01
 weekday: Saturday
-gallery: "instagram-2018-09-01-091447-longest-meal-ever"
 source:
   type: instagram
   uri: "media/posts/201809/17947960945193721.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/09/01/091447-longest-meal-ever.html"
 index: 1
 ---
-
 

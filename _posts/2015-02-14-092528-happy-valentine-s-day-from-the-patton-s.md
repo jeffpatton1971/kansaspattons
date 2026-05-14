@@ -15,10 +15,14 @@ source:
   caption: "Happy Valentine's Day from the Patton's!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2015-02-14-092528-happy-valentine-s-day-from-the-patton-s-01
+images:
+  - id: instagram-2015-02-14-092528-happy-valentine-s-day-from-the-patton-s-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2015-02-14-092528-happy-valentine-s-day-from-the-patton-s"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Happy Valentine's Day from the Patton's!"
 ---
-
 Happy Valentine's Day from the Patton's!
-
-{% include gallery.html gallery="instagram-2015-02-14-092528-happy-valentine-s-day-from-the-patton-s" %}
-

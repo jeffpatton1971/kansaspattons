@@ -15,11 +15,15 @@ source:
   caption: "Make sure you get your calcium today! #squirrelsofinstagram"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-05-01-093415-make-sure-you-get-your-calcium-today-squirrelsofinstagram-01
+images:
+  - id: instagram-2021-05-01-093415-make-sure-you-get-your-calcium-today-squirrelsofinstagram-01
+    caption:
+    alt:
 hashtags:
   - "squirrelsofinstagram"
 handles: []
 location:
-gallery: "instagram-2021-05-01-093415-make-sure-you-get-your-calcium-today-squirrelsofinstagram"
 tags:
   - "squirrelsofinstagram"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Make sure you get your calcium today! #squirrelsofinstagram"
 ---
-
 Make sure you get your calcium today! [#squirrelsofinstagram](https://www.instagram.com/explore/tags/squirrelsofinstagram/)
-
-{% include gallery.html gallery="instagram-2021-05-01-093415-make-sure-you-get-your-calcium-today-squirrelsofinstagram" %}
-

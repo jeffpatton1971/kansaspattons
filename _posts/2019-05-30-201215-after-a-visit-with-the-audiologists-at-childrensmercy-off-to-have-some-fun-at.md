@@ -15,12 +15,16 @@ source:
   caption: "After a visit with the audiologists at @childrensmercy off to have some fun at @daveandbusters"
   media_count: 5
   cross_post_source: "FB"
+cover_image: instagram-2019-05-30-201215-after-a-visit-with-the-audiologists-at-childrensmercy-off-to-have-some-fun-at-01
+related:
+  - type: gallery
+    id: instagram-2019-05-30-201215-after-a-visit-with-the-audiologists-at-childrensmercy-off-to-have-some-fun-at
+    rel: photos
 hashtags: []
 handles:
   - "childrensmercy"
   - "daveandbusters"
 location:
-gallery: "instagram-2019-05-30-201215-after-a-visit-with-the-audiologists-at-childrensmercy-off-to-have-some-fun-at"
 tags:
   - "instagram"
 categories: []
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "After a visit with the audiologists at @childrensmercy off to have some fun at @daveandbusters"
 ---
-
 After a visit with the audiologists at [@childrensmercy](https://www.instagram.com/childrensmercy/) off to have some fun at [@daveandbusters](https://www.instagram.com/daveandbusters/)
-
-{% include gallery.html gallery="instagram-2019-05-30-201215-after-a-visit-with-the-audiologists-at-childrensmercy-off-to-have-some-fun-at" %}
-

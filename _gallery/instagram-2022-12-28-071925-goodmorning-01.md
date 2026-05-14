@@ -11,7 +11,6 @@ year: 2022
 month: 12
 day: 28
 weekday: Wednesday
-gallery: "instagram-2022-12-28-071925-goodmorning"
 source:
   type: instagram
   uri: "media/other/17987837434687949.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/12/28/071925-goodmorning.html"
 index: 1
 ---
-
 

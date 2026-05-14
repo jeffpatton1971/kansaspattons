@@ -15,12 +15,16 @@ source:
   caption: "Good Morning #kansas #leftovers"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2024-05-19-093807-good-morning-kansas-leftovers-01
+images:
+  - id: instagram-2024-05-19-093807-good-morning-kansas-leftovers-01
+    caption:
+    alt:
 hashtags:
   - "kansas"
   - "leftovers"
 handles: []
 location:
-gallery: "instagram-2024-05-19-093807-good-morning-kansas-leftovers"
 tags:
   - "kansas"
   - "leftovers"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "Good Morning #kansas #leftovers"
 ---
-
 Good Morning [#kansas](https://www.instagram.com/explore/tags/kansas/) [#leftovers](https://www.instagram.com/explore/tags/leftovers/)
-
-{% include gallery.html gallery="instagram-2024-05-19-093807-good-morning-kansas-leftovers" %}
-

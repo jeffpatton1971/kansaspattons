@@ -10,7 +10,6 @@ year: 2014
 month: 01
 day: 30
 weekday: Thursday
-gallery: "instagram-2014-01-30-193043-natalie-and-me"
 source:
   type: instagram
   uri: "media/other/17842437358063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/01/30/193043-natalie-and-me.html"
 index: 1
 ---
-
 

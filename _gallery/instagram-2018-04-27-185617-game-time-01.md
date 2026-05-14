@@ -10,7 +10,6 @@ year: 2018
 month: 04
 day: 27
 weekday: Friday
-gallery: "instagram-2018-04-27-185617-game-time"
 source:
   type: instagram
   uri: "media/other/17863802140243542.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/04/27/185617-game-time.html"
 index: 1
 ---
-
 

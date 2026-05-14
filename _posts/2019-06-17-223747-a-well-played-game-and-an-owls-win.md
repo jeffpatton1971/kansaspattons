@@ -15,10 +15,14 @@ source:
   caption: "A well played game and an owls win!"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2019-06-17-223747-a-well-played-game-and-an-owls-win-01
+related:
+  - type: gallery
+    id: instagram-2019-06-17-223747-a-well-played-game-and-an-owls-win
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-06-17-223747-a-well-played-game-and-an-owls-win"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "A well played game and an owls win!"
 ---
-
 A well played game and an owls win!
-
-{% include gallery.html gallery="instagram-2019-06-17-223747-a-well-played-game-and-an-owls-win" %}
-

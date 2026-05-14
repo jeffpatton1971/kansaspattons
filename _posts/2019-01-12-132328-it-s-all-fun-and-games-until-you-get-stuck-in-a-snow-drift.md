@@ -15,10 +15,14 @@ source:
   caption: "It’s all fun and games until you get stuck in a snow drift"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-01-12-132328-it-s-all-fun-and-games-until-you-get-stuck-in-a-snow-drift-01
+images:
+  - id: instagram-2019-01-12-132328-it-s-all-fun-and-games-until-you-get-stuck-in-a-snow-drift-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-01-12-132328-it-s-all-fun-and-games-until-you-get-stuck-in-a-snow-drift"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "It’s all fun and games until you get stuck in a snow drift"
 ---
-
 It’s all fun and games until you get stuck in a snow drift
-
-{% include gallery.html gallery="instagram-2019-01-12-132328-it-s-all-fun-and-games-until-you-get-stuck-in-a-snow-drift" %}
-

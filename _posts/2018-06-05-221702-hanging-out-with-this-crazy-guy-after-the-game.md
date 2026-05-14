@@ -15,10 +15,14 @@ source:
   caption: "Hanging out with this crazy guy after the game"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-06-05-221702-hanging-out-with-this-crazy-guy-after-the-game-01
+images:
+  - id: instagram-2018-06-05-221702-hanging-out-with-this-crazy-guy-after-the-game-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-06-05-221702-hanging-out-with-this-crazy-guy-after-the-game"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Hanging out with this crazy guy after the game"
 ---
-
 Hanging out with this crazy guy after the game
-
-{% include gallery.html gallery="instagram-2018-06-05-221702-hanging-out-with-this-crazy-guy-after-the-game" %}
-

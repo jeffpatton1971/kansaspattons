@@ -15,10 +15,14 @@ source:
   caption: "Happy Birthday to my beautiful daughter"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-09-18-211542-happy-birthday-to-my-beautiful-daughter-01
+images:
+  - id: instagram-2019-09-18-211542-happy-birthday-to-my-beautiful-daughter-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-09-18-211542-happy-birthday-to-my-beautiful-daughter"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Happy Birthday to my beautiful daughter"
 ---
-
 Happy Birthday to my beautiful daughter
-
-{% include gallery.html gallery="instagram-2019-09-18-211542-happy-birthday-to-my-beautiful-daughter" %}
-

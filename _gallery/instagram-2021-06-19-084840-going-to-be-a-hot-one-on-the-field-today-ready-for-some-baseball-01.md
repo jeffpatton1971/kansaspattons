@@ -10,7 +10,6 @@ year: 2021
 month: 06
 day: 19
 weekday: Saturday
-gallery: "instagram-2021-06-19-084840-going-to-be-a-hot-one-on-the-field-today-ready-for-some-baseball"
 source:
   type: instagram
   uri: "media/other/18189272164103118.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/06/19/084840-going-to-be-a-hot-one-on-the-field-today-ready-for-some-baseball.html"
 index: 1
 ---
-
 

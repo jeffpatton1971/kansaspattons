@@ -15,10 +15,14 @@ source:
   caption: "Magic wands and Hogwarts"
   media_count: 10
   cross_post_source: "FB"
+cover_image: instagram-2021-04-27-135856-magic-wands-and-hogwarts-01
+related:
+  - type: gallery
+    id: instagram-2021-04-27-135856-magic-wands-and-hogwarts
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-04-27-135856-magic-wands-and-hogwarts"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Magic wands and Hogwarts"
 ---
-
 Magic wands and Hogwarts
-
-{% include gallery.html gallery="instagram-2021-04-27-135856-magic-wands-and-hogwarts" %}
-

@@ -10,7 +10,6 @@ year: 2025
 month: 03
 day: 29
 weekday: Saturday
-gallery: "instagram-2025-03-29-212730-wavy-clouds-tonight"
 source:
   type: instagram
   uri: "media/posts/202503/18070680892881022.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/03/29/212730-wavy-clouds-tonight.html"
 index: 1
 ---
-
 

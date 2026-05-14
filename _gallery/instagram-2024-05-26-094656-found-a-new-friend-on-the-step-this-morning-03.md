@@ -10,7 +10,6 @@ year: 2024
 month: 05
 day: 26
 weekday: Sunday
-gallery: "instagram-2024-05-26-094656-found-a-new-friend-on-the-step-this-morning"
 source:
   type: instagram
   uri: "media/posts/202405/18010256048437208.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/05/26/094656-found-a-new-friend-on-the-step-this-morning.html"
 index: 3
 ---
-
 

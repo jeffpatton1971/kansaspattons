@@ -10,7 +10,6 @@ year: 2018
 month: 04
 day: 16
 weekday: Monday
-gallery: "instagram-2018-04-16-204100-best-part-of-baseball-practice-ice-cream-afterwards"
 source:
   type: instagram
   uri: "media/other/17925392332113868.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/04/16/204100-best-part-of-baseball-practice-ice-cream-afterwards.html"
 index: 1
 ---
-
 

@@ -15,10 +15,14 @@ source:
   caption: "Mass selfies have broken out"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-11-28-162121-mass-selfies-have-broken-out-01
+images:
+  - id: instagram-2019-11-28-162121-mass-selfies-have-broken-out-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-11-28-162121-mass-selfies-have-broken-out"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Mass selfies have broken out"
 ---
-
 Mass selfies have broken out
-
-{% include gallery.html gallery="instagram-2019-11-28-162121-mass-selfies-have-broken-out" %}
-

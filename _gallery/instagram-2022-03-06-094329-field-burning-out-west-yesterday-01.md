@@ -10,7 +10,6 @@ year: 2022
 month: 03
 day: 06
 weekday: Sunday
-gallery: "instagram-2022-03-06-094329-field-burning-out-west-yesterday"
 source:
   type: instagram
   uri: "media/posts/202203/18120536308263596.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/03/06/094329-field-burning-out-west-yesterday.html"
 index: 1
 ---
-
 

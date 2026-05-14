@@ -10,7 +10,6 @@ year: 2020
 month: 07
 day: 19
 weekday: Sunday
-gallery: "instagram-2020-07-19-092506-sunday-morning-breakfast"
 source:
   type: instagram
   uri: "media/other/17880175897725639.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/07/19/092506-sunday-morning-breakfast.html"
 index: 1
 ---
-
 

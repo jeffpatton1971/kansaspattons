@@ -15,11 +15,15 @@ source:
   caption: "Watching a #polo match for the first time with mom"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2024-10-27-122700-watching-a-polo-match-for-the-first-time-with-mom-01
+related:
+  - type: gallery
+    id: instagram-2024-10-27-122700-watching-a-polo-match-for-the-first-time-with-mom
+    rel: photos
 hashtags:
   - "polo"
 handles: []
 location:
-gallery: "instagram-2024-10-27-122700-watching-a-polo-match-for-the-first-time-with-mom"
 tags:
   - "polo"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Watching a #polo match for the first time with mom"
 ---
-
 Watching a [#polo](https://www.instagram.com/explore/tags/polo/) match for the first time with mom
-
-{% include gallery.html gallery="instagram-2024-10-27-122700-watching-a-polo-match-for-the-first-time-with-mom" %}
-

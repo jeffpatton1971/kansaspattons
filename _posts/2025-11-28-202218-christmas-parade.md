@@ -15,10 +15,14 @@ source:
   caption: "Christmas parade"
   media_count: 9
   cross_post_source: "FB"
+cover_image: instagram-2025-11-28-202218-christmas-parade-01
+related:
+  - type: gallery
+    id: instagram-2025-11-28-202218-christmas-parade
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-11-28-202218-christmas-parade"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Christmas parade"
 ---
-
 Christmas parade
-
-{% include gallery.html gallery="instagram-2025-11-28-202218-christmas-parade" %}
-

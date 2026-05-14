@@ -10,7 +10,6 @@ year: 2023
 month: 07
 day: 26
 weekday: Wednesday
-gallery: "instagram-2023-07-26-203311-og-wonkamovie"
 source:
   type: instagram
   uri: "media/posts/202307/18004431199756368.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/07/26/203311-og-wonkamovie.html"
 index: 1
 ---
-
 

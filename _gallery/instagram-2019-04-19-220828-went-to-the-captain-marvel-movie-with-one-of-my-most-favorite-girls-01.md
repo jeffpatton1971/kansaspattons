@@ -10,7 +10,6 @@ year: 2019
 month: 04
 day: 19
 weekday: Friday
-gallery: "instagram-2019-04-19-220828-went-to-the-captain-marvel-movie-with-one-of-my-most-favorite-girls"
 source:
   type: instagram
   uri: "media/other/17963722024254801.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/04/19/220828-went-to-the-captain-marvel-movie-with-one-of-my-most-favorite-girls.html"
 index: 1
 ---
-
 

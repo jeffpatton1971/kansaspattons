@@ -15,10 +15,14 @@ source:
   caption: "It’s been a fun 4th! Be safe everyone"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-07-04-220733-it-s-been-a-fun-4th-be-safe-everyone-01
+images:
+  - id: instagram-2018-07-04-220733-it-s-been-a-fun-4th-be-safe-everyone-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-07-04-220733-it-s-been-a-fun-4th-be-safe-everyone"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "It’s been a fun 4th! Be safe everyone"
 ---
-
 It’s been a fun 4th! Be safe everyone
-
-{% include gallery.html gallery="instagram-2018-07-04-220733-it-s-been-a-fun-4th-be-safe-everyone" %}
-

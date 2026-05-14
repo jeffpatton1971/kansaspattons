@@ -10,7 +10,6 @@ year: 2021
 month: 10
 day: 02
 weekday: Saturday
-gallery: "instagram-2021-10-02-223304-went-to-the-symphony-tonight-and-really-miss-playing"
 source:
   type: instagram
   uri: "media/other/18097398466274056.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/10/02/223304-went-to-the-symphony-tonight-and-really-miss-playing.html"
 index: 1
 ---
-
 

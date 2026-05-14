@@ -15,10 +15,14 @@ source:
   caption: "Moms are mean dads are fun"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-03-27-192241-moms-are-mean-dads-are-fun-01
+images:
+  - id: instagram-2019-03-27-192241-moms-are-mean-dads-are-fun-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-03-27-192241-moms-are-mean-dads-are-fun"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Moms are mean dads are fun"
 ---
-
 Moms are mean dads are fun
-
-{% include gallery.html gallery="instagram-2019-03-27-192241-moms-are-mean-dads-are-fun" %}
-

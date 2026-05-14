@@ -13,7 +13,6 @@ year: 2021
 month: 09
 day: 27
 weekday: Monday
-gallery: "instagram-2021-09-27-083500-today-is-nathan-s-8yr-cancer-free-anniversary-cancersucks"
 source:
   type: instagram
   uri: "media/other/17935523752718347.jpg"
@@ -27,5 +26,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/09/27/083500-today-is-nathan-s-8yr-cancer-free-anniversary-cancersucks.html"
 index: 1
 ---
-
 

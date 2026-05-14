@@ -11,7 +11,6 @@ year: 2021
 month: 10
 day: 05
 weekday: Tuesday
-gallery: "instagram-2021-10-05-070855-morningwalk"
 source:
   type: instagram
   uri: "media/other/17933634322687902.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/10/05/070855-morningwalk.html"
 index: 1
 ---
-
 

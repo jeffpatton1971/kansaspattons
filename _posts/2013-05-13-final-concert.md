@@ -12,7 +12,11 @@ source:
   type: wordpress
   id: 446
   url: "https://jeffspatton.wordpress.com/2013/05/13/may-13-2013/"
-gallery: "wordpress-2013-05-13-071852-may-13-2013"
+cover_image: "2013-05-13-wp-20130513-001"
+related:
+  - type: gallery
+    id: wordpress-2013-05-13-071852-may-13-2013
+    rel: photos
 categories:
   - "Natalie"
   - "CPLS"
@@ -25,7 +29,6 @@ summary: "Natalie’s final concert was this evening. This year she learned to p
 ---
 Natalie’s final concert was this evening. This year she learned to play the violin which she will continue next year. In addition to continuing the violin, we get to look forward to learning the recorder as well. Afterwards we went to Orange Leaf with some friends.
 
-{% include gallery.html gallery="wordpress-2013-05-13-071852-may-13-2013" %}
 
 {% include youtubePlayer.html id="S-8ajlFYYo0" %}
 

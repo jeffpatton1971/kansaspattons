@@ -10,7 +10,6 @@ year: 2019
 month: 09
 day: 23
 weekday: Monday
-gallery: "instagram-2019-09-23-081910-morning-walk"
 source:
   type: instagram
   uri: "media/other/18065190541154237.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/09/23/081910-morning-walk.html"
 index: 1
 ---
-
 

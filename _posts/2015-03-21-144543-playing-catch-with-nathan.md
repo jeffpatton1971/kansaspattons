@@ -15,10 +15,14 @@ source:
   caption: "Playing catch with Nathan"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2015-03-21-144543-playing-catch-with-nathan-01
+images:
+  - id: instagram-2015-03-21-144543-playing-catch-with-nathan-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2015-03-21-144543-playing-catch-with-nathan"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Playing catch with Nathan"
 ---
-
 Playing catch with Nathan
-
-{% include gallery.html gallery="instagram-2015-03-21-144543-playing-catch-with-nathan" %}
-

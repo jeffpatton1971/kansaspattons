@@ -15,10 +15,17 @@ source:
   caption: "Couldn’t decide between these two this morning"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2019-10-25-071902-couldn-t-decide-between-these-two-this-morning-01
+images:
+  - id: instagram-2019-10-25-071902-couldn-t-decide-between-these-two-this-morning-01
+    caption:
+    alt:
+  - id: instagram-2019-10-25-071902-couldn-t-decide-between-these-two-this-morning-02
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-10-25-071902-couldn-t-decide-between-these-two-this-morning"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "Couldn’t decide between these two this morning"
 ---
-
 Couldn’t decide between these two this morning
-
-{% include gallery.html gallery="instagram-2019-10-25-071902-couldn-t-decide-between-these-two-this-morning" %}
-

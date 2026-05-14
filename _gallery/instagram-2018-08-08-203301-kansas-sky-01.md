@@ -10,7 +10,6 @@ year: 2018
 month: 08
 day: 08
 weekday: Wednesday
-gallery: "instagram-2018-08-08-203301-kansas-sky"
 source:
   type: instagram
   uri: "media/other/17933038621171597.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/08/08/203301-kansas-sky.html"
 index: 1
 ---
-
 

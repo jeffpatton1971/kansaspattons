@@ -15,10 +15,14 @@ source:
   caption: "Hanging with Nick!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-11-16-121546-hanging-with-nick-01
+images:
+  - id: instagram-2014-11-16-121546-hanging-with-nick-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2014-11-16-121546-hanging-with-nick"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Hanging with Nick!"
 ---
-
 Hanging with Nick!
-
-{% include gallery.html gallery="instagram-2014-11-16-121546-hanging-with-nick" %}
-

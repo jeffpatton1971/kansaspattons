@@ -15,10 +15,14 @@ source:
   caption: "7th and 8th grade camp out"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2023-10-04-225045-7th-and-8th-grade-camp-out-01
+related:
+  - type: gallery
+    id: instagram-2023-10-04-225045-7th-and-8th-grade-camp-out
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2023-10-04-225045-7th-and-8th-grade-camp-out"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "7th and 8th grade camp out"
 ---
-
 7th and 8th grade camp out
-
-{% include gallery.html gallery="instagram-2023-10-04-225045-7th-and-8th-grade-camp-out" %}
-

@@ -15,11 +15,15 @@ source:
   caption: "Pink enough today #nofilter"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-09-10-072629-pink-enough-today-nofilter-01
+images:
+  - id: instagram-2019-09-10-072629-pink-enough-today-nofilter-01
+    caption:
+    alt:
 hashtags:
   - "nofilter"
 handles: []
 location:
-gallery: "instagram-2019-09-10-072629-pink-enough-today-nofilter"
 tags:
   - "nofilter"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Pink enough today #nofilter"
 ---
-
 Pink enough today [#nofilter](https://www.instagram.com/explore/tags/nofilter/)
-
-{% include gallery.html gallery="instagram-2019-09-10-072629-pink-enough-today-nofilter" %}
-

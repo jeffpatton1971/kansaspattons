@@ -15,10 +15,14 @@ source:
   caption: "Somehow a fence sprung up where I was working!"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2019-10-27-171027-somehow-a-fence-sprung-up-where-i-was-working-01
+related:
+  - type: gallery
+    id: instagram-2019-10-27-171027-somehow-a-fence-sprung-up-where-i-was-working
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-10-27-171027-somehow-a-fence-sprung-up-where-i-was-working"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Somehow a fence sprung up where I was working!"
 ---
-
 Somehow a fence sprung up where I was working!
-
-{% include gallery.html gallery="instagram-2019-10-27-171027-somehow-a-fence-sprung-up-where-i-was-working" %}
-

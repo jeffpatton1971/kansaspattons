@@ -12,7 +12,6 @@ year: 2025
 month: 06
 day: 16
 weekday: Monday
-gallery: "instagram-2025-06-16-071953-you-can-t-always-make-the-smart-choices-goodmorning-lfk"
 source:
   type: instagram
   uri: "media/posts/202506/18060920170967789.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/06/16/071953-you-can-t-always-make-the-smart-choices-goodmorning-lfk.html"
 index: 1
 ---
-
 

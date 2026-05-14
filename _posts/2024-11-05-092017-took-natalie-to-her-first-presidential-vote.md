@@ -15,11 +15,15 @@ source:
   caption: "Took Natalie to her first Presidential #vote"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2024-11-05-092017-took-natalie-to-her-first-presidential-vote-01
+images:
+  - id: instagram-2024-11-05-092017-took-natalie-to-her-first-presidential-vote-01
+    caption:
+    alt:
 hashtags:
   - "vote"
 handles: []
 location:
-gallery: "instagram-2024-11-05-092017-took-natalie-to-her-first-presidential-vote"
 tags:
   - "vote"
   - "instagram"
@@ -29,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "Took Natalie to her first Presidential #vote"
 ---
-
 Took Natalie to her first Presidential [#vote](https://www.instagram.com/explore/tags/vote/)
-
-{% include gallery.html gallery="instagram-2024-11-05-092017-took-natalie-to-her-first-presidential-vote" %}
-

@@ -10,7 +10,6 @@ year: 2026
 month: 03
 day: 31
 weekday: Tuesday
-gallery: "instagram-2026-03-31-201624-dinner-and-donuts"
 source:
   type: instagram
   uri: "media/posts/202603/17991633125951771.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/03/31/201624-dinner-and-donuts.html"
 index: 1
 ---
-
 

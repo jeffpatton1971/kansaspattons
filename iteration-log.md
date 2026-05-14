@@ -770,6 +770,28 @@ Detailed working notes for the React migration live here. This file is intention
   - `npm run api:build` passed.
   - `npm run normalize:posts -- --dry-run` reports zero pending changes across 1,149 `_posts` files.
 
+### Gallery Relationship Migration
+
+- Agreed that `4+` images is the right threshold for a true gallery shape.
+- Added `scripts/migrate-gallery-relationships.ts`:
+  - `npm run migrate:galleries` runs a dry-run and validates generated Markdown frontmatter.
+  - `npm run migrate:galleries:write` applies the migration.
+  - The script keeps Facebook `Mobile Uploads` albums excluded instead of expanding huge catch-all imports into authored gallery files.
+- Applied the migration:
+  - `807` existing entries moved to direct `images` frontmatter.
+  - `269` article/story entries now link to first-class related galleries.
+  - `269` gallery source Markdown files were created.
+  - `36` existing gallery source files were aligned with rich image references.
+  - `4` small Facebook gallery sources became direct-image stories.
+  - `1,003` image records were detached from small gallery groups.
+  - `1,115` old Jekyll gallery includes were removed.
+- Updated story details so related-gallery stories still lead with an image carousel.
+- Updated content-model and generated-schema docs with the `1-3 direct / 4+ gallery` policy.
+- Verification:
+  - `npm run build` passed and generated `1,109` entries, `305` galleries, and `8,528` images.
+  - `npm run api:build` passed.
+  - `npm run normalize:posts -- --dry-run` reports zero pending changes across `1,418` `_posts` files.
+
 ### Post And Story Card Shapes
 
 - Started making the two content shapes visually distinct.

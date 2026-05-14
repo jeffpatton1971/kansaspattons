@@ -15,11 +15,15 @@ source:
   caption: "Mom said she missed my #breakfast pictures"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2026-01-31-084545-mom-said-she-missed-my-breakfast-pictures-01
+images:
+  - id: instagram-2026-01-31-084545-mom-said-she-missed-my-breakfast-pictures-01
+    caption:
+    alt:
 hashtags:
   - "breakfast"
 handles: []
 location:
-gallery: "instagram-2026-01-31-084545-mom-said-she-missed-my-breakfast-pictures"
 tags:
   - "breakfast"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Mom said she missed my #breakfast pictures"
 ---
-
 Mom said she missed my [#breakfast](https://www.instagram.com/explore/tags/breakfast/) pictures
-
-{% include gallery.html gallery="instagram-2026-01-31-084545-mom-said-she-missed-my-breakfast-pictures" %}
-

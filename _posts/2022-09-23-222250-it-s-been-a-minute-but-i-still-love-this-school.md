@@ -15,10 +15,14 @@ source:
   caption: "it’s been a minute but i still love this school"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2022-09-23-222250-it-s-been-a-minute-but-i-still-love-this-school-01
+images:
+  - id: instagram-2022-09-23-222250-it-s-been-a-minute-but-i-still-love-this-school-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2022-09-23-222250-it-s-been-a-minute-but-i-still-love-this-school"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "it’s been a minute but i still love this school"
 ---
-
 it’s been a minute but i still love this school
-
-{% include gallery.html gallery="instagram-2022-09-23-222250-it-s-been-a-minute-but-i-still-love-this-school" %}
-

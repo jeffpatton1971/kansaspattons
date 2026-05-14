@@ -15,10 +15,14 @@ source:
   caption: "A nice little wine tasting with my aunt and uncle and sister"
   media_count: 8
   cross_post_source: "FB"
+cover_image: instagram-2025-07-18-173439-a-nice-little-wine-tasting-with-my-aunt-and-uncle-and-sister-01
+related:
+  - type: gallery
+    id: instagram-2025-07-18-173439-a-nice-little-wine-tasting-with-my-aunt-and-uncle-and-sister
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-07-18-173439-a-nice-little-wine-tasting-with-my-aunt-and-uncle-and-sister"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "A nice little wine tasting with my aunt and uncle and sister"
 ---
-
 A nice little wine tasting with my aunt and uncle and sister
-
-{% include gallery.html gallery="instagram-2025-07-18-173439-a-nice-little-wine-tasting-with-my-aunt-and-uncle-and-sister" %}
-

@@ -10,7 +10,6 @@ year: 2017
 month: 04
 day: 25
 weekday: Tuesday
-gallery: "instagram-2017-04-25-131518-thanks-for-the-wonderful-experience"
 source:
   type: instagram
   uri: "media/other/17867110732105499.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2017/04/25/131518-thanks-for-the-wonderful-experience.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2019
 month: 11
 day: 28
 weekday: Thursday
-gallery: "instagram-2019-11-28-162121-mass-selfies-have-broken-out"
 source:
   type: instagram
   uri: "media/other/17856111691646727.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/11/28/162121-mass-selfies-have-broken-out.html"
 index: 1
 ---
-
 

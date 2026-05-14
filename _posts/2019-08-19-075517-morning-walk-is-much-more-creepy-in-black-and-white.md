@@ -15,10 +15,14 @@ source:
   caption: "Morning walk is much more creepy in black and white 😂"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-08-19-075517-morning-walk-is-much-more-creepy-in-black-and-white-01
+images:
+  - id: instagram-2019-08-19-075517-morning-walk-is-much-more-creepy-in-black-and-white-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-08-19-075517-morning-walk-is-much-more-creepy-in-black-and-white"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Morning walk is much more creepy in black and white 😂"
 ---
-
 Morning walk is much more creepy in black and white 😂
-
-{% include gallery.html gallery="instagram-2019-08-19-075517-morning-walk-is-much-more-creepy-in-black-and-white" %}
-

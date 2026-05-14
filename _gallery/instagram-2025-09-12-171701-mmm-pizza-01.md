@@ -11,7 +11,6 @@ year: 2025
 month: 09
 day: 12
 weekday: Friday
-gallery: "instagram-2025-09-12-171701-mmm-pizza"
 source:
   type: instagram
   uri: "media/posts/202509/18063328847374501.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/09/12/171701-mmm-pizza.html"
 index: 1
 ---
-
 

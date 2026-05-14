@@ -11,7 +11,6 @@ year: 2023
 month: 05
 day: 10
 weekday: Wednesday
-gallery: "instagram-2023-05-10-204105-perfect-evening-for-some-baseball"
 source:
   type: instagram
   uri: "media/posts/202305/17992723486933272.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/05/10/204105-perfect-evening-for-some-baseball.html"
 index: 1
 ---
-
 

@@ -11,7 +11,6 @@ year: 2023
 month: 06
 day: 27
 weekday: Tuesday
-gallery: "instagram-2023-06-27-202616-yardwork"
 source:
   type: instagram
   uri: "media/posts/202306/17988375571973565.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/06/27/202616-yardwork.html"
 index: 1
 ---
-
 

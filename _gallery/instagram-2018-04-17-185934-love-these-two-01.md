@@ -10,7 +10,6 @@ year: 2018
 month: 04
 day: 17
 weekday: Tuesday
-gallery: "instagram-2018-04-17-185934-love-these-two"
 source:
   type: instagram
   uri: "media/other/17930193799077026.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/04/17/185934-love-these-two.html"
 index: 1
 ---
-
 

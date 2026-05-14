@@ -10,7 +10,6 @@ year: 2014
 month: 02
 day: 07
 weekday: Friday
-gallery: "instagram-2014-02-07-182207-yesterday-nathan-fell-asleep-singing-do-want-to-build-a-snowman"
 source:
   type: instagram
   uri: "media/other/17842441615063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/02/07/182207-yesterday-nathan-fell-asleep-singing-do-want-to-build-a-snowman.html"
 index: 1
 ---
-
 

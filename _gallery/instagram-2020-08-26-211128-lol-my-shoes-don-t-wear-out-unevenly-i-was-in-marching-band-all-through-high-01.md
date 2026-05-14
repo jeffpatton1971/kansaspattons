@@ -10,7 +10,6 @@ year: 2020
 month: 08
 day: 26
 weekday: Wednesday
-gallery: "instagram-2020-08-26-211128-lol-my-shoes-don-t-wear-out-unevenly-i-was-in-marching-band-all-through-high"
 source:
   type: instagram
   uri: "media/other/18159302260021577.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/08/26/211128-lol-my-shoes-don-t-wear-out-unevenly-i-was-in-marching-band-all-through-high.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2019
 month: 08
 day: 19
 weekday: Monday
-gallery: "instagram-2019-08-19-075517-morning-walk-is-much-more-creepy-in-black-and-white"
 source:
   type: instagram
   uri: "media/other/17881850530409833.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/08/19/075517-morning-walk-is-much-more-creepy-in-black-and-white.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2014
 month: 07
 day: 14
 weekday: Monday
-gallery: "instagram-2014-07-14-191749-hey-batter-batter"
 source:
   type: instagram
   uri: "media/other/17843324953063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/07/14/191749-hey-batter-batter.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2023
 month: 06
 day: 11
 weekday: Sunday
-gallery: "instagram-2023-06-11-212847-long-day-but-we-made-it"
 source:
   type: instagram
   uri: "media/posts/202306/17980554557236794.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/06/11/212847-long-day-but-we-made-it.html"
 index: 1
 ---
-
 

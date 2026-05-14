@@ -22,10 +22,34 @@ categories:
   - album
 tags: []
 gallery: facebook-2009-12-30-175747-island-paradise-photos
+cover_image: facebook-2009-12-30-175747-island-paradise-photos-0001
+images:
+  - id: facebook-2009-12-30-175747-island-paradise-photos-0001
+    caption:
+    alt:
+  - id: facebook-2009-12-30-175747-island-paradise-photos-0002
+    caption:
+    alt:
+  - id: facebook-2009-12-30-175747-island-paradise-photos-0003
+    caption:
+    alt:
+  - id: facebook-2009-12-30-175747-island-paradise-photos-0004
+    caption:
+    alt:
+  - id: facebook-2009-12-30-175747-island-paradise-photos-0005
+    caption:
+    alt:
+  - id: facebook-2009-12-30-175747-island-paradise-photos-0006
+    caption:
+    alt:
+  - id: facebook-2009-12-30-175747-island-paradise-photos-0007
+    caption:
+    alt:
+  - id: facebook-2009-12-30-175747-island-paradise-photos-0008
+    caption:
+    alt:
 authors:
   - "Jeff Patton"
 summary: "Island Paradise Photos Facebook album."
 ---
-
-{% include gallery.html gallery="facebook-2009-12-30-175747-island-paradise-photos" %}
 

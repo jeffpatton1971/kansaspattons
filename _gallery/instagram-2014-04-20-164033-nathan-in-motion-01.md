@@ -10,7 +10,6 @@ year: 2014
 month: 04
 day: 20
 weekday: Sunday
-gallery: "instagram-2014-04-20-164033-nathan-in-motion"
 source:
   type: instagram
   uri: "media/other/17842481005063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/04/20/164033-nathan-in-motion.html"
 index: 1
 ---
-
 

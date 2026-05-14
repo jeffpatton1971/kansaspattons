@@ -15,10 +15,14 @@ source:
   caption: "Was a cheerleader today at Helen’s Rock"
   media_count: 5
   cross_post_source: "FB"
+cover_image: instagram-2019-05-02-123223-was-a-cheerleader-today-at-helen-s-rock-01
+related:
+  - type: gallery
+    id: instagram-2019-05-02-123223-was-a-cheerleader-today-at-helen-s-rock
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-05-02-123223-was-a-cheerleader-today-at-helen-s-rock"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Was a cheerleader today at Helen’s Rock"
 ---
-
 Was a cheerleader today at Helen’s Rock
-
-{% include gallery.html gallery="instagram-2019-05-02-123223-was-a-cheerleader-today-at-helen-s-rock" %}
-

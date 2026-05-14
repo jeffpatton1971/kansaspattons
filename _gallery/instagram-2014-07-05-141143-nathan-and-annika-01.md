@@ -10,7 +10,6 @@ year: 2014
 month: 07
 day: 05
 weekday: Saturday
-gallery: "instagram-2014-07-05-141143-nathan-and-annika"
 source:
   type: instagram
   uri: "media/other/17843321482063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/07/05/141143-nathan-and-annika.html"
 index: 1
 ---
-
 

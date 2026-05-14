@@ -12,7 +12,11 @@ source:
   type: wordpress
   id: 84
   url: "https://jeffspatton.wordpress.com/2013/03/30/march-30-2013/"
-gallery: "wordpress-2013-03-30-124134-march-30-2013"
+cover_image: "2013-03-30-wp-20130330-002"
+related:
+  - type: gallery
+    id: wordpress-2013-03-30-124134-march-30-2013
+    rel: photos
 categories:
   - "family"
   - holidays
@@ -26,5 +30,3 @@ summary: "We decided to have our Easter egg hunt the day before Easter. The main
 We decided to have our Easter egg hunt the day before Easter. The main reason was because Nathan will be checked into the hospital on Easter Sunday, and partly because it is supposed to be a miserable day Sunday weather wise.
 
 So here are the images from the Easter egg hunt and Malia’s mom’s house:
-
-{% include gallery.html gallery="wordpress-2013-03-30-124134-march-30-2013" %}

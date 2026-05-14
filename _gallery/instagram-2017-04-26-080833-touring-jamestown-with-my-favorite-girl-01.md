@@ -10,7 +10,6 @@ year: 2017
 month: 04
 day: 26
 weekday: Wednesday
-gallery: "instagram-2017-04-26-080833-touring-jamestown-with-my-favorite-girl"
 source:
   type: instagram
   uri: "media/other/17865100363082227.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2017/04/26/080833-touring-jamestown-with-my-favorite-girl.html"
 index: 1
 ---
-
 

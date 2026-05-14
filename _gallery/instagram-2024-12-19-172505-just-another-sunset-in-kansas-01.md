@@ -12,7 +12,6 @@ year: 2024
 month: 12
 day: 19
 weekday: Thursday
-gallery: "instagram-2024-12-19-172505-just-another-sunset-in-kansas"
 source:
   type: instagram
   uri: "media/posts/202412/18386315233103017.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/12/19/172505-just-another-sunset-in-kansas.html"
 index: 1
 ---
-
 

@@ -15,11 +15,15 @@ source:
   caption: "The things I let my daughter talk me into watching #killerklownsfromouterspace"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2024-09-23-175939-the-things-i-let-my-daughter-talk-me-into-watching-killerklownsfromouterspace-01
+images:
+  - id: instagram-2024-09-23-175939-the-things-i-let-my-daughter-talk-me-into-watching-killerklownsfromouterspace-01
+    caption:
+    alt:
 hashtags:
   - "killerklownsfromouterspace"
 handles: []
 location:
-gallery: "instagram-2024-09-23-175939-the-things-i-let-my-daughter-talk-me-into-watching-killerklownsfromouterspace"
 tags:
   - "killerklownsfromouterspace"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "The things I let my daughter talk me into watching #killerklownsfromouterspace"
 ---
-
 The things I let my daughter talk me into watching [#killerklownsfromouterspace](https://www.instagram.com/explore/tags/killerklownsfromouterspace/)
-
-{% include gallery.html gallery="instagram-2024-09-23-175939-the-things-i-let-my-daughter-talk-me-into-watching-killerklownsfromouterspace" %}
-

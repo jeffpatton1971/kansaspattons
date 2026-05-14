@@ -15,10 +15,14 @@ source:
   caption: "What an unexpectedly delightful birthday!"
   media_count: 7
   cross_post_source: "FB"
+cover_image: instagram-2025-06-08-185424-what-an-unexpectedly-delightful-birthday-01
+related:
+  - type: gallery
+    id: instagram-2025-06-08-185424-what-an-unexpectedly-delightful-birthday
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-06-08-185424-what-an-unexpectedly-delightful-birthday"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "What an unexpectedly delightful birthday!"
 ---
-
 What an unexpectedly delightful birthday!
-
-{% include gallery.html gallery="instagram-2025-06-08-185424-what-an-unexpectedly-delightful-birthday" %}
-

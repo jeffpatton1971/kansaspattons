@@ -11,7 +11,6 @@ year: 2021
 month: 05
 day: 01
 weekday: Saturday
-gallery: "instagram-2021-05-01-181928-pre-season-win-nathan-hit-a-double-got-an-rbi-scored-and-got-an-out-playing"
 source:
   type: instagram
   uri: "media/posts/202105/17904993355873424.mp4"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/05/01/181928-pre-season-win-nathan-hit-a-double-got-an-rbi-scored-and-got-an-out-playing.html"
 index: 3
 ---
-
 

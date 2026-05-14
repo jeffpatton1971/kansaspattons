@@ -10,7 +10,6 @@ year: 2023
 month: 12
 day: 24
 weekday: Sunday
-gallery: "instagram-2023-12-24-080337-merry-christmas-eve"
 source:
   type: instagram
   uri: "media/posts/202312/17960980304686173.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/12/24/080337-merry-christmas-eve.html"
 index: 1
 ---
-
 

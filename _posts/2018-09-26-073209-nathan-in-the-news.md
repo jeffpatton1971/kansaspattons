@@ -15,10 +15,14 @@ source:
   caption: "Nathan in the news!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-09-26-073209-nathan-in-the-news-01
+images:
+  - id: instagram-2018-09-26-073209-nathan-in-the-news-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-09-26-073209-nathan-in-the-news"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Nathan in the news!"
 ---
-
 Nathan in the news!
-
-{% include gallery.html gallery="instagram-2018-09-26-073209-nathan-in-the-news" %}
-

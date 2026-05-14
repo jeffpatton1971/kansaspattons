@@ -10,7 +10,6 @@ year: 2025
 month: 05
 day: 25
 weekday: Sunday
-gallery: "instagram-2025-05-25-093932-coffee-and-donuts-with-my-mom"
 source:
   type: instagram
   uri: "media/posts/202505/17867529774383891.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/05/25/093932-coffee-and-donuts-with-my-mom.html"
 index: 1
 ---
-
 

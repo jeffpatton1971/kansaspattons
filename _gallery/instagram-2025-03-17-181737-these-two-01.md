@@ -10,7 +10,6 @@ year: 2025
 month: 03
 day: 17
 weekday: Monday
-gallery: "instagram-2025-03-17-181737-these-two"
 source:
   type: instagram
   uri: "media/posts/202503/18099385546519554.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/03/17/181737-these-two.html"
 index: 1
 ---
-
 

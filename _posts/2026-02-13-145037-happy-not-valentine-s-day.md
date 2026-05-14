@@ -15,10 +15,17 @@ source:
   caption: "Happy not Valentine’s Day!"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2026-02-13-145037-happy-not-valentine-s-day-01
+images:
+  - id: instagram-2026-02-13-145037-happy-not-valentine-s-day-01
+    caption:
+    alt:
+  - id: instagram-2026-02-13-145037-happy-not-valentine-s-day-02
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2026-02-13-145037-happy-not-valentine-s-day"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "Happy not Valentine’s Day!"
 ---
-
 Happy not Valentine’s Day!
-
-{% include gallery.html gallery="instagram-2026-02-13-145037-happy-not-valentine-s-day" %}
-

@@ -15,12 +15,16 @@ source:
   caption: "Just another #sunset in #kansas"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2024-12-19-172505-just-another-sunset-in-kansas-01
+images:
+  - id: instagram-2024-12-19-172505-just-another-sunset-in-kansas-01
+    caption:
+    alt:
 hashtags:
   - "sunset"
   - "kansas"
 handles: []
 location:
-gallery: "instagram-2024-12-19-172505-just-another-sunset-in-kansas"
 tags:
   - "sunset"
   - "kansas"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "Just another #sunset in #kansas"
 ---
-
 Just another [#sunset](https://www.instagram.com/explore/tags/sunset/) in [#kansas](https://www.instagram.com/explore/tags/kansas/)
-
-{% include gallery.html gallery="instagram-2024-12-19-172505-just-another-sunset-in-kansas" %}
-

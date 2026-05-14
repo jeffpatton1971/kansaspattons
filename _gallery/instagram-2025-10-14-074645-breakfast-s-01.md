@@ -12,7 +12,6 @@ year: 2025
 month: 10
 day: 14
 weekday: Tuesday
-gallery: "instagram-2025-10-14-074645-breakfast-s"
 source:
   type: instagram
   uri: "media/posts/202510/17904825543259054.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/10/14/074645-breakfast-s.html"
 index: 1
 ---
-
 

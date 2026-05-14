@@ -12,7 +12,6 @@ year: 2025
 month: 03
 day: 27
 weekday: Thursday
-gallery: "instagram-2025-03-27-065313-goodmorning-kansas"
 source:
   type: instagram
   uri: "media/posts/202503/17876293830288551.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/03/27/065313-goodmorning-kansas.html"
 index: 1
 ---
-
 

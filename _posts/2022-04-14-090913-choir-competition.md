@@ -15,10 +15,20 @@ source:
   caption: "choir competition"
   media_count: 3
   cross_post_source: "FB"
+cover_image: instagram-2022-04-14-090913-choir-competition-01
+images:
+  - id: instagram-2022-04-14-090913-choir-competition-01
+    caption:
+    alt:
+  - id: instagram-2022-04-14-090913-choir-competition-02
+    caption:
+    alt:
+  - id: instagram-2022-04-14-090913-choir-competition-03
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2022-04-14-090913-choir-competition"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +36,4 @@ authors:
   - "Jeff Patton"
 summary: "choir competition"
 ---
-
 choir competition
-
-{% include gallery.html gallery="instagram-2022-04-14-090913-choir-competition" %}
-

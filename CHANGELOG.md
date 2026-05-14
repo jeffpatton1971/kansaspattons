@@ -58,6 +58,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Added rich direct `images` frontmatter support for posts that attach images without creating a gallery page.
 - Added `imageId` filtering to the image API so post details can fetch direct image attachments.
 - Added inline rendering for galleries referenced through post/story `related` metadata.
+- Added a repeatable gallery relationship migration script with dry-run validation and an explicit write command.
 
 ### Changed
 
@@ -106,6 +107,11 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed the content compiler to honor explicit post `slug` and top-level `id` frontmatter during JSON generation.
 - Changed the Pumpkin Patch sample into an article plus a first-class gallery source with rich image references.
 - Changed the Big Boy sample into an article with a direct image attachment instead of a one-image gallery.
+- Changed imported image relationships so `1-3` images attach directly to articles/stories and `4+` images become first-class gallery documents.
+- Changed WordPress and Instagram entries with larger image sets to link related gallery documents instead of carrying old Jekyll gallery includes.
+- Changed small Facebook album imports into direct-image stories while keeping larger named Facebook albums as gallery documents.
+- Reduced generated galleries from broad imported image groups to meaningful `4+` image gallery sets, while keeping Facebook Mobile Uploads excluded.
+- Changed story detail rendering so stories backed by related galleries still lead with an image carousel.
 
 ### Fixed
 

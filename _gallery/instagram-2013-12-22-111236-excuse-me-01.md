@@ -10,7 +10,6 @@ year: 2013
 month: 12
 day: 22
 weekday: Sunday
-gallery: "instagram-2013-12-22-111236-excuse-me"
 source:
   type: instagram
   uri: "media/other/17842416946063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2013/12/22/111236-excuse-me.html"
 index: 1
 ---
-
 

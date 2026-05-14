@@ -11,7 +11,6 @@ year: 2023
 month: 09
 day: 17
 weekday: Sunday
-gallery: "instagram-2023-09-17-125204-why-is-natalie-patton-smiling-she-thinks-that-taylorswift-may-be-at-the-chiefs"
 source:
   type: instagram
   uri: "media/posts/202309/18039162508483134.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/09/17/125204-why-is-natalie-patton-smiling-she-thinks-that-taylorswift-may-be-at-the-chiefs.html"
 index: 1
 ---
-
 

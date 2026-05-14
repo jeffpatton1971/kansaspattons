@@ -10,7 +10,6 @@ year: 2018
 month: 09
 day: 03
 weekday: Monday
-gallery: "instagram-2018-09-03-080331-september-is-childhood-cancer-awareness-month-nathan-was-diagnosed-with"
 source:
   type: instagram
   uri: "media/other/17974473844008708.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/09/03/080331-september-is-childhood-cancer-awareness-month-nathan-was-diagnosed-with.html"
 index: 1
 ---
-
 

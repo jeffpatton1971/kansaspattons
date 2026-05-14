@@ -10,7 +10,6 @@ year: 2022
 month: 05
 day: 16
 weekday: Monday
-gallery: "instagram-2022-05-16-132104-really-enjoy-the-view-out-back"
 source:
   type: instagram
   uri: "media/other/17895693305621234.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/05/16/132104-really-enjoy-the-view-out-back.html"
 index: 1
 ---
-
 

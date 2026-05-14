@@ -15,10 +15,14 @@ source:
   caption: "dinner last night.. homemade calzones"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2023-03-15-074040-dinner-last-night-homemade-calzones-01
+images:
+  - id: instagram-2023-03-15-074040-dinner-last-night-homemade-calzones-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2023-03-15-074040-dinner-last-night-homemade-calzones"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "dinner last night.. homemade calzones"
 ---
-
 dinner last night.. homemade calzones
-
-{% include gallery.html gallery="instagram-2023-03-15-074040-dinner-last-night-homemade-calzones" %}
-

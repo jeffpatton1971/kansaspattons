@@ -9,7 +9,6 @@ year: 2013
 month: 02
 day: 05
 weekday: Tuesday
-gallery: facebook-2013-02-05-222338-lomogram-photos
 post_id: 2013-02-05-222338-lomogram-photos
 source:
   type: facebook

@@ -12,7 +12,6 @@ year: 2024
 month: 12
 day: 28
 weekday: Saturday
-gallery: "instagram-2024-12-28-102528-diy-coffee-cappuccino"
 source:
   type: instagram
   uri: "media/posts/202412/18290673481208833.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/12/28/102528-diy-coffee-cappuccino.html"
 index: 1
 ---
-
 

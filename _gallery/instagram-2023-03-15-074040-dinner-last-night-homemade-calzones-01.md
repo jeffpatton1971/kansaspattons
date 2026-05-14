@@ -10,7 +10,6 @@ year: 2023
 month: 03
 day: 15
 weekday: Wednesday
-gallery: "instagram-2023-03-15-074040-dinner-last-night-homemade-calzones"
 source:
   type: instagram
   uri: "media/posts/202303/18180402886260313.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/03/15/074040-dinner-last-night-homemade-calzones.html"
 index: 1
 ---
-
 

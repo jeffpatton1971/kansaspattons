@@ -15,10 +15,14 @@ source:
   caption: "Natalie and Chloe after the concert Monday"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2013-12-14-121442-natalie-and-chloe-after-the-concert-monday-01
+images:
+  - id: instagram-2013-12-14-121442-natalie-and-chloe-after-the-concert-monday-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2013-12-14-121442-natalie-and-chloe-after-the-concert-monday"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Natalie and Chloe after the concert Monday"
 ---
-
 Natalie and Chloe after the concert Monday
-
-{% include gallery.html gallery="instagram-2013-12-14-121442-natalie-and-chloe-after-the-concert-monday" %}
-

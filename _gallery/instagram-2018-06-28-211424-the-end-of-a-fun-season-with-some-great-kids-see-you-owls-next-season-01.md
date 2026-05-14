@@ -10,7 +10,6 @@ year: 2018
 month: 06
 day: 28
 weekday: Thursday
-gallery: "instagram-2018-06-28-211424-the-end-of-a-fun-season-with-some-great-kids-see-you-owls-next-season"
 source:
   type: instagram
   uri: "media/posts/201806/17957630140038067.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/06/28/211424-the-end-of-a-fun-season-with-some-great-kids-see-you-owls-next-season.html"
 index: 1
 ---
-
 

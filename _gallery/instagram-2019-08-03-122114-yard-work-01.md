@@ -10,7 +10,6 @@ year: 2019
 month: 08
 day: 03
 weekday: Saturday
-gallery: "instagram-2019-08-03-122114-yard-work"
 source:
   type: instagram
   uri: "media/other/17978111278300341.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/08/03/122114-yard-work.html"
 index: 1
 ---
-
 

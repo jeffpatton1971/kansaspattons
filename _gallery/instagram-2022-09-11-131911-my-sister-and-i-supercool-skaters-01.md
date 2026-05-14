@@ -12,7 +12,6 @@ year: 2022
 month: 09
 day: 11
 weekday: Sunday
-gallery: "instagram-2022-09-11-131911-my-sister-and-i-supercool-skaters"
 source:
   type: instagram
   uri: "media/other/17985691612604385.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/09/11/131911-my-sister-and-i-supercool-skaters.html"
 index: 1
 ---
-
 

@@ -15,10 +15,20 @@ source:
   caption: "Had a fun little afternoon with my favorite little man! McDonald’s for lunch and then the movie Smallfoot!"
   media_count: 3
   cross_post_source: "FB"
+cover_image: instagram-2018-11-23-154110-had-a-fun-little-afternoon-with-my-favorite-little-man-mcdonald-s-for-lunch-and-01
+images:
+  - id: instagram-2018-11-23-154110-had-a-fun-little-afternoon-with-my-favorite-little-man-mcdonald-s-for-lunch-and-01
+    caption:
+    alt:
+  - id: instagram-2018-11-23-154110-had-a-fun-little-afternoon-with-my-favorite-little-man-mcdonald-s-for-lunch-and-02
+    caption:
+    alt:
+  - id: instagram-2018-11-23-154110-had-a-fun-little-afternoon-with-my-favorite-little-man-mcdonald-s-for-lunch-and-03
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-11-23-154110-had-a-fun-little-afternoon-with-my-favorite-little-man-mcdonald-s-for-lunch-and"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +36,4 @@ authors:
   - "Jeff Patton"
 summary: "Had a fun little afternoon with my favorite little man! McDonald’s for lunch and then the movie Smallfoot!"
 ---
-
 Had a fun little afternoon with my favorite little man! McDonald’s for lunch and then the movie Smallfoot!
-
-{% include gallery.html gallery="instagram-2018-11-23-154110-had-a-fun-little-afternoon-with-my-favorite-little-man-mcdonald-s-for-lunch-and" %}
-

@@ -15,10 +15,14 @@ source:
   caption: "Another fun tour on the River Walk"
   media_count: 7
   cross_post_source: "FB"
+cover_image: instagram-2024-04-23-150126-another-fun-tour-on-the-river-walk-01
+related:
+  - type: gallery
+    id: instagram-2024-04-23-150126-another-fun-tour-on-the-river-walk
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2024-04-23-150126-another-fun-tour-on-the-river-walk"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Another fun tour on the River Walk"
 ---
-
 Another fun tour on the River Walk
-
-{% include gallery.html gallery="instagram-2024-04-23-150126-another-fun-tour-on-the-river-walk" %}
-

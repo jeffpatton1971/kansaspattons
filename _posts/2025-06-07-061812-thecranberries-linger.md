@@ -15,12 +15,16 @@ source:
   caption: "@thecranberries #linger"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-06-07-061812-thecranberries-linger-01
+images:
+  - id: instagram-2025-06-07-061812-thecranberries-linger-01
+    caption:
+    alt:
 hashtags:
   - "linger"
 handles:
   - "thecranberries"
 location:
-gallery: "instagram-2025-06-07-061812-thecranberries-linger"
 tags:
   - "linger"
   - "instagram"
@@ -29,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "@thecranberries #linger"
 ---
-
 [@thecranberries](https://www.instagram.com/thecranberries/) [#linger](https://www.instagram.com/explore/tags/linger/)
-
-{% include gallery.html gallery="instagram-2025-06-07-061812-thecranberries-linger" %}
-

@@ -15,10 +15,14 @@ source:
   caption: "Birthday fun at Red Robin...these two have been friends since kindergarten and it’s fun to see them together"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2018-09-18-191947-birthday-fun-at-red-robin-these-two-have-been-friends-since-kindergarten-and-it-01
+related:
+  - type: gallery
+    id: instagram-2018-09-18-191947-birthday-fun-at-red-robin-these-two-have-been-friends-since-kindergarten-and-it
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-09-18-191947-birthday-fun-at-red-robin-these-two-have-been-friends-since-kindergarten-and-it"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Birthday fun at Red Robin...these two have been friends since kindergarten and it’s fun to see them together"
 ---
-
 Birthday fun at Red Robin...these two have been friends since kindergarten and it’s fun to see them together
-
-{% include gallery.html gallery="instagram-2018-09-18-191947-birthday-fun-at-red-robin-these-two-have-been-friends-since-kindergarten-and-it" %}
-

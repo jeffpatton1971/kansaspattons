@@ -15,10 +15,14 @@ source:
   caption: "Somethin to ride too"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-11-07-191005-somethin-to-ride-too-01
+images:
+  - id: instagram-2019-11-07-191005-somethin-to-ride-too-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-11-07-191005-somethin-to-ride-too"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Somethin to ride too"
 ---
-
 Somethin to ride too
-
-{% include gallery.html gallery="instagram-2019-11-07-191005-somethin-to-ride-too" %}
-

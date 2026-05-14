@@ -15,11 +15,21 @@ source:
   caption: "perfect evening for some #baseball"
   media_count: 3
   cross_post_source: "FB"
+cover_image: instagram-2023-05-10-204105-perfect-evening-for-some-baseball-01
+images:
+  - id: instagram-2023-05-10-204105-perfect-evening-for-some-baseball-01
+    caption:
+    alt:
+  - id: instagram-2023-05-10-204105-perfect-evening-for-some-baseball-02
+    caption:
+    alt:
+  - id: instagram-2023-05-10-204105-perfect-evening-for-some-baseball-03
+    caption:
+    alt:
 hashtags:
   - "baseball"
 handles: []
 location:
-gallery: "instagram-2023-05-10-204105-perfect-evening-for-some-baseball"
 tags:
   - "baseball"
   - "instagram"
@@ -28,8 +38,4 @@ authors:
   - "Jeff Patton"
 summary: "perfect evening for some #baseball"
 ---
-
 perfect evening for some [#baseball](https://www.instagram.com/explore/tags/baseball/)
-
-{% include gallery.html gallery="instagram-2023-05-10-204105-perfect-evening-for-some-baseball" %}
-

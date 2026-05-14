@@ -10,7 +10,6 @@ year: 2016
 month: 11
 day: 18
 weekday: Friday
-gallery: "instagram-2016-11-18-210735-natalie-on-the-court"
 source:
   type: instagram
   uri: "media/other/17855641705103055.mp4"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2016/11/18/210735-natalie-on-the-court.html"
 index: 1
 ---
-
 

@@ -15,10 +15,14 @@ source:
   caption: "Some pix from the morning"
   media_count: 7
   cross_post_source: "FB"
+cover_image: instagram-2021-04-27-135635-some-pix-from-the-morning-01
+related:
+  - type: gallery
+    id: instagram-2021-04-27-135635-some-pix-from-the-morning
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-04-27-135635-some-pix-from-the-morning"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Some pix from the morning"
 ---
-
 Some pix from the morning
-
-{% include gallery.html gallery="instagram-2021-04-27-135635-some-pix-from-the-morning" %}
-

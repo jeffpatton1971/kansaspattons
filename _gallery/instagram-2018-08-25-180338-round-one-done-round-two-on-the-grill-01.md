@@ -10,7 +10,6 @@ year: 2018
 month: 08
 day: 25
 weekday: Saturday
-gallery: "instagram-2018-08-25-180338-round-one-done-round-two-on-the-grill"
 source:
   type: instagram
   uri: "media/other/17959058779109646.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/08/25/180338-round-one-done-round-two-on-the-grill.html"
 index: 1
 ---
-
 

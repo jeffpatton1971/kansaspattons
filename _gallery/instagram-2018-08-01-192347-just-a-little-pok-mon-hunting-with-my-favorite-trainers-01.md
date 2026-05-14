@@ -10,7 +10,6 @@ year: 2018
 month: 08
 day: 01
 weekday: Wednesday
-gallery: "instagram-2018-08-01-192347-just-a-little-pok-mon-hunting-with-my-favorite-trainers"
 source:
   type: instagram
   uri: "media/other/17966563330049896.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/08/01/192347-just-a-little-pok-mon-hunting-with-my-favorite-trainers.html"
 index: 1
 ---
-
 

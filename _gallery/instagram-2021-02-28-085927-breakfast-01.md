@@ -11,7 +11,6 @@ year: 2021
 month: 02
 day: 28
 weekday: Sunday
-gallery: "instagram-2021-02-28-085927-breakfast"
 source:
   type: instagram
   uri: "media/other/17890577686950481.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/02/28/085927-breakfast.html"
 index: 1
 ---
-
 

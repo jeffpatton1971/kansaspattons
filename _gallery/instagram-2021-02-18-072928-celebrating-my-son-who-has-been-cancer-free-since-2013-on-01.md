@@ -13,7 +13,6 @@ year: 2021
 month: 02
 day: 18
 weekday: Thursday
-gallery: "instagram-2021-02-18-072928-celebrating-my-son-who-has-been-cancer-free-since-2013-on"
 source:
   type: instagram
   uri: "media/other/17905048990701442.jpg"
@@ -27,5 +26,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/02/18/072928-celebrating-my-son-who-has-been-cancer-free-since-2013-on.html"
 index: 1
 ---
-
 

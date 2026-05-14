@@ -15,12 +15,22 @@ source:
   caption: "Enjoyed a lovely #candelightconcert with @fountaincitystringquartet"
   media_count: 3
   cross_post_source: "FB"
+cover_image: instagram-2025-12-19-230841-enjoyed-a-lovely-candelightconcert-with-fountaincitystringquartet-01
+images:
+  - id: instagram-2025-12-19-230841-enjoyed-a-lovely-candelightconcert-with-fountaincitystringquartet-01
+    caption:
+    alt:
+  - id: instagram-2025-12-19-230841-enjoyed-a-lovely-candelightconcert-with-fountaincitystringquartet-02
+    caption:
+    alt:
+  - id: instagram-2025-12-19-230841-enjoyed-a-lovely-candelightconcert-with-fountaincitystringquartet-03
+    caption:
+    alt:
 hashtags:
   - "candelightconcert"
 handles:
   - "fountaincitystringquartet"
 location:
-gallery: "instagram-2025-12-19-230841-enjoyed-a-lovely-candelightconcert-with-fountaincitystringquartet"
 tags:
   - "candelightconcert"
   - "instagram"
@@ -29,8 +39,4 @@ authors:
   - "Jeff Patton"
 summary: "Enjoyed a lovely #candelightconcert with @fountaincitystringquartet"
 ---
-
 Enjoyed a lovely [#candelightconcert](https://www.instagram.com/explore/tags/candelightconcert/) with [@fountaincitystringquartet](https://www.instagram.com/fountaincitystringquartet/)
-
-{% include gallery.html gallery="instagram-2025-12-19-230841-enjoyed-a-lovely-candelightconcert-with-fountaincitystringquartet" %}
-

@@ -12,7 +12,6 @@ year: 2023
 month: 06
 day: 07
 weekday: Wednesday
-gallery: "instagram-2023-06-07-195130-yardwork-gardening"
 source:
   type: instagram
   uri: "media/posts/202306/17974672514345400.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/06/07/195130-yardwork-gardening.html"
 index: 2
 ---
-
 

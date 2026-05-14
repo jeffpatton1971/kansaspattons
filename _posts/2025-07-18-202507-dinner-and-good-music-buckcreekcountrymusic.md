@@ -15,11 +15,15 @@ source:
   caption: "Dinner and good music @buckcreekcountrymusic"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2025-07-18-202507-dinner-and-good-music-buckcreekcountrymusic-01
+related:
+  - type: gallery
+    id: instagram-2025-07-18-202507-dinner-and-good-music-buckcreekcountrymusic
+    rel: photos
 hashtags: []
 handles:
   - "buckcreekcountrymusic"
 location:
-gallery: "instagram-2025-07-18-202507-dinner-and-good-music-buckcreekcountrymusic"
 tags:
   - "instagram"
 categories: []
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Dinner and good music @buckcreekcountrymusic"
 ---
-
 Dinner and good music [@buckcreekcountrymusic](https://www.instagram.com/buckcreekcountrymusic/)
-
-{% include gallery.html gallery="instagram-2025-07-18-202507-dinner-and-good-music-buckcreekcountrymusic" %}
-

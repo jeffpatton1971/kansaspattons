@@ -10,7 +10,6 @@ year: 2026
 month: 02
 day: 07
 weekday: Saturday
-gallery: "instagram-2026-02-07-182750-late-lunch-early-dinner-linner-dunch-tasty-regardless"
 source:
   type: instagram
   uri: "media/posts/202602/18407945413127996.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/02/07/182750-late-lunch-early-dinner-linner-dunch-tasty-regardless.html"
 index: 1
 ---
-
 

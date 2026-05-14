@@ -15,11 +15,15 @@ source:
   caption: "Just a dude\nPosting #food"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-04-03-200638-just-a-dude-posting-food-01
+images:
+  - id: instagram-2025-04-03-200638-just-a-dude-posting-food-01
+    caption:
+    alt:
 hashtags:
   - "food"
 handles: []
 location:
-gallery: "instagram-2025-04-03-200638-just-a-dude-posting-food"
 tags:
   - "food"
   - "instagram"
@@ -29,9 +33,5 @@ authors:
 summary: "Just a dude
 Posting #food"
 ---
-
 Just a dude
 Posting [#food](https://www.instagram.com/explore/tags/food/)
-
-{% include gallery.html gallery="instagram-2025-04-03-200638-just-a-dude-posting-food" %}
-

@@ -15,10 +15,14 @@ source:
   caption: "Spent the morning exploring Jamestown"
   media_count: 10
   cross_post_source: "FB"
+cover_image: instagram-2025-04-23-115350-spent-the-morning-exploring-jamestown-01
+related:
+  - type: gallery
+    id: instagram-2025-04-23-115350-spent-the-morning-exploring-jamestown
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-04-23-115350-spent-the-morning-exploring-jamestown"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Spent the morning exploring Jamestown"
 ---
-
 Spent the morning exploring Jamestown
-
-{% include gallery.html gallery="instagram-2025-04-23-115350-spent-the-morning-exploring-jamestown" %}
-

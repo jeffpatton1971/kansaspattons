@@ -11,7 +11,6 @@ year: 2020
 month: 03
 day: 06
 weekday: Friday
-gallery: "instagram-2020-03-06-133613-teambuilding"
 source:
   type: instagram
   uri: "media/other/17857877143809310.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/03/06/133613-teambuilding.html"
 index: 1
 ---
-
 

@@ -15,10 +15,14 @@ source:
   caption: "Working hard...hardly working..."
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-09-14-130600-working-hard-hardly-working-01
+images:
+  - id: instagram-2019-09-14-130600-working-hard-hardly-working-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-09-14-130600-working-hard-hardly-working"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Working hard...hardly working..."
 ---
-
 Working hard...hardly working...
-
-{% include gallery.html gallery="instagram-2019-09-14-130600-working-hard-hardly-working" %}
-

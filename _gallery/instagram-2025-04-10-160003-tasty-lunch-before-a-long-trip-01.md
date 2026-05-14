@@ -10,7 +10,6 @@ year: 2025
 month: 04
 day: 10
 weekday: Thursday
-gallery: "instagram-2025-04-10-160003-tasty-lunch-before-a-long-trip"
 source:
   type: instagram
   uri: "media/posts/202504/18057492011132627.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/04/10/160003-tasty-lunch-before-a-long-trip.html"
 index: 1
 ---
-
 

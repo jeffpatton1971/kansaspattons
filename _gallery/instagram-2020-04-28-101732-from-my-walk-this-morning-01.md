@@ -10,7 +10,6 @@ year: 2020
 month: 04
 day: 28
 weekday: Tuesday
-gallery: "instagram-2020-04-28-101732-from-my-walk-this-morning"
 source:
   type: instagram
   uri: "media/other/17895831778484867.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/04/28/101732-from-my-walk-this-morning.html"
 index: 1
 ---
-
 

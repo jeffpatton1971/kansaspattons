@@ -10,7 +10,6 @@ year: 2022
 month: 10
 day: 01
 weekday: Saturday
-gallery: "instagram-2022-10-01-212450-topekasymphony-performed-beethoven-s-9th-and-it-was-amazing"
 source:
   type: instagram
   uri: "media/posts/202210/17945210045145119.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/10/01/212450-topekasymphony-performed-beethoven-s-9th-and-it-was-amazing.html"
 index: 1
 ---
-
 

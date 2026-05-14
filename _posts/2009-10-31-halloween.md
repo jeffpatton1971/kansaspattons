@@ -7,6 +7,11 @@ post_id:         2009-10-31-halloween
 date:       2009-10-31 09:55:00 -0600
 source:
   type: wordpress
+cover_image: "2009-10-31-img58973"
+related:
+  - type: gallery
+    id: gallery-2009-10-31-2
+    rel: photos
 categories:
   - holidays
   - halloween
@@ -25,5 +30,3 @@ We decided to visit downtown Lawrence this year and it turns out that was a good
 After visiting Mass. St. we headed over to the nursing home off Wakarusa. We started going there last year I believe and Natalie enjoyed it a great deal, as did the elderly. From there we had dinner at Applebee’s with grandpa and headed home.
 
 Enjoy the pictures!
-
-{% include gallery.html gallery="gallery-2009-10-31-2" %}

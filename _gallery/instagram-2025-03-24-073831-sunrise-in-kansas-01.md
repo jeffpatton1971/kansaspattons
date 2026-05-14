@@ -12,7 +12,6 @@ year: 2025
 month: 03
 day: 24
 weekday: Monday
-gallery: "instagram-2025-03-24-073831-sunrise-in-kansas"
 source:
   type: instagram
   uri: "media/posts/202503/18070435627851891.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/03/24/073831-sunrise-in-kansas.html"
 index: 1
 ---
-
 

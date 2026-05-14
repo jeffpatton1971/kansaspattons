@@ -15,12 +15,16 @@ source:
   caption: "#goodmorning #breakfast"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-07-23-074524-goodmorning-breakfast-01
+images:
+  - id: instagram-2025-07-23-074524-goodmorning-breakfast-01
+    caption:
+    alt:
 hashtags:
   - "goodmorning"
   - "breakfast"
 handles: []
 location:
-gallery: "instagram-2025-07-23-074524-goodmorning-breakfast"
 tags:
   - "goodmorning"
   - "breakfast"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "#goodmorning #breakfast"
 ---
-
 [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#breakfast](https://www.instagram.com/explore/tags/breakfast/)
-
-{% include gallery.html gallery="instagram-2025-07-23-074524-goodmorning-breakfast" %}
-

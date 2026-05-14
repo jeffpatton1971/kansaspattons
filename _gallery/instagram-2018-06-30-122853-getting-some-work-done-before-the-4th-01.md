@@ -10,7 +10,6 @@ year: 2018
 month: 06
 day: 30
 weekday: Saturday
-gallery: "instagram-2018-06-30-122853-getting-some-work-done-before-the-4th"
 source:
   type: instagram
   uri: "media/posts/201806/17848894000279854.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/06/30/122853-getting-some-work-done-before-the-4th.html"
 index: 1
 ---
-
 

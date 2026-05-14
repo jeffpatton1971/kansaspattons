@@ -11,7 +11,6 @@ year: 2022
 month: 06
 day: 18
 weekday: Saturday
-gallery: "instagram-2022-06-18-160240-gatorlife"
 source:
   type: instagram
   uri: "media/posts/202206/17951245000934584.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/06/18/160240-gatorlife.html"
 index: 2
 ---
-
 

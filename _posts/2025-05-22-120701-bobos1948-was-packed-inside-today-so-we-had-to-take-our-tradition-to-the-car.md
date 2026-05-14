@@ -15,11 +15,21 @@ source:
   caption: "@bobos1948 was packed inside today so we had to take our tradition to the car! That’s a wrap on Junior High!"
   media_count: 3
   cross_post_source: "FB"
+cover_image: instagram-2025-05-22-120701-bobos1948-was-packed-inside-today-so-we-had-to-take-our-tradition-to-the-car-01
+images:
+  - id: instagram-2025-05-22-120701-bobos1948-was-packed-inside-today-so-we-had-to-take-our-tradition-to-the-car-01
+    caption:
+    alt:
+  - id: instagram-2025-05-22-120701-bobos1948-was-packed-inside-today-so-we-had-to-take-our-tradition-to-the-car-02
+    caption:
+    alt:
+  - id: instagram-2025-05-22-120701-bobos1948-was-packed-inside-today-so-we-had-to-take-our-tradition-to-the-car-03
+    caption:
+    alt:
 hashtags: []
 handles:
   - "bobos1948"
 location:
-gallery: "instagram-2025-05-22-120701-bobos1948-was-packed-inside-today-so-we-had-to-take-our-tradition-to-the-car"
 tags:
   - "instagram"
 categories: []
@@ -27,8 +37,4 @@ authors:
   - "Jeff Patton"
 summary: "@bobos1948 was packed inside today so we had to take our tradition to the car! That’s a wrap on Junior High!"
 ---
-
 [@bobos1948](https://www.instagram.com/bobos1948/) was packed inside today so we had to take our tradition to the car! That’s a wrap on Junior High!
-
-{% include gallery.html gallery="instagram-2025-05-22-120701-bobos1948-was-packed-inside-today-so-we-had-to-take-our-tradition-to-the-car" %}
-

@@ -15,10 +15,14 @@ source:
   caption: "A rare moment, Natalie smiling"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2013-12-09-212541-a-rare-moment-natalie-smiling-01
+images:
+  - id: instagram-2013-12-09-212541-a-rare-moment-natalie-smiling-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2013-12-09-212541-a-rare-moment-natalie-smiling"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "A rare moment, Natalie smiling"
 ---
-
 A rare moment, Natalie smiling
-
-{% include gallery.html gallery="instagram-2013-12-09-212541-a-rare-moment-natalie-smiling" %}
-

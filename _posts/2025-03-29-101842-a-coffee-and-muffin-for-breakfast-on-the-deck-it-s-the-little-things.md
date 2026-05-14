@@ -15,10 +15,14 @@ source:
   caption: "A coffee and muffin for breakfast on the deck.. it’s the little things"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-03-29-101842-a-coffee-and-muffin-for-breakfast-on-the-deck-it-s-the-little-things-01
+images:
+  - id: instagram-2025-03-29-101842-a-coffee-and-muffin-for-breakfast-on-the-deck-it-s-the-little-things-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-03-29-101842-a-coffee-and-muffin-for-breakfast-on-the-deck-it-s-the-little-things"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "A coffee and muffin for breakfast on the deck.. it’s the little things"
 ---
-
 A coffee and muffin for breakfast on the deck.. it’s the little things
-
-{% include gallery.html gallery="instagram-2025-03-29-101842-a-coffee-and-muffin-for-breakfast-on-the-deck-it-s-the-little-things" %}
-

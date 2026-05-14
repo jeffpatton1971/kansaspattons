@@ -10,7 +10,6 @@ year: 2018
 month: 07
 day: 04
 weekday: Wednesday
-gallery: "instagram-2018-07-04-220733-it-s-been-a-fun-4th-be-safe-everyone"
 source:
   type: instagram
   uri: "media/other/17927153017165044.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/07/04/220733-it-s-been-a-fun-4th-be-safe-everyone.html"
 index: 1
 ---
-
 

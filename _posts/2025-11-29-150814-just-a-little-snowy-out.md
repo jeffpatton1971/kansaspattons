@@ -15,10 +15,17 @@ source:
   caption: "Just a little snowy out"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2025-11-29-150814-just-a-little-snowy-out-01
+images:
+  - id: instagram-2025-11-29-150814-just-a-little-snowy-out-01
+    caption:
+    alt:
+  - id: instagram-2025-11-29-150814-just-a-little-snowy-out-02
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-11-29-150814-just-a-little-snowy-out"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "Just a little snowy out"
 ---
-
 Just a little snowy out
-
-{% include gallery.html gallery="instagram-2025-11-29-150814-just-a-little-snowy-out" %}
-

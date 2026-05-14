@@ -15,10 +15,14 @@ source:
   caption: "Bio-luminescent kayaking not many pictures...there is a picture of a jelly comb and a shrimp that jumped into someone’s kayak"
   media_count: 6
   cross_post_source: "FB"
+cover_image: instagram-2021-04-28-214536-bio-luminescent-kayaking-not-many-pictures-there-is-a-picture-of-a-jelly-comb-01
+related:
+  - type: gallery
+    id: instagram-2021-04-28-214536-bio-luminescent-kayaking-not-many-pictures-there-is-a-picture-of-a-jelly-comb
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-04-28-214536-bio-luminescent-kayaking-not-many-pictures-there-is-a-picture-of-a-jelly-comb"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Bio-luminescent kayaking not many pictures...there is a picture of a jelly comb and a shrimp that jumped into someone’s kayak"
 ---
-
 Bio-luminescent kayaking not many pictures...there is a picture of a jelly comb and a shrimp that jumped into someone’s kayak
-
-{% include gallery.html gallery="instagram-2021-04-28-214536-bio-luminescent-kayaking-not-many-pictures-there-is-a-picture-of-a-jelly-comb" %}
-

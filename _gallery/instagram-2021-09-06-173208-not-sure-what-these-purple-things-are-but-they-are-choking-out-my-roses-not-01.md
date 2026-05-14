@@ -12,7 +12,6 @@ year: 2021
 month: 09
 day: 06
 weekday: Monday
-gallery: "instagram-2021-09-06-173208-not-sure-what-these-purple-things-are-but-they-are-choking-out-my-roses-not"
 source:
   type: instagram
   uri: "media/other/17920579471780232.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/09/06/173208-not-sure-what-these-purple-things-are-but-they-are-choking-out-my-roses-not.html"
 index: 1
 ---
-
 

@@ -15,11 +15,15 @@ source:
   caption: "First time watching @sportingkcii great game and good win!"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2023-07-02-202208-first-time-watching-sportingkcii-great-game-and-good-win-01
+related:
+  - type: gallery
+    id: instagram-2023-07-02-202208-first-time-watching-sportingkcii-great-game-and-good-win
+    rel: photos
 hashtags: []
 handles:
   - "sportingkcii"
 location:
-gallery: "instagram-2023-07-02-202208-first-time-watching-sportingkcii-great-game-and-good-win"
 tags:
   - "instagram"
 categories: []
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "First time watching @sportingkcii great game and good win!"
 ---
-
 First time watching [@sportingkcii](https://www.instagram.com/sportingkcii/) great game and good win!
-
-{% include gallery.html gallery="instagram-2023-07-02-202208-first-time-watching-sportingkcii-great-game-and-good-win" %}
-

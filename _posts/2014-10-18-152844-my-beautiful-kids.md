@@ -15,10 +15,14 @@ source:
   caption: "My beautiful kids"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-10-18-152844-my-beautiful-kids-01
+images:
+  - id: instagram-2014-10-18-152844-my-beautiful-kids-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2014-10-18-152844-my-beautiful-kids"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "My beautiful kids"
 ---
-
 My beautiful kids
-
-{% include gallery.html gallery="instagram-2014-10-18-152844-my-beautiful-kids" %}
-

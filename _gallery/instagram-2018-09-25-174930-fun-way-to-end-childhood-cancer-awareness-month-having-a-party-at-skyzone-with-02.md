@@ -10,7 +10,6 @@ year: 2018
 month: 09
 day: 25
 weekday: Tuesday
-gallery: "instagram-2018-09-25-174930-fun-way-to-end-childhood-cancer-awareness-month-having-a-party-at-skyzone-with"
 source:
   type: instagram
   uri: "media/posts/201809/17985036628006220.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/09/25/174930-fun-way-to-end-childhood-cancer-awareness-month-having-a-party-at-skyzone-with.html"
 index: 2
 ---
-
 

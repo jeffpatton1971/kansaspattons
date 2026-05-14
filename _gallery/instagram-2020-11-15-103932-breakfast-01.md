@@ -11,7 +11,6 @@ year: 2020
 month: 11
 day: 15
 weekday: Sunday
-gallery: "instagram-2020-11-15-103932-breakfast"
 source:
   type: instagram
   uri: "media/other/17846798639422705.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/11/15/103932-breakfast.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2024
 month: 09
 day: 05
 weekday: Thursday
-gallery: "instagram-2024-09-05-191916-breakfast-for-dinner-with-leftover-tri-tip"
 source:
   type: instagram
   uri: "media/posts/202409/18051490864853383.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/09/05/191916-breakfast-for-dinner-with-leftover-tri-tip.html"
 index: 1
 ---
-
 

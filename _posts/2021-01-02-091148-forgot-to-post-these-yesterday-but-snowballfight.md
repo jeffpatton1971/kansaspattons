@@ -15,11 +15,18 @@ source:
   caption: "Forgot to post these yesterday but #snowballfight"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2021-01-02-091148-forgot-to-post-these-yesterday-but-snowballfight-01
+images:
+  - id: instagram-2021-01-02-091148-forgot-to-post-these-yesterday-but-snowballfight-01
+    caption:
+    alt:
+  - id: instagram-2021-01-02-091148-forgot-to-post-these-yesterday-but-snowballfight-02
+    caption:
+    alt:
 hashtags:
   - "snowballfight"
 handles: []
 location:
-gallery: "instagram-2021-01-02-091148-forgot-to-post-these-yesterday-but-snowballfight"
 tags:
   - "snowballfight"
   - "instagram"
@@ -28,8 +35,4 @@ authors:
   - "Jeff Patton"
 summary: "Forgot to post these yesterday but #snowballfight"
 ---
-
 Forgot to post these yesterday but [#snowballfight](https://www.instagram.com/explore/tags/snowballfight/)
-
-{% include gallery.html gallery="instagram-2021-01-02-091148-forgot-to-post-these-yesterday-but-snowballfight" %}
-

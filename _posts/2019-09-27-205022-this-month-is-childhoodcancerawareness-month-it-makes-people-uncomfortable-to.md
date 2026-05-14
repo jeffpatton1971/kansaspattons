@@ -15,6 +15,11 @@ source:
   caption: "This month is #childhoodcancerawareness month. It makes people uncomfortable to think about children having to go through painful medications, treatments and surgeries. Some of these treatments go on for years, some for only a few months. Some kids, like my son Nathan are extremely fortunate and some kids are not. Nathan was diagnosed with #hepatoblastoma shortly after his second birthday and was in treatment from March until his resection at @kumedcenter in July. Today Nathan is 6yrs cancer free and we are so grateful for the doctors and friends and family who were with us on the journey. #negu"
   media_count: 9
   cross_post_source: "FB"
+cover_image: instagram-2019-09-27-205022-this-month-is-childhoodcancerawareness-month-it-makes-people-uncomfortable-to-01
+related:
+  - type: gallery
+    id: instagram-2019-09-27-205022-this-month-is-childhoodcancerawareness-month-it-makes-people-uncomfortable-to
+    rel: photos
 hashtags:
   - "childhoodcancerawareness"
   - "hepatoblastoma"
@@ -22,7 +27,6 @@ hashtags:
 handles:
   - "kumedcenter"
 location:
-gallery: "instagram-2019-09-27-205022-this-month-is-childhoodcancerawareness-month-it-makes-people-uncomfortable-to"
 tags:
   - "childhoodcancerawareness"
   - "hepatoblastoma"
@@ -36,8 +40,4 @@ authors:
   - "Jeff Patton"
 summary: "This month is #childhoodcancerawareness month. It makes people uncomfortable to think about children having to go through painful medications, treatments and surgeries. Some of these treatments go on for years, some for only a few months. S"
 ---
-
 This month is [#childhoodcancerawareness](https://www.instagram.com/explore/tags/childhoodcancerawareness/) month. It makes people uncomfortable to think about children having to go through painful medications, treatments and surgeries. Some of these treatments go on for years, some for only a few months. Some kids, like my son Nathan are extremely fortunate and some kids are not. Nathan was diagnosed with [#hepatoblastoma](https://www.instagram.com/explore/tags/hepatoblastoma/) shortly after his second birthday and was in treatment from March until his resection at [@kumedcenter](https://www.instagram.com/kumedcenter/) in July. Today Nathan is 6yrs cancer free and we are so grateful for the doctors and friends and family who were with us on the journey. [#negu](https://www.instagram.com/explore/tags/negu/)
-
-{% include gallery.html gallery="instagram-2019-09-27-205022-this-month-is-childhoodcancerawareness-month-it-makes-people-uncomfortable-to" %}
-

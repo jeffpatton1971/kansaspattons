@@ -10,7 +10,6 @@ year: 2014
 month: 09
 day: 18
 weekday: Thursday
-gallery: "instagram-2014-09-18-072620-happy-birthday-natalie-you-are-my-favorite-11yr-old"
 source:
   type: instagram
   uri: "media/other/17843350144063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/09/18/072620-happy-birthday-natalie-you-are-my-favorite-11yr-old.html"
 index: 1
 ---
-
 

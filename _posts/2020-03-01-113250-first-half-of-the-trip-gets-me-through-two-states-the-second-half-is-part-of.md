@@ -15,10 +15,14 @@ source:
   caption: "First half of the trip gets me through two states the second half is part of Texas 😂"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2020-03-01-113250-first-half-of-the-trip-gets-me-through-two-states-the-second-half-is-part-of-01
+images:
+  - id: instagram-2020-03-01-113250-first-half-of-the-trip-gets-me-through-two-states-the-second-half-is-part-of-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2020-03-01-113250-first-half-of-the-trip-gets-me-through-two-states-the-second-half-is-part-of"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "First half of the trip gets me through two states the second half is part of Texas 😂"
 ---
-
 First half of the trip gets me through two states the second half is part of Texas 😂
-
-{% include gallery.html gallery="instagram-2020-03-01-113250-first-half-of-the-trip-gets-me-through-two-states-the-second-half-is-part-of" %}
-

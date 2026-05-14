@@ -15,10 +15,17 @@ source:
   caption: "Fun day with these two, McD’s for lunch and then Pokémon hunting after"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2018-01-20-175527-fun-day-with-these-two-mcd-s-for-lunch-and-then-pok-mon-hunting-after-01
+images:
+  - id: instagram-2018-01-20-175527-fun-day-with-these-two-mcd-s-for-lunch-and-then-pok-mon-hunting-after-01
+    caption:
+    alt:
+  - id: instagram-2018-01-20-175527-fun-day-with-these-two-mcd-s-for-lunch-and-then-pok-mon-hunting-after-02
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-01-20-175527-fun-day-with-these-two-mcd-s-for-lunch-and-then-pok-mon-hunting-after"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "Fun day with these two, McD’s for lunch and then Pokémon hunting after"
 ---
-
 Fun day with these two, McD’s for lunch and then Pokémon hunting after
-
-{% include gallery.html gallery="instagram-2018-01-20-175527-fun-day-with-these-two-mcd-s-for-lunch-and-then-pok-mon-hunting-after" %}
-

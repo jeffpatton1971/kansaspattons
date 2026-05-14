@@ -10,7 +10,6 @@ year: 2013
 month: 12
 day: 17
 weekday: Tuesday
-gallery: "instagram-2013-12-17-221320-night-night-sissy"
 source:
   type: instagram
   uri: "media/other/17842415113063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2013/12/17/221320-night-night-sissy.html"
 index: 1
 ---
-
 

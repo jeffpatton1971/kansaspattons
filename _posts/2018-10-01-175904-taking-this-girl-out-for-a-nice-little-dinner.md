@@ -15,10 +15,14 @@ source:
   caption: "Taking this girl out for a nice little dinner"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-10-01-175904-taking-this-girl-out-for-a-nice-little-dinner-01
+images:
+  - id: instagram-2018-10-01-175904-taking-this-girl-out-for-a-nice-little-dinner-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-10-01-175904-taking-this-girl-out-for-a-nice-little-dinner"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Taking this girl out for a nice little dinner"
 ---
-
 Taking this girl out for a nice little dinner
-
-{% include gallery.html gallery="instagram-2018-10-01-175904-taking-this-girl-out-for-a-nice-little-dinner" %}
-

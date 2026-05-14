@@ -10,7 +10,6 @@ year: 2020
 month: 03
 day: 02
 weekday: Monday
-gallery: "instagram-2020-03-02-062605-waiting-around-for-everyone-to-wake-up-and-get-breakfast"
 source:
   type: instagram
   uri: "media/other/17863563373705654.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/03/02/062605-waiting-around-for-everyone-to-wake-up-and-get-breakfast.html"
 index: 1
 ---
-
 

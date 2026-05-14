@@ -10,7 +10,6 @@ year: 2015
 month: 03
 day: 06
 weekday: Friday
-gallery: "instagram-2015-03-06-190800-my-dinner-dates"
 source:
   type: instagram
   uri: "media/other/17841791185063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2015/03/06/190800-my-dinner-dates.html"
 index: 1
 ---
-
 

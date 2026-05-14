@@ -15,10 +15,14 @@ source:
   caption: "We’ve seen everything good. We’ve seen the whole city! We went to a museum, we saw priceless works of art! We ate pancreas!"
   media_count: 9
   cross_post_source: "FB"
+cover_image: instagram-2025-04-11-171905-we-ve-seen-everything-good-we-ve-seen-the-whole-city-we-went-to-a-museum-we-saw-01
+related:
+  - type: gallery
+    id: instagram-2025-04-11-171905-we-ve-seen-everything-good-we-ve-seen-the-whole-city-we-went-to-a-museum-we-saw
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-04-11-171905-we-ve-seen-everything-good-we-ve-seen-the-whole-city-we-went-to-a-museum-we-saw"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "We’ve seen everything good. We’ve seen the whole city! We went to a museum, we saw priceless works of art! We ate pancreas!"
 ---
-
 We’ve seen everything good. We’ve seen the whole city! We went to a museum, we saw priceless works of art! We ate pancreas!
-
-{% include gallery.html gallery="instagram-2025-04-11-171905-we-ve-seen-everything-good-we-ve-seen-the-whole-city-we-went-to-a-museum-we-saw" %}
-

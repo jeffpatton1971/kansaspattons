@@ -12,7 +12,6 @@ year: 2025
 month: 06
 day: 17
 weekday: Tuesday
-gallery: "instagram-2025-06-17-060023-goodmorning-walkinglfk"
 source:
   type: instagram
   uri: "media/posts/202506/17893478079252934.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/06/17/060023-goodmorning-walkinglfk.html"
 index: 2
 ---
-
 

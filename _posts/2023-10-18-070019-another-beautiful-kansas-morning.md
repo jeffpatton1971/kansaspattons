@@ -15,11 +15,15 @@ source:
   caption: "Another beautiful #kansas morning"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2023-10-18-070019-another-beautiful-kansas-morning-01
+images:
+  - id: instagram-2023-10-18-070019-another-beautiful-kansas-morning-01
+    caption:
+    alt:
 hashtags:
   - "kansas"
 handles: []
 location:
-gallery: "instagram-2023-10-18-070019-another-beautiful-kansas-morning"
 tags:
   - "kansas"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Another beautiful #kansas morning"
 ---
-
 Another beautiful [#kansas](https://www.instagram.com/explore/tags/kansas/) morning
-
-{% include gallery.html gallery="instagram-2023-10-18-070019-another-beautiful-kansas-morning" %}
-

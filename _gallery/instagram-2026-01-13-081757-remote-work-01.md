@@ -10,7 +10,6 @@ year: 2026
 month: 01
 day: 13
 weekday: Tuesday
-gallery: "instagram-2026-01-13-081757-remote-work"
 source:
   type: instagram
   uri: "media/posts/202601/18033475070558600.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/01/13/081757-remote-work.html"
 index: 1
 ---
-
 

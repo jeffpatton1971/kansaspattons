@@ -15,10 +15,14 @@ source:
   caption: "Out for breakfast with mom"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-03-09-085857-out-for-breakfast-with-mom-01
+images:
+  - id: instagram-2025-03-09-085857-out-for-breakfast-with-mom-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-03-09-085857-out-for-breakfast-with-mom"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Out for breakfast with mom"
 ---
-
 Out for breakfast with mom
-
-{% include gallery.html gallery="instagram-2025-03-09-085857-out-for-breakfast-with-mom" %}
-

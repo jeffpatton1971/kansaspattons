@@ -10,7 +10,6 @@ year: 2025
 month: 05
 day: 18
 weekday: Sunday
-gallery: "instagram-2025-05-18-133622-always-appreciate-the-help-but"
 source:
   type: instagram
   uri: "media/posts/202505/18355655911148228.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/05/18/133622-always-appreciate-the-help-but.html"
 index: 1
 ---
-
 

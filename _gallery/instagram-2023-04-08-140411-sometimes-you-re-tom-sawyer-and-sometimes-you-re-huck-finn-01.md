@@ -10,7 +10,6 @@ year: 2023
 month: 04
 day: 08
 weekday: Saturday
-gallery: "instagram-2023-04-08-140411-sometimes-you-re-tom-sawyer-and-sometimes-you-re-huck-finn"
 source:
   type: instagram
   uri: "media/posts/202304/17890222022747157.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/04/08/140411-sometimes-you-re-tom-sawyer-and-sometimes-you-re-huck-finn.html"
 index: 1
 ---
-
 

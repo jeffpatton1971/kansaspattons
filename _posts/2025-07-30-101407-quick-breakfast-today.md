@@ -15,10 +15,14 @@ source:
   caption: "Quick breakfast today"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-07-30-101407-quick-breakfast-today-01
+images:
+  - id: instagram-2025-07-30-101407-quick-breakfast-today-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-07-30-101407-quick-breakfast-today"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Quick breakfast today"
 ---
-
 Quick breakfast today
-
-{% include gallery.html gallery="instagram-2025-07-30-101407-quick-breakfast-today" %}
-

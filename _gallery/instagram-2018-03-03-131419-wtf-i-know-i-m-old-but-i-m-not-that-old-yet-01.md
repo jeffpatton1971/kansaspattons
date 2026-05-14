@@ -10,7 +10,6 @@ year: 2018
 month: 03
 day: 03
 weekday: Saturday
-gallery: "instagram-2018-03-03-131419-wtf-i-know-i-m-old-but-i-m-not-that-old-yet"
 source:
   type: instagram
   uri: "media/other/17928187648029848.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/03/03/131419-wtf-i-know-i-m-old-but-i-m-not-that-old-yet.html"
 index: 1
 ---
-
 

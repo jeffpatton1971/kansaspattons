@@ -11,7 +11,6 @@ year: 2025
 month: 09
 day: 24
 weekday: Wednesday
-gallery: "instagram-2025-09-24-192830-delicious"
 source:
   type: instagram
   uri: "media/posts/202509/18080989522979303.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/09/24/192830-delicious.html"
 index: 1
 ---
-
 

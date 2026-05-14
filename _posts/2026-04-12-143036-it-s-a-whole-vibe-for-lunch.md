@@ -15,10 +15,17 @@ source:
   caption: "It’s a whole vibe for lunch 🖤💛"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2026-04-12-143036-it-s-a-whole-vibe-for-lunch-01
+images:
+  - id: instagram-2026-04-12-143036-it-s-a-whole-vibe-for-lunch-01
+    caption:
+    alt:
+  - id: instagram-2026-04-12-143036-it-s-a-whole-vibe-for-lunch-02
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2026-04-12-143036-it-s-a-whole-vibe-for-lunch"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "It’s a whole vibe for lunch 🖤💛"
 ---
-
 It’s a whole vibe for lunch 🖤💛
-
-{% include gallery.html gallery="instagram-2026-04-12-143036-it-s-a-whole-vibe-for-lunch" %}
-

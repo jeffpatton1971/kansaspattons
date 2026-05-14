@@ -10,7 +10,6 @@ year: 2025
 month: 03
 day: 09
 weekday: Sunday
-gallery: "instagram-2025-03-09-085857-out-for-breakfast-with-mom"
 source:
   type: instagram
   uri: "media/posts/202503/18036197924568704.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/03/09/085857-out-for-breakfast-with-mom.html"
 index: 1
 ---
-
 

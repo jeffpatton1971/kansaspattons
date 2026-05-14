@@ -11,7 +11,6 @@ year: 2025
 month: 11
 day: 15
 weekday: Saturday
-gallery: "instagram-2025-11-15-105444-eggsellent"
 source:
   type: instagram
   uri: "media/posts/202511/18110099848613182.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/11/15/105444-eggsellent.html"
 index: 1
 ---
-
 

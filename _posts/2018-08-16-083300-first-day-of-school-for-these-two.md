@@ -15,10 +15,20 @@ source:
   caption: "First day of school for these two!"
   media_count: 3
   cross_post_source: "FB"
+cover_image: instagram-2018-08-16-083300-first-day-of-school-for-these-two-01
+images:
+  - id: instagram-2018-08-16-083300-first-day-of-school-for-these-two-01
+    caption:
+    alt:
+  - id: instagram-2018-08-16-083300-first-day-of-school-for-these-two-02
+    caption:
+    alt:
+  - id: instagram-2018-08-16-083300-first-day-of-school-for-these-two-03
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-08-16-083300-first-day-of-school-for-these-two"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +36,4 @@ authors:
   - "Jeff Patton"
 summary: "First day of school for these two!"
 ---
-
 First day of school for these two!
-
-{% include gallery.html gallery="instagram-2018-08-16-083300-first-day-of-school-for-these-two" %}
-

@@ -10,7 +10,6 @@ year: 2021
 month: 11
 day: 21
 weekday: Sunday
-gallery: "instagram-2021-11-21-104020-just-love-this-bush"
 source:
   type: instagram
   uri: "media/other/18263245645016181.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/11/21/104020-just-love-this-bush.html"
 index: 1
 ---
-
 

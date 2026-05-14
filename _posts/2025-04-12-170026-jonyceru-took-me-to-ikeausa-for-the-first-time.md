@@ -15,12 +15,16 @@ source:
   caption: "@jonyceru took me to @ikeausa for the first time!"
   media_count: 7
   cross_post_source: "FB"
+cover_image: instagram-2025-04-12-170026-jonyceru-took-me-to-ikeausa-for-the-first-time-01
+related:
+  - type: gallery
+    id: instagram-2025-04-12-170026-jonyceru-took-me-to-ikeausa-for-the-first-time
+    rel: photos
 hashtags: []
 handles:
   - "jonyceru"
   - "ikeausa"
 location:
-gallery: "instagram-2025-04-12-170026-jonyceru-took-me-to-ikeausa-for-the-first-time"
 tags:
   - "instagram"
 categories: []
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "@jonyceru took me to @ikeausa for the first time!"
 ---
-
 [@jonyceru](https://www.instagram.com/jonyceru/) took me to [@ikeausa](https://www.instagram.com/ikeausa/) for the first time!
-
-{% include gallery.html gallery="instagram-2025-04-12-170026-jonyceru-took-me-to-ikeausa-for-the-first-time" %}
-

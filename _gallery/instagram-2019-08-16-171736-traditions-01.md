@@ -10,7 +10,6 @@ year: 2019
 month: 08
 day: 16
 weekday: Friday
-gallery: "instagram-2019-08-16-171736-traditions"
 source:
   type: instagram
   uri: "media/other/17898025978368986.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/08/16/171736-traditions.html"
 index: 1
 ---
-
 

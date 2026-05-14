@@ -15,11 +15,15 @@ source:
   caption: "I missed his first hit or the season but here’s his second, an RBI single! #littleleaguebaseball"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-05-17-224448-i-missed-his-first-hit-or-the-season-but-here-s-his-second-an-rbi-single-01
+images:
+  - id: instagram-2021-05-17-224448-i-missed-his-first-hit-or-the-season-but-here-s-his-second-an-rbi-single-01
+    caption:
+    alt:
 hashtags:
   - "littleleaguebaseball"
 handles: []
 location:
-gallery: "instagram-2021-05-17-224448-i-missed-his-first-hit-or-the-season-but-here-s-his-second-an-rbi-single"
 tags:
   - "littleleaguebaseball"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "I missed his first hit or the season but here’s his second, an RBI single! #littleleaguebaseball"
 ---
-
 I missed his first hit or the season but here’s his second, an RBI single! [#littleleaguebaseball](https://www.instagram.com/explore/tags/littleleaguebaseball/)
-
-{% include gallery.html gallery="instagram-2021-05-17-224448-i-missed-his-first-hit-or-the-season-but-here-s-his-second-an-rbi-single" %}
-

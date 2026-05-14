@@ -10,7 +10,6 @@ year: 2025
 month: 05
 day: 20
 weekday: Tuesday
-gallery: "instagram-2025-05-20-181528-having-dinner-with-the-kids-and-watching-some-quality-movies"
 source:
   type: instagram
   uri: "media/posts/202505/18396360676117362.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/05/20/181528-having-dinner-with-the-kids-and-watching-some-quality-movies.html"
 index: 1
 ---
-
 

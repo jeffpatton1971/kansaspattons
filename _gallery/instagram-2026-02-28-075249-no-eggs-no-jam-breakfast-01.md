@@ -11,7 +11,6 @@ year: 2026
 month: 02
 day: 28
 weekday: Saturday
-gallery: "instagram-2026-02-28-075249-no-eggs-no-jam-breakfast"
 source:
   type: instagram
   uri: "media/posts/202602/18054780305701904.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/02/28/075249-no-eggs-no-jam-breakfast.html"
 index: 1
 ---
-
 

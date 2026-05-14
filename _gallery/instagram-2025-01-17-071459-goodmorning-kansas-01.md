@@ -12,7 +12,6 @@ year: 2025
 month: 01
 day: 17
 weekday: Friday
-gallery: "instagram-2025-01-17-071459-goodmorning-kansas"
 source:
   type: instagram
   uri: "media/posts/202501/18108537700457400.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/01/17/071459-goodmorning-kansas.html"
 index: 1
 ---
-
 

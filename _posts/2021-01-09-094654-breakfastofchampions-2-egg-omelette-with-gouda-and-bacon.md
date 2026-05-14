@@ -15,11 +15,15 @@ source:
   caption: "#breakfastofchampions 2 egg omelette with Gouda and bacon"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-01-09-094654-breakfastofchampions-2-egg-omelette-with-gouda-and-bacon-01
+images:
+  - id: instagram-2021-01-09-094654-breakfastofchampions-2-egg-omelette-with-gouda-and-bacon-01
+    caption:
+    alt:
 hashtags:
   - "breakfastofchampions"
 handles: []
 location:
-gallery: "instagram-2021-01-09-094654-breakfastofchampions-2-egg-omelette-with-gouda-and-bacon"
 tags:
   - "breakfastofchampions"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "#breakfastofchampions 2 egg omelette with Gouda and bacon"
 ---
-
 [#breakfastofchampions](https://www.instagram.com/explore/tags/breakfastofchampions/) 2 egg omelette with Gouda and bacon
-
-{% include gallery.html gallery="instagram-2021-01-09-094654-breakfastofchampions-2-egg-omelette-with-gouda-and-bacon" %}
-

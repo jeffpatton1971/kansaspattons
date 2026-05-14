@@ -15,10 +15,14 @@ source:
   caption: "Another Pokémon Community Day is in the books and we had some fun and caught some new Pokémon!"
   media_count: 10
   cross_post_source: "FB"
+cover_image: instagram-2018-06-16-160645-another-pok-mon-community-day-is-in-the-books-and-we-had-some-fun-and-caught-01
+related:
+  - type: gallery
+    id: instagram-2018-06-16-160645-another-pok-mon-community-day-is-in-the-books-and-we-had-some-fun-and-caught
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-06-16-160645-another-pok-mon-community-day-is-in-the-books-and-we-had-some-fun-and-caught"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Another Pokémon Community Day is in the books and we had some fun and caught some new Pokémon!"
 ---
-
 Another Pokémon Community Day is in the books and we had some fun and caught some new Pokémon!
-
-{% include gallery.html gallery="instagram-2018-06-16-160645-another-pok-mon-community-day-is-in-the-books-and-we-had-some-fun-and-caught" %}
-

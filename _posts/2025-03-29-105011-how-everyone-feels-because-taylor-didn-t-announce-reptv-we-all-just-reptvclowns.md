@@ -15,12 +15,16 @@ source:
   caption: "How everyone feels because Taylor didn’t announce #reptv we all just #reptvclowns"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-03-29-105011-how-everyone-feels-because-taylor-didn-t-announce-reptv-we-all-just-reptvclowns-01
+images:
+  - id: instagram-2025-03-29-105011-how-everyone-feels-because-taylor-didn-t-announce-reptv-we-all-just-reptvclowns-01
+    caption:
+    alt:
 hashtags:
   - "reptv"
   - "reptvclowns"
 handles: []
 location:
-gallery: "instagram-2025-03-29-105011-how-everyone-feels-because-taylor-didn-t-announce-reptv-we-all-just-reptvclowns"
 tags:
   - "reptv"
   - "reptvclowns"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "How everyone feels because Taylor didn’t announce #reptv we all just #reptvclowns"
 ---
-
 How everyone feels because Taylor didn’t announce [#reptv](https://www.instagram.com/explore/tags/reptv/) we all just [#reptvclowns](https://www.instagram.com/explore/tags/reptvclowns/)
-
-{% include gallery.html gallery="instagram-2025-03-29-105011-how-everyone-feels-because-taylor-didn-t-announce-reptv-we-all-just-reptvclowns" %}
-

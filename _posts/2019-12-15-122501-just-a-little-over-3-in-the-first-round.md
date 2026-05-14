@@ -15,10 +15,14 @@ source:
   caption: "Just a little over 3” in the first round"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-12-15-122501-just-a-little-over-3-in-the-first-round-01
+images:
+  - id: instagram-2019-12-15-122501-just-a-little-over-3-in-the-first-round-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-12-15-122501-just-a-little-over-3-in-the-first-round"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Just a little over 3” in the first round"
 ---
-
 Just a little over 3” in the first round
-
-{% include gallery.html gallery="instagram-2019-12-15-122501-just-a-little-over-3-in-the-first-round" %}
-

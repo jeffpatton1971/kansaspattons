@@ -15,10 +15,14 @@ source:
   caption: "Went to the Captain Marvel movie with one of my most favorite girls"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-04-19-220828-went-to-the-captain-marvel-movie-with-one-of-my-most-favorite-girls-01
+images:
+  - id: instagram-2019-04-19-220828-went-to-the-captain-marvel-movie-with-one-of-my-most-favorite-girls-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-04-19-220828-went-to-the-captain-marvel-movie-with-one-of-my-most-favorite-girls"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Went to the Captain Marvel movie with one of my most favorite girls"
 ---
-
 Went to the Captain Marvel movie with one of my most favorite girls
-
-{% include gallery.html gallery="instagram-2019-04-19-220828-went-to-the-captain-marvel-movie-with-one-of-my-most-favorite-girls" %}
-

@@ -10,7 +10,6 @@ year: 2025
 month: 02
 day: 16
 weekday: Sunday
-gallery: "instagram-2025-02-16-083619-sunday-morning-breakfast"
 source:
   type: instagram
   uri: "media/posts/202502/18053311949110641.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/02/16/083619-sunday-morning-breakfast.html"
 index: 1
 ---
-
 

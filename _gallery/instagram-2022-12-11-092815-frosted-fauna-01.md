@@ -10,7 +10,6 @@ year: 2022
 month: 12
 day: 11
 weekday: Sunday
-gallery: "instagram-2022-12-11-092815-frosted-fauna"
 source:
   type: instagram
   uri: "media/other/18260960032117285.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/12/11/092815-frosted-fauna.html"
 index: 1
 ---
-
 

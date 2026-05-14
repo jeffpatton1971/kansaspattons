@@ -15,10 +15,14 @@ source:
   caption: "Really enjoy the view out back"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2022-05-16-132104-really-enjoy-the-view-out-back-01
+images:
+  - id: instagram-2022-05-16-132104-really-enjoy-the-view-out-back-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2022-05-16-132104-really-enjoy-the-view-out-back"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Really enjoy the view out back"
 ---
-
 Really enjoy the view out back
-
-{% include gallery.html gallery="instagram-2022-05-16-132104-really-enjoy-the-view-out-back" %}
-

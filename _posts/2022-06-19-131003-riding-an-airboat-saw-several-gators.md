@@ -15,10 +15,14 @@ source:
   caption: "Riding an airboat…saw several gators!"
   media_count: 7
   cross_post_source: "FB"
+cover_image: instagram-2022-06-19-131003-riding-an-airboat-saw-several-gators-01
+related:
+  - type: gallery
+    id: instagram-2022-06-19-131003-riding-an-airboat-saw-several-gators
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2022-06-19-131003-riding-an-airboat-saw-several-gators"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Riding an airboat…saw several gators!"
 ---
-
 Riding an airboat…saw several gators!
-
-{% include gallery.html gallery="instagram-2022-06-19-131003-riding-an-airboat-saw-several-gators" %}
-

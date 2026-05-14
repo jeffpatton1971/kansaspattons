@@ -15,10 +15,14 @@ source:
   caption: "Late lunch…early dinner…linner? Dunch? Tasty regardless"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2026-02-07-182750-late-lunch-early-dinner-linner-dunch-tasty-regardless-01
+images:
+  - id: instagram-2026-02-07-182750-late-lunch-early-dinner-linner-dunch-tasty-regardless-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2026-02-07-182750-late-lunch-early-dinner-linner-dunch-tasty-regardless"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Late lunch…early dinner…linner? Dunch? Tasty regardless"
 ---
-
 Late lunch…early dinner…linner? Dunch? Tasty regardless
-
-{% include gallery.html gallery="instagram-2026-02-07-182750-late-lunch-early-dinner-linner-dunch-tasty-regardless" %}
-

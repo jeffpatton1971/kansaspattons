@@ -10,7 +10,6 @@ year: 2019
 month: 10
 day: 26
 weekday: Saturday
-gallery: "instagram-2019-10-26-093617-and-so-it-begins"
 source:
   type: instagram
   uri: "media/other/17863211602543711.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/10/26/093617-and-so-it-begins.html"
 index: 1
 ---
-
 

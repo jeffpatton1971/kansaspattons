@@ -15,12 +15,16 @@ source:
   caption: "#traditions always a good time @bobos1948 after schools out"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2024-05-23-121751-traditions-always-a-good-time-bobos1948-after-schools-out-01
+related:
+  - type: gallery
+    id: instagram-2024-05-23-121751-traditions-always-a-good-time-bobos1948-after-schools-out
+    rel: photos
 hashtags:
   - "traditions"
 handles:
   - "bobos1948"
 location:
-gallery: "instagram-2024-05-23-121751-traditions-always-a-good-time-bobos1948-after-schools-out"
 tags:
   - "traditions"
   - "instagram"
@@ -29,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "#traditions always a good time @bobos1948 after schools out"
 ---
-
 [#traditions](https://www.instagram.com/explore/tags/traditions/) always a good time [@bobos1948](https://www.instagram.com/bobos1948/) after schools out
-
-{% include gallery.html gallery="instagram-2024-05-23-121751-traditions-always-a-good-time-bobos1948-after-schools-out" %}
-

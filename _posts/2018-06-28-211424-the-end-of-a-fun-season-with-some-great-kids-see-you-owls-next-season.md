@@ -15,10 +15,20 @@ source:
   caption: "The end of a fun season with some great kids...see you Owls next season!"
   media_count: 3
   cross_post_source: "FB"
+cover_image: instagram-2018-06-28-211424-the-end-of-a-fun-season-with-some-great-kids-see-you-owls-next-season-01
+images:
+  - id: instagram-2018-06-28-211424-the-end-of-a-fun-season-with-some-great-kids-see-you-owls-next-season-01
+    caption:
+    alt:
+  - id: instagram-2018-06-28-211424-the-end-of-a-fun-season-with-some-great-kids-see-you-owls-next-season-02
+    caption:
+    alt:
+  - id: instagram-2018-06-28-211424-the-end-of-a-fun-season-with-some-great-kids-see-you-owls-next-season-03
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-06-28-211424-the-end-of-a-fun-season-with-some-great-kids-see-you-owls-next-season"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +36,4 @@ authors:
   - "Jeff Patton"
 summary: "The end of a fun season with some great kids...see you Owls next season!"
 ---
-
 The end of a fun season with some great kids...see you Owls next season!
-
-{% include gallery.html gallery="instagram-2018-06-28-211424-the-end-of-a-fun-season-with-some-great-kids-see-you-owls-next-season" %}
-

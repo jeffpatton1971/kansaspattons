@@ -15,12 +15,16 @@ source:
   caption: "#secondbreakfast thanks @theroost920mass 🖤💛"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2026-02-06-090938-secondbreakfast-thanks-theroost920mass-01
+images:
+  - id: instagram-2026-02-06-090938-secondbreakfast-thanks-theroost920mass-01
+    caption:
+    alt:
 hashtags:
   - "secondbreakfast"
 handles:
   - "theroost920mass"
 location:
-gallery: "instagram-2026-02-06-090938-secondbreakfast-thanks-theroost920mass"
 tags:
   - "secondbreakfast"
   - "instagram"
@@ -29,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "#secondbreakfast thanks @theroost920mass 🖤💛"
 ---
-
 [#secondbreakfast](https://www.instagram.com/explore/tags/secondbreakfast/) thanks [@theroost920mass](https://www.instagram.com/theroost920mass/) 🖤💛
-
-{% include gallery.html gallery="instagram-2026-02-06-090938-secondbreakfast-thanks-theroost920mass" %}
-

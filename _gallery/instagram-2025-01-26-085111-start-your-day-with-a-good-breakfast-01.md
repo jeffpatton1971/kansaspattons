@@ -11,7 +11,6 @@ year: 2025
 month: 01
 day: 26
 weekday: Sunday
-gallery: "instagram-2025-01-26-085111-start-your-day-with-a-good-breakfast"
 source:
   type: instagram
   uri: "media/posts/202501/18128364694365155.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/01/26/085111-start-your-day-with-a-good-breakfast.html"
 index: 1
 ---
-
 

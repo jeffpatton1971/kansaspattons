@@ -10,7 +10,6 @@ year: 2014
 month: 06
 day: 15
 weekday: Sunday
-gallery: "instagram-2014-06-15-211842-happy-fathers-day-grandpa-during-my-growing-up-you-were-like-a-father-to-me-and"
 source:
   type: instagram
   uri: "media/other/17843312986063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/06/15/211842-happy-fathers-day-grandpa-during-my-growing-up-you-were-like-a-father-to-me-and.html"
 index: 1
 ---
-
 

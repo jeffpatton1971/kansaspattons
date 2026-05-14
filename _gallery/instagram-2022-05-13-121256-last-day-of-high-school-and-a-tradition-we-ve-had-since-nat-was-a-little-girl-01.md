@@ -10,7 +10,6 @@ year: 2022
 month: 05
 day: 13
 weekday: Friday
-gallery: "instagram-2022-05-13-121256-last-day-of-high-school-and-a-tradition-we-ve-had-since-nat-was-a-little-girl"
 source:
   type: instagram
   uri: "media/other/17963336287633784.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/05/13/121256-last-day-of-high-school-and-a-tradition-we-ve-had-since-nat-was-a-little-girl.html"
 index: 1
 ---
-
 

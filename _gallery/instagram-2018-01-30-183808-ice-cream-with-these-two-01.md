@@ -10,7 +10,6 @@ year: 2018
 month: 01
 day: 30
 weekday: Tuesday
-gallery: "instagram-2018-01-30-183808-ice-cream-with-these-two"
 source:
   type: instagram
   uri: "media/other/17895137110146389.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/01/30/183808-ice-cream-with-these-two.html"
 index: 1
 ---
-
 

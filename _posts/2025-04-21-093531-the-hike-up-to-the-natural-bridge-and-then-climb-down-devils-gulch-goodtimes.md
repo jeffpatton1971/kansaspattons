@@ -15,11 +15,15 @@ source:
   caption: "The hike up to the natural bridge and then climb down devils gulch #goodtimes"
   media_count: 10
   cross_post_source: "FB"
+cover_image: instagram-2025-04-21-093531-the-hike-up-to-the-natural-bridge-and-then-climb-down-devils-gulch-goodtimes-01
+related:
+  - type: gallery
+    id: instagram-2025-04-21-093531-the-hike-up-to-the-natural-bridge-and-then-climb-down-devils-gulch-goodtimes
+    rel: photos
 hashtags:
   - "goodtimes"
 handles: []
 location:
-gallery: "instagram-2025-04-21-093531-the-hike-up-to-the-natural-bridge-and-then-climb-down-devils-gulch-goodtimes"
 tags:
   - "goodtimes"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "The hike up to the natural bridge and then climb down devils gulch #goodtimes"
 ---
-
 The hike up to the natural bridge and then climb down devils gulch [#goodtimes](https://www.instagram.com/explore/tags/goodtimes/)
-
-{% include gallery.html gallery="instagram-2025-04-21-093531-the-hike-up-to-the-natural-bridge-and-then-climb-down-devils-gulch-goodtimes" %}
-

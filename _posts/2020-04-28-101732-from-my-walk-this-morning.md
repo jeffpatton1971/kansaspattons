@@ -15,10 +15,14 @@ source:
   caption: "From my walk this morning"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2020-04-28-101732-from-my-walk-this-morning-01
+images:
+  - id: instagram-2020-04-28-101732-from-my-walk-this-morning-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2020-04-28-101732-from-my-walk-this-morning"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "From my walk this morning"
 ---
-
 From my walk this morning
-
-{% include gallery.html gallery="instagram-2020-04-28-101732-from-my-walk-this-morning" %}
-

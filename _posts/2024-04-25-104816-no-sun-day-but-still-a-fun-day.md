@@ -15,10 +15,14 @@ source:
   caption: "No Sun day but still a fun day"
   media_count: 9
   cross_post_source: "FB"
+cover_image: instagram-2024-04-25-104816-no-sun-day-but-still-a-fun-day-01
+related:
+  - type: gallery
+    id: instagram-2024-04-25-104816-no-sun-day-but-still-a-fun-day
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2024-04-25-104816-no-sun-day-but-still-a-fun-day"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "No Sun day but still a fun day"
 ---
-
 No Sun day but still a fun day
-
-{% include gallery.html gallery="instagram-2024-04-25-104816-no-sun-day-but-still-a-fun-day" %}
-

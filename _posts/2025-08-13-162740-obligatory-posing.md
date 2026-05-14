@@ -15,10 +15,14 @@ source:
   caption: "Obligatory posing"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2025-08-13-162740-obligatory-posing-01
+related:
+  - type: gallery
+    id: instagram-2025-08-13-162740-obligatory-posing
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-08-13-162740-obligatory-posing"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Obligatory posing"
 ---
-
 Obligatory posing
-
-{% include gallery.html gallery="instagram-2025-08-13-162740-obligatory-posing" %}
-

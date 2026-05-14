@@ -15,10 +15,14 @@ source:
   caption: "Nathan has a blast tonight at the 8th grade ball"
   media_count: 10
   cross_post_source: "FB"
+cover_image: instagram-2025-01-25-231911-nathan-has-a-blast-tonight-at-the-8th-grade-ball-01
+related:
+  - type: gallery
+    id: instagram-2025-01-25-231911-nathan-has-a-blast-tonight-at-the-8th-grade-ball
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-01-25-231911-nathan-has-a-blast-tonight-at-the-8th-grade-ball"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Nathan has a blast tonight at the 8th grade ball"
 ---
-
 Nathan has a blast tonight at the 8th grade ball
-
-{% include gallery.html gallery="instagram-2025-01-25-231911-nathan-has-a-blast-tonight-at-the-8th-grade-ball" %}
-

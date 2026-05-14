@@ -15,10 +15,14 @@ source:
   caption: "Starting off the New Year with a great breakfast"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2020-01-01-103740-starting-off-the-new-year-with-a-great-breakfast-01
+images:
+  - id: instagram-2020-01-01-103740-starting-off-the-new-year-with-a-great-breakfast-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2020-01-01-103740-starting-off-the-new-year-with-a-great-breakfast"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Starting off the New Year with a great breakfast"
 ---
-
 Starting off the New Year with a great breakfast
-
-{% include gallery.html gallery="instagram-2020-01-01-103740-starting-off-the-new-year-with-a-great-breakfast" %}
-

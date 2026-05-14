@@ -12,7 +12,6 @@ year: 2024
 month: 02
 day: 10
 weekday: Saturday
-gallery: "instagram-2024-02-10-074355-goodmorning-kansas"
 source:
   type: instagram
   uri: "media/posts/202402/17989874321344149.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/02/10/074355-goodmorning-kansas.html"
 index: 1
 ---
-
 

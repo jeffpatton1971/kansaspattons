@@ -10,7 +10,6 @@ year: 2019
 month: 06
 day: 09
 weekday: Sunday
-gallery: "instagram-2019-06-09-063421-thanks-to-everyone-for-the-birthday-wishes"
 source:
   type: instagram
   uri: "media/other/18075668329046658.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/06/09/063421-thanks-to-everyone-for-the-birthday-wishes.html"
 index: 1
 ---
-
 

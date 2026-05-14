@@ -15,10 +15,17 @@ source:
   caption: "Dinner and donuts 🖤💛"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2026-03-31-201624-dinner-and-donuts-01
+images:
+  - id: instagram-2026-03-31-201624-dinner-and-donuts-01
+    caption:
+    alt:
+  - id: instagram-2026-03-31-201624-dinner-and-donuts-02
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2026-03-31-201624-dinner-and-donuts"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "Dinner and donuts 🖤💛"
 ---
-
 Dinner and donuts 🖤💛
-
-{% include gallery.html gallery="instagram-2026-03-31-201624-dinner-and-donuts" %}
-

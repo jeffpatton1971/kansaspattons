@@ -11,7 +11,6 @@ year: 2025
 month: 11
 day: 22
 weekday: Saturday
-gallery: "instagram-2025-11-22-100643-had-a-wonderful-breakfast-with-my-son-this-morning"
 source:
   type: instagram
   uri: "media/posts/202511/17931723777134677.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/11/22/100643-had-a-wonderful-breakfast-with-my-son-this-morning.html"
 index: 2
 ---
-
 

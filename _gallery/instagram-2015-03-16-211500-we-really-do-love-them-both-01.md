@@ -10,7 +10,6 @@ year: 2015
 month: 03
 day: 16
 weekday: Monday
-gallery: "instagram-2015-03-16-211500-we-really-do-love-them-both"
 source:
   type: instagram
   uri: "media/other/17843559013063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2015/03/16/211500-we-really-do-love-them-both.html"
 index: 1
 ---
-
 

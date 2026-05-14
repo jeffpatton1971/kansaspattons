@@ -10,7 +10,6 @@ year: 2018
 month: 08
 day: 12
 weekday: Sunday
-gallery: "instagram-2018-08-12-191641-one-of-my-favorite-toothless-grins"
 source:
   type: instagram
   uri: "media/other/17968400539027093.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/08/12/191641-one-of-my-favorite-toothless-grins.html"
 index: 1
 ---
-
 

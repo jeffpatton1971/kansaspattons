@@ -12,7 +12,6 @@ year: 2024
 month: 12
 day: 07
 weekday: Saturday
-gallery: "instagram-2024-12-07-175433-a-tasty-greek-lunch-at-our-favorite-place-in-lfk"
 source:
   type: instagram
   uri: "media/posts/202412/18029605436604271.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/12/07/175433-a-tasty-greek-lunch-at-our-favorite-place-in-lfk.html"
 index: 1
 ---
-
 

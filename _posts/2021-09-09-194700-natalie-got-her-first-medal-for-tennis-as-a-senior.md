@@ -15,10 +15,14 @@ source:
   caption: "Natalie got her first medal for Tennis as a senior"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-09-09-194700-natalie-got-her-first-medal-for-tennis-as-a-senior-01
+images:
+  - id: instagram-2021-09-09-194700-natalie-got-her-first-medal-for-tennis-as-a-senior-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-09-09-194700-natalie-got-her-first-medal-for-tennis-as-a-senior"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Natalie got her first medal for Tennis as a senior"
 ---
-
 Natalie got her first medal for Tennis as a senior
-
-{% include gallery.html gallery="instagram-2021-09-09-194700-natalie-got-her-first-medal-for-tennis-as-a-senior" %}
-

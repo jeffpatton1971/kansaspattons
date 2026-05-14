@@ -15,13 +15,17 @@ source:
   caption: "#sunday #breakfast #lfk"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-08-10-092516-sunday-breakfast-lfk-01
+images:
+  - id: instagram-2025-08-10-092516-sunday-breakfast-lfk-01
+    caption:
+    alt:
 hashtags:
   - "sunday"
   - "breakfast"
   - "lfk"
 handles: []
 location:
-gallery: "instagram-2025-08-10-092516-sunday-breakfast-lfk"
 tags:
   - "sunday"
   - "breakfast"
@@ -32,8 +36,4 @@ authors:
   - "Jeff Patton"
 summary: "#sunday #breakfast #lfk"
 ---
-
 [#sunday](https://www.instagram.com/explore/tags/sunday/) [#breakfast](https://www.instagram.com/explore/tags/breakfast/) [#lfk](https://www.instagram.com/explore/tags/lfk/)
-
-{% include gallery.html gallery="instagram-2025-08-10-092516-sunday-breakfast-lfk" %}
-

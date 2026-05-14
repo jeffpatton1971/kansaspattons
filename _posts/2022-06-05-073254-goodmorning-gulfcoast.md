@@ -15,12 +15,16 @@ source:
   caption: "#goodmorning #gulfcoast"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2022-06-05-073254-goodmorning-gulfcoast-01
+images:
+  - id: instagram-2022-06-05-073254-goodmorning-gulfcoast-01
+    caption:
+    alt:
 hashtags:
   - "goodmorning"
   - "gulfcoast"
 handles: []
 location:
-gallery: "instagram-2022-06-05-073254-goodmorning-gulfcoast"
 tags:
   - "goodmorning"
   - "gulfcoast"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "#goodmorning #gulfcoast"
 ---
-
 [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#gulfcoast](https://www.instagram.com/explore/tags/gulfcoast/)
-
-{% include gallery.html gallery="instagram-2022-06-05-073254-goodmorning-gulfcoast" %}
-

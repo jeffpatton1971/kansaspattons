@@ -10,7 +10,6 @@ year: 2025
 month: 05
 day: 11
 weekday: Sunday
-gallery: "instagram-2025-05-11-083028-on-this-mother-s-day-make-sure-your-siblings-know-who-the-favorite-is"
 source:
   type: instagram
   uri: "media/posts/202505/18029888972418187.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/05/11/083028-on-this-mother-s-day-make-sure-your-siblings-know-who-the-favorite-is.html"
 index: 1
 ---
-
 

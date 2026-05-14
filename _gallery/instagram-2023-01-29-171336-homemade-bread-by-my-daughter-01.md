@@ -10,7 +10,6 @@ year: 2023
 month: 01
 day: 29
 weekday: Sunday
-gallery: "instagram-2023-01-29-171336-homemade-bread-by-my-daughter"
 source:
   type: instagram
   uri: "media/other/17991063583701103.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/01/29/171336-homemade-bread-by-my-daughter.html"
 index: 1
 ---
-
 

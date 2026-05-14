@@ -10,7 +10,6 @@ year: 2017
 month: 04
 day: 23
 weekday: Sunday
-gallery: "instagram-2017-04-23-162323-thanks-coach"
 source:
   type: instagram
   uri: "media/other/17878715635035631.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2017/04/23/162323-thanks-coach.html"
 index: 1
 ---
-
 

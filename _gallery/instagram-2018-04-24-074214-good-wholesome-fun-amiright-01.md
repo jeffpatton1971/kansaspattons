@@ -10,7 +10,6 @@ year: 2018
 month: 04
 day: 24
 weekday: Tuesday
-gallery: "instagram-2018-04-24-074214-good-wholesome-fun-amiright"
 source:
   type: instagram
   uri: "media/other/17940507646039818.mp4"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/04/24/074214-good-wholesome-fun-amiright.html"
 index: 1
 ---
-
 

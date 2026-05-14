@@ -15,10 +15,20 @@ source:
   caption: "Dinner and shopping with my favorite daughter"
   media_count: 3
   cross_post_source: "FB"
+cover_image: instagram-2025-03-18-202523-dinner-and-shopping-with-my-favorite-daughter-01
+images:
+  - id: instagram-2025-03-18-202523-dinner-and-shopping-with-my-favorite-daughter-01
+    caption:
+    alt:
+  - id: instagram-2025-03-18-202523-dinner-and-shopping-with-my-favorite-daughter-02
+    caption:
+    alt:
+  - id: instagram-2025-03-18-202523-dinner-and-shopping-with-my-favorite-daughter-03
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-03-18-202523-dinner-and-shopping-with-my-favorite-daughter"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +36,4 @@ authors:
   - "Jeff Patton"
 summary: "Dinner and shopping with my favorite daughter"
 ---
-
 Dinner and shopping with my favorite daughter
-
-{% include gallery.html gallery="instagram-2025-03-18-202523-dinner-and-shopping-with-my-favorite-daughter" %}
-

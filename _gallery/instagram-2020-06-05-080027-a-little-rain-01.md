@@ -10,7 +10,6 @@ year: 2020
 month: 06
 day: 05
 weekday: Friday
-gallery: "instagram-2020-06-05-080027-a-little-rain"
 source:
   type: instagram
   uri: "media/other/18145912003051859.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/06/05/080027-a-little-rain.html"
 index: 1
 ---
-
 

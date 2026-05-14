@@ -10,7 +10,6 @@ year: 2021
 month: 07
 day: 15
 weekday: Thursday
-gallery: "instagram-2021-07-15-200529-hibiscus-look-kinda-spooky-in-black-and-white-as-well"
 source:
   type: instagram
   uri: "media/other/17913351460805517.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/07/15/200529-hibiscus-look-kinda-spooky-in-black-and-white-as-well.html"
 index: 1
 ---
-
 

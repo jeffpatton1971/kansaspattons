@@ -10,7 +10,6 @@ year: 2021
 month: 01
 day: 14
 weekday: Thursday
-gallery: "instagram-2021-01-14-130409-ominous-sky"
 source:
   type: instagram
   uri: "media/other/17858650025388311.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/01/14/130409-ominous-sky.html"
 index: 1
 ---
-
 

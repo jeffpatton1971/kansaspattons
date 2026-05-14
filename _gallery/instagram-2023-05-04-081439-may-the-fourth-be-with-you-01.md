@@ -10,7 +10,6 @@ year: 2023
 month: 05
 day: 04
 weekday: Thursday
-gallery: "instagram-2023-05-04-081439-may-the-fourth-be-with-you"
 source:
   type: instagram
   uri: "media/posts/202305/18245994211090038.jpg"
@@ -23,5 +22,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/05/04/081439-may-the-fourth-be-with-you.html"
 index: 1
 ---
-
 

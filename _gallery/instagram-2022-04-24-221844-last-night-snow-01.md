@@ -10,7 +10,6 @@ year: 2022
 month: 04
 day: 24
 weekday: Sunday
-gallery: "instagram-2022-04-24-221844-last-night-snow"
 source:
   type: instagram
   uri: "media/other/17987598970471933.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/04/24/221844-last-night-snow.html"
 index: 1
 ---
-
 

@@ -15,10 +15,14 @@ source:
   caption: "Took this the other day, didn't see the rainbow at the time"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-08-28-215817-took-this-the-other-day-didn-t-see-the-rainbow-at-the-time-01
+images:
+  - id: instagram-2014-08-28-215817-took-this-the-other-day-didn-t-see-the-rainbow-at-the-time-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2014-08-28-215817-took-this-the-other-day-didn-t-see-the-rainbow-at-the-time"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Took this the other day, didn't see the rainbow at the time"
 ---
-
 Took this the other day, didn't see the rainbow at the time
-
-{% include gallery.html gallery="instagram-2014-08-28-215817-took-this-the-other-day-didn-t-see-the-rainbow-at-the-time" %}
-

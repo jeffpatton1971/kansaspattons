@@ -10,7 +10,6 @@ year: 2018
 month: 06
 day: 13
 weekday: Wednesday
-gallery: "instagram-2018-06-13-185603-he-made-contact-and-ran-like-crazy"
 source:
   type: instagram
   uri: "media/other/17939178040103551.mp4"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/06/13/185603-he-made-contact-and-ran-like-crazy.html"
 index: 1
 ---
-
 

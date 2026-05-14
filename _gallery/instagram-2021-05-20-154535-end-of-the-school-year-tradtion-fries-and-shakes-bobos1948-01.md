@@ -10,7 +10,6 @@ year: 2021
 month: 05
 day: 20
 weekday: Thursday
-gallery: "instagram-2021-05-20-154535-end-of-the-school-year-tradtion-fries-and-shakes-bobos1948"
 source:
   type: instagram
   uri: "media/other/18090812713252710.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/05/20/154535-end-of-the-school-year-tradtion-fries-and-shakes-bobos1948.html"
 index: 1
 ---
-
 

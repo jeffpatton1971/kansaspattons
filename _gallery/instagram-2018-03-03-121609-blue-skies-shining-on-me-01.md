@@ -10,7 +10,6 @@ year: 2018
 month: 03
 day: 03
 weekday: Saturday
-gallery: "instagram-2018-03-03-121609-blue-skies-shining-on-me"
 source:
   type: instagram
   uri: "media/other/17910335653080362.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/03/03/121609-blue-skies-shining-on-me.html"
 index: 1
 ---
-
 

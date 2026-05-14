@@ -15,10 +15,14 @@ source:
   caption: "Welcome to the con."
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2024-11-14-071310-welcome-to-the-con-01
+images:
+  - id: instagram-2024-11-14-071310-welcome-to-the-con-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2024-11-14-071310-welcome-to-the-con"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Welcome to the con."
 ---
-
 Welcome to the con.
-
-{% include gallery.html gallery="instagram-2024-11-14-071310-welcome-to-the-con" %}
-

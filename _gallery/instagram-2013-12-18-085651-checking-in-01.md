@@ -10,7 +10,6 @@ year: 2013
 month: 12
 day: 18
 weekday: Wednesday
-gallery: "instagram-2013-12-18-085651-checking-in"
 source:
   type: instagram
   uri: "media/other/17842415230063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2013/12/18/085651-checking-in.html"
 index: 1
 ---
-
 

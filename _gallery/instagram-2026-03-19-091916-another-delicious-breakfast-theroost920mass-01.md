@@ -11,7 +11,6 @@ year: 2026
 month: 03
 day: 19
 weekday: Thursday
-gallery: "instagram-2026-03-19-091916-another-delicious-breakfast-theroost920mass"
 source:
   type: instagram
   uri: "media/posts/202603/18094576457026296.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/03/19/091916-another-delicious-breakfast-theroost920mass.html"
 index: 1
 ---
-
 

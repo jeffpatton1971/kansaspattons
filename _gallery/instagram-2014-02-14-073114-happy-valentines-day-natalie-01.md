@@ -10,7 +10,6 @@ year: 2014
 month: 02
 day: 14
 weekday: Friday
-gallery: "instagram-2014-02-14-073114-happy-valentines-day-natalie"
 source:
   type: instagram
   uri: "media/other/17842444672063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/02/14/073114-happy-valentines-day-natalie.html"
 index: 1
 ---
-
 

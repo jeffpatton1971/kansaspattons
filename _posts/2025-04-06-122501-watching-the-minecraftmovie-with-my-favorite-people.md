@@ -15,11 +15,15 @@ source:
   caption: "Watching the #minecraftmovie with my favorite people ❤️"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-04-06-122501-watching-the-minecraftmovie-with-my-favorite-people-01
+images:
+  - id: instagram-2025-04-06-122501-watching-the-minecraftmovie-with-my-favorite-people-01
+    caption:
+    alt:
 hashtags:
   - "minecraftmovie"
 handles: []
 location:
-gallery: "instagram-2025-04-06-122501-watching-the-minecraftmovie-with-my-favorite-people"
 tags:
   - "minecraftmovie"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Watching the #minecraftmovie with my favorite people ❤️"
 ---
-
 Watching the [#minecraftmovie](https://www.instagram.com/explore/tags/minecraftmovie/) with my favorite people ❤️
-
-{% include gallery.html gallery="instagram-2025-04-06-122501-watching-the-minecraftmovie-with-my-favorite-people" %}
-

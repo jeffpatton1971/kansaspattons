@@ -15,10 +15,14 @@ source:
   caption: "Nathan crashes right before the movie ended"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-05-25-150300-nathan-crashes-right-before-the-movie-ended-01
+images:
+  - id: instagram-2014-05-25-150300-nathan-crashes-right-before-the-movie-ended-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2014-05-25-150300-nathan-crashes-right-before-the-movie-ended"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Nathan crashes right before the movie ended"
 ---
-
 Nathan crashes right before the movie ended
-
-{% include gallery.html gallery="instagram-2014-05-25-150300-nathan-crashes-right-before-the-movie-ended" %}
-

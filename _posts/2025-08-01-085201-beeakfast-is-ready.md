@@ -15,11 +15,15 @@ source:
   caption: "#beeakfast is ready"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-08-01-085201-beeakfast-is-ready-01
+images:
+  - id: instagram-2025-08-01-085201-beeakfast-is-ready-01
+    caption:
+    alt:
 hashtags:
   - "beeakfast"
 handles: []
 location:
-gallery: "instagram-2025-08-01-085201-beeakfast-is-ready"
 tags:
   - "beeakfast"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "#beeakfast is ready"
 ---
-
 [#beeakfast](https://www.instagram.com/explore/tags/beeakfast/) is ready
-
-{% include gallery.html gallery="instagram-2025-08-01-085201-beeakfast-is-ready" %}
-

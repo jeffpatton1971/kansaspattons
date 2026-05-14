@@ -10,7 +10,6 @@ year: 2021
 month: 07
 day: 14
 weekday: Wednesday
-gallery: "instagram-2021-07-14-205546-trees-look-spooky-in-black-and-white"
 source:
   type: instagram
   uri: "media/other/17888482922197235.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/07/14/205546-trees-look-spooky-in-black-and-white.html"
 index: 1
 ---
-
 

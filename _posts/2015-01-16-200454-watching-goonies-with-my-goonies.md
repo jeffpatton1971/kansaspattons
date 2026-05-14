@@ -15,10 +15,14 @@ source:
   caption: "Watching Goonies with my goonies!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2015-01-16-200454-watching-goonies-with-my-goonies-01
+images:
+  - id: instagram-2015-01-16-200454-watching-goonies-with-my-goonies-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2015-01-16-200454-watching-goonies-with-my-goonies"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Watching Goonies with my goonies!"
 ---
-
 Watching Goonies with my goonies!
-
-{% include gallery.html gallery="instagram-2015-01-16-200454-watching-goonies-with-my-goonies" %}
-

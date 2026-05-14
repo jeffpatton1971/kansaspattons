@@ -10,7 +10,6 @@ year: 2022
 month: 01
 day: 15
 weekday: Saturday
-gallery: "instagram-2022-01-15-165954-natalie-s-last-silver-bells-dance-at-cairparaveltopeka"
 source:
   type: instagram
   uri: "media/other/17908606124354600.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/01/15/165954-natalie-s-last-silver-bells-dance-at-cairparaveltopeka.html"
 index: 1
 ---
-
 

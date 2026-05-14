@@ -15,10 +15,14 @@ source:
   caption: "Sunday dinner…smoked tri-tip at moms request"
   media_count: 8
   cross_post_source: "FB"
+cover_image: instagram-2025-03-09-185435-sunday-dinner-smoked-tri-tip-at-moms-request-01
+related:
+  - type: gallery
+    id: instagram-2025-03-09-185435-sunday-dinner-smoked-tri-tip-at-moms-request
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-03-09-185435-sunday-dinner-smoked-tri-tip-at-moms-request"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Sunday dinner…smoked tri-tip at moms request"
 ---
-
 Sunday dinner…smoked tri-tip at moms request
-
-{% include gallery.html gallery="instagram-2025-03-09-185435-sunday-dinner-smoked-tri-tip-at-moms-request" %}
-

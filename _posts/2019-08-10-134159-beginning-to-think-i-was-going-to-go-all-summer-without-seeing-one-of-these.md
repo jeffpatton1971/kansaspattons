@@ -15,10 +15,14 @@ source:
   caption: "Beginning to think I was going to go all summer without seeing one of these little guys"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-08-10-134159-beginning-to-think-i-was-going-to-go-all-summer-without-seeing-one-of-these-01
+images:
+  - id: instagram-2019-08-10-134159-beginning-to-think-i-was-going-to-go-all-summer-without-seeing-one-of-these-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-08-10-134159-beginning-to-think-i-was-going-to-go-all-summer-without-seeing-one-of-these"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Beginning to think I was going to go all summer without seeing one of these little guys"
 ---
-
 Beginning to think I was going to go all summer without seeing one of these little guys
-
-{% include gallery.html gallery="instagram-2019-08-10-134159-beginning-to-think-i-was-going-to-go-all-summer-without-seeing-one-of-these" %}
-

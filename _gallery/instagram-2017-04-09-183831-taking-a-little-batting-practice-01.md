@@ -10,7 +10,6 @@ year: 2017
 month: 04
 day: 09
 weekday: Sunday
-gallery: "instagram-2017-04-09-183831-taking-a-little-batting-practice"
 source:
   type: instagram
   uri: "media/other/17863814629095774.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2017/04/09/183831-taking-a-little-batting-practice.html"
 index: 1
 ---
-
 

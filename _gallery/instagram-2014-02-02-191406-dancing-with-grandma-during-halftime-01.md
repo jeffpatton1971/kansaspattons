@@ -10,7 +10,6 @@ year: 2014
 month: 02
 day: 02
 weekday: Sunday
-gallery: "instagram-2014-02-02-191406-dancing-with-grandma-during-halftime"
 source:
   type: instagram
   uri: "media/other/17842439140063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/02/02/191406-dancing-with-grandma-during-halftime.html"
 index: 1
 ---
-
 

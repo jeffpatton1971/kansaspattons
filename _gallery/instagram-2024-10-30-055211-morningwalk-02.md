@@ -11,7 +11,6 @@ year: 2024
 month: 10
 day: 30
 weekday: Wednesday
-gallery: "instagram-2024-10-30-055211-morningwalk"
 source:
   type: instagram
   uri: "media/posts/202410/18018325340625300.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/10/30/055211-morningwalk.html"
 index: 2
 ---
-
 

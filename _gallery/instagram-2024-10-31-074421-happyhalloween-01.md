@@ -11,7 +11,6 @@ year: 2024
 month: 10
 day: 31
 weekday: Thursday
-gallery: "instagram-2024-10-31-074421-happyhalloween"
 source:
   type: instagram
   uri: "media/posts/202410/18045176573099031.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/10/31/074421-happyhalloween.html"
 index: 1
 ---
-
 

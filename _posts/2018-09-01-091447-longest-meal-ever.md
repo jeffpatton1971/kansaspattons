@@ -15,10 +15,17 @@ source:
   caption: "Longest meal ever!"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2018-09-01-091447-longest-meal-ever-01
+images:
+  - id: instagram-2018-09-01-091447-longest-meal-ever-01
+    caption:
+    alt:
+  - id: instagram-2018-09-01-091447-longest-meal-ever-02
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-09-01-091447-longest-meal-ever"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "Longest meal ever!"
 ---
-
 Longest meal ever!
-
-{% include gallery.html gallery="instagram-2018-09-01-091447-longest-meal-ever" %}
-

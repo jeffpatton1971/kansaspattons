@@ -10,7 +10,6 @@ year: 2018
 month: 12
 day: 23
 weekday: Sunday
-gallery: "instagram-2018-12-23-133723-11yrs-ago-today"
 source:
   type: instagram
   uri: "media/other/17976739270175850.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/12/23/133723-11yrs-ago-today.html"
 index: 1
 ---
-
 

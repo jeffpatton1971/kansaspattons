@@ -11,7 +11,6 @@ year: 2025
 month: 08
 day: 01
 weekday: Friday
-gallery: "instagram-2025-08-01-085201-beeakfast-is-ready"
 source:
   type: instagram
   uri: "media/posts/202508/18375447715131108.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/08/01/085201-beeakfast-is-ready.html"
 index: 1
 ---
-
 

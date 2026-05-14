@@ -9,7 +9,6 @@ year: 2014
 month: 02
 day: 03
 weekday: Monday
-gallery: facebook-2014-02-03-221847-purple-your-profile-photos
 post_id: 2014-02-03-221847-purple-your-profile-photos
 source:
   type: facebook

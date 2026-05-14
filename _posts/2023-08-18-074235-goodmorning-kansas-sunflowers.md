@@ -15,13 +15,17 @@ source:
   caption: "#goodmorning #kansas #sunflowers"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2023-08-18-074235-goodmorning-kansas-sunflowers-01
+images:
+  - id: instagram-2023-08-18-074235-goodmorning-kansas-sunflowers-01
+    caption:
+    alt:
 hashtags:
   - "goodmorning"
   - "kansas"
   - "sunflowers"
 handles: []
 location:
-gallery: "instagram-2023-08-18-074235-goodmorning-kansas-sunflowers"
 tags:
   - "goodmorning"
   - "kansas"
@@ -32,8 +36,4 @@ authors:
   - "Jeff Patton"
 summary: "#goodmorning #kansas #sunflowers"
 ---
-
 [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#kansas](https://www.instagram.com/explore/tags/kansas/) [#sunflowers](https://www.instagram.com/explore/tags/sunflowers/)
-
-{% include gallery.html gallery="instagram-2023-08-18-074235-goodmorning-kansas-sunflowers" %}
-

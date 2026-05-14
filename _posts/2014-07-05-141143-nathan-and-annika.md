@@ -15,10 +15,14 @@ source:
   caption: "Nathan and Annika"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-07-05-141143-nathan-and-annika-01
+images:
+  - id: instagram-2014-07-05-141143-nathan-and-annika-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2014-07-05-141143-nathan-and-annika"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Nathan and Annika"
 ---
-
 Nathan and Annika
-
-{% include gallery.html gallery="instagram-2014-07-05-141143-nathan-and-annika" %}
-

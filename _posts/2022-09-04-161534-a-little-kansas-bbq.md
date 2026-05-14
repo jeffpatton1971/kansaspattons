@@ -15,11 +15,18 @@ source:
   caption: "A little #kansas bbq"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2022-09-04-161534-a-little-kansas-bbq-01
+images:
+  - id: instagram-2022-09-04-161534-a-little-kansas-bbq-01
+    caption:
+    alt:
+  - id: instagram-2022-09-04-161534-a-little-kansas-bbq-02
+    caption:
+    alt:
 hashtags:
   - "kansas"
 handles: []
 location:
-gallery: "instagram-2022-09-04-161534-a-little-kansas-bbq"
 tags:
   - "kansas"
   - "instagram"
@@ -28,8 +35,4 @@ authors:
   - "Jeff Patton"
 summary: "A little #kansas bbq"
 ---
-
 A little [#kansas](https://www.instagram.com/explore/tags/kansas/) bbq
-
-{% include gallery.html gallery="instagram-2022-09-04-161534-a-little-kansas-bbq" %}
-

@@ -10,7 +10,6 @@ year: 2019
 month: 04
 day: 15
 weekday: Monday
-gallery: "instagram-2019-04-15-211157-first-game-in-the-books-nathan-got-hit-by-a-pitch-with-the-bases-loaded-for-an"
 source:
   type: instagram
   uri: "media/posts/201904/18022126870155718.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/04/15/211157-first-game-in-the-books-nathan-got-hit-by-a-pitch-with-the-bases-loaded-for-an.html"
 index: 3
 ---
-
 

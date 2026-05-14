@@ -10,7 +10,6 @@ year: 2015
 month: 06
 day: 11
 weekday: Thursday
-gallery: "instagram-2015-06-11-200730-game-got-called-in-the-top-of-the-2nd-inning-at-least-everyone-got-a-chance-to"
 source:
   type: instagram
   uri: "media/other/17841492253063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2015/06/11/200730-game-got-called-in-the-top-of-the-2nd-inning-at-least-everyone-got-a-chance-to.html"
 index: 1
 ---
-
 

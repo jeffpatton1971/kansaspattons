@@ -15,10 +15,14 @@ source:
   caption: "Natalie & co singing before the play"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2013-12-14-121014-natalie-and-co-singing-before-the-play-01
+images:
+  - id: instagram-2013-12-14-121014-natalie-and-co-singing-before-the-play-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2013-12-14-121014-natalie-and-co-singing-before-the-play"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Natalie & co singing before the play"
 ---
-
 Natalie &amp; co singing before the play
-
-{% include gallery.html gallery="instagram-2013-12-14-121014-natalie-and-co-singing-before-the-play" %}
-

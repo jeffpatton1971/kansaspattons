@@ -15,10 +15,14 @@ source:
   caption: "Julia, Natalie and Zion after the concert Monday"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2013-12-14-121659-julia-natalie-and-zion-after-the-concert-monday-01
+images:
+  - id: instagram-2013-12-14-121659-julia-natalie-and-zion-after-the-concert-monday-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2013-12-14-121659-julia-natalie-and-zion-after-the-concert-monday"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Julia, Natalie and Zion after the concert Monday"
 ---
-
 Julia, Natalie and Zion after the concert Monday
-
-{% include gallery.html gallery="instagram-2013-12-14-121659-julia-natalie-and-zion-after-the-concert-monday" %}
-

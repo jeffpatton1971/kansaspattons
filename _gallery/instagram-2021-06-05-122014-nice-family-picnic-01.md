@@ -10,7 +10,6 @@ year: 2021
 month: 06
 day: 05
 weekday: Saturday
-gallery: "instagram-2021-06-05-122014-nice-family-picnic"
 source:
   type: instagram
   uri: "media/other/17975096599377200.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/06/05/122014-nice-family-picnic.html"
 index: 1
 ---
-
 

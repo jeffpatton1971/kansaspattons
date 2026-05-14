@@ -10,7 +10,6 @@ year: 2018
 month: 10
 day: 06
 weekday: Saturday
-gallery: "instagram-2018-10-06-184715-these-three"
 source:
   type: instagram
   uri: "media/other/17971704004113494.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/10/06/184715-these-three.html"
 index: 1
 ---
-
 

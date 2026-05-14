@@ -10,7 +10,6 @@ year: 2019
 month: 11
 day: 09
 weekday: Saturday
-gallery: "instagram-2019-11-09-115621-not-sure-which-is-better-being-done-or-knowing-i-don-t-have-to-do-this-again"
 source:
   type: instagram
   uri: "media/other/17883547219451888.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/11/09/115621-not-sure-which-is-better-being-done-or-knowing-i-don-t-have-to-do-this-again.html"
 index: 1
 ---
-
 

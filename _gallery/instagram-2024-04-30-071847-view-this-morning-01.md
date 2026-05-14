@@ -10,7 +10,6 @@ year: 2024
 month: 04
 day: 30
 weekday: Tuesday
-gallery: "instagram-2024-04-30-071847-view-this-morning"
 source:
   type: instagram
   uri: "media/posts/202404/17917951085813517.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/04/30/071847-view-this-morning.html"
 index: 1
 ---
-
 

@@ -15,10 +15,14 @@ source:
   caption: "Went to the Symphony tonight and really miss playing"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-10-02-223304-went-to-the-symphony-tonight-and-really-miss-playing-01
+images:
+  - id: instagram-2021-10-02-223304-went-to-the-symphony-tonight-and-really-miss-playing-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-10-02-223304-went-to-the-symphony-tonight-and-really-miss-playing"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Went to the Symphony tonight and really miss playing"
 ---
-
 Went to the Symphony tonight and really miss playing
-
-{% include gallery.html gallery="instagram-2021-10-02-223304-went-to-the-symphony-tonight-and-really-miss-playing" %}
-

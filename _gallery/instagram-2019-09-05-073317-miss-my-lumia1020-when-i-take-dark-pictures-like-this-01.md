@@ -10,7 +10,6 @@ year: 2019
 month: 09
 day: 05
 weekday: Thursday
-gallery: "instagram-2019-09-05-073317-miss-my-lumia1020-when-i-take-dark-pictures-like-this"
 source:
   type: instagram
   uri: "media/other/17861354491497402.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/09/05/073317-miss-my-lumia1020-when-i-take-dark-pictures-like-this.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2024
 month: 11
 day: 14
 weekday: Thursday
-gallery: "instagram-2024-11-14-071310-welcome-to-the-con"
 source:
   type: instagram
   uri: "media/posts/202411/17896188654013045.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/11/14/071310-welcome-to-the-con.html"
 index: 1
 ---
-
 

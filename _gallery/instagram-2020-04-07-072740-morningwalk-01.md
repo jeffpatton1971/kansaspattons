@@ -11,7 +11,6 @@ year: 2020
 month: 04
 day: 07
 weekday: Tuesday
-gallery: "instagram-2020-04-07-072740-morningwalk"
 source:
   type: instagram
   uri: "media/other/17892487375481185.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/04/07/072740-morningwalk.html"
 index: 1
 ---
-
 

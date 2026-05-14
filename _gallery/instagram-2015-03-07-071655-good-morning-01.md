@@ -10,7 +10,6 @@ year: 2015
 month: 03
 day: 07
 weekday: Saturday
-gallery: "instagram-2015-03-07-071655-good-morning"
 source:
   type: instagram
   uri: "media/other/17843556895063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2015/03/07/071655-good-morning.html"
 index: 1
 ---
-
 

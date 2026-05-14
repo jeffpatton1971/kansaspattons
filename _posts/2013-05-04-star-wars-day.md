@@ -12,7 +12,14 @@ source:
   type: wordpress
   id: 434
   url: "https://jeffspatton.wordpress.com/2013/05/04/may-4-2013/"
-gallery: "wordpress-2013-05-04-075942-may-4-2013"
+cover_image: "2013-05-04-wp-20130504-001"
+images:
+  - id: "2013-05-04-wp-20130504-001"
+    caption:
+    alt:
+  - id: "2013-05-04-wp-20130504-033"
+    caption:
+    alt:
 categories:
   - "family"
 tags:
@@ -22,5 +29,3 @@ authors:
 summary: "Introduced Nathan to Star Wars today, perhaps he’s a little young, perhaps not…but May the fourth is as good an excuse as any to camp out in front of the TV and watch movies!"
 ---
 Introduced Nathan to Star Wars today, perhaps he’s a little young, perhaps not…but May the fourth is as good an excuse as any to camp out in front of the TV and watch movies!
-
-{% include gallery.html gallery="wordpress-2013-05-04-075942-may-4-2013" %}

@@ -7,6 +7,11 @@ post_id:         2009-10-28-cpls-kindergarten-trip
 date:       2009-10-28 09:55:00 -0600
 source:
   type: wordpress
+cover_image: "2009-10-28-photo00412"
+related:
+  - type: gallery
+    id: gallery-2009-10-28
+    rel: photos
 categories:
   - "Natalie"
   - "CPLS"
@@ -28,5 +33,3 @@ Not much to tell we already had a large pumpkin that we got from the patch in [L
 After being outside we went inside their plant, the kids got to see where all the apples were delivered. We then learned that the apples were cleaned with only water and bristle brushes by a very large machine. From there the apples went into a sorting machine that sorted each apple by size. The kids enjoyed how fast the apples moved. Finally we saw the final destination for many apples, a large hydraulic press, that turned apples into juice.
 
 After the fun and excitement they gave each of the children a cup full of apple slushy which considering the temperature maybe hot cider would have been a better choice.
-
-{% include gallery.html gallery="gallery-2009-10-28" %}

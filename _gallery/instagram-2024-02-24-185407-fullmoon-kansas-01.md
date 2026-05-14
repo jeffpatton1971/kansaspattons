@@ -12,7 +12,6 @@ year: 2024
 month: 02
 day: 24
 weekday: Saturday
-gallery: "instagram-2024-02-24-185407-fullmoon-kansas"
 source:
   type: instagram
   uri: "media/posts/202402/18009283853084195.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/02/24/185407-fullmoon-kansas.html"
 index: 1
 ---
-
 

@@ -15,10 +15,14 @@ source:
   caption: "Catching the rain"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-06-22-200424-catching-the-rain-01
+images:
+  - id: instagram-2014-06-22-200424-catching-the-rain-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2014-06-22-200424-catching-the-rain"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Catching the rain"
 ---
-
 Catching the rain
-
-{% include gallery.html gallery="instagram-2014-06-22-200424-catching-the-rain" %}
-

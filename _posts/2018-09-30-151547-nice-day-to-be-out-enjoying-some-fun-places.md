@@ -15,10 +15,14 @@ source:
   caption: "Nice day to be out enjoying some fun places"
   media_count: 7
   cross_post_source: "FB"
+cover_image: instagram-2018-09-30-151547-nice-day-to-be-out-enjoying-some-fun-places-01
+related:
+  - type: gallery
+    id: instagram-2018-09-30-151547-nice-day-to-be-out-enjoying-some-fun-places
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-09-30-151547-nice-day-to-be-out-enjoying-some-fun-places"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Nice day to be out enjoying some fun places"
 ---
-
 Nice day to be out enjoying some fun places
-
-{% include gallery.html gallery="instagram-2018-09-30-151547-nice-day-to-be-out-enjoying-some-fun-places" %}
-

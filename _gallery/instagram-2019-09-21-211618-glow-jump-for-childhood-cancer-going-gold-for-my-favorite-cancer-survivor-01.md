@@ -10,7 +10,6 @@ year: 2019
 month: 09
 day: 21
 weekday: Saturday
-gallery: "instagram-2019-09-21-211618-glow-jump-for-childhood-cancer-going-gold-for-my-favorite-cancer-survivor"
 source:
   type: instagram
   uri: "media/other/17844247303666376.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/09/21/211618-glow-jump-for-childhood-cancer-going-gold-for-my-favorite-cancer-survivor.html"
 index: 1
 ---
-
 

@@ -11,7 +11,6 @@ year: 2021
 month: 07
 day: 04
 weekday: Sunday
-gallery: "instagram-2021-07-04-162958-fireworks"
 source:
   type: instagram
   uri: "media/other/17933841187568202.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/07/04/162958-fireworks.html"
 index: 1
 ---
-
 

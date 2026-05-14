@@ -15,10 +15,14 @@ source:
   caption: "Dinner with this crazy kid on this special day!!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-09-27-193403-dinner-with-this-crazy-kid-on-this-special-day-01
+images:
+  - id: instagram-2018-09-27-193403-dinner-with-this-crazy-kid-on-this-special-day-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-09-27-193403-dinner-with-this-crazy-kid-on-this-special-day"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Dinner with this crazy kid on this special day!!"
 ---
-
 Dinner with this crazy kid on this special day!!
-
-{% include gallery.html gallery="instagram-2018-09-27-193403-dinner-with-this-crazy-kid-on-this-special-day" %}
-

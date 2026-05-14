@@ -15,10 +15,14 @@ source:
   caption: "Baseball players"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2015-05-26-200208-baseball-players-01
+images:
+  - id: instagram-2015-05-26-200208-baseball-players-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2015-05-26-200208-baseball-players"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Baseball players"
 ---
-
 Baseball players
-
-{% include gallery.html gallery="instagram-2015-05-26-200208-baseball-players" %}
-

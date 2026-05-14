@@ -10,7 +10,6 @@ year: 2018
 month: 01
 day: 22
 weekday: Monday
-gallery: "instagram-2018-01-22-172828-put-a-pok-mon-puzzle-together-with-this-guy-last-night"
 source:
   type: instagram
   uri: "media/other/17859845020221477.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/01/22/172828-put-a-pok-mon-puzzle-together-with-this-guy-last-night.html"
 index: 1
 ---
-
 

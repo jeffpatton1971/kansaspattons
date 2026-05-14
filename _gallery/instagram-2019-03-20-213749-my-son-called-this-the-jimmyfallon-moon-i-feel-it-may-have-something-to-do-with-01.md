@@ -10,7 +10,6 @@ year: 2019
 month: 03
 day: 20
 weekday: Wednesday
-gallery: "instagram-2019-03-20-213749-my-son-called-this-the-jimmyfallon-moon-i-feel-it-may-have-something-to-do-with"
 source:
   type: instagram
   uri: "media/other/17953640470254155.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/03/20/213749-my-son-called-this-the-jimmyfallon-moon-i-feel-it-may-have-something-to-do-with.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2019
 month: 08
 day: 06
 weekday: Tuesday
-gallery: "instagram-2019-08-06-065918-b-and-w-makes-things-look-spooky"
 source:
   type: instagram
   uri: "media/other/17846214790559420.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/08/06/065918-b-and-w-makes-things-look-spooky.html"
 index: 1
 ---
-
 

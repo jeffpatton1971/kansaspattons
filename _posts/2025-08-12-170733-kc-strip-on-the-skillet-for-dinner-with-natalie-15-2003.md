@@ -15,11 +15,18 @@ source:
   caption: "KC Strip on the skillet for dinner with @natalie.15.2003"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2025-08-12-170733-kc-strip-on-the-skillet-for-dinner-with-natalie-15-2003-01
+images:
+  - id: instagram-2025-08-12-170733-kc-strip-on-the-skillet-for-dinner-with-natalie-15-2003-01
+    caption:
+    alt:
+  - id: instagram-2025-08-12-170733-kc-strip-on-the-skillet-for-dinner-with-natalie-15-2003-02
+    caption:
+    alt:
 hashtags: []
 handles:
   - "natalie.15.2003"
 location:
-gallery: "instagram-2025-08-12-170733-kc-strip-on-the-skillet-for-dinner-with-natalie-15-2003"
 tags:
   - "instagram"
 categories:
@@ -28,8 +35,4 @@ authors:
   - "Jeff Patton"
 summary: "KC Strip on the skillet for dinner with @natalie.15.2003"
 ---
-
 KC Strip on the skillet for dinner with [@natalie.15.2003](https://www.instagram.com/natalie.15.2003/)
-
-{% include gallery.html gallery="instagram-2025-08-12-170733-kc-strip-on-the-skillet-for-dinner-with-natalie-15-2003" %}
-

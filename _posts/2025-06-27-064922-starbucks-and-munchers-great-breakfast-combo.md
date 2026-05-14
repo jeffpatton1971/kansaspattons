@@ -15,12 +15,16 @@ source:
   caption: "#starbucks and #munchers great breakfast combo"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-06-27-064922-starbucks-and-munchers-great-breakfast-combo-01
+images:
+  - id: instagram-2025-06-27-064922-starbucks-and-munchers-great-breakfast-combo-01
+    caption:
+    alt:
 hashtags:
   - "starbucks"
   - "munchers"
 handles: []
 location:
-gallery: "instagram-2025-06-27-064922-starbucks-and-munchers-great-breakfast-combo"
 tags:
   - "starbucks"
   - "munchers"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "#starbucks and #munchers great breakfast combo"
 ---
-
 [#starbucks](https://www.instagram.com/explore/tags/starbucks/) and [#munchers](https://www.instagram.com/explore/tags/munchers/) great breakfast combo
-
-{% include gallery.html gallery="instagram-2025-06-27-064922-starbucks-and-munchers-great-breakfast-combo" %}
-

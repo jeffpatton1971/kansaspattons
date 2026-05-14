@@ -11,7 +11,6 @@ year: 2020
 month: 02
 day: 07
 weekday: Friday
-gallery: "instagram-2020-02-07-193851-trumpetplayer"
 source:
   type: instagram
   uri: "media/other/17876507575536344.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/02/07/193851-trumpetplayer.html"
 index: 1
 ---
-
 

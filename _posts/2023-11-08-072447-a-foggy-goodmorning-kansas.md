@@ -15,12 +15,16 @@ source:
   caption: "A foggy #goodmorning #kansas"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2023-11-08-072447-a-foggy-goodmorning-kansas-01
+images:
+  - id: instagram-2023-11-08-072447-a-foggy-goodmorning-kansas-01
+    caption:
+    alt:
 hashtags:
   - "goodmorning"
   - "kansas"
 handles: []
 location:
-gallery: "instagram-2023-11-08-072447-a-foggy-goodmorning-kansas"
 tags:
   - "goodmorning"
   - "kansas"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "A foggy #goodmorning #kansas"
 ---
-
 A foggy [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#kansas](https://www.instagram.com/explore/tags/kansas/)
-
-{% include gallery.html gallery="instagram-2023-11-08-072447-a-foggy-goodmorning-kansas" %}
-

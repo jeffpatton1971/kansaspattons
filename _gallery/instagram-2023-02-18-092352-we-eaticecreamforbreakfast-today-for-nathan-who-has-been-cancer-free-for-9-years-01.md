@@ -10,7 +10,6 @@ year: 2023
 month: 02
 day: 18
 weekday: Saturday
-gallery: "instagram-2023-02-18-092352-we-eaticecreamforbreakfast-today-for-nathan-who-has-been-cancer-free-for-9-years"
 source:
   type: instagram
   uri: "media/posts/202302/17982629305930699.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/02/18/092352-we-eaticecreamforbreakfast-today-for-nathan-who-has-been-cancer-free-for-9-years.html"
 index: 1
 ---
-
 

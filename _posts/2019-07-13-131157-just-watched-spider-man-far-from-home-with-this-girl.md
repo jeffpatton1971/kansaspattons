@@ -15,10 +15,14 @@ source:
   caption: "Just watched Spider-Man far from home with this girl!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-07-13-131157-just-watched-spider-man-far-from-home-with-this-girl-01
+images:
+  - id: instagram-2019-07-13-131157-just-watched-spider-man-far-from-home-with-this-girl-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-07-13-131157-just-watched-spider-man-far-from-home-with-this-girl"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Just watched Spider-Man far from home with this girl!"
 ---
-
 Just watched Spider-Man far from home with this girl!
-
-{% include gallery.html gallery="instagram-2019-07-13-131157-just-watched-spider-man-far-from-home-with-this-girl" %}
-

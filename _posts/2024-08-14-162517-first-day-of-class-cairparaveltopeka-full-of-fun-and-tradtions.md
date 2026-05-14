@@ -15,12 +15,16 @@ source:
   caption: "First day of class @cairparaveltopeka full of fun and #tradtions"
   media_count: 7
   cross_post_source: "FB"
+cover_image: instagram-2024-08-14-162517-first-day-of-class-cairparaveltopeka-full-of-fun-and-tradtions-01
+related:
+  - type: gallery
+    id: instagram-2024-08-14-162517-first-day-of-class-cairparaveltopeka-full-of-fun-and-tradtions
+    rel: photos
 hashtags:
   - "tradtions"
 handles:
   - "cairparaveltopeka"
 location:
-gallery: "instagram-2024-08-14-162517-first-day-of-class-cairparaveltopeka-full-of-fun-and-tradtions"
 tags:
   - "tradtions"
   - "instagram"
@@ -29,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "First day of class @cairparaveltopeka full of fun and #tradtions"
 ---
-
 First day of class [@cairparaveltopeka](https://www.instagram.com/cairparaveltopeka/) full of fun and [#tradtions](https://www.instagram.com/explore/tags/tradtions/)
-
-{% include gallery.html gallery="instagram-2024-08-14-162517-first-day-of-class-cairparaveltopeka-full-of-fun-and-tradtions" %}
-

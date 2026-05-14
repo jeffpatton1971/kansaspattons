@@ -10,7 +10,6 @@ year: 2021
 month: 04
 day: 28
 weekday: Wednesday
-gallery: "instagram-2021-04-28-231804-late-night-activities-included-the-spacex-launch-from-the-pad-we-visited"
 source:
   type: instagram
   uri: "media/posts/202104/17881180457188025.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/04/28/231804-late-night-activities-included-the-spacex-launch-from-the-pad-we-visited.html"
 index: 1
 ---
-
 

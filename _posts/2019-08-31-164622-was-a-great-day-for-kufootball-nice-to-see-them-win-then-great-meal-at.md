@@ -15,12 +15,16 @@ source:
   caption: "Was a great day for @kufootball nice to see them win! Then great meal at @biemersbbq"
   media_count: 8
   cross_post_source: "FB"
+cover_image: instagram-2019-08-31-164622-was-a-great-day-for-kufootball-nice-to-see-them-win-then-great-meal-at-01
+related:
+  - type: gallery
+    id: instagram-2019-08-31-164622-was-a-great-day-for-kufootball-nice-to-see-them-win-then-great-meal-at
+    rel: photos
 hashtags: []
 handles:
   - "kufootball"
   - "biemersbbq"
 location:
-gallery: "instagram-2019-08-31-164622-was-a-great-day-for-kufootball-nice-to-see-them-win-then-great-meal-at"
 tags:
   - "instagram"
 categories: []
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Was a great day for @kufootball nice to see them win! Then great meal at @biemersbbq"
 ---
-
 Was a great day for [@kufootball](https://www.instagram.com/kufootball/) nice to see them win! Then great meal at [@biemersbbq](https://www.instagram.com/biemersbbq/)
-
-{% include gallery.html gallery="instagram-2019-08-31-164622-was-a-great-day-for-kufootball-nice-to-see-them-win-then-great-meal-at" %}
-

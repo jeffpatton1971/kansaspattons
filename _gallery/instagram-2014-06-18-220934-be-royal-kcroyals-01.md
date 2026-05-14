@@ -10,7 +10,6 @@ year: 2014
 month: 06
 day: 18
 weekday: Wednesday
-gallery: "instagram-2014-06-18-220934-be-royal-kcroyals"
 source:
   type: instagram
   uri: "media/other/17843314033063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/06/18/220934-be-royal-kcroyals.html"
 index: 1
 ---
-
 

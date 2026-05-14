@@ -15,11 +15,18 @@ source:
   caption: "The boys went 2-1 in #tennis today"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2025-04-08-172823-the-boys-went-2-1-in-tennis-today-01
+images:
+  - id: instagram-2025-04-08-172823-the-boys-went-2-1-in-tennis-today-01
+    caption:
+    alt:
+  - id: instagram-2025-04-08-172823-the-boys-went-2-1-in-tennis-today-02
+    caption:
+    alt:
 hashtags:
   - "tennis"
 handles: []
 location:
-gallery: "instagram-2025-04-08-172823-the-boys-went-2-1-in-tennis-today"
 tags:
   - "tennis"
   - "instagram"
@@ -28,8 +35,4 @@ authors:
   - "Jeff Patton"
 summary: "The boys went 2-1 in #tennis today"
 ---
-
 The boys went 2-1 in [#tennis](https://www.instagram.com/explore/tags/tennis/) today
-
-{% include gallery.html gallery="instagram-2025-04-08-172823-the-boys-went-2-1-in-tennis-today" %}
-

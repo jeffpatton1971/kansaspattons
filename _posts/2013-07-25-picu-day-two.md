@@ -12,7 +12,11 @@ source:
   type: wordpress
   id: 1141
   url: "https://jeffspatton.wordpress.com/2013/07/25/july-25-2013/"
-gallery: "wordpress-2013-07-25-135557-july-25-2013"
+cover_image: "2013-07-25-wp-20130725-003"
+related:
+  - type: gallery
+    id: wordpress-2013-07-25-135557-july-25-2013
+    rel: photos
 categories:
   - "Nathan"
   - cancer
@@ -29,5 +33,3 @@ The surgeon wants Nathan to build his blood back up on his own since his own blo
 Respiratory medicine came in and they also want Nathan to try and work on deep breathing. So they brought in a little pinwheel thing, Nathan didn’t want to have anything to do with that, so the nurses MacGyver’d some bubbles with water and soap, he liked that a lot better.
 
 At 630p we got a visit from Bag’s of Fun! They bring kids diagnosed with cancer a backpack full of goodies. There were books, puzzles, a remote control car, a couple of light up toys and a LeapPad 2!
-
-{% include gallery.html gallery="wordpress-2013-07-25-135557-july-25-2013" %}

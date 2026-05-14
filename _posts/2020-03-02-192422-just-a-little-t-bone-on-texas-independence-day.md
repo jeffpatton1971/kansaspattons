@@ -15,10 +15,17 @@ source:
   caption: "Just a little T-Bone on Texas Independence Day"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2020-03-02-192422-just-a-little-t-bone-on-texas-independence-day-01
+images:
+  - id: instagram-2020-03-02-192422-just-a-little-t-bone-on-texas-independence-day-01
+    caption:
+    alt:
+  - id: instagram-2020-03-02-192422-just-a-little-t-bone-on-texas-independence-day-02
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2020-03-02-192422-just-a-little-t-bone-on-texas-independence-day"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "Just a little T-Bone on Texas Independence Day"
 ---
-
 Just a little T-Bone on Texas Independence Day
-
-{% include gallery.html gallery="instagram-2020-03-02-192422-just-a-little-t-bone-on-texas-independence-day" %}
-

@@ -11,7 +11,6 @@ year: 2023
 month: 04
 day: 06
 weekday: Thursday
-gallery: "instagram-2023-04-06-190417-breakfastfordinner"
 source:
   type: instagram
   uri: "media/posts/202304/17981059949030626.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/04/06/190417-breakfastfordinner.html"
 index: 1
 ---
-
 

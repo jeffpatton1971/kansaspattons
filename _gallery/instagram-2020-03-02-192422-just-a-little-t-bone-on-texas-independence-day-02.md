@@ -10,7 +10,6 @@ year: 2020
 month: 03
 day: 02
 weekday: Monday
-gallery: "instagram-2020-03-02-192422-just-a-little-t-bone-on-texas-independence-day"
 source:
   type: instagram
   uri: "media/posts/202003/17879474986530820.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/03/02/192422-just-a-little-t-bone-on-texas-independence-day.html"
 index: 2
 ---
-
 

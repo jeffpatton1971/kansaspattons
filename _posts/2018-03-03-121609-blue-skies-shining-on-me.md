@@ -15,10 +15,14 @@ source:
   caption: "Blue skies...shining on me"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-03-03-121609-blue-skies-shining-on-me-01
+images:
+  - id: instagram-2018-03-03-121609-blue-skies-shining-on-me-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-03-03-121609-blue-skies-shining-on-me"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Blue skies...shining on me"
 ---
-
 Blue skies...shining on me
-
-{% include gallery.html gallery="instagram-2018-03-03-121609-blue-skies-shining-on-me" %}
-

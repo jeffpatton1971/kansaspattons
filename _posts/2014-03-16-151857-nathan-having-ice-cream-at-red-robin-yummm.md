@@ -15,10 +15,14 @@ source:
   caption: "Nathan having ice cream at Red Robin...yummm"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-03-16-151857-nathan-having-ice-cream-at-red-robin-yummm-01
+images:
+  - id: instagram-2014-03-16-151857-nathan-having-ice-cream-at-red-robin-yummm-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2014-03-16-151857-nathan-having-ice-cream-at-red-robin-yummm"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Nathan having ice cream at Red Robin...yummm"
 ---
-
 Nathan having ice cream at Red Robin...yummm
-
-{% include gallery.html gallery="instagram-2014-03-16-151857-nathan-having-ice-cream-at-red-robin-yummm" %}
-

@@ -15,11 +15,15 @@ source:
   caption: "Hashbrowns, omelet with mango habanero salsa and havarti cheese with coffee #breakfast"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-07-04-105617-hashbrowns-omelet-with-mango-habanero-salsa-and-havarti-cheese-with-coffee-01
+images:
+  - id: instagram-2021-07-04-105617-hashbrowns-omelet-with-mango-habanero-salsa-and-havarti-cheese-with-coffee-01
+    caption:
+    alt:
 hashtags:
   - "breakfast"
 handles: []
 location:
-gallery: "instagram-2021-07-04-105617-hashbrowns-omelet-with-mango-habanero-salsa-and-havarti-cheese-with-coffee"
 tags:
   - "breakfast"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Hashbrowns, omelet with mango habanero salsa and havarti cheese with coffee #breakfast"
 ---
-
 Hashbrowns, omelet with mango habanero salsa and havarti cheese with coffee [#breakfast](https://www.instagram.com/explore/tags/breakfast/)
-
-{% include gallery.html gallery="instagram-2021-07-04-105617-hashbrowns-omelet-with-mango-habanero-salsa-and-havarti-cheese-with-coffee" %}
-

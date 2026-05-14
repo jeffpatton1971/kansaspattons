@@ -11,7 +11,6 @@ year: 2019
 month: 03
 day: 30
 weekday: Saturday
-gallery: "instagram-2019-03-30-220144-bursting-beyblades-with-nate-beybladeburst"
 source:
   type: instagram
   uri: "media/other/17873627614332759.mp4"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/03/30/220144-bursting-beyblades-with-nate-beybladeburst.html"
 index: 1
 ---
-
 

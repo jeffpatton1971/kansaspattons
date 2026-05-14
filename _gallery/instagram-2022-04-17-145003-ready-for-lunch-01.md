@@ -10,7 +10,6 @@ year: 2022
 month: 04
 day: 17
 weekday: Sunday
-gallery: "instagram-2022-04-17-145003-ready-for-lunch"
 source:
   type: instagram
   uri: "media/other/17923134374174840.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/04/17/145003-ready-for-lunch.html"
 index: 1
 ---
-
 

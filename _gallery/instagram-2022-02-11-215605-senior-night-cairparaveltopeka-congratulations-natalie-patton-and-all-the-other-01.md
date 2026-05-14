@@ -10,7 +10,6 @@ year: 2022
 month: 02
 day: 11
 weekday: Friday
-gallery: "instagram-2022-02-11-215605-senior-night-cairparaveltopeka-congratulations-natalie-patton-and-all-the-other"
 source:
   type: instagram
   uri: "media/other/18225575125096463.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/02/11/215605-senior-night-cairparaveltopeka-congratulations-natalie-patton-and-all-the-other.html"
 index: 1
 ---
-
 

@@ -15,10 +15,14 @@ source:
   caption: "Girls did well at keynundrum not sure how they figured it out so quickly with the amount of singing and talking"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2018-09-22-181219-girls-did-well-at-keynundrum-not-sure-how-they-figured-it-out-so-quickly-with-01
+related:
+  - type: gallery
+    id: instagram-2018-09-22-181219-girls-did-well-at-keynundrum-not-sure-how-they-figured-it-out-so-quickly-with
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-09-22-181219-girls-did-well-at-keynundrum-not-sure-how-they-figured-it-out-so-quickly-with"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Girls did well at keynundrum not sure how they figured it out so quickly with the amount of singing and talking"
 ---
-
 Girls did well at keynundrum not sure how they figured it out so quickly with the amount of singing and talking
-
-{% include gallery.html gallery="instagram-2018-09-22-181219-girls-did-well-at-keynundrum-not-sure-how-they-figured-it-out-so-quickly-with" %}
-

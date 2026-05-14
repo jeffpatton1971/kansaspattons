@@ -10,7 +10,6 @@ year: 2015
 month: 07
 day: 30
 weekday: Thursday
-gallery: "instagram-2015-07-30-195055-french-toast-it-s-what-s-for-dinner"
 source:
   type: instagram
   uri: "media/other/17842073305063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2015/07/30/195055-french-toast-it-s-what-s-for-dinner.html"
 index: 1
 ---
-
 

@@ -15,10 +15,14 @@ source:
   caption: "Fun afternoon at the beach"
   media_count: 9
   cross_post_source: "FB"
+cover_image: instagram-2021-04-28-142531-fun-afternoon-at-the-beach-01
+related:
+  - type: gallery
+    id: instagram-2021-04-28-142531-fun-afternoon-at-the-beach
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-04-28-142531-fun-afternoon-at-the-beach"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Fun afternoon at the beach"
 ---
-
 Fun afternoon at the beach
-
-{% include gallery.html gallery="instagram-2021-04-28-142531-fun-afternoon-at-the-beach" %}
-

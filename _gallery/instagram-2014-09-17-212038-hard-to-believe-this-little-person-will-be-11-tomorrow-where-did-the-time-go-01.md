@@ -10,7 +10,6 @@ year: 2014
 month: 09
 day: 17
 weekday: Wednesday
-gallery: "instagram-2014-09-17-212038-hard-to-believe-this-little-person-will-be-11-tomorrow-where-did-the-time-go"
 source:
   type: instagram
   uri: "media/other/17843349988063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/09/17/212038-hard-to-believe-this-little-person-will-be-11-tomorrow-where-did-the-time-go.html"
 index: 1
 ---
-
 

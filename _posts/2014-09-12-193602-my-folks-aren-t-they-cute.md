@@ -15,10 +15,14 @@ source:
   caption: "My folks...aren't they cute?"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-09-12-193602-my-folks-aren-t-they-cute-01
+images:
+  - id: instagram-2014-09-12-193602-my-folks-aren-t-they-cute-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2014-09-12-193602-my-folks-aren-t-they-cute"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "My folks...aren't they cute?"
 ---
-
 My folks...aren't they cute?
-
-{% include gallery.html gallery="instagram-2014-09-12-193602-my-folks-aren-t-they-cute" %}
-

@@ -15,10 +15,14 @@ source:
   caption: "Spent the night aboard the Lexington and had a lot of fun"
   media_count: 10
   cross_post_source: "FB"
+cover_image: instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun-01
+related:
+  - type: gallery
+    id: instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Spent the night aboard the Lexington and had a lot of fun"
 ---
-
 Spent the night aboard the Lexington and had a lot of fun
-
-{% include gallery.html gallery="instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun" %}
-

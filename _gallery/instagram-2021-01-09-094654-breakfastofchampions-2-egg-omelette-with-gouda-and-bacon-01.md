@@ -11,7 +11,6 @@ year: 2021
 month: 01
 day: 09
 weekday: Saturday
-gallery: "instagram-2021-01-09-094654-breakfastofchampions-2-egg-omelette-with-gouda-and-bacon"
 source:
   type: instagram
   uri: "media/other/17923034878487043.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/01/09/094654-breakfastofchampions-2-egg-omelette-with-gouda-and-bacon.html"
 index: 1
 ---
-
 

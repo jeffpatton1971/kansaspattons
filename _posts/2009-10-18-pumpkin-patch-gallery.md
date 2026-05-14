@@ -16,48 +16,48 @@ authors:
   - Jeff
 summary: "Fourteen photos from the family pumpkin patch trip."
 gallery: gallery-2009-10-18
-cover_image: 2009-10-18-img58363
+cover_image: "2009-10-18-img58363"
 images:
-  - id: 2009-10-18-img58363
+  - id: "2009-10-18-img58363"
     caption:
     alt:
-  - id: 2009-10-18-img58393
+  - id: "2009-10-18-img58393"
     caption:
     alt:
-  - id: 2009-10-18-img58423
+  - id: "2009-10-18-img58423"
     caption:
     alt:
-  - id: 2009-10-18-img58663
+  - id: "2009-10-18-img58663"
     caption:
     alt:
-  - id: 2009-10-18-img58673
+  - id: "2009-10-18-img58673"
     caption:
     alt:
-  - id: 2009-10-18-img58723
+  - id: "2009-10-18-img58723"
     caption:
     alt:
-  - id: 2009-10-18-img58743
+  - id: "2009-10-18-img58743"
     caption:
     alt:
-  - id: 2009-10-18-img58813
+  - id: "2009-10-18-img58813"
     caption:
     alt:
-  - id: 2009-10-18-img58833
+  - id: "2009-10-18-img58833"
     caption:
     alt:
-  - id: 2009-10-18-photo00472
+  - id: "2009-10-18-photo00472"
     caption:
     alt:
-  - id: 2009-10-18-photo00592
+  - id: "2009-10-18-photo00592"
     caption:
     alt:
-  - id: 2009-10-18-photo00632
+  - id: "2009-10-18-photo00632"
     caption:
     alt:
-  - id: 2009-10-18-photo00732
+  - id: "2009-10-18-photo00732"
     caption:
     alt:
-  - id: 2009-10-18-photo00742
+  - id: "2009-10-18-photo00742"
     caption:
     alt:
 related:

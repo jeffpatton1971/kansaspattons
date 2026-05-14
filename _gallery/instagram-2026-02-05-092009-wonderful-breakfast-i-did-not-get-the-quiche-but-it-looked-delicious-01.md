@@ -11,7 +11,6 @@ year: 2026
 month: 02
 day: 05
 weekday: Thursday
-gallery: "instagram-2026-02-05-092009-wonderful-breakfast-i-did-not-get-the-quiche-but-it-looked-delicious"
 source:
   type: instagram
   uri: "media/posts/202602/18069167336451654.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/02/05/092009-wonderful-breakfast-i-did-not-get-the-quiche-but-it-looked-delicious.html"
 index: 1
 ---
-
 

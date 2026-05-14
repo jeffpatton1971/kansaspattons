@@ -10,7 +10,6 @@ year: 2026
 month: 04
 day: 11
 weekday: Saturday
-gallery: "instagram-2026-04-11-091650-french-toast-flight-banana-nut-cinnamon-toast-red-velvet-you-re-welcome"
 source:
   type: instagram
   uri: "media/posts/202604/18109062805667607.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/04/11/091650-french-toast-flight-banana-nut-cinnamon-toast-red-velvet-you-re-welcome.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2023
 month: 04
 day: 08
 weekday: Saturday
-gallery: "instagram-2023-04-08-092825-it-s-the-little-things"
 source:
   type: instagram
   uri: "media/posts/202304/18010747756599781.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/04/08/092825-it-s-the-little-things.html"
 index: 1
 ---
-
 

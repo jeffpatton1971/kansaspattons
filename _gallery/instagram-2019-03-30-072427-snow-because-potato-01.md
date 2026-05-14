@@ -10,7 +10,6 @@ year: 2019
 month: 03
 day: 30
 weekday: Saturday
-gallery: "instagram-2019-03-30-072427-snow-because-potato"
 source:
   type: instagram
   uri: "media/other/17949203947270461.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/03/30/072427-snow-because-potato.html"
 index: 1
 ---
-
 

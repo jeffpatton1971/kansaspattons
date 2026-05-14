@@ -10,7 +10,6 @@ year: 2018
 month: 10
 day: 25
 weekday: Thursday
-gallery: "instagram-2018-10-25-074303-good-morning"
 source:
   type: instagram
   uri: "media/other/17962737301177384.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/10/25/074303-good-morning.html"
 index: 1
 ---
-
 

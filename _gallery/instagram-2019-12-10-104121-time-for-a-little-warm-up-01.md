@@ -10,7 +10,6 @@ year: 2019
 month: 12
 day: 10
 weekday: Tuesday
-gallery: "instagram-2019-12-10-104121-time-for-a-little-warm-up"
 source:
   type: instagram
   uri: "media/other/17900860885410273.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/12/10/104121-time-for-a-little-warm-up.html"
 index: 1
 ---
-
 

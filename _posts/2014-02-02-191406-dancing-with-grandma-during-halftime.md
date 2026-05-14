@@ -15,10 +15,14 @@ source:
   caption: "Dancing with Grandma during halftime"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-02-02-191406-dancing-with-grandma-during-halftime-01
+images:
+  - id: instagram-2014-02-02-191406-dancing-with-grandma-during-halftime-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2014-02-02-191406-dancing-with-grandma-during-halftime"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Dancing with Grandma during halftime"
 ---
-
 Dancing with Grandma during halftime
-
-{% include gallery.html gallery="instagram-2014-02-02-191406-dancing-with-grandma-during-halftime" %}
-

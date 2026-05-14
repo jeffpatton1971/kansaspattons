@@ -15,12 +15,16 @@ source:
   caption: "#sunrise in #kansas"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-03-24-073831-sunrise-in-kansas-01
+images:
+  - id: instagram-2025-03-24-073831-sunrise-in-kansas-01
+    caption:
+    alt:
 hashtags:
   - "sunrise"
   - "kansas"
 handles: []
 location:
-gallery: "instagram-2025-03-24-073831-sunrise-in-kansas"
 tags:
   - "sunrise"
   - "kansas"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "#sunrise in #kansas"
 ---
-
 [#sunrise](https://www.instagram.com/explore/tags/sunrise/) in [#kansas](https://www.instagram.com/explore/tags/kansas/)
-
-{% include gallery.html gallery="instagram-2025-03-24-073831-sunrise-in-kansas" %}
-

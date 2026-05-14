@@ -15,10 +15,14 @@ source:
   caption: "Yard work done just as the rain comes in"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-09-28-132543-yard-work-done-just-as-the-rain-comes-in-01
+images:
+  - id: instagram-2019-09-28-132543-yard-work-done-just-as-the-rain-comes-in-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-09-28-132543-yard-work-done-just-as-the-rain-comes-in"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Yard work done just as the rain comes in"
 ---
-
 Yard work done just as the rain comes in
-
-{% include gallery.html gallery="instagram-2019-09-28-132543-yard-work-done-just-as-the-rain-comes-in" %}
-

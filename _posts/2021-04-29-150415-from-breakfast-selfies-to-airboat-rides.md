@@ -15,10 +15,14 @@ source:
   caption: "From breakfast selfies to airboat rides"
   media_count: 9
   cross_post_source: "FB"
+cover_image: instagram-2021-04-29-150415-from-breakfast-selfies-to-airboat-rides-01
+related:
+  - type: gallery
+    id: instagram-2021-04-29-150415-from-breakfast-selfies-to-airboat-rides
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-04-29-150415-from-breakfast-selfies-to-airboat-rides"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "From breakfast selfies to airboat rides"
 ---
-
 From breakfast selfies to airboat rides
-
-{% include gallery.html gallery="instagram-2021-04-29-150415-from-breakfast-selfies-to-airboat-rides" %}
-

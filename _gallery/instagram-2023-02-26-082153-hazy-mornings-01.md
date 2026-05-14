@@ -11,7 +11,6 @@ year: 2023
 month: 02
 day: 26
 weekday: Sunday
-gallery: "instagram-2023-02-26-082153-hazy-mornings"
 source:
   type: instagram
   uri: "media/other/18259269892121051.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/02/26/082153-hazy-mornings.html"
 index: 1
 ---
-
 

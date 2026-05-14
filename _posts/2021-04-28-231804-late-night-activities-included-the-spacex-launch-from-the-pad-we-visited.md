@@ -15,11 +15,21 @@ source:
   caption: "Late night activities included the @spacex  launch from the pad we visited earlier today!"
   media_count: 3
   cross_post_source: "FB"
+cover_image: instagram-2021-04-28-231804-late-night-activities-included-the-spacex-launch-from-the-pad-we-visited-01
+images:
+  - id: instagram-2021-04-28-231804-late-night-activities-included-the-spacex-launch-from-the-pad-we-visited-01
+    caption:
+    alt:
+  - id: instagram-2021-04-28-231804-late-night-activities-included-the-spacex-launch-from-the-pad-we-visited-02
+    caption:
+    alt:
+  - id: instagram-2021-04-28-231804-late-night-activities-included-the-spacex-launch-from-the-pad-we-visited-03
+    caption:
+    alt:
 hashtags: []
 handles:
   - "spacex"
 location:
-gallery: "instagram-2021-04-28-231804-late-night-activities-included-the-spacex-launch-from-the-pad-we-visited"
 tags:
   - "instagram"
 categories: []
@@ -27,8 +37,4 @@ authors:
   - "Jeff Patton"
 summary: "Late night activities included the @spacex  launch from the pad we visited earlier today!"
 ---
-
 Late night activities included the [@spacex](https://www.instagram.com/spacex/)  launch from the pad we visited earlier today!
-
-{% include gallery.html gallery="instagram-2021-04-28-231804-late-night-activities-included-the-spacex-launch-from-the-pad-we-visited" %}
-

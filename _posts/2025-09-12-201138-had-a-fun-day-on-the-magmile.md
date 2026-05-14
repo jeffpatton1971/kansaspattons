@@ -15,11 +15,15 @@ source:
   caption: "Had a fun day on the #magmile"
   media_count: 7
   cross_post_source: "FB"
+cover_image: instagram-2025-09-12-201138-had-a-fun-day-on-the-magmile-01
+related:
+  - type: gallery
+    id: instagram-2025-09-12-201138-had-a-fun-day-on-the-magmile
+    rel: photos
 hashtags:
   - "magmile"
 handles: []
 location:
-gallery: "instagram-2025-09-12-201138-had-a-fun-day-on-the-magmile"
 tags:
   - "magmile"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Had a fun day on the #magmile"
 ---
-
 Had a fun day on the [#magmile](https://www.instagram.com/explore/tags/magmile/)
-
-{% include gallery.html gallery="instagram-2025-09-12-201138-had-a-fun-day-on-the-magmile" %}
-

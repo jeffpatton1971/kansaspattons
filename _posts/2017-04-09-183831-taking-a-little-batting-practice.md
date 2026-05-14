@@ -15,10 +15,14 @@ source:
   caption: "Taking a little batting practice"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2017-04-09-183831-taking-a-little-batting-practice-01
+images:
+  - id: instagram-2017-04-09-183831-taking-a-little-batting-practice-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2017-04-09-183831-taking-a-little-batting-practice"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Taking a little batting practice"
 ---
-
 Taking a little batting practice
-
-{% include gallery.html gallery="instagram-2017-04-09-183831-taking-a-little-batting-practice" %}
-

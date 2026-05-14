@@ -15,10 +15,14 @@ source:
   caption: "Hanging out with Nathan at the basketball game tonight"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-02-27-183612-hanging-out-with-nathan-at-the-basketball-game-tonight-01
+images:
+  - id: instagram-2025-02-27-183612-hanging-out-with-nathan-at-the-basketball-game-tonight-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-02-27-183612-hanging-out-with-nathan-at-the-basketball-game-tonight"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Hanging out with Nathan at the basketball game tonight"
 ---
-
 Hanging out with Nathan at the basketball game tonight
-
-{% include gallery.html gallery="instagram-2025-02-27-183612-hanging-out-with-nathan-at-the-basketball-game-tonight" %}
-

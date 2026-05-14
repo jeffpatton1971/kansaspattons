@@ -11,7 +11,6 @@ year: 2023
 month: 12
 day: 03
 weekday: Sunday
-gallery: "instagram-2023-12-03-165727-somewhere-over-the-rainbow-kansas"
 source:
   type: instagram
   uri: "media/posts/202312/17977264997467471.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/12/03/165727-somewhere-over-the-rainbow-kansas.html"
 index: 1
 ---
-
 

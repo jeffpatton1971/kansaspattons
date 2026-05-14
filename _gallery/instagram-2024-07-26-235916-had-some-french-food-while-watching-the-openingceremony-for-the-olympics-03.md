@@ -12,7 +12,6 @@ year: 2024
 month: 07
 day: 26
 weekday: Friday
-gallery: "instagram-2024-07-26-235916-had-some-french-food-while-watching-the-openingceremony-for-the-olympics"
 source:
   type: instagram
   uri: "media/posts/202407/18005614790340974.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/07/26/235916-had-some-french-food-while-watching-the-openingceremony-for-the-olympics.html"
 index: 3
 ---
-
 

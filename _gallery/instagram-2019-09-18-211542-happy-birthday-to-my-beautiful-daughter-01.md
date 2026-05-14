@@ -10,7 +10,6 @@ year: 2019
 month: 09
 day: 18
 weekday: Wednesday
-gallery: "instagram-2019-09-18-211542-happy-birthday-to-my-beautiful-daughter"
 source:
   type: instagram
   uri: "media/other/17856701116551190.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/09/18/211542-happy-birthday-to-my-beautiful-daughter.html"
 index: 1
 ---
-
 

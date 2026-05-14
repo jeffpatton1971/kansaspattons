@@ -15,12 +15,16 @@ source:
   caption: "Thanks Mom #jrrtolkien #lordoftherings"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2020-03-17-162055-thanks-mom-jrrtolkien-lordoftherings-01
+images:
+  - id: instagram-2020-03-17-162055-thanks-mom-jrrtolkien-lordoftherings-01
+    caption:
+    alt:
 hashtags:
   - "jrrtolkien"
   - "lordoftherings"
 handles: []
 location:
-gallery: "instagram-2020-03-17-162055-thanks-mom-jrrtolkien-lordoftherings"
 tags:
   - "jrrtolkien"
   - "lordoftherings"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "Thanks Mom #jrrtolkien #lordoftherings"
 ---
-
 Thanks Mom [#jrrtolkien](https://www.instagram.com/explore/tags/jrrtolkien/) [#lordoftherings](https://www.instagram.com/explore/tags/lordoftherings/)
-
-{% include gallery.html gallery="instagram-2020-03-17-162055-thanks-mom-jrrtolkien-lordoftherings" %}
-

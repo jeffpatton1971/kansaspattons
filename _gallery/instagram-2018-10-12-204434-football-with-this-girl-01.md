@@ -10,7 +10,6 @@ year: 2018
 month: 10
 day: 12
 weekday: Friday
-gallery: "instagram-2018-10-12-204434-football-with-this-girl"
 source:
   type: instagram
   uri: "media/other/17898117799254362.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/10/12/204434-football-with-this-girl.html"
 index: 1
 ---
-
 

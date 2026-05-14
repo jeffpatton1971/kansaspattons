@@ -12,7 +12,6 @@ year: 2025
 month: 10
 day: 03
 weekday: Friday
-gallery: "instagram-2025-10-03-083715-breakfast-coffee"
 source:
   type: instagram
   uri: "media/posts/202510/18165430735331219.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/10/03/083715-breakfast-coffee.html"
 index: 1
 ---
-
 

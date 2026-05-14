@@ -12,7 +12,11 @@ source:
   type: wordpress
   id: 154
   url: "https://jeffspatton.wordpress.com/2013/03/19/march-19-2013/"
-gallery: "wordpress-2013-03-19-102210-march-19-2013"
+cover_image: "2013-03-19-wp-20130310-002"
+related:
+  - type: gallery
+    id: wordpress-2013-03-19-102210-march-19-2013
+    rel: photos
 categories:
   - "family"
   - "Nathan"
@@ -24,5 +28,3 @@ authors:
 summary: "Nathan’s birthday! For whatever reason we tend to spread birthdays out over a few days, this year we had a family birthday about a week beforehand, and then one at T Rex Café and then one on his actual birthday! So I’ll add the pictures I h"
 ---
 Nathan’s birthday! For whatever reason we tend to spread birthdays out over a few days, this year we had a family birthday about a week beforehand, and then one at T-Rex Café and then one on his actual birthday! So I’ll add the pictures I have for all of them here
-
-{% include gallery.html gallery="wordpress-2013-03-19-102210-march-19-2013" %}

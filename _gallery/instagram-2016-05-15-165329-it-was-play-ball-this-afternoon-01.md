@@ -10,7 +10,6 @@ year: 2016
 month: 05
 day: 15
 weekday: Sunday
-gallery: "instagram-2016-05-15-165329-it-was-play-ball-this-afternoon"
 source:
   type: instagram
   uri: "media/other/17847532621097675.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2016/05/15/165329-it-was-play-ball-this-afternoon.html"
 index: 1
 ---
-
 

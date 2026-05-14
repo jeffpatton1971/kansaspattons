@@ -10,7 +10,6 @@ year: 2025
 month: 02
 day: 27
 weekday: Thursday
-gallery: "instagram-2025-02-27-183612-hanging-out-with-nathan-at-the-basketball-game-tonight"
 source:
   type: instagram
   uri: "media/posts/202502/18321999169167870.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/02/27/183612-hanging-out-with-nathan-at-the-basketball-game-tonight.html"
 index: 1
 ---
-
 

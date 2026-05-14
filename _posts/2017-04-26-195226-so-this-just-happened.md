@@ -15,10 +15,14 @@ source:
   caption: "So... This just happened"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2017-04-26-195226-so-this-just-happened-01
+images:
+  - id: instagram-2017-04-26-195226-so-this-just-happened-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2017-04-26-195226-so-this-just-happened"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "So... This just happened"
 ---
-
 So... This just happened
-
-{% include gallery.html gallery="instagram-2017-04-26-195226-so-this-just-happened" %}
-

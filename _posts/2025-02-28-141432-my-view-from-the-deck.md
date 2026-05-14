@@ -15,10 +15,14 @@ source:
   caption: "My view from the deck"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-02-28-141432-my-view-from-the-deck-01
+images:
+  - id: instagram-2025-02-28-141432-my-view-from-the-deck-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-02-28-141432-my-view-from-the-deck"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "My view from the deck"
 ---
-
 My view from the deck
-
-{% include gallery.html gallery="instagram-2025-02-28-141432-my-view-from-the-deck" %}
-

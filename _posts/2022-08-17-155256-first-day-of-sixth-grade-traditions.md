@@ -15,11 +15,15 @@ source:
   caption: "first day of sixth grade #traditions"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2022-08-17-155256-first-day-of-sixth-grade-traditions-01
+images:
+  - id: instagram-2022-08-17-155256-first-day-of-sixth-grade-traditions-01
+    caption:
+    alt:
 hashtags:
   - "traditions"
 handles: []
 location:
-gallery: "instagram-2022-08-17-155256-first-day-of-sixth-grade-traditions"
 tags:
   - "traditions"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "first day of sixth grade #traditions"
 ---
-
 first day of sixth grade [#traditions](https://www.instagram.com/explore/tags/traditions/)
-
-{% include gallery.html gallery="instagram-2022-08-17-155256-first-day-of-sixth-grade-traditions" %}
-

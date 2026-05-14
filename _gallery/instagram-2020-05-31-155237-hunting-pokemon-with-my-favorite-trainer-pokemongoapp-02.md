@@ -11,7 +11,6 @@ year: 2020
 month: 05
 day: 31
 weekday: Sunday
-gallery: "instagram-2020-05-31-155237-hunting-pokemon-with-my-favorite-trainer-pokemongoapp"
 source:
   type: instagram
   uri: "media/posts/202005/17865244207853012.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/05/31/155237-hunting-pokemon-with-my-favorite-trainer-pokemongoapp.html"
 index: 2
 ---
-
 

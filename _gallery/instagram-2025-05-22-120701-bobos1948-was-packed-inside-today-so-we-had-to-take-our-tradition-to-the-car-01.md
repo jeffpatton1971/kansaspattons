@@ -10,7 +10,6 @@ year: 2025
 month: 05
 day: 22
 weekday: Thursday
-gallery: "instagram-2025-05-22-120701-bobos1948-was-packed-inside-today-so-we-had-to-take-our-tradition-to-the-car"
 source:
   type: instagram
   uri: "media/posts/202505/17941766525878814.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/05/22/120701-bobos1948-was-packed-inside-today-so-we-had-to-take-our-tradition-to-the-car.html"
 index: 1
 ---
-
 

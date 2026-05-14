@@ -15,10 +15,14 @@ source:
   caption: "we are brother and sister but we are not the same"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2023-06-17-182818-we-are-brother-and-sister-but-we-are-not-the-same-01
+images:
+  - id: instagram-2023-06-17-182818-we-are-brother-and-sister-but-we-are-not-the-same-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2023-06-17-182818-we-are-brother-and-sister-but-we-are-not-the-same"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "we are brother and sister but we are not the same"
 ---
-
 we are brother and sister but we are not the same
-
-{% include gallery.html gallery="instagram-2023-06-17-182818-we-are-brother-and-sister-but-we-are-not-the-same" %}
-

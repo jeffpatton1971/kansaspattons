@@ -11,7 +11,6 @@ year: 2025
 month: 03
 day: 14
 weekday: Friday
-gallery: "instagram-2025-03-14-214919-i-missed-the-bloodmooneclipse-but-here-is-an-overcast-moon"
 source:
   type: instagram
   uri: "media/posts/202503/17959856636879131.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/03/14/214919-i-missed-the-bloodmooneclipse-but-here-is-an-overcast-moon.html"
 index: 1
 ---
-
 

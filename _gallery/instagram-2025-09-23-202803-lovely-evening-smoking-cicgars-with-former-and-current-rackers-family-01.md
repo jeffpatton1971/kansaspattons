@@ -13,7 +13,6 @@ year: 2025
 month: 09
 day: 23
 weekday: Tuesday
-gallery: "instagram-2025-09-23-202803-lovely-evening-smoking-cicgars-with-former-and-current-rackers-family"
 source:
   type: instagram
   uri: "media/posts/202509/18401319070139068.jpg"
@@ -27,5 +26,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/09/23/202803-lovely-evening-smoking-cicgars-with-former-and-current-rackers-family.html"
 index: 1
 ---
-
 

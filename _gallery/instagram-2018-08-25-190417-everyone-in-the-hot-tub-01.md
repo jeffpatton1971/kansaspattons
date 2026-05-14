@@ -10,7 +10,6 @@ year: 2018
 month: 08
 day: 25
 weekday: Saturday
-gallery: "instagram-2018-08-25-190417-everyone-in-the-hot-tub"
 source:
   type: instagram
   uri: "media/other/17952272044084135.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/08/25/190417-everyone-in-the-hot-tub.html"
 index: 1
 ---
-
 

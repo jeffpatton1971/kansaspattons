@@ -10,7 +10,6 @@ year: 2018
 month: 01
 day: 20
 weekday: Saturday
-gallery: "instagram-2018-01-20-175527-fun-day-with-these-two-mcd-s-for-lunch-and-then-pok-mon-hunting-after"
 source:
   type: instagram
   uri: "media/posts/201801/17919706030040839.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/01/20/175527-fun-day-with-these-two-mcd-s-for-lunch-and-then-pok-mon-hunting-after.html"
 index: 1
 ---
-
 

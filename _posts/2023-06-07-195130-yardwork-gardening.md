@@ -15,12 +15,22 @@ source:
   caption: "#yardwork #gardening"
   media_count: 3
   cross_post_source: "FB"
+cover_image: instagram-2023-06-07-195130-yardwork-gardening-01
+images:
+  - id: instagram-2023-06-07-195130-yardwork-gardening-01
+    caption:
+    alt:
+  - id: instagram-2023-06-07-195130-yardwork-gardening-02
+    caption:
+    alt:
+  - id: instagram-2023-06-07-195130-yardwork-gardening-03
+    caption:
+    alt:
 hashtags:
   - "yardwork"
   - "gardening"
 handles: []
 location:
-gallery: "instagram-2023-06-07-195130-yardwork-gardening"
 tags:
   - "yardwork"
   - "gardening"
@@ -30,8 +40,4 @@ authors:
   - "Jeff Patton"
 summary: "#yardwork #gardening"
 ---
-
 [#yardwork](https://www.instagram.com/explore/tags/yardwork/) [#gardening](https://www.instagram.com/explore/tags/gardening/)
-
-{% include gallery.html gallery="instagram-2023-06-07-195130-yardwork-gardening" %}
-

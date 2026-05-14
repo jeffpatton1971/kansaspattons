@@ -10,7 +10,6 @@ year: 2019
 month: 08
 day: 01
 weekday: Thursday
-gallery: "instagram-2019-08-01-190932-my-favorite-tennis-player"
 source:
   type: instagram
   uri: "media/other/18045043198168893.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/08/01/190932-my-favorite-tennis-player.html"
 index: 1
 ---
-
 

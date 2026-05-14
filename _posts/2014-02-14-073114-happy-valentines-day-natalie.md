@@ -15,10 +15,14 @@ source:
   caption: "Happy Valentines Day Natalie!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-02-14-073114-happy-valentines-day-natalie-01
+images:
+  - id: instagram-2014-02-14-073114-happy-valentines-day-natalie-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2014-02-14-073114-happy-valentines-day-natalie"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Happy Valentines Day Natalie!"
 ---
-
 Happy Valentines Day Natalie!
-
-{% include gallery.html gallery="instagram-2014-02-14-073114-happy-valentines-day-natalie" %}
-

@@ -11,7 +11,6 @@ year: 2019
 month: 06
 day: 26
 weekday: Wednesday
-gallery: "instagram-2019-06-26-200707-post-season-game-1-win-owls"
 source:
   type: instagram
   uri: "media/other/17855532739444919.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/06/26/200707-post-season-game-1-win-owls.html"
 index: 1
 ---
-
 

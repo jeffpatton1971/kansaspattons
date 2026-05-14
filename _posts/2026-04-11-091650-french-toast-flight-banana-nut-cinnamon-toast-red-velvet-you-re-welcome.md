@@ -15,10 +15,14 @@ source:
   caption: "French Toast Flight…banana nut…cinnamon toast…red velvet…you’re welcome 🖤💛"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2026-04-11-091650-french-toast-flight-banana-nut-cinnamon-toast-red-velvet-you-re-welcome-01
+images:
+  - id: instagram-2026-04-11-091650-french-toast-flight-banana-nut-cinnamon-toast-red-velvet-you-re-welcome-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2026-04-11-091650-french-toast-flight-banana-nut-cinnamon-toast-red-velvet-you-re-welcome"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "French Toast Flight…banana nut…cinnamon toast…red velvet…you’re welcome 🖤💛"
 ---
-
 French Toast Flight…banana nut…cinnamon toast…red velvet…you’re welcome 🖤💛
-
-{% include gallery.html gallery="instagram-2026-04-11-091650-french-toast-flight-banana-nut-cinnamon-toast-red-velvet-you-re-welcome" %}
-

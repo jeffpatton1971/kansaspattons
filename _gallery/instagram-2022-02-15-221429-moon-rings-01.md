@@ -10,7 +10,6 @@ year: 2022
 month: 02
 day: 15
 weekday: Tuesday
-gallery: "instagram-2022-02-15-221429-moon-rings"
 source:
   type: instagram
   uri: "media/other/17933039734972353.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/02/15/221429-moon-rings.html"
 index: 1
 ---
-
 

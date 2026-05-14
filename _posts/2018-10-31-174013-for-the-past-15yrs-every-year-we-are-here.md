@@ -15,10 +15,14 @@ source:
   caption: "For the past 15yrs, every year we are here ❤️"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-10-31-174013-for-the-past-15yrs-every-year-we-are-here-01
+images:
+  - id: instagram-2018-10-31-174013-for-the-past-15yrs-every-year-we-are-here-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-10-31-174013-for-the-past-15yrs-every-year-we-are-here"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "For the past 15yrs, every year we are here ❤️"
 ---
-
 For the past 15yrs, every year we are here ❤️
-
-{% include gallery.html gallery="instagram-2018-10-31-174013-for-the-past-15yrs-every-year-we-are-here" %}
-

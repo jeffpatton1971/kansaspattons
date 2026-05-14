@@ -15,12 +15,16 @@ source:
   caption: "#leftovers #steakandeggs"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2022-04-23-192425-leftovers-steakandeggs-01
+images:
+  - id: instagram-2022-04-23-192425-leftovers-steakandeggs-01
+    caption:
+    alt:
 hashtags:
   - "leftovers"
   - "steakandeggs"
 handles: []
 location:
-gallery: "instagram-2022-04-23-192425-leftovers-steakandeggs"
 tags:
   - "leftovers"
   - "steakandeggs"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "#leftovers #steakandeggs"
 ---
-
 [#leftovers](https://www.instagram.com/explore/tags/leftovers/) [#steakandeggs](https://www.instagram.com/explore/tags/steakandeggs/)
-
-{% include gallery.html gallery="instagram-2022-04-23-192425-leftovers-steakandeggs" %}
-

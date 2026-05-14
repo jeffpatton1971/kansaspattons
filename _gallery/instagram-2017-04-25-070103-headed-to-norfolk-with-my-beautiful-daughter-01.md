@@ -10,7 +10,6 @@ year: 2017
 month: 04
 day: 25
 weekday: Tuesday
-gallery: "instagram-2017-04-25-070103-headed-to-norfolk-with-my-beautiful-daughter"
 source:
   type: instagram
   uri: "media/other/17869898869078534.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2017/04/25/070103-headed-to-norfolk-with-my-beautiful-daughter.html"
 index: 1
 ---
-
 

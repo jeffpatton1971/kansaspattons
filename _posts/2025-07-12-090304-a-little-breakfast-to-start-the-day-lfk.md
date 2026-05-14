@@ -15,11 +15,15 @@ source:
   caption: "A little breakfast to start the day #lfk"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-07-12-090304-a-little-breakfast-to-start-the-day-lfk-01
+images:
+  - id: instagram-2025-07-12-090304-a-little-breakfast-to-start-the-day-lfk-01
+    caption:
+    alt:
 hashtags:
   - "lfk"
 handles: []
 location:
-gallery: "instagram-2025-07-12-090304-a-little-breakfast-to-start-the-day-lfk"
 tags:
   - "lfk"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "A little breakfast to start the day #lfk"
 ---
-
 A little breakfast to start the day [#lfk](https://www.instagram.com/explore/tags/lfk/)
-
-{% include gallery.html gallery="instagram-2025-07-12-090304-a-little-breakfast-to-start-the-day-lfk" %}
-

@@ -10,7 +10,6 @@ year: 2022
 month: 09
 day: 18
 weekday: Sunday
-gallery: "instagram-2022-09-18-123944-happy-birthday-princess"
 source:
   type: instagram
   uri: "media/other/17986325746540557.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/09/18/123944-happy-birthday-princess.html"
 index: 1
 ---
-
 

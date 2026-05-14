@@ -13,7 +13,6 @@ year: 2023
 month: 11
 day: 26
 weekday: Sunday
-gallery: "instagram-2023-11-26-092610-it-s-a-rare-snowy-morning-in-kansas"
 source:
   type: instagram
   uri: "media/posts/202311/17990953958242499.jpg"
@@ -27,5 +26,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/11/26/092610-it-s-a-rare-snowy-morning-in-kansas.html"
 index: 1
 ---
-
 

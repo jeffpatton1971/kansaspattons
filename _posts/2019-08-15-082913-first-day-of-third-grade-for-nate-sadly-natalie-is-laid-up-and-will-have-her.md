@@ -15,10 +15,14 @@ source:
   caption: "First day of third grade for Nate! Sadly Natalie is laid up and will have her first day tomorrow!"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2019-08-15-082913-first-day-of-third-grade-for-nate-sadly-natalie-is-laid-up-and-will-have-her-01
+related:
+  - type: gallery
+    id: instagram-2019-08-15-082913-first-day-of-third-grade-for-nate-sadly-natalie-is-laid-up-and-will-have-her
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-08-15-082913-first-day-of-third-grade-for-nate-sadly-natalie-is-laid-up-and-will-have-her"
 tags:
   - "instagram"
 categories:
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "First day of third grade for Nate! Sadly Natalie is laid up and will have her first day tomorrow!"
 ---
-
 First day of third grade for Nate! Sadly Natalie is laid up and will have her first day tomorrow!
-
-{% include gallery.html gallery="instagram-2019-08-15-082913-first-day-of-third-grade-for-nate-sadly-natalie-is-laid-up-and-will-have-her" %}
-

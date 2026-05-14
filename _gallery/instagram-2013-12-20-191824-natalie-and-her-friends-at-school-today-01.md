@@ -10,7 +10,6 @@ year: 2013
 month: 12
 day: 20
 weekday: Friday
-gallery: "instagram-2013-12-20-191824-natalie-and-her-friends-at-school-today"
 source:
   type: instagram
   uri: "media/other/17842416166063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2013/12/20/191824-natalie-and-her-friends-at-school-today.html"
 index: 1
 ---
-
 

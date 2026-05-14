@@ -15,11 +15,15 @@ source:
   caption: "This is where they filmed the #groundhogdaymovie"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2023-12-26-185739-this-is-where-they-filmed-the-groundhogdaymovie-01
+images:
+  - id: instagram-2023-12-26-185739-this-is-where-they-filmed-the-groundhogdaymovie-01
+    caption:
+    alt:
 hashtags:
   - "groundhogdaymovie"
 handles: []
 location:
-gallery: "instagram-2023-12-26-185739-this-is-where-they-filmed-the-groundhogdaymovie"
 tags:
   - "groundhogdaymovie"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "This is where they filmed the #groundhogdaymovie"
 ---
-
 This is where they filmed the [#groundhogdaymovie](https://www.instagram.com/explore/tags/groundhogdaymovie/)
-
-{% include gallery.html gallery="instagram-2023-12-26-185739-this-is-where-they-filmed-the-groundhogdaymovie" %}
-

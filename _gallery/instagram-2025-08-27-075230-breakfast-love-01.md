@@ -12,7 +12,6 @@ year: 2025
 month: 08
 day: 27
 weekday: Wednesday
-gallery: "instagram-2025-08-27-075230-breakfast-love"
 source:
   type: instagram
   uri: "media/posts/202508/18304448026218855.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/08/27/075230-breakfast-love.html"
 index: 1
 ---
-
 

@@ -15,12 +15,16 @@ source:
   caption: "#morningwalk #psexpress"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-10-06-071029-morningwalk-psexpress-01
+images:
+  - id: instagram-2021-10-06-071029-morningwalk-psexpress-01
+    caption:
+    alt:
 hashtags:
   - "morningwalk"
   - "psexpress"
 handles: []
 location:
-gallery: "instagram-2021-10-06-071029-morningwalk-psexpress"
 tags:
   - "morningwalk"
   - "psexpress"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "#morningwalk #psexpress"
 ---
-
 [#morningwalk](https://www.instagram.com/explore/tags/morningwalk/) [#psexpress](https://www.instagram.com/explore/tags/psexpress/)
-
-{% include gallery.html gallery="instagram-2021-10-06-071029-morningwalk-psexpress" %}
-

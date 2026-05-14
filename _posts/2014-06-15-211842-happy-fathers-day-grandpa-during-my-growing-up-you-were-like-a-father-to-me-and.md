@@ -15,10 +15,14 @@ source:
   caption: "Happy Fathers Day Grandpa. During my growing up you were like a father to me, and I just want you to know I love you"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-06-15-211842-happy-fathers-day-grandpa-during-my-growing-up-you-were-like-a-father-to-me-and-01
+images:
+  - id: instagram-2014-06-15-211842-happy-fathers-day-grandpa-during-my-growing-up-you-were-like-a-father-to-me-and-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2014-06-15-211842-happy-fathers-day-grandpa-during-my-growing-up-you-were-like-a-father-to-me-and"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Happy Fathers Day Grandpa. During my growing up you were like a father to me, and I just want you to know I love you"
 ---
-
 Happy Fathers Day Grandpa. During my growing up you were like a father to me, and I just want you to know I love you
-
-{% include gallery.html gallery="instagram-2014-06-15-211842-happy-fathers-day-grandpa-during-my-growing-up-you-were-like-a-father-to-me-and" %}
-

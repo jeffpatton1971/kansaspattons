@@ -15,12 +15,22 @@ source:
   caption: "#trickortreat #happyhalloween"
   media_count: 3
   cross_post_source: "FB"
+cover_image: instagram-2023-10-31-201230-trickortreat-happyhalloween-01
+images:
+  - id: instagram-2023-10-31-201230-trickortreat-happyhalloween-01
+    caption:
+    alt:
+  - id: instagram-2023-10-31-201230-trickortreat-happyhalloween-02
+    caption:
+    alt:
+  - id: instagram-2023-10-31-201230-trickortreat-happyhalloween-03
+    caption:
+    alt:
 hashtags:
   - "trickortreat"
   - "happyhalloween"
 handles: []
 location:
-gallery: "instagram-2023-10-31-201230-trickortreat-happyhalloween"
 tags:
   - "trickortreat"
   - "happyhalloween"
@@ -30,8 +40,4 @@ authors:
   - "Jeff Patton"
 summary: "#trickortreat #happyhalloween"
 ---
-
 [#trickortreat](https://www.instagram.com/explore/tags/trickortreat/) [#happyhalloween](https://www.instagram.com/explore/tags/happyhalloween/)
-
-{% include gallery.html gallery="instagram-2023-10-31-201230-trickortreat-happyhalloween" %}
-

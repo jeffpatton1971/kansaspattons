@@ -10,7 +10,6 @@ year: 2025
 month: 06
 day: 05
 weekday: Thursday
-gallery: "instagram-2025-06-05-080719-this-is-my-favorite-part-of-the-day"
 source:
   type: instagram
   uri: "media/posts/202506/18109373650504662.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/06/05/080719-this-is-my-favorite-part-of-the-day.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2017
 month: 04
 day: 19
 weekday: Wednesday
-gallery: "instagram-2017-04-19-214345-gotta-catch-em-all-pok-mon"
 source:
   type: instagram
   uri: "media/other/17866085182126311.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2017/04/19/214345-gotta-catch-em-all-pok-mon.html"
 index: 1
 ---
-
 

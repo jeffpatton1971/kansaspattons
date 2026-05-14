@@ -10,7 +10,6 @@ year: 2018
 month: 05
 day: 22
 weekday: Tuesday
-gallery: "instagram-2018-05-22-183025-time-for-baseball"
 source:
   type: instagram
   uri: "media/other/17947957579009186.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/05/22/183025-time-for-baseball.html"
 index: 1
 ---
-
 

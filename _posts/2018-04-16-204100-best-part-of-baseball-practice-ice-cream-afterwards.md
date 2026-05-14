@@ -15,10 +15,14 @@ source:
   caption: "Best part of baseball practice? Ice cream afterwards!!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-04-16-204100-best-part-of-baseball-practice-ice-cream-afterwards-01
+images:
+  - id: instagram-2018-04-16-204100-best-part-of-baseball-practice-ice-cream-afterwards-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-04-16-204100-best-part-of-baseball-practice-ice-cream-afterwards"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Best part of baseball practice? Ice cream afterwards!!"
 ---
-
 Best part of baseball practice? Ice cream afterwards!!
-
-{% include gallery.html gallery="instagram-2018-04-16-204100-best-part-of-baseball-practice-ice-cream-afterwards" %}
-

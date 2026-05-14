@@ -12,7 +12,11 @@ source:
   type: wordpress
   id: 18
   url: "https://jeffspatton.wordpress.com/2013/04/10/april-10-2013/"
-gallery: "wordpress-2013-04-10-094611-april-10-2013"
+cover_image: "2013-04-10-wp-20130410-008"
+images:
+  - id: "2013-04-10-wp-20130410-008"
+    caption:
+    alt:
 categories:
   - "Nathan"
   - cancer
@@ -31,5 +35,3 @@ The oncologist told us that over the next few days Nathan’s counts would begin
 Day 1 chemo is a 6 hour treatment that requires 24 hours of hydration after, so each day 1 will be in the hospital. Out next day 1 I believe will be on March 26.
 
 Aside from his counts going down the doctor said that he wasn’t dehydrated and that so far he had only lost a half pound. We met with a nutritionist to try and figure out how to get more food into him, it’s difficult because his appetite has changed so dramatically from what it was before. Fortunately he has been drinking more, let’s hope that keeps up.
-
-{% include gallery.html gallery="wordpress-2013-04-10-094611-april-10-2013" %}

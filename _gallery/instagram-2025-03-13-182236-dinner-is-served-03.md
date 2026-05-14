@@ -10,7 +10,6 @@ year: 2025
 month: 03
 day: 13
 weekday: Thursday
-gallery: "instagram-2025-03-13-182236-dinner-is-served"
 source:
   type: instagram
   uri: "media/posts/202503/18059273315086265.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/03/13/182236-dinner-is-served.html"
 index: 3
 ---
-
 

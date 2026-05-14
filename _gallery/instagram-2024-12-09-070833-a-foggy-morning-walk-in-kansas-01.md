@@ -11,7 +11,6 @@ year: 2024
 month: 12
 day: 09
 weekday: Monday
-gallery: "instagram-2024-12-09-070833-a-foggy-morning-walk-in-kansas"
 source:
   type: instagram
   uri: "media/posts/202412/18014795618444352.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/12/09/070833-a-foggy-morning-walk-in-kansas.html"
 index: 1
 ---
-
 

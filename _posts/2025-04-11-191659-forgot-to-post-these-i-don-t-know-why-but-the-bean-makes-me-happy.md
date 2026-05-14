@@ -15,10 +15,14 @@ source:
   caption: "Forgot to post these! I don’t know why but the bean makes me happy!"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2025-04-11-191659-forgot-to-post-these-i-don-t-know-why-but-the-bean-makes-me-happy-01
+related:
+  - type: gallery
+    id: instagram-2025-04-11-191659-forgot-to-post-these-i-don-t-know-why-but-the-bean-makes-me-happy
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-04-11-191659-forgot-to-post-these-i-don-t-know-why-but-the-bean-makes-me-happy"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Forgot to post these! I don’t know why but the bean makes me happy!"
 ---
-
 Forgot to post these! I don’t know why but the bean makes me happy!
-
-{% include gallery.html gallery="instagram-2025-04-11-191659-forgot-to-post-these-i-don-t-know-why-but-the-bean-makes-me-happy" %}
-

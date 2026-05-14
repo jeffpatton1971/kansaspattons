@@ -15,10 +15,14 @@ source:
   caption: "Turkeys on the run"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2022-05-15-065530-turkeys-on-the-run-01
+images:
+  - id: instagram-2022-05-15-065530-turkeys-on-the-run-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2022-05-15-065530-turkeys-on-the-run"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Turkeys on the run"
 ---
-
 Turkeys on the run
-
-{% include gallery.html gallery="instagram-2022-05-15-065530-turkeys-on-the-run" %}
-

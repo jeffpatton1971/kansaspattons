@@ -15,10 +15,14 @@ source:
   caption: "Time for a little warm-up"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-12-10-104121-time-for-a-little-warm-up-01
+images:
+  - id: instagram-2019-12-10-104121-time-for-a-little-warm-up-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-12-10-104121-time-for-a-little-warm-up"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Time for a little warm-up"
 ---
-
 Time for a little warm-up
-
-{% include gallery.html gallery="instagram-2019-12-10-104121-time-for-a-little-warm-up" %}
-

@@ -15,10 +15,14 @@ source:
   caption: "Sarah and Nathan watching a video on grandmas phone"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2013-12-15-181028-sarah-and-nathan-watching-a-video-on-grandmas-phone-01
+images:
+  - id: instagram-2013-12-15-181028-sarah-and-nathan-watching-a-video-on-grandmas-phone-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2013-12-15-181028-sarah-and-nathan-watching-a-video-on-grandmas-phone"
 tags:
   - "instagram"
 categories:
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Sarah and Nathan watching a video on grandmas phone"
 ---
-
 Sarah and Nathan watching a video on grandmas phone
-
-{% include gallery.html gallery="instagram-2013-12-15-181028-sarah-and-nathan-watching-a-video-on-grandmas-phone" %}
-

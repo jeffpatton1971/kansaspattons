@@ -15,12 +15,19 @@ source:
   caption: "#morningwalk and #breakfast"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2025-10-01-070940-morningwalk-and-breakfast-01
+images:
+  - id: instagram-2025-10-01-070940-morningwalk-and-breakfast-01
+    caption:
+    alt:
+  - id: instagram-2025-10-01-070940-morningwalk-and-breakfast-02
+    caption:
+    alt:
 hashtags:
   - "morningwalk"
   - "breakfast"
 handles: []
 location:
-gallery: "instagram-2025-10-01-070940-morningwalk-and-breakfast"
 tags:
   - "morningwalk"
   - "breakfast"
@@ -30,8 +37,4 @@ authors:
   - "Jeff Patton"
 summary: "#morningwalk and #breakfast"
 ---
-
 [#morningwalk](https://www.instagram.com/explore/tags/morningwalk/) and [#breakfast](https://www.instagram.com/explore/tags/breakfast/)
-
-{% include gallery.html gallery="instagram-2025-10-01-070940-morningwalk-and-breakfast" %}
-

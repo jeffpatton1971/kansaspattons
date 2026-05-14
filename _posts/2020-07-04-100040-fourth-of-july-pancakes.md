@@ -15,10 +15,14 @@ source:
   caption: "Fourth of July pancakes! 🇺🇸"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2020-07-04-100040-fourth-of-july-pancakes-01
+images:
+  - id: instagram-2020-07-04-100040-fourth-of-july-pancakes-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2020-07-04-100040-fourth-of-july-pancakes"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Fourth of July pancakes! 🇺🇸"
 ---
-
 Fourth of July pancakes! 🇺🇸
-
-{% include gallery.html gallery="instagram-2020-07-04-100040-fourth-of-july-pancakes" %}
-

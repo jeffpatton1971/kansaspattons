@@ -15,10 +15,14 @@ source:
   caption: "Chiefs + Cinnamon Roll + Mimosa"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-11-02-155706-chiefs-cinnamon-roll-mimosa-01
+images:
+  - id: instagram-2025-11-02-155706-chiefs-cinnamon-roll-mimosa-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-11-02-155706-chiefs-cinnamon-roll-mimosa"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Chiefs + Cinnamon Roll + Mimosa"
 ---
-
 Chiefs + Cinnamon Roll + Mimosa
-
-{% include gallery.html gallery="instagram-2025-11-02-155706-chiefs-cinnamon-roll-mimosa" %}
-

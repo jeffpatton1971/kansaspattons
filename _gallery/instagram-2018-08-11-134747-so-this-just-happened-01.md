@@ -10,7 +10,6 @@ year: 2018
 month: 08
 day: 11
 weekday: Saturday
-gallery: "instagram-2018-08-11-134747-so-this-just-happened"
 source:
   type: instagram
   uri: "media/other/17968825708025854.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/08/11/134747-so-this-just-happened.html"
 index: 1
 ---
-
 

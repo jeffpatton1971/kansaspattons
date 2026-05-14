@@ -23,12 +23,70 @@ categories:
   - album
 tags: []
 gallery: facebook-2011-09-04-143938-wedding-pictures
+cover_image: facebook-2011-09-04-143938-wedding-pictures-0001
+images:
+  - id: facebook-2011-09-04-143938-wedding-pictures-0001
+    caption:
+    alt:
+  - id: facebook-2011-09-04-143938-wedding-pictures-0002
+    caption:
+    alt:
+  - id: facebook-2011-09-04-143938-wedding-pictures-0003
+    caption:
+    alt:
+  - id: facebook-2011-09-04-143938-wedding-pictures-0004
+    caption:
+    alt:
+  - id: facebook-2011-09-04-143938-wedding-pictures-0005
+    caption:
+    alt:
+  - id: facebook-2011-09-04-143938-wedding-pictures-0006
+    caption:
+    alt:
+  - id: facebook-2011-09-04-143938-wedding-pictures-0007
+    caption:
+    alt:
+  - id: facebook-2011-09-04-143938-wedding-pictures-0008
+    caption:
+    alt:
+  - id: facebook-2011-09-04-143938-wedding-pictures-0009
+    caption:
+    alt:
+  - id: facebook-2011-09-04-143938-wedding-pictures-0010
+    caption:
+    alt:
+  - id: facebook-2011-09-04-143938-wedding-pictures-0011
+    caption:
+    alt:
+  - id: facebook-2011-09-04-143938-wedding-pictures-0012
+    caption:
+    alt:
+  - id: facebook-2011-09-04-143938-wedding-pictures-0013
+    caption:
+    alt:
+  - id: facebook-2011-09-04-143938-wedding-pictures-0014
+    caption:
+    alt:
+  - id: facebook-2011-09-04-143938-wedding-pictures-0015
+    caption:
+    alt:
+  - id: facebook-2011-09-04-143938-wedding-pictures-0016
+    caption:
+    alt:
+  - id: facebook-2011-09-04-143938-wedding-pictures-0017
+    caption:
+    alt:
+  - id: facebook-2011-09-04-143938-wedding-pictures-0018
+    caption:
+    alt:
+  - id: facebook-2011-09-04-143938-wedding-pictures-0019
+    caption:
+    alt:
+  - id: facebook-2011-09-04-143938-wedding-pictures-0020
+    caption:
+    alt:
 authors:
   - "Jeff Patton"
 summary: "Wedding Pictures Facebook album."
 ---
-
 Self exaplanatory description here.
-
-{% include gallery.html gallery="facebook-2011-09-04-143938-wedding-pictures" %}
-

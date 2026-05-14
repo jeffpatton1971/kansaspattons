@@ -10,7 +10,6 @@ year: 2023
 month: 06
 day: 09
 weekday: Friday
-gallery: "instagram-2023-06-09-074700-thanks-for-all-the-birthday-wishes"
 source:
   type: instagram
   uri: "media/posts/202306/17863733882949516.jpg"
@@ -23,5 +22,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/06/09/074700-thanks-for-all-the-birthday-wishes.html"
 index: 1
 ---
-
 

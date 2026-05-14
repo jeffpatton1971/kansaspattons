@@ -11,7 +11,6 @@ year: 2022
 month: 08
 day: 20
 weekday: Saturday
-gallery: "instagram-2022-08-20-094538-breakfast"
 source:
   type: instagram
   uri: "media/other/18013863952437356.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/08/20/094538-breakfast.html"
 index: 1
 ---
-
 

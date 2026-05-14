@@ -12,7 +12,6 @@ year: 2021
 month: 03
 day: 29
 weekday: Monday
-gallery: "instagram-2021-03-29-074917-have-a-ducky-monday-ducks-mallards"
 source:
   type: instagram
   uri: "media/other/17863869200400955.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/03/29/074917-have-a-ducky-monday-ducks-mallards.html"
 index: 1
 ---
-
 

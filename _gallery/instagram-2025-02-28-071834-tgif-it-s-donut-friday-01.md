@@ -11,7 +11,6 @@ year: 2025
 month: 02
 day: 28
 weekday: Friday
-gallery: "instagram-2025-02-28-071834-tgif-it-s-donut-friday"
 source:
   type: instagram
   uri: "media/posts/202502/18054335705114065.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/02/28/071834-tgif-it-s-donut-friday.html"
 index: 1
 ---
-
 

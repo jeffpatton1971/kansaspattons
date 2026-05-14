@@ -15,10 +15,14 @@ source:
   caption: "I don’t know how this person is 21yrs old today."
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2024-09-18-191437-i-don-t-know-how-this-person-is-21yrs-old-today-01
+images:
+  - id: instagram-2024-09-18-191437-i-don-t-know-how-this-person-is-21yrs-old-today-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2024-09-18-191437-i-don-t-know-how-this-person-is-21yrs-old-today"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "I don’t know how this person is 21yrs old today."
 ---
-
 I don’t know how this person is 21yrs old today.
-
-{% include gallery.html gallery="instagram-2024-09-18-191437-i-don-t-know-how-this-person-is-21yrs-old-today" %}
-

@@ -10,7 +10,6 @@ year: 2025
 month: 03
 day: 18
 weekday: Tuesday
-gallery: "instagram-2025-03-18-202523-dinner-and-shopping-with-my-favorite-daughter"
 source:
   type: instagram
   uri: "media/posts/202503/17953629605793053.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/03/18/202523-dinner-and-shopping-with-my-favorite-daughter.html"
 index: 3
 ---
-
 

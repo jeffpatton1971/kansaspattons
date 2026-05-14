@@ -15,11 +15,21 @@ source:
   caption: "Pre-season win! Nathan hit a double, got an RBI, scored and got an out playing second...big day for him! #baseballlife⚾️"
   media_count: 3
   cross_post_source: "FB"
+cover_image: instagram-2021-05-01-181928-pre-season-win-nathan-hit-a-double-got-an-rbi-scored-and-got-an-out-playing-01
+images:
+  - id: instagram-2021-05-01-181928-pre-season-win-nathan-hit-a-double-got-an-rbi-scored-and-got-an-out-playing-01
+    caption:
+    alt:
+  - id: instagram-2021-05-01-181928-pre-season-win-nathan-hit-a-double-got-an-rbi-scored-and-got-an-out-playing-02
+    caption:
+    alt:
+  - id: instagram-2021-05-01-181928-pre-season-win-nathan-hit-a-double-got-an-rbi-scored-and-got-an-out-playing-03
+    caption:
+    alt:
 hashtags:
   - "baseballlife"
 handles: []
 location:
-gallery: "instagram-2021-05-01-181928-pre-season-win-nathan-hit-a-double-got-an-rbi-scored-and-got-an-out-playing"
 tags:
   - "baseballlife"
   - "instagram"
@@ -29,8 +39,4 @@ authors:
   - "Jeff Patton"
 summary: "Pre-season win! Nathan hit a double, got an RBI, scored and got an out playing second...big day for him! #baseballlife⚾️"
 ---
-
 Pre-season win! Nathan hit a double, got an RBI, scored and got an out playing second...big day for him! [#baseballlife](https://www.instagram.com/explore/tags/baseballlife/)⚾️
-
-{% include gallery.html gallery="instagram-2021-05-01-181928-pre-season-win-nathan-hit-a-double-got-an-rbi-scored-and-got-an-out-playing" %}
-

@@ -10,7 +10,6 @@ year: 2018
 month: 08
 day: 05
 weekday: Sunday
-gallery: "instagram-2018-08-05-101635-my-two-middle-teeth-are-lonely"
 source:
   type: instagram
   uri: "media/other/17859086698279289.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/08/05/101635-my-two-middle-teeth-are-lonely.html"
 index: 1
 ---
-
 

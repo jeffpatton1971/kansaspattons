@@ -15,10 +15,14 @@ source:
   caption: "Nathan’s first game"
   media_count: 10
   cross_post_source: "FB"
+cover_image: instagram-2023-01-10-192803-nathan-s-first-game-01
+related:
+  - type: gallery
+    id: instagram-2023-01-10-192803-nathan-s-first-game
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2023-01-10-192803-nathan-s-first-game"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Nathan’s first game"
 ---
-
 Nathan’s first game
-
-{% include gallery.html gallery="instagram-2023-01-10-192803-nathan-s-first-game" %}
-

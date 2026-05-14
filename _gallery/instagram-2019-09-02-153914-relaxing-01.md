@@ -10,7 +10,6 @@ year: 2019
 month: 09
 day: 02
 weekday: Monday
-gallery: "instagram-2019-09-02-153914-relaxing"
 source:
   type: instagram
   uri: "media/other/17868008530460515.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/09/02/153914-relaxing.html"
 index: 1
 ---
-
 

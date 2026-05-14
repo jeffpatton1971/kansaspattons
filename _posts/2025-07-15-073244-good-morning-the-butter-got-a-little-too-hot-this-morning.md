@@ -15,10 +15,14 @@ source:
   caption: "Good morning …the butter got a little too hot this morning"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-07-15-073244-good-morning-the-butter-got-a-little-too-hot-this-morning-01
+images:
+  - id: instagram-2025-07-15-073244-good-morning-the-butter-got-a-little-too-hot-this-morning-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-07-15-073244-good-morning-the-butter-got-a-little-too-hot-this-morning"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Good morning …the butter got a little too hot this morning"
 ---
-
 Good morning …the butter got a little too hot this morning
-
-{% include gallery.html gallery="instagram-2025-07-15-073244-good-morning-the-butter-got-a-little-too-hot-this-morning" %}
-

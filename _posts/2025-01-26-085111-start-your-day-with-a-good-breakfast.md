@@ -15,11 +15,15 @@ source:
   caption: "Start your day with a good #breakfast"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-01-26-085111-start-your-day-with-a-good-breakfast-01
+images:
+  - id: instagram-2025-01-26-085111-start-your-day-with-a-good-breakfast-01
+    caption:
+    alt:
 hashtags:
   - "breakfast"
 handles: []
 location:
-gallery: "instagram-2025-01-26-085111-start-your-day-with-a-good-breakfast"
 tags:
   - "breakfast"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Start your day with a good #breakfast"
 ---
-
 Start your day with a good [#breakfast](https://www.instagram.com/explore/tags/breakfast/)
-
-{% include gallery.html gallery="instagram-2025-01-26-085111-start-your-day-with-a-good-breakfast" %}
-

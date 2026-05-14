@@ -10,7 +10,6 @@ year: 2020
 month: 03
 day: 28
 weekday: Saturday
-gallery: "instagram-2020-03-28-134124-spring-things"
 source:
   type: instagram
   uri: "media/other/17887854742501563.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/03/28/134124-spring-things.html"
 index: 1
 ---
-
 

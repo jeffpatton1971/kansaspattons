@@ -15,10 +15,14 @@ source:
   caption: "A well deserved ice cream after baseball practice"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-05-06-152035-a-well-deserved-ice-cream-after-baseball-practice-01
+images:
+  - id: instagram-2018-05-06-152035-a-well-deserved-ice-cream-after-baseball-practice-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-05-06-152035-a-well-deserved-ice-cream-after-baseball-practice"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "A well deserved ice cream after baseball practice"
 ---
-
 A well deserved ice cream after baseball practice
-
-{% include gallery.html gallery="instagram-2018-05-06-152035-a-well-deserved-ice-cream-after-baseball-practice" %}
-

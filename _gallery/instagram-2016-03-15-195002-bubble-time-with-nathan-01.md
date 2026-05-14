@@ -10,7 +10,6 @@ year: 2016
 month: 03
 day: 15
 weekday: Tuesday
-gallery: "instagram-2016-03-15-195002-bubble-time-with-nathan"
 source:
   type: instagram
   uri: "media/other/17873036347024341.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2016/03/15/195002-bubble-time-with-nathan.html"
 index: 1
 ---
-
 

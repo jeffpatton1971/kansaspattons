@@ -15,10 +15,14 @@ source:
   caption: "Mom and Natalie did the 5k this morning"
   media_count: 5
   cross_post_source: "FB"
+cover_image: instagram-2018-03-17-115752-mom-and-natalie-did-the-5k-this-morning-01
+related:
+  - type: gallery
+    id: instagram-2018-03-17-115752-mom-and-natalie-did-the-5k-this-morning
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-03-17-115752-mom-and-natalie-did-the-5k-this-morning"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Mom and Natalie did the 5k this morning"
 ---
-
 Mom and Natalie did the 5k this morning
-
-{% include gallery.html gallery="instagram-2018-03-17-115752-mom-and-natalie-did-the-5k-this-morning" %}
-

@@ -10,7 +10,6 @@ year: 2017
 month: 07
 day: 04
 weekday: Tuesday
-gallery: "instagram-2017-07-04-090213-happy-fourth-of-july-everyone"
 source:
   type: instagram
   uri: "media/other/17864301229133003.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2017/07/04/090213-happy-fourth-of-july-everyone.html"
 index: 1
 ---
-
 

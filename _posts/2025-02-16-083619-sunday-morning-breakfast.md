@@ -15,10 +15,14 @@ source:
   caption: "Sunday Morning breakfast"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-02-16-083619-sunday-morning-breakfast-01
+images:
+  - id: instagram-2025-02-16-083619-sunday-morning-breakfast-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-02-16-083619-sunday-morning-breakfast"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Sunday Morning breakfast"
 ---
-
 Sunday Morning breakfast
-
-{% include gallery.html gallery="instagram-2025-02-16-083619-sunday-morning-breakfast" %}
-

@@ -10,7 +10,6 @@ year: 2025
 month: 03
 day: 29
 weekday: Saturday
-gallery: "instagram-2025-03-29-101842-a-coffee-and-muffin-for-breakfast-on-the-deck-it-s-the-little-things"
 source:
   type: instagram
   uri: "media/posts/202503/17927799120023618.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/03/29/101842-a-coffee-and-muffin-for-breakfast-on-the-deck-it-s-the-little-things.html"
 index: 1
 ---
-
 

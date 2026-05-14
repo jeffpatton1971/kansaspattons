@@ -10,7 +10,6 @@ year: 2013
 month: 12
 day: 29
 weekday: Sunday
-gallery: "instagram-2013-12-29-140715-natalie-and-nathan-dancing-to-frozen"
 source:
   type: instagram
   uri: "media/other/17842421044063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2013/12/29/140715-natalie-and-nathan-dancing-to-frozen.html"
 index: 1
 ---
-
 

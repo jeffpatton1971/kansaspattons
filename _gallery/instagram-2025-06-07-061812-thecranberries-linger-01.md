@@ -11,7 +11,6 @@ year: 2025
 month: 06
 day: 07
 weekday: Saturday
-gallery: "instagram-2025-06-07-061812-thecranberries-linger"
 source:
   type: instagram
   uri: "media/posts/202506/17910826971138877.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/06/07/061812-thecranberries-linger.html"
 index: 1
 ---
-
 

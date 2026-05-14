@@ -10,7 +10,6 @@ year: 2022
 month: 05
 day: 15
 weekday: Sunday
-gallery: "instagram-2022-05-15-065530-turkeys-on-the-run"
 source:
   type: instagram
   uri: "media/other/18294091198000145.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/05/15/065530-turkeys-on-the-run.html"
 index: 1
 ---
-
 

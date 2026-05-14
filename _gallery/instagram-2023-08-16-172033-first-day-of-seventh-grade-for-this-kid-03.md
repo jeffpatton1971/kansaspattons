@@ -10,7 +10,6 @@ year: 2023
 month: 08
 day: 16
 weekday: Wednesday
-gallery: "instagram-2023-08-16-172033-first-day-of-seventh-grade-for-this-kid"
 source:
   type: instagram
   uri: "media/posts/202308/17949154937664551.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/08/16/172033-first-day-of-seventh-grade-for-this-kid.html"
 index: 3
 ---
-
 

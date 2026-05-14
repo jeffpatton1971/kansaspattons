@@ -15,11 +15,15 @@ source:
   caption: "Glad to be back home in #kansas"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2024-07-02-065705-glad-to-be-back-home-in-kansas-01
+images:
+  - id: instagram-2024-07-02-065705-glad-to-be-back-home-in-kansas-01
+    caption:
+    alt:
 hashtags:
   - "kansas"
 handles: []
 location:
-gallery: "instagram-2024-07-02-065705-glad-to-be-back-home-in-kansas"
 tags:
   - "kansas"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Glad to be back home in #kansas"
 ---
-
 Glad to be back home in [#kansas](https://www.instagram.com/explore/tags/kansas/)
-
-{% include gallery.html gallery="instagram-2024-07-02-065705-glad-to-be-back-home-in-kansas" %}
-

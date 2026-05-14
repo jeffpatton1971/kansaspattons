@@ -10,7 +10,6 @@ year: 2019
 month: 10
 day: 04
 weekday: Friday
-gallery: "instagram-2019-10-04-200616-friday-night-lights"
 source:
   type: instagram
   uri: "media/other/17898118264384013.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/10/04/200616-friday-night-lights.html"
 index: 1
 ---
-
 

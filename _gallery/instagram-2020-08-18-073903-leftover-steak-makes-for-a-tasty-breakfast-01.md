@@ -10,7 +10,6 @@ year: 2020
 month: 08
 day: 18
 weekday: Tuesday
-gallery: "instagram-2020-08-18-073903-leftover-steak-makes-for-a-tasty-breakfast"
 source:
   type: instagram
   uri: "media/other/17860563575089847.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/08/18/073903-leftover-steak-makes-for-a-tasty-breakfast.html"
 index: 1
 ---
-
 

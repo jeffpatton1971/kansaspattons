@@ -10,7 +10,6 @@ year: 2025
 month: 03
 day: 23
 weekday: Sunday
-gallery: "instagram-2025-03-23-224301-clear-night"
 source:
   type: instagram
   uri: "media/posts/202503/18041886467414783.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/03/23/224301-clear-night.html"
 index: 1
 ---
-
 

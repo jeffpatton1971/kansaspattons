@@ -11,7 +11,6 @@ year: 2014
 month: 08
 day: 17
 weekday: Sunday
-gallery: "instagram-2014-08-17-143319-best-inning-ever-kcroyals-beroyalkc"
 source:
   type: instagram
   uri: "media/other/17843337037063547.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/08/17/143319-best-inning-ever-kcroyals-beroyalkc.html"
 index: 1
 ---
-
 

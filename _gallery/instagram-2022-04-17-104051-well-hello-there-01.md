@@ -10,7 +10,6 @@ year: 2022
 month: 04
 day: 17
 weekday: Sunday
-gallery: "instagram-2022-04-17-104051-well-hello-there"
 source:
   type: instagram
   uri: "media/other/17901339566585704.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/04/17/104051-well-hello-there.html"
 index: 1
 ---
-
 

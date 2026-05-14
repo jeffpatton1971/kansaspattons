@@ -10,7 +10,6 @@ year: 2014
 month: 09
 day: 13
 weekday: Saturday
-gallery: "instagram-2014-09-13-192306-had-a-wonderful-time-with-tfd-tonight"
 source:
   type: instagram
   uri: "media/other/17843347915063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/09/13/192306-had-a-wonderful-time-with-tfd-tonight.html"
 index: 1
 ---
-
 

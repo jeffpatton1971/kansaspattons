@@ -12,7 +12,6 @@ year: 2020
 month: 05
 day: 30
 weekday: Saturday
-gallery: "instagram-2020-05-30-175503-taking-some-batting-practice-with-my-favorite-baseball-player-littleleague"
 source:
   type: instagram
   uri: "media/posts/202005/18145294378000695.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/05/30/175503-taking-some-batting-practice-with-my-favorite-baseball-player-littleleague.html"
 index: 2
 ---
-
 

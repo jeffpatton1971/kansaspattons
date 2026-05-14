@@ -11,7 +11,6 @@ year: 2025
 month: 11
 day: 23
 weekday: Sunday
-gallery: "instagram-2025-11-23-093539-breakfast-this-morning-courtesy-of-munchers-and-z-s"
 source:
   type: instagram
   uri: "media/posts/202511/18105203884563835.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/11/23/093539-breakfast-this-morning-courtesy-of-munchers-and-z-s.html"
 index: 1
 ---
-
 

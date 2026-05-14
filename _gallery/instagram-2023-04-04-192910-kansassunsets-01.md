@@ -11,7 +11,6 @@ year: 2023
 month: 04
 day: 04
 weekday: Tuesday
-gallery: "instagram-2023-04-04-192910-kansassunsets"
 source:
   type: instagram
   uri: "media/posts/202304/17843772107970180.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/04/04/192910-kansassunsets.html"
 index: 1
 ---
-
 

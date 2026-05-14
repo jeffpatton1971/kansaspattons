@@ -11,7 +11,6 @@ year: 2025
 month: 07
 day: 29
 weekday: Tuesday
-gallery: "instagram-2025-07-29-075627-a-quiet-breakfast"
 source:
   type: instagram
   uri: "media/posts/202507/18045365312635013.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/07/29/075627-a-quiet-breakfast.html"
 index: 1
 ---
-
 

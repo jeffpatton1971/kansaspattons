@@ -15,13 +15,17 @@ source:
   caption: "Been waiting for this to update @mlb #beroyalkc #royals"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-08-11-222634-been-waiting-for-this-to-update-mlb-beroyalkc-royals-01
+images:
+  - id: instagram-2014-08-11-222634-been-waiting-for-this-to-update-mlb-beroyalkc-royals-01
+    caption:
+    alt:
 hashtags:
   - "beroyalkc"
   - "royals"
 handles:
   - "mlb"
 location:
-gallery: "instagram-2014-08-11-222634-been-waiting-for-this-to-update-mlb-beroyalkc-royals"
 tags:
   - "beroyalkc"
   - "royals"
@@ -31,8 +35,4 @@ authors:
   - "Jeff Patton"
 summary: "Been waiting for this to update @mlb #beroyalkc #royals"
 ---
-
 Been waiting for this to update [@mlb](https://www.instagram.com/mlb/) [#beroyalkc](https://www.instagram.com/explore/tags/beroyalkc/) [#royals](https://www.instagram.com/explore/tags/royals/)
-
-{% include gallery.html gallery="instagram-2014-08-11-222634-been-waiting-for-this-to-update-mlb-beroyalkc-royals" %}
-

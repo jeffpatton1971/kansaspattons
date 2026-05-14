@@ -50,6 +50,15 @@ type ContentImageRef = {
 };
 ```
 
+## Image Relationship Policy
+
+Image relationships are authored according to the size and meaning of the image set:
+
+- `1-3` images belong directly to the article or story with rich `images` frontmatter.
+- `4+` images become a first-class `content_type: gallery` document.
+- Articles and stories link to their gallery with `related`, and the React detail view renders that gallery inline as well as under `/galleries`.
+- Facebook `Mobile Uploads` albums remain excluded from post/story/gallery archives because they are catch-all import containers rather than meaningful authored galleries.
+
 ## Articles
 
 Articles are the traditional blog-post shape and live under `/posts`.
@@ -79,11 +88,14 @@ tags:
   - wordpress
 categories:
   - holidays
-gallery: "wordpress-2010-12-25-013400-december-25-2010"
+related:
+  - type: gallery
+    id: "wordpress-2010-12-25-013400-december-25-2010"
+    rel: photos
 ---
 ```
 
-An article can embed images directly in Markdown, reference one or more galleries, attach images directly with `images`, or combine those patterns.
+An article can embed images directly in Markdown, attach a small image set with `images`, or reference a gallery with `related`.
 
 Single-image or small image sets should usually use direct image references:
 
@@ -125,7 +137,14 @@ authors:
 summary: "Better late than never"
 source:
   type: instagram
-gallery: "instagram-2026-04-16-194804-better-late-than-never"
+cover_image: instagram-2026-04-16-194804-better-late-than-never-01
+images:
+  - id: instagram-2026-04-16-194804-better-late-than-never-01
+    caption:
+    alt:
+  - id: instagram-2026-04-16-194804-better-late-than-never-02
+    caption:
+    alt:
 hashtags: []
 handles: []
 ---
@@ -163,10 +182,14 @@ cover_image: "field-trip-001"
 gallery: "field-trip-2024"
 tags:
   - school
+related:
+  - type: article
+    id: field-trip
+    rel: companion-article
 ---
 ```
 
-Current sampled gallery authoring uses an existing named Facebook album post:
+Named Facebook album posts use the same gallery shape:
 
 ```yaml
 ---

@@ -11,7 +11,6 @@ year: 2024
 month: 11
 day: 05
 weekday: Tuesday
-gallery: "instagram-2024-11-05-092017-took-natalie-to-her-first-presidential-vote"
 source:
   type: instagram
   uri: "media/posts/202411/17947387247770112.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/11/05/092017-took-natalie-to-her-first-presidential-vote.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2025
 month: 05
 day: 03
 weekday: Saturday
-gallery: "instagram-2025-05-03-133400-yard-werk"
 source:
   type: instagram
   uri: "media/posts/202505/17922894504070841.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/05/03/133400-yard-werk.html"
 index: 1
 ---
-
 

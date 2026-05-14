@@ -10,7 +10,6 @@ year: 2021
 month: 07
 day: 16
 weekday: Friday
-gallery: "instagram-2021-07-16-180208-this-came-in-the-mail-today"
 source:
   type: instagram
   uri: "media/other/17893030832123942.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/07/16/180208-this-came-in-the-mail-today.html"
 index: 1
 ---
-
 

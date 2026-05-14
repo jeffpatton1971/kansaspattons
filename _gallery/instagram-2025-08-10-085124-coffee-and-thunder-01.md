@@ -10,7 +10,6 @@ year: 2025
 month: 08
 day: 10
 weekday: Sunday
-gallery: "instagram-2025-08-10-085124-coffee-and-thunder"
 source:
   type: instagram
   uri: "media/posts/202508/18039027839401729.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/08/10/085124-coffee-and-thunder.html"
 index: 1
 ---
-
 

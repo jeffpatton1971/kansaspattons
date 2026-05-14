@@ -12,7 +12,17 @@ source:
   type: wordpress
   id: 16
   url: "https://jeffspatton.wordpress.com/2013/04/02/april-2-2013/"
-gallery: "wordpress-2013-04-02-093848-april-2-2013"
+cover_image: "2013-04-02-wp-20130401-001-e1365782575379"
+images:
+  - id: "2013-04-02-wp-20130401-001-e1365782575379"
+    caption:
+    alt:
+  - id: "2013-04-02-wp-20130402-001"
+    caption:
+    alt:
+  - id: "2013-04-02-wp-20130403-002"
+    caption:
+    alt:
 categories:
   - "Nathan"
   - cancer
@@ -29,5 +39,3 @@ Nathan’s tumor is what they called pure fetal histology. I took that to be tha
 She said that fast growing tumors typically respond well to the chemo he is getting so it should hopefully shrink down enough for the surgeon to feel comfortable removing it. Nathan will have two cycles of chemo which is a total of 6 weeks after which he will be re-evaluated to see how small the tumor has become. if it’s small enough we will schedule the surgery and get it removed, otherwise we will do two more cycles of chemo. If after 4 cycles it’s not gotten any smaller we will need to change up the medicine.
 
 So we are hoping it shrinks, and so far everything else the doctor has thought has been confirmed. So when the tumor shrinks down what will happen is the surgeon will remove the right lobe of Nathan’s liver. This will leave enough liver for Nathan to grow old with.
-
-{% include gallery.html gallery="wordpress-2013-04-02-093848-april-2-2013" %}

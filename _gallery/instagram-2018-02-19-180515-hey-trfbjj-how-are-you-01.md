@@ -10,7 +10,6 @@ year: 2018
 month: 02
 day: 19
 weekday: Monday
-gallery: "instagram-2018-02-19-180515-hey-trfbjj-how-are-you"
 source:
   type: instagram
   uri: "media/other/17925732172062600.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/02/19/180515-hey-trfbjj-how-are-you.html"
 index: 1
 ---
-
 

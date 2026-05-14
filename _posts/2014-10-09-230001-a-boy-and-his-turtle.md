@@ -15,10 +15,14 @@ source:
   caption: "A boy and his turtle"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-10-09-230001-a-boy-and-his-turtle-01
+images:
+  - id: instagram-2014-10-09-230001-a-boy-and-his-turtle-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2014-10-09-230001-a-boy-and-his-turtle"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "A boy and his turtle"
 ---
-
 A boy and his turtle
-
-{% include gallery.html gallery="instagram-2014-10-09-230001-a-boy-and-his-turtle" %}
-

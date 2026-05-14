@@ -15,13 +15,17 @@ source:
   caption: "#newbeginings #goodmorning #lfk"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-06-02-072935-newbeginings-goodmorning-lfk-01
+images:
+  - id: instagram-2025-06-02-072935-newbeginings-goodmorning-lfk-01
+    caption:
+    alt:
 hashtags:
   - "newbeginings"
   - "goodmorning"
   - "lfk"
 handles: []
 location:
-gallery: "instagram-2025-06-02-072935-newbeginings-goodmorning-lfk"
 tags:
   - "newbeginings"
   - "goodmorning"
@@ -32,8 +36,4 @@ authors:
   - "Jeff Patton"
 summary: "#newbeginings #goodmorning #lfk"
 ---
-
 [#newbeginings](https://www.instagram.com/explore/tags/newbeginings/) [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#lfk](https://www.instagram.com/explore/tags/lfk/)
-
-{% include gallery.html gallery="instagram-2025-06-02-072935-newbeginings-goodmorning-lfk" %}
-

@@ -10,7 +10,6 @@ year: 2021
 month: 08
 day: 19
 weekday: Thursday
-gallery: "instagram-2021-08-19-174304-it-s-been-a-long-ride-from-kindergartner-to-senior"
 source:
   type: instagram
   uri: "media/posts/202108/17926962493660985.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/08/19/174304-it-s-been-a-long-ride-from-kindergartner-to-senior.html"
 index: 1
 ---
-
 

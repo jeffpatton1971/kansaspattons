@@ -12,7 +12,11 @@ source:
   type: wordpress
   id: 1127
   url: "https://jeffspatton.wordpress.com/2013/07/23/july-23-2013/"
-gallery: "wordpress-2013-07-23-130000-july-23-2013"
+cover_image: "2013-07-23-wp-20130723-001"
+related:
+  - type: gallery
+    id: wordpress-2013-07-23-130000-july-23-2013
+    rel: photos
 categories:
   - "Nathan"
   - cancer
@@ -37,5 +41,3 @@ He told us that Nathan had done very well throughout the entire surgery and whil
 They brought us up to the PICU about an hour later to see Nathan. They needed that hour to make sure he was stabilized and to clean him up. It was pretty rough seeing him all hooked up to everything like he was. He is such an active little boy and seeing him laying there with tubes and wires all over was rough.
 
 This next picture is Nathan in his bed, it’s not graphic or anything but I wanted to warn you.
-
-{% include gallery.html gallery="wordpress-2013-07-23-130000-july-23-2013" %}

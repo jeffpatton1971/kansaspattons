@@ -15,11 +15,15 @@ source:
   caption: "So much happy! @strangerthingstv"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-07-04-204526-so-much-happy-strangerthingstv-01
+images:
+  - id: instagram-2019-07-04-204526-so-much-happy-strangerthingstv-01
+    caption:
+    alt:
 hashtags: []
 handles:
   - "strangerthingstv"
 location:
-gallery: "instagram-2019-07-04-204526-so-much-happy-strangerthingstv"
 tags:
   - "instagram"
 categories: []
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "So much happy! @strangerthingstv"
 ---
-
 So much happy! [@strangerthingstv](https://www.instagram.com/strangerthingstv/)
-
-{% include gallery.html gallery="instagram-2019-07-04-204526-so-much-happy-strangerthingstv" %}
-

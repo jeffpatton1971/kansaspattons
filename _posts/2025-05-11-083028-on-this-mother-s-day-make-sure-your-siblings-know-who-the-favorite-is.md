@@ -15,10 +15,14 @@ source:
   caption: "On this Mother’s Day make sure your siblings know who the favorite is!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-05-11-083028-on-this-mother-s-day-make-sure-your-siblings-know-who-the-favorite-is-01
+images:
+  - id: instagram-2025-05-11-083028-on-this-mother-s-day-make-sure-your-siblings-know-who-the-favorite-is-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-05-11-083028-on-this-mother-s-day-make-sure-your-siblings-know-who-the-favorite-is"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "On this Mother’s Day make sure your siblings know who the favorite is!"
 ---
-
 On this Mother’s Day make sure your siblings know who the favorite is!
-
-{% include gallery.html gallery="instagram-2025-05-11-083028-on-this-mother-s-day-make-sure-your-siblings-know-who-the-favorite-is" %}
-

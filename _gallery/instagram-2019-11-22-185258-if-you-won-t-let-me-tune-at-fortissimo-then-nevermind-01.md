@@ -10,7 +10,6 @@ year: 2019
 month: 11
 day: 22
 weekday: Friday
-gallery: "instagram-2019-11-22-185258-if-you-won-t-let-me-tune-at-fortissimo-then-nevermind"
 source:
   type: instagram
   uri: "media/other/17855335843654604.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/11/22/185258-if-you-won-t-let-me-tune-at-fortissimo-then-nevermind.html"
 index: 1
 ---
-
 

@@ -12,7 +12,6 @@ year: 2021
 month: 06
 day: 26
 weekday: Saturday
-gallery: "instagram-2021-06-26-101142-goodmorning-hibiscus"
 source:
   type: instagram
   uri: "media/other/18030270166306579.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/06/26/101142-goodmorning-hibiscus.html"
 index: 1
 ---
-
 

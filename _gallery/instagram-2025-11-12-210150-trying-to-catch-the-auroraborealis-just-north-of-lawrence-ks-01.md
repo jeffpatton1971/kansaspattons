@@ -11,7 +11,6 @@ year: 2025
 month: 11
 day: 12
 weekday: Wednesday
-gallery: "instagram-2025-11-12-210150-trying-to-catch-the-auroraborealis-just-north-of-lawrence-ks"
 source:
   type: instagram
   uri: "media/posts/202511/17864344848434166.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/11/12/210150-trying-to-catch-the-auroraborealis-just-north-of-lawrence-ks.html"
 index: 1
 ---
-
 

@@ -11,7 +11,6 @@ year: 2022
 month: 08
 day: 30
 weekday: Tuesday
-gallery: "instagram-2022-08-30-080657-sunflowers"
 source:
   type: instagram
   uri: "media/other/18006981433461095.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/08/30/080657-sunflowers.html"
 index: 1
 ---
-
 

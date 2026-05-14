@@ -12,7 +12,11 @@ source:
   type: wordpress
   id: 524
   url: "https://jeffspatton.wordpress.com/2013/05/19/may-19-2013/"
-gallery: "wordpress-2013-05-19-074516-may-19-2013"
+cover_image: "2013-05-19-wp-20130519-001"
+related:
+  - type: gallery
+    id: wordpress-2013-05-19-074516-may-19-2013
+    rel: photos
 categories:
   - "children"
   - "family"
@@ -25,5 +29,3 @@ authors:
 summary: "We celebrated birthday’s today, my mom likes getting everyone together every few months to collectively celebrate birthdays. It was a fun day, lots of family, lunch at the McDonald’s playland, a visit from a skink and a thunderstorm!"
 ---
 We celebrated birthday’s today, my mom likes getting everyone together every few months to collectively celebrate birthdays. It was a fun day, lots of family, lunch at the McDonald’s playland, a visit from a skink and a thunderstorm!
-
-{% include gallery.html gallery="wordpress-2013-05-19-074516-may-19-2013" %}

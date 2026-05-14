@@ -10,7 +10,6 @@ year: 2025
 month: 12
 day: 01
 weekday: Monday
-gallery: "instagram-2025-12-01-090540-remote-work-with-great-coffee-and-muffins-is-better"
 source:
   type: instagram
   uri: "media/posts/202512/17884545087411793.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/12/01/090540-remote-work-with-great-coffee-and-muffins-is-better.html"
 index: 1
 ---
-
 

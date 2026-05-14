@@ -11,7 +11,6 @@ year: 2019
 month: 10
 day: 04
 weekday: Friday
-gallery: "instagram-2019-10-04-061853-coffeeislife"
 source:
   type: instagram
   uri: "media/other/18005560387248368.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/10/04/061853-coffeeislife.html"
 index: 1
 ---
-
 

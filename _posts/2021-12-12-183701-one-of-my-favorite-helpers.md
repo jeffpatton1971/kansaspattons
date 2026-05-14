@@ -15,10 +15,14 @@ source:
   caption: "One of my favorite helpers"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-12-12-183701-one-of-my-favorite-helpers-01
+images:
+  - id: instagram-2021-12-12-183701-one-of-my-favorite-helpers-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-12-12-183701-one-of-my-favorite-helpers"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "One of my favorite helpers"
 ---
-
 One of my favorite helpers
-
-{% include gallery.html gallery="instagram-2021-12-12-183701-one-of-my-favorite-helpers" %}
-

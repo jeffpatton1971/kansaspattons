@@ -10,7 +10,6 @@ year: 2021
 month: 12
 day: 12
 weekday: Sunday
-gallery: "instagram-2021-12-12-183701-one-of-my-favorite-helpers"
 source:
   type: instagram
   uri: "media/other/17959031830527735.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/12/12/183701-one-of-my-favorite-helpers.html"
 index: 1
 ---
-
 

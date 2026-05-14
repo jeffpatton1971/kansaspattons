@@ -15,10 +15,14 @@ source:
   caption: "Just rappelled down a cliff"
   media_count: 8
   cross_post_source: "FB"
+cover_image: instagram-2019-05-01-121450-just-rappelled-down-a-cliff-01
+related:
+  - type: gallery
+    id: instagram-2019-05-01-121450-just-rappelled-down-a-cliff
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-05-01-121450-just-rappelled-down-a-cliff"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Just rappelled down a cliff"
 ---
-
 Just rappelled down a cliff
-
-{% include gallery.html gallery="instagram-2019-05-01-121450-just-rappelled-down-a-cliff" %}
-

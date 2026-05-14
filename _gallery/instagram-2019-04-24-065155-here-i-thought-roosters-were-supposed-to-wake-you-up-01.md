@@ -10,7 +10,6 @@ year: 2019
 month: 04
 day: 24
 weekday: Wednesday
-gallery: "instagram-2019-04-24-065155-here-i-thought-roosters-were-supposed-to-wake-you-up"
 source:
   type: instagram
   uri: "media/posts/201904/17948257060275865.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/04/24/065155-here-i-thought-roosters-were-supposed-to-wake-you-up.html"
 index: 1
 ---
-
 

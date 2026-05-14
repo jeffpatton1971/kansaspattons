@@ -12,7 +12,6 @@ year: 2023
 month: 09
 day: 15
 weekday: Friday
-gallery: "instagram-2023-09-15-202407-bowling-and-pizza"
 source:
   type: instagram
   uri: "media/posts/202309/17953906001659795.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/09/15/202407-bowling-and-pizza.html"
 index: 1
 ---
-
 

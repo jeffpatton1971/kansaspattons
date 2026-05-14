@@ -10,7 +10,6 @@ year: 2022
 month: 05
 day: 24
 weekday: Tuesday
-gallery: "instagram-2022-05-24-212810-this-girl-who-would-not-share-her-photo-id-photo-is-enrolled-washburnuniversity"
 source:
   type: instagram
   uri: "media/other/17962496050676801.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/05/24/212810-this-girl-who-would-not-share-her-photo-id-photo-is-enrolled-washburnuniversity.html"
 index: 1
 ---
-
 

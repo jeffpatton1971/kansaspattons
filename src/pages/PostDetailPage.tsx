@@ -163,6 +163,8 @@ function StoryDetail({
   relatedImages: ImageSummary[];
   relatedGalleries: GalleryDocument[];
 }) {
+  const [leadGallery, ...remainingGalleries] = relatedGalleries;
+
   return (
     <>
       <article className="post-detail story-detail" aria-label={post.title}>
@@ -172,12 +174,29 @@ function StoryDetail({
           <EntryMetadata entry={post} />
         </header>
 
-        {relatedImages.length > 0 ? <ImageCarousel images={relatedImages} title="Story images" /> : <h1>{post.title}</h1>}
+        {relatedImages.length > 0 ? (
+          <ImageCarousel images={relatedImages} title="Story images" />
+        ) : leadGallery ? (
+          <StoryGalleryLead gallery={leadGallery} />
+        ) : (
+          <h1>{post.title}</h1>
+        )}
 
         <div className="rich-text" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
       </article>
-      <RelatedGallerySections galleries={relatedGalleries} />
+      <RelatedGallerySections galleries={remainingGalleries} />
     </>
+  );
+}
+
+function StoryGalleryLead({ gallery }: { gallery: GalleryDocument }) {
+  return (
+    <section className="story-gallery-lead">
+      <ImageCarousel images={gallery.images} title="Story gallery" />
+      <Link className="quiet-link" to={gallery.route}>
+        Open gallery
+      </Link>
+    </section>
   );
 }
 

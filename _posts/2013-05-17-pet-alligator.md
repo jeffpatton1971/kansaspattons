@@ -12,7 +12,11 @@ source:
   type: wordpress
   id: 507
   url: "https://jeffspatton.wordpress.com/2013/05/17/may-17-2013/"
-gallery: "wordpress-2013-05-17-084233-may-17-2013"
+cover_image: "2013-05-17-wp-20130517-002"
+related:
+  - type: gallery
+    id: wordpress-2013-05-17-084233-may-17-2013
+    rel: photos
 categories:
   - "family"
   - summer
@@ -24,5 +28,3 @@ authors:
 summary: "The first official day of summer for Natalie we visited the Zoo with Malia’s class. It was nice, Natalie got to pet an alligator!"
 ---
 The first official day of summer for Natalie we visited the Zoo with Malia’s class. It was nice, Natalie got to pet an alligator!
-
-{% include gallery.html gallery="wordpress-2013-05-17-084233-may-17-2013" %}

@@ -11,7 +11,6 @@ year: 2021
 month: 04
 day: 22
 weekday: Thursday
-gallery: "instagram-2021-04-22-150720-just-got-our-second-covidvacccine-shot-we-are-done-and-done-thanks-pfizerinc"
 source:
   type: instagram
   uri: "media/other/17883694691194446.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/04/22/150720-just-got-our-second-covidvacccine-shot-we-are-done-and-done-thanks-pfizerinc.html"
 index: 1
 ---
-
 

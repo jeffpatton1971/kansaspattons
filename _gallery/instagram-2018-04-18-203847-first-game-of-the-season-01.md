@@ -10,7 +10,6 @@ year: 2018
 month: 04
 day: 18
 weekday: Wednesday
-gallery: "instagram-2018-04-18-203847-first-game-of-the-season"
 source:
   type: instagram
   uri: "media/other/17925352759098115.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/04/18/203847-first-game-of-the-season.html"
 index: 1
 ---
-
 

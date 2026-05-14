@@ -11,7 +11,6 @@ year: 2022
 month: 08
 day: 27
 weekday: Saturday
-gallery: "instagram-2022-08-27-161934-kansastourism-sunflowers"
 source:
   type: instagram
   uri: "media/other/17950944256979578.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/08/27/161934-kansastourism-sunflowers.html"
 index: 1
 ---
-
 

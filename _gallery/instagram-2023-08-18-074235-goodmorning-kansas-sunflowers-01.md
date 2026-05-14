@@ -13,7 +13,6 @@ year: 2023
 month: 08
 day: 18
 weekday: Friday
-gallery: "instagram-2023-08-18-074235-goodmorning-kansas-sunflowers"
 source:
   type: instagram
   uri: "media/posts/202308/18054253300455582.jpg"
@@ -27,5 +26,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/08/18/074235-goodmorning-kansas-sunflowers.html"
 index: 1
 ---
-
 

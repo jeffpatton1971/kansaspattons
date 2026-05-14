@@ -10,7 +10,6 @@ year: 2019
 month: 12
 day: 05
 weekday: Thursday
-gallery: "instagram-2019-12-05-182948-not-as-cool-as-superdodds"
 source:
   type: instagram
   uri: "media/other/17884911325457771.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/12/05/182948-not-as-cool-as-superdodds.html"
 index: 1
 ---
-
 

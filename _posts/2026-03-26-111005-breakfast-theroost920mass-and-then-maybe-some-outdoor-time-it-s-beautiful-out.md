@@ -15,12 +15,16 @@ source:
   caption: "#breakfast @theroost920mass and then maybe some outdoor time…it’s beautiful out 💛🖤"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2026-03-26-111005-breakfast-theroost920mass-and-then-maybe-some-outdoor-time-it-s-beautiful-out-01
+images:
+  - id: instagram-2026-03-26-111005-breakfast-theroost920mass-and-then-maybe-some-outdoor-time-it-s-beautiful-out-01
+    caption:
+    alt:
 hashtags:
   - "breakfast"
 handles:
   - "theroost920mass"
 location:
-gallery: "instagram-2026-03-26-111005-breakfast-theroost920mass-and-then-maybe-some-outdoor-time-it-s-beautiful-out"
 tags:
   - "breakfast"
   - "instagram"
@@ -29,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "#breakfast @theroost920mass and then maybe some outdoor time…it’s beautiful out 💛🖤"
 ---
-
 [#breakfast](https://www.instagram.com/explore/tags/breakfast/) [@theroost920mass](https://www.instagram.com/theroost920mass/) and then maybe some outdoor time…it’s beautiful out 💛🖤
-
-{% include gallery.html gallery="instagram-2026-03-26-111005-breakfast-theroost920mass-and-then-maybe-some-outdoor-time-it-s-beautiful-out" %}
-

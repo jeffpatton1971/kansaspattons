@@ -10,7 +10,6 @@ year: 2020
 month: 03
 day: 01
 weekday: Sunday
-gallery: "instagram-2020-03-01-113250-first-half-of-the-trip-gets-me-through-two-states-the-second-half-is-part-of"
 source:
   type: instagram
   uri: "media/other/17856180424799543.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/03/01/113250-first-half-of-the-trip-gets-me-through-two-states-the-second-half-is-part-of.html"
 index: 1
 ---
-
 

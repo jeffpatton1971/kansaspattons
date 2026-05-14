@@ -10,7 +10,6 @@ year: 2021
 month: 06
 day: 05
 weekday: Saturday
-gallery: "instagram-2021-06-05-221216-finish-the-day-with-s-mores-and-colorful-fire-pit-flames"
 source:
   type: instagram
   uri: "media/posts/202106/17874288575503278.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/06/05/221216-finish-the-day-with-s-mores-and-colorful-fire-pit-flames.html"
 index: 3
 ---
-
 

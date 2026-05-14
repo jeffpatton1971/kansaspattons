@@ -10,7 +10,6 @@ year: 2014
 month: 09
 day: 12
 weekday: Friday
-gallery: "instagram-2014-09-12-193602-my-folks-aren-t-they-cute"
 source:
   type: instagram
   uri: "media/other/17841813142063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/09/12/193602-my-folks-aren-t-they-cute.html"
 index: 1
 ---
-
 

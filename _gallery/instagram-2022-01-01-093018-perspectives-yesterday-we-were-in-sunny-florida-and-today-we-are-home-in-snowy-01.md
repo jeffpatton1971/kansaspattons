@@ -12,7 +12,6 @@ year: 2022
 month: 01
 day: 01
 weekday: Saturday
-gallery: "instagram-2022-01-01-093018-perspectives-yesterday-we-were-in-sunny-florida-and-today-we-are-home-in-snowy"
 source:
   type: instagram
   uri: "media/posts/202201/18108581662284379.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/01/01/093018-perspectives-yesterday-we-were-in-sunny-florida-and-today-we-are-home-in-snowy.html"
 index: 1
 ---
-
 

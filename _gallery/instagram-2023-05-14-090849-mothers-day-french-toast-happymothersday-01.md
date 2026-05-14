@@ -11,7 +11,6 @@ year: 2023
 month: 05
 day: 14
 weekday: Sunday
-gallery: "instagram-2023-05-14-090849-mothers-day-french-toast-happymothersday"
 source:
   type: instagram
   uri: "media/posts/202305/18005442160734523.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/05/14/090849-mothers-day-french-toast-happymothersday.html"
 index: 1
 ---
-
 

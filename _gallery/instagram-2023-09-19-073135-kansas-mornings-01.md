@@ -12,7 +12,6 @@ year: 2023
 month: 09
 day: 19
 weekday: Tuesday
-gallery: "instagram-2023-09-19-073135-kansas-mornings"
 source:
   type: instagram
   uri: "media/posts/202309/18385732921042220.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/09/19/073135-kansas-mornings.html"
 index: 1
 ---
-
 

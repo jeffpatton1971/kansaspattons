@@ -11,7 +11,6 @@ year: 2019
 month: 02
 day: 08
 weekday: Friday
-gallery: "instagram-2019-02-08-182947-everything-is-awesome-with-these-two-at-the-movies-legomovie2"
 source:
   type: instagram
   uri: "media/other/17865082339319535.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/02/08/182947-everything-is-awesome-with-these-two-at-the-movies-legomovie2.html"
 index: 1
 ---
-
 

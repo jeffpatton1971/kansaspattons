@@ -14,10 +14,17 @@ source:
   timestamp: 1686314820
   caption: "thanks for all the birthday wishes"
   media_count: 2
+cover_image: instagram-2023-06-09-074700-thanks-for-all-the-birthday-wishes-01
+images:
+  - id: instagram-2023-06-09-074700-thanks-for-all-the-birthday-wishes-01
+    caption:
+    alt:
+  - id: instagram-2023-06-09-074700-thanks-for-all-the-birthday-wishes-02
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2023-06-09-074700-thanks-for-all-the-birthday-wishes"
 tags:
   - "instagram"
 categories:
@@ -26,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "thanks for all the birthday wishes"
 ---
-
 thanks for all the birthday wishes
-
-{% include gallery.html gallery="instagram-2023-06-09-074700-thanks-for-all-the-birthday-wishes" %}
-

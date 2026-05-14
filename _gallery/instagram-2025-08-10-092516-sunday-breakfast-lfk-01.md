@@ -13,7 +13,6 @@ year: 2025
 month: 08
 day: 10
 weekday: Sunday
-gallery: "instagram-2025-08-10-092516-sunday-breakfast-lfk"
 source:
   type: instagram
   uri: "media/posts/202508/18096920764622674.jpg"
@@ -27,5 +26,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/08/10/092516-sunday-breakfast-lfk.html"
 index: 1
 ---
-
 

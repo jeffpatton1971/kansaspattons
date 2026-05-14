@@ -11,7 +11,6 @@ year: 2023
 month: 05
 day: 18
 weekday: Thursday
-gallery: "instagram-2023-05-18-160135-last-day-of-school-traditions"
 source:
   type: instagram
   uri: "media/posts/202305/17970315746373483.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/05/18/160135-last-day-of-school-traditions.html"
 index: 1
 ---
-
 

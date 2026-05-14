@@ -15,10 +15,14 @@ source:
   caption: "Clear skies makes for good pictures"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-01-19-225745-clear-skies-makes-for-good-pictures-01
+images:
+  - id: instagram-2021-01-19-225745-clear-skies-makes-for-good-pictures-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-01-19-225745-clear-skies-makes-for-good-pictures"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Clear skies makes for good pictures"
 ---
-
 Clear skies makes for good pictures
-
-{% include gallery.html gallery="instagram-2021-01-19-225745-clear-skies-makes-for-good-pictures" %}
-

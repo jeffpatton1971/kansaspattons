@@ -13,7 +13,6 @@ year: 2025
 month: 06
 day: 02
 weekday: Monday
-gallery: "instagram-2025-06-02-072935-newbeginings-goodmorning-lfk"
 source:
   type: instagram
   uri: "media/posts/202506/18357739225194424.jpg"
@@ -27,5 +26,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/06/02/072935-newbeginings-goodmorning-lfk.html"
 index: 1
 ---
-
 

@@ -12,7 +12,11 @@ source:
   type: wordpress
   id: 848
   url: "https://jeffspatton.wordpress.com/2010/08/28/august-28-2010/"
-gallery: "wordpress-2010-08-28-235300-august-28-2010"
+cover_image: "2010-08-28-20100828-scan0001-22"
+related:
+  - type: gallery
+    id: wordpress-2010-08-28-235300-august-28-2010
+    rel: photos
 categories:
   - "family"
   - "Nathan"
@@ -26,7 +30,6 @@ So here she is, I call the baby a she, Malia calls the baby a he, odds are she�
 
 The sonogram was on Malia’s birthday, and I must say this is one of the best presents ever!
 
-{% include gallery.html gallery="wordpress-2010-08-28-235300-august-28-2010" %}
 
 On Friday of this same week we had the official doctor’s visit. All the test came back normal and Malia and the baby are doing fine. In addition to that the doctor was able to find the baby and let us hear the heartbeat.
 

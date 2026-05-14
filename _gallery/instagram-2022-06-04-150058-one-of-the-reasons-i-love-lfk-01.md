@@ -11,7 +11,6 @@ year: 2022
 month: 06
 day: 04
 weekday: Saturday
-gallery: "instagram-2022-06-04-150058-one-of-the-reasons-i-love-lfk"
 source:
   type: instagram
   uri: "media/other/17942841593028644.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/06/04/150058-one-of-the-reasons-i-love-lfk.html"
 index: 1
 ---
-
 

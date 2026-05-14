@@ -15,11 +15,15 @@ source:
   caption: "It’s been a while since I’ve been to a KU football game @instajfug but when did they mic up the marching band...sounds weird"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-08-31-111358-it-s-been-a-while-since-i-ve-been-to-a-ku-football-game-instajfug-but-when-did-01
+images:
+  - id: instagram-2019-08-31-111358-it-s-been-a-while-since-i-ve-been-to-a-ku-football-game-instajfug-but-when-did-01
+    caption:
+    alt:
 hashtags: []
 handles:
   - "instajfug"
 location:
-gallery: "instagram-2019-08-31-111358-it-s-been-a-while-since-i-ve-been-to-a-ku-football-game-instajfug-but-when-did"
 tags:
   - "instagram"
 categories: []
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "It’s been a while since I’ve been to a KU football game @instajfug but when did they mic up the marching band...sounds weird"
 ---
-
 It’s been a while since I’ve been to a KU football game [@instajfug](https://www.instagram.com/instajfug/) but when did they mic up the marching band...sounds weird
-
-{% include gallery.html gallery="instagram-2019-08-31-111358-it-s-been-a-while-since-i-ve-been-to-a-ku-football-game-instajfug-but-when-did" %}
-

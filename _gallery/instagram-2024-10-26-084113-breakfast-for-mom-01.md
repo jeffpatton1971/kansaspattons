@@ -11,7 +11,6 @@ year: 2024
 month: 10
 day: 26
 weekday: Saturday
-gallery: "instagram-2024-10-26-084113-breakfast-for-mom"
 source:
   type: instagram
   uri: "media/posts/202410/18034594295259183.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/10/26/084113-breakfast-for-mom.html"
 index: 1
 ---
-
 

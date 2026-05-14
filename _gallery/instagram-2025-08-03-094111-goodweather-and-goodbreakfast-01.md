@@ -12,7 +12,6 @@ year: 2025
 month: 08
 day: 03
 weekday: Sunday
-gallery: "instagram-2025-08-03-094111-goodweather-and-goodbreakfast"
 source:
   type: instagram
   uri: "media/posts/202508/17892371583292474.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/08/03/094111-goodweather-and-goodbreakfast.html"
 index: 1
 ---
-
 

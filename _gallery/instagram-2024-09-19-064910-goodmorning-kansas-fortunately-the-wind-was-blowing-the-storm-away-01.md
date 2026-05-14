@@ -12,7 +12,6 @@ year: 2024
 month: 09
 day: 19
 weekday: Thursday
-gallery: "instagram-2024-09-19-064910-goodmorning-kansas-fortunately-the-wind-was-blowing-the-storm-away"
 source:
   type: instagram
   uri: "media/posts/202409/18044456644968280.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/09/19/064910-goodmorning-kansas-fortunately-the-wind-was-blowing-the-storm-away.html"
 index: 1
 ---
-
 

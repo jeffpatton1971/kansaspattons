@@ -10,7 +10,6 @@ year: 2019
 month: 08
 day: 27
 weekday: Tuesday
-gallery: "instagram-2019-08-27-200355-sunset-after-the-rain"
 source:
   type: instagram
   uri: "media/other/17869267699452036.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/08/27/200355-sunset-after-the-rain.html"
 index: 1
 ---
-
 

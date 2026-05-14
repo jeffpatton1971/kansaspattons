@@ -12,7 +12,6 @@ year: 2017
 month: 06
 day: 14
 weekday: Wednesday
-gallery: "instagram-2017-06-14-073119-current-mood-wfh-racker"
 source:
   type: instagram
   uri: "media/other/17872522849107422.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2017/06/14/073119-current-mood-wfh-racker.html"
 index: 1
 ---
-
 

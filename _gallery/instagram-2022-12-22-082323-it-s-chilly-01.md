@@ -10,7 +10,6 @@ year: 2022
 month: 12
 day: 22
 weekday: Thursday
-gallery: "instagram-2022-12-22-082323-it-s-chilly"
 source:
   type: instagram
   uri: "media/other/17948546966456060.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/12/22/082323-it-s-chilly.html"
 index: 1
 ---
-
 

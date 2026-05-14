@@ -15,12 +15,19 @@ source:
   caption: "#goodmorning #walkinglfk"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2025-06-17-060023-goodmorning-walkinglfk-01
+images:
+  - id: instagram-2025-06-17-060023-goodmorning-walkinglfk-01
+    caption:
+    alt:
+  - id: instagram-2025-06-17-060023-goodmorning-walkinglfk-02
+    caption:
+    alt:
 hashtags:
   - "goodmorning"
   - "walkinglfk"
 handles: []
 location:
-gallery: "instagram-2025-06-17-060023-goodmorning-walkinglfk"
 tags:
   - "goodmorning"
   - "walkinglfk"
@@ -30,8 +37,4 @@ authors:
   - "Jeff Patton"
 summary: "#goodmorning #walkinglfk"
 ---
-
 [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#walkinglfk](https://www.instagram.com/explore/tags/walkinglfk/)
-
-{% include gallery.html gallery="instagram-2025-06-17-060023-goodmorning-walkinglfk" %}
-

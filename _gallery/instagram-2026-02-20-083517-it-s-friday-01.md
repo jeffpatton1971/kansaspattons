@@ -10,7 +10,6 @@ year: 2026
 month: 02
 day: 20
 weekday: Friday
-gallery: "instagram-2026-02-20-083517-it-s-friday"
 source:
   type: instagram
   uri: "media/posts/202602/18104454715835749.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/02/20/083517-it-s-friday.html"
 index: 1
 ---
-
 

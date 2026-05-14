@@ -11,7 +11,6 @@ year: 2024
 month: 10
 day: 26
 weekday: Saturday
-gallery: "instagram-2024-10-26-175425-dinner-time-for-mom-grilling"
 source:
   type: instagram
   uri: "media/posts/202410/18038796059128888.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/10/26/175425-dinner-time-for-mom-grilling.html"
 index: 1
 ---
-
 

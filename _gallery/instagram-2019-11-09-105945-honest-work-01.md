@@ -10,7 +10,6 @@ year: 2019
 month: 11
 day: 09
 weekday: Saturday
-gallery: "instagram-2019-11-09-105945-honest-work"
 source:
   type: instagram
   uri: "media/other/18102867763078474.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/11/09/105945-honest-work.html"
 index: 1
 ---
-
 

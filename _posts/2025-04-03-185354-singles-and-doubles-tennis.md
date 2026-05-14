@@ -15,11 +15,15 @@ source:
   caption: "Singles and doubles #tennis"
   media_count: 7
   cross_post_source: "FB"
+cover_image: instagram-2025-04-03-185354-singles-and-doubles-tennis-01
+related:
+  - type: gallery
+    id: instagram-2025-04-03-185354-singles-and-doubles-tennis
+    rel: photos
 hashtags:
   - "tennis"
 handles: []
 location:
-gallery: "instagram-2025-04-03-185354-singles-and-doubles-tennis"
 tags:
   - "tennis"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Singles and doubles #tennis"
 ---
-
 Singles and doubles [#tennis](https://www.instagram.com/explore/tags/tennis/)
-
-{% include gallery.html gallery="instagram-2025-04-03-185354-singles-and-doubles-tennis" %}
-

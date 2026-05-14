@@ -10,7 +10,6 @@ year: 2020
 month: 04
 day: 04
 weekday: Saturday
-gallery: "instagram-2020-04-04-113706-my-daughter-and-i-doing-some-coloring-this-morning-thanks-for-the-coloring-book"
 source:
   type: instagram
   uri: "media/posts/202004/17847533255025085.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/04/04/113706-my-daughter-and-i-doing-some-coloring-this-morning-thanks-for-the-coloring-book.html"
 index: 2
 ---
-
 

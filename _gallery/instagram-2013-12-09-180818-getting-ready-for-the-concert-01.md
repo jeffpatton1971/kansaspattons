@@ -10,7 +10,6 @@ year: 2013
 month: 12
 day: 09
 weekday: Monday
-gallery: "instagram-2013-12-09-180818-getting-ready-for-the-concert"
 source:
   type: instagram
   uri: "media/other/17842411315063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2013/12/09/180818-getting-ready-for-the-concert.html"
 index: 1
 ---
-
 

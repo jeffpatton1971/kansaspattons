@@ -11,7 +11,6 @@ year: 2025
 month: 02
 day: 02
 weekday: Sunday
-gallery: "instagram-2025-02-02-093625-breakfast-the-most-important-meal-of-the-day"
 source:
   type: instagram
   uri: "media/posts/202502/17914511418062430.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/02/02/093625-breakfast-the-most-important-meal-of-the-day.html"
 index: 1
 ---
-
 

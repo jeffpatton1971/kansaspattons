@@ -10,7 +10,6 @@ year: 2019
 month: 12
 day: 01
 weekday: Sunday
-gallery: "instagram-2019-12-01-181812-before-and-after-christmas-decorations"
 source:
   type: instagram
   uri: "media/posts/201912/17847999604762074.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/12/01/181812-before-and-after-christmas-decorations.html"
 index: 2
 ---
-
 

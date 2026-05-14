@@ -15,10 +15,14 @@ source:
   caption: "Thanks to everyone for the birthday wishes!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-06-09-063421-thanks-to-everyone-for-the-birthday-wishes-01
+images:
+  - id: instagram-2019-06-09-063421-thanks-to-everyone-for-the-birthday-wishes-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-06-09-063421-thanks-to-everyone-for-the-birthday-wishes"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Thanks to everyone for the birthday wishes!"
 ---
-
 Thanks to everyone for the birthday wishes!
-
-{% include gallery.html gallery="instagram-2019-06-09-063421-thanks-to-everyone-for-the-birthday-wishes" %}
-

@@ -13,7 +13,6 @@ year: 2025
 month: 09
 day: 05
 weekday: Friday
-gallery: "instagram-2025-09-05-084246-goodmorning-breakfast-lfk-my-attempt-at-this-recipe-i-just-didn-t-have-any"
 source:
   type: instagram
   uri: "media/posts/202509/18398544532191675.jpg"
@@ -27,5 +26,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/09/05/084246-goodmorning-breakfast-lfk-my-attempt-at-this-recipe-i-just-didn-t-have-any.html"
 index: 1
 ---
-
 

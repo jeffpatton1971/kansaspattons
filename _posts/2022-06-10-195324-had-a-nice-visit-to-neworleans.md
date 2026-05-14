@@ -15,11 +15,15 @@ source:
   caption: "Had a nice visit to #neworleans"
   media_count: 10
   cross_post_source: "FB"
+cover_image: instagram-2022-06-10-195324-had-a-nice-visit-to-neworleans-01
+related:
+  - type: gallery
+    id: instagram-2022-06-10-195324-had-a-nice-visit-to-neworleans
+    rel: photos
 hashtags:
   - "neworleans"
 handles: []
 location:
-gallery: "instagram-2022-06-10-195324-had-a-nice-visit-to-neworleans"
 tags:
   - "neworleans"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Had a nice visit to #neworleans"
 ---
-
 Had a nice visit to [#neworleans](https://www.instagram.com/explore/tags/neworleans/)
-
-{% include gallery.html gallery="instagram-2022-06-10-195324-had-a-nice-visit-to-neworleans" %}
-

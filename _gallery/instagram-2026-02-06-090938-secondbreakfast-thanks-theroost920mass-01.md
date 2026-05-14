@@ -11,7 +11,6 @@ year: 2026
 month: 02
 day: 06
 weekday: Friday
-gallery: "instagram-2026-02-06-090938-secondbreakfast-thanks-theroost920mass"
 source:
   type: instagram
   uri: "media/posts/202602/18101211925885982.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/02/06/090938-secondbreakfast-thanks-theroost920mass.html"
 index: 1
 ---
-
 

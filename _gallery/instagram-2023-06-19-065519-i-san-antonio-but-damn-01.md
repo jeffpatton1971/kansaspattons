@@ -10,7 +10,6 @@ year: 2023
 month: 06
 day: 19
 weekday: Monday
-gallery: "instagram-2023-06-19-065519-i-san-antonio-but-damn"
 source:
   type: instagram
   uri: "media/posts/202306/17970695558420243.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/06/19/065519-i-san-antonio-but-damn.html"
 index: 1
 ---
-
 

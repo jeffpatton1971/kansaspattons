@@ -15,10 +15,14 @@ source:
   caption: "Day trip to Chicago"
   media_count: 8
   cross_post_source: "FB"
+cover_image: instagram-2019-06-14-182321-day-trip-to-chicago-01
+related:
+  - type: gallery
+    id: instagram-2019-06-14-182321-day-trip-to-chicago
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-06-14-182321-day-trip-to-chicago"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Day trip to Chicago"
 ---
-
 Day trip to Chicago
-
-{% include gallery.html gallery="instagram-2019-06-14-182321-day-trip-to-chicago" %}
-

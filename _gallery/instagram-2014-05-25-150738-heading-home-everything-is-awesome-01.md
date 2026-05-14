@@ -10,7 +10,6 @@ year: 2014
 month: 05
 day: 25
 weekday: Sunday
-gallery: "instagram-2014-05-25-150738-heading-home-everything-is-awesome"
 source:
   type: instagram
   uri: "media/other/17842502437063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/05/25/150738-heading-home-everything-is-awesome.html"
 index: 1
 ---
-
 

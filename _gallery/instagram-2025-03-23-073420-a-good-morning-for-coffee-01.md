@@ -11,7 +11,6 @@ year: 2025
 month: 03
 day: 23
 weekday: Sunday
-gallery: "instagram-2025-03-23-073420-a-good-morning-for-coffee"
 source:
   type: instagram
   uri: "media/posts/202503/18356459320180187.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/03/23/073420-a-good-morning-for-coffee.html"
 index: 1
 ---
-
 

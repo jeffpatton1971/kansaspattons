@@ -11,7 +11,6 @@ year: 2021
 month: 05
 day: 01
 weekday: Saturday
-gallery: "instagram-2021-05-01-093415-make-sure-you-get-your-calcium-today-squirrelsofinstagram"
 source:
   type: instagram
   uri: "media/other/17891347367017831.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/05/01/093415-make-sure-you-get-your-calcium-today-squirrelsofinstagram.html"
 index: 1
 ---
-
 

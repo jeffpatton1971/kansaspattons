@@ -12,7 +12,6 @@ year: 2025
 month: 02
 day: 24
 weekday: Monday
-gallery: "instagram-2025-02-24-063920-watching-the-kansas-sunrise"
 source:
   type: instagram
   uri: "media/posts/202502/18084137815612292.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/02/24/063920-watching-the-kansas-sunrise.html"
 index: 1
 ---
-
 

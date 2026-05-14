@@ -15,13 +15,23 @@ source:
   caption: "#kansas #sunflowers🌻 and #bumblebee"
   media_count: 3
   cross_post_source: "FB"
+cover_image: instagram-2023-08-27-083233-kansas-sunflowers-and-bumblebee-01
+images:
+  - id: instagram-2023-08-27-083233-kansas-sunflowers-and-bumblebee-01
+    caption:
+    alt:
+  - id: instagram-2023-08-27-083233-kansas-sunflowers-and-bumblebee-02
+    caption:
+    alt:
+  - id: instagram-2023-08-27-083233-kansas-sunflowers-and-bumblebee-03
+    caption:
+    alt:
 hashtags:
   - "kansas"
   - "sunflowers"
   - "bumblebee"
 handles: []
 location:
-gallery: "instagram-2023-08-27-083233-kansas-sunflowers-and-bumblebee"
 tags:
   - "kansas"
   - "sunflowers"
@@ -32,8 +42,4 @@ authors:
   - "Jeff Patton"
 summary: "#kansas #sunflowers🌻 and #bumblebee"
 ---
-
 [#kansas](https://www.instagram.com/explore/tags/kansas/) [#sunflowers](https://www.instagram.com/explore/tags/sunflowers/)🌻 and [#bumblebee](https://www.instagram.com/explore/tags/bumblebee/)
-
-{% include gallery.html gallery="instagram-2023-08-27-083233-kansas-sunflowers-and-bumblebee" %}
-

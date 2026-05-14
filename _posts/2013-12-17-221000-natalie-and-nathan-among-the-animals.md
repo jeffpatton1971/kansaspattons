@@ -15,10 +15,14 @@ source:
   caption: "Natalie and Nathan among the animals"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2013-12-17-221000-natalie-and-nathan-among-the-animals-01
+images:
+  - id: instagram-2013-12-17-221000-natalie-and-nathan-among-the-animals-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2013-12-17-221000-natalie-and-nathan-among-the-animals"
 tags:
   - "instagram"
 categories:
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Natalie and Nathan among the animals"
 ---
-
 Natalie and Nathan among the animals
-
-{% include gallery.html gallery="instagram-2013-12-17-221000-natalie-and-nathan-among-the-animals" %}
-

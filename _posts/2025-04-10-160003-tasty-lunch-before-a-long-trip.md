@@ -15,10 +15,14 @@ source:
   caption: "Tasty lunch before a long trip"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-04-10-160003-tasty-lunch-before-a-long-trip-01
+images:
+  - id: instagram-2025-04-10-160003-tasty-lunch-before-a-long-trip-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-04-10-160003-tasty-lunch-before-a-long-trip"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Tasty lunch before a long trip"
 ---
-
 Tasty lunch before a long trip
-
-{% include gallery.html gallery="instagram-2025-04-10-160003-tasty-lunch-before-a-long-trip" %}
-

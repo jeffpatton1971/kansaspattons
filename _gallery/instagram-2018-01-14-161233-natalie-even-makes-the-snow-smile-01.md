@@ -10,7 +10,6 @@ year: 2018
 month: 01
 day: 14
 weekday: Sunday
-gallery: "instagram-2018-01-14-161233-natalie-even-makes-the-snow-smile"
 source:
   type: instagram
   uri: "media/other/17890204045166410.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/01/14/161233-natalie-even-makes-the-snow-smile.html"
 index: 1
 ---
-
 

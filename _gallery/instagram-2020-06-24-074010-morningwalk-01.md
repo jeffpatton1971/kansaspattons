@@ -11,7 +11,6 @@ year: 2020
 month: 06
 day: 24
 weekday: Wednesday
-gallery: "instagram-2020-06-24-074010-morningwalk"
 source:
   type: instagram
   uri: "media/other/18058388623240245.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/06/24/074010-morningwalk.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2026
 month: 04
 day: 16
 weekday: Thursday
-gallery: "instagram-2026-04-16-194804-better-late-than-never"
 source:
   type: instagram
   uri: "media/posts/202604/18125308324595834.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/04/16/194804-better-late-than-never.html"
 index: 1
 ---
-
 

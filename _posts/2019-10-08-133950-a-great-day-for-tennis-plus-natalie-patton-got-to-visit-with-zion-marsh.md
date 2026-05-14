@@ -15,13 +15,17 @@ source:
   caption: "A great day for tennis plus @natalie__patton got to visit with @zion_marsh @ustamovalley"
   media_count: 5
   cross_post_source: "FB"
+cover_image: instagram-2019-10-08-133950-a-great-day-for-tennis-plus-natalie-patton-got-to-visit-with-zion-marsh-01
+related:
+  - type: gallery
+    id: instagram-2019-10-08-133950-a-great-day-for-tennis-plus-natalie-patton-got-to-visit-with-zion-marsh
+    rel: photos
 hashtags: []
 handles:
   - "natalie__patton"
   - "zion_marsh"
   - "ustamovalley"
 location:
-gallery: "instagram-2019-10-08-133950-a-great-day-for-tennis-plus-natalie-patton-got-to-visit-with-zion-marsh"
 tags:
   - "instagram"
 categories: []
@@ -29,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "A great day for tennis plus @natalie__patton got to visit with @zion_marsh @ustamovalley"
 ---
-
 A great day for tennis plus [@natalie__patton](https://www.instagram.com/natalie__patton/) got to visit with [@zion_marsh](https://www.instagram.com/zion_marsh/) [@ustamovalley](https://www.instagram.com/ustamovalley/)
-
-{% include gallery.html gallery="instagram-2019-10-08-133950-a-great-day-for-tennis-plus-natalie-patton-got-to-visit-with-zion-marsh" %}
-

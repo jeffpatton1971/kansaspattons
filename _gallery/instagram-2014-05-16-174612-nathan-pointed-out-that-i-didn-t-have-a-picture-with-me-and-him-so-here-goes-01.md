@@ -10,7 +10,6 @@ year: 2014
 month: 05
 day: 16
 weekday: Friday
-gallery: "instagram-2014-05-16-174612-nathan-pointed-out-that-i-didn-t-have-a-picture-with-me-and-him-so-here-goes"
 source:
   type: instagram
   uri: "media/other/17842496782063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/05/16/174612-nathan-pointed-out-that-i-didn-t-have-a-picture-with-me-and-him-so-here-goes.html"
 index: 1
 ---
-
 

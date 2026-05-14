@@ -10,7 +10,6 @@ year: 2019
 month: 12
 day: 15
 weekday: Sunday
-gallery: "instagram-2019-12-15-122501-just-a-little-over-3-in-the-first-round"
 source:
   type: instagram
   uri: "media/other/17849158153776828.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/12/15/122501-just-a-little-over-3-in-the-first-round.html"
 index: 1
 ---
-
 

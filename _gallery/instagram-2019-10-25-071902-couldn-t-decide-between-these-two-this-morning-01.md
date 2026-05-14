@@ -10,7 +10,6 @@ year: 2019
 month: 10
 day: 25
 weekday: Friday
-gallery: "instagram-2019-10-25-071902-couldn-t-decide-between-these-two-this-morning"
 source:
   type: instagram
   uri: "media/posts/201910/17856423535602066.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/10/25/071902-couldn-t-decide-between-these-two-this-morning.html"
 index: 1
 ---
-
 

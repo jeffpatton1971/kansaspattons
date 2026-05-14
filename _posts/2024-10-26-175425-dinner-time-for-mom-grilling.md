@@ -15,11 +15,15 @@ source:
   caption: "Dinner time for mom #grilling"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2024-10-26-175425-dinner-time-for-mom-grilling-01
+images:
+  - id: instagram-2024-10-26-175425-dinner-time-for-mom-grilling-01
+    caption:
+    alt:
 hashtags:
   - "grilling"
 handles: []
 location:
-gallery: "instagram-2024-10-26-175425-dinner-time-for-mom-grilling"
 tags:
   - "grilling"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Dinner time for mom #grilling"
 ---
-
 Dinner time for mom [#grilling](https://www.instagram.com/explore/tags/grilling/)
-
-{% include gallery.html gallery="instagram-2024-10-26-175425-dinner-time-for-mom-grilling" %}
-

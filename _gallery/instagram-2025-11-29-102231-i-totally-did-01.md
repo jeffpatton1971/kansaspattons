@@ -10,7 +10,6 @@ year: 2025
 month: 11
 day: 29
 weekday: Saturday
-gallery: "instagram-2025-11-29-102231-i-totally-did"
 source:
   type: instagram
   uri: "media/posts/202511/17957383817892203.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/11/29/102231-i-totally-did.html"
 index: 1
 ---
-
 

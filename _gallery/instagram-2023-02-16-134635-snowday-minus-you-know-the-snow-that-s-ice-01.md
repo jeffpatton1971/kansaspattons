@@ -11,7 +11,6 @@ year: 2023
 month: 02
 day: 16
 weekday: Thursday
-gallery: "instagram-2023-02-16-134635-snowday-minus-you-know-the-snow-that-s-ice"
 source:
   type: instagram
   uri: "media/other/17982278500929864.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/02/16/134635-snowday-minus-you-know-the-snow-that-s-ice.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2018
 month: 02
 day: 28
 weekday: Wednesday
-gallery: "instagram-2018-02-28-183416-field-trip"
 source:
   type: instagram
   uri: "media/posts/201802/17849811706246880.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/02/28/183416-field-trip.html"
 index: 2
 ---
-
 

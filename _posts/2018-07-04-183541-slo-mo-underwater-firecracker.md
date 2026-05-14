@@ -15,10 +15,14 @@ source:
   caption: "Slo-mo underwater firecracker"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-07-04-183541-slo-mo-underwater-firecracker-01
+images:
+  - id: instagram-2018-07-04-183541-slo-mo-underwater-firecracker-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-07-04-183541-slo-mo-underwater-firecracker"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Slo-mo underwater firecracker"
 ---
-
 Slo-mo underwater firecracker
-
-{% include gallery.html gallery="instagram-2018-07-04-183541-slo-mo-underwater-firecracker" %}
-

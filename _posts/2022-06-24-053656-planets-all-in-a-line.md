@@ -15,10 +15,14 @@ source:
   caption: "Planets all in a line"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2022-06-24-053656-planets-all-in-a-line-01
+images:
+  - id: instagram-2022-06-24-053656-planets-all-in-a-line-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2022-06-24-053656-planets-all-in-a-line"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Planets all in a line"
 ---
-
 Planets all in a line
-
-{% include gallery.html gallery="instagram-2022-06-24-053656-planets-all-in-a-line" %}
-

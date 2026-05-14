@@ -12,7 +12,6 @@ year: 2025
 month: 08
 day: 14
 weekday: Thursday
-gallery: "instagram-2025-08-14-083410-peaceful-breakfast"
 source:
   type: instagram
   uri: "media/posts/202508/17885474994219749.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/08/14/083410-peaceful-breakfast.html"
 index: 1
 ---
-
 

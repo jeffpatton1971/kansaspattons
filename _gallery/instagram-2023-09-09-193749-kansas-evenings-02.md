@@ -12,7 +12,6 @@ year: 2023
 month: 09
 day: 09
 weekday: Saturday
-gallery: "instagram-2023-09-09-193749-kansas-evenings"
 source:
   type: instagram
   uri: "media/posts/202309/18000241961039378.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/09/09/193749-kansas-evenings.html"
 index: 2
 ---
-
 

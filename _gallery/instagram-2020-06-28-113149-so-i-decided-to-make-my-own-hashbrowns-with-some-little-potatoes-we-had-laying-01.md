@@ -10,7 +10,6 @@ year: 2020
 month: 06
 day: 28
 weekday: Sunday
-gallery: "instagram-2020-06-28-113149-so-i-decided-to-make-my-own-hashbrowns-with-some-little-potatoes-we-had-laying"
 source:
   type: instagram
   uri: "media/other/18116154463124580.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/06/28/113149-so-i-decided-to-make-my-own-hashbrowns-with-some-little-potatoes-we-had-laying.html"
 index: 1
 ---
-
 

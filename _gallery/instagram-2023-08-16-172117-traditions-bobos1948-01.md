@@ -10,7 +10,6 @@ year: 2023
 month: 08
 day: 16
 weekday: Wednesday
-gallery: "instagram-2023-08-16-172117-traditions-bobos1948"
 source:
   type: instagram
   uri: "media/posts/202308/18091715044360116.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/08/16/172117-traditions-bobos1948.html"
 index: 1
 ---
-
 

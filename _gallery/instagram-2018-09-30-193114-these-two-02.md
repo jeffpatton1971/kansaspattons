@@ -10,7 +10,6 @@ year: 2018
 month: 09
 day: 30
 weekday: Sunday
-gallery: "instagram-2018-09-30-193114-these-two"
 source:
   type: instagram
   uri: "media/posts/201809/17908062304246016.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/09/30/193114-these-two.html"
 index: 2
 ---
-
 

@@ -10,7 +10,6 @@ year: 2018
 month: 07
 day: 04
 weekday: Wednesday
-gallery: "instagram-2018-07-04-183538-moar-fireworks"
 source:
   type: instagram
   uri: "media/other/17898223507201900.mp4"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/07/04/183538-moar-fireworks.html"
 index: 1
 ---
-
 

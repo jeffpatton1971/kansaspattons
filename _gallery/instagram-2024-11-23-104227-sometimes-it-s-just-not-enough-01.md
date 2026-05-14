@@ -10,7 +10,6 @@ year: 2024
 month: 11
 day: 23
 weekday: Saturday
-gallery: "instagram-2024-11-23-104227-sometimes-it-s-just-not-enough"
 source:
   type: instagram
   uri: "media/posts/202411/18058423231713570.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/11/23/104227-sometimes-it-s-just-not-enough.html"
 index: 1
 ---
-
 

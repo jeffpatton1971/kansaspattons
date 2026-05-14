@@ -15,10 +15,17 @@ source:
   caption: "This little boy turned 10 today"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2021-03-19-143632-this-little-boy-turned-10-today-01
+images:
+  - id: instagram-2021-03-19-143632-this-little-boy-turned-10-today-01
+    caption:
+    alt:
+  - id: instagram-2021-03-19-143632-this-little-boy-turned-10-today-02
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-03-19-143632-this-little-boy-turned-10-today"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "This little boy turned 10 today"
 ---
-
 This little boy turned 10 today
-
-{% include gallery.html gallery="instagram-2021-03-19-143632-this-little-boy-turned-10-today" %}
-

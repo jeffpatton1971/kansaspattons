@@ -10,7 +10,6 @@ year: 2023
 month: 03
 day: 04
 weekday: Saturday
-gallery: "instagram-2023-03-04-221447-a-little-cloudy-but-there-is-orion"
 source:
   type: instagram
   uri: "media/other/17988890725878834.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/03/04/221447-a-little-cloudy-but-there-is-orion.html"
 index: 1
 ---
-
 

@@ -15,11 +15,15 @@ source:
   caption: "#breakfast for mom"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2024-10-26-084113-breakfast-for-mom-01
+images:
+  - id: instagram-2024-10-26-084113-breakfast-for-mom-01
+    caption:
+    alt:
 hashtags:
   - "breakfast"
 handles: []
 location:
-gallery: "instagram-2024-10-26-084113-breakfast-for-mom"
 tags:
   - "breakfast"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "#breakfast for mom"
 ---
-
 [#breakfast](https://www.instagram.com/explore/tags/breakfast/) for mom
-
-{% include gallery.html gallery="instagram-2024-10-26-084113-breakfast-for-mom" %}
-

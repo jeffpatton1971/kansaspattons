@@ -11,7 +11,6 @@ year: 2021
 month: 11
 day: 26
 weekday: Friday
-gallery: "instagram-2021-11-26-124131-modified-friends-moistmaker-we-had-no-leftover-cranberry-sauce-and-very-little"
 source:
   type: instagram
   uri: "media/other/18011740195360784.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/11/26/124131-modified-friends-moistmaker-we-had-no-leftover-cranberry-sauce-and-very-little.html"
 index: 1
 ---
-
 

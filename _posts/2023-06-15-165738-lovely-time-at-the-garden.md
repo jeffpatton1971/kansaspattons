@@ -15,10 +15,14 @@ source:
   caption: "lovely time at the garden"
   media_count: 9
   cross_post_source: "FB"
+cover_image: instagram-2023-06-15-165738-lovely-time-at-the-garden-01
+related:
+  - type: gallery
+    id: instagram-2023-06-15-165738-lovely-time-at-the-garden
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2023-06-15-165738-lovely-time-at-the-garden"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "lovely time at the garden"
 ---
-
 lovely time at the garden
-
-{% include gallery.html gallery="instagram-2023-06-15-165738-lovely-time-at-the-garden" %}
-

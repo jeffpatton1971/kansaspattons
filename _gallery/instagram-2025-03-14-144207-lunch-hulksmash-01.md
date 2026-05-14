@@ -12,7 +12,6 @@ year: 2025
 month: 03
 day: 14
 weekday: Friday
-gallery: "instagram-2025-03-14-144207-lunch-hulksmash"
 source:
   type: instagram
   uri: "media/posts/202503/18061412651045582.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/03/14/144207-lunch-hulksmash.html"
 index: 1
 ---
-
 

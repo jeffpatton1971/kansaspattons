@@ -15,10 +15,14 @@ source:
   caption: "Just having a little fun at the zoo today!"
   media_count: 10
   cross_post_source: "FB"
+cover_image: instagram-2018-09-30-142452-just-having-a-little-fun-at-the-zoo-today-01
+related:
+  - type: gallery
+    id: instagram-2018-09-30-142452-just-having-a-little-fun-at-the-zoo-today
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-09-30-142452-just-having-a-little-fun-at-the-zoo-today"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Just having a little fun at the zoo today!"
 ---
-
 Just having a little fun at the zoo today!
-
-{% include gallery.html gallery="instagram-2018-09-30-142452-just-having-a-little-fun-at-the-zoo-today" %}
-

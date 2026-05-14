@@ -10,7 +10,6 @@ year: 2019
 month: 08
 day: 05
 weekday: Monday
-gallery: "instagram-2019-08-05-071220-morning-stroll"
 source:
   type: instagram
   uri: "media/other/17893644892367652.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/08/05/071220-morning-stroll.html"
 index: 1
 ---
-
 

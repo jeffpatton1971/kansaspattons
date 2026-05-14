@@ -15,10 +15,14 @@ source:
   caption: "Round 3 dinners aboard ship were always fun"
   media_count: 10
   cross_post_source: "FB"
+cover_image: instagram-2024-06-25-195027-round-3-dinners-aboard-ship-were-always-fun-01
+related:
+  - type: gallery
+    id: instagram-2024-06-25-195027-round-3-dinners-aboard-ship-were-always-fun
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2024-06-25-195027-round-3-dinners-aboard-ship-were-always-fun"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Round 3 dinners aboard ship were always fun"
 ---
-
 Round 3 dinners aboard ship were always fun
-
-{% include gallery.html gallery="instagram-2024-06-25-195027-round-3-dinners-aboard-ship-were-always-fun" %}
-

@@ -11,7 +11,6 @@ year: 2019
 month: 08
 day: 31
 weekday: Saturday
-gallery: "instagram-2019-08-31-074934-taking-my-nephew-for-a-little-kufootball-today-first-day-new-coach-winning"
 source:
   type: instagram
   uri: "media/other/18098726512016368.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/08/31/074934-taking-my-nephew-for-a-little-kufootball-today-first-day-new-coach-winning.html"
 index: 1
 ---
-
 

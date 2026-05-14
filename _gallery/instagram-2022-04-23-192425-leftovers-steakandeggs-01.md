@@ -12,7 +12,6 @@ year: 2022
 month: 04
 day: 23
 weekday: Saturday
-gallery: "instagram-2022-04-23-192425-leftovers-steakandeggs"
 source:
   type: instagram
   uri: "media/other/17951907889728921.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/04/23/192425-leftovers-steakandeggs.html"
 index: 1
 ---
-
 

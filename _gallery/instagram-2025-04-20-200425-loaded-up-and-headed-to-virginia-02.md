@@ -10,7 +10,6 @@ year: 2025
 month: 04
 day: 20
 weekday: Sunday
-gallery: "instagram-2025-04-20-200425-loaded-up-and-headed-to-virginia"
 source:
   type: instagram
   uri: "media/posts/202504/18052569302218216.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/04/20/200425-loaded-up-and-headed-to-virginia.html"
 index: 2
 ---
-
 

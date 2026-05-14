@@ -11,7 +11,6 @@ year: 2025
 month: 03
 day: 02
 weekday: Sunday
-gallery: "instagram-2025-03-02-101813-breakfast"
 source:
   type: instagram
   uri: "media/posts/202503/18062936947941360.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/03/02/101813-breakfast.html"
 index: 1
 ---
-
 

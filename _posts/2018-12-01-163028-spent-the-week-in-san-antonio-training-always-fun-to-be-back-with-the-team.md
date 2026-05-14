@@ -15,10 +15,14 @@ source:
   caption: "Spent the week in San Antonio training, always fun to be back with the team!"
   media_count: 9
   cross_post_source: "FB"
+cover_image: instagram-2018-12-01-163028-spent-the-week-in-san-antonio-training-always-fun-to-be-back-with-the-team-01
+related:
+  - type: gallery
+    id: instagram-2018-12-01-163028-spent-the-week-in-san-antonio-training-always-fun-to-be-back-with-the-team
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-12-01-163028-spent-the-week-in-san-antonio-training-always-fun-to-be-back-with-the-team"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Spent the week in San Antonio training, always fun to be back with the team!"
 ---
-
 Spent the week in San Antonio training, always fun to be back with the team!
-
-{% include gallery.html gallery="instagram-2018-12-01-163028-spent-the-week-in-san-antonio-training-always-fun-to-be-back-with-the-team" %}
-

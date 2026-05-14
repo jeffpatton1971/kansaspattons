@@ -15,10 +15,14 @@ source:
   caption: "Had a fun and educational visit"
   media_count: 7
   cross_post_source: "FB"
+cover_image: instagram-2022-05-07-161020-had-a-fun-and-educational-visit-01
+related:
+  - type: gallery
+    id: instagram-2022-05-07-161020-had-a-fun-and-educational-visit
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2022-05-07-161020-had-a-fun-and-educational-visit"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Had a fun and educational visit"
 ---
-
 Had a fun and educational visit
-
-{% include gallery.html gallery="instagram-2022-05-07-161020-had-a-fun-and-educational-visit" %}
-

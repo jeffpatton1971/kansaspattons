@@ -15,10 +15,14 @@ source:
   caption: "It's a hard knock life!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2015-02-24-072904-it-s-a-hard-knock-life-01
+images:
+  - id: instagram-2015-02-24-072904-it-s-a-hard-knock-life-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2015-02-24-072904-it-s-a-hard-knock-life"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "It's a hard knock life!"
 ---
-
 It's a hard knock life!
-
-{% include gallery.html gallery="instagram-2015-02-24-072904-it-s-a-hard-knock-life" %}
-

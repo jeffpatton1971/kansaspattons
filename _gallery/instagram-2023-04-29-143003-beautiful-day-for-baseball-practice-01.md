@@ -11,7 +11,6 @@ year: 2023
 month: 04
 day: 29
 weekday: Saturday
-gallery: "instagram-2023-04-29-143003-beautiful-day-for-baseball-practice"
 source:
   type: instagram
   uri: "media/posts/202304/17843156348987459.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/04/29/143003-beautiful-day-for-baseball-practice.html"
 index: 1
 ---
-
 

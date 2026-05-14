@@ -15,10 +15,14 @@ source:
   caption: "Just a little Pokémon hunting with my favorite trainers"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-08-01-192347-just-a-little-pok-mon-hunting-with-my-favorite-trainers-01
+images:
+  - id: instagram-2018-08-01-192347-just-a-little-pok-mon-hunting-with-my-favorite-trainers-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-08-01-192347-just-a-little-pok-mon-hunting-with-my-favorite-trainers"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Just a little Pokémon hunting with my favorite trainers"
 ---
-
 Just a little Pokémon hunting with my favorite trainers
-
-{% include gallery.html gallery="instagram-2018-08-01-192347-just-a-little-pok-mon-hunting-with-my-favorite-trainers" %}
-

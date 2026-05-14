@@ -10,7 +10,6 @@ year: 2026
 month: 02
 day: 13
 weekday: Friday
-gallery: "instagram-2026-02-13-145037-happy-not-valentine-s-day"
 source:
   type: instagram
   uri: "media/posts/202602/17976436988994320.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/02/13/145037-happy-not-valentine-s-day.html"
 index: 2
 ---
-
 

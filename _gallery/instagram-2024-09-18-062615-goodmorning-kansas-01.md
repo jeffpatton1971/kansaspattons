@@ -12,7 +12,6 @@ year: 2024
 month: 09
 day: 18
 weekday: Wednesday
-gallery: "instagram-2024-09-18-062615-goodmorning-kansas"
 source:
   type: instagram
   uri: "media/posts/202409/18036438902155388.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/09/18/062615-goodmorning-kansas.html"
 index: 1
 ---
-
 

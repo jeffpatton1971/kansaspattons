@@ -15,11 +15,21 @@ source:
   caption: "#happythanksgivng"
   media_count: 3
   cross_post_source: "FB"
+cover_image: instagram-2025-11-27-181505-happythanksgivng-01
+images:
+  - id: instagram-2025-11-27-181505-happythanksgivng-01
+    caption:
+    alt:
+  - id: instagram-2025-11-27-181505-happythanksgivng-02
+    caption:
+    alt:
+  - id: instagram-2025-11-27-181505-happythanksgivng-03
+    caption:
+    alt:
 hashtags:
   - "happythanksgivng"
 handles: []
 location:
-gallery: "instagram-2025-11-27-181505-happythanksgivng"
 tags:
   - "happythanksgivng"
   - "instagram"
@@ -28,8 +38,4 @@ authors:
   - "Jeff Patton"
 summary: "#happythanksgivng"
 ---
-
 [#happythanksgivng](https://www.instagram.com/explore/tags/happythanksgivng/)
-
-{% include gallery.html gallery="instagram-2025-11-27-181505-happythanksgivng" %}
-

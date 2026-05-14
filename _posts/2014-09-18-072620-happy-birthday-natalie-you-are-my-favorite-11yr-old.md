@@ -15,10 +15,14 @@ source:
   caption: "Happy Birthday Natalie! You are my favorite 11yr old"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-09-18-072620-happy-birthday-natalie-you-are-my-favorite-11yr-old-01
+images:
+  - id: instagram-2014-09-18-072620-happy-birthday-natalie-you-are-my-favorite-11yr-old-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2014-09-18-072620-happy-birthday-natalie-you-are-my-favorite-11yr-old"
 tags:
   - "instagram"
 categories:
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Happy Birthday Natalie! You are my favorite 11yr old"
 ---
-
 Happy Birthday Natalie! You are my favorite 11yr old
-
-{% include gallery.html gallery="instagram-2014-09-18-072620-happy-birthday-natalie-you-are-my-favorite-11yr-old" %}
-

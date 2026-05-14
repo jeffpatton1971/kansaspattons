@@ -15,10 +15,14 @@ source:
   caption: "Had a wonderful time with TFD tonight"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-09-13-192306-had-a-wonderful-time-with-tfd-tonight-01
+images:
+  - id: instagram-2014-09-13-192306-had-a-wonderful-time-with-tfd-tonight-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2014-09-13-192306-had-a-wonderful-time-with-tfd-tonight"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Had a wonderful time with TFD tonight"
 ---
-
 Had a wonderful time with TFD tonight
-
-{% include gallery.html gallery="instagram-2014-09-13-192306-had-a-wonderful-time-with-tfd-tonight" %}
-

@@ -10,7 +10,6 @@ year: 2019
 month: 10
 day: 18
 weekday: Friday
-gallery: "instagram-2019-10-18-184026-friday-night-football"
 source:
   type: instagram
   uri: "media/other/17906378209372592.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/10/18/184026-friday-night-football.html"
 index: 1
 ---
-
 

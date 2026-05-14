@@ -15,11 +15,21 @@ source:
   caption: "we @eaticecreamforbreakfast today for Nathan who has been cancer-free for 9 years!"
   media_count: 3
   cross_post_source: "FB"
+cover_image: instagram-2023-02-18-092352-we-eaticecreamforbreakfast-today-for-nathan-who-has-been-cancer-free-for-9-years-01
+images:
+  - id: instagram-2023-02-18-092352-we-eaticecreamforbreakfast-today-for-nathan-who-has-been-cancer-free-for-9-years-01
+    caption:
+    alt:
+  - id: instagram-2023-02-18-092352-we-eaticecreamforbreakfast-today-for-nathan-who-has-been-cancer-free-for-9-years-02
+    caption:
+    alt:
+  - id: instagram-2023-02-18-092352-we-eaticecreamforbreakfast-today-for-nathan-who-has-been-cancer-free-for-9-years-03
+    caption:
+    alt:
 hashtags: []
 handles:
   - "eaticecreamforbreakfast"
 location:
-gallery: "instagram-2023-02-18-092352-we-eaticecreamforbreakfast-today-for-nathan-who-has-been-cancer-free-for-9-years"
 tags:
   - "instagram"
 categories:
@@ -29,8 +39,4 @@ authors:
   - "Jeff Patton"
 summary: "we @eaticecreamforbreakfast today for Nathan who has been cancer-free for 9 years!"
 ---
-
 we [@eaticecreamforbreakfast](https://www.instagram.com/eaticecreamforbreakfast/) today for Nathan who has been cancer-free for 9 years!
-
-{% include gallery.html gallery="instagram-2023-02-18-092352-we-eaticecreamforbreakfast-today-for-nathan-who-has-been-cancer-free-for-9-years" %}
-

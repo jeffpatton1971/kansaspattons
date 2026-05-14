@@ -15,10 +15,14 @@ source:
   caption: "Just arrived...waiting for the bus and watching it snow"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2019-04-29-181125-just-arrived-waiting-for-the-bus-and-watching-it-snow-01
+related:
+  - type: gallery
+    id: instagram-2019-04-29-181125-just-arrived-waiting-for-the-bus-and-watching-it-snow
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-04-29-181125-just-arrived-waiting-for-the-bus-and-watching-it-snow"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Just arrived...waiting for the bus and watching it snow"
 ---
-
 Just arrived...waiting for the bus and watching it snow
-
-{% include gallery.html gallery="instagram-2019-04-29-181125-just-arrived-waiting-for-the-bus-and-watching-it-snow" %}
-

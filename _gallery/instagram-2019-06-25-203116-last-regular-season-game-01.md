@@ -10,7 +10,6 @@ year: 2019
 month: 06
 day: 25
 weekday: Tuesday
-gallery: "instagram-2019-06-25-203116-last-regular-season-game"
 source:
   type: instagram
   uri: "media/other/18050743276094877.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/06/25/203116-last-regular-season-game.html"
 index: 1
 ---
-
 

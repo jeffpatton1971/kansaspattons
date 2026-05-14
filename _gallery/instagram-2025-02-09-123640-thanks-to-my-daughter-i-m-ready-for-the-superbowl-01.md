@@ -11,7 +11,6 @@ year: 2025
 month: 02
 day: 09
 weekday: Sunday
-gallery: "instagram-2025-02-09-123640-thanks-to-my-daughter-i-m-ready-for-the-superbowl"
 source:
   type: instagram
   uri: "media/posts/202502/18314398957207488.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/02/09/123640-thanks-to-my-daughter-i-m-ready-for-the-superbowl.html"
 index: 1
 ---
-
 

@@ -15,10 +15,14 @@ source:
   caption: "Sometimes you’re Tom Sawyer and sometimes you’re Huck Finn"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2023-04-08-140411-sometimes-you-re-tom-sawyer-and-sometimes-you-re-huck-finn-01
+images:
+  - id: instagram-2023-04-08-140411-sometimes-you-re-tom-sawyer-and-sometimes-you-re-huck-finn-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2023-04-08-140411-sometimes-you-re-tom-sawyer-and-sometimes-you-re-huck-finn"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Sometimes you’re Tom Sawyer and sometimes you’re Huck Finn"
 ---
-
 Sometimes you’re Tom Sawyer and sometimes you’re Huck Finn
-
-{% include gallery.html gallery="instagram-2023-04-08-140411-sometimes-you-re-tom-sawyer-and-sometimes-you-re-huck-finn" %}
-

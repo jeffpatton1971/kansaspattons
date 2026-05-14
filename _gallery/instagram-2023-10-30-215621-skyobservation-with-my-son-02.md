@@ -11,7 +11,6 @@ year: 2023
 month: 10
 day: 30
 weekday: Monday
-gallery: "instagram-2023-10-30-215621-skyobservation-with-my-son"
 source:
   type: instagram
   uri: "media/posts/202310/18005696353902652.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/10/30/215621-skyobservation-with-my-son.html"
 index: 2
 ---
-
 

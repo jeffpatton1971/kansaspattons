@@ -15,10 +15,14 @@ source:
   caption: "Oops! Forgot to post this pic from my walk... the clouds and moon looked cool"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-10-23-183245-oops-forgot-to-post-this-pic-from-my-walk-the-clouds-and-moon-looked-cool-01
+images:
+  - id: instagram-2019-10-23-183245-oops-forgot-to-post-this-pic-from-my-walk-the-clouds-and-moon-looked-cool-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-10-23-183245-oops-forgot-to-post-this-pic-from-my-walk-the-clouds-and-moon-looked-cool"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Oops! Forgot to post this pic from my walk... the clouds and moon looked cool"
 ---
-
 Oops! Forgot to post this pic from my walk... the clouds and moon looked cool
-
-{% include gallery.html gallery="instagram-2019-10-23-183245-oops-forgot-to-post-this-pic-from-my-walk-the-clouds-and-moon-looked-cool" %}
-

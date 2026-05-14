@@ -15,11 +15,15 @@ source:
   caption: "Went white water rafting with Natalie. 10 our of 10 would recommend @raft_masters and 10 out of 10 would recommend staying IN THE BOAT! It’s a lot more fun that way…. Thanks for pulling me back in every time😂😂"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2022-04-25-173840-went-white-water-rafting-with-natalie-10-our-of-10-would-recommend-raft-masters-01
+images:
+  - id: instagram-2022-04-25-173840-went-white-water-rafting-with-natalie-10-our-of-10-would-recommend-raft-masters-01
+    caption:
+    alt:
 hashtags: []
 handles:
   - "raft_masters"
 location:
-gallery: "instagram-2022-04-25-173840-went-white-water-rafting-with-natalie-10-our-of-10-would-recommend-raft-masters"
 tags:
   - "instagram"
 categories:
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Went white water rafting with Natalie. 10 our of 10 would recommend @raft_masters and 10 out of 10 would recommend staying IN THE BOAT! It’s a lot more fun that way…. Thanks for pulling me back in every time😂😂"
 ---
-
 Went white water rafting with Natalie. 10 our of 10 would recommend [@raft_masters](https://www.instagram.com/raft_masters/) and 10 out of 10 would recommend staying IN THE BOAT! It’s a lot more fun that way…. Thanks for pulling me back in every time😂😂
-
-{% include gallery.html gallery="instagram-2022-04-25-173840-went-white-water-rafting-with-natalie-10-our-of-10-would-recommend-raft-masters" %}
-

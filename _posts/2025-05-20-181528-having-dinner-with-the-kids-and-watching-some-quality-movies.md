@@ -15,10 +15,14 @@ source:
   caption: "Having dinner with the kids and watching some quality movies"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-05-20-181528-having-dinner-with-the-kids-and-watching-some-quality-movies-01
+images:
+  - id: instagram-2025-05-20-181528-having-dinner-with-the-kids-and-watching-some-quality-movies-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-05-20-181528-having-dinner-with-the-kids-and-watching-some-quality-movies"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Having dinner with the kids and watching some quality movies"
 ---
-
 Having dinner with the kids and watching some quality movies
-
-{% include gallery.html gallery="instagram-2025-05-20-181528-having-dinner-with-the-kids-and-watching-some-quality-movies" %}
-

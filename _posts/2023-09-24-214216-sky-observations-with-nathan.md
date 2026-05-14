@@ -15,10 +15,14 @@ source:
   caption: "Sky Observations with Nathan"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2023-09-24-214216-sky-observations-with-nathan-01
+images:
+  - id: instagram-2023-09-24-214216-sky-observations-with-nathan-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2023-09-24-214216-sky-observations-with-nathan"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Sky Observations with Nathan"
 ---
-
 Sky Observations with Nathan
-
-{% include gallery.html gallery="instagram-2023-09-24-214216-sky-observations-with-nathan" %}
-

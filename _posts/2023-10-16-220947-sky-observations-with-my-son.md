@@ -15,10 +15,14 @@ source:
   caption: "Sky Observations with my son"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2023-10-16-220947-sky-observations-with-my-son-01
+images:
+  - id: instagram-2023-10-16-220947-sky-observations-with-my-son-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2023-10-16-220947-sky-observations-with-my-son"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Sky Observations with my son"
 ---
-
 Sky Observations with my son
-
-{% include gallery.html gallery="instagram-2023-10-16-220947-sky-observations-with-my-son" %}
-

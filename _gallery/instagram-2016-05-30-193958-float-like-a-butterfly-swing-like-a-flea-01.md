@@ -10,7 +10,6 @@ year: 2016
 month: 05
 day: 30
 weekday: Monday
-gallery: "instagram-2016-05-30-193958-float-like-a-butterfly-swing-like-a-flea"
 source:
   type: instagram
   uri: "media/other/17857324636021561.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2016/05/30/193958-float-like-a-butterfly-swing-like-a-flea.html"
 index: 1
 ---
-
 

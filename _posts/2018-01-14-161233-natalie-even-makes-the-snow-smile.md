@@ -15,10 +15,14 @@ source:
   caption: "Natalie even makes the snow smile!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-01-14-161233-natalie-even-makes-the-snow-smile-01
+images:
+  - id: instagram-2018-01-14-161233-natalie-even-makes-the-snow-smile-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-01-14-161233-natalie-even-makes-the-snow-smile"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Natalie even makes the snow smile!"
 ---
-
 Natalie even makes the snow smile!
-
-{% include gallery.html gallery="instagram-2018-01-14-161233-natalie-even-makes-the-snow-smile" %}
-

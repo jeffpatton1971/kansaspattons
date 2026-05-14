@@ -10,7 +10,6 @@ year: 2014
 month: 09
 day: 06
 weekday: Saturday
-gallery: "instagram-2014-09-06-132455-two-peas-in-a-hot-tub"
 source:
   type: instagram
   uri: "media/other/17841813139063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/09/06/132455-two-peas-in-a-hot-tub.html"
 index: 1
 ---
-
 

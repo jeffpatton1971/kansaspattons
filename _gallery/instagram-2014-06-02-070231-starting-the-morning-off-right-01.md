@@ -10,7 +10,6 @@ year: 2014
 month: 06
 day: 02
 weekday: Monday
-gallery: "instagram-2014-06-02-070231-starting-the-morning-off-right"
 source:
   type: instagram
   uri: "media/other/17842507027063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/06/02/070231-starting-the-morning-off-right.html"
 index: 1
 ---
-
 

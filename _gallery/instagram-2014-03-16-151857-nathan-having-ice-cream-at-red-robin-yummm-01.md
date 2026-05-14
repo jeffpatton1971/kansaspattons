@@ -10,7 +10,6 @@ year: 2014
 month: 03
 day: 16
 weekday: Sunday
-gallery: "instagram-2014-03-16-151857-nathan-having-ice-cream-at-red-robin-yummm"
 source:
   type: instagram
   uri: "media/other/17842461088063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/03/16/151857-nathan-having-ice-cream-at-red-robin-yummm.html"
 index: 1
 ---
-
 

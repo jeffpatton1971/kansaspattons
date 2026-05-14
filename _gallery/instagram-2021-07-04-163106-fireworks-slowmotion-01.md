@@ -12,7 +12,6 @@ year: 2021
 month: 07
 day: 04
 weekday: Sunday
-gallery: "instagram-2021-07-04-163106-fireworks-slowmotion"
 source:
   type: instagram
   uri: "media/other/17897062610057242.mp4"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/07/04/163106-fireworks-slowmotion.html"
 index: 1
 ---
-
 

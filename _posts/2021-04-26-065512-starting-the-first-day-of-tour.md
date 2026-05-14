@@ -15,10 +15,14 @@ source:
   caption: "Starting the first day of tour"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-04-26-065512-starting-the-first-day-of-tour-01
+images:
+  - id: instagram-2021-04-26-065512-starting-the-first-day-of-tour-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-04-26-065512-starting-the-first-day-of-tour"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Starting the first day of tour"
 ---
-
 Starting the first day of tour
-
-{% include gallery.html gallery="instagram-2021-04-26-065512-starting-the-first-day-of-tour" %}
-

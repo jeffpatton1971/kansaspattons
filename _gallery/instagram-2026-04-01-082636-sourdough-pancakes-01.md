@@ -10,7 +10,6 @@ year: 2026
 month: 04
 day: 01
 weekday: Wednesday
-gallery: "instagram-2026-04-01-082636-sourdough-pancakes"
 source:
   type: instagram
   uri: "media/posts/202604/17873769177571471.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/04/01/082636-sourdough-pancakes.html"
 index: 1
 ---
-
 

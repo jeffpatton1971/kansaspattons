@@ -10,7 +10,6 @@ year: 2023
 month: 07
 day: 16
 weekday: Sunday
-gallery: "instagram-2023-07-16-204925-movie-time"
 source:
   type: instagram
   uri: "media/posts/202307/17989990355127596.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/07/16/204925-movie-time.html"
 index: 1
 ---
-
 

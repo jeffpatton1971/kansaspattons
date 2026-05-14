@@ -10,7 +10,6 @@ year: 2014
 month: 09
 day: 15
 weekday: Monday
-gallery: "instagram-2014-09-15-222057-the-rare-needle-nosed-natebug-here-you-can-see-it-with-glowing-eyes-to-fend-off"
 source:
   type: instagram
   uri: "media/other/17843349145063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/09/15/222057-the-rare-needle-nosed-natebug-here-you-can-see-it-with-glowing-eyes-to-fend-off.html"
 index: 1
 ---
-
 

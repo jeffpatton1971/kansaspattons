@@ -10,7 +10,6 @@ year: 2023
 month: 06
 day: 22
 weekday: Thursday
-gallery: "instagram-2023-06-22-190832-it-s-over-i-have-the-high-ground-starwars-lego"
 source:
   type: instagram
   uri: "media/posts/202306/18145871722292351.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/06/22/190832-it-s-over-i-have-the-high-ground-starwars-lego.html"
 index: 1
 ---
-
 

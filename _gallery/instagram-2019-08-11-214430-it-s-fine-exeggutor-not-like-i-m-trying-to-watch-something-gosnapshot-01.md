@@ -11,7 +11,6 @@ year: 2019
 month: 08
 day: 11
 weekday: Sunday
-gallery: "instagram-2019-08-11-214430-it-s-fine-exeggutor-not-like-i-m-trying-to-watch-something-gosnapshot"
 source:
   type: instagram
   uri: "media/other/18092924797012751.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/08/11/214430-it-s-fine-exeggutor-not-like-i-m-trying-to-watch-something-gosnapshot.html"
 index: 1
 ---
-
 

@@ -15,10 +15,17 @@ source:
   caption: "Really enjoyed the half time show!"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2026-02-08-200508-really-enjoyed-the-half-time-show-01
+images:
+  - id: instagram-2026-02-08-200508-really-enjoyed-the-half-time-show-01
+    caption:
+    alt:
+  - id: instagram-2026-02-08-200508-really-enjoyed-the-half-time-show-02
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2026-02-08-200508-really-enjoyed-the-half-time-show"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "Really enjoyed the half time show!"
 ---
-
 Really enjoyed the half time show!
-
-{% include gallery.html gallery="instagram-2026-02-08-200508-really-enjoyed-the-half-time-show" %}
-

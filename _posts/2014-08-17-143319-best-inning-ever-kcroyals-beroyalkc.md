@@ -15,12 +15,16 @@ source:
   caption: "Best!\rInning!\rEver!\r@kcroyals #beroyalkc"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-08-17-143319-best-inning-ever-kcroyals-beroyalkc-01
+images:
+  - id: instagram-2014-08-17-143319-best-inning-ever-kcroyals-beroyalkc-01
+    caption:
+    alt:
 hashtags:
   - "beroyalkc"
 handles:
   - "kcroyals"
 location:
-gallery: "instagram-2014-08-17-143319-best-inning-ever-kcroyals-beroyalkc"
 tags:
   - "beroyalkc"
   - "instagram"
@@ -29,11 +33,7 @@ authors:
   - "Jeff Patton"
 summary: "Best!Inning!Ever!@kcroyals #beroyalkc"
 ---
-
 Best!
 Inning!
 Ever!
 [@kcroyals](https://www.instagram.com/kcroyals/) [#beroyalkc](https://www.instagram.com/explore/tags/beroyalkc/)
-
-{% include gallery.html gallery="instagram-2014-08-17-143319-best-inning-ever-kcroyals-beroyalkc" %}
-

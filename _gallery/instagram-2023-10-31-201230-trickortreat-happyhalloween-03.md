@@ -12,7 +12,6 @@ year: 2023
 month: 10
 day: 31
 weekday: Tuesday
-gallery: "instagram-2023-10-31-201230-trickortreat-happyhalloween"
 source:
   type: instagram
   uri: "media/posts/202310/17976709316391626.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/10/31/201230-trickortreat-happyhalloween.html"
 index: 3
 ---
-
 

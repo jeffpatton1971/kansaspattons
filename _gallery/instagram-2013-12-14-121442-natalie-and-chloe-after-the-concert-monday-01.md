@@ -10,7 +10,6 @@ year: 2013
 month: 12
 day: 14
 weekday: Saturday
-gallery: "instagram-2013-12-14-121442-natalie-and-chloe-after-the-concert-monday"
 source:
   type: instagram
   uri: "media/other/17842413376063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2013/12/14/121442-natalie-and-chloe-after-the-concert-monday.html"
 index: 1
 ---
-
 

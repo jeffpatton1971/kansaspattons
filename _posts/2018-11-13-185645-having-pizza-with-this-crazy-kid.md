@@ -15,10 +15,14 @@ source:
   caption: "Having pizza with this crazy kid"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-11-13-185645-having-pizza-with-this-crazy-kid-01
+images:
+  - id: instagram-2018-11-13-185645-having-pizza-with-this-crazy-kid-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-11-13-185645-having-pizza-with-this-crazy-kid"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Having pizza with this crazy kid"
 ---
-
 Having pizza with this crazy kid
-
-{% include gallery.html gallery="instagram-2018-11-13-185645-having-pizza-with-this-crazy-kid" %}
-

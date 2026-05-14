@@ -10,7 +10,6 @@ year: 2020
 month: 11
 day: 23
 weekday: Monday
-gallery: "instagram-2020-11-23-073739-morning-rainbows"
 source:
   type: instagram
   uri: "media/other/18125307565150857.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/11/23/073739-morning-rainbows.html"
 index: 1
 ---
-
 

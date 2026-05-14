@@ -12,7 +12,6 @@ year: 2025
 month: 07
 day: 23
 weekday: Wednesday
-gallery: "instagram-2025-07-23-074524-goodmorning-breakfast"
 source:
   type: instagram
   uri: "media/posts/202507/18062375171263987.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/07/23/074524-goodmorning-breakfast.html"
 index: 1
 ---
-
 

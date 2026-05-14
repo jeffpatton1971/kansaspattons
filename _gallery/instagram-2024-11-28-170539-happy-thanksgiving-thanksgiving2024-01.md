@@ -11,7 +11,6 @@ year: 2024
 month: 11
 day: 28
 weekday: Thursday
-gallery: "instagram-2024-11-28-170539-happy-thanksgiving-thanksgiving2024"
 source:
   type: instagram
   uri: "media/posts/202411/18063859909772420.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/11/28/170539-happy-thanksgiving-thanksgiving2024.html"
 index: 1
 ---
-
 

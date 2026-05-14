@@ -12,7 +12,6 @@ year: 2023
 month: 11
 day: 06
 weekday: Monday
-gallery: "instagram-2023-11-06-081552-goodmorning-kansas"
 source:
   type: instagram
   uri: "media/posts/202311/17901201842872079.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/11/06/081552-goodmorning-kansas.html"
 index: 1
 ---
-
 

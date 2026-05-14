@@ -15,11 +15,15 @@ source:
   caption: "Posting pictures from the family reunion earlier this month. Had a blast with the family and a lot of fun in #bransonmissouri"
   media_count: 10
   cross_post_source: "FB"
+cover_image: instagram-2024-06-25-193506-posting-pictures-from-the-family-reunion-earlier-this-month-had-a-blast-with-01
+related:
+  - type: gallery
+    id: instagram-2024-06-25-193506-posting-pictures-from-the-family-reunion-earlier-this-month-had-a-blast-with
+    rel: photos
 hashtags:
   - "bransonmissouri"
 handles: []
 location:
-gallery: "instagram-2024-06-25-193506-posting-pictures-from-the-family-reunion-earlier-this-month-had-a-blast-with"
 tags:
   - "bransonmissouri"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Posting pictures from the family reunion earlier this month. Had a blast with the family and a lot of fun in #bransonmissouri"
 ---
-
 Posting pictures from the family reunion earlier this month. Had a blast with the family and a lot of fun in [#bransonmissouri](https://www.instagram.com/explore/tags/bransonmissouri/)
-
-{% include gallery.html gallery="instagram-2024-06-25-193506-posting-pictures-from-the-family-reunion-earlier-this-month-had-a-blast-with" %}
-

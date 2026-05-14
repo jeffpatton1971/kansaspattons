@@ -15,12 +15,16 @@ source:
   caption: "Watching #tennis today with @natalie.15.2003"
   media_count: 6
   cross_post_source: "FB"
+cover_image: instagram-2025-04-17-130211-watching-tennis-today-with-natalie-15-2003-01
+related:
+  - type: gallery
+    id: instagram-2025-04-17-130211-watching-tennis-today-with-natalie-15-2003
+    rel: photos
 hashtags:
   - "tennis"
 handles:
   - "natalie.15.2003"
 location:
-gallery: "instagram-2025-04-17-130211-watching-tennis-today-with-natalie-15-2003"
 tags:
   - "tennis"
   - "instagram"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "Watching #tennis today with @natalie.15.2003"
 ---
-
 Watching [#tennis](https://www.instagram.com/explore/tags/tennis/) today with [@natalie.15.2003](https://www.instagram.com/natalie.15.2003/)
-
-{% include gallery.html gallery="instagram-2025-04-17-130211-watching-tennis-today-with-natalie-15-2003" %}
-

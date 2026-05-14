@@ -15,12 +15,16 @@ source:
   caption: "#fireworks #slowmotion"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-07-04-163106-fireworks-slowmotion-01
+images:
+  - id: instagram-2021-07-04-163106-fireworks-slowmotion-01
+    caption:
+    alt:
 hashtags:
   - "fireworks"
   - "slowmotion"
 handles: []
 location:
-gallery: "instagram-2021-07-04-163106-fireworks-slowmotion"
 tags:
   - "fireworks"
   - "slowmotion"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "#fireworks #slowmotion"
 ---
-
 [#fireworks](https://www.instagram.com/explore/tags/fireworks/) [#slowmotion](https://www.instagram.com/explore/tags/slowmotion/)
-
-{% include gallery.html gallery="instagram-2021-07-04-163106-fireworks-slowmotion" %}
-

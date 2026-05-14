@@ -15,11 +15,15 @@ source:
   caption: "Wondering if @reese.cartmill will notice"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2023-04-08-090722-wondering-if-reese-cartmill-will-notice-01
+images:
+  - id: instagram-2023-04-08-090722-wondering-if-reese-cartmill-will-notice-01
+    caption:
+    alt:
 hashtags: []
 handles:
   - "reese.cartmill"
 location:
-gallery: "instagram-2023-04-08-090722-wondering-if-reese-cartmill-will-notice"
 tags:
   - "instagram"
 categories: []
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Wondering if @reese.cartmill will notice"
 ---
-
 Wondering if [@reese.cartmill](https://www.instagram.com/reese.cartmill/) will notice
-
-{% include gallery.html gallery="instagram-2023-04-08-090722-wondering-if-reese-cartmill-will-notice" %}
-

@@ -10,7 +10,6 @@ year: 2023
 month: 02
 day: 11
 weekday: Saturday
-gallery: "instagram-2023-02-11-145333-my-christmas-present-just-arrived"
 source:
   type: instagram
   uri: "media/other/17973776729030083.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/02/11/145333-my-christmas-present-just-arrived.html"
 index: 1
 ---
-
 

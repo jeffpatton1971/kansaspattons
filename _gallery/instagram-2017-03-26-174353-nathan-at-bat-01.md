@@ -10,7 +10,6 @@ year: 2017
 month: 03
 day: 26
 weekday: Sunday
-gallery: "instagram-2017-03-26-174353-nathan-at-bat"
 source:
   type: instagram
   uri: "media/other/17853336466148253.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2017/03/26/174353-nathan-at-bat.html"
 index: 1
 ---
-
 

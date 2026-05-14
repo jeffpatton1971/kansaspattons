@@ -12,7 +12,6 @@ year: 2024
 month: 05
 day: 19
 weekday: Sunday
-gallery: "instagram-2024-05-19-093807-good-morning-kansas-leftovers"
 source:
   type: instagram
   uri: "media/posts/202405/17917416410829052.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/05/19/093807-good-morning-kansas-leftovers.html"
 index: 1
 ---
-
 

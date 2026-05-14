@@ -15,10 +15,17 @@ source:
   caption: "Here I thought roosters were supposed to wake you up!!"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2019-04-24-065155-here-i-thought-roosters-were-supposed-to-wake-you-up-01
+images:
+  - id: instagram-2019-04-24-065155-here-i-thought-roosters-were-supposed-to-wake-you-up-01
+    caption:
+    alt:
+  - id: instagram-2019-04-24-065155-here-i-thought-roosters-were-supposed-to-wake-you-up-02
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-04-24-065155-here-i-thought-roosters-were-supposed-to-wake-you-up"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "Here I thought roosters were supposed to wake you up!!"
 ---
-
 Here I thought roosters were supposed to wake you up!!
-
-{% include gallery.html gallery="instagram-2019-04-24-065155-here-i-thought-roosters-were-supposed-to-wake-you-up" %}
-

@@ -10,7 +10,6 @@ year: 2015
 month: 02
 day: 24
 weekday: Tuesday
-gallery: "instagram-2015-02-24-072904-it-s-a-hard-knock-life"
 source:
   type: instagram
   uri: "media/other/17843554390063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2015/02/24/072904-it-s-a-hard-knock-life.html"
 index: 1
 ---
-
 

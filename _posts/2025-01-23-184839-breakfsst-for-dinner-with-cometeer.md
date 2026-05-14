@@ -15,12 +15,16 @@ source:
   caption: "#breakfsst for dinner with @cometeer"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-01-23-184839-breakfsst-for-dinner-with-cometeer-01
+images:
+  - id: instagram-2025-01-23-184839-breakfsst-for-dinner-with-cometeer-01
+    caption:
+    alt:
 hashtags:
   - "breakfsst"
 handles:
   - "cometeer"
 location:
-gallery: "instagram-2025-01-23-184839-breakfsst-for-dinner-with-cometeer"
 tags:
   - "breakfsst"
   - "instagram"
@@ -29,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "#breakfsst for dinner with @cometeer"
 ---
-
 [#breakfsst](https://www.instagram.com/explore/tags/breakfsst/) for dinner with [@cometeer](https://www.instagram.com/cometeer/)
-
-{% include gallery.html gallery="instagram-2025-01-23-184839-breakfsst-for-dinner-with-cometeer" %}
-

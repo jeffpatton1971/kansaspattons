@@ -10,7 +10,6 @@ year: 2015
 month: 06
 day: 10
 weekday: Wednesday
-gallery: "instagram-2015-06-10-193217-malia-made-a-wonderful-dinner-for-me"
 source:
   type: instagram
   uri: "media/other/17841744571063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2015/06/10/193217-malia-made-a-wonderful-dinner-for-me.html"
 index: 1
 ---
-
 

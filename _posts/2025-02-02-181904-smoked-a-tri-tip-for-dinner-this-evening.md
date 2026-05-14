@@ -15,11 +15,15 @@ source:
   caption: "#smoked a tri-tip for dinner this evening"
   media_count: 5
   cross_post_source: "FB"
+cover_image: instagram-2025-02-02-181904-smoked-a-tri-tip-for-dinner-this-evening-01
+related:
+  - type: gallery
+    id: instagram-2025-02-02-181904-smoked-a-tri-tip-for-dinner-this-evening
+    rel: photos
 hashtags:
   - "smoked"
 handles: []
 location:
-gallery: "instagram-2025-02-02-181904-smoked-a-tri-tip-for-dinner-this-evening"
 tags:
   - "smoked"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "#smoked a tri-tip for dinner this evening"
 ---
-
 [#smoked](https://www.instagram.com/explore/tags/smoked/) a tri-tip for dinner this evening
-
-{% include gallery.html gallery="instagram-2025-02-02-181904-smoked-a-tri-tip-for-dinner-this-evening" %}
-

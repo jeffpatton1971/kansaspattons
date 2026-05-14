@@ -15,10 +15,14 @@ source:
   caption: "Natalie just finished working on this one"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-05-31-193410-natalie-just-finished-working-on-this-one-01
+images:
+  - id: instagram-2021-05-31-193410-natalie-just-finished-working-on-this-one-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-05-31-193410-natalie-just-finished-working-on-this-one"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Natalie just finished working on this one"
 ---
-
 Natalie just finished working on this one
-
-{% include gallery.html gallery="instagram-2021-05-31-193410-natalie-just-finished-working-on-this-one" %}
-

@@ -10,7 +10,6 @@ year: 2019
 month: 07
 day: 07
 weekday: Sunday
-gallery: "instagram-2019-07-07-155421-3lbs-of-delicious-rejects"
 source:
   type: instagram
   uri: "media/other/17869676938411694.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/07/07/155421-3lbs-of-delicious-rejects.html"
 index: 1
 ---
-
 

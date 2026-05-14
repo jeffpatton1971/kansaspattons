@@ -10,7 +10,6 @@ year: 2018
 month: 02
 day: 20
 weekday: Tuesday
-gallery: "instagram-2018-02-20-184013-dinner-tonight"
 source:
   type: instagram
   uri: "media/other/17925873940030309.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/02/20/184013-dinner-tonight.html"
 index: 1
 ---
-
 

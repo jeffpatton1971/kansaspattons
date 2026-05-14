@@ -10,7 +10,6 @@ year: 2014
 month: 10
 day: 18
 weekday: Saturday
-gallery: "instagram-2014-10-18-152844-my-beautiful-kids"
 source:
   type: instagram
   uri: "media/other/17841791176063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/10/18/152844-my-beautiful-kids.html"
 index: 1
 ---
-
 

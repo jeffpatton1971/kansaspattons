@@ -10,7 +10,6 @@ year: 2018
 month: 08
 day: 25
 weekday: Saturday
-gallery: "instagram-2018-08-25-184911-so-many-kids-in-the-hot-tub"
 source:
   type: instagram
   uri: "media/other/17952056581089788.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/08/25/184911-so-many-kids-in-the-hot-tub.html"
 index: 1
 ---
-
 

@@ -12,7 +12,6 @@ year: 2014
 month: 08
 day: 11
 weekday: Monday
-gallery: "instagram-2014-08-11-215732-so-this-just-happened-kcroyals-beroyalkc-royals"
 source:
   type: instagram
   uri: "media/other/17843335213063547.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/08/11/215732-so-this-just-happened-kcroyals-beroyalkc-royals.html"
 index: 1
 ---
-
 

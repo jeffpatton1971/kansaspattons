@@ -15,10 +15,14 @@ source:
   caption: "Look who I ran into!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-04-25-120744-look-who-i-ran-into-01
+images:
+  - id: instagram-2025-04-25-120744-look-who-i-ran-into-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-04-25-120744-look-who-i-ran-into"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Look who I ran into!"
 ---
-
 Look who I ran into!
-
-{% include gallery.html gallery="instagram-2025-04-25-120744-look-who-i-ran-into" %}
-

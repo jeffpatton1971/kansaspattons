@@ -13,7 +13,6 @@ year: 2025
 month: 05
 day: 18
 weekday: Sunday
-gallery: "instagram-2025-05-18-073231-breakfast-sundaymornings-mood"
 source:
   type: instagram
   uri: "media/posts/202505/17981139146825343.jpg"
@@ -27,5 +26,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/05/18/073231-breakfast-sundaymornings-mood.html"
 index: 1
 ---
-
 

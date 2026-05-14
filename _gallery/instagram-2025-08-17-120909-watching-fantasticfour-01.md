@@ -10,7 +10,6 @@ year: 2025
 month: 08
 day: 17
 weekday: Sunday
-gallery: "instagram-2025-08-17-120909-watching-fantasticfour"
 source:
   type: instagram
   uri: "media/posts/202508/17981641622728774.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/08/17/120909-watching-fantasticfour.html"
 index: 1
 ---
-
 

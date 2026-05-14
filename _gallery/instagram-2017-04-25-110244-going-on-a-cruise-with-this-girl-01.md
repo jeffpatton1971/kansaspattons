@@ -10,7 +10,6 @@ year: 2017
 month: 04
 day: 25
 weekday: Tuesday
-gallery: "instagram-2017-04-25-110244-going-on-a-cruise-with-this-girl"
 source:
   type: instagram
   uri: "media/other/17857052746136244.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2017/04/25/110244-going-on-a-cruise-with-this-girl.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2025
 month: 08
 day: 12
 weekday: Tuesday
-gallery: "instagram-2025-08-12-170733-kc-strip-on-the-skillet-for-dinner-with-natalie-15-2003"
 source:
   type: instagram
   uri: "media/posts/202508/17843319369548236.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/08/12/170733-kc-strip-on-the-skillet-for-dinner-with-natalie-15-2003.html"
 index: 1
 ---
-
 

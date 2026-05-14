@@ -10,7 +10,6 @@ year: 2021
 month: 04
 day: 20
 weekday: Tuesday
-gallery: "instagram-2021-04-20-065908-here-in-kansas-we-don-t-forecast-the-weather-we-just-make-it-up-as-we-go"
 source:
   type: instagram
   uri: "media/other/17899732873841214.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/04/20/065908-here-in-kansas-we-don-t-forecast-the-weather-we-just-make-it-up-as-we-go.html"
 index: 1
 ---
-
 

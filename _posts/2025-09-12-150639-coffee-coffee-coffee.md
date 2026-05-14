@@ -15,11 +15,15 @@ source:
   caption: "#coffee #coffee #coffee 🤪"
   media_count: 7
   cross_post_source: "FB"
+cover_image: instagram-2025-09-12-150639-coffee-coffee-coffee-01
+related:
+  - type: gallery
+    id: instagram-2025-09-12-150639-coffee-coffee-coffee
+    rel: photos
 hashtags:
   - "coffee"
 handles: []
 location:
-gallery: "instagram-2025-09-12-150639-coffee-coffee-coffee"
 tags:
   - "coffee"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "#coffee #coffee #coffee 🤪"
 ---
-
 [#coffee](https://www.instagram.com/explore/tags/coffee/) [#coffee](https://www.instagram.com/explore/tags/coffee/) [#coffee](https://www.instagram.com/explore/tags/coffee/) 🤪
-
-{% include gallery.html gallery="instagram-2025-09-12-150639-coffee-coffee-coffee" %}
-

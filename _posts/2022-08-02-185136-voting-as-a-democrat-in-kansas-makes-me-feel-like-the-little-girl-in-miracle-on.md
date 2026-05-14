@@ -15,11 +15,18 @@ source:
   caption: "Voting as a Democrat in Kansas makes me feel like the little girl in Miracle on 34th St. I believe, I believe. It’s silly but, I believe. #vote"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2022-08-02-185136-voting-as-a-democrat-in-kansas-makes-me-feel-like-the-little-girl-in-miracle-on-01
+images:
+  - id: instagram-2022-08-02-185136-voting-as-a-democrat-in-kansas-makes-me-feel-like-the-little-girl-in-miracle-on-01
+    caption:
+    alt:
+  - id: instagram-2022-08-02-185136-voting-as-a-democrat-in-kansas-makes-me-feel-like-the-little-girl-in-miracle-on-02
+    caption:
+    alt:
 hashtags:
   - "vote"
 handles: []
 location:
-gallery: "instagram-2022-08-02-185136-voting-as-a-democrat-in-kansas-makes-me-feel-like-the-little-girl-in-miracle-on"
 tags:
   - "vote"
   - "instagram"
@@ -28,8 +35,4 @@ authors:
   - "Jeff Patton"
 summary: "Voting as a Democrat in Kansas makes me feel like the little girl in Miracle on 34th St. I believe, I believe. It’s silly but, I believe. #vote"
 ---
-
 Voting as a Democrat in Kansas makes me feel like the little girl in Miracle on 34th St. I believe, I believe. It’s silly but, I believe. [#vote](https://www.instagram.com/explore/tags/vote/)
-
-{% include gallery.html gallery="instagram-2022-08-02-185136-voting-as-a-democrat-in-kansas-makes-me-feel-like-the-little-girl-in-miracle-on" %}
-

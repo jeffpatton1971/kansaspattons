@@ -15,11 +15,15 @@ source:
   caption: "Late start #breakfast"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-10-22-081237-late-start-breakfast-01
+images:
+  - id: instagram-2025-10-22-081237-late-start-breakfast-01
+    caption:
+    alt:
 hashtags:
   - "breakfast"
 handles: []
 location:
-gallery: "instagram-2025-10-22-081237-late-start-breakfast"
 tags:
   - "breakfast"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Late start #breakfast"
 ---
-
 Late start [#breakfast](https://www.instagram.com/explore/tags/breakfast/)
-
-{% include gallery.html gallery="instagram-2025-10-22-081237-late-start-breakfast" %}
-

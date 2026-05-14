@@ -15,11 +15,15 @@ source:
   caption: "Enjoyed football with a view last night #grateful"
   media_count: 5
   cross_post_source: "FB"
+cover_image: instagram-2025-08-23-095759-enjoyed-football-with-a-view-last-night-grateful-01
+related:
+  - type: gallery
+    id: instagram-2025-08-23-095759-enjoyed-football-with-a-view-last-night-grateful
+    rel: photos
 hashtags:
   - "grateful"
 handles: []
 location:
-gallery: "instagram-2025-08-23-095759-enjoyed-football-with-a-view-last-night-grateful"
 tags:
   - "grateful"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Enjoyed football with a view last night #grateful"
 ---
-
 Enjoyed football with a view last night [#grateful](https://www.instagram.com/explore/tags/grateful/)
-
-{% include gallery.html gallery="instagram-2025-08-23-095759-enjoyed-football-with-a-view-last-night-grateful" %}
-

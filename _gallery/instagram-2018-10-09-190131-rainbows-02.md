@@ -10,7 +10,6 @@ year: 2018
 month: 10
 day: 09
 weekday: Tuesday
-gallery: "instagram-2018-10-09-190131-rainbows"
 source:
   type: instagram
   uri: "media/posts/201810/17895718381260367.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/10/09/190131-rainbows.html"
 index: 2
 ---
-
 

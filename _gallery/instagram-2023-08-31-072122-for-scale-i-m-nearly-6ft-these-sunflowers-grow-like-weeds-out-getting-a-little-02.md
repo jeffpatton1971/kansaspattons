@@ -11,7 +11,6 @@ year: 2023
 month: 08
 day: 31
 weekday: Thursday
-gallery: "instagram-2023-08-31-072122-for-scale-i-m-nearly-6ft-these-sunflowers-grow-like-weeds-out-getting-a-little"
 source:
   type: instagram
   uri: "media/posts/202308/17999944388071990.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/08/31/072122-for-scale-i-m-nearly-6ft-these-sunflowers-grow-like-weeds-out-getting-a-little.html"
 index: 2
 ---
-
 

@@ -12,7 +12,6 @@ year: 2023
 month: 11
 day: 08
 weekday: Wednesday
-gallery: "instagram-2023-11-08-072447-a-foggy-goodmorning-kansas"
 source:
   type: instagram
   uri: "media/posts/202311/18214178260252652.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/11/08/072447-a-foggy-goodmorning-kansas.html"
 index: 1
 ---
-
 

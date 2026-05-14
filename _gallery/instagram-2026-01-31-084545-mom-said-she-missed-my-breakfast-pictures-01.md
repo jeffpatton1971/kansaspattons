@@ -11,7 +11,6 @@ year: 2026
 month: 01
 day: 31
 weekday: Saturday
-gallery: "instagram-2026-01-31-084545-mom-said-she-missed-my-breakfast-pictures"
 source:
   type: instagram
   uri: "media/posts/202601/18085272796922130.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/01/31/084545-mom-said-she-missed-my-breakfast-pictures.html"
 index: 1
 ---
-
 

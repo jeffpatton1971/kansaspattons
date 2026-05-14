@@ -10,7 +10,6 @@ year: 2019
 month: 07
 day: 04
 weekday: Thursday
-gallery: "instagram-2019-07-04-204526-so-much-happy-strangerthingstv"
 source:
   type: instagram
   uri: "media/other/18082725328042022.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/07/04/204526-so-much-happy-strangerthingstv.html"
 index: 1
 ---
-
 

@@ -15,10 +15,14 @@ source:
   caption: "It’s the little things"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2023-04-08-092825-it-s-the-little-things-01
+images:
+  - id: instagram-2023-04-08-092825-it-s-the-little-things-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2023-04-08-092825-it-s-the-little-things"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "It’s the little things"
 ---
-
 It’s the little things
-
-{% include gallery.html gallery="instagram-2023-04-08-092825-it-s-the-little-things" %}
-

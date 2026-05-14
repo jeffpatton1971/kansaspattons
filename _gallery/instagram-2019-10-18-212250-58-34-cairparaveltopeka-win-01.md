@@ -10,7 +10,6 @@ year: 2019
 month: 10
 day: 18
 weekday: Friday
-gallery: "instagram-2019-10-18-212250-58-34-cairparaveltopeka-win"
 source:
   type: instagram
   uri: "media/other/18085979164112263.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/10/18/212250-58-34-cairparaveltopeka-win.html"
 index: 1
 ---
-
 

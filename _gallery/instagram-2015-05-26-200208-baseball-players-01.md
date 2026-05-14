@@ -10,7 +10,6 @@ year: 2015
 month: 05
 day: 26
 weekday: Tuesday
-gallery: "instagram-2015-05-26-200208-baseball-players"
 source:
   type: instagram
   uri: "media/other/17843570524063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2015/05/26/200208-baseball-players.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2014
 month: 09
 day: 21
 weekday: Sunday
-gallery: "instagram-2014-09-21-102459-who-do-i-call-when-i-have-computer-problems-iron-man-of-course"
 source:
   type: instagram
   uri: "media/other/17843351410063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/09/21/102459-who-do-i-call-when-i-have-computer-problems-iron-man-of-course.html"
 index: 1
 ---
-
 

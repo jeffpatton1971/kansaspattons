@@ -12,7 +12,6 @@ year: 2015
 month: 02
 day: 18
 weekday: Wednesday
-gallery: "instagram-2015-02-18-072016-happy-international-eat-ice-cream-for-breakfast-day-icecreamforbreakfast"
 source:
   type: instagram
   uri: "media/other/17841791182063547.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2015/02/18/072016-happy-international-eat-ice-cream-for-breakfast-day-icecreamforbreakfast.html"
 index: 1
 ---
-
 

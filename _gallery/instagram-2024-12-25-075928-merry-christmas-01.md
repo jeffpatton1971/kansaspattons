@@ -10,7 +10,6 @@ year: 2024
 month: 12
 day: 25
 weekday: Wednesday
-gallery: "instagram-2024-12-25-075928-merry-christmas"
 source:
   type: instagram
   uri: "media/posts/202412/18053956391002028.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/12/25/075928-merry-christmas.html"
 index: 1
 ---
-
 

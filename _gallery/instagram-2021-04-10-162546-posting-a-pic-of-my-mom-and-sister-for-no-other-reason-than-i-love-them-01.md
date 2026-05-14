@@ -10,7 +10,6 @@ year: 2021
 month: 04
 day: 10
 weekday: Saturday
-gallery: "instagram-2021-04-10-162546-posting-a-pic-of-my-mom-and-sister-for-no-other-reason-than-i-love-them"
 source:
   type: instagram
   uri: "media/other/17888998586096288.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/04/10/162546-posting-a-pic-of-my-mom-and-sister-for-no-other-reason-than-i-love-them.html"
 index: 1
 ---
-
 

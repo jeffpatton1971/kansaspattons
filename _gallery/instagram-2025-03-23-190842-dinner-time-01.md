@@ -10,7 +10,6 @@ year: 2025
 month: 03
 day: 23
 weekday: Sunday
-gallery: "instagram-2025-03-23-190842-dinner-time"
 source:
   type: instagram
   uri: "media/posts/202503/18059720798091446.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/03/23/190842-dinner-time.html"
 index: 1
 ---
-
 

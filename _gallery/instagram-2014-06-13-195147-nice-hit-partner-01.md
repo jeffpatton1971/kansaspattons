@@ -10,7 +10,6 @@ year: 2014
 month: 06
 day: 13
 weekday: Friday
-gallery: "instagram-2014-06-13-195147-nice-hit-partner"
 source:
   type: instagram
   uri: "media/other/17842513894063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/06/13/195147-nice-hit-partner.html"
 index: 1
 ---
-
 

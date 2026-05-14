@@ -15,10 +15,17 @@ source:
   caption: "Getting some work done before the 4th"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2018-06-30-122853-getting-some-work-done-before-the-4th-01
+images:
+  - id: instagram-2018-06-30-122853-getting-some-work-done-before-the-4th-01
+    caption:
+    alt:
+  - id: instagram-2018-06-30-122853-getting-some-work-done-before-the-4th-02
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-06-30-122853-getting-some-work-done-before-the-4th"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "Getting some work done before the 4th"
 ---
-
 Getting some work done before the 4th
-
-{% include gallery.html gallery="instagram-2018-06-30-122853-getting-some-work-done-before-the-4th" %}
-

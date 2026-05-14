@@ -11,7 +11,6 @@ year: 2022
 month: 06
 day: 23
 weekday: Thursday
-gallery: "instagram-2022-06-23-212327-goodnight"
 source:
   type: instagram
   uri: "media/other/18280146463078843.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/06/23/212327-goodnight.html"
 index: 1
 ---
-
 

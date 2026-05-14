@@ -10,7 +10,6 @@ year: 2018
 month: 09
 day: 24
 weekday: Monday
-gallery: "instagram-2018-09-24-172336-watching-this-girl-play-tennis"
 source:
   type: instagram
   uri: "media/other/17981514868015860.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/09/24/172336-watching-this-girl-play-tennis.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2018
 month: 09
 day: 16
 weekday: Sunday
-gallery: "instagram-2018-09-16-145728-watching-teen-titans-with-my-two-favorite-titans"
 source:
   type: instagram
   uri: "media/other/17916981694217700.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/09/16/145728-watching-teen-titans-with-my-two-favorite-titans.html"
 index: 1
 ---
-
 

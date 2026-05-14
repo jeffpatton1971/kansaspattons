@@ -10,7 +10,6 @@ year: 2025
 month: 12
 day: 31
 weekday: Wednesday
-gallery: "instagram-2025-12-31-084206-sending-the-old-year-out-with-a-big-breakfast"
 source:
   type: instagram
   uri: "media/posts/202512/18051329324410407.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/12/31/084206-sending-the-old-year-out-with-a-big-breakfast.html"
 index: 1
 ---
-
 

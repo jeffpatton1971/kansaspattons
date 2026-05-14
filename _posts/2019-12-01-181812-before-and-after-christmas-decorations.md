@@ -15,10 +15,17 @@ source:
   caption: "Before and after Christmas Decorations"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2019-12-01-181812-before-and-after-christmas-decorations-01
+images:
+  - id: instagram-2019-12-01-181812-before-and-after-christmas-decorations-01
+    caption:
+    alt:
+  - id: instagram-2019-12-01-181812-before-and-after-christmas-decorations-02
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-12-01-181812-before-and-after-christmas-decorations"
 tags:
   - "instagram"
 categories:
@@ -27,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "Before and after Christmas Decorations"
 ---
-
 Before and after Christmas Decorations
-
-{% include gallery.html gallery="instagram-2019-12-01-181812-before-and-after-christmas-decorations" %}
-

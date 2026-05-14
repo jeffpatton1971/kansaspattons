@@ -15,10 +15,14 @@ source:
   caption: "Can’t believe this little girl is getting ready to start high school...where did the years go"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-08-13-090251-can-t-believe-this-little-girl-is-getting-ready-to-start-high-school-where-did-01
+images:
+  - id: instagram-2018-08-13-090251-can-t-believe-this-little-girl-is-getting-ready-to-start-high-school-where-did-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-08-13-090251-can-t-believe-this-little-girl-is-getting-ready-to-start-high-school-where-did"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Can’t believe this little girl is getting ready to start high school...where did the years go"
 ---
-
 Can’t believe this little girl is getting ready to start high school...where did the years go
-
-{% include gallery.html gallery="instagram-2018-08-13-090251-can-t-believe-this-little-girl-is-getting-ready-to-start-high-school-where-did" %}
-

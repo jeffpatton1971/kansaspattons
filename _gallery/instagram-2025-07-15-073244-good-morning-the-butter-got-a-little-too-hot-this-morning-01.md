@@ -10,7 +10,6 @@ year: 2025
 month: 07
 day: 15
 weekday: Tuesday
-gallery: "instagram-2025-07-15-073244-good-morning-the-butter-got-a-little-too-hot-this-morning"
 source:
   type: instagram
   uri: "media/posts/202507/17867850417410333.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/07/15/073244-good-morning-the-butter-got-a-little-too-hot-this-morning.html"
 index: 1
 ---
-
 

@@ -15,10 +15,14 @@ source:
   caption: "Loved skating with these two crazy kids!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2015-02-22-130123-loved-skating-with-these-two-crazy-kids-01
+images:
+  - id: instagram-2015-02-22-130123-loved-skating-with-these-two-crazy-kids-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2015-02-22-130123-loved-skating-with-these-two-crazy-kids"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Loved skating with these two crazy kids!"
 ---
-
 Loved skating with these two crazy kids!
-
-{% include gallery.html gallery="instagram-2015-02-22-130123-loved-skating-with-these-two-crazy-kids" %}
-

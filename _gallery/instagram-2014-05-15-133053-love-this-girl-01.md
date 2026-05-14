@@ -10,7 +10,6 @@ year: 2014
 month: 05
 day: 15
 weekday: Thursday
-gallery: "instagram-2014-05-15-133053-love-this-girl"
 source:
   type: instagram
   uri: "media/other/17842496107063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/05/15/133053-love-this-girl.html"
 index: 1
 ---
-
 

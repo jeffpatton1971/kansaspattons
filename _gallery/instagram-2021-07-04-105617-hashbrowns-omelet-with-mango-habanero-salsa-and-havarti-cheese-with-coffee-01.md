@@ -11,7 +11,6 @@ year: 2021
 month: 07
 day: 04
 weekday: Sunday
-gallery: "instagram-2021-07-04-105617-hashbrowns-omelet-with-mango-habanero-salsa-and-havarti-cheese-with-coffee"
 source:
   type: instagram
   uri: "media/other/17945244733474833.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/07/04/105617-hashbrowns-omelet-with-mango-habanero-salsa-and-havarti-cheese-with-coffee.html"
 index: 1
 ---
-
 

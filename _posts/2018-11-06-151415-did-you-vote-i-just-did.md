@@ -15,11 +15,15 @@ source:
   caption: "Did you #vote? I just did!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-11-06-151415-did-you-vote-i-just-did-01
+images:
+  - id: instagram-2018-11-06-151415-did-you-vote-i-just-did-01
+    caption:
+    alt:
 hashtags:
   - "vote"
 handles: []
 location:
-gallery: "instagram-2018-11-06-151415-did-you-vote-i-just-did"
 tags:
   - "vote"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Did you #vote? I just did!"
 ---
-
 Did you [#vote](https://www.instagram.com/explore/tags/vote/)? I just did!
-
-{% include gallery.html gallery="instagram-2018-11-06-151415-did-you-vote-i-just-did" %}
-

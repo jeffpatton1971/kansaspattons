@@ -10,7 +10,6 @@ year: 2022
 month: 02
 day: 24
 weekday: Thursday
-gallery: "instagram-2022-02-24-075439-still-winter"
 source:
   type: instagram
   uri: "media/other/17976916000495880.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/02/24/075439-still-winter.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2025
 month: 04
 day: 13
 weekday: Sunday
-gallery: "instagram-2025-04-13-110308-had-a-wonderful-thing-helping-my-sister-this-weekend-headed-home"
 source:
   type: instagram
   uri: "media/posts/202504/18056317340169844.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/04/13/110308-had-a-wonderful-thing-helping-my-sister-this-weekend-headed-home.html"
 index: 1
 ---
-
 

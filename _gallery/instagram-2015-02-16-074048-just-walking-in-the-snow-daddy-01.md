@@ -10,7 +10,6 @@ year: 2015
 month: 02
 day: 16
 weekday: Monday
-gallery: "instagram-2015-02-16-074048-just-walking-in-the-snow-daddy"
 source:
   type: instagram
   uri: "media/other/17843552377063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2015/02/16/074048-just-walking-in-the-snow-daddy.html"
 index: 1
 ---
-
 

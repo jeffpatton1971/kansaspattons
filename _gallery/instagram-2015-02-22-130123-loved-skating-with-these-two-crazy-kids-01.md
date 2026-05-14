@@ -10,7 +10,6 @@ year: 2015
 month: 02
 day: 22
 weekday: Sunday
-gallery: "instagram-2015-02-22-130123-loved-skating-with-these-two-crazy-kids"
 source:
   type: instagram
   uri: "media/other/17843554036063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2015/02/22/130123-loved-skating-with-these-two-crazy-kids.html"
 index: 1
 ---
-
 

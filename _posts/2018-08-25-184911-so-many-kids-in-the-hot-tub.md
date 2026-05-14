@@ -15,10 +15,14 @@ source:
   caption: "So many kids in the hot tub"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-08-25-184911-so-many-kids-in-the-hot-tub-01
+images:
+  - id: instagram-2018-08-25-184911-so-many-kids-in-the-hot-tub-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-08-25-184911-so-many-kids-in-the-hot-tub"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "So many kids in the hot tub"
 ---
-
 So many kids in the hot tub
-
-{% include gallery.html gallery="instagram-2018-08-25-184911-so-many-kids-in-the-hot-tub" %}
-

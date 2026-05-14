@@ -15,11 +15,21 @@ source:
   caption: "Happy Thanksgiving #thanksgiving2024"
   media_count: 3
   cross_post_source: "FB"
+cover_image: instagram-2024-11-28-170539-happy-thanksgiving-thanksgiving2024-01
+images:
+  - id: instagram-2024-11-28-170539-happy-thanksgiving-thanksgiving2024-01
+    caption:
+    alt:
+  - id: instagram-2024-11-28-170539-happy-thanksgiving-thanksgiving2024-02
+    caption:
+    alt:
+  - id: instagram-2024-11-28-170539-happy-thanksgiving-thanksgiving2024-03
+    caption:
+    alt:
 hashtags:
   - "thanksgiving2024"
 handles: []
 location:
-gallery: "instagram-2024-11-28-170539-happy-thanksgiving-thanksgiving2024"
 tags:
   - "thanksgiving2024"
   - "instagram"
@@ -29,8 +39,4 @@ authors:
   - "Jeff Patton"
 summary: "Happy Thanksgiving #thanksgiving2024"
 ---
-
 Happy Thanksgiving [#thanksgiving2024](https://www.instagram.com/explore/tags/thanksgiving2024/)
-
-{% include gallery.html gallery="instagram-2024-11-28-170539-happy-thanksgiving-thanksgiving2024" %}
-

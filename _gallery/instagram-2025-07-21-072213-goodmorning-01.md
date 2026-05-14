@@ -11,7 +11,6 @@ year: 2025
 month: 07
 day: 21
 weekday: Monday
-gallery: "instagram-2025-07-21-072213-goodmorning"
 source:
   type: instagram
   uri: "media/posts/202507/17959720796812565.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/07/21/072213-goodmorning.html"
 index: 1
 ---
-
 

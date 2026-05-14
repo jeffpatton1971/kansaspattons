@@ -10,7 +10,6 @@ year: 2023
 month: 06
 day: 17
 weekday: Saturday
-gallery: "instagram-2023-06-17-182818-we-are-brother-and-sister-but-we-are-not-the-same"
 source:
   type: instagram
   uri: "media/posts/202306/18220424722237931.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/06/17/182818-we-are-brother-and-sister-but-we-are-not-the-same.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2019
 month: 01
 day: 12
 weekday: Saturday
-gallery: "instagram-2019-01-12-132328-it-s-all-fun-and-games-until-you-get-stuck-in-a-snow-drift"
 source:
   type: instagram
   uri: "media/other/17930314741250381.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/01/12/132328-it-s-all-fun-and-games-until-you-get-stuck-in-a-snow-drift.html"
 index: 1
 ---
-
 

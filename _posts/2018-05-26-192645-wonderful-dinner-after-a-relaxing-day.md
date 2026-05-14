@@ -15,10 +15,14 @@ source:
   caption: "Wonderful dinner after a relaxing day"
   media_count: 5
   cross_post_source: "FB"
+cover_image: instagram-2018-05-26-192645-wonderful-dinner-after-a-relaxing-day-01
+related:
+  - type: gallery
+    id: instagram-2018-05-26-192645-wonderful-dinner-after-a-relaxing-day
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-05-26-192645-wonderful-dinner-after-a-relaxing-day"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Wonderful dinner after a relaxing day"
 ---
-
 Wonderful dinner after a relaxing day
-
-{% include gallery.html gallery="instagram-2018-05-26-192645-wonderful-dinner-after-a-relaxing-day" %}
-

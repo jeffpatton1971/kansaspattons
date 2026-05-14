@@ -15,10 +15,14 @@ source:
   caption: "WTF?!?! I know I’m old but I’m not that old yet!!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-03-03-131419-wtf-i-know-i-m-old-but-i-m-not-that-old-yet-01
+images:
+  - id: instagram-2018-03-03-131419-wtf-i-know-i-m-old-but-i-m-not-that-old-yet-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-03-03-131419-wtf-i-know-i-m-old-but-i-m-not-that-old-yet"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "WTF?!?! I know I’m old but I’m not that old yet!!"
 ---
-
 WTF?!?! I know I’m old but I’m not that old yet!!
-
-{% include gallery.html gallery="instagram-2018-03-03-131419-wtf-i-know-i-m-old-but-i-m-not-that-old-yet" %}
-

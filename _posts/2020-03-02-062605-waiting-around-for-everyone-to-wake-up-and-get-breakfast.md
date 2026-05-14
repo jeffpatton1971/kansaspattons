@@ -15,10 +15,14 @@ source:
   caption: "Waiting around for everyone to wake up and get breakfast"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2020-03-02-062605-waiting-around-for-everyone-to-wake-up-and-get-breakfast-01
+images:
+  - id: instagram-2020-03-02-062605-waiting-around-for-everyone-to-wake-up-and-get-breakfast-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2020-03-02-062605-waiting-around-for-everyone-to-wake-up-and-get-breakfast"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Waiting around for everyone to wake up and get breakfast"
 ---
-
 Waiting around for everyone to wake up and get breakfast
-
-{% include gallery.html gallery="instagram-2020-03-02-062605-waiting-around-for-everyone-to-wake-up-and-get-breakfast" %}
-

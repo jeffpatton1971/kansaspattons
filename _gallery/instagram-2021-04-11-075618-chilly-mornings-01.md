@@ -10,7 +10,6 @@ year: 2021
 month: 04
 day: 11
 weekday: Sunday
-gallery: "instagram-2021-04-11-075618-chilly-mornings"
 source:
   type: instagram
   uri: "media/other/17859005801515179.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/04/11/075618-chilly-mornings.html"
 index: 1
 ---
-
 

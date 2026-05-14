@@ -10,7 +10,6 @@ year: 2018
 month: 10
 day: 31
 weekday: Wednesday
-gallery: "instagram-2018-10-31-174013-for-the-past-15yrs-every-year-we-are-here"
 source:
   type: instagram
   uri: "media/other/17977294900122211.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/10/31/174013-for-the-past-15yrs-every-year-we-are-here.html"
 index: 1
 ---
-
 

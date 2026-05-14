@@ -10,7 +10,6 @@ year: 2014
 month: 03
 day: 04
 weekday: Tuesday
-gallery: "instagram-2014-03-04-112354-malia-and-i-at-the-optimist-lunch-benefit-to-fight-childhood-cancer"
 source:
   type: instagram
   uri: "media/other/17842454386063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/03/04/112354-malia-and-i-at-the-optimist-lunch-benefit-to-fight-childhood-cancer.html"
 index: 1
 ---
-
 

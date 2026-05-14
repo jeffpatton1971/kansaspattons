@@ -10,7 +10,6 @@ year: 2018
 month: 05
 day: 11
 weekday: Friday
-gallery: "instagram-2018-05-11-202357-a-girl-and-her-dog"
 source:
   type: instagram
   uri: "media/other/17872136464228981.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/05/11/202357-a-girl-and-her-dog.html"
 index: 1
 ---
-
 

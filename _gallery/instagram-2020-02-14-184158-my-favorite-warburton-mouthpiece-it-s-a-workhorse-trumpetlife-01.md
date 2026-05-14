@@ -13,7 +13,6 @@ year: 2020
 month: 02
 day: 14
 weekday: Friday
-gallery: "instagram-2020-02-14-184158-my-favorite-warburton-mouthpiece-it-s-a-workhorse-trumpetlife"
 source:
   type: instagram
   uri: "media/other/17862568510674546.jpg"
@@ -27,5 +26,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/02/14/184158-my-favorite-warburton-mouthpiece-it-s-a-workhorse-trumpetlife.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2019
 month: 03
 day: 12
 weekday: Tuesday
-gallery: "instagram-2019-03-12-142746-burnt-ends"
 source:
   type: instagram
   uri: "media/other/17886868597307590.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/03/12/142746-burnt-ends.html"
 index: 1
 ---
-
 

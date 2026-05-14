@@ -10,7 +10,6 @@ year: 2014
 month: 11
 day: 16
 weekday: Sunday
-gallery: "instagram-2014-11-16-121546-hanging-with-nick"
 source:
   type: instagram
   uri: "media/other/17841791179063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/11/16/121546-hanging-with-nick.html"
 index: 1
 ---
-
 

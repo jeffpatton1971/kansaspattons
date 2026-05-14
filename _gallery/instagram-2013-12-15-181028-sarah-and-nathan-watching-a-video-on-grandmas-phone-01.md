@@ -10,7 +10,6 @@ year: 2013
 month: 12
 day: 15
 weekday: Sunday
-gallery: "instagram-2013-12-15-181028-sarah-and-nathan-watching-a-video-on-grandmas-phone"
 source:
   type: instagram
   uri: "media/other/17842414186063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2013/12/15/181028-sarah-and-nathan-watching-a-video-on-grandmas-phone.html"
 index: 1
 ---
-
 

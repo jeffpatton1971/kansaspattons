@@ -15,11 +15,15 @@ source:
   caption: "Had a great time with @nater_potater123 today"
   media_count: 8
   cross_post_source: "FB"
+cover_image: instagram-2025-08-02-165920-had-a-great-time-with-nater-potater123-today-01
+related:
+  - type: gallery
+    id: instagram-2025-08-02-165920-had-a-great-time-with-nater-potater123-today
+    rel: photos
 hashtags: []
 handles:
   - "nater_potater123"
 location:
-gallery: "instagram-2025-08-02-165920-had-a-great-time-with-nater-potater123-today"
 tags:
   - "instagram"
 categories: []
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Had a great time with @nater_potater123 today"
 ---
-
 Had a great time with [@nater_potater123](https://www.instagram.com/nater_potater123/) today
-
-{% include gallery.html gallery="instagram-2025-08-02-165920-had-a-great-time-with-nater-potater123-today" %}
-

@@ -11,7 +11,6 @@ year: 2019
 month: 09
 day: 24
 weekday: Tuesday
-gallery: "instagram-2019-09-24-230854-overwatch"
 source:
   type: instagram
   uri: "media/other/17854264942573814.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/09/24/230854-overwatch.html"
 index: 1
 ---
-
 

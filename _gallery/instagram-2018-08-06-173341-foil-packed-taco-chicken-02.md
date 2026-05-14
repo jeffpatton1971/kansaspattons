@@ -10,7 +10,6 @@ year: 2018
 month: 08
 day: 06
 weekday: Monday
-gallery: "instagram-2018-08-06-173341-foil-packed-taco-chicken"
 source:
   type: instagram
   uri: "media/posts/201808/17893262779243398.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/08/06/173341-foil-packed-taco-chicken.html"
 index: 2
 ---
-
 

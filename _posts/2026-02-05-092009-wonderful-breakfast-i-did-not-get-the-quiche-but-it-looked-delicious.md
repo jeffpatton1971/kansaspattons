@@ -15,11 +15,15 @@ source:
   caption: "Wonderful #breakfast I did not get the quiche but it looked delicious"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2026-02-05-092009-wonderful-breakfast-i-did-not-get-the-quiche-but-it-looked-delicious-01
+images:
+  - id: instagram-2026-02-05-092009-wonderful-breakfast-i-did-not-get-the-quiche-but-it-looked-delicious-01
+    caption:
+    alt:
 hashtags:
   - "breakfast"
 handles: []
 location:
-gallery: "instagram-2026-02-05-092009-wonderful-breakfast-i-did-not-get-the-quiche-but-it-looked-delicious"
 tags:
   - "breakfast"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Wonderful #breakfast I did not get the quiche but it looked delicious"
 ---
-
 Wonderful [#breakfast](https://www.instagram.com/explore/tags/breakfast/) I did not get the quiche but it looked delicious
-
-{% include gallery.html gallery="instagram-2026-02-05-092009-wonderful-breakfast-i-did-not-get-the-quiche-but-it-looked-delicious" %}
-

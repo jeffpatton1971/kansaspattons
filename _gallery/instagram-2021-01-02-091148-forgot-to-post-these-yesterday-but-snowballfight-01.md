@@ -11,7 +11,6 @@ year: 2021
 month: 01
 day: 02
 weekday: Saturday
-gallery: "instagram-2021-01-02-091148-forgot-to-post-these-yesterday-but-snowballfight"
 source:
   type: instagram
   uri: "media/posts/202101/17921600887502114.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/01/02/091148-forgot-to-post-these-yesterday-but-snowballfight.html"
 index: 1
 ---
-
 

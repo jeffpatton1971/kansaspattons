@@ -10,7 +10,6 @@ year: 2015
 month: 08
 day: 03
 weekday: Monday
-gallery: "instagram-2015-08-03-195410-watching-e-t-the-extraterrestrial-with-these-two"
 source:
   type: instagram
   uri: "media/other/17842091824063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2015/08/03/195410-watching-e-t-the-extraterrestrial-with-these-two.html"
 index: 1
 ---
-
 

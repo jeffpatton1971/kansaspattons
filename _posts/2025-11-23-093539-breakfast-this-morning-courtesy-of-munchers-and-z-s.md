@@ -15,11 +15,15 @@ source:
   caption: "#breakfast this morning courtesy of munchers and z’s"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-11-23-093539-breakfast-this-morning-courtesy-of-munchers-and-z-s-01
+images:
+  - id: instagram-2025-11-23-093539-breakfast-this-morning-courtesy-of-munchers-and-z-s-01
+    caption:
+    alt:
 hashtags:
   - "breakfast"
 handles: []
 location:
-gallery: "instagram-2025-11-23-093539-breakfast-this-morning-courtesy-of-munchers-and-z-s"
 tags:
   - "breakfast"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "#breakfast this morning courtesy of munchers and z’s"
 ---
-
 [#breakfast](https://www.instagram.com/explore/tags/breakfast/) this morning courtesy of munchers and z’s
-
-{% include gallery.html gallery="instagram-2025-11-23-093539-breakfast-this-morning-courtesy-of-munchers-and-z-s" %}
-

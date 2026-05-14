@@ -15,10 +15,14 @@ source:
   caption: "Watching E.T. The Extraterrestrial with these two"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2015-08-03-195410-watching-e-t-the-extraterrestrial-with-these-two-01
+images:
+  - id: instagram-2015-08-03-195410-watching-e-t-the-extraterrestrial-with-these-two-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2015-08-03-195410-watching-e-t-the-extraterrestrial-with-these-two"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Watching E.T. The Extraterrestrial with these two"
 ---
-
 Watching E.T. The Extraterrestrial with these two
-
-{% include gallery.html gallery="instagram-2015-08-03-195410-watching-e-t-the-extraterrestrial-with-these-two" %}
-

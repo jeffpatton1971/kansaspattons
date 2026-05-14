@@ -15,10 +15,14 @@ source:
   caption: "Hibiscus look kinda spooky in black and white as well"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-07-15-200529-hibiscus-look-kinda-spooky-in-black-and-white-as-well-01
+images:
+  - id: instagram-2021-07-15-200529-hibiscus-look-kinda-spooky-in-black-and-white-as-well-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-07-15-200529-hibiscus-look-kinda-spooky-in-black-and-white-as-well"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Hibiscus look kinda spooky in black and white as well"
 ---
-
 Hibiscus look kinda spooky in black and white as well
-
-{% include gallery.html gallery="instagram-2021-07-15-200529-hibiscus-look-kinda-spooky-in-black-and-white-as-well" %}
-

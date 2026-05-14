@@ -10,7 +10,6 @@ year: 2018
 month: 10
 day: 31
 weekday: Wednesday
-gallery: "instagram-2018-10-31-181326-trick-or-treat"
 source:
   type: instagram
   uri: "media/other/17917202791244120.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/10/31/181326-trick-or-treat.html"
 index: 1
 ---
-
 

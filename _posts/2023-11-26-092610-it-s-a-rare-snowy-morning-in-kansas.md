@@ -15,13 +15,17 @@ source:
   caption: "It’s a rare #snowy #morning in #kansas"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2023-11-26-092610-it-s-a-rare-snowy-morning-in-kansas-01
+images:
+  - id: instagram-2023-11-26-092610-it-s-a-rare-snowy-morning-in-kansas-01
+    caption:
+    alt:
 hashtags:
   - "snowy"
   - "morning"
   - "kansas"
 handles: []
 location:
-gallery: "instagram-2023-11-26-092610-it-s-a-rare-snowy-morning-in-kansas"
 tags:
   - "snowy"
   - "morning"
@@ -32,8 +36,4 @@ authors:
   - "Jeff Patton"
 summary: "It’s a rare #snowy #morning in #kansas"
 ---
-
 It’s a rare [#snowy](https://www.instagram.com/explore/tags/snowy/) [#morning](https://www.instagram.com/explore/tags/morning/) in [#kansas](https://www.instagram.com/explore/tags/kansas/)
-
-{% include gallery.html gallery="instagram-2023-11-26-092610-it-s-a-rare-snowy-morning-in-kansas" %}
-

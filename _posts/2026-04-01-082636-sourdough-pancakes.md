@@ -15,10 +15,14 @@ source:
   caption: "Sourdough pancakes 🖤💛"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2026-04-01-082636-sourdough-pancakes-01
+images:
+  - id: instagram-2026-04-01-082636-sourdough-pancakes-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2026-04-01-082636-sourdough-pancakes"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Sourdough pancakes 🖤💛"
 ---
-
 Sourdough pancakes 🖤💛
-
-{% include gallery.html gallery="instagram-2026-04-01-082636-sourdough-pancakes" %}
-

@@ -15,10 +15,14 @@ source:
   caption: "Six days out my tree"
   media_count: 6
   cross_post_source: "FB"
+cover_image: instagram-2021-11-16-200315-six-days-out-my-tree-01
+related:
+  - type: gallery
+    id: instagram-2021-11-16-200315-six-days-out-my-tree
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-11-16-200315-six-days-out-my-tree"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Six days out my tree"
 ---
-
 Six days out my tree
-
-{% include gallery.html gallery="instagram-2021-11-16-200315-six-days-out-my-tree" %}
-

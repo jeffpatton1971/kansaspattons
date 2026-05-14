@@ -161,6 +161,7 @@ Classification rule:
 
 - All `_posts` Markdown files are now expected to carry explicit `content_type`, `slug`, `post_id`, `status`, `authors`, and `summary` frontmatter.
 - Direct post images can be authored with rich `images` frontmatter. The compiler resolves those entries into generated `imageIds` and `coverImage`.
+- The source migration policy treats `1-3` images as direct `images` attachments and `4+` images as first-class galleries referenced through `related`.
 - `content_type: article` becomes `type: "article"` and `contentShape: "post"`.
 - `content_type: story` becomes `type: "story"` and `contentShape: "story"`.
 - `content_type: gallery` becomes a gallery metadata source and is merged into the generated gallery with the same `gallery` ID.

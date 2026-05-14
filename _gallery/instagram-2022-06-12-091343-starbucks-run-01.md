@@ -10,7 +10,6 @@ year: 2022
 month: 06
 day: 12
 weekday: Sunday
-gallery: "instagram-2022-06-12-091343-starbucks-run"
 source:
   type: instagram
   uri: "media/other/17956939447733227.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/06/12/091343-starbucks-run.html"
 index: 1
 ---
-
 

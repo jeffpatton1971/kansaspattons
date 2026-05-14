@@ -15,10 +15,14 @@ source:
   caption: "my sister is better than yours"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2022-11-13-223215-my-sister-is-better-than-yours-01
+images:
+  - id: instagram-2022-11-13-223215-my-sister-is-better-than-yours-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2022-11-13-223215-my-sister-is-better-than-yours"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "my sister is better than yours"
 ---
-
 my sister is better than yours
-
-{% include gallery.html gallery="instagram-2022-11-13-223215-my-sister-is-better-than-yours" %}
-

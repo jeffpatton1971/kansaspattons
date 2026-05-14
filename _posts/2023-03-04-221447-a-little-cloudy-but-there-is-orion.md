@@ -15,10 +15,14 @@ source:
   caption: "a little cloudy but there is orion"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2023-03-04-221447-a-little-cloudy-but-there-is-orion-01
+images:
+  - id: instagram-2023-03-04-221447-a-little-cloudy-but-there-is-orion-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2023-03-04-221447-a-little-cloudy-but-there-is-orion"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "a little cloudy but there is orion"
 ---
-
 a little cloudy but there is orion
-
-{% include gallery.html gallery="instagram-2023-03-04-221447-a-little-cloudy-but-there-is-orion" %}
-

@@ -10,7 +10,6 @@ year: 2025
 month: 06
 day: 23
 weekday: Monday
-gallery: "instagram-2025-06-23-104538-nice-walk-this-morning"
 source:
   type: instagram
   uri: "media/posts/202506/18053098619105233.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/06/23/104538-nice-walk-this-morning.html"
 index: 1
 ---
-
 

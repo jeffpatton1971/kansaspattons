@@ -10,7 +10,6 @@ year: 2026
 month: 04
 day: 10
 weekday: Friday
-gallery: "instagram-2026-04-10-220141-breakfast-in-lawrence-and-dinner-in-crystal-lake"
 source:
   type: instagram
   uri: "media/posts/202604/18387459607088146.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/04/10/220141-breakfast-in-lawrence-and-dinner-in-crystal-lake.html"
 index: 1
 ---
-
 

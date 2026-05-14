@@ -15,10 +15,14 @@ source:
   caption: "Nate super enjoyed the fishing"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2018-06-24-075456-nate-super-enjoyed-the-fishing-01
+related:
+  - type: gallery
+    id: instagram-2018-06-24-075456-nate-super-enjoyed-the-fishing
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-06-24-075456-nate-super-enjoyed-the-fishing"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Nate super enjoyed the fishing"
 ---
-
 Nate super enjoyed the fishing
-
-{% include gallery.html gallery="instagram-2018-06-24-075456-nate-super-enjoyed-the-fishing" %}
-

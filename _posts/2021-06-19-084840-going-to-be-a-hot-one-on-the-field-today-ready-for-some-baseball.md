@@ -15,10 +15,14 @@ source:
   caption: "Going to be a hot one on the field today…Ready for some baseball"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-06-19-084840-going-to-be-a-hot-one-on-the-field-today-ready-for-some-baseball-01
+images:
+  - id: instagram-2021-06-19-084840-going-to-be-a-hot-one-on-the-field-today-ready-for-some-baseball-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-06-19-084840-going-to-be-a-hot-one-on-the-field-today-ready-for-some-baseball"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Going to be a hot one on the field today…Ready for some baseball"
 ---
-
 Going to be a hot one on the field today…Ready for some baseball
-
-{% include gallery.html gallery="instagram-2021-06-19-084840-going-to-be-a-hot-one-on-the-field-today-ready-for-some-baseball" %}
-

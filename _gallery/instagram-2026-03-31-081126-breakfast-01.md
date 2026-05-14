@@ -11,7 +11,6 @@ year: 2026
 month: 03
 day: 31
 weekday: Tuesday
-gallery: "instagram-2026-03-31-081126-breakfast"
 source:
   type: instagram
   uri: "media/posts/202603/18066082649666747.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/03/31/081126-breakfast.html"
 index: 1
 ---
-
 

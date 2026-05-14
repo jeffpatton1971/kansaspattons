@@ -15,10 +15,14 @@ source:
   caption: "Mornings like this"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-08-23-074014-mornings-like-this-01
+images:
+  - id: instagram-2019-08-23-074014-mornings-like-this-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-08-23-074014-mornings-like-this"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Mornings like this"
 ---
-
 Mornings like this
-
-{% include gallery.html gallery="instagram-2019-08-23-074014-mornings-like-this" %}
-

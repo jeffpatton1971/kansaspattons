@@ -12,7 +12,11 @@ source:
   type: wordpress
   id: 818
   url: "https://jeffspatton.wordpress.com/2013/07/16/july-16-2013/"
-gallery: "wordpress-2013-07-16-173447-july-16-2013"
+cover_image: "2013-07-16-wp-20130716-001"
+related:
+  - type: gallery
+    id: wordpress-2013-07-16-173447-july-16-2013
+    rel: photos
 categories:
   - "Nathan"
   - cancer
@@ -51,5 +55,3 @@ We enjoyed the various exhibits, there was a fun little tide pool where you coul
 After the Aquarium we went back to Crown Center for dessert. We got ice cream from Sheridan’s, I had a Butterfinger and M&M concrete, everyone else had chocolate ice cream…really?
 
 While we we’re still terribly worried and concerned about Nathan, it was a nice end to the day.
-
-{% include gallery.html gallery="wordpress-2013-07-16-173447-july-16-2013" %}

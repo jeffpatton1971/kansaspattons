@@ -12,7 +12,6 @@ year: 2025
 month: 03
 day: 29
 weekday: Saturday
-gallery: "instagram-2025-03-29-105011-how-everyone-feels-because-taylor-didn-t-announce-reptv-we-all-just-reptvclowns"
 source:
   type: instagram
   uri: "media/posts/202503/18024200621449721.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/03/29/105011-how-everyone-feels-because-taylor-didn-t-announce-reptv-we-all-just-reptvclowns.html"
 index: 1
 ---
-
 

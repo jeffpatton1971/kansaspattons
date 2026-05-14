@@ -11,7 +11,6 @@ year: 2020
 month: 06
 day: 06
 weekday: Saturday
-gallery: "instagram-2020-06-06-223155-nightlife"
 source:
   type: instagram
   uri: "media/other/17884481284600689.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/06/06/223155-nightlife.html"
 index: 1
 ---
-
 

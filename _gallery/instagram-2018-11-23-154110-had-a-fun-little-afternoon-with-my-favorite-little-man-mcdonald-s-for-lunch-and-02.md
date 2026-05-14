@@ -10,7 +10,6 @@ year: 2018
 month: 11
 day: 23
 weekday: Friday
-gallery: "instagram-2018-11-23-154110-had-a-fun-little-afternoon-with-my-favorite-little-man-mcdonald-s-for-lunch-and"
 source:
   type: instagram
   uri: "media/posts/201811/17872416814294495.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/11/23/154110-had-a-fun-little-afternoon-with-my-favorite-little-man-mcdonald-s-for-lunch-and.html"
 index: 2
 ---
-
 

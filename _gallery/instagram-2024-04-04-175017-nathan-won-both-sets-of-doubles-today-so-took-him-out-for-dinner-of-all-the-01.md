@@ -11,7 +11,6 @@ year: 2024
 month: 04
 day: 04
 weekday: Thursday
-gallery: "instagram-2024-04-04-175017-nathan-won-both-sets-of-doubles-today-so-took-him-out-for-dinner-of-all-the"
 source:
   type: instagram
   uri: "media/posts/202404/18426708505020171.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/04/04/175017-nathan-won-both-sets-of-doubles-today-so-took-him-out-for-dinner-of-all-the.html"
 index: 1
 ---
-
 

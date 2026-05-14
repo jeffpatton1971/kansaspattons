@@ -10,7 +10,6 @@ year: 2020
 month: 01
 day: 01
 weekday: Wednesday
-gallery: "instagram-2020-01-01-103740-starting-off-the-new-year-with-a-great-breakfast"
 source:
   type: instagram
   uri: "media/other/17860450090629591.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/01/01/103740-starting-off-the-new-year-with-a-great-breakfast.html"
 index: 1
 ---
-
 

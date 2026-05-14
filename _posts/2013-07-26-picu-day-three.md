@@ -12,7 +12,11 @@ source:
   type: wordpress
   id: 1151
   url: "https://jeffspatton.wordpress.com/2013/07/26/july-26-2013/"
-gallery: "wordpress-2013-07-26-144934-july-26-2013"
+cover_image: "2013-07-26-wp-20130726-002"
+related:
+  - type: gallery
+    id: wordpress-2013-07-26-144934-july-26-2013
+    rel: photos
 categories:
   - "Nathan"
   - cancer
@@ -29,5 +33,3 @@ The only bad news is, it sounds like we’ll be in the PICU over the weekend. It
 While this may sound gross, there was more good news today; Nathan had two BM’s! That means that his bowels are waking up and he should be able to eat soon! He is also much more like his normal self, having all those tubes and things out he is more animated and more talkative. I would imagine that some of that is due to less pain medication, but I think he’s also healing very well.
 
 Nathan went on two walks the first one was rather short, but the second was much longer, he walked from his room across the floor and over to the PED’s unit. They have a playroom over there that he enjoyed quite a bit. We even had a visit from Aunt Lavonne who brought Nathan a few gifts and got to watch him walk around.
-
-{% include gallery.html gallery="wordpress-2013-07-26-144934-july-26-2013" %}

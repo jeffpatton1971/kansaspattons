@@ -15,11 +15,15 @@ source:
   caption: "It’s Levi-oh-sah #harrypotterworld"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2025-09-12-151411-it-s-levi-oh-sah-harrypotterworld-01
+related:
+  - type: gallery
+    id: instagram-2025-09-12-151411-it-s-levi-oh-sah-harrypotterworld
+    rel: photos
 hashtags:
   - "harrypotterworld"
 handles: []
 location:
-gallery: "instagram-2025-09-12-151411-it-s-levi-oh-sah-harrypotterworld"
 tags:
   - "harrypotterworld"
   - "instagram"
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "It’s Levi-oh-sah #harrypotterworld"
 ---
-
 It’s Levi-oh-sah [#harrypotterworld](https://www.instagram.com/explore/tags/harrypotterworld/)
-
-{% include gallery.html gallery="instagram-2025-09-12-151411-it-s-levi-oh-sah-harrypotterworld" %}
-

@@ -15,10 +15,14 @@ source:
   caption: "What a wonderful time this evening with some truly wonderful and special kids!"
   media_count: 5
   cross_post_source: "FB"
+cover_image: instagram-2018-09-25-193924-what-a-wonderful-time-this-evening-with-some-truly-wonderful-and-special-kids-01
+related:
+  - type: gallery
+    id: instagram-2018-09-25-193924-what-a-wonderful-time-this-evening-with-some-truly-wonderful-and-special-kids
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-09-25-193924-what-a-wonderful-time-this-evening-with-some-truly-wonderful-and-special-kids"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "What a wonderful time this evening with some truly wonderful and special kids!"
 ---
-
 What a wonderful time this evening with some truly wonderful and special kids!
-
-{% include gallery.html gallery="instagram-2018-09-25-193924-what-a-wonderful-time-this-evening-with-some-truly-wonderful-and-special-kids" %}
-

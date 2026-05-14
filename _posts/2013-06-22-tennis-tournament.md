@@ -12,7 +12,11 @@ source:
   type: wordpress
   id: 717
   url: "https://jeffspatton.wordpress.com/2013/06/22/june-22-2013/"
-gallery: "wordpress-2013-06-22-074704-june-22-2013"
+cover_image: "2013-06-22-wp-20130622-004"
+related:
+  - type: gallery
+    id: wordpress-2013-06-22-074704-june-22-2013
+    rel: photos
 categories:
   - "family"
   - "Natalie"
@@ -35,5 +39,3 @@ In the afternoon Natalie had a tennis tournament at Wood Valley. They played for
 Finally we took Natalie swimming, she has been begging to go and it was really nice out. I can’t say that the water was warm, but you did eventually get used to it!
 
 {% include youtubePlayer.html id="ZZqnDFOPxFk" %}
-
-{% include gallery.html gallery="wordpress-2013-06-22-074704-june-22-2013" %}

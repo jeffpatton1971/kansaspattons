@@ -11,7 +11,6 @@ year: 2025
 month: 10
 day: 22
 weekday: Wednesday
-gallery: "instagram-2025-10-22-081237-late-start-breakfast"
 source:
   type: instagram
   uri: "media/posts/202510/18526555393065509.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/10/22/081237-late-start-breakfast.html"
 index: 1
 ---
-
 

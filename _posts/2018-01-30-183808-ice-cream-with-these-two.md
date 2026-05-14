@@ -15,10 +15,14 @@ source:
   caption: "Ice cream with these two"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-01-30-183808-ice-cream-with-these-two-01
+images:
+  - id: instagram-2018-01-30-183808-ice-cream-with-these-two-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-01-30-183808-ice-cream-with-these-two"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Ice cream with these two"
 ---
-
 Ice cream with these two
-
-{% include gallery.html gallery="instagram-2018-01-30-183808-ice-cream-with-these-two" %}
-

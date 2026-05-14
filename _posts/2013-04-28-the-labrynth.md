@@ -12,7 +12,11 @@ source:
   type: wordpress
   id: 400
   url: "https://jeffspatton.wordpress.com/2013/04/28/april-28-2013/"
-gallery: "wordpress-2013-04-28-220350-april-28-2013"
+cover_image: "2013-04-28-wp-20130428-001"
+related:
+  - type: gallery
+    id: wordpress-2013-04-28-220350-april-28-2013
+    rel: photos
 categories:
   - "Natalie"
   - "CPLS"
@@ -26,6 +30,5 @@ Natalie started working on her final project for school today. Her project is ab
 
 Here are the pictures
 
-{% include gallery.html gallery="wordpress-2013-04-28-220350-april-28-2013" %}
 
 Next week we put in the Minotaur and some decorations, stay tuned!

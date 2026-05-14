@@ -15,12 +15,16 @@ source:
   caption: "Had a wonderful time at @lostvalleyranch with @cairparaveltopeka thanks for the lifetime memories"
   media_count: 10
   cross_post_source: "FB"
+cover_image: instagram-2019-05-03-105430-had-a-wonderful-time-at-lostvalleyranch-with-cairparaveltopeka-thanks-for-the-01
+related:
+  - type: gallery
+    id: instagram-2019-05-03-105430-had-a-wonderful-time-at-lostvalleyranch-with-cairparaveltopeka-thanks-for-the
+    rel: photos
 hashtags: []
 handles:
   - "lostvalleyranch"
   - "cairparaveltopeka"
 location:
-gallery: "instagram-2019-05-03-105430-had-a-wonderful-time-at-lostvalleyranch-with-cairparaveltopeka-thanks-for-the"
 tags:
   - "instagram"
 categories: []
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Had a wonderful time at @lostvalleyranch with @cairparaveltopeka thanks for the lifetime memories"
 ---
-
 Had a wonderful time at [@lostvalleyranch](https://www.instagram.com/lostvalleyranch/) with [@cairparaveltopeka](https://www.instagram.com/cairparaveltopeka/) thanks for the lifetime memories
-
-{% include gallery.html gallery="instagram-2019-05-03-105430-had-a-wonderful-time-at-lostvalleyranch-with-cairparaveltopeka-thanks-for-the" %}
-

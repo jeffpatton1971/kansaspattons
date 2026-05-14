@@ -15,10 +15,14 @@ source:
   caption: "A little Boo at the Zoo fun today!"
   media_count: 7
   cross_post_source: "FB"
+cover_image: instagram-2018-10-27-134711-a-little-boo-at-the-zoo-fun-today-01
+related:
+  - type: gallery
+    id: instagram-2018-10-27-134711-a-little-boo-at-the-zoo-fun-today
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-10-27-134711-a-little-boo-at-the-zoo-fun-today"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "A little Boo at the Zoo fun today!"
 ---
-
 A little Boo at the Zoo fun today!
-
-{% include gallery.html gallery="instagram-2018-10-27-134711-a-little-boo-at-the-zoo-fun-today" %}
-

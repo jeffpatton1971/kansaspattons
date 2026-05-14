@@ -15,10 +15,14 @@ source:
   caption: "Nice family picnic"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-06-05-122014-nice-family-picnic-01
+images:
+  - id: instagram-2021-06-05-122014-nice-family-picnic-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-06-05-122014-nice-family-picnic"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Nice family picnic"
 ---
-
 Nice family picnic
-
-{% include gallery.html gallery="instagram-2021-06-05-122014-nice-family-picnic" %}
-

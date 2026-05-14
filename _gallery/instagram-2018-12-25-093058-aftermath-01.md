@@ -10,7 +10,6 @@ year: 2018
 month: 12
 day: 25
 weekday: Tuesday
-gallery: "instagram-2018-12-25-093058-aftermath"
 source:
   type: instagram
   uri: "media/other/18011112211069478.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/12/25/093058-aftermath.html"
 index: 1
 ---
-
 

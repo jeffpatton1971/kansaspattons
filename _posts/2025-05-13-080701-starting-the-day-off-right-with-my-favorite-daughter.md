@@ -15,10 +15,14 @@ source:
   caption: "Starting the day off right with my favorite daughter"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-05-13-080701-starting-the-day-off-right-with-my-favorite-daughter-01
+images:
+  - id: instagram-2025-05-13-080701-starting-the-day-off-right-with-my-favorite-daughter-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-05-13-080701-starting-the-day-off-right-with-my-favorite-daughter"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Starting the day off right with my favorite daughter"
 ---
-
 Starting the day off right with my favorite daughter
-
-{% include gallery.html gallery="instagram-2025-05-13-080701-starting-the-day-off-right-with-my-favorite-daughter" %}
-

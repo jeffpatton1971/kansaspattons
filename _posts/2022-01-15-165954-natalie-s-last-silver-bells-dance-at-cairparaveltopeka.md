@@ -15,11 +15,15 @@ source:
   caption: "Natalie’s last Silver Bells dance at @cairparaveltopeka"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2022-01-15-165954-natalie-s-last-silver-bells-dance-at-cairparaveltopeka-01
+images:
+  - id: instagram-2022-01-15-165954-natalie-s-last-silver-bells-dance-at-cairparaveltopeka-01
+    caption:
+    alt:
 hashtags: []
 handles:
   - "cairparaveltopeka"
 location:
-gallery: "instagram-2022-01-15-165954-natalie-s-last-silver-bells-dance-at-cairparaveltopeka"
 tags:
   - "instagram"
 categories:
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Natalie’s last Silver Bells dance at @cairparaveltopeka"
 ---
-
 Natalie’s last Silver Bells dance at [@cairparaveltopeka](https://www.instagram.com/cairparaveltopeka/)
-
-{% include gallery.html gallery="instagram-2022-01-15-165954-natalie-s-last-silver-bells-dance-at-cairparaveltopeka" %}
-

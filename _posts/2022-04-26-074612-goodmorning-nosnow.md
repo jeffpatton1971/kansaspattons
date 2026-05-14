@@ -15,12 +15,16 @@ source:
   caption: "#goodmorning #nosnow"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2022-04-26-074612-goodmorning-nosnow-01
+images:
+  - id: instagram-2022-04-26-074612-goodmorning-nosnow-01
+    caption:
+    alt:
 hashtags:
   - "goodmorning"
   - "nosnow"
 handles: []
 location:
-gallery: "instagram-2022-04-26-074612-goodmorning-nosnow"
 tags:
   - "goodmorning"
   - "nosnow"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "#goodmorning #nosnow"
 ---
-
 [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#nosnow](https://www.instagram.com/explore/tags/nosnow/)
-
-{% include gallery.html gallery="instagram-2022-04-26-074612-goodmorning-nosnow" %}
-

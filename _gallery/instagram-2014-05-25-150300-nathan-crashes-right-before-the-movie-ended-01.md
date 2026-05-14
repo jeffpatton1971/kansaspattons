@@ -10,7 +10,6 @@ year: 2014
 month: 05
 day: 25
 weekday: Sunday
-gallery: "instagram-2014-05-25-150300-nathan-crashes-right-before-the-movie-ended"
 source:
   type: instagram
   uri: "media/other/17842502431063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/05/25/150300-nathan-crashes-right-before-the-movie-ended.html"
 index: 1
 ---
-
 

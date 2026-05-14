@@ -12,7 +12,11 @@ source:
   type: wordpress
   id: 221
   url: "https://jeffspatton.wordpress.com/2013/04/19/april-19-2013/"
-gallery: "wordpress-2013-04-19-171526-april-19-2013"
+cover_image: "2013-04-19-wp-20130419-001"
+related:
+  - type: gallery
+    id: wordpress-2013-04-19-171526-april-19-2013
+    rel: photos
 categories:
   - "Natalie"
   - "CPLS"
@@ -32,6 +36,5 @@ The hearing station was neat, they had a steel grill that they held up to their 
 
 The last station, was a lack of senses, they got to see braille books and make a braille bookmark using seeds to make the bumps for their names. Then they got to see how their brain works by tracing a picture by looking only in a mirror. It was more difficult than it looked, if you want to go left go right kinda stuff.
 
-{% include gallery.html gallery="wordpress-2013-04-19-171526-april-19-2013" %}
 
 {% include youtubePlayer.html id="HWFXMq8vOfE" %}

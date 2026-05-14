@@ -11,7 +11,6 @@ year: 2023
 month: 12
 day: 26
 weekday: Tuesday
-gallery: "instagram-2023-12-26-185739-this-is-where-they-filmed-the-groundhogdaymovie"
 source:
   type: instagram
   uri: "media/posts/202312/18025196434852272.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/12/26/185739-this-is-where-they-filmed-the-groundhogdaymovie.html"
 index: 1
 ---
-
 

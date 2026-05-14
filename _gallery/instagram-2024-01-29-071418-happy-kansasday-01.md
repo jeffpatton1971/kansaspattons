@@ -11,7 +11,6 @@ year: 2024
 month: 01
 day: 29
 weekday: Monday
-gallery: "instagram-2024-01-29-071418-happy-kansasday"
 source:
   type: instagram
   uri: "media/posts/202401/18086217499412589.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/01/29/071418-happy-kansasday.html"
 index: 1
 ---
-
 

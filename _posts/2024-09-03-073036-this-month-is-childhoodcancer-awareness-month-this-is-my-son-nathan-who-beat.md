@@ -15,12 +15,16 @@ source:
   caption: "This month is #childhoodcancer awareness month. This is my son Nathan who beat #hepatoblastoma 11yrs ago this month!  We think about all the children we met on our journey and not all of them were as lucky as he."
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2024-09-03-073036-this-month-is-childhoodcancer-awareness-month-this-is-my-son-nathan-who-beat-01
+images:
+  - id: instagram-2024-09-03-073036-this-month-is-childhoodcancer-awareness-month-this-is-my-son-nathan-who-beat-01
+    caption:
+    alt:
 hashtags:
   - "childhoodcancer"
   - "hepatoblastoma"
 handles: []
 location:
-gallery: "instagram-2024-09-03-073036-this-month-is-childhoodcancer-awareness-month-this-is-my-son-nathan-who-beat"
 tags:
   - "childhoodcancer"
   - "hepatoblastoma"
@@ -31,8 +35,4 @@ authors:
   - "Jeff Patton"
 summary: "This month is #childhoodcancer awareness month. This is my son Nathan who beat #hepatoblastoma 11yrs ago this month!  We think about all the children we met on our journey and not all of them were as lucky as he."
 ---
-
 This month is [#childhoodcancer](https://www.instagram.com/explore/tags/childhoodcancer/) awareness month. This is my son Nathan who beat [#hepatoblastoma](https://www.instagram.com/explore/tags/hepatoblastoma/) 11yrs ago this month!  We think about all the children we met on our journey and not all of them were as lucky as he.
-
-{% include gallery.html gallery="instagram-2024-09-03-073036-this-month-is-childhoodcancer-awareness-month-this-is-my-son-nathan-who-beat" %}
-

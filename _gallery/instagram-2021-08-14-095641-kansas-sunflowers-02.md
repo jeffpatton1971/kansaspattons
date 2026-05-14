@@ -12,7 +12,6 @@ year: 2021
 month: 08
 day: 14
 weekday: Saturday
-gallery: "instagram-2021-08-14-095641-kansas-sunflowers"
 source:
   type: instagram
   uri: "media/posts/202108/17906953232065493.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/08/14/095641-kansas-sunflowers.html"
 index: 2
 ---
-
 

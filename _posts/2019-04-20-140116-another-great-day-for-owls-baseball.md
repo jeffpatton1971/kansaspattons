@@ -15,10 +15,14 @@ source:
   caption: "Another great day for Owls baseball"
   media_count: 6
   cross_post_source: "FB"
+cover_image: instagram-2019-04-20-140116-another-great-day-for-owls-baseball-01
+related:
+  - type: gallery
+    id: instagram-2019-04-20-140116-another-great-day-for-owls-baseball
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-04-20-140116-another-great-day-for-owls-baseball"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Another great day for Owls baseball"
 ---
-
 Another great day for Owls baseball
-
-{% include gallery.html gallery="instagram-2019-04-20-140116-another-great-day-for-owls-baseball" %}
-

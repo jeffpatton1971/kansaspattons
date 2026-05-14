@@ -15,10 +15,17 @@ source:
   caption: "Loaded up and headed to Virginia"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2025-04-20-200425-loaded-up-and-headed-to-virginia-01
+images:
+  - id: instagram-2025-04-20-200425-loaded-up-and-headed-to-virginia-01
+    caption:
+    alt:
+  - id: instagram-2025-04-20-200425-loaded-up-and-headed-to-virginia-02
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-04-20-200425-loaded-up-and-headed-to-virginia"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "Loaded up and headed to Virginia"
 ---
-
 Loaded up and headed to Virginia
-
-{% include gallery.html gallery="instagram-2025-04-20-200425-loaded-up-and-headed-to-virginia" %}
-

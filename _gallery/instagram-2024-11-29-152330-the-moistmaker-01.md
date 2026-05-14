@@ -10,7 +10,6 @@ year: 2024
 month: 11
 day: 29
 weekday: Friday
-gallery: "instagram-2024-11-29-152330-the-moistmaker"
 source:
   type: instagram
   uri: "media/posts/202411/17924800835989948.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/11/29/152330-the-moistmaker.html"
 index: 1
 ---
-
 

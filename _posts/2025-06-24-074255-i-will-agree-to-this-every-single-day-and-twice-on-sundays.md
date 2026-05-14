@@ -15,10 +15,14 @@ source:
   caption: "I will agree to this every single day and twice on Sundays"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-06-24-074255-i-will-agree-to-this-every-single-day-and-twice-on-sundays-01
+images:
+  - id: instagram-2025-06-24-074255-i-will-agree-to-this-every-single-day-and-twice-on-sundays-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-06-24-074255-i-will-agree-to-this-every-single-day-and-twice-on-sundays"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "I will agree to this every single day and twice on Sundays"
 ---
-
 I will agree to this every single day and twice on Sundays
-
-{% include gallery.html gallery="instagram-2025-06-24-074255-i-will-agree-to-this-every-single-day-and-twice-on-sundays" %}
-

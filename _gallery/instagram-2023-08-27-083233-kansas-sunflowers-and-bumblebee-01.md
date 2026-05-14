@@ -13,7 +13,6 @@ year: 2023
 month: 08
 day: 27
 weekday: Sunday
-gallery: "instagram-2023-08-27-083233-kansas-sunflowers-and-bumblebee"
 source:
   type: instagram
   uri: "media/posts/202308/18041497837507840.jpg"
@@ -27,5 +26,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/08/27/083233-kansas-sunflowers-and-bumblebee.html"
 index: 1
 ---
-
 

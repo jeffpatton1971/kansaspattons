@@ -15,10 +15,14 @@ source:
   caption: "Huge milestone for Nathan! While it left scars on us all, we won this battle!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-09-27-073626-huge-milestone-for-nathan-while-it-left-scars-on-us-all-we-won-this-battle-01
+images:
+  - id: instagram-2018-09-27-073626-huge-milestone-for-nathan-while-it-left-scars-on-us-all-we-won-this-battle-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-09-27-073626-huge-milestone-for-nathan-while-it-left-scars-on-us-all-we-won-this-battle"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Huge milestone for Nathan! While it left scars on us all, we won this battle!"
 ---
-
 Huge milestone for Nathan! While it left scars on us all, we won this battle!
-
-{% include gallery.html gallery="instagram-2018-09-27-073626-huge-milestone-for-nathan-while-it-left-scars-on-us-all-we-won-this-battle" %}
-

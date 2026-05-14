@@ -11,7 +11,6 @@ year: 2023
 month: 09
 day: 30
 weekday: Saturday
-gallery: "instagram-2023-09-30-104342-our-hibiscus"
 source:
   type: instagram
   uri: "media/posts/202309/17967742796631489.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/09/30/104342-our-hibiscus.html"
 index: 1
 ---
-
 

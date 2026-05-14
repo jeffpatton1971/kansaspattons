@@ -10,7 +10,6 @@ year: 2020
 month: 04
 day: 07
 weekday: Tuesday
-gallery: "instagram-2020-04-07-175011-just-some-baby-birds-in-a-nest-above-the-deck"
 source:
   type: instagram
   uri: "media/other/18099922843082547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/04/07/175011-just-some-baby-birds-in-a-nest-above-the-deck.html"
 index: 1
 ---
-
 

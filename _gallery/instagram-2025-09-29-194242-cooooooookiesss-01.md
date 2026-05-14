@@ -10,7 +10,6 @@ year: 2025
 month: 09
 day: 29
 weekday: Monday
-gallery: "instagram-2025-09-29-194242-cooooooookiesss"
 source:
   type: instagram
   uri: "media/posts/202509/18345937840164077.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/09/29/194242-cooooooookiesss.html"
 index: 1
 ---
-
 

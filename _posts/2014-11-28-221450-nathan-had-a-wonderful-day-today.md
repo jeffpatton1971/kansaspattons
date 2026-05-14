@@ -15,10 +15,14 @@ source:
   caption: "Nathan had a wonderful day today!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-11-28-221450-nathan-had-a-wonderful-day-today-01
+images:
+  - id: instagram-2014-11-28-221450-nathan-had-a-wonderful-day-today-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2014-11-28-221450-nathan-had-a-wonderful-day-today"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Nathan had a wonderful day today!"
 ---
-
 Nathan had a wonderful day today!
-
-{% include gallery.html gallery="instagram-2014-11-28-221450-nathan-had-a-wonderful-day-today" %}
-

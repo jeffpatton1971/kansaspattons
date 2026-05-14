@@ -10,7 +10,6 @@ year: 2025
 month: 03
 day: 22
 weekday: Saturday
-gallery: "instagram-2025-03-22-191027-my-next-shipment-from-cometeer-arrived-who-needs-to-eat-when-you-can-have"
 source:
   type: instagram
   uri: "media/posts/202503/17883924903144975.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/03/22/191027-my-next-shipment-from-cometeer-arrived-who-needs-to-eat-when-you-can-have.html"
 index: 1
 ---
-
 

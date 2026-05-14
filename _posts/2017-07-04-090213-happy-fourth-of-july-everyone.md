@@ -15,10 +15,14 @@ source:
   caption: "Happy fourth of July everyone"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2017-07-04-090213-happy-fourth-of-july-everyone-01
+images:
+  - id: instagram-2017-07-04-090213-happy-fourth-of-july-everyone-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2017-07-04-090213-happy-fourth-of-july-everyone"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Happy fourth of July everyone"
 ---
-
 Happy fourth of July everyone
-
-{% include gallery.html gallery="instagram-2017-07-04-090213-happy-fourth-of-july-everyone" %}
-

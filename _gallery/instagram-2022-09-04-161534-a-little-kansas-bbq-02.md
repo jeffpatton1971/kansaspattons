@@ -11,7 +11,6 @@ year: 2022
 month: 09
 day: 04
 weekday: Sunday
-gallery: "instagram-2022-09-04-161534-a-little-kansas-bbq"
 source:
   type: instagram
   uri: "media/posts/202209/18155379685250684.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/09/04/161534-a-little-kansas-bbq.html"
 index: 2
 ---
-
 

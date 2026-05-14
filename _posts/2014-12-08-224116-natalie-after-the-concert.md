@@ -15,10 +15,14 @@ source:
   caption: "Natalie after the concert"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-12-08-224116-natalie-after-the-concert-01
+images:
+  - id: instagram-2014-12-08-224116-natalie-after-the-concert-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2014-12-08-224116-natalie-after-the-concert"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Natalie after the concert"
 ---
-
 Natalie after the concert
-
-{% include gallery.html gallery="instagram-2014-12-08-224116-natalie-after-the-concert" %}
-

@@ -15,11 +15,15 @@ source:
   caption: "My next shipment from @cometeer arrived…who needs to eat when you can have amazing coffee!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-03-22-191027-my-next-shipment-from-cometeer-arrived-who-needs-to-eat-when-you-can-have-01
+images:
+  - id: instagram-2025-03-22-191027-my-next-shipment-from-cometeer-arrived-who-needs-to-eat-when-you-can-have-01
+    caption:
+    alt:
 hashtags: []
 handles:
   - "cometeer"
 location:
-gallery: "instagram-2025-03-22-191027-my-next-shipment-from-cometeer-arrived-who-needs-to-eat-when-you-can-have"
 tags:
   - "instagram"
 categories: []
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "My next shipment from @cometeer arrived…who needs to eat when you can have amazing coffee!"
 ---
-
 My next shipment from [@cometeer](https://www.instagram.com/cometeer/) arrived…who needs to eat when you can have amazing coffee!
-
-{% include gallery.html gallery="instagram-2025-03-22-191027-my-next-shipment-from-cometeer-arrived-who-needs-to-eat-when-you-can-have" %}
-

@@ -10,7 +10,6 @@ year: 2021
 month: 04
 day: 26
 weekday: Monday
-gallery: "instagram-2021-04-26-065512-starting-the-first-day-of-tour"
 source:
   type: instagram
   uri: "media/other/17930350225550788.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/04/26/065512-starting-the-first-day-of-tour.html"
 index: 1
 ---
-
 

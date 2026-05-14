@@ -10,7 +10,6 @@ year: 2020
 month: 08
 day: 08
 weekday: Saturday
-gallery: "instagram-2020-08-08-095446-good-morning"
 source:
   type: instagram
   uri: "media/other/17871530386851490.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/08/08/095446-good-morning.html"
 index: 1
 ---
-
 

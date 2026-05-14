@@ -10,7 +10,6 @@ year: 2019
 month: 09
 day: 11
 weekday: Wednesday
-gallery: "instagram-2019-09-11-075502-walking-with-orion-had-to-photoshop-the-piss-out-of-this-so-you-could-see-it"
 source:
   type: instagram
   uri: "media/other/18019768948234141.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/09/11/075502-walking-with-orion-had-to-photoshop-the-piss-out-of-this-so-you-could-see-it.html"
 index: 1
 ---
-
 

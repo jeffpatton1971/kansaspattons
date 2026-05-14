@@ -15,10 +15,14 @@ source:
   caption: "Christmas Concert"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2021-12-13-195058-christmas-concert-01
+related:
+  - type: gallery
+    id: instagram-2021-12-13-195058-christmas-concert
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-12-13-195058-christmas-concert"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Christmas Concert"
 ---
-
 Christmas Concert
-
-{% include gallery.html gallery="instagram-2021-12-13-195058-christmas-concert" %}
-

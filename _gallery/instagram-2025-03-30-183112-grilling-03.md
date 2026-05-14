@@ -11,7 +11,6 @@ year: 2025
 month: 03
 day: 30
 weekday: Sunday
-gallery: "instagram-2025-03-30-183112-grilling"
 source:
   type: instagram
   uri: "media/posts/202503/18334215595092654.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/03/30/183112-grilling.html"
 index: 3
 ---
-
 

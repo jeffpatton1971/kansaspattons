@@ -15,10 +15,14 @@ source:
   caption: "Two wild and crazy kinds of guys!"
   media_count: 6
   cross_post_source: "FB"
+cover_image: instagram-2025-03-15-152159-two-wild-and-crazy-kinds-of-guys-01
+related:
+  - type: gallery
+    id: instagram-2025-03-15-152159-two-wild-and-crazy-kinds-of-guys
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-03-15-152159-two-wild-and-crazy-kinds-of-guys"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Two wild and crazy kinds of guys!"
 ---
-
 Two wild and crazy kinds of guys!
-
-{% include gallery.html gallery="instagram-2025-03-15-152159-two-wild-and-crazy-kinds-of-guys" %}
-

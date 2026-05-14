@@ -12,7 +12,6 @@ year: 2022
 month: 04
 day: 26
 weekday: Tuesday
-gallery: "instagram-2022-04-26-074612-goodmorning-nosnow"
 source:
   type: instagram
   uri: "media/other/17947865209880374.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/04/26/074612-goodmorning-nosnow.html"
 index: 1
 ---
-
 

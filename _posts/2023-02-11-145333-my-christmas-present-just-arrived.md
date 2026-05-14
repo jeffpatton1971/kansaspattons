@@ -15,10 +15,14 @@ source:
   caption: "My Christmas present just arrived!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2023-02-11-145333-my-christmas-present-just-arrived-01
+images:
+  - id: instagram-2023-02-11-145333-my-christmas-present-just-arrived-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2023-02-11-145333-my-christmas-present-just-arrived"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "My Christmas present just arrived!"
 ---
-
 My Christmas present just arrived!
-
-{% include gallery.html gallery="instagram-2023-02-11-145333-my-christmas-present-just-arrived" %}
-

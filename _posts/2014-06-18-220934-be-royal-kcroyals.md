@@ -15,11 +15,15 @@ source:
   caption: "Be Royal @kcroyals"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-06-18-220934-be-royal-kcroyals-01
+images:
+  - id: instagram-2014-06-18-220934-be-royal-kcroyals-01
+    caption:
+    alt:
 hashtags: []
 handles:
   - "kcroyals"
 location:
-gallery: "instagram-2014-06-18-220934-be-royal-kcroyals"
 tags:
   - "instagram"
 categories: []
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Be Royal @kcroyals"
 ---
-
 Be Royal [@kcroyals](https://www.instagram.com/kcroyals/)
-
-{% include gallery.html gallery="instagram-2014-06-18-220934-be-royal-kcroyals" %}
-

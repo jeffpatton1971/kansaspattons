@@ -11,7 +11,6 @@ year: 2023
 month: 05
 day: 17
 weekday: Wednesday
-gallery: "instagram-2023-05-17-075532-goodmorning"
 source:
   type: instagram
   uri: "media/posts/202305/17892375467816441.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/05/17/075532-goodmorning.html"
 index: 1
 ---
-
 

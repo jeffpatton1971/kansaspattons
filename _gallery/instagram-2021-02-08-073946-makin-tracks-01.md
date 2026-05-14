@@ -10,7 +10,6 @@ year: 2021
 month: 02
 day: 08
 weekday: Monday
-gallery: "instagram-2021-02-08-073946-makin-tracks"
 source:
   type: instagram
   uri: "media/other/17887705639974703.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/02/08/073946-makin-tracks.html"
 index: 1
 ---
-
 

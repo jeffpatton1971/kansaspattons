@@ -10,7 +10,6 @@ year: 2021
 month: 09
 day: 09
 weekday: Thursday
-gallery: "instagram-2021-09-09-194700-natalie-got-her-first-medal-for-tennis-as-a-senior"
 source:
   type: instagram
   uri: "media/other/17898778235321936.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/09/09/194700-natalie-got-her-first-medal-for-tennis-as-a-senior.html"
 index: 1
 ---
-
 

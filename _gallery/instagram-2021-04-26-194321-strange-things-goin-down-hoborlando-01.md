@@ -10,7 +10,6 @@ year: 2021
 month: 04
 day: 26
 weekday: Monday
-gallery: "instagram-2021-04-26-194321-strange-things-goin-down-hoborlando"
 source:
   type: instagram
   uri: "media/posts/202104/17874838301354484.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/04/26/194321-strange-things-goin-down-hoborlando.html"
 index: 1
 ---
-
 

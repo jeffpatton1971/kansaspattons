@@ -15,10 +15,14 @@ source:
   caption: "Watching Teen Titans with my two favorite titans!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-09-16-145728-watching-teen-titans-with-my-two-favorite-titans-01
+images:
+  - id: instagram-2018-09-16-145728-watching-teen-titans-with-my-two-favorite-titans-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-09-16-145728-watching-teen-titans-with-my-two-favorite-titans"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Watching Teen Titans with my two favorite titans!"
 ---
-
 Watching Teen Titans with my two favorite titans!
-
-{% include gallery.html gallery="instagram-2018-09-16-145728-watching-teen-titans-with-my-two-favorite-titans" %}
-

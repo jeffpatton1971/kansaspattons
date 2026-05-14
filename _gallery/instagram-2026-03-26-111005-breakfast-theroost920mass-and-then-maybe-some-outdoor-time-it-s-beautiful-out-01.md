@@ -11,7 +11,6 @@ year: 2026
 month: 03
 day: 26
 weekday: Thursday
-gallery: "instagram-2026-03-26-111005-breakfast-theroost920mass-and-then-maybe-some-outdoor-time-it-s-beautiful-out"
 source:
   type: instagram
   uri: "media/posts/202603/18041394536753612.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/03/26/111005-breakfast-theroost920mass-and-then-maybe-some-outdoor-time-it-s-beautiful-out.html"
 index: 1
 ---
-
 

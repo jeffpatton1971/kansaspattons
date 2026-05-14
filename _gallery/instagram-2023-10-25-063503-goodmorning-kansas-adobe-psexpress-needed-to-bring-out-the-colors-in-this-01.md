@@ -14,7 +14,6 @@ year: 2023
 month: 10
 day: 25
 weekday: Wednesday
-gallery: "instagram-2023-10-25-063503-goodmorning-kansas-adobe-psexpress-needed-to-bring-out-the-colors-in-this"
 source:
   type: instagram
   uri: "media/posts/202310/17976418496384244.jpg"
@@ -28,5 +27,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/10/25/063503-goodmorning-kansas-adobe-psexpress-needed-to-bring-out-the-colors-in-this.html"
 index: 1
 ---
-
 

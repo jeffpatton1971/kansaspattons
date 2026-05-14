@@ -10,7 +10,6 @@ year: 2014
 month: 06
 day: 21
 weekday: Saturday
-gallery: "instagram-2014-06-21-141002-m-rida-has-nothing-on-natalie"
 source:
   type: instagram
   uri: "media/other/17843315221063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/06/21/141002-m-rida-has-nothing-on-natalie.html"
 index: 1
 ---
-
 

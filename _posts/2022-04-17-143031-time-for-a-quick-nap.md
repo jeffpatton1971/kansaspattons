@@ -15,10 +15,14 @@ source:
   caption: "Time for a quick nap"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2022-04-17-143031-time-for-a-quick-nap-01
+images:
+  - id: instagram-2022-04-17-143031-time-for-a-quick-nap-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2022-04-17-143031-time-for-a-quick-nap"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Time for a quick nap"
 ---
-
 Time for a quick nap
-
-{% include gallery.html gallery="instagram-2022-04-17-143031-time-for-a-quick-nap" %}
-

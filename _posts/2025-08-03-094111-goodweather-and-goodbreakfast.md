@@ -15,12 +15,16 @@ source:
   caption: "#goodweather and #goodbreakfast"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-08-03-094111-goodweather-and-goodbreakfast-01
+images:
+  - id: instagram-2025-08-03-094111-goodweather-and-goodbreakfast-01
+    caption:
+    alt:
 hashtags:
   - "goodweather"
   - "goodbreakfast"
 handles: []
 location:
-gallery: "instagram-2025-08-03-094111-goodweather-and-goodbreakfast"
 tags:
   - "goodweather"
   - "goodbreakfast"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "#goodweather and #goodbreakfast"
 ---
-
 [#goodweather](https://www.instagram.com/explore/tags/goodweather/) and [#goodbreakfast](https://www.instagram.com/explore/tags/goodbreakfast/)
-
-{% include gallery.html gallery="instagram-2025-08-03-094111-goodweather-and-goodbreakfast" %}
-

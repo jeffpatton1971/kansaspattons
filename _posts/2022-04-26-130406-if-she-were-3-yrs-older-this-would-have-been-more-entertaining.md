@@ -15,10 +15,14 @@ source:
   caption: "If she were 3 yrs older this would have been more entertaining"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2022-04-26-130406-if-she-were-3-yrs-older-this-would-have-been-more-entertaining-01
+images:
+  - id: instagram-2022-04-26-130406-if-she-were-3-yrs-older-this-would-have-been-more-entertaining-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2022-04-26-130406-if-she-were-3-yrs-older-this-would-have-been-more-entertaining"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "If she were 3 yrs older this would have been more entertaining"
 ---
-
 If she were 3 yrs older this would have been more entertaining
-
-{% include gallery.html gallery="instagram-2022-04-26-130406-if-she-were-3-yrs-older-this-would-have-been-more-entertaining" %}
-

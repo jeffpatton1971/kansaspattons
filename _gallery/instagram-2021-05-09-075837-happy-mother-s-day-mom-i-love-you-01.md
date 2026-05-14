@@ -10,7 +10,6 @@ year: 2021
 month: 05
 day: 09
 weekday: Sunday
-gallery: "instagram-2021-05-09-075837-happy-mother-s-day-mom-i-love-you"
 source:
   type: instagram
   uri: "media/other/17879276318336389.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/05/09/075837-happy-mother-s-day-mom-i-love-you.html"
 index: 1
 ---
-
 

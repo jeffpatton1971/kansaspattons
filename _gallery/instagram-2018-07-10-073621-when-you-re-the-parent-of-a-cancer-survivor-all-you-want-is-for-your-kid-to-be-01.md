@@ -10,7 +10,6 @@ year: 2018
 month: 07
 day: 10
 weekday: Tuesday
-gallery: "instagram-2018-07-10-073621-when-you-re-the-parent-of-a-cancer-survivor-all-you-want-is-for-your-kid-to-be"
 source:
   type: instagram
   uri: "media/other/17925367648169804.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/07/10/073621-when-you-re-the-parent-of-a-cancer-survivor-all-you-want-is-for-your-kid-to-be.html"
 index: 1
 ---
-
 

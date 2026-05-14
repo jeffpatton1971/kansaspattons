@@ -12,7 +12,6 @@ year: 2020
 month: 03
 day: 17
 weekday: Tuesday
-gallery: "instagram-2020-03-17-162055-thanks-mom-jrrtolkien-lordoftherings"
 source:
   type: instagram
   uri: "media/other/17846815736007976.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/03/17/162055-thanks-mom-jrrtolkien-lordoftherings.html"
 index: 1
 ---
-
 

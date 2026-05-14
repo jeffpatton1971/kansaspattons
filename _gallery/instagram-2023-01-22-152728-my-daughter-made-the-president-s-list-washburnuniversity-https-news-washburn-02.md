@@ -10,7 +10,6 @@ year: 2023
 month: 01
 day: 22
 weekday: Sunday
-gallery: "instagram-2023-01-22-152728-my-daughter-made-the-president-s-list-washburnuniversity-https-news-washburn"
 source:
   type: instagram
   uri: "media/posts/202301/17991849889666914.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/01/22/152728-my-daughter-made-the-president-s-list-washburnuniversity-https-news-washburn.html"
 index: 2
 ---
-
 

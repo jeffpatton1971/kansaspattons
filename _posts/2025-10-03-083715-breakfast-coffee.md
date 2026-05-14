@@ -15,12 +15,16 @@ source:
   caption: "#breakfast #coffee"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-10-03-083715-breakfast-coffee-01
+images:
+  - id: instagram-2025-10-03-083715-breakfast-coffee-01
+    caption:
+    alt:
 hashtags:
   - "breakfast"
   - "coffee"
 handles: []
 location:
-gallery: "instagram-2025-10-03-083715-breakfast-coffee"
 tags:
   - "breakfast"
   - "coffee"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "#breakfast #coffee"
 ---
-
 [#breakfast](https://www.instagram.com/explore/tags/breakfast/) [#coffee](https://www.instagram.com/explore/tags/coffee/)
-
-{% include gallery.html gallery="instagram-2025-10-03-083715-breakfast-coffee" %}
-

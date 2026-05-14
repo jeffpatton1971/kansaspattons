@@ -11,7 +11,6 @@ year: 2026
 month: 01
 day: 23
 weekday: Friday
-gallery: "instagram-2026-01-23-113018-brekfast"
 source:
   type: instagram
   uri: "media/posts/202601/17849069163627746.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2026/01/23/113018-brekfast.html"
 index: 1
 ---
-
 

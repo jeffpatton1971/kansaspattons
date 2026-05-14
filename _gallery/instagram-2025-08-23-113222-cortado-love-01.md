@@ -12,7 +12,6 @@ year: 2025
 month: 08
 day: 23
 weekday: Saturday
-gallery: "instagram-2025-08-23-113222-cortado-love"
 source:
   type: instagram
   uri: "media/posts/202508/18103698667572707.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/08/23/113222-cortado-love.html"
 index: 1
 ---
-
 

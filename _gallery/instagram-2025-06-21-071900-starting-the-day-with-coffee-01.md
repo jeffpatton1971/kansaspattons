@@ -11,7 +11,6 @@ year: 2025
 month: 06
 day: 21
 weekday: Saturday
-gallery: "instagram-2025-06-21-071900-starting-the-day-with-coffee"
 source:
   type: instagram
   uri: "media/posts/202506/18466373308077011.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/06/21/071900-starting-the-day-with-coffee.html"
 index: 1
 ---
-
 

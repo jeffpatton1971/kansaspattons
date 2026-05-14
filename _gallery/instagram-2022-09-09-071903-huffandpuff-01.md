@@ -11,7 +11,6 @@ year: 2022
 month: 09
 day: 09
 weekday: Friday
-gallery: "instagram-2022-09-09-071903-huffandpuff"
 source:
   type: instagram
   uri: "media/other/17959539361861143.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/09/09/071903-huffandpuff.html"
 index: 1
 ---
-
 

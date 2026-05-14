@@ -15,10 +15,14 @@ source:
   caption: "Hard to believe this girl will be graduating soon"
   media_count: 4
   cross_post_source: "FB"
+cover_image: instagram-2022-01-31-190819-hard-to-believe-this-girl-will-be-graduating-soon-01
+related:
+  - type: gallery
+    id: instagram-2022-01-31-190819-hard-to-believe-this-girl-will-be-graduating-soon
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2022-01-31-190819-hard-to-believe-this-girl-will-be-graduating-soon"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Hard to believe this girl will be graduating soon"
 ---
-
 Hard to believe this girl will be graduating soon
-
-{% include gallery.html gallery="instagram-2022-01-31-190819-hard-to-believe-this-girl-will-be-graduating-soon" %}
-

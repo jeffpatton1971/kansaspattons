@@ -15,10 +15,14 @@ source:
   caption: "Tough loss but at least the rain went away so the girls could cheer"
   media_count: 5
   cross_post_source: "FB"
+cover_image: instagram-2018-09-07-233900-tough-loss-but-at-least-the-rain-went-away-so-the-girls-could-cheer-01
+related:
+  - type: gallery
+    id: instagram-2018-09-07-233900-tough-loss-but-at-least-the-rain-went-away-so-the-girls-could-cheer
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-09-07-233900-tough-loss-but-at-least-the-rain-went-away-so-the-girls-could-cheer"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Tough loss but at least the rain went away so the girls could cheer"
 ---
-
 Tough loss but at least the rain went away so the girls could cheer
-
-{% include gallery.html gallery="instagram-2018-09-07-233900-tough-loss-but-at-least-the-rain-went-away-so-the-girls-could-cheer" %}
-

@@ -15,11 +15,15 @@ source:
   caption: "My son called this the @jimmyfallon moon...I feel it may have something to do with the large moon from the tonight show 😂"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2019-03-20-213749-my-son-called-this-the-jimmyfallon-moon-i-feel-it-may-have-something-to-do-with-01
+images:
+  - id: instagram-2019-03-20-213749-my-son-called-this-the-jimmyfallon-moon-i-feel-it-may-have-something-to-do-with-01
+    caption:
+    alt:
 hashtags: []
 handles:
   - "jimmyfallon"
 location:
-gallery: "instagram-2019-03-20-213749-my-son-called-this-the-jimmyfallon-moon-i-feel-it-may-have-something-to-do-with"
 tags:
   - "instagram"
 categories: []
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "My son called this the @jimmyfallon moon...I feel it may have something to do with the large moon from the tonight show 😂"
 ---
-
 My son called this the [@jimmyfallon](https://www.instagram.com/jimmyfallon/) moon...I feel it may have something to do with the large moon from the tonight show 😂
-
-{% include gallery.html gallery="instagram-2019-03-20-213749-my-son-called-this-the-jimmyfallon-moon-i-feel-it-may-have-something-to-do-with" %}
-

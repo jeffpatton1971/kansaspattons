@@ -10,7 +10,6 @@ year: 2021
 month: 05
 day: 22
 weekday: Saturday
-gallery: "instagram-2021-05-22-091750-hibiscus"
 source:
   type: instagram
   uri: "media/other/18180997552108131.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/05/22/091750-hibiscus.html"
 index: 1
 ---
-
 

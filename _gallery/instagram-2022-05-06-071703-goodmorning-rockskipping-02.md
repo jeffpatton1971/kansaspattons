@@ -12,7 +12,6 @@ year: 2022
 month: 05
 day: 06
 weekday: Friday
-gallery: "instagram-2022-05-06-071703-goodmorning-rockskipping"
 source:
   type: instagram
   uri: "media/posts/202205/17939926039936309.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/05/06/071703-goodmorning-rockskipping.html"
 index: 2
 ---
-
 

@@ -15,10 +15,14 @@ source:
   caption: "Beef. It’s what’s for dinner!"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2018-07-10-180150-beef-it-s-what-s-for-dinner-01
+images:
+  - id: instagram-2018-07-10-180150-beef-it-s-what-s-for-dinner-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-07-10-180150-beef-it-s-what-s-for-dinner"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Beef. It’s what’s for dinner!"
 ---
-
 Beef. It’s what’s for dinner!
-
-{% include gallery.html gallery="instagram-2018-07-10-180150-beef-it-s-what-s-for-dinner" %}
-

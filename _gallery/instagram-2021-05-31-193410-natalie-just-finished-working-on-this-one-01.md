@@ -10,7 +10,6 @@ year: 2021
 month: 05
 day: 31
 weekday: Monday
-gallery: "instagram-2021-05-31-193410-natalie-just-finished-working-on-this-one"
 source:
   type: instagram
   uri: "media/other/17919263473672999.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/05/31/193410-natalie-just-finished-working-on-this-one.html"
 index: 1
 ---
-
 

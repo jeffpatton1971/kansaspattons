@@ -12,7 +12,6 @@ year: 2023
 month: 09
 day: 23
 weekday: Saturday
-gallery: "instagram-2023-09-23-074329-goodmorning-kansas"
 source:
   type: instagram
   uri: "media/posts/202309/17950106066678223.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/09/23/074329-goodmorning-kansas.html"
 index: 1
 ---
-
 

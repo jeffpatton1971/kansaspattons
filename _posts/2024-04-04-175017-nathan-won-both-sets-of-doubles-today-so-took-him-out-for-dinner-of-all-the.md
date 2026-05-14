@@ -15,11 +15,18 @@ source:
   caption: "Nathan won both sets of doubles today so took him out for dinner. Of all the great places to eat in #lawrence were at Freddy’s! 😂🤷‍♂️🤦‍♂️"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2024-04-04-175017-nathan-won-both-sets-of-doubles-today-so-took-him-out-for-dinner-of-all-the-01
+images:
+  - id: instagram-2024-04-04-175017-nathan-won-both-sets-of-doubles-today-so-took-him-out-for-dinner-of-all-the-01
+    caption:
+    alt:
+  - id: instagram-2024-04-04-175017-nathan-won-both-sets-of-doubles-today-so-took-him-out-for-dinner-of-all-the-02
+    caption:
+    alt:
 hashtags:
   - "lawrence"
 handles: []
 location:
-gallery: "instagram-2024-04-04-175017-nathan-won-both-sets-of-doubles-today-so-took-him-out-for-dinner-of-all-the"
 tags:
   - "lawrence"
   - "instagram"
@@ -29,8 +36,4 @@ authors:
   - "Jeff Patton"
 summary: "Nathan won both sets of doubles today so took him out for dinner. Of all the great places to eat in #lawrence were at Freddy’s! 😂🤷‍♂️🤦‍♂️"
 ---
-
 Nathan won both sets of doubles today so took him out for dinner. Of all the great places to eat in [#lawrence](https://www.instagram.com/explore/tags/lawrence/) were at Freddy’s! 😂🤷‍♂️🤦‍♂️
-
-{% include gallery.html gallery="instagram-2024-04-04-175017-nathan-won-both-sets-of-doubles-today-so-took-him-out-for-dinner-of-all-the" %}
-

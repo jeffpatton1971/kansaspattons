@@ -10,7 +10,6 @@ year: 2014
 month: 06
 day: 14
 weekday: Saturday
-gallery: "instagram-2014-06-14-120832-nathan-trying-to-blow-bubbles-they-just-don-t-make-those-like-they-used-to"
 source:
   type: instagram
   uri: "media/other/17843312164063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/06/14/120832-nathan-trying-to-blow-bubbles-they-just-don-t-make-those-like-they-used-to.html"
 index: 1
 ---
-
 

@@ -9,7 +9,6 @@ year: 2012
 month: 11
 day: 14
 weekday: Wednesday
-gallery: facebook-2012-11-14-223329-windows-8-cover-photo-creator
 post_id: 2012-11-14-223329-windows-8-cover-photo-creator
 source:
   type: facebook

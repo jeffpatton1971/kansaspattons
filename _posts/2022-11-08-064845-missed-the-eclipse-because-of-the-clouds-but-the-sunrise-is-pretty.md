@@ -15,10 +15,14 @@ source:
   caption: "missed the eclipse because of the clouds…but the sunrise is pretty"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2022-11-08-064845-missed-the-eclipse-because-of-the-clouds-but-the-sunrise-is-pretty-01
+images:
+  - id: instagram-2022-11-08-064845-missed-the-eclipse-because-of-the-clouds-but-the-sunrise-is-pretty-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2022-11-08-064845-missed-the-eclipse-because-of-the-clouds-but-the-sunrise-is-pretty"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "missed the eclipse because of the clouds…but the sunrise is pretty"
 ---
-
 missed the eclipse because of the clouds…but the sunrise is pretty
-
-{% include gallery.html gallery="instagram-2022-11-08-064845-missed-the-eclipse-because-of-the-clouds-but-the-sunrise-is-pretty" %}
-

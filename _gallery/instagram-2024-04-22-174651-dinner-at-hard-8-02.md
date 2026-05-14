@@ -10,7 +10,6 @@ year: 2024
 month: 04
 day: 22
 weekday: Monday
-gallery: "instagram-2024-04-22-174651-dinner-at-hard-8"
 source:
   type: instagram
   uri: "media/posts/202404/18017521073042518.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2024/04/22/174651-dinner-at-hard-8.html"
 index: 2
 ---
-
 

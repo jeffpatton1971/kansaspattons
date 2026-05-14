@@ -15,12 +15,16 @@ source:
   caption: "Have a ducky Monday! #ducks #mallards"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-03-29-074917-have-a-ducky-monday-ducks-mallards-01
+images:
+  - id: instagram-2021-03-29-074917-have-a-ducky-monday-ducks-mallards-01
+    caption:
+    alt:
 hashtags:
   - "ducks"
   - "mallards"
 handles: []
 location:
-gallery: "instagram-2021-03-29-074917-have-a-ducky-monday-ducks-mallards"
 tags:
   - "ducks"
   - "mallards"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "Have a ducky Monday! #ducks #mallards"
 ---
-
 Have a ducky Monday! [#ducks](https://www.instagram.com/explore/tags/ducks/) [#mallards](https://www.instagram.com/explore/tags/mallards/)
-
-{% include gallery.html gallery="instagram-2021-03-29-074917-have-a-ducky-monday-ducks-mallards" %}
-

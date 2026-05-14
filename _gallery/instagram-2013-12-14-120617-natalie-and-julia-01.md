@@ -10,7 +10,6 @@ year: 2013
 month: 12
 day: 14
 weekday: Saturday
-gallery: "instagram-2013-12-14-120617-natalie-and-julia"
 source:
   type: instagram
   uri: "media/other/17842413367063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2013/12/14/120617-natalie-and-julia.html"
 index: 1
 ---
-
 

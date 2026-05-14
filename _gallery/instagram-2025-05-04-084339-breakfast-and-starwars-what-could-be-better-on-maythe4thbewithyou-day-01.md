@@ -11,7 +11,6 @@ year: 2025
 month: 05
 day: 04
 weekday: Sunday
-gallery: "instagram-2025-05-04-084339-breakfast-and-starwars-what-could-be-better-on-maythe4thbewithyou-day"
 source:
   type: instagram
   uri: "media/posts/202505/17862262926398208.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/05/04/084339-breakfast-and-starwars-what-could-be-better-on-maythe4thbewithyou-day.html"
 index: 1
 ---
-
 

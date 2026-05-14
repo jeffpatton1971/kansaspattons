@@ -10,7 +10,6 @@ year: 2023
 month: 02
 day: 26
 weekday: Sunday
-gallery: "instagram-2023-02-26-183824-dinner-and-dessert"
 source:
   type: instagram
   uri: "media/posts/202302/18346110739032733.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/02/26/183824-dinner-and-dessert.html"
 index: 2
 ---
-
 

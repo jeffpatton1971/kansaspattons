@@ -9,7 +9,6 @@ year: 2012
 month: 06
 day: 24
 weekday: Sunday
-gallery: facebook-2012-06-24-221220-long-exposure
 post_id: 2012-06-24-221220-long-exposure
 source:
   type: facebook

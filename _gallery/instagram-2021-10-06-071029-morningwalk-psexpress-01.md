@@ -12,7 +12,6 @@ year: 2021
 month: 10
 day: 06
 weekday: Wednesday
-gallery: "instagram-2021-10-06-071029-morningwalk-psexpress"
 source:
   type: instagram
   uri: "media/other/17911557005101371.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/10/06/071029-morningwalk-psexpress.html"
 index: 1
 ---
-
 

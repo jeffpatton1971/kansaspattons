@@ -11,7 +11,6 @@ year: 2025
 month: 10
 day: 10
 weekday: Friday
-gallery: "instagram-2025-10-10-071137-brekfast-from-munchersbakery"
 source:
   type: instagram
   uri: "media/posts/202510/17936339366963379.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/10/10/071137-brekfast-from-munchersbakery.html"
 index: 1
 ---
-
 

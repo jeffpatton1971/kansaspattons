@@ -15,10 +15,14 @@ source:
   caption: "watching how they make the marbles"
   media_count: 6
   cross_post_source: "FB"
+cover_image: instagram-2023-03-17-122441-watching-how-they-make-the-marbles-01
+related:
+  - type: gallery
+    id: instagram-2023-03-17-122441-watching-how-they-make-the-marbles
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2023-03-17-122441-watching-how-they-make-the-marbles"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "watching how they make the marbles"
 ---
-
 watching how they make the marbles
-
-{% include gallery.html gallery="instagram-2023-03-17-122441-watching-how-they-make-the-marbles" %}
-

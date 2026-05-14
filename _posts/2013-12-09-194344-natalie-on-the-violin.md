@@ -15,10 +15,14 @@ source:
   caption: "Natalie on the violin"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2013-12-09-194344-natalie-on-the-violin-01
+images:
+  - id: instagram-2013-12-09-194344-natalie-on-the-violin-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2013-12-09-194344-natalie-on-the-violin"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Natalie on the violin"
 ---
-
 Natalie on the violin
-
-{% include gallery.html gallery="instagram-2013-12-09-194344-natalie-on-the-violin" %}
-

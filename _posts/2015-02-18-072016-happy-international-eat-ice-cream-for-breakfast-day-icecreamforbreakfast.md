@@ -15,12 +15,16 @@ source:
   caption: "Happy International Eat Ice Cream for Breakfast Day!\r#icecreamforbreakfast\r#kidsgetcancertoo"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2015-02-18-072016-happy-international-eat-ice-cream-for-breakfast-day-icecreamforbreakfast-01
+images:
+  - id: instagram-2015-02-18-072016-happy-international-eat-ice-cream-for-breakfast-day-icecreamforbreakfast-01
+    caption:
+    alt:
 hashtags:
   - "icecreamforbreakfast"
   - "kidsgetcancertoo"
 handles: []
 location:
-gallery: "instagram-2015-02-18-072016-happy-international-eat-ice-cream-for-breakfast-day-icecreamforbreakfast"
 tags:
   - "icecreamforbreakfast"
   - "kidsgetcancertoo"
@@ -30,10 +34,6 @@ authors:
   - "Jeff Patton"
 summary: "Happy International Eat Ice Cream for Breakfast Day!#icecreamforbreakfast#kidsgetcancertoo"
 ---
-
 Happy International Eat Ice Cream for Breakfast Day!
 [#icecreamforbreakfast](https://www.instagram.com/explore/tags/icecreamforbreakfast/)
 [#kidsgetcancertoo](https://www.instagram.com/explore/tags/kidsgetcancertoo/)
-
-{% include gallery.html gallery="instagram-2015-02-18-072016-happy-international-eat-ice-cream-for-breakfast-day-icecreamforbreakfast" %}
-

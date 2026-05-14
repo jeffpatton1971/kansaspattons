@@ -10,7 +10,6 @@ year: 2019
 month: 09
 day: 08
 weekday: Sunday
-gallery: "instagram-2019-09-08-195004-s-mores-anyone"
 source:
   type: instagram
   uri: "media/posts/201909/17849843887580847.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/09/08/195004-s-mores-anyone.html"
 index: 1
 ---
-
 

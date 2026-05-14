@@ -10,7 +10,6 @@ year: 2019
 month: 08
 day: 23
 weekday: Friday
-gallery: "instagram-2019-08-23-074014-mornings-like-this"
 source:
   type: instagram
   uri: "media/other/18054662218161606.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/08/23/074014-mornings-like-this.html"
 index: 1
 ---
-
 

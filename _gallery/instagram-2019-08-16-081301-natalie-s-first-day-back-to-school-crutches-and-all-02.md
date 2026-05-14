@@ -10,7 +10,6 @@ year: 2019
 month: 08
 day: 16
 weekday: Friday
-gallery: "instagram-2019-08-16-081301-natalie-s-first-day-back-to-school-crutches-and-all"
 source:
   type: instagram
   uri: "media/posts/201908/18091227499033683.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/08/16/081301-natalie-s-first-day-back-to-school-crutches-and-all.html"
 index: 2
 ---
-
 

@@ -15,6 +15,11 @@ source:
   caption: "Celebrating my son who has been cancer free since 2013 on @eaticecreamforbreakfast day #eaticecreamforbreakfastday  #eaticecreamforbreakfast #childhoodcancerawareness"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2021-02-18-072928-celebrating-my-son-who-has-been-cancer-free-since-2013-on-01
+images:
+  - id: instagram-2021-02-18-072928-celebrating-my-son-who-has-been-cancer-free-since-2013-on-01
+    caption:
+    alt:
 hashtags:
   - "eaticecreamforbreakfastday"
   - "eaticecreamforbreakfast"
@@ -22,7 +27,6 @@ hashtags:
 handles:
   - "eaticecreamforbreakfast"
 location:
-gallery: "instagram-2021-02-18-072928-celebrating-my-son-who-has-been-cancer-free-since-2013-on"
 tags:
   - "eaticecreamforbreakfastday"
   - "eaticecreamforbreakfast"
@@ -34,8 +38,4 @@ authors:
   - "Jeff Patton"
 summary: "Celebrating my son who has been cancer free since 2013 on @eaticecreamforbreakfast day #eaticecreamforbreakfastday  #eaticecreamforbreakfast #childhoodcancerawareness"
 ---
-
 Celebrating my son who has been cancer free since 2013 on [@eaticecreamforbreakfast](https://www.instagram.com/eaticecreamforbreakfast/) day [#eaticecreamforbreakfastday](https://www.instagram.com/explore/tags/eaticecreamforbreakfastday/)  [#eaticecreamforbreakfast](https://www.instagram.com/explore/tags/eaticecreamforbreakfast/) [#childhoodcancerawareness](https://www.instagram.com/explore/tags/childhoodcancerawareness/)
-
-{% include gallery.html gallery="instagram-2021-02-18-072928-celebrating-my-son-who-has-been-cancer-free-since-2013-on" %}
-

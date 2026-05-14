@@ -15,11 +15,15 @@ source:
   caption: "@cairparaveltopeka Egyptian day"
   media_count: 8
   cross_post_source: "FB"
+cover_image: instagram-2019-05-17-210019-cairparaveltopeka-egyptian-day-01
+related:
+  - type: gallery
+    id: instagram-2019-05-17-210019-cairparaveltopeka-egyptian-day
+    rel: photos
 hashtags: []
 handles:
   - "cairparaveltopeka"
 location:
-gallery: "instagram-2019-05-17-210019-cairparaveltopeka-egyptian-day"
 tags:
   - "instagram"
 categories: []
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "@cairparaveltopeka Egyptian day"
 ---
-
 [@cairparaveltopeka](https://www.instagram.com/cairparaveltopeka/) Egyptian day
-
-{% include gallery.html gallery="instagram-2019-05-17-210019-cairparaveltopeka-egyptian-day" %}
-

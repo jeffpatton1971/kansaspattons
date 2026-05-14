@@ -11,7 +11,6 @@ year: 2023
 month: 07
 day: 08
 weekday: Saturday
-gallery: "instagram-2023-07-08-125651-sunflowers"
 source:
   type: instagram
   uri: "media/posts/202307/17961439175428388.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/07/08/125651-sunflowers.html"
 index: 1
 ---
-
 

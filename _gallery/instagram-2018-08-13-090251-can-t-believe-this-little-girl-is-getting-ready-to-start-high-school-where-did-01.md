@@ -10,7 +10,6 @@ year: 2018
 month: 08
 day: 13
 weekday: Monday
-gallery: "instagram-2018-08-13-090251-can-t-believe-this-little-girl-is-getting-ready-to-start-high-school-where-did"
 source:
   type: instagram
   uri: "media/other/17861811448275805.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/08/13/090251-can-t-believe-this-little-girl-is-getting-ready-to-start-high-school-where-did.html"
 index: 1
 ---
-
 

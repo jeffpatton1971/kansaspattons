@@ -15,10 +15,14 @@ source:
   caption: "Some Laser Taylor Swift fun"
   media_count: 6
   cross_post_source: "FB"
+cover_image: instagram-2024-03-12-200054-some-laser-taylor-swift-fun-01
+related:
+  - type: gallery
+    id: instagram-2024-03-12-200054-some-laser-taylor-swift-fun
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2024-03-12-200054-some-laser-taylor-swift-fun"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Some Laser Taylor Swift fun"
 ---
-
 Some Laser Taylor Swift fun
-
-{% include gallery.html gallery="instagram-2024-03-12-200054-some-laser-taylor-swift-fun" %}
-

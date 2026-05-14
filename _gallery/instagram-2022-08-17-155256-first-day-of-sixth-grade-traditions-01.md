@@ -11,7 +11,6 @@ year: 2022
 month: 08
 day: 17
 weekday: Wednesday
-gallery: "instagram-2022-08-17-155256-first-day-of-sixth-grade-traditions"
 source:
   type: instagram
   uri: "media/other/17939581682140870.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/08/17/155256-first-day-of-sixth-grade-traditions.html"
 index: 1
 ---
-
 

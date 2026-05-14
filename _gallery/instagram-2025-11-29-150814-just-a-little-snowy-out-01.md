@@ -10,7 +10,6 @@ year: 2025
 month: 11
 day: 29
 weekday: Saturday
-gallery: "instagram-2025-11-29-150814-just-a-little-snowy-out"
 source:
   type: instagram
   uri: "media/posts/202511/17890154211379383.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/11/29/150814-just-a-little-snowy-out.html"
 index: 1
 ---
-
 

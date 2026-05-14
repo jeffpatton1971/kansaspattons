@@ -15,10 +15,20 @@ source:
   caption: "First college visit in the books"
   media_count: 3
   cross_post_source: "FB"
+cover_image: instagram-2021-09-17-183556-first-college-visit-in-the-books-01
+images:
+  - id: instagram-2021-09-17-183556-first-college-visit-in-the-books-01
+    caption:
+    alt:
+  - id: instagram-2021-09-17-183556-first-college-visit-in-the-books-02
+    caption:
+    alt:
+  - id: instagram-2021-09-17-183556-first-college-visit-in-the-books-03
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2021-09-17-183556-first-college-visit-in-the-books"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +36,4 @@ authors:
   - "Jeff Patton"
 summary: "First college visit in the books"
 ---
-
 First college visit in the books
-
-{% include gallery.html gallery="instagram-2021-09-17-183556-first-college-visit-in-the-books" %}
-

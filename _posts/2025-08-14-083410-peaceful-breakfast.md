@@ -15,12 +15,16 @@ source:
   caption: "#peaceful #breakfast"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-08-14-083410-peaceful-breakfast-01
+images:
+  - id: instagram-2025-08-14-083410-peaceful-breakfast-01
+    caption:
+    alt:
 hashtags:
   - "peaceful"
   - "breakfast"
 handles: []
 location:
-gallery: "instagram-2025-08-14-083410-peaceful-breakfast"
 tags:
   - "peaceful"
   - "breakfast"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "#peaceful #breakfast"
 ---
-
 [#peaceful](https://www.instagram.com/explore/tags/peaceful/) [#breakfast](https://www.instagram.com/explore/tags/breakfast/)
-
-{% include gallery.html gallery="instagram-2025-08-14-083410-peaceful-breakfast" %}
-

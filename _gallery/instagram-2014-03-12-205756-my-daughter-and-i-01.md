@@ -10,7 +10,6 @@ year: 2014
 month: 03
 day: 12
 weekday: Wednesday
-gallery: "instagram-2014-03-12-205756-my-daughter-and-i"
 source:
   type: instagram
   uri: "media/other/17842458928063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/03/12/205756-my-daughter-and-i.html"
 index: 1
 ---
-
 

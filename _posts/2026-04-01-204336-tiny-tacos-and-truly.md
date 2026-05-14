@@ -15,10 +15,14 @@ source:
   caption: "Tiny tacos and truly 💛🖤"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2026-04-01-204336-tiny-tacos-and-truly-01
+images:
+  - id: instagram-2026-04-01-204336-tiny-tacos-and-truly-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2026-04-01-204336-tiny-tacos-and-truly"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Tiny tacos and truly 💛🖤"
 ---
-
 Tiny tacos and truly 💛🖤
-
-{% include gallery.html gallery="instagram-2026-04-01-204336-tiny-tacos-and-truly" %}
-

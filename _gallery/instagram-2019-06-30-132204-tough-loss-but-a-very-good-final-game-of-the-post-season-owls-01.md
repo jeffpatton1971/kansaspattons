@@ -11,7 +11,6 @@ year: 2019
 month: 06
 day: 30
 weekday: Sunday
-gallery: "instagram-2019-06-30-132204-tough-loss-but-a-very-good-final-game-of-the-post-season-owls"
 source:
   type: instagram
   uri: "media/posts/201906/18037428475170641.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/06/30/132204-tough-loss-but-a-very-good-final-game-of-the-post-season-owls.html"
 index: 1
 ---
-
 

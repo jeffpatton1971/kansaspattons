@@ -10,7 +10,6 @@ year: 2019
 month: 06
 day: 01
 weekday: Saturday
-gallery: "instagram-2019-06-01-212925-getting-the-kids-up-to-speed-for-when-netflix-releases-the-age-of-resistance"
 source:
   type: instagram
   uri: "media/other/18030106267173021.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/06/01/212925-getting-the-kids-up-to-speed-for-when-netflix-releases-the-age-of-resistance.html"
 index: 1
 ---
-
 

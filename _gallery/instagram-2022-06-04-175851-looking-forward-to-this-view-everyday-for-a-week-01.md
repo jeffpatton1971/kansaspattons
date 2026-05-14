@@ -10,7 +10,6 @@ year: 2022
 month: 06
 day: 04
 weekday: Saturday
-gallery: "instagram-2022-06-04-175851-looking-forward-to-this-view-everyday-for-a-week"
 source:
   type: instagram
   uri: "media/other/17943674252070842.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/06/04/175851-looking-forward-to-this-view-everyday-for-a-week.html"
 index: 1
 ---
-
 

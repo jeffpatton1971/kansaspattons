@@ -1,0 +1,51 @@
+---
+layout: single
+title: "Surgery Day"
+content_type: gallery
+slug: surgery-day
+post_id: "2013-07-23-surgery-day-gallery"
+date: 2013-07-23 13:00:00
+source:
+  type: wordpress
+  id: "1127"
+  url: "https://jeffspatton.wordpress.com/2013/07/23/july-23-2013/"
+categories:
+  - Nathan
+  - cancer
+tags:
+  - wordpress
+  - gallery
+authors:
+  - "Jeff Patton"
+summary: "6 images related to Surgery Day."
+gallery: wordpress-2013-07-23-130000-july-23-2013
+cover_image: "2013-07-23-wp-20130723-001"
+images:
+  - id: "2013-07-23-wp-20130723-001"
+    caption:
+    alt:
+  - id: "2013-07-23-wp-20130723-002"
+    caption:
+    alt:
+  - id: "2013-07-23-wp-20130723-003"
+    caption:
+    alt:
+  - id: "2013-07-23-wp-20130723-004"
+    caption:
+    alt:
+  - id: "2013-07-23-wp-20130723-005"
+    caption:
+    alt:
+  - id: "2013-07-23-wp-20130723-008"
+    caption:
+    alt:
+related:
+  - type: article
+    id: "2013-07-23-surgery-day"
+    title: "Surgery Day"
+    rel: companion-article
+published: true
+status: published
+comments: false
+---
+Photos related to Surgery Day.

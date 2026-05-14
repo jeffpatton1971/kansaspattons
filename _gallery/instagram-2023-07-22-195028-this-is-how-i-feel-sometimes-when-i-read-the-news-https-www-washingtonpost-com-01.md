@@ -10,7 +10,6 @@ year: 2023
 month: 07
 day: 22
 weekday: Saturday
-gallery: "instagram-2023-07-22-195028-this-is-how-i-feel-sometimes-when-i-read-the-news-https-www-washingtonpost-com"
 source:
   type: instagram
   uri: "media/posts/202307/18371661271024306.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/07/22/195028-this-is-how-i-feel-sometimes-when-i-read-the-news-https-www-washingtonpost-com.html"
 index: 1
 ---
-
 

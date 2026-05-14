@@ -10,7 +10,6 @@ year: 2021
 month: 01
 day: 19
 weekday: Tuesday
-gallery: "instagram-2021-01-19-225745-clear-skies-makes-for-good-pictures"
 source:
   type: instagram
   uri: "media/other/17917348354553198.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/01/19/225745-clear-skies-makes-for-good-pictures.html"
 index: 1
 ---
-
 

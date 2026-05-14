@@ -10,7 +10,6 @@ year: 2019
 month: 04
 day: 10
 weekday: Wednesday
-gallery: "instagram-2019-04-10-223102-my-favorite-sister-on-siblings-day"
 source:
   type: instagram
   uri: "media/other/17870450119349690.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/04/10/223102-my-favorite-sister-on-siblings-day.html"
 index: 1
 ---
-
 

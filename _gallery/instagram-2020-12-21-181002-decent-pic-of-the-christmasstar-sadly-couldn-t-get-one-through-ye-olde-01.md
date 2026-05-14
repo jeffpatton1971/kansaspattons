@@ -11,7 +11,6 @@ year: 2020
 month: 12
 day: 21
 weekday: Monday
-gallery: "instagram-2020-12-21-181002-decent-pic-of-the-christmasstar-sadly-couldn-t-get-one-through-ye-olde"
 source:
   type: instagram
   uri: "media/posts/202012/17938550446417926.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/12/21/181002-decent-pic-of-the-christmasstar-sadly-couldn-t-get-one-through-ye-olde.html"
 index: 1
 ---
-
 

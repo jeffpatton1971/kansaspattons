@@ -10,7 +10,6 @@ year: 2025
 month: 10
 day: 17
 weekday: Friday
-gallery: "instagram-2025-10-17-112353-baked-apple-pancakes"
 source:
   type: instagram
   uri: "media/posts/202510/18085324112500750.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/10/17/112353-baked-apple-pancakes.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2023
 month: 09
 day: 24
 weekday: Sunday
-gallery: "instagram-2023-09-24-214216-sky-observations-with-nathan"
 source:
   type: instagram
   uri: "media/posts/202309/18058492201454490.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/09/24/214216-sky-observations-with-nathan.html"
 index: 1
 ---
-
 

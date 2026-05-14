@@ -15,12 +15,16 @@ source:
   caption: "#brekfast from @munchersbakery"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-10-10-071137-brekfast-from-munchersbakery-01
+images:
+  - id: instagram-2025-10-10-071137-brekfast-from-munchersbakery-01
+    caption:
+    alt:
 hashtags:
   - "brekfast"
 handles:
   - "munchersbakery"
 location:
-gallery: "instagram-2025-10-10-071137-brekfast-from-munchersbakery"
 tags:
   - "brekfast"
   - "instagram"
@@ -29,8 +33,4 @@ authors:
   - "Jeff Patton"
 summary: "#brekfast from @munchersbakery"
 ---
-
 [#brekfast](https://www.instagram.com/explore/tags/brekfast/) from [@munchersbakery](https://www.instagram.com/munchersbakery/)
-
-{% include gallery.html gallery="instagram-2025-10-10-071137-brekfast-from-munchersbakery" %}
-

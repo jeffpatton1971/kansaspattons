@@ -11,7 +11,6 @@ year: 2025
 month: 03
 day: 01
 weekday: Saturday
-gallery: "instagram-2025-03-01-120908-yea-you-re-not-fooling-me-iykyk"
 source:
   type: instagram
   uri: "media/posts/202503/17885309787229028.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/03/01/120908-yea-you-re-not-fooling-me-iykyk.html"
 index: 1
 ---
-
 

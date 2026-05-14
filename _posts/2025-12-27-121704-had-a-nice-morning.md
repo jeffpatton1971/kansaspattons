@@ -15,10 +15,14 @@ source:
   caption: "Had a nice morning"
   media_count: 5
   cross_post_source: "FB"
+cover_image: instagram-2025-12-27-121704-had-a-nice-morning-01
+related:
+  - type: gallery
+    id: instagram-2025-12-27-121704-had-a-nice-morning
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2025-12-27-121704-had-a-nice-morning"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Had a nice morning"
 ---
-
 Had a nice morning
-
-{% include gallery.html gallery="instagram-2025-12-27-121704-had-a-nice-morning" %}
-

@@ -11,7 +11,6 @@ year: 2022
 month: 09
 day: 24
 weekday: Saturday
-gallery: "instagram-2022-09-24-074345-goodmorning"
 source:
   type: instagram
   uri: "media/other/17924077430474067.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2022/09/24/074345-goodmorning.html"
 index: 1
 ---
-
 

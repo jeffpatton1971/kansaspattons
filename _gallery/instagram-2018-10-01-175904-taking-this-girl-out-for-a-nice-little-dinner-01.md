@@ -10,7 +10,6 @@ year: 2018
 month: 10
 day: 01
 weekday: Monday
-gallery: "instagram-2018-10-01-175904-taking-this-girl-out-for-a-nice-little-dinner"
 source:
   type: instagram
   uri: "media/other/17943839137194022.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/10/01/175904-taking-this-girl-out-for-a-nice-little-dinner.html"
 index: 1
 ---
-
 

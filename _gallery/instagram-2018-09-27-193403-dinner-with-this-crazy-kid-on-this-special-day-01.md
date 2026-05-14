@@ -10,7 +10,6 @@ year: 2018
 month: 09
 day: 27
 weekday: Thursday
-gallery: "instagram-2018-09-27-193403-dinner-with-this-crazy-kid-on-this-special-day"
 source:
   type: instagram
   uri: "media/other/17969046424110466.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/09/27/193403-dinner-with-this-crazy-kid-on-this-special-day.html"
 index: 1
 ---
-
 

@@ -12,7 +12,11 @@ source:
   type: wordpress
   id: 664
   url: "https://jeffspatton.wordpress.com/2013/06/07/june-7-2013/"
-gallery: "wordpress-2013-06-07-141440-june-7-2013"
+cover_image: "2013-06-07-wp-20130607-015"
+related:
+  - type: gallery
+    id: wordpress-2013-06-07-141440-june-7-2013
+    rel: photos
 categories:
   - "Nathan"
   - cancer
@@ -26,7 +30,6 @@ Nathan had his final chemo session for this round today and Natalie went with us
 
 While it was good for Natalie to be here, I think it was really good for Nathan, he really enjoyed having his “sissie” there with him.
 
-{% include gallery.html gallery="wordpress-2013-06-07-141440-june-7-2013" %}
 
 {% include youtubePlayer.html id="-OGPlD96HQg" %}
 

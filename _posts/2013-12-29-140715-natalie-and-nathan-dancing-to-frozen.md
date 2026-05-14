@@ -15,10 +15,14 @@ source:
   caption: "Natalie and Nathan dancing to Frozen"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2013-12-29-140715-natalie-and-nathan-dancing-to-frozen-01
+images:
+  - id: instagram-2013-12-29-140715-natalie-and-nathan-dancing-to-frozen-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2013-12-29-140715-natalie-and-nathan-dancing-to-frozen"
 tags:
   - "instagram"
 categories:
@@ -28,8 +32,4 @@ authors:
   - "Jeff Patton"
 summary: "Natalie and Nathan dancing to Frozen"
 ---
-
 Natalie and Nathan dancing to Frozen
-
-{% include gallery.html gallery="instagram-2013-12-29-140715-natalie-and-nathan-dancing-to-frozen" %}
-

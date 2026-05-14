@@ -10,7 +10,6 @@ year: 2014
 month: 06
 day: 25
 weekday: Wednesday
-gallery: "instagram-2014-06-25-202048-just-building-houses"
 source:
   type: instagram
   uri: "media/other/17843317213063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/06/25/202048-just-building-houses.html"
 index: 1
 ---
-
 

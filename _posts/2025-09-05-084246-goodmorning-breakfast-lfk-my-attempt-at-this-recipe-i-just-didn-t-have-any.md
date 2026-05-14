@@ -15,13 +15,20 @@ source:
   caption: "#goodmorning #breakfast #lfk my attempt at this recipe I just didn’t have any fancy bread"
   media_count: 2
   cross_post_source: "FB"
+cover_image: instagram-2025-09-05-084246-goodmorning-breakfast-lfk-my-attempt-at-this-recipe-i-just-didn-t-have-any-01
+images:
+  - id: instagram-2025-09-05-084246-goodmorning-breakfast-lfk-my-attempt-at-this-recipe-i-just-didn-t-have-any-01
+    caption:
+    alt:
+  - id: instagram-2025-09-05-084246-goodmorning-breakfast-lfk-my-attempt-at-this-recipe-i-just-didn-t-have-any-02
+    caption:
+    alt:
 hashtags:
   - "goodmorning"
   - "breakfast"
   - "lfk"
 handles: []
 location:
-gallery: "instagram-2025-09-05-084246-goodmorning-breakfast-lfk-my-attempt-at-this-recipe-i-just-didn-t-have-any"
 tags:
   - "goodmorning"
   - "breakfast"
@@ -32,8 +39,4 @@ authors:
   - "Jeff Patton"
 summary: "#goodmorning #breakfast #lfk my attempt at this recipe I just didn’t have any fancy bread"
 ---
-
 [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#breakfast](https://www.instagram.com/explore/tags/breakfast/) [#lfk](https://www.instagram.com/explore/tags/lfk/) my attempt at this recipe I just didn’t have any fancy bread
-
-{% include gallery.html gallery="instagram-2025-09-05-084246-goodmorning-breakfast-lfk-my-attempt-at-this-recipe-i-just-didn-t-have-any" %}
-

@@ -10,7 +10,6 @@ year: 2013
 month: 12
 day: 09
 weekday: Monday
-gallery: "instagram-2013-12-09-212541-a-rare-moment-natalie-smiling"
 source:
   type: instagram
   uri: "media/other/17842411399063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2013/12/09/212541-a-rare-moment-natalie-smiling.html"
 index: 1
 ---
-
 

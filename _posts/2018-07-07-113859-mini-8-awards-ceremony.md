@@ -15,10 +15,20 @@ source:
   caption: "Mini-8 awards ceremony"
   media_count: 3
   cross_post_source: "FB"
+cover_image: instagram-2018-07-07-113859-mini-8-awards-ceremony-01
+images:
+  - id: instagram-2018-07-07-113859-mini-8-awards-ceremony-01
+    caption:
+    alt:
+  - id: instagram-2018-07-07-113859-mini-8-awards-ceremony-02
+    caption:
+    alt:
+  - id: instagram-2018-07-07-113859-mini-8-awards-ceremony-03
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2018-07-07-113859-mini-8-awards-ceremony"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +36,4 @@ authors:
   - "Jeff Patton"
 summary: "Mini-8 awards ceremony"
 ---
-
 Mini-8 awards ceremony
-
-{% include gallery.html gallery="instagram-2018-07-07-113859-mini-8-awards-ceremony" %}
-

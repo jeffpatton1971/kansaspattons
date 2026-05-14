@@ -11,7 +11,6 @@ year: 2025
 month: 01
 day: 23
 weekday: Thursday
-gallery: "instagram-2025-01-23-184839-breakfsst-for-dinner-with-cometeer"
 source:
   type: instagram
   uri: "media/posts/202501/18033416381612957.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/01/23/184839-breakfsst-for-dinner-with-cometeer.html"
 index: 1
 ---
-
 

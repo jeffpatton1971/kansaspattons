@@ -11,7 +11,6 @@ year: 2021
 month: 05
 day: 01
 weekday: Saturday
-gallery: "instagram-2021-05-01-151912-baseball-and-friends-the-boys-are-cheering-for-a-friend-of-theirs-on-a"
 source:
   type: instagram
   uri: "media/posts/202105/17871470495417107.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2021/05/01/151912-baseball-and-friends-the-boys-are-cheering-for-a-friend-of-theirs-on-a.html"
 index: 1
 ---
-
 

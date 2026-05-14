@@ -10,7 +10,6 @@ year: 2014
 month: 06
 day: 15
 weekday: Sunday
-gallery: "instagram-2014-06-15-155844-great-grandpa-with-great-grandson"
 source:
   type: instagram
   uri: "media/other/17843312869063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/06/15/155844-great-grandpa-with-great-grandson.html"
 index: 1
 ---
-
 

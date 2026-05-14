@@ -15,10 +15,14 @@ source:
   caption: "Zoo trip part 2: a very nice trip our first visit was fun"
   media_count: 10
   cross_post_source: "FB"
+cover_image: instagram-2024-03-13-161830-zoo-trip-part-2-a-very-nice-trip-our-first-visit-was-fun-01
+related:
+  - type: gallery
+    id: instagram-2024-03-13-161830-zoo-trip-part-2-a-very-nice-trip-our-first-visit-was-fun
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2024-03-13-161830-zoo-trip-part-2-a-very-nice-trip-our-first-visit-was-fun"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "Zoo trip part 2: a very nice trip our first visit was fun"
 ---
-
 Zoo trip part 2: a very nice trip our first visit was fun
-
-{% include gallery.html gallery="instagram-2024-03-13-161830-zoo-trip-part-2-a-very-nice-trip-our-first-visit-was-fun" %}
-

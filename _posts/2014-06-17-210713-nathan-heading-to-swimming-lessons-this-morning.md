@@ -15,10 +15,14 @@ source:
   caption: "Nathan heading to swimming lessons this morning"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-06-17-210713-nathan-heading-to-swimming-lessons-this-morning-01
+images:
+  - id: instagram-2014-06-17-210713-nathan-heading-to-swimming-lessons-this-morning-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2014-06-17-210713-nathan-heading-to-swimming-lessons-this-morning"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Nathan heading to swimming lessons this morning"
 ---
-
 Nathan heading to swimming lessons this morning
-
-{% include gallery.html gallery="instagram-2014-06-17-210713-nathan-heading-to-swimming-lessons-this-morning" %}
-

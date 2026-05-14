@@ -11,7 +11,6 @@ year: 2025
 month: 12
 day: 19
 weekday: Friday
-gallery: "instagram-2025-12-19-230841-enjoyed-a-lovely-candelightconcert-with-fountaincitystringquartet"
 source:
   type: instagram
   uri: "media/posts/202512/18099389701872211.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/12/19/230841-enjoyed-a-lovely-candelightconcert-with-fountaincitystringquartet.html"
 index: 1
 ---
-
 

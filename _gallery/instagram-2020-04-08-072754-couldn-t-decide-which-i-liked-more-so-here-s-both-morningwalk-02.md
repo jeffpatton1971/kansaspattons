@@ -11,7 +11,6 @@ year: 2020
 month: 04
 day: 08
 weekday: Wednesday
-gallery: "instagram-2020-04-08-072754-couldn-t-decide-which-i-liked-more-so-here-s-both-morningwalk"
 source:
   type: instagram
   uri: "media/posts/202004/17928535042374143.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/04/08/072754-couldn-t-decide-which-i-liked-more-so-here-s-both-morningwalk.html"
 index: 2
 ---
-
 

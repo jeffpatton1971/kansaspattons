@@ -15,10 +15,14 @@ source:
   caption: "Putting together a beyblade arena for Nathan"
   media_count: 6
   cross_post_source: "FB"
+cover_image: instagram-2019-03-23-200428-putting-together-a-beyblade-arena-for-nathan-01
+related:
+  - type: gallery
+    id: instagram-2019-03-23-200428-putting-together-a-beyblade-arena-for-nathan
+    rel: photos
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2019-03-23-200428-putting-together-a-beyblade-arena-for-nathan"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Putting together a beyblade arena for Nathan"
 ---
-
 Putting together a beyblade arena for Nathan
-
-{% include gallery.html gallery="instagram-2019-03-23-200428-putting-together-a-beyblade-arena-for-nathan" %}
-

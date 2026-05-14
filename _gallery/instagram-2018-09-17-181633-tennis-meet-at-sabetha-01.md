@@ -10,7 +10,6 @@ year: 2018
 month: 09
 day: 17
 weekday: Monday
-gallery: "instagram-2018-09-17-181633-tennis-meet-at-sabetha"
 source:
   type: instagram
   uri: "media/posts/201809/17962391989121220.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2018/09/17/181633-tennis-meet-at-sabetha.html"
 index: 1
 ---
-
 

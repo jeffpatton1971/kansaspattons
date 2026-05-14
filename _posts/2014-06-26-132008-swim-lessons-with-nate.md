@@ -15,10 +15,14 @@ source:
   caption: "Swim lessons with Nate"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2014-06-26-132008-swim-lessons-with-nate-01
+images:
+  - id: instagram-2014-06-26-132008-swim-lessons-with-nate-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2014-06-26-132008-swim-lessons-with-nate"
 tags:
   - "instagram"
 categories:
@@ -27,8 +31,4 @@ authors:
   - "Jeff Patton"
 summary: "Swim lessons with Nate"
 ---
-
 Swim lessons with Nate
-
-{% include gallery.html gallery="instagram-2014-06-26-132008-swim-lessons-with-nate" %}
-

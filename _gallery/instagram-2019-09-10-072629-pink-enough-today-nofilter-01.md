@@ -11,7 +11,6 @@ year: 2019
 month: 09
 day: 10
 weekday: Tuesday
-gallery: "instagram-2019-09-10-072629-pink-enough-today-nofilter"
 source:
   type: instagram
   uri: "media/other/18069924775084725.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/09/10/072629-pink-enough-today-nofilter.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2019
 month: 11
 day: 07
 weekday: Thursday
-gallery: "instagram-2019-11-07-191005-somethin-to-ride-too"
 source:
   type: instagram
   uri: "media/other/17861279458569535.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/11/07/191005-somethin-to-ride-too.html"
 index: 1
 ---
-
 

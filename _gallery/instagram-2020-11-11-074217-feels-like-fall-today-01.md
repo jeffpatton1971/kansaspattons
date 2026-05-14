@@ -10,7 +10,6 @@ year: 2020
 month: 11
 day: 11
 weekday: Wednesday
-gallery: "instagram-2020-11-11-074217-feels-like-fall-today"
 source:
   type: instagram
   uri: "media/other/17887868689768040.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2020/11/11/074217-feels-like-fall-today.html"
 index: 1
 ---
-
 

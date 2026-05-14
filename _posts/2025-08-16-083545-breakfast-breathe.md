@@ -15,12 +15,16 @@ source:
   caption: "#breakfast #breathe"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2025-08-16-083545-breakfast-breathe-01
+images:
+  - id: instagram-2025-08-16-083545-breakfast-breathe-01
+    caption:
+    alt:
 hashtags:
   - "breakfast"
   - "breathe"
 handles: []
 location:
-gallery: "instagram-2025-08-16-083545-breakfast-breathe"
 tags:
   - "breakfast"
   - "breathe"
@@ -30,8 +34,4 @@ authors:
   - "Jeff Patton"
 summary: "#breakfast #breathe"
 ---
-
 [#breakfast](https://www.instagram.com/explore/tags/breakfast/) [#breathe](https://www.instagram.com/explore/tags/breathe/)
-
-{% include gallery.html gallery="instagram-2025-08-16-083545-breakfast-breathe" %}
-

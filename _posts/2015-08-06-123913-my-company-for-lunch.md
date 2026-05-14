@@ -15,10 +15,14 @@ source:
   caption: "My company for lunch"
   media_count: 1
   cross_post_source: "FB"
+cover_image: instagram-2015-08-06-123913-my-company-for-lunch-01
+images:
+  - id: instagram-2015-08-06-123913-my-company-for-lunch-01
+    caption:
+    alt:
 hashtags: []
 handles: []
 location:
-gallery: "instagram-2015-08-06-123913-my-company-for-lunch"
 tags:
   - "instagram"
 categories: []
@@ -26,8 +30,4 @@ authors:
   - "Jeff Patton"
 summary: "My company for lunch"
 ---
-
 My company for lunch
-
-{% include gallery.html gallery="instagram-2015-08-06-123913-my-company-for-lunch" %}
-

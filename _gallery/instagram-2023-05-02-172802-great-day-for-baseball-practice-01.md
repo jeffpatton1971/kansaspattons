@@ -11,7 +11,6 @@ year: 2023
 month: 05
 day: 02
 weekday: Tuesday
-gallery: "instagram-2023-05-02-172802-great-day-for-baseball-practice"
 source:
   type: instagram
   uri: "media/posts/202305/18081163984352338.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/05/02/172802-great-day-for-baseball-practice.html"
 index: 1
 ---
-
 

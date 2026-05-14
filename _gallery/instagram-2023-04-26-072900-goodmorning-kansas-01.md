@@ -12,7 +12,6 @@ year: 2023
 month: 04
 day: 26
 weekday: Wednesday
-gallery: "instagram-2023-04-26-072900-goodmorning-kansas"
 source:
   type: instagram
   uri: "media/posts/202304/18294634531100157.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2023/04/26/072900-goodmorning-kansas.html"
 index: 1
 ---
-
 

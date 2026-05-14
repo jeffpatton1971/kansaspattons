@@ -11,7 +11,6 @@ year: 2019
 month: 01
 day: 03
 weekday: Thursday
-gallery: "instagram-2019-01-03-071958-had-to-pull-out-the-nokia-lumia-1020-to-get-a-decent-picture-of-the-moon-and"
 source:
   type: instagram
   uri: "media/other/17980712512175093.jpg"
@@ -25,5 +24,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2019/01/03/071958-had-to-pull-out-the-nokia-lumia-1020-to-get-a-decent-picture-of-the-moon-and.html"
 index: 1
 ---
-
 

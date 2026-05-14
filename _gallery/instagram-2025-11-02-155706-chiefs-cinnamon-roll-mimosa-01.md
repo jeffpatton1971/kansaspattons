@@ -10,7 +10,6 @@ year: 2025
 month: 11
 day: 02
 weekday: Sunday
-gallery: "instagram-2025-11-02-155706-chiefs-cinnamon-roll-mimosa"
 source:
   type: instagram
   uri: "media/posts/202511/18086620846948158.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/11/02/155706-chiefs-cinnamon-roll-mimosa.html"
 index: 1
 ---
-
 

@@ -10,7 +10,6 @@ year: 2014
 month: 06
 day: 26
 weekday: Thursday
-gallery: "instagram-2014-06-26-132008-swim-lessons-with-nate"
 source:
   type: instagram
   uri: "media/other/17843317525063547.jpg"
@@ -24,5 +23,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2014/06/26/132008-swim-lessons-with-nate.html"
 index: 1
 ---
-
 

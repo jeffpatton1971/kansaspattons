@@ -12,7 +12,6 @@ year: 2025
 month: 09
 day: 27
 weekday: Saturday
-gallery: "instagram-2025-09-27-153219-lunch-with-nathan-pizza"
 source:
   type: instagram
   uri: "media/posts/202509/17947115484051702.jpg"
@@ -26,5 +25,4 @@ thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/
 post: "/blog/2025/09/27/153219-lunch-with-nathan-pizza.html"
 index: 1
 ---
-
 
