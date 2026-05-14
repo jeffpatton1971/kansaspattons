@@ -804,9 +804,13 @@ Detailed working notes for the React migration live here. This file is intention
   - Centered the story image frame within the detail column.
   - Capped the story image frame at `640px`.
   - Changed story images to `object-fit: contain` so the photo is not cropped just to fill the square.
+- Follow-up story page layout adjustment:
+  - Added a story-specific detail grid so the center column is capped around the story media instead of using the broad archive/post column.
+  - This keeps the right-rail metric badges visually closer to the story content and removes the large empty band between the image and metrics.
 - Verification:
   - `npm run build` passed and generated `1,109` entries, `305` galleries, and `8,528` images.
   - Follow-up `npm run build` passed with the story image sizing adjustment.
+  - Follow-up `npm run build` passed with the story detail grid adjustment.
 
 ### Post And Story Card Shapes
 

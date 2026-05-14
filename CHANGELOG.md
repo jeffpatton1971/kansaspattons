@@ -116,6 +116,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed story detail rendering so stories backed by related galleries still lead with an image carousel.
 - Changed gallery detail pages and inline related galleries to use the gallery peek carousel instead of thumbnail grids or clickable image strips.
 - Centered story carousel media and capped its frame width so story photos no longer render oversized or left-aligned.
+- Narrowed the story detail page grid so story media, text, and right-rail metrics align without a large empty middle-column gap.
 
 ### Fixed
 

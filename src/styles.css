@@ -236,6 +236,11 @@ button {
   grid-template-columns: minmax(260px, 16vw) minmax(0, 1fr) minmax(170px, 220px);
 }
 
+.page--story-detail {
+  grid-template-columns: minmax(240px, 300px) minmax(0, 720px) minmax(170px, 220px);
+  justify-content: center;
+}
+
 .archive-main {
   min-width: 0;
 }
@@ -1132,7 +1137,7 @@ h1 {
 }
 
 .story-detail {
-  max-width: 920px;
+  max-width: none;
 }
 
 .story-detail .image-carousel {
