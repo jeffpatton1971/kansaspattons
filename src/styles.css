@@ -1302,6 +1302,40 @@ h1 {
   transform: scale(1.035);
 }
 
+.related-gallery {
+  margin-top: 36px;
+  padding: 18px;
+  border: 1px solid #d1d9d2;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.related-gallery__heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.related-gallery__heading h2 {
+  margin: 4px 0 0;
+  color: #17201f;
+  font-size: 1.35rem;
+  line-height: 1.1;
+}
+
+.related-gallery__heading p:not(.eyebrow) {
+  max-width: 680px;
+  margin: 7px 0 0;
+  color: #4c5552;
+  line-height: 1.45;
+}
+
+.related-gallery .image-carousel {
+  margin-top: 18px;
+  padding-top: 18px;
+}
+
 .notice,
 .state-text {
   max-width: 720px;

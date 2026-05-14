@@ -57,6 +57,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Added a repeatable `normalize:posts` script for applying the new frontmatter shape across imported Markdown posts.
 - Added rich direct `images` frontmatter support for posts that attach images without creating a gallery page.
 - Added `imageId` filtering to the image API so post details can fetch direct image attachments.
+- Added inline rendering for galleries referenced through post/story `related` metadata.
 
 ### Changed
 

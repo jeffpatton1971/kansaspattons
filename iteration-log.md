@@ -763,6 +763,7 @@ Detailed working notes for the React migration live here. This file is intention
   - Direct image attachments can set `coverImage`.
   - The image API supports `imageId` query filtering in addition to `galleryId`.
   - Post/story details now fetch both direct image attachments and gallery-backed images.
+  - Post/story details now resolve `related` gallery links and render those galleries inline below the entry body.
   - Legacy URLs are derived from the filename slug while modern routes use explicit `slug` frontmatter.
 - Verification:
   - `npm run build` passed and now generates 1,105 entries, 1,116 galleries, and 8,528 images.
