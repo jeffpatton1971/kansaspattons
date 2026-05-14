@@ -678,6 +678,37 @@ Detailed working notes for the React migration live here. This file is intention
     - `CONTENT_STORAGE_CONTAINER=kansaspattons`
   - Dry-run publish now sees 2,229 generated files and 24,602,422 bytes.
 
+### Tailwind And shadcn Styling Foundation
+
+- Direction:
+  - Use Tailwind CSS for utility composition and responsive layout.
+  - Use shadcn/ui for reusable primitives that can be copied or shared across future sites.
+  - Keep site-specific personality in CSS variables rather than hard-coding component forks.
+- Setup:
+  - Installed Tailwind CSS v4 and `@tailwindcss/vite`.
+  - Added the Tailwind Vite plugin.
+  - Added the `@/*` alias for `src/*`.
+  - Initialized shadcn with the Nova/Radix preset in `components.json`.
+  - Added the shared `cn` helper at `src/lib/utils.ts`.
+  - Added shadcn theme tokens to `src/styles.css`.
+  - Added Geist Variable as the initial contemporary typeface.
+- Installed shadcn primitives:
+  - `Button`
+  - `Card`
+  - `Badge`
+  - `Separator`
+  - `Skeleton`
+  - `Tooltip`
+- First converted UI surface:
+  - The archive right rail now uses shadcn cards for archive totals and source filters.
+  - Source filters now render as shadcn badges.
+  - Loading state now uses shadcn skeletons.
+  - The app is wrapped in `TooltipProvider` for future standard tooltips.
+- Documentation:
+  - Added `docs/design-system.md` with setup notes and cross-site styling guidance.
+- Verification:
+  - `npm run build` passed.
+
 ### Post And Story Card Shapes
 
 - Started making the two content shapes visually distinct.

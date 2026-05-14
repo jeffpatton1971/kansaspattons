@@ -1,12 +1,139 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "@fontsource-variable/geist";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
 :root {
+  --radius: 0.625rem;
+  --background: oklch(0.982 0.01 95);
+  --foreground: oklch(0.19 0.025 170);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.19 0.025 170);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.19 0.025 170);
+  --primary: oklch(0.34 0.065 178);
+  --primary-foreground: oklch(0.985 0.01 95);
+  --secondary: oklch(0.936 0.018 156);
+  --secondary-foreground: oklch(0.23 0.03 165);
+  --muted: oklch(0.95 0.012 106);
+  --muted-foreground: oklch(0.43 0.018 160);
+  --accent: oklch(0.91 0.05 87);
+  --accent-foreground: oklch(0.23 0.03 165);
+  --destructive: oklch(0.58 0.22 27);
+  --destructive-foreground: oklch(0.985 0.01 95);
+  --border: oklch(0.88 0.018 130);
+  --input: oklch(0.88 0.018 130);
+  --ring: oklch(0.56 0.06 178);
+  --chart-1: oklch(0.58 0.12 178);
+  --chart-2: oklch(0.65 0.13 78);
+  --chart-3: oklch(0.52 0.1 248);
+  --chart-4: oklch(0.7 0.12 142);
+  --chart-5: oklch(0.63 0.13 25);
+  --sidebar: oklch(0.98 0.008 95);
+  --sidebar-foreground: oklch(0.19 0.025 170);
+  --sidebar-primary: oklch(0.34 0.065 178);
+  --sidebar-primary-foreground: oklch(0.985 0.01 95);
+  --sidebar-accent: oklch(0.936 0.018 156);
+  --sidebar-accent-foreground: oklch(0.23 0.03 165);
+  --sidebar-border: oklch(0.88 0.018 130);
+  --sidebar-ring: oklch(0.56 0.06 178);
   color-scheme: light;
   font-family:
-    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    "Geist Variable", Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: #202326;
   background: #f6f7f4;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+}
+
+.dark {
+  --background: oklch(0.16 0.02 170);
+  --foreground: oklch(0.96 0.01 95);
+  --card: oklch(0.2 0.022 170);
+  --card-foreground: oklch(0.96 0.01 95);
+  --popover: oklch(0.2 0.022 170);
+  --popover-foreground: oklch(0.96 0.01 95);
+  --primary: oklch(0.76 0.08 174);
+  --primary-foreground: oklch(0.16 0.02 170);
+  --secondary: oklch(0.28 0.025 165);
+  --secondary-foreground: oklch(0.96 0.01 95);
+  --muted: oklch(0.26 0.02 165);
+  --muted-foreground: oklch(0.72 0.015 120);
+  --accent: oklch(0.7 0.09 82);
+  --accent-foreground: oklch(0.16 0.02 170);
+  --destructive: oklch(0.7 0.18 23);
+  --destructive-foreground: oklch(0.98 0.01 95);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 16%);
+  --ring: oklch(0.72 0.08 174);
+  --chart-1: oklch(0.76 0.08 174);
+  --chart-2: oklch(0.78 0.11 82);
+  --chart-3: oklch(0.74 0.09 248);
+  --chart-4: oklch(0.72 0.1 142);
+  --chart-5: oklch(0.72 0.12 25);
+  --sidebar: oklch(0.2 0.022 170);
+  --sidebar-foreground: oklch(0.96 0.01 95);
+  --sidebar-primary: oklch(0.76 0.08 174);
+  --sidebar-primary-foreground: oklch(0.16 0.02 170);
+  --sidebar-accent: oklch(0.28 0.025 165);
+  --sidebar-accent-foreground: oklch(0.96 0.01 95);
+  --sidebar-border: oklch(1 0 0 / 12%);
+  --sidebar-ring: oklch(0.72 0.08 174);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
 }
 
 * {
@@ -50,8 +177,7 @@ button {
 .site-header nav a,
 .icon-line,
 .quiet-link,
-.row-action,
-.metric {
+.row-action {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -238,122 +364,11 @@ h1 {
   line-height: 1.55;
 }
 
-.metrics {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(132px, 1fr));
-  gap: 12px;
-  min-width: min(360px, 100%);
-}
-
-.metrics--rail {
-  position: sticky;
-  top: 92px;
-  grid-template-columns: 1fr;
-  min-width: 0;
-}
-
-.metrics--loading {
-  min-height: 420px;
-}
-
 .metrics-stack {
   position: sticky;
   top: 92px;
   display: grid;
   gap: 12px;
-}
-
-.metrics-stack .metrics--rail {
-  position: static;
-}
-
-.metric {
-  min-height: 132px;
-  flex-direction: column;
-  justify-content: center;
-  padding: 18px;
-  border: 1px solid #d1d9d2;
-  border-radius: 8px;
-  background: #fff;
-}
-
-.metric:first-child {
-  color: #0d5d56;
-}
-
-.metric:nth-child(2) {
-  color: #6b4ba3;
-}
-
-.metric:nth-child(3) {
-  color: #8a6f22;
-}
-
-.metric:last-child {
-  color: #8a3448;
-}
-
-.metric strong {
-  color: #111715;
-  font-size: 2rem;
-  line-height: 1;
-}
-
-.metric span {
-  color: #4c5552;
-  font-size: 0.88rem;
-  font-weight: 700;
-}
-
-.source-badges {
-  display: grid;
-  gap: 8px;
-  padding: 14px;
-  border: 1px solid #d1d9d2;
-  border-radius: 8px;
-  background: #fff;
-}
-
-.source-badge {
-  display: flex;
-  min-height: 38px;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  padding: 0 10px;
-  border: 1px solid #dce3dd;
-  border-radius: 8px;
-  color: #25302d;
-  text-decoration: none;
-}
-
-.source-badge:hover,
-.source-badge:focus-visible {
-  border-color: #8fb7ae;
-  outline: none;
-  background: #eef7f4;
-}
-
-.source-badge span {
-  font-size: 0.86rem;
-  font-weight: 760;
-}
-
-.source-badge strong {
-  color: #111715;
-  font-size: 0.94rem;
-}
-
-.source-badge--wordpress {
-  color: #0d5d56;
-}
-
-.source-badge--instagram {
-  color: #6b4ba3;
-}
-
-.source-badge--facebook {
-  color: #8a3448;
 }
 
 .split {
@@ -1325,10 +1340,6 @@ h1 {
     flex-direction: column;
   }
 
-  .metrics {
-    width: 100%;
-  }
-
   .archive-calendar {
     position: static;
   }
@@ -1358,10 +1369,6 @@ h1 {
   .site-header nav a {
     flex: 1;
     justify-content: center;
-  }
-
-  .metrics {
-    grid-template-columns: 1fr;
   }
 
   .shelf__track {

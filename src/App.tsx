@@ -7,10 +7,11 @@ import { LegacyPostRedirect } from './pages/LegacyPostRedirect';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { PostDetailPage, StoryDetailPage } from './pages/PostDetailPage';
 import { PostsPage, StoriesPage } from './pages/PostsPage';
+import { TooltipProvider } from '@/components/ui/tooltip';
 
 export function App() {
   return (
-    <>
+    <TooltipProvider>
       <header className="site-header">
         <NavLink to="/" className="brand" aria-label="KansasPattons home">
           <Library aria-hidden="true" size={24} />
@@ -61,6 +62,6 @@ export function App() {
         <Route path="/images/:year/:month/:day/:imageId" element={<ImagesPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
-    </>
+    </TooltipProvider>
   );
 }
