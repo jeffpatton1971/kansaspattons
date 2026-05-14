@@ -1,4 +1,4 @@
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { formatDateLabel, monthName } from '../archive';
 import { ArchiveCalendar, resolveSelection } from '../components/ArchiveCalendar';
 import { ArchiveMetrics } from '../components/ArchiveMetrics';
@@ -26,12 +26,16 @@ export function GalleriesPage() {
 }
 
 function GalleryArchivePage({ params }: { params: GalleryParams }) {
+  const [searchParams] = useSearchParams();
+  const source = searchParams.get('source') || undefined;
+  const sourceSearch = source ? `?source=${encodeURIComponent(source)}` : '';
   const query = {
     year: params.year,
     month: params.month,
     day: params.day,
+    source,
   };
-  const state = useAsyncData(() => fetchGalleryIndex(query), [params.year, params.month, params.day]);
+  const state = useAsyncData(() => fetchGalleryIndex(query), [params.year, params.month, params.day, source]);
 
   if (state.status === 'loading') {
     return <LoadingState label="Loading galleries" />;
@@ -55,6 +59,7 @@ function GalleryArchivePage({ params }: { params: GalleryParams }) {
           selectedYear={selection?.year.year}
           selectedMonth={selection?.month.month}
           selectedDay={params.day}
+          search={sourceSearch}
         />
       </div>
 
@@ -62,7 +67,7 @@ function GalleryArchivePage({ params }: { params: GalleryParams }) {
         <div className="page-heading">
           <div>
             <p className="eyebrow">Galleries</p>
-            <h1>{pageTitle(params, total)}</h1>
+            <h1>{pageTitle(params, total, source)}</h1>
           </div>
           <Link className="quiet-link" to="/galleries">
             Reset
@@ -165,7 +170,9 @@ function GalleryList({ galleries }: { galleries: GallerySummary[] }) {
   );
 }
 
-function pageTitle(params: GalleryParams, count: number) {
+function pageTitle(params: GalleryParams, count: number, source?: string) {
+  const label = source ? `${source.charAt(0).toUpperCase()}${source.slice(1)} Galleries` : 'Galleries';
+
   if (params.year && params.month && params.day) {
     return `${formatDateLabel(`${params.year}-${params.month}-${params.day}T00:00:00`)} (${count})`;
   }
@@ -178,5 +185,5 @@ function pageTitle(params: GalleryParams, count: number) {
     return `${params.year} (${count})`;
   }
 
-  return `All Galleries (${count})`;
+  return `All ${label} (${count})`;
 }

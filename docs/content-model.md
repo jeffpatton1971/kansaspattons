@@ -146,19 +146,19 @@ tags:
 ---
 ```
 
-Current sampled gallery authoring uses an existing Facebook album post:
+Current sampled gallery authoring uses an existing named Facebook album post:
 
 ```yaml
 ---
-title: "Mobile uploads"
+title: "Christmas 2008"
 content_type: gallery
-slug: mobile-uploads
-date: 2003-09-18 09:59:03
+slug: christmas-2008
+date: 2008-12-26 08:56:54
 authors:
   - Jeff Patton
-summary: "A large Facebook mobile uploads album preserved as a first-class gallery."
-gallery: facebook-2003-09-18-095903-mobile-uploads
-cover_image: facebook-2003-09-18-095903-mobile-uploads-0001
+summary: "A Facebook album preserved as a named Christmas gallery."
+gallery: facebook-2008-12-26-085654-christmas-2008
+cover_image: facebook-2008-12-26-085654-christmas-2008-0001
 tags:
   - facebook
   - album
@@ -169,6 +169,8 @@ categories:
 ```
 
 During generation, this source metadata is merged into the gallery produced from matching image records. Its legacy `/blog/...` URL redirects to the gallery route.
+
+Facebook album imports are treated as galleries by default. Facebook's catch-all `Mobile Uploads` albums are the exception: they are marked with `exclude_from_archives: true` and are not published as galleries or story entries. Their individual image records still remain available through `/images` by date.
 
 ## Images
 

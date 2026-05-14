@@ -34,6 +34,13 @@ type SiteAuthor = {
   links?: SiteAuthorLink[];
 };
 
+type SourceCount = {
+  source: 'wordpress' | 'instagram' | 'facebook';
+  label: string;
+  count: number;
+  href: string;
+};
+
 type EntrySource = {
   type?: string;
   subtype?: string;
@@ -233,6 +240,7 @@ async function main() {
   const galleries = await buildGalleries(posts, images, gallerySources);
   const blogPosts = posts.filter((post) => post.type === 'article');
   const stories = posts.filter((post) => post.type === 'story');
+  const sourceCounts = archiveSourceCounts(blogPosts, stories, galleries);
   await rewriteEntryDocuments(posts);
   await rewriteEntrySummaries(posts);
 
@@ -248,6 +256,7 @@ async function main() {
     stories: stories.length,
     galleries: galleries.length,
     images: images.length,
+    sourceCounts,
   });
 
   await writeJson('home.json', {
@@ -262,6 +271,7 @@ async function main() {
     recentPosts: blogPosts.slice(0, 6),
     recentStories: stories.slice(0, 6),
     recentImages: images.slice(0, 18),
+    sourceCounts,
   });
 
   console.log(`Generated ${posts.length} entries, ${galleries.length} galleries, and ${images.length} images.`);
@@ -303,6 +313,10 @@ async function buildPosts() {
     const source = entrySource(parsed.data);
     const type = classifySourceContentType(source.type, parsed.data);
     const summary = textValue(parsed.data.summary) || textValue(parsed.data.excerpt) || excerptFromMarkdown(cleanMarkdown);
+
+    if (excludeFromArchives(parsed.data, title, galleryIds)) {
+      continue;
+    }
 
     if (type === 'gallery') {
       const galleryId = textValue(parsed.data.gallery) || id;
@@ -510,6 +524,10 @@ async function buildGalleries(posts: PostDocument[], images: ImageSummary[], gal
   const galleries: GalleryDocument[] = [];
 
   for (const [galleryId, galleryImages] of groupedImages) {
+    if (excludeGalleryFromArchives(galleryId)) {
+      continue;
+    }
+
     const gallerySource = gallerySourcesById.get(galleryId);
     const relatedPosts = postsByGallery.get(galleryId) ?? [];
     const primaryPost = relatedPosts[0];
@@ -634,6 +652,10 @@ function postsByGalleryId(posts: PostDocument[]) {
   return galleries;
 }
 
+function excludeGalleryFromArchives(galleryId: string) {
+  return /mobile[-\s]*uploads?/i.test(galleryId);
+}
+
 function gallerySummary(gallery: GalleryDocument): GallerySummary {
   const {
     descriptionMarkdown: _descriptionMarkdown,
@@ -643,6 +665,33 @@ function gallerySummary(gallery: GalleryDocument): GallerySummary {
   } = gallery;
 
   return summary;
+}
+
+function archiveSourceCounts(
+  articles: PostSummary[],
+  stories: PostSummary[],
+  galleries: GallerySummary[],
+): SourceCount[] {
+  return [
+    {
+      source: 'wordpress',
+      label: 'WordPress',
+      count: articles.filter((item) => sourceMatches(item.sourceType, 'wordpress')).length,
+      href: '/posts?source=wordpress',
+    },
+    {
+      source: 'instagram',
+      label: 'Instagram',
+      count: stories.filter((item) => sourceMatches(item.sourceType, 'instagram')).length,
+      href: '/stories?source=instagram',
+    },
+    {
+      source: 'facebook',
+      label: 'Facebook',
+      count: galleries.filter((item) => sourceMatches(item.sourceType, 'facebook')).length,
+      href: '/galleries?source=facebook',
+    },
+  ];
 }
 
 function recentHomeEntries(posts: PostSummary[], stories: PostSummary[], perShape: number) {
@@ -869,6 +918,33 @@ function imageSource(value: unknown) {
   return textValue(value) || undefined;
 }
 
+function excludeFromArchives(data: Frontmatter, title: string, galleryIds: string[]) {
+  if (data.exclude_from_archives === true || data.excludeFromArchives === true) {
+    return true;
+  }
+
+  const text = [
+    title,
+    textValue(data.post_id),
+    ...galleryIds,
+    albumTitle(data),
+  ].join(' ');
+
+  return textValue((data.source as Frontmatter | undefined)?.type).toLowerCase() === 'facebook' &&
+    textValue((data.source as Frontmatter | undefined)?.subtype).toLowerCase() === 'album' &&
+    /mobile[-\s]*uploads?/i.test(text);
+}
+
+function albumTitle(data: Frontmatter) {
+  const album = data.album;
+
+  if (!album || typeof album !== 'object' || album instanceof Date) {
+    return '';
+  }
+
+  return textValue((album as Frontmatter).title);
+}
+
 function classifySourceContentType(source: string | undefined, data: Frontmatter): ContentType {
   const explicitType = textValue(data.content_type || data.contentType || data.type).toLowerCase();
 
@@ -881,6 +957,13 @@ function classifySourceContentType(source: string | undefined, data: Frontmatter
   }
 
   if (explicitType === 'gallery') {
+    return 'gallery';
+  }
+
+  if (
+    source === 'facebook' &&
+    textValue((data.source as Frontmatter | undefined)?.subtype).toLowerCase() === 'album'
+  ) {
     return 'gallery';
   }
 
@@ -967,6 +1050,10 @@ function contentLinkType(value: unknown): ContentType | undefined {
   }
 
   return undefined;
+}
+
+function sourceMatches(sourceType: string | undefined, source: string) {
+  return sourceType?.toLowerCase() === source;
 }
 
 function stringArray(value: unknown) {

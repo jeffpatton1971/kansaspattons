@@ -40,12 +40,20 @@ export type SiteAuthor = {
   links?: SiteAuthorLink[];
 };
 
+export type SourceCount = {
+  source: 'wordpress' | 'instagram' | 'facebook';
+  label: string;
+  count: number;
+  href: string;
+};
+
 export type SiteInfo = {
   key?: string;
   title: string;
   url?: string;
   nav?: SiteNavItem[];
   author?: SiteAuthor;
+  sourceCounts?: SourceCount[];
 };
 
 export type EntrySource = {
@@ -212,6 +220,7 @@ export type HomeSummary = {
     galleries?: number;
     images: number;
   };
+  sourceCounts?: SourceCount[];
   recentEntries: PostSummary[];
   recentPosts: PostSummary[];
   recentStories: PostSummary[];

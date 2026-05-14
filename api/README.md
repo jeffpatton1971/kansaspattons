@@ -215,14 +215,17 @@ http://127.0.0.1:5174/
 - `GET /api/sites/{site}/home`
 - `GET /api/sites/{site}/entries?year=2026&cursor=0&limit=24`
 - `GET /api/posts?year=2013&month=08&day=10&cursor=0&limit=24`
+- `GET /api/posts?source=wordpress&cursor=0&limit=24`
 - `GET /api/posts/{year}/{month}/{day}/{slug}`
 - `GET /api/sites/{site}/posts?year=2013&month=08&day=10&cursor=0&limit=24`
 - `GET /api/sites/{site}/posts/{year}/{month}/{day}/{slug}`
 - `GET /api/stories?year=2026&month=04&cursor=0&limit=24`
+- `GET /api/stories?source=instagram&cursor=0&limit=24`
 - `GET /api/stories/{year}/{month}/{day}/{slug}`
 - `GET /api/sites/{site}/stories?year=2026&month=04&cursor=0&limit=24`
 - `GET /api/sites/{site}/stories/{year}/{month}/{day}/{slug}`
 - `GET /api/galleries?year=2010&month=12&cursor=0&limit=24`
+- `GET /api/galleries?source=facebook&cursor=0&limit=24`
 - `GET /api/galleries/{year}/{month}/{day}/{slug}`
 - `GET /api/sites/{site}/galleries?year=2010&month=12&cursor=0&limit=24`
 - `GET /api/sites/{site}/galleries/{year}/{month}/{day}/{slug}`
@@ -233,7 +236,7 @@ http://127.0.0.1:5174/
 - `GET /api/sites/{site}/images?groupBy=year`
 - `GET /api/sites/{site}/images/{year}/{month}/{day}/{imageId}`
 
-The list endpoints return archive calendar data, filters, and paged items. Image lists can also return grouped previews with `groupBy=year`, `groupBy=month`, or `groupBy=day`, or narrow to one or more galleries with comma-separated `galleryId` values.
+The list endpoints return archive calendar data, filters, and paged items. Post, story, and gallery lists can filter by `source`. Image lists can also return grouped previews with `groupBy=year`, `groupBy=month`, or `groupBy=day`, or narrow to one or more galleries with comma-separated `galleryId` values.
 
 ## Publish Flow
 

@@ -11,6 +11,7 @@ export async function loadHomePayload(siteKey?: string) {
     generatedAt: home.generatedAt,
     site: siteInfo(site, siteKey),
     counts: home.counts,
+    sourceCounts: home.sourceCounts ?? site.sourceCounts,
     recentEntries: home.recentEntries,
     recentPosts: home.recentPosts,
     recentStories: home.recentStories,
@@ -25,6 +26,7 @@ function siteInfo(site: SiteSummary, siteKey: string | undefined): SiteInfo {
     url: site.url,
     nav: site.nav ?? defaultNav(),
     author: site.author ?? defaultAuthor(),
+    sourceCounts: site.sourceCounts,
   };
 }
 

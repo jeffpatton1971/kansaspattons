@@ -39,6 +39,14 @@ type SiteSummary = {
   stories: number;
   galleries: number;
   images: number;
+  sourceCounts?: SourceCount[];
+};
+
+type SourceCount = {
+  source: "wordpress" | "instagram" | "facebook";
+  label: string;
+  count: number;
+  href: string;
 };
 
 type SiteNavItem = {
@@ -85,6 +93,7 @@ type HomeSummary = {
   recentPosts: EntrySummary[];
   recentStories: EntrySummary[];
   recentImages: ImageSummary[];
+  sourceCounts?: SourceCount[];
 };
 ```
 
@@ -153,6 +162,8 @@ Classification rule:
 - `content_type: article` becomes `type: "article"` and `contentShape: "post"`.
 - `content_type: story` becomes `type: "story"` and `contentShape: "story"`.
 - `content_type: gallery` becomes a gallery metadata source and is merged into the generated gallery with the same `gallery` ID.
+- Facebook album imports become galleries by default.
+- Facebook `Mobile Uploads` album imports are excluded from post/story/gallery archives when `exclude_from_archives: true` is set. The individual images remain in `images/index.json`.
 - Without an explicit `content_type`, `source.type: wordpress` becomes `type: "article"`.
 - A `wordpress` tag also becomes `type: "article"`.
 - Everything else currently becomes `type: "story"`.
@@ -311,6 +322,7 @@ type ApiListResponse<T> = {
     year?: string;
     month?: string;
     day?: string;
+    source?: string;
     cursor?: string;
     limit?: string;
   };

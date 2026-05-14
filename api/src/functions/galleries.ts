@@ -1,7 +1,7 @@
 import { app, type HttpRequest } from '@azure/functions';
 import { readContentJson } from '../content-store.js';
 import { jsonResponse, withErrors } from '../http.js';
-import { filterByDate, pageItems, type PageQuery } from '../pagination.js';
+import { archiveYears, filterByDate, filterBySource, pageItems, type PageQuery } from '../pagination.js';
 import { siteKeyFromRequest } from '../site.js';
 import type { GalleryDocument, GalleryIndex } from '../types.js';
 
@@ -37,14 +37,14 @@ async function galleriesListHandler(request: HttpRequest) {
   return withErrors(async () => {
     const query = pageQuery(request);
     const index = await readContentJson<GalleryIndex>('galleries/index.json', siteKeyFromRequest(request));
-    const filtered = filterByDate(index.galleries, query);
+    const filtered = filterByDate(filterBySource(index.galleries, query), query);
     const paged = pageItems(filtered, query, 24, 2_000);
 
     return jsonResponse({
       generatedAt: index.generatedAt,
       contentType: 'gallery',
       filters: query,
-      years: index.years,
+      years: archiveYears(filtered, '/galleries'),
       ...paged,
     });
   });
@@ -69,5 +69,6 @@ function pageQuery(request: HttpRequest): PageQuery {
     day: request.query.get('day') || undefined,
     cursor: request.query.get('cursor') || undefined,
     limit: request.query.get('limit') || undefined,
+    source: request.query.get('source') || undefined,
   };
 }

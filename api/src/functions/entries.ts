@@ -1,7 +1,7 @@
 import { app, type HttpRequest } from '@azure/functions';
 import { readContentJson } from '../content-store.js';
 import { jsonResponse, withErrors } from '../http.js';
-import { filterByDate, pageItems, type PageQuery } from '../pagination.js';
+import { archiveYears, filterByDate, filterBySource, pageItems, type PageQuery } from '../pagination.js';
 import { siteKeyFromRequest } from '../site.js';
 import type { ContentShape, EntryDocument, EntryIndex } from '../types.js';
 
@@ -63,13 +63,13 @@ async function entriesListHandler(request: HttpRequest) {
   return withErrors(async () => {
     const query = pageQuery(request);
     const index = await readContentJson<EntryIndex>('entries/index.json', siteKeyFromRequest(request));
-    const filtered = filterByDate(index.posts, query);
+    const filtered = filterByDate(filterBySource(index.posts, query), query);
     const paged = pageItems(filtered, query, 24, 2_000);
 
     return jsonResponse({
       generatedAt: index.generatedAt,
       filters: query,
-      years: index.years,
+      years: archiveYears(filtered, '/entries'),
       ...paged,
     });
   });
@@ -83,14 +83,14 @@ function entryListHandler(family: EntryFamily) {
         `${family.contentPath}/index.json`,
         siteKeyFromRequest(request),
       );
-      const filtered = filterByDate(index.posts, query);
+      const filtered = filterByDate(filterBySource(index.posts, query), query);
       const paged = pageItems(filtered, query, 24, 2_000);
 
       return jsonResponse({
         generatedAt: index.generatedAt,
         contentShape: family.shape,
         filters: query,
-        years: index.years,
+        years: archiveYears(filtered, `/${family.contentPath}`),
         ...paged,
       });
     });
@@ -116,5 +116,6 @@ function pageQuery(request: HttpRequest): PageQuery {
     day: request.query.get('day') || undefined,
     cursor: request.query.get('cursor') || undefined,
     limit: request.query.get('limit') || undefined,
+    source: request.query.get('source') || undefined,
   };
 }

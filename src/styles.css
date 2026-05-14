@@ -256,6 +256,17 @@ h1 {
   min-height: 420px;
 }
 
+.metrics-stack {
+  position: sticky;
+  top: 92px;
+  display: grid;
+  gap: 12px;
+}
+
+.metrics-stack .metrics--rail {
+  position: static;
+}
+
 .metric {
   min-height: 132px;
   flex-direction: column;
@@ -292,6 +303,57 @@ h1 {
   color: #4c5552;
   font-size: 0.88rem;
   font-weight: 700;
+}
+
+.source-badges {
+  display: grid;
+  gap: 8px;
+  padding: 14px;
+  border: 1px solid #d1d9d2;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.source-badge {
+  display: flex;
+  min-height: 38px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0 10px;
+  border: 1px solid #dce3dd;
+  border-radius: 8px;
+  color: #25302d;
+  text-decoration: none;
+}
+
+.source-badge:hover,
+.source-badge:focus-visible {
+  border-color: #8fb7ae;
+  outline: none;
+  background: #eef7f4;
+}
+
+.source-badge span {
+  font-size: 0.86rem;
+  font-weight: 760;
+}
+
+.source-badge strong {
+  color: #111715;
+  font-size: 0.94rem;
+}
+
+.source-badge--wordpress {
+  color: #0d5d56;
+}
+
+.source-badge--instagram {
+  color: #6b4ba3;
+}
+
+.source-badge--facebook {
+  color: #8a3448;
 }
 
 .split {

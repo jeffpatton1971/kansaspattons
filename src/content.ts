@@ -18,6 +18,7 @@ export type ArchiveQuery = {
   year?: string;
   month?: string;
   day?: string;
+  source?: string;
   cursor?: number;
   limit?: number;
 };
@@ -150,6 +151,10 @@ function queryString(query: ArchiveQuery & { groupBy?: string; galleryIds?: stri
 
   if (query.day) {
     params.set('day', query.day);
+  }
+
+  if (query.source) {
+    params.set('source', query.source);
   }
 
   if (query.cursor !== undefined) {

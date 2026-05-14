@@ -1,4 +1,4 @@
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { formatDateLabel, monthName } from '../archive';
 import { ArchiveCalendar, resolveSelection } from '../components/ArchiveCalendar';
 import { ArchiveMetrics } from '../components/ArchiveMetrics';
@@ -45,12 +45,16 @@ export function StoriesPage() {
 
 function EntryArchivePage({ basePath, label, titleLabel, loader }: EntryArchivePageProps) {
   const params = useParams<PostParams>();
+  const [searchParams] = useSearchParams();
+  const source = searchParams.get('source') || undefined;
+  const sourceSearch = source ? `?source=${encodeURIComponent(source)}` : '';
   const query = {
     year: params.year,
     month: params.month,
     day: params.day,
+    source,
   };
-  const state = useAsyncData(() => loader(query), [basePath, params.year, params.month, params.day]);
+  const state = useAsyncData(() => loader(query), [basePath, params.year, params.month, params.day, source]);
 
   if (state.status === 'loading') {
     return <LoadingState label={`Loading ${titleLabel.toLowerCase()}`} />;
@@ -66,7 +70,7 @@ function EntryArchivePage({ basePath, label, titleLabel, loader }: EntryArchiveP
   const posts = index.posts;
   const total = index.page?.total ?? posts.length;
 
-  const title = pageTitle(activeParams, total, titleLabel);
+  const title = pageTitle(activeParams, total, sourceLabel(source, titleLabel));
 
   return (
     <main className="page page--archive">
@@ -78,6 +82,7 @@ function EntryArchivePage({ basePath, label, titleLabel, loader }: EntryArchiveP
           selectedYear={activeParams.year}
           selectedMonth={activeParams.month}
           selectedDay={activeParams.day}
+          search={sourceSearch}
         />
       </div>
 
@@ -104,6 +109,14 @@ function EntryArchivePage({ basePath, label, titleLabel, loader }: EntryArchiveP
       </aside>
     </main>
   );
+}
+
+function sourceLabel(source: string | undefined, titleLabel: string) {
+  if (!source) {
+    return titleLabel;
+  }
+
+  return `${source.charAt(0).toUpperCase()}${source.slice(1)} ${titleLabel}`;
 }
 
 function pageTitle(params: PostParams, count: number, titleLabel: string) {

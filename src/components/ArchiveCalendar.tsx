@@ -10,6 +10,7 @@ type ArchiveCalendarProps = {
   selectedYear?: string;
   selectedMonth?: string;
   selectedDay?: string;
+  search?: string;
 };
 
 type CalendarDay = {
@@ -29,6 +30,7 @@ export function ArchiveCalendar({
   selectedYear,
   selectedMonth,
   selectedDay,
+  search = '',
 }: ArchiveCalendarProps) {
   const navigate = useNavigate();
   const selection = resolveSelection(years, selectedYear, selectedMonth);
@@ -40,7 +42,7 @@ export function ArchiveCalendar({
   const { year, month } = selection;
   const previous = adjacentMonth(years, year.year, month.month, -1);
   const next = adjacentMonth(years, year.year, month.month, 1);
-  const days = calendarDays(basePath, year.year, month);
+  const days = calendarDays(basePath, year.year, month, search);
   const availableMonths = new Set(year.months.map((item) => item.month));
 
   return (
@@ -55,7 +57,7 @@ export function ArchiveCalendar({
           type="button"
           title="Previous month"
           disabled={!previous}
-          onClick={() => previous && navigate(`${basePath}/${previous.year}/${previous.month}`)}
+          onClick={() => previous && navigate(`${basePath}/${previous.year}/${previous.month}${search}`)}
         >
           <ChevronLeft aria-hidden="true" size={18} />
         </button>
@@ -63,7 +65,7 @@ export function ArchiveCalendar({
         <select
           aria-label="Archive year"
           value={year.year}
-          onChange={(event) => navigate(`${basePath}/${event.target.value}`)}
+          onChange={(event) => navigate(`${basePath}/${event.target.value}${search}`)}
         >
           {years.map((item) => (
             <option value={item.year} key={item.year}>
@@ -75,7 +77,7 @@ export function ArchiveCalendar({
         <select
           aria-label="Archive month"
           value={month.month}
-          onChange={(event) => navigate(`${basePath}/${year.year}/${event.target.value}`)}
+          onChange={(event) => navigate(`${basePath}/${year.year}/${event.target.value}${search}`)}
         >
           {monthNumbers.map((item) => (
             <option value={item} disabled={!availableMonths.has(item)} key={item}>
@@ -88,7 +90,7 @@ export function ArchiveCalendar({
           type="button"
           title="Next month"
           disabled={!next}
-          onClick={() => next && navigate(`${basePath}/${next.year}/${next.month}`)}
+          onClick={() => next && navigate(`${basePath}/${next.year}/${next.month}${search}`)}
         >
           <ChevronRight aria-hidden="true" size={18} />
         </button>
@@ -142,7 +144,7 @@ export function resolveSelection(years: ArchiveYear[], selectedYear?: string, se
   return { year, month };
 }
 
-function calendarDays(basePath: string, year: string, month: ArchiveMonth): CalendarDay[] {
+function calendarDays(basePath: string, year: string, month: ArchiveMonth, search: string): CalendarDay[] {
   const firstDay = new Date(`${year}-${month.month}-01T00:00:00`).getDay();
   const totalDays = new Date(Number(year), Number(month.month), 0).getDate();
   const daysByNumber = new Map(month.days.map((day) => [day.day, day]));
@@ -160,7 +162,7 @@ function calendarDays(basePath: string, year: string, month: ArchiveMonth): Cale
       date,
       day,
       count: archiveDay?.count,
-      href: archiveDay ? `${basePath}/${year}/${month.month}/${day}` : undefined,
+      href: archiveDay ? `${basePath}/${year}/${month.month}/${day}${search}` : undefined,
     });
   }
 
@@ -179,4 +181,3 @@ function adjacentMonth(years: ArchiveYear[], year: string, month: string, direct
 
   return months[index + direction];
 }
-
