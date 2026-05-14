@@ -14,6 +14,23 @@ type DateParts = {
 
 type ContentShape = 'post' | 'story';
 
+type SiteNavItem = {
+  label: string;
+  href: string;
+};
+
+type SiteAuthorLink = {
+  label: string;
+  href: string;
+};
+
+type SiteAuthor = {
+  name: string;
+  bio?: string;
+  imageUrl?: string;
+  links?: SiteAuthorLink[];
+};
+
 type EntrySource = {
   type?: string;
   subtype?: string;
@@ -91,6 +108,8 @@ const publicRoot = path.join(root, 'public');
 const outputRoot = path.join(publicRoot, 'content');
 const postsRoot = path.join(root, '_posts');
 const galleryRoot = path.join(root, '_gallery');
+const siteKey = cleanSiteKey(process.env.CONTENT_SITE_KEY || process.env.SITE_KEY || 'kansaspattons');
+const siteTitle = process.env.CONTENT_SITE_TITLE || process.env.SITE_TITLE || 'KansasPattons';
 
 const markdown = new MarkdownIt({
   html: false,
@@ -135,7 +154,11 @@ async function main() {
 
   await writeJson('site.json', {
     generatedAt: new Date().toISOString(),
-    title: 'KansasPattons',
+    key: siteKey,
+    title: siteTitle,
+    url: optionalText(process.env.CONTENT_SITE_URL || process.env.SITE_URL),
+    nav: siteNav(),
+    author: siteAuthor(),
     entries: posts.length,
     posts: blogPosts.length,
     stories: stories.length,
@@ -593,6 +616,68 @@ function compactObject<T extends Record<string, unknown>>(value: T) {
   return Object.fromEntries(
     Object.entries(value).filter(([, item]) => item !== undefined && item !== ''),
   ) as T;
+}
+
+function cleanSiteKey(value: string) {
+  const key = value.trim().toLowerCase();
+
+  if (!/^[a-z0-9][a-z0-9-]{0,62}$/.test(key)) {
+    throw new Error(`Invalid CONTENT_SITE_KEY: ${value}`);
+  }
+
+  return key;
+}
+
+function siteNav(): SiteNavItem[] {
+  return jsonArray<SiteNavItem>(process.env.CONTENT_SITE_NAV_JSON) ?? [
+    { label: 'Home', href: '/' },
+    { label: 'Posts', href: '/posts' },
+    { label: 'Stories', href: '/stories' },
+    { label: 'Images', href: '/images' },
+  ];
+}
+
+function siteAuthor(): SiteAuthor {
+  const parsed = jsonObject<SiteAuthor>(process.env.CONTENT_SITE_AUTHOR_JSON);
+
+  if (parsed?.name) {
+    return parsed;
+  }
+
+  return {
+    name: process.env.CONTENT_SITE_AUTHOR_NAME || 'Jeff Patton',
+    bio: process.env.CONTENT_SITE_AUTHOR_BIO || 'Just a dad who takes too many pictures.',
+    imageUrl: process.env.CONTENT_SITE_AUTHOR_IMAGE_URL || '/assets/images/bio-photo.jpg',
+    links: jsonArray<SiteAuthorLink>(process.env.CONTENT_SITE_AUTHOR_LINKS_JSON) ?? [
+      { label: 'Website', href: 'https://patton-tech.com' },
+      { label: 'Bluesky', href: 'https://bsky.app/profile/jeffpatton.bsky.social' },
+      { label: 'GitHub', href: 'https://github.com/jeffpatton1971' },
+      { label: 'Instagram', href: 'https://instagram.com/jspatton1971' },
+    ],
+  };
+}
+
+function optionalText(value: unknown) {
+  const text = textValue(value);
+  return text || undefined;
+}
+
+function jsonObject<T>(value: string | undefined) {
+  if (!value?.trim()) {
+    return undefined;
+  }
+
+  const parsed = JSON.parse(value) as T;
+  return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : undefined;
+}
+
+function jsonArray<T>(value: string | undefined) {
+  if (!value?.trim()) {
+    return undefined;
+  }
+
+  const parsed = JSON.parse(value) as T[];
+  return Array.isArray(parsed) ? parsed : undefined;
 }
 
 function numberText(value: unknown) {

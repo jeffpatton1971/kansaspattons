@@ -2,56 +2,35 @@ import { app, type HttpRequest } from '@azure/functions';
 import { readContentJson } from '../content-store.js';
 import { jsonResponse, withErrors } from '../http.js';
 import { filterByDate, pageItems, type PageQuery } from '../pagination.js';
+import { siteKeyFromRequest } from '../site.js';
 import type { ImageIndex, ImageSummary } from '../types.js';
 
 app.http('imagesList', {
   methods: ['GET'],
   authLevel: 'anonymous',
   route: 'images',
-  handler: async (request) =>
-    withErrors(async () => {
-      const index = await readContentJson<ImageIndex>('images/index.json');
-      const query = pageQuery(request);
-      const filtered = filterByGallery(filterByDate(index.images, query), galleryIds(request));
-      const groupBy = groupByQuery(request);
-      const grouped = groupBy ? groupImages(filtered, groupBy) : undefined;
-      const paged = groupBy ? undefined : pageItems(filtered, query, 48, 10_000);
+  handler: imagesListHandler,
+});
 
-      return jsonResponse({
-        generatedAt: index.generatedAt,
-        filters: query,
-        groupBy,
-        years: index.years,
-        groups: grouped,
-        ...(paged ?? {}),
-      });
-    }),
+app.http('siteImagesList', {
+  methods: ['GET'],
+  authLevel: 'anonymous',
+  route: 'sites/{site}/images',
+  handler: imagesListHandler,
 });
 
 app.http('imageDetail', {
   methods: ['GET'],
   authLevel: 'anonymous',
   route: 'images/{year}/{month}/{day}/{imageId}',
-  handler: async (request) =>
-    withErrors(async () => {
-      const { year, month, day, imageId } = request.params;
-      const index = await readContentJson<ImageIndex>('images/index.json');
-      const image = index.images.find(
-        (item) => item.year === year && item.month === month && item.day === day && item.id === imageId,
-      );
+  handler: imageDetailHandler,
+});
 
-      if (!image) {
-        return jsonResponse(
-          {
-            error: 'not_found',
-            detail: `Image not found: ${year}/${month}/${day}/${imageId}`,
-          },
-          { status: 404 },
-        );
-      }
-
-      return jsonResponse(image);
-    }),
+app.http('siteImageDetail', {
+  methods: ['GET'],
+  authLevel: 'anonymous',
+  route: 'sites/{site}/images/{year}/{month}/{day}/{imageId}',
+  handler: imageDetailHandler,
 });
 
 type ImageGroupBy = 'year' | 'month' | 'day';
@@ -63,6 +42,48 @@ type ImageGroup = {
   count: number;
   images: ImageSummary[];
 };
+
+async function imagesListHandler(request: HttpRequest) {
+  return withErrors(async () => {
+    const index = await readContentJson<ImageIndex>('images/index.json', siteKeyFromRequest(request));
+    const query = pageQuery(request);
+    const filtered = filterByGallery(filterByDate(index.images, query), galleryIds(request));
+    const groupBy = groupByQuery(request);
+    const grouped = groupBy ? groupImages(filtered, groupBy) : undefined;
+    const paged = groupBy ? undefined : pageItems(filtered, query, 48, 10_000);
+
+    return jsonResponse({
+      generatedAt: index.generatedAt,
+      filters: query,
+      groupBy,
+      years: index.years,
+      groups: grouped,
+      ...(paged ?? {}),
+    });
+  });
+}
+
+async function imageDetailHandler(request: HttpRequest) {
+  return withErrors(async () => {
+    const { year, month, day, imageId } = request.params;
+    const index = await readContentJson<ImageIndex>('images/index.json', siteKeyFromRequest(request));
+    const image = index.images.find(
+      (item) => item.year === year && item.month === month && item.day === day && item.id === imageId,
+    );
+
+    if (!image) {
+      return jsonResponse(
+        {
+          error: 'not_found',
+          detail: `Image not found: ${year}/${month}/${day}/${imageId}`,
+        },
+        { status: 404 },
+      );
+    }
+
+    return jsonResponse(image);
+  });
+}
 
 function pageQuery(request: HttpRequest): PageQuery {
   return {

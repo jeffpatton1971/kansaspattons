@@ -12,6 +12,26 @@ The API reads content from one of two places:
 
 `CONTENT_BASE_URL` wins when it is set. This lets local development use generated files while deployed Functions read the same shape from an Azure Storage account.
 
+For the generated JSON contract, see [`../docs/content-schema.md`](../docs/content-schema.md). For the reusable multi-site storage/API pattern, see [`../docs/multi-site-content.md`](../docs/multi-site-content.md).
+
+### Multi-Site Content Sources
+
+The one-site routes can continue to use `CONTENT_BASE_URL` and `CONTENT_LOCAL_ROOT`. A shared Function app can also serve named sites through `/api/sites/{site}/...`.
+
+Named-site storage can be configured with one of these patterns:
+
+- `CONTENT_BASE_URL_TEMPLATE`, such as `https://account.blob.core.windows.net/sites/content/{site}/current/`.
+- `CONTENT_SITE_BASE_URLS`, a JSON object mapping site keys to content base URLs.
+- Site-specific variables, such as `CONTENT_BASE_URL_KANSASPATTONS`.
+
+Local development has matching options:
+
+- `CONTENT_LOCAL_ROOT_TEMPLATE`
+- `CONTENT_SITE_LOCAL_ROOTS`
+- Site-specific variables, such as `CONTENT_LOCAL_ROOT_KANSASPATTONS`
+
+Resolution order for named sites is site-specific variable, JSON map, then template.
+
 ## Local Setup
 
 ### Install Azure Functions Core Tools
@@ -192,14 +212,22 @@ http://127.0.0.1:5174/
 ## Endpoints
 
 - `GET /api/home`
+- `GET /api/sites/{site}/home`
+- `GET /api/sites/{site}/entries?year=2026&cursor=0&limit=24`
 - `GET /api/posts?year=2013&month=08&day=10&cursor=0&limit=24`
 - `GET /api/posts/{year}/{month}/{day}/{slug}`
+- `GET /api/sites/{site}/posts?year=2013&month=08&day=10&cursor=0&limit=24`
+- `GET /api/sites/{site}/posts/{year}/{month}/{day}/{slug}`
 - `GET /api/stories?year=2026&month=04&cursor=0&limit=24`
 - `GET /api/stories/{year}/{month}/{day}/{slug}`
+- `GET /api/sites/{site}/stories?year=2026&month=04&cursor=0&limit=24`
+- `GET /api/sites/{site}/stories/{year}/{month}/{day}/{slug}`
 - `GET /api/images?year=2026&month=04&day=16&cursor=0&limit=48`
 - `GET /api/images?groupBy=year`
 - `GET /api/images?galleryId=instagram-2026-04-16-194804-better-late-than-never`
 - `GET /api/images/{year}/{month}/{day}/{imageId}`
+- `GET /api/sites/{site}/images?groupBy=year`
+- `GET /api/sites/{site}/images/{year}/{month}/{day}/{imageId}`
 
 The list endpoints return archive calendar data, filters, and paged items. Image lists can also return grouped previews with `groupBy=year`, `groupBy=month`, or `groupBy=day`, or narrow to one or more galleries with comma-separated `galleryId` values.
 
@@ -217,9 +245,9 @@ The repo includes a publish script that uploads `public/content/**` to Azure Blo
 Dry run first:
 
 ```powershell
+$env:CONTENT_SITE_KEY = "kansaspattons"
 $env:CONTENT_STORAGE_ACCOUNT = "prdwebappstorage"
 $env:CONTENT_STORAGE_CONTAINER = "kansaspattons"
-$env:CONTENT_STORAGE_PREFIX = "content/kansaspattons/current"
 npm run publish:content:dry-run
 ```
 
@@ -228,18 +256,18 @@ The dry run rebuilds content, validates required artifacts, prints file counts, 
 Actual upload:
 
 ```powershell
+$env:CONTENT_SITE_KEY = "kansaspattons"
 $env:CONTENT_STORAGE_ACCOUNT = "prdwebappstorage"
 $env:CONTENT_STORAGE_CONTAINER = "kansaspattons"
-$env:CONTENT_STORAGE_PREFIX = "content/kansaspattons/current"
 npm run publish:content
 ```
 
 macOS/bash equivalent:
 
 ```bash
+export CONTENT_SITE_KEY="kansaspattons"
 export CONTENT_STORAGE_ACCOUNT="prdwebappstorage"
 export CONTENT_STORAGE_CONTAINER="kansaspattons"
-export CONTENT_STORAGE_PREFIX="content/kansaspattons/current"
 npm run publish:content:dry-run
 ```
 
@@ -250,7 +278,13 @@ Authentication options:
 
 Optional settings:
 
+- `CONTENT_SITE_KEY`: defaults to `kansaspattons`; also controls the default storage prefix.
+- `CONTENT_SITE_TITLE`: defaults to `KansasPattons`.
+- `CONTENT_SITE_URL`: optional canonical site URL included in `site.json`.
+- `CONTENT_SITE_AUTHOR_JSON`: optional author object included in `site.json`.
+- `CONTENT_SITE_NAV_JSON`: optional navigation array included in `site.json`.
 - `CONTENT_PUBLISH_ROOT`: defaults to `public/content`.
+- `CONTENT_STORAGE_PREFIX`: defaults to `content/{CONTENT_SITE_KEY}/current`.
 - `CONTENT_STORAGE_CACHE_CONTROL`: defaults to `public, max-age=60`.
 - `CONTENT_PUBLISH_DRY_RUN=true`: dry-run mode without passing `--dry-run`.
 

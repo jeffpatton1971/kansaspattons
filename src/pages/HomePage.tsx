@@ -19,43 +19,39 @@ export function HomePage() {
   }
 
   const summary = state.data;
+  const site = summary.site ?? { title: 'KansasPattons' };
+  const author = site.author;
 
   return (
     <main className="page page--archive page--home">
       <aside className="archive-rail archive-rail--left">
-        <section className="author-card" aria-label="Author information">
-          <img src="/assets/images/bio-photo.jpg" alt="Jeff Patton" />
-          <div>
-            <p className="eyebrow">Author</p>
-            <h2>Jeff Patton</h2>
-            <p>Just a dad who takes too many pictures.</p>
-          </div>
-          <nav aria-label="Author links">
-            <a href="https://patton-tech.com" target="_blank" rel="noreferrer">
-              <Globe aria-hidden="true" size={16} />
-              Website
-            </a>
-            <a href="https://bsky.app/profile/jeffpatton.bsky.social" target="_blank" rel="noreferrer">
-              <ExternalLink aria-hidden="true" size={16} />
-              Bluesky
-            </a>
-            <a href="https://github.com/jeffpatton1971" target="_blank" rel="noreferrer">
-              <ExternalLink aria-hidden="true" size={16} />
-              GitHub
-            </a>
-            <a href="https://instagram.com/jspatton1971" target="_blank" rel="noreferrer">
-              <ExternalLink aria-hidden="true" size={16} />
-              Instagram
-            </a>
-          </nav>
-        </section>
+        {author ? (
+          <section className="author-card" aria-label="Author information">
+            {author.imageUrl ? <img src={author.imageUrl} alt={author.name} /> : null}
+            <div>
+              <p className="eyebrow">Author</p>
+              <h2>{author.name}</h2>
+              {author.bio ? <p>{author.bio}</p> : null}
+            </div>
+            {author.links && author.links.length > 0 ? (
+              <nav aria-label="Author links">
+                {author.links.map((link, index) => (
+                  <a key={link.href} href={link.href} target="_blank" rel="noreferrer">
+                    {index === 0 ? <Globe aria-hidden="true" size={16} /> : <ExternalLink aria-hidden="true" size={16} />}
+                    {link.label}
+                  </a>
+                ))}
+              </nav>
+            ) : null}
+          </section>
+        ) : null}
       </aside>
 
       <section className="archive-main">
         <div className="overview">
           <div>
             <p className="eyebrow">Family archive</p>
-            <h1>KansasPattons</h1>
+            <h1>{site.title}</h1>
             <p>
               A React archive prototype reading generated content from the existing Markdown and
               gallery records.

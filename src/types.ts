@@ -20,6 +20,31 @@ export type ArchiveYear = {
 
 export type ContentShape = 'post' | 'story';
 
+export type SiteNavItem = {
+  label: string;
+  href: string;
+};
+
+export type SiteAuthorLink = {
+  label: string;
+  href: string;
+};
+
+export type SiteAuthor = {
+  name: string;
+  bio?: string;
+  imageUrl?: string;
+  links?: SiteAuthorLink[];
+};
+
+export type SiteInfo = {
+  key?: string;
+  title: string;
+  url?: string;
+  nav?: SiteNavItem[];
+  author?: SiteAuthor;
+};
+
 export type EntrySource = {
   type?: string;
   subtype?: string;
@@ -111,6 +136,7 @@ export type ImageGroup = {
 
 export type HomeSummary = {
   generatedAt: string;
+  site?: SiteInfo;
   counts: {
     posts: number;
     stories: number;

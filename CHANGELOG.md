@@ -42,6 +42,9 @@ Published behavior changes and bug fixes for the React site migration.
 - Added an Azure Blob Storage publish script for generated JSON content artifacts.
 - Added dry-run publishing support and publish documentation for storage-backed API content.
 - Added a `_publish.json` manifest to storage publishes.
+- Added generated content schema documentation for site, home, entry, image, archive, and API response shapes.
+- Added multi-site content hosting documentation for separate site repos, shared storage prefixes, and named API routes.
+- Added site-aware API routes under `/api/sites/{site}/...` for home, entries, posts, stories, and images.
 
 ### Changed
 
@@ -74,6 +77,9 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed post and story detail pages to fetch related images through targeted gallery API queries.
 - Changed legacy redirect lookups to query entries by date scope instead of loading all entries.
 - Simplified selected image detail into a breadcrumb-led view with the image as the primary focus.
+- Changed generated `site.json` to include a site key, navigation, and author metadata.
+- Changed the content publish script so its default storage prefix is based on `CONTENT_SITE_KEY`.
+- Changed the home page author card to read from API-provided site metadata.
 
 ### Fixed
 

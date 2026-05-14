@@ -20,7 +20,6 @@ type PublishFile = {
   size: number;
 };
 
-const defaultPrefix = 'content/kansaspattons/current';
 const defaultCacheControl = 'public, max-age=60';
 
 async function main() {
@@ -62,12 +61,13 @@ async function main() {
 function publishOptions(): PublishOptions {
   const args = new Set(process.argv.slice(2));
   const connectionString = process.env.AZURE_STORAGE_CONNECTION_STRING?.trim();
+  const siteKey = cleanSiteKey(process.env.CONTENT_SITE_KEY || process.env.SITE_KEY || 'kansaspattons');
   const accountName = requiredValue(
     process.env.CONTENT_STORAGE_ACCOUNT || accountNameFromConnectionString(connectionString),
     'CONTENT_STORAGE_ACCOUNT',
   );
   const containerName = requiredValue(process.env.CONTENT_STORAGE_CONTAINER, 'CONTENT_STORAGE_CONTAINER');
-  const prefix = cleanPrefix(process.env.CONTENT_STORAGE_PREFIX || defaultPrefix);
+  const prefix = cleanPrefix(process.env.CONTENT_STORAGE_PREFIX || defaultPrefix(siteKey));
   const contentRoot = path.resolve(process.cwd(), process.env.CONTENT_PUBLISH_ROOT || 'public/content');
   const cacheControl = process.env.CONTENT_STORAGE_CACHE_CONTROL || defaultCacheControl;
   const dryRun = args.has('--dry-run') || process.env.CONTENT_PUBLISH_DRY_RUN === 'true';
@@ -217,8 +217,22 @@ function contentType(relativePath: string) {
   return 'application/octet-stream';
 }
 
+function defaultPrefix(siteKey: string) {
+  return `content/${siteKey}/current`;
+}
+
 function cleanPrefix(value: string) {
   return value.replaceAll('\\', '/').replace(/^\/+|\/+$/g, '');
+}
+
+function cleanSiteKey(value: string) {
+  const siteKey = value.trim().toLowerCase();
+
+  if (!/^[a-z0-9][a-z0-9-]{0,62}$/.test(siteKey)) {
+    throw new Error(`Invalid CONTENT_SITE_KEY: ${value}`);
+  }
+
+  return siteKey;
 }
 
 function requiredValue(value: string | undefined, name: string, allowMissing = false) {

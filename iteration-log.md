@@ -517,6 +517,73 @@ Detailed working notes for the React migration live here. This file is intention
 - Note:
   - A parallel dry-run/build attempt caused temporary `EPERM rmdir` errors because two `build-content` runs cleaned `public/content` at the same time. Running the commands sequentially resolved it.
 
+### Content Schema And Multi-Site API Shape
+
+- Question:
+  - Are the generated JSON shapes documented?
+  - Can the API and storage model support more than one site while keeping each site in its own repo?
+- Findings:
+  - The JSON shapes existed as TypeScript types and generated artifacts, but they were not documented as a stable contract.
+  - The API was still largely site-specific because it used one content root/base URL and hardcoded KansasPattons site shell data in the home payload.
+- Added documentation:
+  - `docs/content-schema.md` documents the generated JSON contract:
+    - `site.json`
+    - `home.json`
+    - entry summaries and entry details
+    - image summaries
+    - archive navigation structures
+    - paged API list responses
+    - grouped image responses
+  - `docs/multi-site-content.md` documents the intended reusable hosting pattern:
+    - separate source repos per site
+    - generated JSON per repo
+    - GitHub Actions publishing into site-specific Azure Storage prefixes
+    - one shared Azure Functions API using named site routes
+- API changes:
+  - Added `/api/sites/{site}/home`.
+  - Added `/api/sites/{site}/entries`.
+  - Added `/api/sites/{site}/posts` and `/api/sites/{site}/posts/{year}/{month}/{day}/{slug}`.
+  - Added `/api/sites/{site}/stories` and `/api/sites/{site}/stories/{year}/{month}/{day}/{slug}`.
+  - Added `/api/sites/{site}/images` and `/api/sites/{site}/images/{year}/{month}/{day}/{imageId}`.
+  - Kept existing routes such as `/api/home`, `/api/posts`, `/api/stories`, and `/api/images` working for the default site.
+- Content source resolution:
+  - Existing single-site settings still work:
+    - `CONTENT_BASE_URL`
+    - `CONTENT_LOCAL_ROOT`
+  - Named sites can now resolve through:
+    - site-specific env vars, such as `CONTENT_BASE_URL_KANSASPATTONS`
+    - JSON maps, such as `CONTENT_SITE_BASE_URLS`
+    - templates, such as `CONTENT_BASE_URL_TEMPLATE=https://.../content/{site}/current/`
+  - Matching local settings were added for local multi-site development.
+- Generated site metadata:
+  - `site.json` now includes:
+    - `key`
+    - `title`
+    - optional `url`
+    - `nav`
+    - `author`
+  - The content builder supports environment overrides such as:
+    - `CONTENT_SITE_KEY`
+    - `CONTENT_SITE_TITLE`
+    - `CONTENT_SITE_URL`
+    - `CONTENT_SITE_AUTHOR_JSON`
+    - `CONTENT_SITE_NAV_JSON`
+- Publish changes:
+  - `scripts/publish-content.ts` now derives its default prefix from `CONTENT_SITE_KEY`.
+  - The default prefix is `content/{CONTENT_SITE_KEY}/current`.
+- Frontend change:
+  - The home page author card now renders from API-provided site metadata instead of hardcoded text.
+- Verification:
+  - `npm run api:build` passed.
+  - `npm run build:content` passed.
+  - `npm run build` passed.
+  - A named-site content resolver smoke check read `site.json` for `kansaspattons` through `CONTENT_LOCAL_ROOT_TEMPLATE`.
+  - `npm run publish:content:dry-run` passed with:
+    - `CONTENT_SITE_KEY=kansaspattons`
+    - `CONTENT_STORAGE_ACCOUNT=prdwebappstorage`
+    - `CONTENT_STORAGE_CONTAINER=kansaspattons`
+  - Dry-run target remained `content/kansaspattons/current`.
+
 ### Post And Story Card Shapes
 
 - Started making the two content shapes visually distinct.

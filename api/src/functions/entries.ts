@@ -2,6 +2,7 @@ import { app, type HttpRequest } from '@azure/functions';
 import { readContentJson } from '../content-store.js';
 import { jsonResponse, withErrors } from '../http.js';
 import { filterByDate, pageItems, type PageQuery } from '../pagination.js';
+import { siteKeyFromRequest } from '../site.js';
 import type { ContentShape, EntryDocument, EntryIndex } from '../types.js';
 
 type EntryFamily = {
@@ -18,19 +19,14 @@ app.http('entriesList', {
   methods: ['GET'],
   authLevel: 'anonymous',
   route: 'entries',
-  handler: async (request) =>
-    withErrors(async () => {
-      const index = await readContentJson<EntryIndex>('entries/index.json');
-      const filtered = filterByDate(index.posts, pageQuery(request));
-      const paged = pageItems(filtered, pageQuery(request), 24, 2_000);
+  handler: entriesListHandler,
+});
 
-      return jsonResponse({
-        generatedAt: index.generatedAt,
-        filters: pageQuery(request),
-        years: index.years,
-        ...paged,
-      });
-    }),
+app.http('siteEntriesList', {
+  methods: ['GET'],
+  authLevel: 'anonymous',
+  route: 'sites/{site}/entries',
+  handler: entriesListHandler,
 });
 
 for (const family of entryFamilies) {
@@ -38,36 +34,79 @@ for (const family of entryFamilies) {
     methods: ['GET'],
     authLevel: 'anonymous',
     route: family.contentPath,
-    handler: async (request) =>
-      withErrors(async () => {
-        const index = await readContentJson<EntryIndex>(`${family.contentPath}/index.json`);
-        const filtered = filterByDate(index.posts, pageQuery(request));
-        const paged = pageItems(filtered, pageQuery(request), 24, 2_000);
+    handler: entryListHandler(family),
+  });
 
-        return jsonResponse({
-          generatedAt: index.generatedAt,
-          contentShape: family.shape,
-          filters: pageQuery(request),
-          years: index.years,
-          ...paged,
-        });
-      }),
+  app.http(`site${family.contentPath}List`, {
+    methods: ['GET'],
+    authLevel: 'anonymous',
+    route: `sites/{site}/${family.contentPath}`,
+    handler: entryListHandler(family),
   });
 
   app.http(`${family.contentPath}Detail`, {
     methods: ['GET'],
     authLevel: 'anonymous',
     route: `${family.contentPath}/{year}/{month}/{day}/{slug}`,
-    handler: async (request) =>
-      withErrors(async () => {
-        const { year, month, day, slug } = request.params;
-        const document = await readContentJson<EntryDocument>(
-          `${family.contentPath}/${year}/${month}/${day}/${slug}.json`,
-        );
-
-        return jsonResponse(document);
-      }),
+    handler: entryDetailHandler(family),
   });
+
+  app.http(`site${family.contentPath}Detail`, {
+    methods: ['GET'],
+    authLevel: 'anonymous',
+    route: `sites/{site}/${family.contentPath}/{year}/{month}/{day}/{slug}`,
+    handler: entryDetailHandler(family),
+  });
+}
+
+async function entriesListHandler(request: HttpRequest) {
+  return withErrors(async () => {
+    const query = pageQuery(request);
+    const index = await readContentJson<EntryIndex>('entries/index.json', siteKeyFromRequest(request));
+    const filtered = filterByDate(index.posts, query);
+    const paged = pageItems(filtered, query, 24, 2_000);
+
+    return jsonResponse({
+      generatedAt: index.generatedAt,
+      filters: query,
+      years: index.years,
+      ...paged,
+    });
+  });
+}
+
+function entryListHandler(family: EntryFamily) {
+  return async (request: HttpRequest) =>
+    withErrors(async () => {
+      const query = pageQuery(request);
+      const index = await readContentJson<EntryIndex>(
+        `${family.contentPath}/index.json`,
+        siteKeyFromRequest(request),
+      );
+      const filtered = filterByDate(index.posts, query);
+      const paged = pageItems(filtered, query, 24, 2_000);
+
+      return jsonResponse({
+        generatedAt: index.generatedAt,
+        contentShape: family.shape,
+        filters: query,
+        years: index.years,
+        ...paged,
+      });
+    });
+}
+
+function entryDetailHandler(family: EntryFamily) {
+  return async (request: HttpRequest) =>
+    withErrors(async () => {
+      const { year, month, day, slug } = request.params;
+      const document = await readContentJson<EntryDocument>(
+        `${family.contentPath}/${year}/${month}/${day}/${slug}.json`,
+        siteKeyFromRequest(request),
+      );
+
+      return jsonResponse(document);
+    });
 }
 
 function pageQuery(request: HttpRequest): PageQuery {

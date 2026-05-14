@@ -20,6 +20,41 @@ export type ArchiveYear = {
 
 export type ContentShape = 'post' | 'story';
 
+export type SiteNavItem = {
+  label: string;
+  href: string;
+};
+
+export type SiteAuthorLink = {
+  label: string;
+  href: string;
+};
+
+export type SiteAuthor = {
+  name: string;
+  bio?: string;
+  imageUrl?: string;
+  links?: SiteAuthorLink[];
+};
+
+export type SiteInfo = {
+  key?: string;
+  title: string;
+  url?: string;
+  nav?: SiteNavItem[];
+  author?: SiteAuthor;
+};
+
+export type EntrySource = {
+  type?: string;
+  subtype?: string;
+  id?: string;
+  url?: string;
+  caption?: string;
+  mediaCount?: number;
+  crossPostSource?: string;
+};
+
 export type EntrySummary = {
   id: string;
   title: string;
@@ -38,6 +73,7 @@ export type EntrySummary = {
   handles: string[];
   location?: string;
   sourceType?: string;
+  source?: EntrySource;
   galleryIds: string[];
   coverImage?: {
     rawUrl: string;
@@ -81,6 +117,7 @@ export type ImageIndex = {
 
 export type HomeSummary = {
   generatedAt: string;
+  site?: SiteInfo;
   counts: {
     posts: number;
     stories: number;
@@ -94,7 +131,11 @@ export type HomeSummary = {
 
 export type SiteSummary = {
   generatedAt: string;
+  key?: string;
   title: string;
+  url?: string;
+  nav?: SiteNavItem[];
+  author?: SiteAuthor;
   entries: number;
   posts: number;
   stories: number;
