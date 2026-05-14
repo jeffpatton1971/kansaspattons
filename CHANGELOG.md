@@ -104,3 +104,4 @@ Published behavior changes and bug fixes for the React site migration.
 - Fixed missing numeric source metadata being emitted as `0` in generated content.
 - Prevented transient failed content artifact reads from being cached by the API.
 - Fixed generated image source values so object frontmatter emits the source type instead of `[object Object]`.
+- Restored the archive calendar on gallery detail pages and preserved source-filtered gallery navigation from the right-rail badges.

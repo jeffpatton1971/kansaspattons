@@ -74,7 +74,7 @@ function GalleryArchivePage({ params }: { params: GalleryParams }) {
           </Link>
         </div>
 
-        <GalleryList galleries={index.galleries} />
+        <GalleryList galleries={index.galleries} search={sourceSearch} />
         {index.page && index.page.total > index.galleries.length ? (
           <p className="archive-count">
             Showing {index.galleries.length.toLocaleString()} of {index.page.total.toLocaleString()}
@@ -90,9 +90,21 @@ function GalleryArchivePage({ params }: { params: GalleryParams }) {
 }
 
 function GalleryDetailPage({ params }: { params: Required<GalleryParams> }) {
+  const [searchParams] = useSearchParams();
+  const explicitSource = searchParams.get('source') || undefined;
   const state = useAsyncData(
-    () => fetchGalleryDocument(params.year, params.month, params.day, params.slug),
-    [params.year, params.month, params.day, params.slug],
+    async () => {
+      const gallery = await fetchGalleryDocument(params.year, params.month, params.day, params.slug);
+      const source = explicitSource || gallery.sourceType;
+      const index = await fetchGalleryIndex({ limit: 1, source });
+
+      return {
+        gallery,
+        index,
+        sourceSearch: source ? `?source=${encodeURIComponent(source)}` : '',
+      };
+    },
+    [params.year, params.month, params.day, params.slug, explicitSource],
   );
 
   if (state.status === 'loading') {
@@ -103,19 +115,20 @@ function GalleryDetailPage({ params }: { params: Required<GalleryParams> }) {
     return <ErrorState error={state.error} />;
   }
 
-  const gallery = state.data;
+  const { gallery, index, sourceSearch } = state.data;
 
   return (
     <main className="page page--archive">
       <div className="archive-rail archive-rail--left">
-        <nav className="image-breadcrumb" aria-label="Gallery archive location">
-          <Link to="/galleries">Galleries</Link>
-          <Link to={`/galleries/${gallery.year}`}>{gallery.year}</Link>
-          <Link to={`/galleries/${gallery.year}/${gallery.month}`}>{monthName(gallery.year, gallery.month)}</Link>
-          <Link to={`/galleries/${gallery.year}/${gallery.month}/${gallery.day}`}>
-            {formatDateLabel(gallery.date)}
-          </Link>
-        </nav>
+        <ArchiveCalendar
+          basePath="/galleries"
+          label="Gallery Archive"
+          years={index.years}
+          selectedYear={gallery.year}
+          selectedMonth={gallery.month}
+          selectedDay={gallery.day}
+          search={sourceSearch}
+        />
       </div>
 
       <article className="archive-main gallery-detail">
@@ -149,7 +162,7 @@ function GalleryDetailPage({ params }: { params: Required<GalleryParams> }) {
   );
 }
 
-function GalleryList({ galleries }: { galleries: GallerySummary[] }) {
+function GalleryList({ galleries, search = '' }: { galleries: GallerySummary[]; search?: string }) {
   if (galleries.length === 0) {
     return <p className="state-text">No galleries found for this date.</p>;
   }
@@ -157,7 +170,7 @@ function GalleryList({ galleries }: { galleries: GallerySummary[] }) {
   return (
     <div className="gallery-list">
       {galleries.map((gallery) => (
-        <Link className="gallery-card" to={gallery.route} key={gallery.route}>
+        <Link className="gallery-card" to={`${gallery.route}${search}`} key={gallery.route}>
           <img src={gallery.coverImage.thumbUrl} alt={gallery.coverImage.alt || gallery.title} loading="lazy" />
           <div>
             <time dateTime={gallery.date}>{formatDateLabel(gallery.date)}</time>

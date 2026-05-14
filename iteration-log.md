@@ -648,6 +648,8 @@ Detailed working notes for the React migration live here. This file is intention
     - `/posts?source=wordpress`
     - `/stories?source=instagram`
     - `/galleries?source=facebook`
+  - Gallery detail pages now render the gallery archive calendar in the left rail.
+  - Gallery cards preserve the active source filter when opening a detail page, so Facebook-filtered browsing keeps a Facebook-filtered calendar.
 - Sample authoring changes:
   - `_posts/2009-10-16-site-changes.md` now has `content_type: article`, `authors`, and `summary`.
   - `_posts/2010-12-25-christmas-2025.md` now has `content_type: article`, `authors`, and `summary`.
