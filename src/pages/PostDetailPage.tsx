@@ -3,6 +3,7 @@ import { ArrowLeft } from 'lucide-react';
 import { formatDateLabel } from '../archive';
 import { ArchiveCalendar } from '../components/ArchiveCalendar';
 import { ArchiveMetrics } from '../components/ArchiveMetrics';
+import { ContentTaxonomyFooter } from '../components/ContentTaxonomyFooter';
 import { EntryMetadata } from '../components/EntryMetadata';
 import { GalleryPeekCarousel } from '../components/GalleryPeekCarousel';
 import { ImageCarousel } from '../components/ImageCarousel';
@@ -147,6 +148,7 @@ function PostDetail({
           <EntryMetadata entry={post} />
         </header>
         <div className="rich-text" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
+        <ContentTaxonomyFooter hashtags={post.hashtags} categories={post.categories} />
       </article>
 
       <RelatedContentLinks post={post} />
@@ -184,6 +186,7 @@ function StoryDetail({
         )}
 
         <div className="rich-text" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
+        <ContentTaxonomyFooter hashtags={post.hashtags} categories={post.categories} />
       </article>
       <RelatedContentLinks post={post} />
       <RelatedGallerySections galleries={remainingGalleries} />

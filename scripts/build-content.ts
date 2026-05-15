@@ -159,6 +159,7 @@ type GallerySummary = DateParts & {
   summary: string;
   categories: string[];
   tags: string[];
+  hashtags: string[];
   locations: string[];
   sourceType?: string;
   source?: EntrySource;
@@ -195,6 +196,7 @@ type GallerySource = DateParts & {
   summary: string;
   categories: string[];
   tags: string[];
+  hashtags: string[];
   locations: string[];
   sourceType?: string;
   source?: EntrySource;
@@ -378,6 +380,7 @@ async function buildPosts() {
         summary: summary || `${title} gallery`,
         categories: stringArray(parsed.data.categories),
         tags: stringArray(parsed.data.tags),
+        hashtags: stringArray(parsed.data.hashtags),
         locations: locations(parsed.data),
         sourceType: source.type,
         source: Object.keys(source).length > 0 ? source : undefined,
@@ -632,6 +635,7 @@ async function buildGalleries(posts: PostDocument[], images: ImageSummary[], gal
       summary,
       categories: gallerySource?.categories ?? primaryPost?.categories ?? [],
       tags: gallerySource?.tags ?? primaryPost?.tags ?? [],
+      hashtags: gallerySource?.hashtags ?? primaryPost?.hashtags ?? [],
       locations: gallerySource?.locations ?? primaryPost?.locations ?? [],
       sourceType: gallerySource?.sourceType || primaryPost?.sourceType || galleryImages[0]?.source,
       source,
@@ -833,6 +837,15 @@ function buildTaxonomy(entries: PostSummary[], galleries: GallerySummary[]) {
 
   for (const gallery of galleries) {
     const ref = taxonomyRef(gallery);
+
+    for (const hashtag of gallery.hashtags) {
+      addTaxonomyTerm(hashtags, {
+        value: normalizeHashtag(hashtag),
+        label: `#${normalizeHashtag(hashtag)}`,
+        hrefBase: '/hashtags',
+        ref,
+      });
+    }
 
     for (const category of gallery.categories) {
       addTaxonomyTerm(categories, {

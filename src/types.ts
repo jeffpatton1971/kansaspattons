@@ -165,6 +165,7 @@ export type GallerySummary = {
   summary?: string;
   categories: string[];
   tags: string[];
+  hashtags: string[];
   locations?: string[];
   sourceType?: string;
   source?: EntrySource;

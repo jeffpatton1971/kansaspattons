@@ -2,6 +2,7 @@ import { Link, useLocation, useParams, useSearchParams } from 'react-router-dom'
 import { formatDateLabel, monthName } from '../archive';
 import { ArchiveCalendar, resolveSelection } from '../components/ArchiveCalendar';
 import { ArchiveMetrics } from '../components/ArchiveMetrics';
+import { ContentTaxonomyFooter } from '../components/ContentTaxonomyFooter';
 import { GalleryPeekCarousel } from '../components/GalleryPeekCarousel';
 import { ErrorState, LoadingState } from '../components/LoadingState';
 import { pageHref, pageNumber, pageRangeLabel, PaginationNav } from '../components/PaginationNav';
@@ -171,6 +172,7 @@ function GalleryDetailPage({ params }: { params: Required<GalleryParams> }) {
           </div>
         ) : null}
         <GalleryPeekCarousel images={gallery.images} title={gallery.title} />
+        <ContentTaxonomyFooter hashtags={gallery.hashtags} categories={gallery.categories} />
       </article>
 
       <aside className="archive-rail archive-rail--right">

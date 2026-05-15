@@ -1,20 +1,18 @@
 import type { PostSummary } from '../types';
 import type { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
+import { stripPrefix, taxonomyHref } from '../taxonomy';
 
 type EntryMetadataProps = {
   entry: PostSummary;
 };
 
 export function EntryMetadata({ entry }: EntryMetadataProps) {
-  const hashtags = entry.hashtags ?? [];
   const handles = entry.handles ?? [];
   const people = entry.people ?? [];
   const locations = entry.locations ?? (entry.location ? [entry.location] : []);
 
   if (
-    entry.categories.length === 0 &&
-    hashtags.length === 0 &&
     handles.length === 0 &&
     people.length === 0 &&
     locations.length === 0
@@ -24,15 +22,8 @@ export function EntryMetadata({ entry }: EntryMetadataProps) {
 
   return (
     <div className="entry-meta">
-      <ChipGroup label="Categories" values={entry.categories} hrefForValue={(value) => taxonomyHref('categories', value)} />
       <ChipGroup label="People" values={people} hrefForValue={(value) => taxonomyHref('people', value)} />
       <ChipGroup label="Locations" values={locations} hrefForValue={(value) => taxonomyHref('locations', value)} />
-      <ChipGroup
-        label="Hashtags"
-        values={hashtags}
-        hrefForValue={(value) => taxonomyHref('hashtags', value)}
-        renderValue={(value) => `#${stripPrefix(value, '#')}`}
-      />
       <ChipGroup
         label="Handles"
         values={handles}
@@ -80,24 +71,4 @@ function ChipGroup({
 
 function instagramHandleUrl(value: string) {
   return `https://www.instagram.com/${encodeURIComponent(stripPrefix(value, '@'))}/`;
-}
-
-function taxonomyHref(family: 'hashtags' | 'categories' | 'people' | 'locations', value: string) {
-  return `/${family}/${encodeURIComponent(taxonomySlug(value))}`;
-}
-
-function taxonomySlug(value: string) {
-  return value
-    .normalize('NFKC')
-    .trim()
-    .toLowerCase()
-    .replace(/^#+/, '')
-    .replace(/['’]/g, '')
-    .replace(/&/g, ' and ')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
-}
-
-function stripPrefix(value: string, prefix: string) {
-  return value.startsWith(prefix) ? value.slice(1) : value;
 }

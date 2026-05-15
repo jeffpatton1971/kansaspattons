@@ -1523,3 +1523,26 @@ Detailed working notes for the React migration live here. This file is intention
   - `npm run content:validate` passed with `0` errors and `0` warnings.
   - `npm run api:build` passed.
   - `npm run build` passed and emitted `dist/content/media/index.json`.
+
+### Bottom Taxonomy Rendering
+
+- Moved hashtags and categories out of the post/story header metadata strip.
+- Added a bottom-of-content taxonomy footer for:
+  - posts.
+  - stories.
+  - galleries.
+- Hashtags now render as internal links in `#{hashtag}` form, separated by
+  spaces.
+- Categories render underneath the hashtag row with a `Categories` label and
+  internal category links.
+- People and locations remain outside this footer for now while we decide their
+  best display treatment.
+- Gallery summaries and gallery detail documents now carry generated
+  `hashtags`.
+- Gallery hashtags now participate in generated `taxonomy.json`.
+- Current taxonomy counts after this change remain:
+  - `hashtags`: `209`.
+  - `categories`: `24`.
+  - `people`: `5`.
+  - `locations`: `2`.
+- Current generated taxonomy has `60` gallery hashtag item references.

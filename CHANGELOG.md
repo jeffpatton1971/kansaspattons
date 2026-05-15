@@ -78,6 +78,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Added `media:manifest` and `media:manifest:write` commands for rebuilding the source media manifest.
 - Added taxonomy API endpoints for resolving hashtag, category, people, and location terms.
 - Added frontend routes for `/hashtags/{slug}`, `/categories/{slug}`, `/people/{slug}`, and `/locations/{slug}`.
+- Added a bottom-of-content taxonomy footer for rendering clickable hashtags and categories on post, story, and gallery detail pages.
 
 ### Changed
 
@@ -174,6 +175,8 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed generated output to publish the media manifest at `media/index.json` beside the existing image browse index.
 - Changed hashtag, category, people, and location chips on detail pages into internal links.
 - Changed related post/story links to resolve routes and render on detail pages when authored in `related`.
+- Changed post and story header metadata so hashtags and categories no longer render in the header strip.
+- Changed generated gallery summaries and detail documents to carry hashtags, allowing gallery hashtags to appear in taxonomy results and gallery footers.
 
 ### Fixed
 

@@ -1419,6 +1419,65 @@ h1 {
   font-weight: 650;
 }
 
+.content-taxonomy {
+  display: grid;
+  gap: 12px;
+  margin-top: 28px;
+  padding-top: 18px;
+  border-top: 1px solid #dde2dc;
+}
+
+.content-taxonomy__hashtags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 8px;
+  color: #0d5d56;
+  font-size: 0.96rem;
+  font-weight: 760;
+  line-height: 1.7;
+}
+
+.content-taxonomy__hashtags a,
+.content-taxonomy__categories a {
+  color: #0d5d56;
+  text-decoration: none;
+}
+
+.content-taxonomy__hashtags a:hover,
+.content-taxonomy__categories a:hover {
+  color: #17201f;
+}
+
+.content-taxonomy__categories {
+  display: grid;
+  gap: 8px;
+}
+
+.content-taxonomy__categories > span {
+  color: #697370;
+  font-size: 0.72rem;
+  font-weight: 760;
+  text-transform: uppercase;
+}
+
+.content-taxonomy__categories > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.content-taxonomy__categories a {
+  display: inline-flex;
+  min-height: 30px;
+  align-items: center;
+  padding: 4px 9px;
+  border: 1px solid #d1d9d2;
+  border-radius: 8px;
+  background: #fff;
+  font-size: 0.84rem;
+  font-weight: 760;
+}
+
 .related-media {
   margin-top: 36px;
   padding-top: 24px;
@@ -1828,6 +1887,7 @@ body {
 .image-group,
 .related-media,
 .related-content-links,
+.content-taxonomy,
 .image-carousel {
   border-color: var(--mm-border);
 }
@@ -1868,6 +1928,7 @@ h1,
 .archive-summary span,
 .image-group__header span,
 .entry-meta__label,
+.content-taxonomy__categories > span,
 .notice,
 .state-text {
   color: var(--mm-muted);
@@ -1886,6 +1947,8 @@ time,
 .gallery-detail__related a,
 .related-content-links a,
 .rich-text a,
+.content-taxonomy__hashtags a,
+.content-taxonomy__categories a,
 .entry-meta__chip a {
   color: var(--mm-accent);
 }
@@ -1897,6 +1960,8 @@ time,
 .gallery-detail__related a:hover,
 .related-content-links a:hover,
 .rich-text a:hover,
+.content-taxonomy__hashtags a:hover,
+.content-taxonomy__categories a:hover,
 .entry-meta__chip a:hover,
 .image-group__header a:hover {
   color: var(--mm-text);
@@ -1919,6 +1984,7 @@ time,
 .icon-line,
 .gallery-detail__related a,
 .related-content-links a,
+.content-taxonomy__categories a,
 .taxonomy-result-card span,
 .entry-meta__chip {
   border-color: var(--mm-border);
