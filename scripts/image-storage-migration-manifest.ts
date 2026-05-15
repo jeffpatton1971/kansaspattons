@@ -47,6 +47,17 @@ type CopyOperation = {
   targetMatchesSource: boolean;
 };
 
+type SkippedCopyOperation = {
+  imageId: string;
+  galleryFile: string;
+  kind: 'thumb';
+  sourceUrl: string;
+  sourceBlobName: string;
+  targetUrl: string;
+  targetBlobName: string;
+  reason: 'video-thumbnail-not-available';
+};
+
 type Collision = {
   target: string;
   items: Array<{
@@ -60,6 +71,7 @@ const root = process.cwd();
 const galleryRoot = path.join(root, '_gallery');
 const args = new Set(process.argv.slice(2));
 const writeManifest = args.has('--write-manifest');
+const includeVideoThumbs = args.has('--include-video-thumbs');
 const manifestPath = path.resolve(root, argValue('--manifest') || '.tmp/image-storage-migration-manifest.json');
 const siteKey = cleanSiteKey(argValue('--site') || process.env.CONTENT_SITE_KEY || process.env.SITE_KEY || 'kansaspattons');
 const targetContainerName =
@@ -80,6 +92,7 @@ async function main() {
     },
   }));
   const copyOperations = imagePlans.flatMap((plan) => copyOperationsForImage(plan, targetAccountName));
+  const skippedCopyOperations = imagePlans.flatMap((plan) => skippedCopyOperationsForImage(plan, targetAccountName));
   const targetCollisions = collisionReport(copyOperations, false);
   const targetCaseInsensitiveCollisions = collisionReport(copyOperations, true);
   const manifest = {
@@ -97,6 +110,10 @@ async function main() {
       copyOperations: copyOperations.length,
       rawOperations: copyOperations.filter((operation) => operation.kind === 'raw').length,
       thumbOperations: copyOperations.filter((operation) => operation.kind === 'thumb').length,
+      skippedCopyOperations: skippedCopyOperations.length,
+      skippedVideoThumbOperations: skippedCopyOperations.filter(
+        (operation) => operation.reason === 'video-thumbnail-not-available',
+      ).length,
       targetMatchesSource: copyOperations.filter((operation) => operation.targetMatchesSource).length,
       targetCollisions: targetCollisions.length,
       targetCaseInsensitiveCollisions: targetCaseInsensitiveCollisions.length,
@@ -106,6 +123,7 @@ async function main() {
     targetCaseInsensitiveCollisions,
     images: imagePlans,
     copyOperations,
+    skippedCopyOperations,
   };
 
   printSummary(manifest);
@@ -165,11 +183,9 @@ async function imageAssetPlans(): Promise<ImageAssetPlan[]> {
 
 function copyOperationsForImage(plan: ImageAssetPlan, targetAccountName: string): CopyOperation[] {
   const rawSource = blobReference(plan.current.rawUrl);
-  const thumbSource = blobReference(plan.current.thumbUrl);
   const rawTargetUrl = blobUrl(targetAccountName, targetContainerName, plan.target.rawBlobName);
-  const thumbTargetUrl = blobUrl(targetAccountName, targetContainerName, plan.target.thumbBlobName);
 
-  return [
+  const operations: CopyOperation[] = [
     {
       imageId: plan.imageId,
       galleryFile: plan.galleryFile,
@@ -184,7 +200,13 @@ function copyOperationsForImage(plan: ImageAssetPlan, targetAccountName: string)
       targetBlobName: plan.target.rawBlobName,
       targetMatchesSource: targetMatchesSource(rawSource, targetAccountName, plan.target.rawBlobName),
     },
-    {
+  ];
+
+  if (!shouldSkipVideoThumbnail(plan)) {
+    const thumbSource = blobReference(plan.current.thumbUrl);
+    const thumbTargetUrl = blobUrl(targetAccountName, targetContainerName, plan.target.thumbBlobName);
+
+    operations.push({
       imageId: plan.imageId,
       galleryFile: plan.galleryFile,
       kind: 'thumb',
@@ -197,11 +219,36 @@ function copyOperationsForImage(plan: ImageAssetPlan, targetAccountName: string)
       targetContainerName,
       targetBlobName: plan.target.thumbBlobName,
       targetMatchesSource: targetMatchesSource(thumbSource, targetAccountName, plan.target.thumbBlobName),
+    });
+  }
+
+  return operations;
+}
+
+function skippedCopyOperationsForImage(plan: ImageAssetPlan, targetAccountName: string): SkippedCopyOperation[] {
+  if (!shouldSkipVideoThumbnail(plan)) {
+    return [];
+  }
+
+  const thumbSource = blobReference(plan.current.thumbUrl);
+  const thumbTargetUrl = blobUrl(targetAccountName, targetContainerName, plan.target.thumbBlobName);
+
+  return [
+    {
+      imageId: plan.imageId,
+      galleryFile: plan.galleryFile,
+      kind: 'thumb',
+      sourceUrl: plan.current.thumbUrl,
+      sourceBlobName: thumbSource.blobName,
+      targetUrl: thumbTargetUrl,
+      targetBlobName: plan.target.thumbBlobName,
+      reason: 'video-thumbnail-not-available',
     },
   ];
 }
 
 function validateImagePlanCollisions(plans: ImageAssetPlan[]) {
+  const plansWithMigratableThumbs = plans.filter((plan) => !shouldSkipVideoThumbnail(plan));
   const rawCollisions = collisions(
     plans.map((plan) => ({
       key: plan.target.rawBlobName,
@@ -211,7 +258,7 @@ function validateImagePlanCollisions(plans: ImageAssetPlan[]) {
     })),
   );
   const thumbCollisions = collisions(
-    plans.map((plan) => ({
+    plansWithMigratableThumbs.map((plan) => ({
       key: plan.target.thumbBlobName,
       imageId: plan.imageId,
       galleryFile: plan.galleryFile,
@@ -267,6 +314,8 @@ function sourceSummary(plans: ImageAssetPlan[]) {
   const thumbReferences = plans.map((plan) => blobReference(plan.current.thumbUrl));
 
   return {
+    mediaTypes: countBy(plans.map((plan) => (isVideoFilename(plan.filename) ? 'video' : 'image'))),
+    videoThumbPlaceholders: plans.filter(hasVideoThumbnailPlaceholder).length,
     sourceTypes: countBy(plans.map((plan) => plan.sourceType)),
     rawAccounts: countBy(rawReferences.map((reference) => reference.accountName)),
     rawContainers: countBy(rawReferences.map((reference) => reference.containerName)),
@@ -284,6 +333,8 @@ function printSummary(manifest: {
   counts: {
     images: number;
     copyOperations: number;
+    skippedCopyOperations: number;
+    skippedVideoThumbOperations: number;
     targetMatchesSource: number;
     targetCollisions: number;
     targetCaseInsensitiveCollisions: number;
@@ -294,6 +345,8 @@ function printSummary(manifest: {
   console.log('Image storage migration manifest');
   console.log(`Images: ${manifest.counts.images.toLocaleString()}`);
   console.log(`Copy operations: ${manifest.counts.copyOperations.toLocaleString()}`);
+  console.log(`Skipped copy operations: ${manifest.counts.skippedCopyOperations.toLocaleString()}`);
+  console.log(`Skipped video thumb operations: ${manifest.counts.skippedVideoThumbOperations.toLocaleString()}`);
   console.log(`Target: ${manifest.target.baseUrl}`);
   console.log(`Target matches existing source: ${manifest.counts.targetMatchesSource.toLocaleString()}`);
   console.log(`Target collisions: ${manifest.counts.targetCollisions.toLocaleString()}`);
@@ -343,6 +396,18 @@ function targetMatchesSource(source: BlobReference, targetAccountName: string, t
     source.containerName === targetContainerName &&
     source.blobName === targetBlobName
   );
+}
+
+function hasVideoThumbnailPlaceholder(plan: ImageAssetPlan) {
+  return isVideoFilename(plan.current.thumbUrl);
+}
+
+function shouldSkipVideoThumbnail(plan: ImageAssetPlan) {
+  return !includeVideoThumbs && hasVideoThumbnailPlaceholder(plan);
+}
+
+function isVideoFilename(value: string) {
+  return ['.mp4', '.mov', '.m4v', '.webm'].includes(path.extname(value.split(/[?#]/)[0]).toLowerCase());
 }
 
 type DateParts = {

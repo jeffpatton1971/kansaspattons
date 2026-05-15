@@ -35,7 +35,9 @@ npm run assets:manifest:write
 The manifest includes:
 
 - One image plan for each `_gallery` image document.
-- Two copy operations per image: `raw` and `thumb`.
+- One raw copy operation per image.
+- One thumb copy operation per image when a real thumbnail asset exists.
+- Skipped copy operation records for video thumbnail placeholders, because imported videos do not currently have generated thumbnail blobs.
 - Current source URL/blob.
 - Target URL/blob.
 - Target collision checks.
@@ -71,6 +73,7 @@ The migration runner:
 - Creates the target container if needed.
 - Copies each source blob to the canonical target blob with Azure Blob `syncCopyFromURL`.
 - Skips existing target blobs by default so the migration can be safely re-run.
+- Skips video thumbnail placeholder operations by default.
 - Writes `.tmp/image-storage-migration-result.json` after write runs.
 - Never deletes old blobs.
 
@@ -82,9 +85,11 @@ npm run assets:migrate -- --kind=thumb
 npm run assets:migrate:write -- --offset=1000 --limit=500
 npm run assets:migrate:write -- --concurrency=12
 npm run assets:migrate:write -- --overwrite
+npm run assets:migrate:write -- --include-video-thumbs
 ```
 
 Use `--overwrite` only when you deliberately want to recopy blobs that already exist at the canonical target path.
+Use `--include-video-thumbs` only if video thumbnails have been generated as real blobs and should be copied.
 
 ## Configuration
 
@@ -109,6 +114,7 @@ Equivalent CLI overrides:
 
 ```powershell
 npm run assets:manifest -- --account=prdwebappstorage --container=kansaspattons --site=kansaspattons
+npm run assets:manifest -- --include-video-thumbs
 ```
 
 The migration runner authenticates the same way the publish tooling does:

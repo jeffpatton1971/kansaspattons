@@ -887,6 +887,29 @@ Detailed working notes for the React migration live here. This file is intention
   - A pilot `npm run assets:migrate:write -- --limit=20` was blocked before copying because this shell does not have Azure storage credentials or an active Azure login.
   - The runner now reports that auth failure with concise setup guidance instead of a large credential stack trace.
 
+### Video Thumbnail Migration Handling
+
+- A real write run copied most image assets, then stopped after hitting the default `--max-errors=20`.
+- The failures all shared the same shape:
+  - `kind: thumb`
+  - `.mp4` source paths under `thumbs/{sourceType}/yyyy/mm/dd`
+  - Azure reported that the blob did not exist.
+- Conclusion: imported videos have raw video blobs, but we do not currently have separate generated thumbnail blobs for those videos.
+- Updated the manifest planner so future manifests:
+  - Still include raw video copy operations.
+  - Do not schedule `.mp4` thumbnail copy operations by default.
+  - Record skipped video thumbnail placeholders separately.
+  - Supports `--include-video-thumbs` if real video thumbnail blobs are later generated and should be included in a manifest.
+- Updated the migration runner so older manifests are also safe:
+  - `.mp4` thumbnail operations are skipped by default.
+  - `--include-video-thumbs` exists as an explicit escape hatch if real video thumbnail blobs are ever generated.
+- Verification:
+  - `npm run assets:manifest` now reports `16,999` copy operations and `57` skipped video thumbnail operations.
+  - `npm run assets:manifest:write` refreshed `.tmp/image-storage-migration-manifest.json` with the video-aware plan.
+  - `npm run assets:manifest -- --include-video-thumbs` verified the escape hatch restores the original `17,056` operation plan.
+  - `npm run assets:migrate -- --limit=10` now scopes against the updated `16,999` operation manifest.
+  - `npm run build` passed.
+
 ### Detail Page Archive Shell And Story Metadata
 
 - Updated individual post and story detail pages to use the shared archive shell:

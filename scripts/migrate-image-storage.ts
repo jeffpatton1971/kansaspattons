@@ -36,6 +36,7 @@ type MigrationOptions = {
   resultPath: string;
   write: boolean;
   overwrite: boolean;
+  includeVideoThumbs: boolean;
   concurrency: number;
   maxErrors: number;
   offset: number;
@@ -118,6 +119,7 @@ function migrationOptions(): MigrationOptions {
     resultPath,
     write: hasArg('--write'),
     overwrite: hasArg('--overwrite'),
+    includeVideoThumbs: hasArg('--include-video-thumbs'),
     concurrency,
     maxErrors,
     offset,
@@ -152,9 +154,12 @@ function assertSafeManifest(manifest: Manifest) {
 }
 
 function scopedOperations(copyOperations: CopyOperation[], options: MigrationOptions) {
-  const filtered = options.kind
+  const kindFiltered = options.kind
     ? copyOperations.filter((operation) => operation.kind === options.kind)
     : copyOperations;
+  const filtered = options.includeVideoThumbs
+    ? kindFiltered
+    : kindFiltered.filter((operation) => !isVideoThumbnailOperation(operation));
   const end = options.limit === undefined ? undefined : options.offset + options.limit;
 
   return filtered.slice(options.offset, end);
@@ -170,6 +175,12 @@ function printPlan(manifest: Manifest, options: MigrationOptions, operations: Co
   console.log(`Overwrite existing targets: ${options.overwrite ? 'yes' : 'no'}`);
   console.log(`Concurrency: ${options.concurrency}`);
   console.log(`Operations in scope: ${operations.length.toLocaleString()} / ${manifest.copyOperations.length.toLocaleString()}`);
+
+  const skippedVideoThumbs = skippedVideoThumbnailOperationCount(manifest.copyOperations, options);
+
+  if (skippedVideoThumbs > 0) {
+    console.log(`Video thumbnail operations skipped: ${skippedVideoThumbs.toLocaleString()}`);
+  }
 
   if (options.kind) {
     console.log(`Kind filter: ${options.kind}`);
@@ -349,6 +360,7 @@ async function writeResult(
     operationCount,
     options: {
       overwrite: options.overwrite,
+      includeVideoThumbs: options.includeVideoThumbs,
       concurrency: options.concurrency,
       offset: options.offset,
       limit: options.limit,
@@ -408,6 +420,22 @@ function optionalKindArg(name: string) {
   }
 
   return value;
+}
+
+function skippedVideoThumbnailOperationCount(copyOperations: CopyOperation[], options: MigrationOptions) {
+  if (options.includeVideoThumbs || options.kind === 'raw') {
+    return 0;
+  }
+
+  return copyOperations.filter(isVideoThumbnailOperation).length;
+}
+
+function isVideoThumbnailOperation(operation: CopyOperation) {
+  return operation.kind === 'thumb' && isVideoFilename(operation.sourceUrl);
+}
+
+function isVideoFilename(value: string) {
+  return ['.mp4', '.mov', '.m4v', '.webm'].includes(path.extname(value.split(/[?#]/)[0]).toLowerCase());
 }
 
 function accountNameFromConnectionString(connectionString: string | undefined) {

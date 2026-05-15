@@ -64,6 +64,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Added an image storage migration manifest script for planning canonical raw/thumb blob paths.
 - Added image storage migration documentation for the shared storage-account, site-container asset layout.
 - Added an image storage blob migration runner with dry-run, batch, skip-existing, and explicit write modes.
+- Added video-thumbnail awareness to image storage migration planning and copy execution.
 
 ### Changed
 
