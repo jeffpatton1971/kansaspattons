@@ -13,9 +13,9 @@ source:
   id: "instagram-2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely"
   timestamp: 1719363303
   caption: "Round 4 of cruise pictures these were at #oceancaymscmarinereserve lovely weather and lots of fun"
-  media_count: 10
+  media_count: 9
   cross_post_source: "FB"
-cover_image: instagram-2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely-01
+cover_image: instagram-2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely-02
 related:
   - type: gallery
     id: instagram-2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely

@@ -910,6 +910,26 @@ Detailed working notes for the React migration live here. This file is intention
   - `npm run assets:migrate -- --limit=10` now scopes against the updated `16,999` operation manifest.
   - `npm run build` passed.
 
+### Missing Instagram Source Cleanup
+
+- Reviewed the follow-up migration result after video thumbnail placeholders were skipped.
+- Final hard failures were:
+  - `2` missing raw Instagram image blobs.
+  - `3` missing Instagram thumbnail blobs where the raw image still exists.
+- Confirmed the three raw fallback URLs return `200`.
+- Removed the two `_gallery` records whose raw source files are missing:
+  - `instagram-2021-04-27-135635-some-pix-from-the-morning-07`
+  - `instagram-2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely-01`
+- Updated affected story metadata:
+  - `2021-04-27` media count reduced from `7` to `6`.
+  - `2024-06-25` media count reduced from `10` to `9`.
+  - `2024-06-25` cover image moved to the next available image.
+- Changed three thumbnail-only gaps to use the existing raw image URL as `thumb_url`.
+- Verification:
+  - `npm run assets:manifest:write` now reports `8,526` images and `16,995` copy operations.
+  - `npm run build` passed and generated `8,526` images.
+  - `npm run assets:migrate -- --limit=10` passed against the refreshed manifest.
+
 ### Detail Page Archive Shell And Story Metadata
 
 - Updated individual post and story detail pages to use the shared archive shell:

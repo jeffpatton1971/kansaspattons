@@ -13,7 +13,7 @@ source:
   id: "instagram-2021-04-27-135635-some-pix-from-the-morning"
   timestamp: 1619549795
   caption: "Some pix from the morning"
-  media_count: 7
+  media_count: 6
   cross_post_source: "FB"
 cover_image: instagram-2021-04-27-135635-some-pix-from-the-morning-01
 related:

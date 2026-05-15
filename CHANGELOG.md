@@ -120,6 +120,8 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed story detail rendering so stories backed by related galleries still lead with an image carousel.
 - Changed gallery detail pages and inline related galleries to use the gallery peek carousel instead of thumbnail grids or clickable image strips.
 - Centered story carousel media and capped its frame width so story photos no longer render oversized or left-aligned.
+- Removed two Instagram image records whose raw source files are absent from both Azure Storage and the Instagram export.
+- Changed three Instagram image records with missing thumbnail blobs to use their raw image as the thumbnail fallback.
 - Replaced the story-only detail grid with a shared post/story detail shell using a larger center column and balanced side rails.
 
 ### Fixed

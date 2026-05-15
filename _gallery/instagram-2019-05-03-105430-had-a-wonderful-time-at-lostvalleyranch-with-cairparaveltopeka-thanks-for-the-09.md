@@ -20,7 +20,7 @@ source:
   media_metadata_raw: "{\"camera_metadata\":{\"has_camera_metadata\":false}}"
 source_filename: "18053822995074232.jpg"
 raw_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/images/instagram/2019/05/03/18053822995074232.jpg"
-thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/instagram/2019/05/03/18053822995074232.jpg"
+thumb_url: "https://prdwebappstorage.blob.core.windows.net/kansaspattons/images/instagram/2019/05/03/18053822995074232.jpg"
 post: "/blog/2019/05/03/105430-had-a-wonderful-time-at-lostvalleyranch-with-cairparaveltopeka-thanks-for-the.html"
 index: 9
 ---
