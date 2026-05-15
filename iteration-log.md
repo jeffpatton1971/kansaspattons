@@ -1357,3 +1357,36 @@ Detailed working notes for the React migration live here. This file is intention
   - `npm run content:validate` passed with `0` errors and `0` warnings.
   - `npm run build` passed and generated `taxonomy.json`.
   - `npm run api:build` passed.
+
+### Hashtag Typo Sweep
+
+- Ran a similarity scan across the generated hashtag list.
+- Applied only obvious typo aliases in `normalize-taxonomy.ts` and
+  `validate-content.ts`:
+  - `beeakfast` -> `breakfast`
+  - `breakfsst` -> `breakfast`
+  - `brekfast` -> `breakfast`
+  - `candelightconcert` -> `candlelightconcert`
+  - `cicgars` -> `cigars`
+  - `covidvacccine` -> `covidvaccine`
+  - `happythanksgivng` -> `happythanksgiving`
+  - `newbeginings` -> `newbeginnings`
+  - `tradtions` -> `traditions`
+- Left ambiguous near-matches alone:
+  - `desert` / `dessert`
+  - `hardwork` / `yardwork`
+  - `morning` / `mornings`
+  - `racker` / `rackers`
+  - `snowday` / `snowman` / `snowy`
+- Applied the typo alias pass:
+  - `11` content files changed.
+  - Only hashtag fields changed.
+- Final spot check:
+  - `breakfast` count in authored Markdown is now `63`.
+  - `beeakfast`, `breakfsst`, and `brekfast` are now `0`.
+  - `tradtions` is now `0`.
+- Verification:
+  - `npm run taxonomy:normalize` reports zero pending changes.
+  - `npm run content:validate` passed with `0` errors and `0` warnings.
+  - `npm run build` passed and regenerated `taxonomy.json`.
+  - `npm run api:build` passed.

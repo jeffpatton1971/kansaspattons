@@ -159,6 +159,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Removed raw source-type labels from post and story detail headers.
 - Merged category aliases for birthday, July 4th, New Year, Cair Paravel, and hyphenated school/event category variants.
 - Enforced normalized hashtag formatting in content validation: lowercase, no leading `#`, and no spaces.
+- Added conservative hashtag typo aliases for obvious misspellings such as `brekfast`, `breakfsst`, `beeakfast`, `tradtions`, `happythanksgivng`, and similar one-off terms.
 
 ### Fixed
 

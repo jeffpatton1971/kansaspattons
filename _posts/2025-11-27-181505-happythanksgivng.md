@@ -27,7 +27,7 @@ images:
     caption:
     alt:
 hashtags:
-  - "happythanksgivng"
+  - happythanksgiving
 handles: []
 location:
 authors:

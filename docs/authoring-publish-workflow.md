@@ -250,6 +250,8 @@ That migration folds `tags` into normalized `hashtags`, removes import/source
 labels such as `wordpress`, `instagram`, `facebook`, `gallery`, and `album`
 from user-facing taxonomy fields, and normalizes duplicate category casing.
 Hashtags are written without a leading `#`, lowercased, and with spaces removed.
+Known typo aliases are also normalized, including common breakfast misspellings,
+`tradtions`, `happythanksgivng`, and similar obvious one-off typos.
 
 The content build emits the current aggregate taxonomy list to:
 

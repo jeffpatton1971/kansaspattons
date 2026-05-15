@@ -21,7 +21,7 @@ images:
     caption:
     alt:
 hashtags:
-  - "brekfast"
+  - breakfast
 handles:
   - "munchersbakery"
 location:

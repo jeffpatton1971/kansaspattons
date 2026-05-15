@@ -52,6 +52,17 @@ const recommendations = {
 };
 
 const removedTaxonomy = new Set(['wordpress', 'instagram', 'facebook', 'gallery', 'album']);
+const hashtagAliases = new Map([
+  ['beeakfast', 'breakfast'],
+  ['breakfsst', 'breakfast'],
+  ['brekfast', 'breakfast'],
+  ['candelightconcert', 'candlelightconcert'],
+  ['cicgars', 'cigars'],
+  ['covidvacccine', 'covidvaccine'],
+  ['happythanksgivng', 'happythanksgiving'],
+  ['newbeginings', 'newbeginnings'],
+  ['tradtions', 'traditions'],
+]);
 
 async function main() {
   const mediaIds = await readMediaIds();
@@ -574,7 +585,8 @@ function isCanonicalMediaKey(value: string) {
 }
 
 function normalizeHashtag(value: string) {
-  return value.normalize('NFKC').trim().replace(/^#+/, '').replace(/\s+/g, '').toLowerCase();
+  const normalized = value.normalize('NFKC').trim().replace(/^#+/, '').replace(/\s+/g, '').toLowerCase();
+  return hashtagAliases.get(normalized) ?? normalized;
 }
 
 function normalizeCategoryKey(value: string) {

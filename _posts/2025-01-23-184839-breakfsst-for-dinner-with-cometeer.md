@@ -21,7 +21,7 @@ images:
     caption:
     alt:
 hashtags:
-  - "breakfsst"
+  - breakfast
 handles:
   - "cometeer"
 location:

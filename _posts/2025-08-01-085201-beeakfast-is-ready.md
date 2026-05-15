@@ -21,7 +21,7 @@ images:
     caption:
     alt:
 hashtags:
-  - "beeakfast"
+  - breakfast
 handles: []
 location:
 authors:

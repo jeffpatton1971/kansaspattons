@@ -114,6 +114,8 @@ Current normalization also removes migration-only labels such as `gallery` and
 
 Hashtags must be stored without a leading `#`, lowercase, and with no spaces.
 For example, author `Good Morning` or `#GoodMorning` as `goodmorning`.
+Known typo aliases are normalized during taxonomy cleanup and enforced by
+validation, such as `brekfast` to `breakfast` and `tradtions` to `traditions`.
 
 `categories` are provisional. They can remain as an optional field while we
 decide whether we need curated site sections, but they should not be required

@@ -46,6 +46,17 @@ const categoryAliases = new Map([
   ['last-day', 'Last Day'],
   ['last day', 'Last Day'],
 ]);
+const hashtagAliases = new Map([
+  ['beeakfast', 'breakfast'],
+  ['breakfsst', 'breakfast'],
+  ['brekfast', 'breakfast'],
+  ['candelightconcert', 'candlelightconcert'],
+  ['cicgars', 'cigars'],
+  ['covidvacccine', 'covidvaccine'],
+  ['happythanksgivng', 'happythanksgiving'],
+  ['newbeginings', 'newbeginnings'],
+  ['tradtions', 'traditions'],
+]);
 
 const stats: Stats = {
   files: 0,
@@ -181,12 +192,14 @@ function normalizeCategories(values: string[]) {
 }
 
 function normalizeHashtag(value: string) {
-  return value
+  const normalized = value
     .normalize('NFKC')
     .trim()
     .replace(/^#+/, '')
     .replace(/\s+/g, '')
     .toLowerCase();
+
+  return hashtagAliases.get(normalized) ?? normalized;
 }
 
 function normalizeCategoryKey(value: string) {

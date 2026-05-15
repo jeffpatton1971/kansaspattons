@@ -14,7 +14,7 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to First day of class @cairparaveltopeka full of fun and #tradtions."
 hashtags:
-  - tradtions
+  - traditions
 gallery: instagram-2024-08-14-162517-first-day-of-class-cairparaveltopeka-full-of-fun-and-tradtions
 cover_image: "2024/08/14/18248945953270216.jpg"
 images:

@@ -27,7 +27,7 @@ images:
     caption:
     alt:
 hashtags:
-  - "candelightconcert"
+  - candlelightconcert
 handles:
   - "fountaincitystringquartet"
 location:

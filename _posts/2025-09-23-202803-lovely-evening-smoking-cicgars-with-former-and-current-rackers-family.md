@@ -24,7 +24,7 @@ images:
     caption:
     alt:
 hashtags:
-  - cicgars
+  - cigars
   - family
   - rackers
 handles: []

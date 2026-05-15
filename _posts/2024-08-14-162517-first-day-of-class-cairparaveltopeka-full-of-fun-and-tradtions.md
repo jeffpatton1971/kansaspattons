@@ -21,7 +21,7 @@ related:
     id: instagram-2024-08-14-162517-first-day-of-class-cairparaveltopeka-full-of-fun-and-tradtions
     rel: photos
 hashtags:
-  - "tradtions"
+  - traditions
 handles:
   - "cairparaveltopeka"
 location:

@@ -21,7 +21,7 @@ images:
     caption:
     alt:
 hashtags:
-  - "covidvacccine"
+  - covidvaccine
 handles:
   - "pfizerinc"
 location:

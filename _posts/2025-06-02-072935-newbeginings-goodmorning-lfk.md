@@ -23,7 +23,7 @@ images:
 hashtags:
   - goodmorning
   - lfk
-  - newbeginings
+  - newbeginnings
 handles: []
 location:
 authors:
