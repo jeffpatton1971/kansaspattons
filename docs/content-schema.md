@@ -35,15 +35,17 @@ public/content/
 
 ## Taxonomy Index
 
-`taxonomy.json` is the generated review/browse index for user-facing taxonomy.
-It is built from the normalized `hashtags` and `categories` on posts, stories,
-and galleries.
+`taxonomy.json` is the generated review/browse index for user-facing metadata.
+It is built from normalized `hashtags`, `categories`, `people`, and `locations`
+on posts, stories, and galleries.
 
 ```ts
 type TaxonomyIndex = {
   generatedAt: string;
   hashtags: TaxonomyTerm[];
   categories: TaxonomyTerm[];
+  people: TaxonomyTerm[];
+  locations: TaxonomyTerm[];
 };
 
 type TaxonomyTerm = {
@@ -70,12 +72,19 @@ Current category aliases normalize obvious wording variants:
 Birthdays -> Birthday
 July Fourth / Fourth Of July / 4th Of July -> July 4th
 New Years / New Years Day / New Year's Day -> New Year
-CPLS / Cair Paravel Latin School -> Cair Paravel
-Crown-Center -> Crown Center
 Field-Day -> Field Day
 Field-Trips -> Field Trips
 First-Grade -> First Grade
 Last-Day -> Last Day
+```
+
+People and places are generated as separate metadata indexes instead of being
+kept as categories:
+
+```text
+Nathan / Natalie / Sarah / Grandma / Grandpa -> people
+CPLS / Cair Paravel Latin School / Cair Paravel -> locations: Cair Paravel
+Crown-Center / Crown Center -> locations: Crown Center
 ```
 
 ## Site Summary
@@ -179,6 +188,8 @@ type EntrySummary = {
   categories: string[];
   tags: string[];
   hashtags: string[];
+  people: string[];
+  locations: string[];
   handles: string[];
   location?: string;
   sourceType?: string;
@@ -244,6 +255,8 @@ type EntryDocument = EntrySummary & {
 ## Image Summary
 
 Images currently come from legacy `_gallery/*.md` import metadata, but generated image IDs are canonical media keys rather than Markdown document IDs.
+The planned manifest-backed replacement for `_gallery` is documented in
+[`media-manifest.md`](media-manifest.md).
 
 Example:
 
@@ -299,6 +312,9 @@ type GallerySummary = {
   summary: string;
   categories: string[];
   tags: string[];
+  hashtags: string[];
+  people: string[];
+  locations: string[];
   sourceType?: string;
   source?: EntrySource;
   imageIds: string[];

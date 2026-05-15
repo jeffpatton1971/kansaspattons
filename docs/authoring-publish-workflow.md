@@ -20,6 +20,9 @@ The existing `_gallery/*.md` files are useful import metadata from the GitHub Pa
 The target content envelope and child payload shapes are defined in
 [`content-contract.md`](content-contract.md).
 
+The planned replacement for legacy one-file-per-image `_gallery` metadata is
+defined in [`media-manifest.md`](media-manifest.md).
+
 ## Draft Authoring
 
 Draft Markdown may use simple local filenames. The author should not need to know the final Azure Blob path.
@@ -262,7 +265,20 @@ dist/content/taxonomy.json
 
 The category alias rules currently merge common wording variants such as
 `Birthdays` into `Birthday`, `Fourth Of July` into `July 4th`, `New Years Day`
-into `New Year`, and `CPLS` / `Cair Paravel Latin School` into `Cair Paravel`.
+into `New Year`, and hyphenated event names into readable labels.
+
+People and places can be moved out of categories with:
+
+```powershell
+npm run entities:normalize
+npm run entities:normalize:write
+```
+
+That migration moves people-like category values into `people` and place-like
+category values into `locations`, then removes those values from `categories`.
+The current alias set handles `Nathan`, `Natalie`, `Sarah`, `Grandma`,
+`Grandpa`, `CPLS`, `Cair Paravel Latin School`, `Cair Paravel`, and
+`Crown Center`.
 
 ## Collision Policy
 

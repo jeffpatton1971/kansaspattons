@@ -24,12 +24,12 @@ hashtags:
   - "beybladeburst"
   - "beybladegeeks"
 handles: []
-location:
 categories:
   - Birthday
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Building a BEYBLADE battle arena for Nathan’s 8th birthday party #beybladeburst #beybladegeeks"
 ---
 Building a BEYBLADE battle arena for Nathan’s 8th birthday party [#beybladeburst](https://www.instagram.com/explore/tags/beybladeburst/) [#beybladegeeks](https://www.instagram.com/explore/tags/beybladegeeks/)

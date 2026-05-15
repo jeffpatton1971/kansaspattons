@@ -21,11 +21,10 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Huge milestone for Nathan! While it left scars on us all, we won this battle!"
 ---
 Huge milestone for Nathan! While it left scars on us all, we won this battle!

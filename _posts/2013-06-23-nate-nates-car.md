@@ -17,10 +17,10 @@ related:
   - type: gallery
     id: wordpress-2013-06-23-080636-june-23-2013
     rel: photos
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "We decided to get Nathan one of those trikes that had a handle on it. That way we could take him on walks and he could peddle along, but unfortunately when we went shopping we couldn’t find one, so we bought him a car! He loves his little c"
 ---
 We decided to get Nathan one of those trikes that had a handle on it. That way we could take him on walks and he could peddle along, but unfortunately when we went shopping we couldn’t find one, so we bought him a car! He loves his little car, he calls it “Nate Nate’s car” and wants to take it everywhere!

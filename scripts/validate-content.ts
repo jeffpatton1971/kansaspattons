@@ -63,6 +63,20 @@ const hashtagAliases = new Map([
   ['newbeginings', 'newbeginnings'],
   ['tradtions', 'traditions'],
 ]);
+const personCategoryAliases = new Map([
+  ['nathan', 'Nathan'],
+  ['natalie', 'Natalie'],
+  ['sarah', 'Sarah'],
+  ['grandma', 'Grandma'],
+  ['grandpa', 'Grandpa'],
+]);
+const locationCategoryAliases = new Map([
+  ['cair paravel', 'Cair Paravel'],
+  ['cair paravel latin school', 'Cair Paravel'],
+  ['cpls', 'Cair Paravel'],
+  ['crown center', 'Crown Center'],
+  ['crown-center', 'Crown Center'],
+]);
 
 async function main() {
   const mediaIds = await readMediaIds();
@@ -306,12 +320,37 @@ function validateTaxonomy(record: ContentRecord) {
         addIssue('error', 'taxonomy.systemValue', record.file, `${field} contains source/import value "${value}".`);
       }
 
+      if (field === 'categories' && personCategoryAliases.has(normalized)) {
+        addIssue('error', 'taxonomy.personCategory', record.file, `Category "${value}" should be moved to people.`);
+      }
+
+      if (field === 'categories' && locationCategoryAliases.has(normalized)) {
+        addIssue('error', 'taxonomy.locationCategory', record.file, `Category "${value}" should be moved to locations.`);
+      }
+
       if (seen.has(normalized)) {
         addIssue('error', 'taxonomy.duplicateValue', record.file, `${field} contains duplicate value "${value}" after normalization.`);
       }
 
       seen.add(normalized);
     }
+  }
+
+  validateUniqueList(record, 'people');
+  validateUniqueList(record, 'locations');
+}
+
+function validateUniqueList(record: ContentRecord, field: 'people' | 'locations') {
+  const seen = new Set<string>();
+
+  for (const value of stringArray(record.data[field])) {
+    const normalized = normalizeCategoryKey(value);
+
+    if (seen.has(normalized)) {
+      addIssue('error', `taxonomy.duplicate${field[0].toUpperCase()}${field.slice(1)}`, record.file, `${field} contains duplicate value "${value}".`);
+    }
+
+    seen.add(normalized);
   }
 }
 

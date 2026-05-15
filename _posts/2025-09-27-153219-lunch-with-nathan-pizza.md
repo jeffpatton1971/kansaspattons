@@ -27,11 +27,10 @@ hashtags:
   - "lunch"
   - "pizza"
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "#lunch with Nathan #pizza"
 ---
 [#lunch](https://www.instagram.com/explore/tags/lunch/) with Nathan [#pizza](https://www.instagram.com/explore/tags/pizza/)

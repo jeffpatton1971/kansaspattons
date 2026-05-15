@@ -10,10 +10,10 @@ source:
   id: instagram-2018-09-08-100400-natalie-s-first-meet-her-doubles-team-won
   media_count: "4"
   cross_post_source: FB
-categories:
-  - Natalie
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "4 images related to Natalie’s first meet, her doubles team won!."
 gallery: instagram-2018-09-08-100400-natalie-s-first-meet-her-doubles-team-won
 cover_image: "2018/09/08/17977729882051311.jpg"

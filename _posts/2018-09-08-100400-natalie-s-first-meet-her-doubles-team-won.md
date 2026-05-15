@@ -21,11 +21,10 @@ related:
     id: instagram-2018-09-08-100400-natalie-s-first-meet-her-doubles-team-won
     rel: photos
 handles: []
-location:
-categories:
-  - "Natalie"
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "Natalie’s first meet, her doubles team won!"
 ---
 Natalie’s first meet, her doubles team won!

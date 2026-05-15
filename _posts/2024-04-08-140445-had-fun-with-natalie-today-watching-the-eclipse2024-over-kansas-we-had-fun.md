@@ -24,11 +24,10 @@ hashtags:
   - "eclipse2024"
   - "kansas"
 handles: []
-location:
-categories:
-  - "Natalie"
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "Had fun with Natalie today watching the #eclipse2024 over #kansas. We had fun making a pinhole camera and then a friend on Facebook posted a pic of a pasta strainer view!"
 ---
 Had fun with Natalie today watching the [#eclipse2024](https://www.instagram.com/explore/tags/eclipse2024/) over [#kansas](https://www.instagram.com/explore/tags/kansas/). We had fun making a pinhole camera and then a friend on Facebook posted a pic of a pasta strainer view!

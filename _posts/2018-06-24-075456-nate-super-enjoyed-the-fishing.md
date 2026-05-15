@@ -21,11 +21,10 @@ related:
     id: instagram-2018-06-24-075456-nate-super-enjoyed-the-fishing
     rel: photos
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Nate super enjoyed the fishing"
 ---
 Nate super enjoyed the fishing

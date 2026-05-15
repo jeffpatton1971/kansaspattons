@@ -23,11 +23,10 @@ related:
 hashtags:
   - "happybirthday"
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Nathan turned 14 today #happybirthday"
 ---
 Nathan turned 14 today [#happybirthday](https://www.instagram.com/explore/tags/happybirthday/)

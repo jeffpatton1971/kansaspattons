@@ -12,11 +12,11 @@ related:
   - type: gallery
     id: gallery-2009-11-02
     rel: photos
-categories:
-  - Natalie
 author:     Jeff
 authors:
   - Jeff
+people:
+  - Natalie
 summary: "Natalie learning to ride a bike!"
 comments:   false
 published:  true

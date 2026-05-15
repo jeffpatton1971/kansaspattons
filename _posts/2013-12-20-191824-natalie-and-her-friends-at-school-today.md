@@ -21,11 +21,10 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Natalie"
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "Natalie and her friends at school today"
 ---
 Natalie and her friends at school today

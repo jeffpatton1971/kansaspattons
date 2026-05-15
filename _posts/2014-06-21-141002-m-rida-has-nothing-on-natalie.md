@@ -21,11 +21,10 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Natalie"
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "Mérida has nothing on Natalie!"
 ---
 Mérida has nothing on Natalie!

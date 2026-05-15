@@ -10,10 +10,10 @@ source:
   id: instagram-2026-01-11-200258-had-an-absolute-wonderful-time-being-natalie-15-2003-chauffeur
   media_count: "19"
   cross_post_source: FB
-categories:
-  - Natalie
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "19 images related to Had an absolute wonderful time being @natalie.15.2003 chauffeur."
 gallery: instagram-2026-01-11-200258-had-an-absolute-wonderful-time-being-natalie-15-2003-chauffeur
 cover_image: "2026/01/11/18113457016614807.jpg"

@@ -10,10 +10,10 @@ source:
   id: instagram-2018-06-24-075456-nate-super-enjoyed-the-fishing
   media_count: "4"
   cross_post_source: FB
-categories:
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "4 images related to Nate super enjoyed the fishing."
 gallery: instagram-2018-06-24-075456-nate-super-enjoyed-the-fishing
 cover_image: "2018/06/24/17941011094096855.jpg"

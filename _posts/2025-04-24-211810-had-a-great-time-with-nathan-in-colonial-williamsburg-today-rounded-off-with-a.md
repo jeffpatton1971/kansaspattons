@@ -21,11 +21,10 @@ related:
     id: instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a
     rel: photos
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Had a great time with Nathan in Colonial Williamsburg today rounded off with a pirate trial!"
 ---
 Had a great time with Nathan in Colonial Williamsburg today rounded off with a pirate trial!

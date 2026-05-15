@@ -7,10 +7,10 @@ post_id: "2009-11-02-natalie-bike-gallery"
 date: 2009-11-02 09:55:00 -0600
 source:
   type: wordpress
-categories:
-  - Natalie
 authors:
   - Jeff
+people:
+  - Natalie
 summary: "7 images related to First bike ride."
 gallery: gallery-2009-11-02
 cover_image: "2009/11/02/img60023.jpg"

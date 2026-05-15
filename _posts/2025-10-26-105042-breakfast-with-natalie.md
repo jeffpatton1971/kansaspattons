@@ -21,11 +21,10 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Natalie"
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "Breakfast with Natalie"
 ---
 Breakfast with Natalie

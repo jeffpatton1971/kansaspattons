@@ -21,11 +21,10 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Natalie"
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "Natalie got her first medal for Tennis as a senior"
 ---
 Natalie got her first medal for Tennis as a senior

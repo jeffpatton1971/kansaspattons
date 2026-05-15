@@ -19,9 +19,10 @@ related:
     rel: photos
 categories:
   - Cancer
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Today was our trip to KCK to talk with the doctor’s at KU Med who will remove the tumor from Nathan’s liver. I would love to say that the process was fast, efficient and streamlined, but in reality it was one of the most disorganized visit’"
 ---
 Today was our trip to KCK to talk with the doctor’s at KU Med who will remove the tumor from Nathan’s liver. I would love to say that the process was fast, efficient and streamlined, but in reality it was one of the most disorganized visit’s we’ve ever had.  We showed up at 9a for his 930 appointment with pre-anesthesia, and they had no record of his appointment. After they started looking deeper they had him scheduled for the previous day. They asked us why we missed it, and we said we didn’t schedule this, the doctor’s and nurses scheduled everything.

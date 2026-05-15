@@ -21,11 +21,10 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Yesterday Nathan fell asleep singing, \"Do want to build a snowman\""
 ---
 Yesterday Nathan fell asleep singing, "Do want to build a snowman"

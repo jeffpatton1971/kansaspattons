@@ -21,12 +21,11 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Nathan"
-  - "Sarah"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
+  - Sarah
 summary: "Nathan and Sarah snuggled up on the couch"
 ---
 Nathan and Sarah snuggled up on the couch

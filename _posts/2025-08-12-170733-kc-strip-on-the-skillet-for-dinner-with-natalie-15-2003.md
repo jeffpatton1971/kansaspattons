@@ -25,11 +25,10 @@ images:
     alt:
 handles:
   - "natalie.15.2003"
-location:
-categories:
-  - "Natalie"
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "KC Strip on the skillet for dinner with @natalie.15.2003"
 ---
 KC Strip on the skillet for dinner with [@natalie.15.2003](https://www.instagram.com/natalie.15.2003/)

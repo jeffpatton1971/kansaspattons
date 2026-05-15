@@ -19,9 +19,10 @@ related:
     rel: photos
 categories:
   - Cancer
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "This is the start of our third cycle of chemo, we had hoped that he would have surgery to have it removed, but here we are. We stopped by the Cancer Center first for Nathan to get his port accessed, while I don’t think he’s getting used to "
 ---
 This is the start of our third cycle of chemo, we had hoped that he would have surgery to have it [removed](/blog/2013/05/15/2013-05-15-083129-may-15-2013.html), but here we are. We stopped by the Cancer Center first for Nathan to get his port accessed, while I don’t think he’s getting used to it, at least they get it done quick.

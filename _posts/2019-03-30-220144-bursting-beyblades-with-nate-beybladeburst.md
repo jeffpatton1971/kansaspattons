@@ -23,11 +23,10 @@ images:
 hashtags:
   - "beybladeburst"
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Bursting BEYBLADEs with Nate #beybladeburst"
 ---
 Bursting BEYBLADEs with Nate [#beybladeburst](https://www.instagram.com/explore/tags/beybladeburst/)

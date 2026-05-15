@@ -17,11 +17,12 @@ related:
   - type: gallery
     id: wordpress-2013-05-08-081656-may-8-2013
     rel: photos
-categories:
-  - "Cair Paravel"
-  - Natalie
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
+locations:
+  - "Cair Paravel"
 summary: "Natalie finally finished her project for history. She’s pretty creative, and it looks really good!"
 ---
 Natalie finally finished her [project]({% post_url 2013-04-28-the-labrynth %}) for history. She’s pretty creative, and it looks really good!

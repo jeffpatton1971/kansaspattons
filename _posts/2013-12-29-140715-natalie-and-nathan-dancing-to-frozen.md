@@ -21,12 +21,11 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Natalie"
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
+  - Nathan
 summary: "Natalie and Nathan dancing to Frozen"
 ---
 Natalie and Nathan dancing to Frozen

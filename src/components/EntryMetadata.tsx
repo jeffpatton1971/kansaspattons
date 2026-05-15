@@ -8,14 +8,15 @@ type EntryMetadataProps = {
 export function EntryMetadata({ entry }: EntryMetadataProps) {
   const hashtags = entry.hashtags ?? [];
   const handles = entry.handles ?? [];
-  const tags = displayTags(entry.tags, entry.sourceType, hashtags);
+  const people = entry.people ?? [];
+  const locations = entry.locations ?? (entry.location ? [entry.location] : []);
 
   if (
     entry.categories.length === 0 &&
-    tags.length === 0 &&
     hashtags.length === 0 &&
     handles.length === 0 &&
-    !entry.location
+    people.length === 0 &&
+    locations.length === 0
   ) {
     return null;
   }
@@ -23,7 +24,8 @@ export function EntryMetadata({ entry }: EntryMetadataProps) {
   return (
     <div className="entry-meta">
       <ChipGroup label="Categories" values={entry.categories} />
-      <ChipGroup label="Tags" values={tags} />
+      <ChipGroup label="People" values={people} />
+      <ChipGroup label="Locations" values={locations} />
       <ChipGroup
         label="Hashtags"
         values={hashtags}
@@ -42,12 +44,6 @@ export function EntryMetadata({ entry }: EntryMetadataProps) {
           </a>
         )}
       />
-      {entry.location ? (
-        <div className="entry-meta__group">
-          <span className="entry-meta__label">Location</span>
-          <span className="entry-meta__chip">{entry.location}</span>
-        </div>
-      ) : null}
     </div>
   );
 }
@@ -77,17 +73,6 @@ function ChipGroup({
   );
 }
 
-function displayTags(tags: string[], sourceType: string | undefined, hashtags: string[]) {
-  const normalizedSource = sourceType?.toLowerCase();
-  const normalizedHashtags = new Set(hashtags.map(normalizeToken));
-
-  return tags.filter((tag) => {
-    const normalized = normalizeToken(tag);
-
-    return normalized !== normalizedSource && !normalizedHashtags.has(normalized);
-  });
-}
-
 function instagramHashtagUrl(value: string) {
   return `https://www.instagram.com/explore/tags/${encodeURIComponent(stripPrefix(value, '#'))}/`;
 }
@@ -98,8 +83,4 @@ function instagramHandleUrl(value: string) {
 
 function stripPrefix(value: string, prefix: string) {
   return value.startsWith(prefix) ? value.slice(1) : value;
-}
-
-function normalizeToken(value: string) {
-  return stripPrefix(stripPrefix(value.trim().toLowerCase(), '#'), '@');
 }

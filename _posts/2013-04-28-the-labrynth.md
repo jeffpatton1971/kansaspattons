@@ -17,11 +17,12 @@ related:
   - type: gallery
     id: wordpress-2013-04-28-220350-april-28-2013
     rel: photos
-categories:
-  - "Cair Paravel"
-  - Natalie
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
+locations:
+  - "Cair Paravel"
 summary: "Natalie started working on her final project for school today. Her project is about Greek mythology and she is making a labyrinth that the kids in her class should be able to walk around. I projected a simple circular labyrinth onto a large"
 ---
 Natalie started working on her final project for school today. Her project is about Greek mythology and she is making a labyrinth that the kids in her class should be able to walk around. I projected a simple circular labyrinth onto a large piece of cloth that mom bought, that is pretty much the extent of what I did.

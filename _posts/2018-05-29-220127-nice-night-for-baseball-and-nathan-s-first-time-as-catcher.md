@@ -27,11 +27,10 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Nice night for baseball and Nathan’s first time as catcher"
 ---
 Nice night for baseball and Nathan’s first time as catcher

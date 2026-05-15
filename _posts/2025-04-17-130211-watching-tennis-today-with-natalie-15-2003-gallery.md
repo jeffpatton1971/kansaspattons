@@ -10,10 +10,10 @@ source:
   id: instagram-2025-04-17-130211-watching-tennis-today-with-natalie-15-2003
   media_count: "6"
   cross_post_source: FB
-categories:
-  - Natalie
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "6 images related to Watching #tennis today with @natalie.15.2003."
 hashtags:
   - tennis

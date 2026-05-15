@@ -22,9 +22,10 @@ images:
     alt:
 categories:
   - Cancer
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "This is the first day of our second to last round of chemo."
 ---
 This is the first day of our second to last round of chemo.

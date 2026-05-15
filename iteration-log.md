@@ -1390,3 +1390,75 @@ Detailed working notes for the React migration live here. This file is intention
   - `npm run content:validate` passed with `0` errors and `0` warnings.
   - `npm run build` passed and regenerated `taxonomy.json`.
   - `npm run api:build` passed.
+
+### People, Locations, And Media Manifest Shape
+
+- Moved people-like category values into dedicated `people` frontmatter:
+  - `Nathan`
+  - `Natalie`
+  - `Sarah`
+  - `Grandma`
+  - `Grandpa`
+- Moved place-like category values into dedicated `locations` frontmatter:
+  - `CPLS`
+  - `Cair Paravel Latin School`
+  - `Cair Paravel`
+  - `Crown-Center`
+  - `Crown Center`
+- Added `scripts/normalize-entities.ts` with dry-run and write commands:
+  - `npm run entities:normalize`
+  - `npm run entities:normalize:write`
+- Applied the entity normalization pass:
+  - `225` content files changed.
+  - `218` files gained or changed `people`.
+  - `24` files gained or changed `locations`.
+  - `225` files had those values removed from `categories`.
+  - `239` total people values were added.
+  - `26` total location values were added.
+- Updated generated content and shared types so posts, stories, and galleries
+  carry `people` and `locations`.
+- Kept a compatibility `location` string in generated entry JSON as the first
+  location value while the frontend/API continue moving toward plural
+  `locations`.
+- Updated detail metadata rendering so categories, people, locations, hashtags,
+  and handles display as separate concepts.
+- Updated validation to fail if known people or location aliases are placed back
+  into `categories`.
+- Expanded generated `taxonomy.json`:
+  - `hashtags`: `209` terms.
+  - `categories`: `24` terms.
+  - `people`: `5` terms.
+  - `locations`: `2` terms.
+- Current generated people terms:
+  - `Grandma`
+  - `Grandpa`
+  - `Natalie`
+  - `Nathan`
+  - `Sarah`
+- Current generated location terms:
+  - `Cair Paravel`
+  - `Crown Center`
+- Documented the planned media manifest in `docs/media-manifest.md`.
+- Media manifest intent:
+  - replace `_gallery/*.md` as the long-term media index.
+  - store canonical media IDs shaped as `yyyy/mm/dd/filename.ext`.
+  - own raw/thumb/poster URLs, file metadata, captions, alt text, people,
+    locations, usage relationships, and legacy import details.
+  - let posts, stories, and galleries reference media IDs instead of carrying
+    storage details directly.
+- First implementation target:
+  - `public/content/media/index.json`
+  - `dist/content/media/index.json`
+- Migration path:
+  - generate the first media manifest from `_gallery`.
+  - verify `images/index.json` is identical or intentionally changed.
+  - switch the content compiler to read manifest-backed media.
+  - keep `_gallery` temporarily as backup.
+  - remove `_gallery` once the React/API site runs cleanly without it.
+- Verification:
+  - `npm run entities:normalize` reports zero pending changes.
+  - `npm run taxonomy:normalize` reports zero pending changes.
+  - `npm run content:validate` passed with `0` errors and `0` warnings.
+  - `npm run build` passed and generated `1,109` entries, `305` galleries, and
+    `8,526` images.
+  - `npm run api:build` passed.

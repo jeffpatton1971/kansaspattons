@@ -9,11 +9,12 @@ source:
   type: wordpress
   id: "400"
   url: "https://jeffspatton.wordpress.com/2013/04/28/april-28-2013/"
-categories:
-  - "Cair Paravel"
-  - Natalie
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
+locations:
+  - "Cair Paravel"
 summary: "10 images related to The Labrynth."
 gallery: wordpress-2013-04-28-220350-april-28-2013
 cover_image: "2013/04/28/wp_20130428_001.jpg"

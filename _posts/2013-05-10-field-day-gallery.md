@@ -10,7 +10,6 @@ source:
   id: "441"
   url: "https://jeffspatton.wordpress.com/2013/05/10/may-10-2013-2/"
 categories:
-  - "Cair Paravel"
   - Family
   - "Field Day"
 authors:
@@ -60,5 +59,7 @@ related:
 published: true
 status: published
 comments: false
+locations:
+  - "Cair Paravel"
 ---
 Photos related to Field Day.

@@ -9,10 +9,10 @@ source:
   type: instagram
   id: instagram-2023-04-01-160053-first-tennis-meet-for-nathan-at-jayhawk-tennis-center-with-lunch-at-biemers
   media_count: "7"
-categories:
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "7 images related to First tennis meet for Nathan at Jayhawk Tennis Center with lunch at Biemers after!."
 gallery: instagram-2023-04-01-160053-first-tennis-meet-for-nathan-at-jayhawk-tennis-center-with-lunch-at-biemers
 cover_image: "2023/04/01/17987885092806136.jpg"

@@ -10,10 +10,10 @@ source:
   id: instagram-2025-05-23-201611-nathan-s-8th-grade-graduation
   media_count: "6"
   cross_post_source: FB
-categories:
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "6 images related to Nathan’s 8th grade graduation."
 gallery: instagram-2025-05-23-201611-nathan-s-8th-grade-graduation
 cover_image: "2025/05/23/17873918301349085.jpg"

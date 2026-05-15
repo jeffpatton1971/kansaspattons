@@ -23,11 +23,10 @@ images:
 hashtags:
   - "vote"
 handles: []
-location:
-categories:
-  - "Natalie"
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "Took Natalie to her first Presidential #vote"
 ---
 Took Natalie to her first Presidential [#vote](https://www.instagram.com/explore/tags/vote/)

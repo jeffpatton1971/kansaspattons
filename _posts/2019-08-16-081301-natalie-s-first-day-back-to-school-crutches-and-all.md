@@ -24,11 +24,10 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Natalie"
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "Natalie’s first day back to school...crutches and all!"
 ---
 Natalie’s first day back to school...crutches and all!

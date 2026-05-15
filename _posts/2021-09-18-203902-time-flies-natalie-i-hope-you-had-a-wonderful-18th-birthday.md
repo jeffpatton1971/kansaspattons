@@ -21,12 +21,12 @@ related:
     id: instagram-2021-09-18-203902-time-flies-natalie-i-hope-you-had-a-wonderful-18th-birthday
     rel: photos
 handles: []
-location:
 categories:
   - Birthday
-  - Natalie
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "Time flies Natalie I hope you had a wonderful 18th birthday"
 ---
 Time flies Natalie I hope you had a wonderful 18th birthday

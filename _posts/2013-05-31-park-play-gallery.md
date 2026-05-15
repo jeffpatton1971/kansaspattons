@@ -12,10 +12,11 @@ source:
 categories:
   - Children
   - Family
-  - Natalie
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
+  - Nathan
 summary: "10 images related to Play At the Park."
 gallery: wordpress-2013-05-31-090152-may-31-2013
 cover_image: "2013/05/31/wp_20130531_006.jpg"

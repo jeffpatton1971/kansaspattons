@@ -10,10 +10,10 @@ source:
   id: instagram-2018-09-26-171831-natalie-placed-4th-today-at-the-tennis-meet-very-proud-of-her-and-how-well-she
   media_count: "5"
   cross_post_source: FB
-categories:
-  - Natalie
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "5 images related to Natalie placed 4th today at the tennis meet! Very proud of her and how well she played and...."
 gallery: instagram-2018-09-26-171831-natalie-placed-4th-today-at-the-tennis-meet-very-proud-of-her-and-how-well-she
 cover_image: "2018/09/26/17956810642189086.jpg"

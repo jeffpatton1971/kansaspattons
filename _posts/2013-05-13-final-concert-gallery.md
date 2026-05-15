@@ -10,11 +10,13 @@ source:
   id: "446"
   url: "https://jeffspatton.wordpress.com/2013/05/13/may-13-2013/"
 categories:
-  - "Cair Paravel"
   - Concerts
-  - Natalie
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
+locations:
+  - "Cair Paravel"
 summary: "10 images related to Final Concert."
 gallery: wordpress-2013-05-13-071852-may-13-2013
 cover_image: "2013/05/13/wp_20130513_001.jpg"

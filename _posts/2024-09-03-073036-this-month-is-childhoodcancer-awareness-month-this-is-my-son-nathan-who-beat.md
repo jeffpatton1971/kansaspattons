@@ -24,11 +24,10 @@ hashtags:
   - "childhoodcancer"
   - "hepatoblastoma"
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "This month is #childhoodcancer awareness month. This is my son Nathan who beat #hepatoblastoma 11yrs ago this month!  We think about all the children we met on our journey and not all of them were as lucky as he."
 ---
 This month is [#childhoodcancer](https://www.instagram.com/explore/tags/childhoodcancer/) awareness month. This is my son Nathan who beat [#hepatoblastoma](https://www.instagram.com/explore/tags/hepatoblastoma/) 11yrs ago this month!  We think about all the children we met on our journey and not all of them were as lucky as he.

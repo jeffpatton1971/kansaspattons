@@ -13,12 +13,14 @@ related:
     id: gallery-2009-10-28
     rel: photos
 categories:
-  - "Cair Paravel"
   - "Field Trips"
-  - Natalie
 author:     Jeff
 authors:
   - Jeff
+people:
+  - Natalie
+locations:
+  - "Cair Paravel"
 summary: "Today was the CPLS kindergarten field trip to Rees Fruit Farm. The farm is located right on Hwy 24 and is hard to miss. We left the school at 930a and I had my daughter and her friend Haven in the car. Let me tell you, I never knew two girl"
 comments:   false
 published:  true

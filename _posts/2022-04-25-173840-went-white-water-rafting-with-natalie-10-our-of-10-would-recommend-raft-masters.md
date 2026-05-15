@@ -22,11 +22,10 @@ images:
     alt:
 handles:
   - "raft_masters"
-location:
-categories:
-  - "Natalie"
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "Went white water rafting with Natalie. 10 our of 10 would recommend @raft_masters and 10 out of 10 would recommend staying IN THE BOAT! It’s a lot more fun that way…. Thanks for pulling me back in every time😂😂"
 ---
 Went white water rafting with Natalie. 10 our of 10 would recommend [@raft_masters](https://www.instagram.com/raft_masters/) and 10 out of 10 would recommend staying IN THE BOAT! It’s a lot more fun that way…. Thanks for pulling me back in every time😂😂

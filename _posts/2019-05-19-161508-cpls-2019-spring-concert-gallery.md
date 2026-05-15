@@ -11,7 +11,6 @@ source:
   media_count: "7"
   cross_post_source: FB
 categories:
-  - "Cair Paravel"
   - Spring
 authors:
   - "Jeff Patton"
@@ -48,5 +47,7 @@ related:
 published: true
 status: published
 comments: false
+locations:
+  - "Cair Paravel"
 ---
 Photos related to CPLS 2019 Spring Concert.

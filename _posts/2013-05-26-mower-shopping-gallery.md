@@ -11,9 +11,10 @@ source:
   url: "https://jeffspatton.wordpress.com/2013/05/26/may-26-2013/"
 categories:
   - Family
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "4 images related to Mower Shopping."
 gallery: wordpress-2013-05-26-085559-may-26-2013
 cover_image: "2013/05/26/wp_20130526_005.jpg"

@@ -24,12 +24,12 @@ images:
     caption:
     alt:
 handles: []
-location:
 categories:
   - Cancer
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Fun way to end Childhood Cancer Awareness month. Having a party at SkyZone with some of the friends we met while going through cancer with Nathan"
 ---
 Fun way to end Childhood Cancer Awareness month. Having a party at SkyZone with some of the friends we met while going through cancer with Nathan

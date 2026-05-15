@@ -27,11 +27,10 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "First game in the books, Nathan got hit by a pitch with the bases loaded for an RBI"
 ---
 First game in the books, Nathan got hit by a pitch with the bases loaded for an RBI

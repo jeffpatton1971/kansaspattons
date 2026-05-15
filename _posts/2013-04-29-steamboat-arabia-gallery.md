@@ -10,11 +10,13 @@ source:
   id: "402"
   url: "https://jeffspatton.wordpress.com/2013/04/29/april-29-2013/"
 categories:
-  - "Cair Paravel"
   - "Field Trips"
-  - Natalie
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
+locations:
+  - "Cair Paravel"
 summary: "42 images related to Steamboat Arabia."
 gallery: wordpress-2013-04-29-221344-april-29-2013
 cover_image: "2013/04/29/wp_20130429_001.jpg"

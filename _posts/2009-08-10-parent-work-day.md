@@ -7,8 +7,6 @@ post_id:         2009-08-10-parent-work-day
 date:       2009-08-10 09:02:00 -0600
 source:
   type: wordpress
-categories:
-  - "Cair Paravel"
 author:     Jeff
 authors:
   - Jeff
@@ -16,6 +14,8 @@ summary: "I had a jam packed weekend of fun let me tell you! Actually it wasn’
 comments:   false
 published:  true
 status: published
+locations:
+  - "Cair Paravel"
 ---
 I had a jam packed weekend of fun let me tell you! Actually it wasn’t too bad and I did wind up getting some sun out of it!
 

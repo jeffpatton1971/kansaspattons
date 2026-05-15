@@ -29,11 +29,10 @@ images:
 hashtags:
   - "baseballlife"
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Pre-season win! Nathan hit a double, got an RBI, scored and got an out playing second...big day for him! #baseballlife⚾️"
 ---
 Pre-season win! Nathan hit a double, got an RBI, scored and got an out playing second...big day for him! [#baseballlife](https://www.instagram.com/explore/tags/baseballlife/)⚾️

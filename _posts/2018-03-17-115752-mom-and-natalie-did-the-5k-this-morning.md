@@ -21,11 +21,10 @@ related:
     id: instagram-2018-03-17-115752-mom-and-natalie-did-the-5k-this-morning
     rel: photos
 handles: []
-location:
-categories:
-  - "Natalie"
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "Mom and Natalie did the 5k this morning"
 ---
 Mom and Natalie did the 5k this morning

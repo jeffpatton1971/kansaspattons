@@ -10,10 +10,10 @@ source:
   id: instagram-2024-04-08-140445-had-fun-with-natalie-today-watching-the-eclipse2024-over-kansas-we-had-fun
   media_count: "6"
   cross_post_source: FB
-categories:
-  - Natalie
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "6 images related to Had fun with Natalie today watching the #eclipse2024 over #kansas. We had fun making a pin...."
 hashtags:
   - eclipse2024

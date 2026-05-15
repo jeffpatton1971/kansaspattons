@@ -21,11 +21,10 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Grandpa"
 authors:
   - "Jeff Patton"
+people:
+  - Grandpa
 summary: "Happy Fathers Day Grandpa. During my growing up you were like a father to me, and I just want you to know I love you"
 ---
 Happy Fathers Day Grandpa. During my growing up you were like a father to me, and I just want you to know I love you

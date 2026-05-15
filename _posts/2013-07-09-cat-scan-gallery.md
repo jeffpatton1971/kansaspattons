@@ -11,9 +11,10 @@ source:
   url: "https://jeffspatton.wordpress.com/2013/07/09/july-9-2013/"
 categories:
   - Cancer
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "5 images related to Cat Scan."
 gallery: wordpress-2013-07-09-074017-july-9-2013
 cover_image: "2013/07/09/wp_20130709_001.jpg"

@@ -24,11 +24,10 @@ hashtags:
   - "tennis"
 handles:
   - "natalie.15.2003"
-location:
-categories:
-  - "Natalie"
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "Watching #tennis today with @natalie.15.2003"
 ---
 Watching [#tennis](https://www.instagram.com/explore/tags/tennis/) today with [@natalie.15.2003](https://www.instagram.com/natalie.15.2003/)

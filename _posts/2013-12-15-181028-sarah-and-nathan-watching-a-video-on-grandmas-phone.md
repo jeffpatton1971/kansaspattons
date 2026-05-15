@@ -21,12 +21,11 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Nathan"
-  - "Sarah"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
+  - Sarah
 summary: "Sarah and Nathan watching a video on grandmas phone"
 ---
 Sarah and Nathan watching a video on grandmas phone

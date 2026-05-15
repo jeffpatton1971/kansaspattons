@@ -21,11 +21,10 @@ related:
     id: instagram-2025-01-25-231911-nathan-has-a-blast-tonight-at-the-8th-grade-ball
     rel: photos
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Nathan has a blast tonight at the 8th grade ball"
 ---
 Nathan has a blast tonight at the 8th grade ball

@@ -10,10 +10,11 @@ source:
   id: "1240"
   url: "https://jeffspatton.wordpress.com/2013/08/10/august-10-2013/"
 categories:
-  - Natalie
   - Tennis
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "14 images related to Tennis Tournament."
 gallery: wordpress-2013-08-10-165044-august-10-2013
 cover_image: "2013/08/10/wp_20130810_15_03_39_pro.jpg"

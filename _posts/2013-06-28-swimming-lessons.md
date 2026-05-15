@@ -17,10 +17,10 @@ related:
   - type: gallery
     id: wordpress-2013-06-28-083418-june-28-2013
     rel: photos
-categories:
-  - "Natalie"
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "Swimming lessons started up this week! I took my lunch break to take Natalie to her lessons today!"
 ---
 Swimming lessons started up this week! I took my lunch break to take Natalie to her lessons today!

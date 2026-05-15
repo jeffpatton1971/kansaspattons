@@ -73,7 +73,7 @@ type ContentMetadata = {
   authors: PersonRef[];
   people?: PersonRef[];
   hashtags: string[];
-  location?: LocationRef;
+  locations?: LocationRef[];
   coverMedia?: MediaRef;
   categories?: string[];
   related?: RelatedContentRef[];
@@ -121,11 +121,15 @@ validation, such as `brekfast` to `breakfast` and `tradtions` to `traditions`.
 decide whether we need curated site sections, but they should not be required
 for routing, search, or filtering yet.
 
-Current category cleanup keeps categories as proper nouns, names, seasons,
-holidays, and curated site buckets. Known aliases normalize spelling and
-readability variants such as `Birthdays` to `Birthday`, `Fourth Of July` to
-`July 4th`, `New Years Day` to `New Year`, and `CPLS` / `Cair Paravel Latin
-School` to `Cair Paravel`.
+Current category cleanup keeps categories as curated site buckets, seasons,
+holidays, and event concepts. Known aliases normalize spelling and readability
+variants such as `Birthdays` to `Birthday`, `Fourth Of July` to `July 4th`, and
+`New Years Day` to `New Year`.
+
+People and places should not remain in categories. Current entity cleanup moves
+`Nathan`, `Natalie`, `Sarah`, `Grandma`, and `Grandpa` into `people`, and moves
+`CPLS` / `Cair Paravel Latin School` / `Cair Paravel` and `Crown Center` into
+`locations`.
 
 ## Media References
 

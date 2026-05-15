@@ -10,10 +10,10 @@ source:
   id: instagram-2025-03-19-212409-nathan-turned-14-today-happybirthday
   media_count: "4"
   cross_post_source: FB
-categories:
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "4 images related to Nathan turned 14 today #happybirthday."
 hashtags:
   - happybirthday

@@ -21,11 +21,10 @@ related:
     id: instagram-2019-03-23-200428-putting-together-a-beyblade-arena-for-nathan
     rel: photos
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Putting together a beyblade arena for Nathan"
 ---
 Putting together a beyblade arena for Nathan

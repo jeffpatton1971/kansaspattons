@@ -9,11 +9,12 @@ source:
   type: wordpress
   id: "444"
   url: "https://jeffspatton.wordpress.com/2013/05/08/may-8-2013/"
-categories:
-  - "Cair Paravel"
-  - Natalie
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
+locations:
+  - "Cair Paravel"
 summary: "6 images related to Labrynth Project."
 gallery: wordpress-2013-05-08-081656-may-8-2013
 cover_image: "2013/05/08/wp_20130508_001.jpg"

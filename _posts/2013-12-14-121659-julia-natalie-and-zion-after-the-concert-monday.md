@@ -21,11 +21,10 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Natalie"
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "Julia, Natalie and Zion after the concert Monday"
 ---
 Julia, Natalie and Zion after the concert Monday

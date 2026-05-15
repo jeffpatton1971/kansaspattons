@@ -72,6 +72,8 @@ Published behavior changes and bug fixes for the React site migration.
 - Added a contract frontmatter migration script for moving old `article` compatibility values to the final `post` terminology.
 - Added a taxonomy normalization script for folding tags into hashtags, removing source/import labels from user-facing taxonomy, and normalizing category casing.
 - Added generated `taxonomy.json` output listing hashtags and categories with counts and related content items.
+- Added an entity normalization script for moving people and places out of categories into `people` and `locations` metadata.
+- Added media manifest documentation for replacing legacy one-file-per-image `_gallery` metadata with a generated media asset inventory.
 
 ### Changed
 
@@ -157,9 +159,13 @@ Published behavior changes and bug fixes for the React site migration.
 - Removed source/import values such as `wordpress`, `instagram`, `facebook`, `gallery`, and `album` from user-facing tags, hashtags, and categories.
 - Normalized category casing and duplicate category values across authored Markdown.
 - Removed raw source-type labels from post and story detail headers.
-- Merged category aliases for birthday, July 4th, New Year, Cair Paravel, and hyphenated school/event category variants.
+- Merged category aliases for birthday, July 4th, New Year, and hyphenated school/event category variants.
 - Enforced normalized hashtag formatting in content validation: lowercase, no leading `#`, and no spaces.
 - Added conservative hashtag typo aliases for obvious misspellings such as `brekfast`, `breakfsst`, `beeakfast`, `tradtions`, `happythanksgivng`, and similar one-off terms.
+- Moved person-like category values such as `Nathan`, `Natalie`, `Sarah`, `Grandma`, and `Grandpa` into `people` metadata.
+- Moved place-like category values such as `Cair Paravel` and `Crown Center` into `locations` metadata.
+- Changed generated taxonomy output to include `people` and `locations` term indexes alongside hashtags and categories.
+- Changed post, story, and gallery metadata rendering to show people and locations separately from categories.
 
 ### Fixed
 

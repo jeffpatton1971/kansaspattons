@@ -12,9 +12,10 @@ source:
 categories:
   - Birthday
   - Family
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "32 images related to Nathan's 2nd Birthday."
 gallery: wordpress-2013-03-19-102210-march-19-2013
 cover_image: "2013/03/19/wp_20130310_002.jpg"

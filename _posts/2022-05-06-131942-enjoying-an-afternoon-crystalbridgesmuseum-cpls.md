@@ -24,11 +24,10 @@ hashtags:
   - "cpls"
 handles:
   - "crystalbridgesmuseum"
-location:
-categories:
-  - "Cair Paravel"
 authors:
   - "Jeff Patton"
 summary: "Enjoying an afternoon @crystalbridgesmuseum #cpls"
+locations:
+  - "Cair Paravel"
 ---
 Enjoying an afternoon [@crystalbridgesmuseum](https://www.instagram.com/crystalbridgesmuseum/) [#cpls](https://www.instagram.com/explore/tags/cpls/)

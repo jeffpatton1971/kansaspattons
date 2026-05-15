@@ -22,11 +22,10 @@ images:
     alt:
 handles:
   - "cairparaveltopeka"
-location:
-categories:
-  - "Natalie"
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "Natalie’s last Silver Bells dance at @cairparaveltopeka"
 ---
 Natalie’s last Silver Bells dance at [@cairparaveltopeka](https://www.instagram.com/cairparaveltopeka/)

@@ -21,12 +21,12 @@ images:
     caption:
     alt:
 handles: []
-location:
 categories:
   - Cancer
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "When you’re the parent of a cancer survivor, all you want is for your kid to be a normal kid, but they aren’t. I don’t know of anyone who has survived something without scars. Nathan has several, perhaps the most noticeable are his hearing "
 ---
 When you’re the parent of a cancer survivor, all you want is for your kid to be a normal kid, but they aren’t. I don’t know of anyone who has survived something without scars. Nathan has several, perhaps the most noticeable are his hearing aids, but there are others you don’t see. Ask him sometime about the scar that goes left to right across his entire stomach, or the little scar above his chest. He has an appointment with the oncologist today to potentially learn about a new one, one you can’t see, neuropathy. It’s just another scar on this warrior.

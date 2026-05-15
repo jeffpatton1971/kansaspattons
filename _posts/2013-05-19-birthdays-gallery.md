@@ -12,10 +12,11 @@ source:
 categories:
   - Children
   - Family
-  - Natalie
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
+  - Nathan
 summary: "11 images related to Birthdays."
 gallery: wordpress-2013-05-19-074516-may-19-2013
 cover_image: "2013/05/19/wp_20130519_001.jpg"

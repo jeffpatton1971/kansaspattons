@@ -21,12 +21,12 @@ images:
     caption:
     alt:
 handles: []
-location:
 categories:
   - Birthday
-  - Natalie
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "Happy Birthday Natalie! You are my favorite 11yr old"
 ---
 Happy Birthday Natalie! You are my favorite 11yr old

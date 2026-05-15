@@ -12,9 +12,10 @@ source:
   cross_post_source: FB
 categories:
   - Birthday
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "10 images related to Building a BEYBLADE battle arena for Nathan’s 8th birthday party #beybladeburst #beybladeg...."
 hashtags:
   - beybladeburst

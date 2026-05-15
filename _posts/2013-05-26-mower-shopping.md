@@ -19,9 +19,10 @@ related:
     rel: photos
 categories:
   - Family
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Nathan helped me pick out a new mower since ours died. He had a lot of fun on the riding mowers, but we settled for a push mower."
 ---
 Nathan helped me pick out a new mower since ours died. He had a lot of fun on the riding mowers, but we settled for a push mower.

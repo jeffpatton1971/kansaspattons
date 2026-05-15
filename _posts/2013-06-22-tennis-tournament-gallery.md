@@ -11,11 +11,12 @@ source:
   url: "https://jeffspatton.wordpress.com/2013/06/22/june-22-2013/"
 categories:
   - Family
-  - Natalie
-  - Nathan
   - Tennis
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
+  - Nathan
 summary: "28 images related to Tennis Tournament."
 gallery: wordpress-2013-06-22-074704-june-22-2013
 cover_image: "2013/06/22/wp_20130622_004.jpg"

@@ -22,11 +22,10 @@ related:
     rel: photos
 handles:
   - "natalie.15.2003"
-location:
-categories:
-  - "Natalie"
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "Had an absolute wonderful time being @natalie.15.2003 chauffeur"
 ---
 Had an absolute wonderful time being [@natalie.15.2003](https://www.instagram.com/natalie.15.2003/) chauffeur

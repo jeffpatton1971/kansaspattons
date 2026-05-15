@@ -21,11 +21,10 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Hanging out with Nathan at the basketball game tonight"
 ---
 Hanging out with Nathan at the basketball game tonight

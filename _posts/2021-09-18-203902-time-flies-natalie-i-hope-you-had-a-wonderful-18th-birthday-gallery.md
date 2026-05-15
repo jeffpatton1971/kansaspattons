@@ -12,9 +12,10 @@ source:
   cross_post_source: FB
 categories:
   - Birthday
-  - Natalie
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "10 images related to Time flies Natalie I hope you had a wonderful 18th birthday."
 gallery: instagram-2021-09-18-203902-time-flies-natalie-i-hope-you-had-a-wonderful-18th-birthday
 cover_image: "2021/09/18/17883331664407452.jpg"

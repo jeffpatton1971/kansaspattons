@@ -10,10 +10,10 @@ source:
   id: instagram-2025-04-28-193242-nathan-went-3-for-3-at-tennis-today
   media_count: "4"
   cross_post_source: FB
-categories:
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "4 images related to Nathan went 3 for 3 at tennis today!."
 gallery: instagram-2025-04-28-193242-nathan-went-3-for-3-at-tennis-today
 cover_image: "2025/04/28/18083879158643132.jpg"

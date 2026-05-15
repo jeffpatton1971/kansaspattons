@@ -21,11 +21,10 @@ related:
     id: instagram-2025-05-23-201611-nathan-s-8th-grade-graduation
     rel: photos
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Nathan’s 8th grade graduation"
 ---
 Nathan’s 8th grade graduation

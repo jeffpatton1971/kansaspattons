@@ -8,11 +8,13 @@ date: 2009-10-28 09:55:00 -0600
 source:
   type: wordpress
 categories:
-  - "Cair Paravel"
   - "Field Trips"
-  - Natalie
 authors:
   - Jeff
+people:
+  - Natalie
+locations:
+  - "Cair Paravel"
 summary: "10 images related to Rees Fruit Farm Field Trip."
 gallery: gallery-2009-10-28
 cover_image: "2009/10/28/photo00412.jpg"

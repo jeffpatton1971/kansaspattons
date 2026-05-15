@@ -21,11 +21,10 @@ related:
     id: instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing
     rel: photos
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Had a fun evening at the kids campout...Nate really enjoyed the fishing"
 ---
 Had a fun evening at the kids campout...Nate really enjoyed the fishing

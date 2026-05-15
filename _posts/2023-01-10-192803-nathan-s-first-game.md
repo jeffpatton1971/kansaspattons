@@ -21,11 +21,10 @@ related:
     id: instagram-2023-01-10-192803-nathan-s-first-game
     rel: photos
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Nathan’s first game"
 ---
 Nathan’s first game

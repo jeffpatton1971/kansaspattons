@@ -21,11 +21,10 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Nathan trying to blow bubbles...they just don't make those like they used to"
 ---
 Nathan trying to blow bubbles...they just don't make those like they used to

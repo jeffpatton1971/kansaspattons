@@ -10,11 +10,12 @@ source:
   id: "666"
   url: "https://jeffspatton.wordpress.com/2013/06/07/june-7-2013-2/"
 categories:
-  - Natalie
-  - Nathan
   - Tennis
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
+  - Nathan
 summary: "6 images related to Tennis."
 gallery: wordpress-2013-06-07-145354-june-7-2013-2
 cover_image: "2013/06/07/wp_20130607_026.jpg"

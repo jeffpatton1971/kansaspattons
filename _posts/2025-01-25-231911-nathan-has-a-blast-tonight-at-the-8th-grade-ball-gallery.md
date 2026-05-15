@@ -10,10 +10,10 @@ source:
   id: instagram-2025-01-25-231911-nathan-has-a-blast-tonight-at-the-8th-grade-ball
   media_count: "10"
   cross_post_source: FB
-categories:
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "10 images related to Nathan has a blast tonight at the 8th grade ball."
 gallery: instagram-2025-01-25-231911-nathan-has-a-blast-tonight-at-the-8th-grade-ball
 cover_image: "2025/01/25/18355867117135977.jpg"

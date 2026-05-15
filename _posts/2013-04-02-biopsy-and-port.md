@@ -25,9 +25,10 @@ images:
     alt:
 categories:
   - Cancer
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Monday morning he went under sedation and had a biopsy of his tumor done, and a port installed for the chemo. The port is just under his skin so there is nothing hanging out, which is good. Nathan’s tumor is what they called pure fetal hist"
 ---
 Monday morning he went under sedation and had a biopsy of his tumor done, and a port installed for the chemo. The port is just under his skin so there is nothing hanging out, which is good.

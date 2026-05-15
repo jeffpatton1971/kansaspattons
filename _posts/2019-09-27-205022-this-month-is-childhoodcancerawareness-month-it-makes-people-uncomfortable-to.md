@@ -26,13 +26,13 @@ hashtags:
   - "negu"
 handles:
   - "kumedcenter"
-location:
 categories:
   - Birthday
   - Cancer
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "This month is #childhoodcancerawareness month. It makes people uncomfortable to think about children having to go through painful medications, treatments and surgeries. Some of these treatments go on for years, some for only a few months. S"
 ---
 This month is [#childhoodcancerawareness](https://www.instagram.com/explore/tags/childhoodcancerawareness/) month. It makes people uncomfortable to think about children having to go through painful medications, treatments and surgeries. Some of these treatments go on for years, some for only a few months. Some kids, like my son Nathan are extremely fortunate and some kids are not. Nathan was diagnosed with [#hepatoblastoma](https://www.instagram.com/explore/tags/hepatoblastoma/) shortly after his second birthday and was in treatment from March until his resection at [@kumedcenter](https://www.instagram.com/kumedcenter/) in July. Today Nathan is 6yrs cancer free and we are so grateful for the doctors and friends and family who were with us on the journey. [#negu](https://www.instagram.com/explore/tags/negu/)

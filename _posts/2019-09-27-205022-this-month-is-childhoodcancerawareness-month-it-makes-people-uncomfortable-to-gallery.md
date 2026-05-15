@@ -13,9 +13,10 @@ source:
 categories:
   - Birthday
   - Cancer
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "9 images related to This month is #childhoodcancerawareness month. It makes people uncomfortable to think abou...."
 hashtags:
   - childhoodcancerawareness

@@ -21,12 +21,11 @@ related:
     id: instagram-2019-08-15-082913-first-day-of-third-grade-for-nate-sadly-natalie-is-laid-up-and-will-have-her
     rel: photos
 handles: []
-location:
-categories:
-  - "Natalie"
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
+  - Nathan
 summary: "First day of third grade for Nate! Sadly Natalie is laid up and will have her first day tomorrow!"
 ---
 First day of third grade for Nate! Sadly Natalie is laid up and will have her first day tomorrow!

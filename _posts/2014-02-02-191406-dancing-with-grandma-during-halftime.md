@@ -21,11 +21,10 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Grandma"
 authors:
   - "Jeff Patton"
+people:
+  - Grandma
 summary: "Dancing with Grandma during halftime"
 ---
 Dancing with Grandma during halftime

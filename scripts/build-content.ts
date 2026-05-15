@@ -90,6 +90,7 @@ type PostSummary = DateParts & {
   route: string;
   legacyUrl: string;
   authors: string[];
+  people: string[];
   summary: string;
   excerpt: string;
   categories: string[];
@@ -97,6 +98,7 @@ type PostSummary = DateParts & {
   hashtags: string[];
   handles: string[];
   location?: string;
+  locations: string[];
   sourceType?: string;
   source?: EntrySource;
   galleryIds: string[];
@@ -146,9 +148,11 @@ type GallerySummary = DateParts & {
   route: string;
   legacyUrl?: string;
   authors: string[];
+  people: string[];
   summary: string;
   categories: string[];
   tags: string[];
+  locations: string[];
   sourceType?: string;
   source?: EntrySource;
   imageIds: string[];
@@ -180,9 +184,11 @@ type GallerySource = DateParts & {
   route: string;
   legacyUrl: string;
   authors: string[];
+  people: string[];
   summary: string;
   categories: string[];
   tags: string[];
+  locations: string[];
   sourceType?: string;
   source?: EntrySource;
   galleryId: string;
@@ -359,9 +365,11 @@ async function buildPosts() {
         route: `/galleries/${parts.year}/${parts.month}/${parts.day}/${gallerySlug}`,
         legacyUrl: `/blog/${parts.year}/${parts.month}/${parts.day}/${filenameSlug}.html`,
         authors: authors(parsed.data),
+        people: stringArray(parsed.data.people),
         summary: summary || `${title} gallery`,
         categories: stringArray(parsed.data.categories),
         tags: stringArray(parsed.data.tags),
+        locations: locations(parsed.data),
         sourceType: source.type,
         source: Object.keys(source).length > 0 ? source : undefined,
         galleryId,
@@ -392,13 +400,15 @@ async function buildPosts() {
       route,
       legacyUrl,
       authors: authors(parsed.data),
+      people: stringArray(parsed.data.people),
       summary,
       excerpt,
       categories: stringArray(parsed.data.categories),
       tags: stringArray(parsed.data.tags),
       hashtags: stringArray(parsed.data.hashtags),
       handles: stringArray(parsed.data.handles),
-      location: locationText(parsed.data.location),
+      location: locations(parsed.data)[0],
+      locations: locations(parsed.data),
       sourceType: source.type,
       source: Object.keys(source).length > 0 ? source : undefined,
       galleryIds,
@@ -612,9 +622,11 @@ async function buildGalleries(posts: PostDocument[], images: ImageSummary[], gal
       route,
       legacyUrl: gallerySource?.legacyUrl || primaryPost?.legacyUrl,
       authors: gallerySource?.authors ?? primaryPost?.authors ?? [],
+      people: gallerySource?.people ?? primaryPost?.people ?? [],
       summary,
       categories: gallerySource?.categories ?? primaryPost?.categories ?? [],
       tags: gallerySource?.tags ?? primaryPost?.tags ?? [],
+      locations: gallerySource?.locations ?? primaryPost?.locations ?? [],
       sourceType: gallerySource?.sourceType || primaryPost?.sourceType || galleryImages[0]?.source,
       source,
       imageIds: galleryImages.map((image) => image.id),
@@ -745,6 +757,8 @@ function archiveSourceCounts(
 function buildTaxonomy(entries: PostSummary[], galleries: GallerySummary[]) {
   const hashtags = new Map<string, TaxonomyTerm>();
   const categories = new Map<string, TaxonomyTerm>();
+  const people = new Map<string, TaxonomyTerm>();
+  const locations = new Map<string, TaxonomyTerm>();
 
   for (const entry of entries) {
     const ref = taxonomyRef(entry);
@@ -766,6 +780,24 @@ function buildTaxonomy(entries: PostSummary[], galleries: GallerySummary[]) {
         ref,
       });
     }
+
+    for (const person of entry.people) {
+      addTaxonomyTerm(people, {
+        value: person,
+        label: person,
+        hrefBase: '/people',
+        ref,
+      });
+    }
+
+    for (const location of entry.locations) {
+      addTaxonomyTerm(locations, {
+        value: location,
+        label: location,
+        hrefBase: '/locations',
+        ref,
+      });
+    }
   }
 
   for (const gallery of galleries) {
@@ -779,12 +811,32 @@ function buildTaxonomy(entries: PostSummary[], galleries: GallerySummary[]) {
         ref,
       });
     }
+
+    for (const person of gallery.people) {
+      addTaxonomyTerm(people, {
+        value: person,
+        label: person,
+        hrefBase: '/people',
+        ref,
+      });
+    }
+
+    for (const location of gallery.locations) {
+      addTaxonomyTerm(locations, {
+        value: location,
+        label: location,
+        hrefBase: '/locations',
+        ref,
+      });
+    }
   }
 
   return {
     generatedAt: new Date().toISOString(),
     hashtags: sortedTaxonomyTerms(hashtags),
     categories: sortedTaxonomyTerms(categories),
+    people: sortedTaxonomyTerms(people),
+    locations: sortedTaxonomyTerms(locations),
   };
 }
 
@@ -1327,17 +1379,36 @@ function stringArray(value: unknown) {
   return value.map((item) => textValue(item)).filter(Boolean);
 }
 
+function uniqueStrings(values: string[]) {
+  return [...new Map(values.map((value) => [value.trim().toLowerCase(), value.trim()])).values()].filter(Boolean);
+}
+
+function locations(data: Frontmatter) {
+  const values = [...stringArray(data.locations)];
+  const legacy = locationText(data.location);
+
+  if (legacy) {
+    values.push(legacy);
+  }
+
+  return uniqueStrings(values);
+}
+
 function locationText(value: unknown) {
   if (!value) {
-    return undefined;
+    return '';
+  }
+
+  if (Array.isArray(value)) {
+    return textValue(value[0]);
   }
 
   if (typeof value === 'object' && !(value instanceof Date)) {
     const data = value as Frontmatter;
-    return textValue(data.name) || textValue(data.title) || textValue(data.location) || undefined;
+    return textValue(data.name) || textValue(data.title) || textValue(data.location);
   }
 
-  return textValue(value) || undefined;
+  return textValue(value);
 }
 
 function numberValue(value: unknown) {

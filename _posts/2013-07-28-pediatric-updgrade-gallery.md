@@ -11,9 +11,10 @@ source:
   url: "https://jeffspatton.wordpress.com/2013/07/28/july-28-2013/"
 categories:
   - Cancer
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "7 images related to Pediatric Upgrade."
 gallery: wordpress-2013-07-28-111133-july-28-2013
 cover_image: "2013/07/28/wp_20130728_002.jpg"

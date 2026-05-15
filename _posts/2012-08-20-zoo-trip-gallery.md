@@ -10,12 +10,13 @@ source:
   id: "842"
   url: "https://jeffspatton.wordpress.com/2012/08/20/august-20-2012/"
 categories:
-  - Natalie
-  - Nathan
   - Summer
   - Zoo
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
+  - Nathan
 summary: "17 images related to Zoo Trip."
 gallery: wordpress-2012-08-20-232800-august-20-2012
 cover_image: "2012/08/20/wp_000206-23.jpg"

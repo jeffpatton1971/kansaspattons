@@ -21,11 +21,10 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Grandpa"
 authors:
   - "Jeff Patton"
+people:
+  - Grandpa
 summary: "Great Grandpa with Great Grandson"
 ---
 Great Grandpa with Great Grandson

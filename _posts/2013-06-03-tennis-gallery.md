@@ -9,10 +9,10 @@ source:
   type: wordpress
   id: "620"
   url: "https://jeffspatton.wordpress.com/2013/06/03/june-3-2013-2/"
-categories:
-  - Natalie
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
 summary: "6 images related to June 3, 2013."
 gallery: wordpress-2013-06-03-094750-june-3-2013-2
 cover_image: "2013/06/03/wp_20130603_010.jpg"

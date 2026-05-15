@@ -21,11 +21,10 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Grandpa"
 authors:
   - "Jeff Patton"
+people:
+  - Grandpa
 summary: "Thanks for your service grandpa"
 ---
 Thanks for your service grandpa

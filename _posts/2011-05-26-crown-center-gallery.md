@@ -10,13 +10,15 @@ source:
   id: "844"
   url: "https://jeffspatton.wordpress.com/2011/05/26/may-26-2011/"
 categories:
-  - "Cair Paravel"
-  - "Crown Center"
   - "Field Trips"
   - "First Grade"
-  - Natalie
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
+locations:
+  - "Cair Paravel"
+  - "Crown Center"
 summary: "24 images related to Crown Center."
 gallery: wordpress-2011-05-26-200700-may-26-2011
 cover_image: "2011/05/26/imagecax892742.jpg"

@@ -10,10 +10,10 @@ source:
   id: instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing
   media_count: "9"
   cross_post_source: FB
-categories:
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "9 images related to Had a fun evening at the kids campout...Nate really enjoyed the fishing."
 gallery: instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing
 cover_image: "2018/06/24/17955488428001740.jpg"

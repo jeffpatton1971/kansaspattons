@@ -19,9 +19,10 @@ related:
     rel: photos
 categories:
   - Cancer
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Nathan took another trip to the playroom today, Jim and Ramona got to see him up and playing around. Each day he seems to get more and more energy, so it’s awesome to see him getting around so well. He really enjoys playing the blocks, the "
 ---
 Nathan took another trip to the playroom today, Jim and Ramona got to see him up and playing around. Each day he seems to get more and more energy, so it’s awesome to see him getting around so well. He really enjoys playing the blocks, the trains and dinosaurs.

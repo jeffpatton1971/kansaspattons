@@ -12,10 +12,11 @@ source:
 categories:
   - Family
   - Holidays
-  - Nathan
   - Thanksgiving
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "21 images related to Jonyce and Paul and a new name."
 gallery: wordpress-2010-11-29-175900-november-29-2011
 cover_image: "2010/11/29/20101129-wp_000008a2.jpg"

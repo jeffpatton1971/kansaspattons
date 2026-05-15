@@ -10,8 +10,6 @@ source:
   id: instagram-2022-05-06-131942-enjoying-an-afternoon-crystalbridgesmuseum-cpls
   media_count: "6"
   cross_post_source: FB
-categories:
-  - "Cair Paravel"
 authors:
   - "Jeff Patton"
 summary: "6 images related to Enjoying an afternoon @crystalbridgesmuseum #cpls."
@@ -46,5 +44,7 @@ related:
 published: true
 status: published
 comments: false
+locations:
+  - "Cair Paravel"
 ---
 Photos related to Enjoying an afternoon @crystalbridgesmuseum #cpls.

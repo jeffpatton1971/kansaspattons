@@ -20,10 +20,11 @@ related:
 categories:
   - Family
   - Holidays
-  - Nathan
   - Thanksgiving
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "November has been a pretty wild month around here! My sister arrived from Chicago with her daughter Mary, with her husband to follow a few days later. My sister and Mary spent a week with us, time certainly flew. A baby shower for Malia and"
 ---
 November has been a pretty wild month around here! My sister arrived from Chicago with her daughter Mary, with her husband to follow a few days later. My sister and Mary spent a week with us, time certainly flew. A baby shower for Malia and my sister both. Obviously Thanksgiving, 20 people, two turkeys lots of fun! Bratwurst, sausages, hot dogs, pool, and a gun-range, how is that not an interesting combination! Put together the baby’s room with Paul’s help.

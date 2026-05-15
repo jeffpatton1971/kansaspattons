@@ -9,10 +9,10 @@ source:
   type: wordpress
   id: "726"
   url: "https://jeffspatton.wordpress.com/2013/06/23/june-23-2013/"
-categories:
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "7 images related to Nate Nat's Car."
 gallery: wordpress-2013-06-23-080636-june-23-2013
 cover_image: "2013/06/23/wp_20130623_005.jpg"

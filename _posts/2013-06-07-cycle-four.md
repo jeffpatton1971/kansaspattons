@@ -19,9 +19,10 @@ related:
     rel: photos
 categories:
   - Cancer
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Nathan had his final chemo session for this round today and Natalie went with us. This is the first time that Natalie has joined us during one of his treatments, she was a little nervous about what it would be like, but she got through it j"
 ---
 Nathan had his final chemo session for this round today and Natalie went with us. This is the first time that Natalie has joined us during one of his treatments, she was a little nervous about what it would be like, but she got through it just fine. She was worried there would be shots and things but it’s really super quick, and the nurse is very good.

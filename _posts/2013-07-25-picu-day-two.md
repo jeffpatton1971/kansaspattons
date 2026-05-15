@@ -19,9 +19,10 @@ related:
     rel: photos
 categories:
   - Cancer
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Another long night, Malia and I have taken to sleeping in shifts. Malia get’s the “bed” until about 3 and then switches to the rocking chair until morning. He’s still got a fever and the PICU doc and the surgeon are having a bit of a turf w"
 ---
 Another long night, Malia and I have taken to sleeping in shifts. Malia get’s the “bed” until about 3 and then switches to the rocking chair until morning. He’s still got a fever and the PICU doc and the surgeon are having a bit of a turf war over giving him blood.

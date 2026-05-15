@@ -10,10 +10,10 @@ source:
   id: instagram-2023-01-10-192803-nathan-s-first-game
   media_count: "10"
   cross_post_source: FB
-categories:
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "10 images related to Nathan’s first game."
 gallery: instagram-2023-01-10-192803-nathan-s-first-game
 cover_image: "2023/01/10/17946060413521953.jpg"

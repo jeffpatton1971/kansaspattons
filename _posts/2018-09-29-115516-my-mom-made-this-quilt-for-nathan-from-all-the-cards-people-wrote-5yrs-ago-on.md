@@ -21,11 +21,10 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "My mom made this quilt for Nathan from all the cards people wrote 5yrs ago on his end of treatment party!"
 ---
 My mom made this quilt for Nathan from all the cards people wrote 5yrs ago on his end of treatment party!

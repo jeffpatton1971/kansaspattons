@@ -21,12 +21,11 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Natalie"
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
+  - Nathan
 summary: "Natalie and Nathan watching a show"
 ---
 Natalie and Nathan watching a show

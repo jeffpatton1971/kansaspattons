@@ -21,11 +21,10 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Nathan having ice cream at Red Robin...yummm"
 ---
 Nathan having ice cream at Red Robin...yummm

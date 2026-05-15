@@ -10,10 +10,10 @@ source:
   id: instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a
   media_count: "13"
   cross_post_source: FB
-categories:
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "13 images related to Had a great time with Nathan in Colonial Williamsburg today rounded off with a pirate tria...."
 gallery: instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a
 cover_image: "2025/04/24/18073953901858176.jpg"

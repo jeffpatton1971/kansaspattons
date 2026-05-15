@@ -26,11 +26,10 @@ images:
 hashtags:
   - "lawrence"
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Nathan won both sets of doubles today so took him out for dinner. Of all the great places to eat in #lawrence were at Freddy’s! 😂🤷‍♂️🤦‍♂️"
 ---
 Nathan won both sets of doubles today so took him out for dinner. Of all the great places to eat in [#lawrence](https://www.instagram.com/explore/tags/lawrence/) were at Freddy’s! 😂🤷‍♂️🤦‍♂️

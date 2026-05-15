@@ -20,9 +20,10 @@ related:
 categories:
   - Birthday
   - Family
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Nathan’s birthday! For whatever reason we tend to spread birthdays out over a few days, this year we had a family birthday about a week beforehand, and then one at T Rex Café and then one on his actual birthday! So I’ll add the pictures I h"
 ---
 Nathan’s birthday! For whatever reason we tend to spread birthdays out over a few days, this year we had a family birthday about a week beforehand, and then one at T-Rex Café and then one on his actual birthday! So I’ll add the pictures I have for all of them here

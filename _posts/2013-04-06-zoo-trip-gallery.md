@@ -10,10 +10,11 @@ source:
   id: "42"
   url: "https://jeffspatton.wordpress.com/2013/04/06/april-6-2013-2/"
 categories:
-  - Nathan
   - Zoo
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "12 images related to Zoo Trip."
 gallery: wordpress-2013-04-06-114913-april-6-2013-2
 cover_image: "2013/04/06/wp_20130406_001.jpg"

@@ -12,10 +12,11 @@ source:
 categories:
   - Children
   - Family
-  - Natalie
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
+  - Nathan
 summary: "21 images related to Put-Put."
 gallery: wordpress-2013-05-22-075503-may-22-2013
 cover_image: "2013/05/22/img_3416.jpg"

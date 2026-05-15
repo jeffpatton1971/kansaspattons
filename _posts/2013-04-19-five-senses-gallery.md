@@ -9,11 +9,12 @@ source:
   type: wordpress
   id: "221"
   url: "https://jeffspatton.wordpress.com/2013/04/19/april-19-2013/"
-categories:
-  - "Cair Paravel"
-  - Natalie
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
+locations:
+  - "Cair Paravel"
 summary: "13 images related to Five Senses."
 gallery: wordpress-2013-04-19-171526-april-19-2013
 cover_image: "2013/04/19/wp_20130419_001.jpg"

@@ -10,10 +10,10 @@ source:
   id: instagram-2019-11-15-211849-nathan-s-class-visited-farpoint-tonight-we-got-to-see-the-milky-way-and-all-the
   media_count: "4"
   cross_post_source: FB
-categories:
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "4 images related to Nathan’s class visited Farpoint tonight, we got to see the Milky Way and all the stars he’...."
 gallery: instagram-2019-11-15-211849-nathan-s-class-visited-farpoint-tonight-we-got-to-see-the-milky-way-and-all-the
 cover_image: "2019/11/15/18113890117056130.jpg"

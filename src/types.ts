@@ -89,6 +89,7 @@ export type PostSummary = {
   route: string;
   legacyUrl: string;
   authors?: string[];
+  people?: string[];
   summary?: string;
   excerpt: string;
   categories: string[];
@@ -96,6 +97,7 @@ export type PostSummary = {
   hashtags: string[];
   handles: string[];
   location?: string;
+  locations?: string[];
   sourceType?: string;
   source?: EntrySource;
   galleryIds: string[];
@@ -158,9 +160,11 @@ export type GallerySummary = {
   route: string;
   legacyUrl?: string;
   authors?: string[];
+  people?: string[];
   summary?: string;
   categories: string[];
   tags: string[];
+  locations?: string[];
   sourceType?: string;
   source?: EntrySource;
   imageIds: string[];

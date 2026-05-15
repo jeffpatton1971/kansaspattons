@@ -19,9 +19,10 @@ related:
     rel: photos
 categories:
   - Cancer
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Today was another big day, he got moving maybe a littler earlier than he should have and fell asleep in the playroom. We got dressed in Pj’s today and tried out some food, it’s been a while. Finally another walk around the floor and visitin"
 ---
 Today was another big day, he got moving maybe a littler earlier than he should have and fell asleep in the playroom. We got dressed in Pj’s today and tried out some food, it’s been a while. Finally another walk around the floor and visiting the playroom.

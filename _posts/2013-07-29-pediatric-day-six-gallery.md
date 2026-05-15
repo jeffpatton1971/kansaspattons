@@ -11,9 +11,10 @@ source:
   url: "https://jeffspatton.wordpress.com/2013/07/29/july-29-2013/"
 categories:
   - Cancer
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "9 images related to Pediatric Day 6."
 gallery: wordpress-2013-07-29-111851-july-29-2013
 cover_image: "2013/07/29/wp_20130729_001.jpg"

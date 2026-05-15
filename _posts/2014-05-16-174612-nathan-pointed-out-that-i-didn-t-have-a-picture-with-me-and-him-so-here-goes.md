@@ -21,11 +21,10 @@ images:
     caption:
     alt:
 handles: []
-location:
-categories:
-  - "Nathan"
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "Nathan pointed out that I didn't have a picture with me and him, so here goes."
 ---
 Nathan pointed out that I didn't have a picture with me and him, so here goes.

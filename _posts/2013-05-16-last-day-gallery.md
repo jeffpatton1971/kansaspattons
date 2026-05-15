@@ -10,11 +10,13 @@ source:
   id: "464"
   url: "https://jeffspatton.wordpress.com/2013/05/16/may-16-2013/"
 categories:
-  - "Cair Paravel"
   - "Last Day"
-  - Natalie
 authors:
   - "Jeff Patton"
+people:
+  - Natalie
+locations:
+  - "Cair Paravel"
 summary: "39 images related to Last Day of 3rd Grade."
 gallery: wordpress-2013-05-16-074218-may-16-2013
 cover_image: "2013/05/16/wp_20130516_003.jpg"

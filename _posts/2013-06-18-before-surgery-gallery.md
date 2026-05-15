@@ -11,9 +11,10 @@ source:
   url: "https://jeffspatton.wordpress.com/2013/06/18/june-18-2013/"
 categories:
   - Cancer
-  - Nathan
 authors:
   - "Jeff Patton"
+people:
+  - Nathan
 summary: "8 images related to Last Round Before Surgery."
 gallery: wordpress-2013-06-18-071955-june-18-2013
 cover_image: "2013/06/18/wp_20130618_002.jpg"

@@ -13,9 +13,11 @@ Status: documented target shape with an initial validator.
 - Fold topical `tags` into `hashtags`. Initial migration is complete; `tags`
   should not be reintroduced.
 - Keep `categories` provisional until a real site-section taxonomy is needed.
+- Keep people and places out of categories; generated content now carries
+  `people` and `locations` metadata.
 - Treat import `source` data as optional legacy metadata.
-- Generate `taxonomy.json` so category and hashtag lists can be reviewed as
-  data instead of pulled from ad hoc scripts.
+- Generate `taxonomy.json` so hashtag, category, people, and location lists can
+  be reviewed as data instead of pulled from ad hoc scripts.
 
 Next work:
 
@@ -49,6 +51,8 @@ Status: generated image IDs and content references are canonicalized, but
 
 Next work:
 
+- Generate the first media manifest described in
+  [`media-manifest.md`](media-manifest.md).
 - Generate media indexes without requiring one Markdown file per image.
 - Move needed captions, alt text, dates, and legacy data into generated media
   assets or source manifests.
