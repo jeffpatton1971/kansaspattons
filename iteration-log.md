@@ -819,6 +819,25 @@ Detailed working notes for the React migration live here. This file is intention
   - Follow-up `npm run build` passed with the story detail grid re-anchoring.
   - Follow-up `npm run build` passed with the shared post/story detail shell.
 
+### Image Storage Migration Manifest
+
+- Agreed on the target canonical asset layout:
+  - `https://{account}.blob.core.windows.net/{siteId}/images/{year}/{month}/{day}/{filename}`
+  - `https://{account}.blob.core.windows.net/{siteId}/thumbs/{year}/{month}/{day}/{filename}`
+- Added `scripts/image-storage-migration-manifest.ts`.
+- Added npm commands:
+  - `npm run assets:manifest` for dry-run summary output.
+  - `npm run assets:manifest:write` to write the full JSON plan to `.tmp/image-storage-migration-manifest.json`.
+- Added `docs/image-storage-migration.md`.
+- Updated content-model docs to describe canonical computed image URLs.
+- Manifest verification:
+  - Scanned `8,528` image metadata records.
+  - Planned `17,056` copy operations: one raw image and one thumbnail per image.
+  - Found `0` target path collisions.
+  - Found `0` case-insensitive target path collisions.
+  - Wrote the ignored `.tmp/image-storage-migration-manifest.json` manifest.
+  - `npm run build` passed and generated `1,109` entries, `305` galleries, and `8,528` images.
+
 ### Post And Story Card Shapes
 
 - Started making the two content shapes visually distinct.

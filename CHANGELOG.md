@@ -61,6 +61,8 @@ Published behavior changes and bug fixes for the React site migration.
 - Added a repeatable gallery relationship migration script with dry-run validation and an explicit write command.
 - Added focused, non-clickable story image carousel controls for story detail pages.
 - Added a gallery peek carousel that shows the selected image with previous/next images angled beside it.
+- Added an image storage migration manifest script for planning canonical raw/thumb blob paths.
+- Added image storage migration documentation for the shared storage-account, site-container asset layout.
 
 ### Changed
 

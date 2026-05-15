@@ -233,6 +233,15 @@ Facebook album imports are treated as galleries by default. Facebook's catch-all
 
 Images are reusable assets.
 
+Canonical image URLs should be derived from the site asset base and image date parts:
+
+```text
+{assetBaseUrl}/{siteId}/images/{year}/{month}/{day}/{filename}
+{assetBaseUrl}/{siteId}/thumbs/{year}/{month}/{day}/{filename}
+```
+
+For the current Azure Blob layout, `{siteId}` is the blob container name. Existing `raw_url` and `thumb_url` frontmatter can remain during migration, but new compiler code should prefer computed canonical URLs once the blobs have been copied.
+
 ```ts
 type ImageAsset = {
   siteKey: string;
