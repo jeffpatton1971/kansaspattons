@@ -138,6 +138,8 @@ Published behavior changes and bug fixes for the React site migration.
 - Removed archive heading reset buttons from post, story, gallery, and image archive pages.
 - Removed item counts from post, story, and gallery archive titles.
 - Changed image archive group browsing to show one grouped tile per page.
+- Removed image archive breadcrumb links from image browsing and selected image views.
+- Changed selected image page titles to show only the image date instead of date plus daily image count.
 
 ### Fixed
 

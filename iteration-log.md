@@ -1050,6 +1050,18 @@ Detailed working notes for the React migration live here. This file is intention
   - `npm run build` passed.
   - Local Vite smoke checks returned `200` for `/`, `/posts`, `/stories`, `/galleries`, and `/images?page=2`.
 
+### Image Detail Cleanup
+
+- Removed the image breadcrumb strip from image archive and selected image views.
+- Selected image page titles now render only the selected image date.
+- Day-level image archive pages still include the daily image count in the title because those pages show a day collection rather than one selected image.
+- Verification:
+  - `npm run build` passed.
+  - Confirmed no remaining `ImageBreadcrumb` or `.image-breadcrumb` references in `src`.
+  - Local Vite smoke checks returned `200` for:
+    - `/images/2026/04/16`
+    - `/images/2026/04/16/instagram-2026-04-16-194804-better-late-than-never-01`
+
 ### Detail Page Archive Shell And Story Metadata
 
 - Updated individual post and story detail pages to use the shared archive shell:

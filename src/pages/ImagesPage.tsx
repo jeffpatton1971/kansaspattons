@@ -78,8 +78,6 @@ export function ImagesPage() {
           </div>
         </div>
 
-        {params.year && !selectedImage ? <ImageBreadcrumb params={params} /> : null}
-
         {!shouldShowImages && !shouldShowRootGroups && !shouldShowYearGroups && !shouldShowMonthGroups ? (
           <div className="archive-summary">
             <strong>{scopedImages.length.toLocaleString()}</strong>
@@ -121,7 +119,6 @@ export function ImagesPage() {
 
         {selectedImage ? (
           <section className="image-viewer">
-            <ImageBreadcrumb params={params} imageTitle={selectedImage.title} />
             <img src={selectedImage.rawUrl} alt={selectedImage.title} />
           </section>
         ) : null}
@@ -287,37 +284,10 @@ function slideClass(index: number, selectedIndex: number) {
   return 'image-group__slide image-group__slide--far';
 }
 
-function ImageBreadcrumb({ params, imageTitle }: { params: ImageParams; imageTitle?: string }) {
-  if (!params.year) {
-    return null;
-  }
-
-  return (
-    <nav className="image-breadcrumb" aria-label="Image archive location">
-      <Link to="/images">Images</Link>
-      {params.month ? <Link to={`/images/${params.year}`}>{params.year}</Link> : <span>{params.year}</span>}
-      {params.month && params.day ? (
-        <Link to={`/images/${params.year}/${params.month}`}>{monthName(params.year, params.month)}</Link>
-      ) : null}
-      {params.month && !params.day ? <span>{monthName(params.year, params.month)}</span> : null}
-      {params.year && params.month && params.day && !imageTitle ? (
-        <span>{formatDateLabel(`${params.year}-${params.month}-${params.day}T00:00:00`)}</span>
-      ) : null}
-      {params.year && params.month && params.day && imageTitle ? (
-        <>
-          <Link to={`/images/${params.year}/${params.month}/${params.day}`}>
-            {formatDateLabel(`${params.year}-${params.month}-${params.day}T00:00:00`)}
-          </Link>
-          <span>{imageTitle}</span>
-        </>
-      ) : null}
-    </nav>
-  );
-}
-
 function pageTitle(params: ImageParams, count: number) {
   if (params.year && params.month && params.day) {
-    return `${formatDateLabel(`${params.year}-${params.month}-${params.day}T00:00:00`)} (${count})`;
+    const date = formatDateLabel(`${params.year}-${params.month}-${params.day}T00:00:00`);
+    return params.imageId ? date : `${date} (${count})`;
   }
 
   if (params.year && params.month) {
