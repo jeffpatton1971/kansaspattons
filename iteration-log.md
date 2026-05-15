@@ -1062,6 +1062,27 @@ Detailed working notes for the React migration live here. This file is intention
     - `/images/2026/04/16`
     - `/images/2026/04/16/instagram-2026-04-16-194804-better-late-than-never-01`
 
+### Image Decoupling Publish Workflow
+
+- Documented the planned image decoupling model:
+  - Posts, stories, and galleries are authored content.
+  - Images are reusable media assets.
+  - `/images` is a raw media library and archive browser.
+  - Existing `_gallery/*.md` files are legacy/import metadata, not the long-term image authoring model.
+- Added `docs/authoring-publish-workflow.md` with the draft-to-published media workflow:
+  - Draft Markdown may reference local filenames such as `img58363.jpg`.
+  - Publish computes canonical keys like `2009/10/18/img58363.jpg`.
+  - Publish uploads raw images and thumbnails to Azure.
+  - Publish rewrites Markdown to canonical media keys.
+  - Publish removes local image files from the repo after successful upload and rewrite.
+- Documented collision handling:
+  - Reuse matching existing blobs by hash.
+  - Fail clearly or deterministically rename on hash mismatch.
+  - Never silently overwrite archive media.
+- Cross-linked the new workflow from:
+  - `docs/content-model.md`
+  - `docs/image-storage-migration.md`
+
 ### Detail Page Archive Shell And Story Metadata
 
 - Updated individual post and story detail pages to use the shared archive shell:

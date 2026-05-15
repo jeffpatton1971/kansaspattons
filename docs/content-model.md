@@ -10,6 +10,9 @@ The long-term content model is a small content graph. Articles, stories, galleri
 - Site identity is metadata, not business logic. Each repo can publish with its own `CONTENT_SITE_KEY`.
 - The generated JSON can evolve while old compatibility fields remain during migration.
 
+The planned authoring and publish rewrite workflow is documented in
+[`authoring-publish-workflow.md`](authoring-publish-workflow.md).
+
 ## Shared Metadata
 
 All first-class content should resolve to this base shape.
@@ -231,7 +234,7 @@ Facebook album imports are treated as galleries by default. Facebook's catch-all
 
 ## Images
 
-Images are reusable assets.
+Images are reusable assets, not authored content pages. Posts, stories, and galleries should reference image assets, while `/images` should behave as a raw media library and archive browser.
 
 Canonical image URLs should be derived from the site asset base and image date parts:
 
@@ -241,6 +244,24 @@ Canonical image URLs should be derived from the site asset base and image date p
 ```
 
 For the current Azure Blob layout, `{siteId}` is the blob container name. Existing `raw_url` and `thumb_url` frontmatter can remain during migration, but new compiler code should prefer computed canonical URLs once the blobs have been copied.
+
+For new authored content, draft Markdown may use simple local filenames. The publish action should upload the assets, rewrite those local filenames to canonical media keys, and remove the local image files from the repo.
+
+Draft:
+
+```yaml
+cover_image: img58363.jpg
+images:
+  - id: img58363.jpg
+```
+
+Published:
+
+```yaml
+cover_image: 2009/10/18/img58363.jpg
+images:
+  - id: 2009/10/18/img58363.jpg
+```
 
 ```ts
 type ImageAsset = {

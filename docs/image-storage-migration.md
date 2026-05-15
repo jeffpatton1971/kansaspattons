@@ -151,4 +151,6 @@ If a write run fails with Azure storage authentication before processing any ope
 7. Keep old blobs in place during a burn-in period.
 8. Remove legacy blob paths only after the React/API site has been verified against the canonical paths.
 
-The `_gallery` Markdown files should continue to exist as image metadata records for now. Once the compiler computes canonical URLs, authored `raw_url` and `thumb_url` can become compatibility fields or be removed in a later cleanup.
+The `_gallery` Markdown files should continue to exist as image metadata records for now. They are legacy import metadata from the GitHub Pages/Jekyll migration, not the long-term authoring model.
+
+For new content, draft Markdown can use local filenames such as `img58363.jpg`. The publish action should upload those files to the canonical storage layout, rewrite the Markdown to `yyyy/mm/dd/filename.ext` media keys, and then remove the local image files from the repo. See [`authoring-publish-workflow.md`](authoring-publish-workflow.md).
