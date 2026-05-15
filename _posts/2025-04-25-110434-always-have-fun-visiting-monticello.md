@@ -24,10 +24,6 @@ hashtags:
   - "monticello"
 handles: []
 location:
-tags:
-  - "monticello"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Always have fun visiting #monticello"

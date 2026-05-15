@@ -20,12 +20,8 @@ images:
   - id: "2020/04/28/17895831778484867.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "From my walk this morning"

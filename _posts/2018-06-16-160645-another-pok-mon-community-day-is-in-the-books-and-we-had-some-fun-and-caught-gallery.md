@@ -10,9 +10,6 @@ source:
   id: instagram-2018-06-16-160645-another-pok-mon-community-day-is-in-the-books-and-we-had-some-fun-and-caught
   media_count: "10"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Another Pokémon Community Day is in the books and we had some fun and caught some new Poké...."

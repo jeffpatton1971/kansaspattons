@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2024-03-13-161830-zoo-trip-part-2-a-very-nice-trip-our-first-visit-was-fun
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Zoo trip part 2: a very nice trip our first visit was fun"

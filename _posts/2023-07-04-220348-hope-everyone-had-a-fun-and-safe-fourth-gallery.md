@@ -10,9 +10,6 @@ source:
   id: instagram-2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth
   media_count: "6"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to hope everyone had a fun and safe fourth."

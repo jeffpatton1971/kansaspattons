@@ -10,9 +10,6 @@ source:
   id: instagram-2025-03-09-185435-sunday-dinner-smoked-tri-tip-at-moms-request
   media_count: "8"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "8 images related to Sunday dinner…smoked tri-tip at moms request."

@@ -20,12 +20,8 @@ images:
   - id: "2022/06/04/17943674252070842.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Looking forward to this view everyday for a week!"

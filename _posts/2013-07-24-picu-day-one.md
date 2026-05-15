@@ -21,10 +21,8 @@ images:
     caption:
     alt:
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "Last night was a rough night, Nathan started to wake up on his own, so they had to give him more sedation to keep him down. In addition to that he started running a fever, they treated it with Tylenol and started checking his temp every 2 h"

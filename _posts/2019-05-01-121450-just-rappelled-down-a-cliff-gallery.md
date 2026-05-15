@@ -10,9 +10,6 @@ source:
   id: instagram-2019-05-01-121450-just-rappelled-down-a-cliff
   media_count: "8"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "8 images related to Just rappelled down a cliff."

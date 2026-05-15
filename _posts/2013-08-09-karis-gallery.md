@@ -10,11 +10,8 @@ source:
   id: "1238"
   url: "https://jeffspatton.wordpress.com/2013/08/09/august-9-2013/"
 categories:
+  - Cancer
   - Nathan
-  - cancer
-tags:
-  - wordpress
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Karis."

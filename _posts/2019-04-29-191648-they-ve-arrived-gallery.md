@@ -10,9 +10,6 @@ source:
   id: instagram-2019-04-29-191648-they-ve-arrived
   media_count: "4"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to They’ve arrived."

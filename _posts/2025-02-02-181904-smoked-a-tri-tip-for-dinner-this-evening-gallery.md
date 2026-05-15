@@ -10,13 +10,11 @@ source:
   id: instagram-2025-02-02-181904-smoked-a-tri-tip-for-dinner-this-evening
   media_count: "5"
   cross_post_source: FB
-tags:
-  - smoked
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "5 images related to #smoked a tri-tip for dinner this evening."
+hashtags:
+  - smoked
 gallery: instagram-2025-02-02-181904-smoked-a-tri-tip-for-dinner-this-evening
 cover_image: "2025/02/02/18315883798207811.jpg"
 images:

@@ -20,12 +20,8 @@ images:
   - id: "2021/06/05/17975096599377200.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Nice family picnic"

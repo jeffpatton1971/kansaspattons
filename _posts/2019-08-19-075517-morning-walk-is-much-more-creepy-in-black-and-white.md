@@ -20,12 +20,8 @@ images:
   - id: "2019/08/19/17881850530409833.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Morning walk is much more creepy in black and white 😂"

@@ -20,12 +20,8 @@ images:
   - id: "2018/10/31/17977294900122211.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "For the past 15yrs, every year we are here ❤️"

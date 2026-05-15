@@ -10,9 +10,6 @@ source:
   id: instagram-2018-11-25-193049-little-drive-in-to-work-this-week
   media_count: "6"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to Little drive in to work this week."

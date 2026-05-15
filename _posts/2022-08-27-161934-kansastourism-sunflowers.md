@@ -25,10 +25,6 @@ hashtags:
 handles:
   - "kansastourism"
 location:
-tags:
-  - "sunflowers"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "@kansastourism #sunflowers"

@@ -25,11 +25,6 @@ hashtags:
   - "sunrise"
 handles: []
 location:
-tags:
-  - "kansas"
-  - "sunrise"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Watching the #kansas #sunrise"

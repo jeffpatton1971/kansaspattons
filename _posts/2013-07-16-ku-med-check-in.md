@@ -18,10 +18,8 @@ related:
     id: wordpress-2013-07-16-173447-july-16-2013
     rel: photos
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "Today was our trip to KCK to talk with the doctor’s at KU Med who will remove the tumor from Nathan’s liver. I would love to say that the process was fast, efficient and streamlined, but in reality it was one of the most disorganized visit’"

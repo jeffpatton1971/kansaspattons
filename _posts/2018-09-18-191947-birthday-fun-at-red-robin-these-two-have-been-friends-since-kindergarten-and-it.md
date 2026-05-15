@@ -20,13 +20,10 @@ related:
   - type: gallery
     id: instagram-2018-09-18-191947-birthday-fun-at-red-robin-these-two-have-been-friends-since-kindergarten-and-it
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
-  - "birthday"
+  - Birthday
 authors:
   - "Jeff Patton"
 summary: "Birthday fun at Red Robin...these two have been friends since kindergarten and it’s fun to see them together"

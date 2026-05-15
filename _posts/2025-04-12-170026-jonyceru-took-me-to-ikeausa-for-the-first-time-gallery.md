@@ -10,9 +10,6 @@ source:
   id: instagram-2025-04-12-170026-jonyceru-took-me-to-ikeausa-for-the-first-time
   media_count: "7"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to @jonyceru took me to @ikeausa for the first time!."

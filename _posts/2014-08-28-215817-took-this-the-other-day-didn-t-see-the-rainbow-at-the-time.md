@@ -20,12 +20,8 @@ images:
   - id: "2014/08/28/17843341126063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Took this the other day, didn't see the rainbow at the time"

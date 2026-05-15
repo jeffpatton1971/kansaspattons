@@ -21,15 +21,10 @@ images:
     caption:
     alt:
 hashtags:
-  - "sunset"
-  - "kansas"
+  - kansas
+  - sunset
 handles: []
 location:
-tags:
-  - "sunset"
-  - "kansas"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Just another #sunset in #kansas"

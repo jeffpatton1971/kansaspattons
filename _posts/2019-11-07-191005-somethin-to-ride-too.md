@@ -20,12 +20,8 @@ images:
   - id: "2019/11/07/17861279458569535.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Somethin to ride too"

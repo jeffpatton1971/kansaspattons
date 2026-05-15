@@ -21,15 +21,10 @@ images:
     caption:
     alt:
 hashtags:
-  - "sunrise"
-  - "kansas"
+  - kansas
+  - sunrise
 handles: []
 location:
-tags:
-  - "sunrise"
-  - "kansas"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#sunrise in #kansas"

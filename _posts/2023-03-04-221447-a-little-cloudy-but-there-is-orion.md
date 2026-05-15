@@ -20,12 +20,8 @@ images:
   - id: "2023/03/04/17988890725878834.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "a little cloudy but there is orion"

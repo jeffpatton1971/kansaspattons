@@ -24,10 +24,6 @@ hashtags:
   - "groundhogdaymovie"
 handles: []
 location:
-tags:
-  - "groundhogdaymovie"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "This is where they filmed the #groundhogdaymovie"

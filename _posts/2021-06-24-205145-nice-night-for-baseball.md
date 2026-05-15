@@ -24,10 +24,6 @@ hashtags:
   - "baseball"
 handles: []
 location:
-tags:
-  - "baseball"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Nice night for #baseball"

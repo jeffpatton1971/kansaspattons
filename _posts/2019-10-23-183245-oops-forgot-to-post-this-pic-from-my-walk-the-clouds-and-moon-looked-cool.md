@@ -20,12 +20,8 @@ images:
   - id: "2019/10/23/17933118448319691.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Oops! Forgot to post this pic from my walk... the clouds and moon looked cool"

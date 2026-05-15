@@ -23,13 +23,10 @@ images:
   - id: "2018/09/18/17981617186014539.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
-  - "birthday"
+  - Birthday
 authors:
   - "Jeff Patton"
 summary: "Happy Birthday to my favorite girl! Hard to believe it’s been 15yrs. I love you so much!"

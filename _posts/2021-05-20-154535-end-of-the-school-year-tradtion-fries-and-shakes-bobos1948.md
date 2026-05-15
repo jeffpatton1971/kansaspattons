@@ -20,13 +20,9 @@ images:
   - id: "2021/05/20/18090812713252710.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "bobos1948"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "End of the school year tradtion…fries and shakes @bobos1948"

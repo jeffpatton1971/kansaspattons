@@ -24,10 +24,6 @@ hashtags:
   - "rackspacecastle"
 handles: []
 location:
-tags:
-  - "rackspacecastle"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Stopped by the #rackspacecastle today before everything gets moved…ngl…was a little sad"

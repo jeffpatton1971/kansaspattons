@@ -11,10 +11,7 @@ source:
   media_count: "6"
   cross_post_source: FB
 categories:
-  - spring
-tags:
-  - instagram
-  - gallery
+  - Spring
 authors:
   - "Jeff Patton"
 summary: "6 images related to Spring Concert."

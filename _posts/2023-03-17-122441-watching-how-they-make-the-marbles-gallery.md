@@ -10,9 +10,6 @@ source:
   id: instagram-2023-03-17-122441-watching-how-they-make-the-marbles
   media_count: "6"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to watching how they make the marbles."

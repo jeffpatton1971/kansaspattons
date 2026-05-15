@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2021-02-07-210005-smoked-pork-for-dinner-and-brownie-ala-mode-for-dessert
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Smoked pork for dinner and brownie ala mode for dessert"

@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2023-06-15-165738-lovely-time-at-the-garden
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "lovely time at the garden"

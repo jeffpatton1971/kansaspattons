@@ -10,9 +10,6 @@ source:
   id: instagram-2019-08-31-164622-was-a-great-day-for-kufootball-nice-to-see-them-win-then-great-meal-at
   media_count: "8"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "8 images related to Was a great day for @kufootball nice to see them win! Then great meal at @biemersbbq."

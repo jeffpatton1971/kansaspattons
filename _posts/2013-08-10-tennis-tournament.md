@@ -18,10 +18,8 @@ related:
     id: wordpress-2013-08-10-165044-august-10-2013
     rel: photos
 categories:
-  - "Natalie"
-  - tennis
-tags:
-  - "wordpress"
+  - Natalie
+  - Tennis
 authors:
   - "Jeff Patton"
 summary: "Today Woodvalley Tennis had a tournament and pool party. Natalie was able to bring one friend to play tennis and then to swim afterwards. Natalie invited her friend Megan, and they had fun playing tennis."

@@ -24,10 +24,6 @@ hashtags:
   - "bloodmooneclipse"
 handles: []
 location:
-tags:
-  - "bloodmooneclipse"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "I missed the #bloodmooneclipse but here is an overcast moon"

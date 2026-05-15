@@ -21,10 +21,8 @@ images:
     caption:
     alt:
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "This is the first day of our second to last round of chemo."

@@ -12,9 +12,6 @@ source:
   cross_post_source: FB
 categories:
   - Natalie
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "19 images related to Had an absolute wonderful time being @natalie.15.2003 chauffeur."

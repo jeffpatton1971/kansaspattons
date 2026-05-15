@@ -10,12 +10,9 @@ source:
   id: "99"
   url: "https://jeffspatton.wordpress.com/2013/03/31/march-31-2013-2/"
 categories:
-  - family
-  - holidays
   - Easter
-tags:
-  - wordpress
-  - gallery
+  - Family
+  - Holidays
 authors:
   - "Jeff Patton"
 summary: "7 images related to Easter Baskets."

@@ -20,11 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-09-26-171831-natalie-placed-4th-today-at-the-tennis-meet-very-proud-of-her-and-how-well-she
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Natalie"
 authors:

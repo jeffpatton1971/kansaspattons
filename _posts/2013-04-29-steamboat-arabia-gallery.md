@@ -10,12 +10,9 @@ source:
   id: "402"
   url: "https://jeffspatton.wordpress.com/2013/04/29/april-29-2013/"
 categories:
-  - Natalie
   - CPLS
-  - field-trips
-tags:
-  - wordpress
-  - gallery
+  - Field-Trips
+  - Natalie
 authors:
   - "Jeff Patton"
 summary: "42 images related to Steamboat Arabia."

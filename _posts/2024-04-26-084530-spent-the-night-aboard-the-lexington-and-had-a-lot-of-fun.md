@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Spent the night aboard the Lexington and had a lot of fun"

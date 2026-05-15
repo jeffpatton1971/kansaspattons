@@ -26,12 +26,8 @@ images:
   - id: "2018/08/16/17953303735121479.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "First day of school for these two!"

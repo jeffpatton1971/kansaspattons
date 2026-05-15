@@ -24,10 +24,6 @@ hashtags:
   - "magmile"
 handles: []
 location:
-tags:
-  - "magmile"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had a fun day on the #magmile"

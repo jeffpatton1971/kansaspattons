@@ -10,9 +10,6 @@ source:
   id: instagram-2019-04-30-123341-we-made-it-to-camera-rock
   media_count: "8"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "8 images related to We made it to camera rock!."

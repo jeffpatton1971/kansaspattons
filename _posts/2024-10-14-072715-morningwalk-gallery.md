@@ -10,13 +10,11 @@ source:
   id: instagram-2024-10-14-072715-morningwalk
   media_count: "4"
   cross_post_source: FB
-tags:
-  - morningwalk
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to #morningwalk."
+hashtags:
+  - morningwalk
 gallery: instagram-2024-10-14-072715-morningwalk
 cover_image: "2024/10/14/18115121224406105.jpg"
 images:

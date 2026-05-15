@@ -20,12 +20,8 @@ images:
   - id: "2026/04/11/18109062805667607.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "French Toast Flight…banana nut…cinnamon toast…red velvet…you’re welcome 🖤💛"

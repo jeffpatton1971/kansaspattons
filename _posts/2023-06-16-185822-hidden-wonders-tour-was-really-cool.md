@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2023-06-16-185822-hidden-wonders-tour-was-really-cool
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Hidden Wonders tour was really cool"

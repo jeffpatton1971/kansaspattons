@@ -20,12 +20,8 @@ images:
   - id: "2017/04/09/17863814629095774.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Taking a little batting practice"

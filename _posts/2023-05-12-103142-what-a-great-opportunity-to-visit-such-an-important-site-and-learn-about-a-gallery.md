@@ -10,9 +10,6 @@ source:
   id: instagram-2023-05-12-103142-what-a-great-opportunity-to-visit-such-an-important-site-and-learn-about-a
   media_count: "4"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to what a great opportunity to visit such an important site and learn about a ruling that is ...."

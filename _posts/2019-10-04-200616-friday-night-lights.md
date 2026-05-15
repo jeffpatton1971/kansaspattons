@@ -20,12 +20,8 @@ images:
   - id: "2019/10/04/17898118264384013.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Friday night lights"

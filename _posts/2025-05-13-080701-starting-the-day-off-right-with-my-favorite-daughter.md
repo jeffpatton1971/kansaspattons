@@ -20,12 +20,8 @@ images:
   - id: "2025/05/13/18080811193688144.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Starting the day off right with my favorite daughter"

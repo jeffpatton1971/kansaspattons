@@ -18,10 +18,8 @@ related:
     id: wordpress-2013-05-23-080434-may-23-2013
     rel: photos
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "This is the start of our third cycle of chemo, we had hoped that he would have surgery to have it removed, but here we are. We stopped by the Cancer Center first for Nathan to get his port accessed, while I don’t think he’s getting used to "

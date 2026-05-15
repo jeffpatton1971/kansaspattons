@@ -20,11 +20,8 @@ images:
   - id: "2017/07/04/17864301229133003.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "July 4th"
 authors:

@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2019-05-01-121450-just-rappelled-down-a-cliff
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Just rappelled down a cliff"

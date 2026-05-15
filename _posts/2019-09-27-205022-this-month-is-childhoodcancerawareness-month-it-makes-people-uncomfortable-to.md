@@ -27,15 +27,10 @@ hashtags:
 handles:
   - "kumedcenter"
 location:
-tags:
-  - "childhoodcancerawareness"
-  - "hepatoblastoma"
-  - "negu"
-  - "instagram"
 categories:
-  - "Nathan"
-  - "birthday"
-  - "cancer"
+  - Birthday
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "This month is #childhoodcancerawareness month. It makes people uncomfortable to think about children having to go through painful medications, treatments and surgeries. Some of these treatments go on for years, some for only a few months. S"

@@ -30,10 +30,6 @@ hashtags:
   - "breakfast"
 handles: []
 location:
-tags:
-  - "breakfast"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had a wonderful #breakfast with my son this morning"

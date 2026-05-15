@@ -10,9 +10,6 @@ source:
   id: instagram-2019-04-30-171341-riding-horses-with-my-favorite-cowgirl
   media_count: "8"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "8 images related to Riding horses with my favorite cowgirl."

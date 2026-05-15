@@ -20,12 +20,8 @@ images:
   - id: "2026/04/01/17873769177571471.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Sourdough pancakes 🖤💛"

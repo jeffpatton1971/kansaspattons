@@ -20,12 +20,8 @@ images:
   - id: "2015/03/16/17843559013063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "We really do love them both!"

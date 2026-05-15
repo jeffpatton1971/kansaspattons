@@ -11,9 +11,6 @@ source:
   url: "https://jeffspatton.wordpress.com/2013/06/03/june-3-2013-2/"
 categories:
   - Natalie
-tags:
-  - wordpress
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to June 3, 2013."

@@ -10,9 +10,6 @@ source:
   id: instagram-2018-10-27-134711-a-little-boo-at-the-zoo-fun-today
   media_count: "7"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to A little Boo at the Zoo fun today!."

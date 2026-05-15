@@ -20,12 +20,8 @@ images:
   - id: "2018/08/12/17968400539027093.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "One of my favorite toothless grins!!"

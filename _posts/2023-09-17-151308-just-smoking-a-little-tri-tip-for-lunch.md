@@ -24,10 +24,6 @@ hashtags:
   - "smoking"
 handles: []
 location:
-tags:
-  - "smoking"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Just #smoking a little tri-tip for lunch"

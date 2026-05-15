@@ -12,9 +12,6 @@ source:
   cross_post_source: FB
 categories:
   - Natalie
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "5 images related to Natalie placed 4th today at the tennis meet! Very proud of her and how well she played and...."

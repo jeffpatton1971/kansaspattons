@@ -21,15 +21,10 @@ related:
     id: instagram-2024-06-25-194726-round-2-of-pictures-were-stopped-in-nassaubahamas-and-bought-some-souvenirs-our
     rel: photos
 hashtags:
-  - "nassaubahamas"
-  - "disneycruise"
+  - disneycruise
+  - nassaubahamas
 handles: []
 location:
-tags:
-  - "nassaubahamas"
-  - "disneycruise"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Round 2 of pictures were stopped in #nassaubahamas and bought some souvenirs. Our ship was docked next to a #disneycruise ship which was very cool"

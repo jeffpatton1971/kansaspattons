@@ -20,12 +20,8 @@ images:
   - id: "2015/02/14/17843551822063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Happy Valentine's Day from the Patton's!"

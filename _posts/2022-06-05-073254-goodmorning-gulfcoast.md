@@ -25,11 +25,6 @@ hashtags:
   - "gulfcoast"
 handles: []
 location:
-tags:
-  - "goodmorning"
-  - "gulfcoast"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#goodmorning #gulfcoast"

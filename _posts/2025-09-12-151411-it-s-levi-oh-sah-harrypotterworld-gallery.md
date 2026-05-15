@@ -10,13 +10,11 @@ source:
   id: instagram-2025-09-12-151411-it-s-levi-oh-sah-harrypotterworld
   media_count: "4"
   cross_post_source: FB
-tags:
-  - harrypotterworld
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to It’s Levi-oh-sah #harrypotterworld."
+hashtags:
+  - harrypotterworld
 gallery: instagram-2025-09-12-151411-it-s-levi-oh-sah-harrypotterworld
 cover_image: "2025/09/12/18054229823568739.jpg"
 images:

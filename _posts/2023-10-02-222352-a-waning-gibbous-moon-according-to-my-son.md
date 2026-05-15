@@ -20,12 +20,8 @@ images:
   - id: "2023/10/02/17895156431818011.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "A waning gibbous moon according to my son"

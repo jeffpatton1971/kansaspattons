@@ -20,13 +20,10 @@ images:
   - id: "2018/01/14/17918364214019323.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
-  - "winter"
+  - Winter
 authors:
   - "Jeff Patton"
 summary: "Winter fun and hard work"

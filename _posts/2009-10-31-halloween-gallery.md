@@ -8,11 +8,8 @@ date: 2009-10-31 09:55:00 -0600
 source:
   type: wordpress
 categories:
-  - holidays
-  - halloween
-tags:
-  - wordpress
-  - gallery
+  - Halloween
+  - Holidays
 authors:
   - Jeff
 summary: "18 images related to Halloween."

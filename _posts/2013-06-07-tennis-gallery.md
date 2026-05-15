@@ -12,10 +12,7 @@ source:
 categories:
   - Natalie
   - Nathan
-  - tennis
-tags:
-  - wordpress
-  - gallery
+  - Tennis
 authors:
   - "Jeff Patton"
 summary: "6 images related to Tennis."

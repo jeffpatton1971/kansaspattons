@@ -20,12 +20,8 @@ images:
   - id: "2025/07/15/17867850417410333.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Good morning …the butter got a little too hot this morning"

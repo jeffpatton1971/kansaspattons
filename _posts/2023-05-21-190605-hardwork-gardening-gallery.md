@@ -10,14 +10,12 @@ source:
   id: instagram-2023-05-21-190605-hardwork-gardening
   media_count: "5"
   cross_post_source: FB
-tags:
-  - hardwork
-  - gardening
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "5 images related to #hardwork #gardening."
+hashtags:
+  - gardening
+  - hardwork
 gallery: instagram-2023-05-21-190605-hardwork-gardening
 cover_image: "2023/05/21/17876371733887359.jpg"
 images:

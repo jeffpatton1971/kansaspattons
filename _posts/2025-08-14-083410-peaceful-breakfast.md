@@ -21,15 +21,10 @@ images:
     caption:
     alt:
 hashtags:
-  - "peaceful"
-  - "breakfast"
+  - breakfast
+  - peaceful
 handles: []
 location:
-tags:
-  - "peaceful"
-  - "breakfast"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#peaceful #breakfast"

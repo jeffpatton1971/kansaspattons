@@ -20,13 +20,9 @@ related:
   - type: gallery
     id: instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover
     rel: photos
-hashtags: []
 handles:
   - "americanrover"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had another fun trip on @americanrover"

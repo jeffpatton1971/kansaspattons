@@ -20,12 +20,8 @@ images:
   - id: "2023/10/16/17986231877439472.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Sky Observations with my son"

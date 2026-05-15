@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2025-02-09-190137-pulled-pork-for-dinner
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Pulled pork for dinner"

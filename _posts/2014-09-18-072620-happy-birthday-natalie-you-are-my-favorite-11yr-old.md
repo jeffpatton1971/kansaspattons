@@ -20,14 +20,11 @@ images:
   - id: "2014/09/18/17843350144063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
-  - "Natalie"
-  - "birthday"
+  - Birthday
+  - Natalie
 authors:
   - "Jeff Patton"
 summary: "Happy Birthday Natalie! You are my favorite 11yr old"

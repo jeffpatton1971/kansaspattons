@@ -20,11 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-10-01-165914-natalie-won-both-her-sets-8-3-and-8-1
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Natalie"
 authors:

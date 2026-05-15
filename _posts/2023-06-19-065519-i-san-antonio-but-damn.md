@@ -20,12 +20,8 @@ images:
   - id: "2023/06/19/17970695558420243.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "i ❤️ san antonio….but damn!"

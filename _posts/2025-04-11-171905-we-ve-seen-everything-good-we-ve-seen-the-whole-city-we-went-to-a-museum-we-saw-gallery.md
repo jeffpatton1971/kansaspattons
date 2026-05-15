@@ -10,9 +10,6 @@ source:
   id: instagram-2025-04-11-171905-we-ve-seen-everything-good-we-ve-seen-the-whole-city-we-went-to-a-museum-we-saw
   media_count: "9"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "9 images related to We’ve seen everything good. We’ve seen the whole city! We went to a museum, we saw pricele...."

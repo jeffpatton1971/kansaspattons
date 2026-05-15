@@ -20,12 +20,8 @@ images:
   - id: "2021/04/10/17888998586096288.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Posting a pic of my mom and sister for no other reason than i love them... contrary to what my face looks like in this 😂😂"

@@ -17,10 +17,6 @@ album:
   media_count: 34
   date_start: 2011-10-12 19:21:57
   date_end: 2011-10-12 19:31:57
-categories:
-  - facebook
-  - album
-tags: []
 gallery: facebook-2011-10-12-192157-nathan-s-6-mo-pictures
 cover_image: "2011/10/12/10150352988233340.jpg"
 images:

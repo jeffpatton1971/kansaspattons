@@ -25,10 +25,6 @@ hashtags:
 handles:
   - "kufootball"
 location:
-tags:
-  - "winning"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Taking my nephew for a little @kufootball today! First day! New coach! #winning"

@@ -20,12 +20,8 @@ images:
   - id: "2020/11/23/18125307565150857.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Morning rainbows"

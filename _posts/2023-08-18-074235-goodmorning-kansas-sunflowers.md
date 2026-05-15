@@ -26,12 +26,6 @@ hashtags:
   - "sunflowers"
 handles: []
 location:
-tags:
-  - "goodmorning"
-  - "kansas"
-  - "sunflowers"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#goodmorning #kansas #sunflowers"

@@ -30,10 +30,6 @@ hashtags:
   - "skyobservation"
 handles: []
 location:
-tags:
-  - "skyobservation"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#skyobservation with my son"

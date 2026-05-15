@@ -20,12 +20,8 @@ images:
   - id: "2021/04/20/17899732873841214.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Here in Kansas we don’t forecast the weather we just make it up as we go!"

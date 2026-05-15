@@ -20,12 +20,8 @@ images:
   - id: "2025/04/10/18057492011132627.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Tasty lunch before a long trip"

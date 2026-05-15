@@ -20,11 +20,8 @@ images:
   - id: "2020/01/01/17860450090629591.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "New Year"
 authors:

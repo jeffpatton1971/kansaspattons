@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2022-05-06-215632-had-a-blast-at-the-hoe-down
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had a blast at the hoe-down"

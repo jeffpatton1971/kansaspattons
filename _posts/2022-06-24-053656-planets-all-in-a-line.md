@@ -20,12 +20,8 @@ images:
   - id: "2022/06/24/17937874331287788.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Planets all in a line"

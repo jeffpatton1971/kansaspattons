@@ -23,12 +23,8 @@ images:
   - id: "2026/02/13/17976436988994320.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Happy not Valentine’s Day!"

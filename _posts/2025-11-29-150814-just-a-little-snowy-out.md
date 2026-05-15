@@ -23,12 +23,8 @@ images:
   - id: "2025/11/29/18431448412104004.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Just a little snowy out"

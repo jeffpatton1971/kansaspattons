@@ -20,12 +20,8 @@ images:
   - id: "2019/04/19/17963722024254801.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Went to the Captain Marvel movie with one of my most favorite girls"

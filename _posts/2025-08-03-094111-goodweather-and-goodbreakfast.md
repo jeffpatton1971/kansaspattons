@@ -21,15 +21,10 @@ images:
     caption:
     alt:
 hashtags:
-  - "goodweather"
-  - "goodbreakfast"
+  - goodbreakfast
+  - goodweather
 handles: []
 location:
-tags:
-  - "goodweather"
-  - "goodbreakfast"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#goodweather and #goodbreakfast"

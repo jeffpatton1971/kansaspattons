@@ -20,12 +20,8 @@ images:
   - id: "2021/11/21/18263245645016181.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Just love this bush"

@@ -20,12 +20,8 @@ images:
   - id: "2019/06/25/18050743276094877.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Last regular season game"

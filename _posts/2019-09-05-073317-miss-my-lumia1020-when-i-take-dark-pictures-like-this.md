@@ -20,12 +20,8 @@ images:
   - id: "2019/09/05/17861354491497402.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Miss my Lumia1020 when I take dark pictures like this"

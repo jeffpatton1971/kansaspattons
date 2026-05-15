@@ -20,12 +20,8 @@ images:
   - id: "2015/02/24/17843554390063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "It's a hard knock life!"

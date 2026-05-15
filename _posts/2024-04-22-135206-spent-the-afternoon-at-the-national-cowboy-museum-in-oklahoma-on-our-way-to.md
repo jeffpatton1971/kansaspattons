@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2024-04-22-135206-spent-the-afternoon-at-the-national-cowboy-museum-in-oklahoma-on-our-way-to
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Spent the afternoon at the National Cowboy Museum in Oklahoma on our way to Texas"

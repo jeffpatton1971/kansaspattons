@@ -18,11 +18,9 @@ related:
     id: wordpress-2013-05-17-084233-may-17-2013
     rel: photos
 categories:
-  - "family"
-  - summer
-  - zoo
-tags:
-  - "wordpress"
+  - Family
+  - Summer
+  - Zoo
 authors:
   - "Jeff Patton"
 summary: "The first official day of summer for Natalie we visited the Zoo with Malia’s class. It was nice, Natalie got to pet an alligator!"

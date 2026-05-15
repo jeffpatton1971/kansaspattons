@@ -10,9 +10,6 @@ source:
   id: instagram-2019-05-02-172655-last-horse-ride
   media_count: "8"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "8 images related to Last horse ride."

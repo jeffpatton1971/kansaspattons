@@ -20,13 +20,9 @@ images:
   - id: "2019/08/31/18060717652144547.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "instajfug"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "It’s been a while since I’ve been to a KU football game @instajfug but when did they mic up the marching band...sounds weird"

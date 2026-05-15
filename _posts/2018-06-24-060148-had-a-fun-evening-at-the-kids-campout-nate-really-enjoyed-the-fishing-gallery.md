@@ -12,9 +12,6 @@ source:
   cross_post_source: FB
 categories:
   - Nathan
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "9 images related to Had a fun evening at the kids campout...Nate really enjoyed the fishing."

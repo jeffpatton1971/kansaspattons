@@ -26,14 +26,9 @@ hashtags:
   - "hepatoblastoma"
 handles: []
 location:
-tags:
-  - "cancersucks"
-  - "childhoodcancerawareness"
-  - "hepatoblastoma"
-  - "instagram"
 categories:
-  - "Nathan"
-  - "cancer"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "Today is Nathan’s 8yr cancer-free anniversary! #cancersucks #childhoodcancerawareness #hepatoblastoma"

@@ -20,12 +20,8 @@ images:
   - id: "2018/10/12/17898117799254362.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Football with this girl"

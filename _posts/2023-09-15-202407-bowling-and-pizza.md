@@ -28,11 +28,6 @@ hashtags:
   - "pizza"
 handles: []
 location:
-tags:
-  - "bowling"
-  - "pizza"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#bowling and #pizza"

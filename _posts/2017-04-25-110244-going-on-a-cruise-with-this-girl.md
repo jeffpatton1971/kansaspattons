@@ -20,12 +20,8 @@ images:
   - id: "2017/04/25/17857052746136244.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Going on a cruise with this girl"

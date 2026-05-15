@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-12-30-172012-playing-a-little-halo-with-my-favorite-gamer-girl
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Playing a little Halo with my favorite gamer girl"

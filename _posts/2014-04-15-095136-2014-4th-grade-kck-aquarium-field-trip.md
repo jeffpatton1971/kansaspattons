@@ -17,10 +17,6 @@ album:
   media_count: 36
   date_start: 2014-04-15 09:51:36
   date_end: 2014-04-15 14:04:00
-categories:
-  - facebook
-  - album
-tags: []
 gallery: facebook-2014-04-15-095136-2014-4th-grade-kck-aquarium-field-trip
 cover_image: "2014/04/15/10152319034838340.jpg"
 images:

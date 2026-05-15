@@ -24,10 +24,6 @@ hashtags:
   - "legomovie2"
 handles: []
 location:
-tags:
-  - "legomovie2"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Everything is Awesome...with these two at the movies! #legomovie2"

@@ -10,13 +10,10 @@ source:
   id: "580"
   url: "https://jeffspatton.wordpress.com/2013/05/31/may-31-2013/"
 categories:
-  - children
-  - family
+  - Children
+  - Family
   - Natalie
   - Nathan
-tags:
-  - wordpress
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Play At the Park."

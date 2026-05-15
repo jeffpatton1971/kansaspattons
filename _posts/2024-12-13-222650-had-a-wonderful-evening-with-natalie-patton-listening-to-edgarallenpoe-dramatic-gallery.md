@@ -10,13 +10,11 @@ source:
   id: instagram-2024-12-13-222650-had-a-wonderful-evening-with-natalie-patton-listening-to-edgarallenpoe-dramatic
   media_count: "7"
   cross_post_source: FB
-tags:
-  - edgarallenpoe
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to Had a wonderful evening with @natalie__patton listening to #edgarallenpoe dramatic reading...."
+hashtags:
+  - edgarallenpoe
 gallery: instagram-2024-12-13-222650-had-a-wonderful-evening-with-natalie-patton-listening-to-edgarallenpoe-dramatic
 cover_image: "2024/12/13/18047082764473902.jpg"
 images:

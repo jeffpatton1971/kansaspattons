@@ -26,12 +26,8 @@ images:
   - id: "2024/05/26/18010256048437208.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Found a new friend on the step this morning"

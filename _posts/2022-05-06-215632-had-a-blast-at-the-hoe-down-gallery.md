@@ -10,9 +10,6 @@ source:
   id: instagram-2022-05-06-215632-had-a-blast-at-the-hoe-down
   media_count: "4"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Had a blast at the hoe-down."

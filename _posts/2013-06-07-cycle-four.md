@@ -18,10 +18,8 @@ related:
     id: wordpress-2013-06-07-141440-june-7-2013
     rel: photos
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "Nathan had his final chemo session for this round today and Natalie went with us. This is the first time that Natalie has joined us during one of his treatments, she was a little nervous about what it would be like, but she got through it j"

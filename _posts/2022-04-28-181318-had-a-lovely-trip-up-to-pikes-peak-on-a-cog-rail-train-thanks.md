@@ -20,13 +20,9 @@ related:
   - type: gallery
     id: instagram-2022-04-28-181318-had-a-lovely-trip-up-to-pikes-peak-on-a-cog-rail-train-thanks
     rel: photos
-hashtags: []
 handles:
   - "pikespeakcograilway"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had a lovely trip up to Pikes Peak on a cog rail train. Thanks @pikespeakcograilway"

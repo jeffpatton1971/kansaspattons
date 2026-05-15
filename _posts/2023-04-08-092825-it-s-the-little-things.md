@@ -20,12 +20,8 @@ images:
   - id: "2023/04/08/18010747756599781.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "It’s the little things"

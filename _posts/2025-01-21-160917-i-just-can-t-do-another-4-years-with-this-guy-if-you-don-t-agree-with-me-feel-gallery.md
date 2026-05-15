@@ -10,9 +10,6 @@ source:
   id: instagram-2025-01-21-160917-i-just-can-t-do-another-4-years-with-this-guy-if-you-don-t-agree-with-me-feel
   media_count: "4"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to I just can’t do another 4 years with this guy. If you don’t agree with me feel free to unf...."

@@ -10,9 +10,6 @@ source:
   id: instagram-2024-04-23-145956-very-educational-tour-of-the-alamo-this-morning
   media_count: "6"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to Very educational tour of The Alamo this morning."

@@ -26,12 +26,8 @@ images:
   - id: "2025/06/23/17937475383041013.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Nice walk this morning"

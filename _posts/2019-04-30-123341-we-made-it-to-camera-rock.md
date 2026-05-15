@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2019-04-30-123341-we-made-it-to-camera-rock
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "We made it to camera rock!"

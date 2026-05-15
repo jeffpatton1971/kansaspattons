@@ -10,13 +10,11 @@ source:
   id: instagram-2023-09-17-151308-just-smoking-a-little-tri-tip-for-lunch
   media_count: "5"
   cross_post_source: FB
-tags:
-  - smoking
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "5 images related to Just #smoking a little tri-tip for lunch."
+hashtags:
+  - smoking
 gallery: instagram-2023-09-17-151308-just-smoking-a-little-tri-tip-for-lunch
 cover_image: "2023/09/17/18018895147704439.jpg"
 images:

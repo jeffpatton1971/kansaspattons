@@ -24,10 +24,6 @@ hashtags:
   - "happymothersday"
 handles: []
 location:
-tags:
-  - "happymothersday"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Mothers Day french toast! #happymothersday"

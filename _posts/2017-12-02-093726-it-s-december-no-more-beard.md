@@ -20,12 +20,8 @@ images:
   - id: "2017/12/02/17893857046090145.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "It's December, no more beard."

@@ -20,12 +20,8 @@ images:
   - id: "2018/10/01/17943839137194022.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Taking this girl out for a nice little dinner"

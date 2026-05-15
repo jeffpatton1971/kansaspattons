@@ -20,12 +20,8 @@ images:
   - id: "2023/01/29/17991063583701103.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "homemade bread by my daughter"

@@ -23,12 +23,8 @@ images:
   - id: "2026/03/31/17920015347313775.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Dinner and donuts 🖤💛"

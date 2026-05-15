@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2025-12-03-101700-i-m-not-sure-how-i-feel-about-this-lol
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "I’m not sure how I feel about this lol"

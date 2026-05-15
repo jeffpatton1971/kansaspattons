@@ -20,12 +20,8 @@ images:
   - id: "2022/04/17/17960089924715839.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Time for a quick nap"

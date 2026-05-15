@@ -9,11 +9,8 @@ source:
   type: wordpress
   url: "https://jeffspatton.wordpress.com/2013/04/17/april-17-2013/"
 categories:
+  - Cancer
   - Nathan
-  - cancer
-tags:
-  - wordpress
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "5 images related to End of Cycle 1."

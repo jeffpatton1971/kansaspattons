@@ -20,12 +20,8 @@ images:
   - id: "2019/08/23/18054662218161606.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Mornings like this"

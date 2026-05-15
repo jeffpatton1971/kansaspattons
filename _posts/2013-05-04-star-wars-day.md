@@ -21,9 +21,7 @@ images:
     caption:
     alt:
 categories:
-  - "family"
-tags:
-  - "wordpress"
+  - Family
 authors:
   - "Jeff Patton"
 summary: "Introduced Nathan to Star Wars today, perhaps he’s a little young, perhaps not…but May the fourth is as good an excuse as any to camp out in front of the TV and watch movies!"

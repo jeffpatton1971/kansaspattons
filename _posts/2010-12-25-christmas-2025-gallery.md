@@ -10,13 +10,10 @@ source:
   id: "846"
   url: "https://jeffspatton.wordpress.com/2010/12/25/december-25-2010/"
 categories:
-  - holidays
   - Christmas
-  - family
-  - winter
-tags:
-  - wordpress
-  - gallery
+  - Family
+  - Holidays
+  - Winter
 authors:
   - Jeff
 summary: "46 images related to Christmas 2025."

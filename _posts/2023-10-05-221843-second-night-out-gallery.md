@@ -10,9 +10,6 @@ source:
   id: instagram-2023-10-05-221843-second-night-out
   media_count: "5"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "5 images related to second night out."

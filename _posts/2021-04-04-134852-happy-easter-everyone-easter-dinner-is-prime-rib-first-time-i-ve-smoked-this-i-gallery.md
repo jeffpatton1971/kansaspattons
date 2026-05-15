@@ -12,9 +12,6 @@ source:
   cross_post_source: FB
 categories:
   - Easter
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to Happy Easter everyone. Easter dinner is Prime Rib, first time I’ve smoked this... I starte...."

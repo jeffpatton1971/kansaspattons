@@ -10,9 +10,6 @@ source:
   id: instagram-2018-03-04-181906-doing-a-little-building-before-bed-time
   media_count: "4"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Doing a little building before bed time."

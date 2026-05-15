@@ -20,12 +20,8 @@ images:
   - id: "2021/01/19/17917348354553198.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Clear skies makes for good pictures"

@@ -17,10 +17,6 @@ album:
   media_count: 18
   date_start: 2014-04-27 19:05:13
   date_end: 2014-04-30 13:09:25
-categories:
-  - facebook
-  - album
-tags: []
 gallery: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire
 cover_image: "2014/04/30/10152353275488340.jpg"
 images:

@@ -20,13 +20,9 @@ images:
   - id: "2019/12/05/17884911325457771.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "superdodds"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Not as cool as @superdodds"

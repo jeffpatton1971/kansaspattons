@@ -26,10 +26,6 @@ handles:
   - "natalie__patton"
   - "taylorswift"
 location:
-tags:
-  - "rumors"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Why is @natalie__patton smiling? She thinks that @taylorswift may be at the Chiefs game today. #rumors"

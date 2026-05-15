@@ -24,10 +24,6 @@ hashtags:
   - "littleleaguebaseball"
 handles: []
 location:
-tags:
-  - "littleleaguebaseball"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "I missed his first hit or the season but here’s his second, an RBI single! #littleleaguebaseball"

@@ -10,11 +10,8 @@ source:
   id: "1127"
   url: "https://jeffspatton.wordpress.com/2013/07/23/july-23-2013/"
 categories:
+  - Cancer
   - Nathan
-  - cancer
-tags:
-  - wordpress
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to Surgery Day."

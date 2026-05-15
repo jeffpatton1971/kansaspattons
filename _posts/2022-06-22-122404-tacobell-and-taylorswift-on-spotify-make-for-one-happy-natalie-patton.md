@@ -20,16 +20,12 @@ images:
   - id: "2022/06/22/17984038918487462.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "tacobell"
   - "taylorswift"
   - "spotify"
   - "natalie__patton"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "@tacobell and @taylorswift on @spotify make for one happy @natalie__patton"

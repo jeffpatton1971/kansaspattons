@@ -20,12 +20,8 @@ images:
   - id: "2025/02/28/18079717120643588.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "My view from the deck"

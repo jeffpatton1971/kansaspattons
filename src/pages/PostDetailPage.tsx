@@ -144,7 +144,6 @@ function PostDetail({
         <header>
           <time dateTime={post.date}>{formatDateLabel(post.date)}</time>
           <h1>{post.title}</h1>
-          {post.sourceType ? <p className="source-label">{post.sourceType}</p> : null}
           <EntryMetadata entry={post} />
         </header>
         <div className="rich-text" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
@@ -172,7 +171,6 @@ function StoryDetail({
       <article className="post-detail story-detail" aria-label={post.title}>
         <header>
           <time dateTime={post.date}>{formatDateLabel(post.date)}</time>
-          {post.sourceType ? <p className="source-label">{post.sourceType}</p> : null}
           <EntryMetadata entry={post} />
         </header>
 

@@ -20,11 +20,8 @@ related:
   - type: gallery
     id: instagram-2021-12-13-195058-christmas-concert
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Christmas"
 authors:

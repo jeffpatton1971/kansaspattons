@@ -10,9 +10,6 @@ source:
   id: instagram-2024-04-24-173040-had-a-wonderful-afternoon-learning-about-the-ranch-and-having-some-of-the-best
   media_count: "8"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "8 images related to Had a wonderful afternoon learning about the ranch and having some of the best BBQ I’ve ha...."

@@ -24,10 +24,6 @@ hashtags:
   - "food"
 handles: []
 location:
-tags:
-  - "food"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Just a dude

@@ -20,15 +20,11 @@ related:
   - type: gallery
     id: instagram-2019-10-08-133950-a-great-day-for-tennis-plus-natalie-patton-got-to-visit-with-zion-marsh
     rel: photos
-hashtags: []
 handles:
   - "natalie__patton"
   - "zion_marsh"
   - "ustamovalley"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "A great day for tennis plus @natalie__patton got to visit with @zion_marsh @ustamovalley"

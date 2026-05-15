@@ -20,12 +20,8 @@ images:
   - id: "2020/08/18/17860563575089847.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Leftover steak makes for a tasty breakfast"

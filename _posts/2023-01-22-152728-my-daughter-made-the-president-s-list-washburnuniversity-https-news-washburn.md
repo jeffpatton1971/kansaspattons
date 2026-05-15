@@ -23,14 +23,11 @@ images:
   - id: "2023/01/22/17991849889666914.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "washburnuniversity"
 location:
-tags:
-  - "instagram"
 categories:
-  - "fall"
+  - Fall
 authors:
   - "Jeff Patton"
 summary: "My daughter made the President’s List @washburnuniversity https://news.washburn.edu/2023/01/01192023Washburn-University-Announces-Fall-2022-Presidents-List-Honorees.html"

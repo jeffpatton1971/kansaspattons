@@ -20,12 +20,8 @@ images:
   - id: "2015/06/10/17841744571063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Malia made a wonderful dinner for me!"

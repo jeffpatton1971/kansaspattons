@@ -25,11 +25,6 @@ hashtags:
   - "leftovers"
 handles: []
 location:
-tags:
-  - "kansas"
-  - "leftovers"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Good Morning #kansas #leftovers"

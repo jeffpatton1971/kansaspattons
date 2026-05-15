@@ -21,15 +21,10 @@ images:
     caption:
     alt:
 hashtags:
-  - "starbucks"
-  - "munchers"
+  - munchers
+  - starbucks
 handles: []
 location:
-tags:
-  - "starbucks"
-  - "munchers"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#starbucks and #munchers great breakfast combo"

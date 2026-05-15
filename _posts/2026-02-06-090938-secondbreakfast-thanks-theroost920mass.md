@@ -25,10 +25,6 @@ hashtags:
 handles:
   - "theroost920mass"
 location:
-tags:
-  - "secondbreakfast"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#secondbreakfast thanks @theroost920mass 🖤💛"

@@ -20,12 +20,8 @@ images:
   - id: "2015/08/06/17842101976063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "My company for lunch"

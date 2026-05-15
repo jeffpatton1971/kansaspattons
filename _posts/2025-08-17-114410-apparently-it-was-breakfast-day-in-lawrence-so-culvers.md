@@ -23,13 +23,9 @@ images:
   - id: "2025/08/17/17903116050249680.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "culvers"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Apparently it was breakfast day in Lawrence so… @culvers 🥰"

@@ -20,12 +20,8 @@ images:
   - id: "2025/06/24/18045963098552248.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "I will agree to this every single day and twice on Sundays"

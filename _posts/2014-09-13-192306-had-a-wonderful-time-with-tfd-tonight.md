@@ -20,12 +20,8 @@ images:
   - id: "2014/09/13/17843347915063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had a wonderful time with TFD tonight"

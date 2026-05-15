@@ -20,12 +20,8 @@ images:
   - id: "2019/11/09/17883547219451888.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Not sure which is better being done or knowing I don’t have to do this again for several months"

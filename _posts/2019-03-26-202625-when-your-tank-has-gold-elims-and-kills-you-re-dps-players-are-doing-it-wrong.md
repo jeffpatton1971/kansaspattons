@@ -24,10 +24,6 @@ hashtags:
   - "overwatch"
 handles: []
 location:
-tags:
-  - "overwatch"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "When your tank has gold elims and kills...you’re dps players are doing it wrong #overwatch"

@@ -20,12 +20,8 @@ images:
   - id: "2021/04/26/17930350225550788.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Starting the first day of tour"

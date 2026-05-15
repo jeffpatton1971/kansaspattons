@@ -24,10 +24,6 @@ hashtags:
   - "breakfastofchampions"
 handles: []
 location:
-tags:
-  - "breakfastofchampions"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#breakfastofchampions 2 egg omelette with Gouda and bacon"

@@ -10,9 +10,6 @@ source:
   id: instagram-2025-08-02-165920-had-a-great-time-with-nater-potater123-today
   media_count: "8"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "8 images related to Had a great time with @nater_potater123 today."

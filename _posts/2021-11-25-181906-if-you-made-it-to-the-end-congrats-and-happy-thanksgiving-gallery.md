@@ -12,9 +12,6 @@ source:
   cross_post_source: FB
 categories:
   - Thanksgiving
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "9 images related to If you made it to the end congrats and happy thanksgiving."

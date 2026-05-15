@@ -18,10 +18,8 @@ related:
     id: wordpress-2013-07-29-111851-july-29-2013
     rel: photos
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "Today was another big day, he got moving maybe a littler earlier than he should have and fell asleep in the playroom. We got dressed in Pj’s today and tried out some food, it’s been a while. Finally another walk around the floor and visitin"

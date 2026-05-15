@@ -21,15 +21,10 @@ related:
     id: instagram-2018-10-27-143829-hanging-out-with-teampikachu-and-teameevee
     rel: photos
 hashtags:
-  - "teampikachu"
-  - "teameevee"
+  - teameevee
+  - teampikachu
 handles: []
 location:
-tags:
-  - "teampikachu"
-  - "teameevee"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Hanging out with #TeamPikachu and #TeamEevee"

@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2024-03-13-161654-zoo-trip-part-1-long-day-at-the-zoo-and-it-was-a-lot-of-fun
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Zoo trip part 1: long day at the zoo and it was a lot of fun"

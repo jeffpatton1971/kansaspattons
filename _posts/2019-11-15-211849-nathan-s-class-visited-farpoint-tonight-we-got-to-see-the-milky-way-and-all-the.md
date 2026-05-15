@@ -20,11 +20,8 @@ related:
   - type: gallery
     id: instagram-2019-11-15-211849-nathan-s-class-visited-farpoint-tonight-we-got-to-see-the-milky-way-and-all-the
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Nathan"
 authors:

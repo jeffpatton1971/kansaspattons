@@ -21,17 +21,11 @@ images:
     caption:
     alt:
 hashtags:
-  - "breakfast"
-  - "sundaymornings"
-  - "mood"
+  - breakfast
+  - mood
+  - sundaymornings
 handles: []
 location:
-tags:
-  - "breakfast"
-  - "sundaymornings"
-  - "mood"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#breakfast #sundaymornings #mood"

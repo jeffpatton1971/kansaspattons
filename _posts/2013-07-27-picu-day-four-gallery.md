@@ -10,11 +10,8 @@ source:
   id: "1187"
   url: "https://jeffspatton.wordpress.com/2013/07/27/july-27-2013/"
 categories:
+  - Cancer
   - Nathan
-  - cancer
-tags:
-  - wordpress
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to PICU Day 4."

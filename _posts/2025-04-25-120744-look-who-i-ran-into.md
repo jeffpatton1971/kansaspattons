@@ -20,12 +20,8 @@ images:
   - id: "2025/04/25/17903035539155838.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Look who I ran into!"

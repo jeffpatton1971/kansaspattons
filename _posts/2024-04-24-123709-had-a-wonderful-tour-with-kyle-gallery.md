@@ -10,9 +10,6 @@ source:
   id: instagram-2024-04-24-123709-had-a-wonderful-tour-with-kyle
   media_count: "9"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "9 images related to Had a wonderful tour with Kyle."

@@ -20,11 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-09-08-100400-natalie-s-first-meet-her-doubles-team-won
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Natalie"
 authors:

@@ -21,15 +21,10 @@ images:
     caption:
     alt:
 hashtags:
-  - "supercool"
-  - "skaters"
+  - skaters
+  - supercool
 handles: []
 location:
-tags:
-  - "supercool"
-  - "skaters"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "My sister and I #supercool #skaters"

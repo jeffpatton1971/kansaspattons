@@ -20,12 +20,8 @@ images:
   - id: "2025/10/17/18085324112500750.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Baked apple pancakes"

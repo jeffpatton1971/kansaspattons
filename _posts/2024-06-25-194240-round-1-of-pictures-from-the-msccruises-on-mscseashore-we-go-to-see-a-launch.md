@@ -21,18 +21,12 @@ related:
     id: instagram-2024-06-25-194240-round-1-of-pictures-from-the-msccruises-on-mscseashore-we-go-to-see-a-launch
     rel: photos
 hashtags:
-  - "msccruises"
-  - "mscseashore"
-  - "capecanaveral"
+  - capecanaveral
+  - msccruises
+  - mscseashore
 handles:
   - "natalie__patton"
 location:
-tags:
-  - "msccruises"
-  - "mscseashore"
-  - "capecanaveral"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Round 1 of pictures from the #msccruises on #mscseashore . We go to see a launch from #capecanaveral from the ship and @natalie__patton found her favorite spot on the ship"

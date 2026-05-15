@@ -24,10 +24,6 @@ hashtags:
   - "bransonmissouri"
 handles: []
 location:
-tags:
-  - "bransonmissouri"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Posting pictures from the family reunion earlier this month. Had a blast with the family and a lot of fun in #bransonmissouri"

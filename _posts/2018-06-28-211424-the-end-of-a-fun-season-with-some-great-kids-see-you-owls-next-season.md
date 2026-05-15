@@ -26,12 +26,8 @@ images:
   - id: "2018/06/28/17955333982033614.mp4"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "The end of a fun season with some great kids...see you Owls next season!"

@@ -20,13 +20,9 @@ images:
   - id: "2025/03/22/17883924903144975.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "cometeer"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "My next shipment from @cometeer arrived…who needs to eat when you can have amazing coffee!"

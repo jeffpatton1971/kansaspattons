@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-09-01-091116-friday-night-football
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Friday night football"

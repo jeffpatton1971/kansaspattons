@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2021-04-26-124252-spent-some-quality-time-at-the-beach
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Spent some quality time at the beach"

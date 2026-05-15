@@ -20,11 +20,8 @@ related:
   - type: gallery
     id: instagram-2025-01-25-231911-nathan-has-a-blast-tonight-at-the-8th-grade-ball
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Nathan"
 authors:

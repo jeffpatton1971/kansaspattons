@@ -28,10 +28,6 @@ hashtags:
 handles:
   - "photoshop"
 location:
-tags:
-  - "morningwalk"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#morningwalk and @photoshop"

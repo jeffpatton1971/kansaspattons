@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2024-06-25-195027-round-3-dinners-aboard-ship-were-always-fun
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Round 3 dinners aboard ship were always fun"

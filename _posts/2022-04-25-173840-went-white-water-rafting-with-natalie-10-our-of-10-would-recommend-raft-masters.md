@@ -20,12 +20,9 @@ images:
   - id: "2022/04/25/17948477320751191.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "raft_masters"
 location:
-tags:
-  - "instagram"
 categories:
   - "Natalie"
 authors:

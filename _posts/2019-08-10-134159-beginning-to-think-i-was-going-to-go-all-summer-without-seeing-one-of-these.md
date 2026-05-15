@@ -20,13 +20,10 @@ images:
   - id: "2019/08/10/18057763663144381.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
-  - "summer"
+  - Summer
 authors:
   - "Jeff Patton"
 summary: "Beginning to think I was going to go all summer without seeing one of these little guys"

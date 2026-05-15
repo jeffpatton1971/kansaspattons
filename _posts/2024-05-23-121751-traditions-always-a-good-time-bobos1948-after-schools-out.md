@@ -25,10 +25,6 @@ hashtags:
 handles:
   - "bobos1948"
 location:
-tags:
-  - "traditions"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#traditions always a good time @bobos1948 after schools out"

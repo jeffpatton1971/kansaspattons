@@ -20,13 +20,9 @@ images:
   - id: "2018/02/19/17925732172062600.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "trfbjj"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Hey @trfbjj how are you"

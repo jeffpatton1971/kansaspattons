@@ -26,11 +26,6 @@ hashtags:
 handles:
   - "kcroyals"
 location:
-tags:
-  - "beroyalkc"
-  - "royals"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "So this just happened! @kcroyals #beroyalkc #royals"

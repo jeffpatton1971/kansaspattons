@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2019-05-02-123223-was-a-cheerleader-today-at-helen-s-rock
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Was a cheerleader today at Helen’s Rock"

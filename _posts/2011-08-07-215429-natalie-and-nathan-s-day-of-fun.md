@@ -18,10 +18,6 @@ album:
   media_count: 50
   date_start: 2011-08-07 21:54:29
   date_end: 2011-08-07 22:15:28
-categories:
-  - facebook
-  - album
-tags: []
 gallery: facebook-2011-08-07-215429-natalie-and-nathan-s-day-of-fun
 cover_image: "2011/08/07/10150278911183340.jpg"
 images:

@@ -20,13 +20,9 @@ images:
   - id: "2023/04/08/18008587012608845.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "reese.cartmill"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Wondering if @reese.cartmill will notice"

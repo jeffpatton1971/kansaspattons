@@ -30,10 +30,6 @@ hashtags:
   - "happythanksgivng"
 handles: []
 location:
-tags:
-  - "happythanksgivng"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#happythanksgivng"

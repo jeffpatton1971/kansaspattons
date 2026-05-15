@@ -10,9 +10,6 @@ source:
   id: instagram-2018-05-26-110501-8th-grade-accolade
   media_count: "10"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to 8th grade Accolade."

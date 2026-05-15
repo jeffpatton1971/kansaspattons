@@ -20,12 +20,8 @@ images:
   - id: "2017/04/26/17865100363082227.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Touring Jamestown with my favorite girl"

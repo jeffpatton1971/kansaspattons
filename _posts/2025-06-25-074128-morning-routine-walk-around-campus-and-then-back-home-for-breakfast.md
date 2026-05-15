@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2025-06-25-074128-morning-routine-walk-around-campus-and-then-back-home-for-breakfast
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Morning routine. Walk around campus and then back home for breakfast"

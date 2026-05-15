@@ -20,12 +20,8 @@ images:
   - id: "2018/09/16/17916981694217700.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Watching Teen Titans with my two favorite titans!"

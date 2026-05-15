@@ -23,13 +23,9 @@ images:
   - id: "2020/04/04/17847533255025085.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "briankesinger"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "My daughter and I doing some coloring this morning... thanks for the coloring book @briankesinger"

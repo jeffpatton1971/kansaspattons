@@ -10,9 +10,6 @@ source:
   id: instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover
   media_count: "10"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Had another fun trip on @americanrover."

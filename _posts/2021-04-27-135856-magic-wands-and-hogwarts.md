@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2021-04-27-135856-magic-wands-and-hogwarts
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Magic wands and Hogwarts"

@@ -26,12 +26,8 @@ images:
   - id: "2019/09/29/17847208795642735.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Just a little housework"

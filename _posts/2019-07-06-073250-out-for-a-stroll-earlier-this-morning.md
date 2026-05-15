@@ -20,12 +20,8 @@ images:
   - id: "2019/07/06/17987118199247498.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Out for a stroll earlier this morning"

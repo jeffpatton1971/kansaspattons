@@ -18,11 +18,9 @@ related:
     id: wordpress-2013-03-31-130041-march-31-2013-2
     rel: photos
 categories:
-  - "family"
-  - holidays
-  - "Easter"
-tags:
-  - "wordpress"
+  - Easter
+  - Family
+  - Holidays
 authors:
   - "Jeff Patton"
 summary: "It looks like the Easter bunny found our house!"

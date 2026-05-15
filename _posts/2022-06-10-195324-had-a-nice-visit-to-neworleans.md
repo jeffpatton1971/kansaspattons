@@ -24,10 +24,6 @@ hashtags:
   - "neworleans"
 handles: []
 location:
-tags:
-  - "neworleans"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had a nice visit to #neworleans"

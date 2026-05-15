@@ -20,12 +20,8 @@ images:
   - id: "2018/04/18/17925352759098115.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "First game of the season"

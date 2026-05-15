@@ -31,11 +31,6 @@ hashtags:
   - "kansas"
 handles: []
 location:
-tags:
-  - "goodmorning"
-  - "kansas"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#goodmorning #kansas"

@@ -23,14 +23,11 @@ images:
   - id: "2018/09/25/17985036628006220.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
-  - "Nathan"
-  - "cancer"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "Fun way to end Childhood Cancer Awareness month. Having a party at SkyZone with some of the friends we met while going through cancer with Nathan"

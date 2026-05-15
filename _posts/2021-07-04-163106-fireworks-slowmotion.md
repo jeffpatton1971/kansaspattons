@@ -25,11 +25,6 @@ hashtags:
   - "slowmotion"
 handles: []
 location:
-tags:
-  - "fireworks"
-  - "slowmotion"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#fireworks #slowmotion"

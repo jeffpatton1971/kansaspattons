@@ -11,10 +11,7 @@ source:
   media_count: "6"
   cross_post_source: FB
 categories:
-  - cancer
-tags:
-  - instagram
-  - gallery
+  - Cancer
 authors:
   - "Jeff Patton"
 summary: "6 images related to This month my son will be 10yrs cancer free. He was diagnosed with hepatoblastoma at 2yrs ...."

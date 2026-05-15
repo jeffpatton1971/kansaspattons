@@ -26,12 +26,8 @@ images:
   - id: "2023/09/18/17990455268470057.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "It’s hard to believe that my little princess is 20"

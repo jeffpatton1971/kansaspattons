@@ -20,12 +20,8 @@ images:
   - id: "2018/05/06/17943079462049076.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "These two have been playing together since first grade. ❤️ these two"

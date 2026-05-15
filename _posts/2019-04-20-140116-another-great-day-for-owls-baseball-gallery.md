@@ -10,9 +10,6 @@ source:
   id: instagram-2019-04-20-140116-another-great-day-for-owls-baseball
   media_count: "6"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to Another great day for Owls baseball."

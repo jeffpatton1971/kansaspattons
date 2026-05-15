@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "hope everyone had a fun and safe fourth"

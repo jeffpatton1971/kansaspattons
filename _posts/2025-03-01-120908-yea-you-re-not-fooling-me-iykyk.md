@@ -24,10 +24,6 @@ hashtags:
   - "iykyk"
 handles: []
 location:
-tags:
-  - "iykyk"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Yea…you’re not fooling me… #iykyk 😂"

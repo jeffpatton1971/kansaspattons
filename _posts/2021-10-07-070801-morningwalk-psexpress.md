@@ -25,11 +25,6 @@ hashtags:
   - "psexpress"
 handles: []
 location:
-tags:
-  - "morningwalk"
-  - "psexpress"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#morningwalk #psexpress"

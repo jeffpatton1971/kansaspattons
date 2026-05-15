@@ -26,12 +26,8 @@ images:
   - id: "2023/06/11/18007553050743214.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "long day but we made it"

@@ -12,9 +12,6 @@ source:
   cross_post_source: FB
 categories:
   - Nathan
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Nathan’s class visited Farpoint tonight, we got to see the Milky Way and all the stars he’...."

@@ -20,13 +20,9 @@ related:
   - type: gallery
     id: instagram-2019-10-02-175822-a-small-selection-from-kindle-iamkimcurry
     rel: photos
-hashtags: []
 handles:
   - "iamkimcurry"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "A small selection from Kindle @iamkimcurry"

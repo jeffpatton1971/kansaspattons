@@ -10,13 +10,11 @@ source:
   id: instagram-2020-11-15-111748-woodworking
   media_count: "4"
   cross_post_source: FB
-tags:
-  - woodworking
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to #woodworking."
+hashtags:
+  - woodworking
 gallery: instagram-2020-11-15-111748-woodworking
 cover_image: "2020/11/15/17977368124326077.jpg"
 images:

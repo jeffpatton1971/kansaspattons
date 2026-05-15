@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2025-03-21-154354-first-trip-to-a-comic-con-and-it-was-fun-next-year-we-ll-have-a-plan
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "First trip to a Comic-Con and it was fun! Next year we’ll have a plan! 😂😂"

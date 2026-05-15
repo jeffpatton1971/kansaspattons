@@ -20,12 +20,8 @@ images:
   - id: "2019/03/27/18027526546125512.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Moms are mean dads are fun"

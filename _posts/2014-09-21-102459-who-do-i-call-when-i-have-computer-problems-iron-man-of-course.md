@@ -20,12 +20,8 @@ images:
   - id: "2014/09/21/17843351410063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Who do I call when I have computer problems? Iron Man of course!"

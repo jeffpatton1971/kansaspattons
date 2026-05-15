@@ -10,9 +10,6 @@ source:
   id: instagram-2018-09-23-092729-was-a-fun-evening-after-keynundrum
   media_count: "4"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Was a fun evening after keynundrum."

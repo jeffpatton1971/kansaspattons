@@ -20,14 +20,10 @@ related:
   - type: gallery
     id: instagram-2019-05-30-201215-after-a-visit-with-the-audiologists-at-childrensmercy-off-to-have-some-fun-at
     rel: photos
-hashtags: []
 handles:
   - "childrensmercy"
   - "daveandbusters"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "After a visit with the audiologists at @childrensmercy off to have some fun at @daveandbusters"

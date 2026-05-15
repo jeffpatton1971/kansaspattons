@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2022-05-07-161020-had-a-fun-and-educational-visit
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had a fun and educational visit"

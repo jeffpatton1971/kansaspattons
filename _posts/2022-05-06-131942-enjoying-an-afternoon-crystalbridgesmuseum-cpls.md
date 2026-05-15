@@ -25,9 +25,6 @@ hashtags:
 handles:
   - "crystalbridgesmuseum"
 location:
-tags:
-  - "cpls"
-  - "instagram"
 categories:
   - "CPLS"
 authors:

@@ -20,12 +20,8 @@ images:
   - id: "2018/08/25/17952056581089788.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "So many kids in the hot tub"

@@ -24,10 +24,6 @@ hashtags:
   - "superbowl"
 handles: []
 location:
-tags:
-  - "superbowl"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Thanks to my daughter I’m ready for the #SuperBowl"

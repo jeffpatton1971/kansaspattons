@@ -20,13 +20,9 @@ images:
   - id: "2014/06/18/17843314033063547.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "kcroyals"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Be Royal @kcroyals"

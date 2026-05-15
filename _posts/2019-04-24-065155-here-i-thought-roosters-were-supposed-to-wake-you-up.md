@@ -23,12 +23,8 @@ images:
   - id: "2019/04/24/17924862601294869.mp4"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Here I thought roosters were supposed to wake you up!!"

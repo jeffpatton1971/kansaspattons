@@ -12,9 +12,8 @@ related:
   - type: gallery
     id: gallery-2009-11-02
     rel: photos
-categories: natalie
-tags:
-  - "wordpress"
+categories:
+  - Natalie
 author:     Jeff
 authors:
   - Jeff

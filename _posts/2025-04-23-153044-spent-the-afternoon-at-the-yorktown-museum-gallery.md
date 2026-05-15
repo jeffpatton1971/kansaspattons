@@ -10,9 +10,6 @@ source:
   id: instagram-2025-04-23-153044-spent-the-afternoon-at-the-yorktown-museum
   media_count: "10"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Spent the afternoon at the Yorktown museum."

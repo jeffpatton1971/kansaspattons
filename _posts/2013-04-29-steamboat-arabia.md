@@ -18,11 +18,9 @@ related:
     id: wordpress-2013-04-29-221344-april-29-2013
     rel: photos
 categories:
-  - "Natalie"
-  - "CPLS"
-  - field-trips
-tags:
-  - "wordpress"
+  - CPLS
+  - Field-Trips
+  - Natalie
 authors:
   - "Jeff Patton"
 summary: "Today was the field trip for the third grade class, we visited the Steamboat Arabia museum in Kansas City. The Arabia sank in 1856 with about 200 ton of merchandise destined for people headed west. It sank in the Missouri river and was disc"

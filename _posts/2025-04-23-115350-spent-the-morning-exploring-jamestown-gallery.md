@@ -10,9 +10,6 @@ source:
   id: instagram-2025-04-23-115350-spent-the-morning-exploring-jamestown
   media_count: "10"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Spent the morning exploring Jamestown."

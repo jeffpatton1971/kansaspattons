@@ -20,11 +20,8 @@ related:
   - type: gallery
     id: instagram-2025-11-28-202218-christmas-parade
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Christmas"
 authors:

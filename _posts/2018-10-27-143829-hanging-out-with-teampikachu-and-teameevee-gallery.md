@@ -10,14 +10,12 @@ source:
   id: instagram-2018-10-27-143829-hanging-out-with-teampikachu-and-teameevee
   media_count: "5"
   cross_post_source: FB
-tags:
-  - teampikachu
-  - teameevee
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "5 images related to Hanging out with #TeamPikachu and #TeamEevee."
+hashtags:
+  - teameevee
+  - teampikachu
 gallery: instagram-2018-10-27-143829-hanging-out-with-teampikachu-and-teameevee
 cover_image: "2018/10/27/17965480015133187.jpg"
 images:

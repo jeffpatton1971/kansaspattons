@@ -24,17 +24,11 @@ images:
     caption:
     alt:
 hashtags:
-  - "cicgars"
-  - "rackers"
-  - "family"
+  - cicgars
+  - family
+  - rackers
 handles: []
 location:
-tags:
-  - "cicgars"
-  - "rackers"
-  - "family"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Lovely evening smoking #cicgars with former and current #rackers.  #family"

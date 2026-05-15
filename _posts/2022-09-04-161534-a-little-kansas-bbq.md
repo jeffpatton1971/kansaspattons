@@ -27,10 +27,6 @@ hashtags:
   - "kansas"
 handles: []
 location:
-tags:
-  - "kansas"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "A little #kansas bbq"

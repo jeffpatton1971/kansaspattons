@@ -23,12 +23,8 @@ images:
   - id: "2025/05/18/18065263345841670.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Always appreciate the help but…"

@@ -10,9 +10,6 @@ source:
   id: instagram-2018-05-26-110324-8th-grade-graduation-banquet
   media_count: "5"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "5 images related to 8th grade graduation banquet."

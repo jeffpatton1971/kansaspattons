@@ -20,12 +20,8 @@ images:
   - id: "2014/09/06/17841813139063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Two peas in a hot tub!"

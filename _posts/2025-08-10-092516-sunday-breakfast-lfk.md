@@ -21,17 +21,11 @@ images:
     caption:
     alt:
 hashtags:
-  - "sunday"
-  - "breakfast"
-  - "lfk"
+  - breakfast
+  - lfk
+  - sunday
 handles: []
 location:
-tags:
-  - "sunday"
-  - "breakfast"
-  - "lfk"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#sunday #breakfast #lfk"

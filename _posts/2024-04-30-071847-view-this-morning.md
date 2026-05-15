@@ -20,12 +20,8 @@ images:
   - id: "2024/04/30/17917951085813517.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "View this morning"

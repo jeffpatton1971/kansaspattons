@@ -20,12 +20,8 @@ images:
   - id: "2014/06/14/17843312158063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Walking with the kids"

@@ -20,13 +20,10 @@ images:
   - id: "2014/03/04/17842454386063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
-  - "cancer"
+  - Cancer
 authors:
   - "Jeff Patton"
 summary: "Malia and I at the Optimist lunch benefit to fight childhood cancer"

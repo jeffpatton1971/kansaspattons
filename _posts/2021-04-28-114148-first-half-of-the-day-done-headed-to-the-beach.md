@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2021-04-28-114148-first-half-of-the-day-done-headed-to-the-beach
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "First half of the day done... headed to the beach"

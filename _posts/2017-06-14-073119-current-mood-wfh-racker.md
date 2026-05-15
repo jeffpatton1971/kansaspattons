@@ -21,15 +21,10 @@ images:
     caption:
     alt:
 hashtags:
-  - "wfh"
-  - "racker"
+  - racker
+  - wfh
 handles: []
 location:
-tags:
-  - "wfh"
-  - "racker"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Current mood #wfh #racker"

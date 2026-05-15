@@ -10,13 +10,11 @@ source:
   id: instagram-2024-10-27-122700-watching-a-polo-match-for-the-first-time-with-mom
   media_count: "4"
   cross_post_source: FB
-tags:
-  - polo
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Watching a #polo match for the first time with mom."
+hashtags:
+  - polo
 gallery: instagram-2024-10-27-122700-watching-a-polo-match-for-the-first-time-with-mom
 cover_image: "2024/10/27/17936142797922432.jpg"
 images:

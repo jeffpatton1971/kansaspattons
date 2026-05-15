@@ -20,12 +20,8 @@ images:
   - id: "2025/02/16/18053311949110641.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Sunday Morning breakfast"

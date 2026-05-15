@@ -24,10 +24,6 @@ hashtags:
   - "nofilter"
 handles: []
 location:
-tags:
-  - "nofilter"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Pink enough today #nofilter"

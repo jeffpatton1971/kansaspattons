@@ -20,12 +20,8 @@ images:
   - id: "2014/05/25/17842502437063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Heading home...\"Everything is awesome!\""

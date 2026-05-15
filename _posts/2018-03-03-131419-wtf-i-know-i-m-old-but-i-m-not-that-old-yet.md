@@ -20,12 +20,8 @@ images:
   - id: "2018/03/03/17928187648029848.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "WTF?!?! I know I’m old but I’m not that old yet!!"

@@ -10,13 +10,11 @@ source:
   id: instagram-2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely
   media_count: "9"
   cross_post_source: FB
-tags:
-  - oceancaymscmarinereserve
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "9 images related to Round 4 of cruise pictures these were at #oceancaymscmarinereserve lovely weather and lots...."
+hashtags:
+  - oceancaymscmarinereserve
 gallery: instagram-2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely
 cover_image: "2024/06/25/18043096612891372.jpg"
 images:

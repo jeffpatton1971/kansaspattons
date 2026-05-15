@@ -20,13 +20,9 @@ related:
   - type: gallery
     id: instagram-2025-08-02-165920-had-a-great-time-with-nater-potater123-today
     rel: photos
-hashtags: []
 handles:
   - "nater_potater123"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had a great time with @nater_potater123 today"

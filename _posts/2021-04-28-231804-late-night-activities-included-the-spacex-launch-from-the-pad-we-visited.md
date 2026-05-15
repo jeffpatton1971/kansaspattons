@@ -26,13 +26,9 @@ images:
   - id: "2021/04/28/17930632954538454.mp4"
     caption:
     alt:
-hashtags: []
 handles:
   - "spacex"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Late night activities included the @spacex  launch from the pad we visited earlier today!"

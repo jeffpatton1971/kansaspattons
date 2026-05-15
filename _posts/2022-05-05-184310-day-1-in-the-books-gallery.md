@@ -10,9 +10,6 @@ source:
   id: instagram-2022-05-05-184310-day-1-in-the-books
   media_count: "7"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to Day 1 in the books."

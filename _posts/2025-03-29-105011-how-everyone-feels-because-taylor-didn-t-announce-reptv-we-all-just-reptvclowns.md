@@ -25,11 +25,6 @@ hashtags:
   - "reptvclowns"
 handles: []
 location:
-tags:
-  - "reptv"
-  - "reptvclowns"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "How everyone feels because Taylor didn’t announce #reptv we all just #reptvclowns"

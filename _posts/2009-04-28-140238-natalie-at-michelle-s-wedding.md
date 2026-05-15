@@ -18,10 +18,6 @@ album:
   media_count: 5
   date_start: 2009-04-28 14:02:38
   date_end: 2009-04-28 14:02:38
-categories:
-  - facebook
-  - album
-tags: []
 gallery: facebook-2009-04-28-140238-natalie-at-michelle-s-wedding
 cover_image: "2009/04/28/77122763339.jpg"
 images:

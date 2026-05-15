@@ -20,12 +20,8 @@ images:
   - id: "2013/12/09/17842411315063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Getting ready for the concert"

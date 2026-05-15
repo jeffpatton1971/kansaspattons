@@ -10,9 +10,6 @@ source:
   id: instagram-2023-10-04-225045-7th-and-8th-grade-camp-out
   media_count: "4"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to 7th and 8th grade camp out."

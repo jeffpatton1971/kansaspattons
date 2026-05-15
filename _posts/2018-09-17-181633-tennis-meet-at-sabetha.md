@@ -26,12 +26,8 @@ images:
   - id: "2018/09/17/17953053865185105.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Tennis meet at Sabetha"

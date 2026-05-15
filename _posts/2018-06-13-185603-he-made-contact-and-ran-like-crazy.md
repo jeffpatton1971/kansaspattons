@@ -20,12 +20,8 @@ images:
   - id: "2018/06/13/17939178040103551.mp4"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "He made contact and ran like crazy"

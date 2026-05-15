@@ -26,11 +26,6 @@ hashtags:
 handles:
   - "mlb"
 location:
-tags:
-  - "beroyalkc"
-  - "royals"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Been waiting for this to update @mlb #beroyalkc #royals"

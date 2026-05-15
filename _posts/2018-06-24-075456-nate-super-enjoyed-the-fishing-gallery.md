@@ -12,9 +12,6 @@ source:
   cross_post_source: FB
 categories:
   - Nathan
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Nate super enjoyed the fishing."

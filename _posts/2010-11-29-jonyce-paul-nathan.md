@@ -18,12 +18,10 @@ related:
     id: wordpress-2010-11-29-175900-november-29-2011
     rel: photos
 categories:
-  - "family"
-  - "holidays"
-  - "Nathan"
-  - "Thanksgiving"
-tags:
-  - "wordpress"
+  - Family
+  - Holidays
+  - Nathan
+  - Thanksgiving
 authors:
   - "Jeff Patton"
 summary: "November has been a pretty wild month around here! My sister arrived from Chicago with her daughter Mary, with her husband to follow a few days later. My sister and Mary spent a week with us, time certainly flew. A baby shower for Malia and"

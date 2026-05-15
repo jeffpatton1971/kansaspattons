@@ -24,10 +24,6 @@ hashtags:
   - "cincodemayo"
 handles: []
 location:
-tags:
-  - "cincodemayo"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#cincodemayo dinner with my favorite daughter"

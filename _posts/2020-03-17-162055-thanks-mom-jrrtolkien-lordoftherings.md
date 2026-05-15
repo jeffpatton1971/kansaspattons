@@ -25,11 +25,6 @@ hashtags:
   - "lordoftherings"
 handles: []
 location:
-tags:
-  - "jrrtolkien"
-  - "lordoftherings"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Thanks Mom #jrrtolkien #lordoftherings"

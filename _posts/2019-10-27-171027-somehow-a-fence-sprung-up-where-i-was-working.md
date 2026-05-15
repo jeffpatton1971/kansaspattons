@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2019-10-27-171027-somehow-a-fence-sprung-up-where-i-was-working
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Somehow a fence sprung up where I was working!"

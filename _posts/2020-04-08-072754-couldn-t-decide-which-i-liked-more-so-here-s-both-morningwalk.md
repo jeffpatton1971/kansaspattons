@@ -27,10 +27,6 @@ hashtags:
   - "morningwalk"
 handles: []
 location:
-tags:
-  - "morningwalk"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Couldn’t decide which I liked more so here’s both #morningwalk"

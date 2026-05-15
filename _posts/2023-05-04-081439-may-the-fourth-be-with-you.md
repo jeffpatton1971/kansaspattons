@@ -19,12 +19,8 @@ images:
   - id: "2023/05/04/18245994211090038.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "May the fourth be with you"

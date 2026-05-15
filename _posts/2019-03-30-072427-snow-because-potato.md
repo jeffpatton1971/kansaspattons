@@ -20,12 +20,8 @@ images:
   - id: "2019/03/30/17949203947270461.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Snow...because potato!"

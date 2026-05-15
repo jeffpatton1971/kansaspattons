@@ -18,10 +18,8 @@ images:
     caption:
     alt:
 categories:
-  - "family"
-  - "Natalie"
-tags:
-  - "wordpress"
+  - Family
+  - Natalie
 authors:
   - "Jeff Patton"
 summary: "My mom took Natalie and her cousins, Mary and Sarah for a day with great grandpa! I remember when I was a kid we would fly to Kansas for the summers and spend time with grandma and grandpa. I always had the best time with grandpa, working i"

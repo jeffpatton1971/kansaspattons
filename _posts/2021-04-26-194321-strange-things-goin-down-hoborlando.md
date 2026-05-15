@@ -26,13 +26,9 @@ images:
   - id: "2021/04/26/17883080810240063.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "hoborlando"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Strange things goin down @hoborlando"

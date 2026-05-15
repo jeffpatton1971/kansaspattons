@@ -25,10 +25,6 @@ hashtags:
   - "hepatoblastoma"
 handles: []
 location:
-tags:
-  - "childhoodcancer"
-  - "hepatoblastoma"
-  - "instagram"
 categories:
   - "Nathan"
 authors:

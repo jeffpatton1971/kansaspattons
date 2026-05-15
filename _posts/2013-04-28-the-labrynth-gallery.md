@@ -10,11 +10,8 @@ source:
   id: "400"
   url: "https://jeffspatton.wordpress.com/2013/04/28/april-28-2013/"
 categories:
-  - Natalie
   - CPLS
-tags:
-  - wordpress
-  - gallery
+  - Natalie
 authors:
   - "Jeff Patton"
 summary: "10 images related to The Labrynth."

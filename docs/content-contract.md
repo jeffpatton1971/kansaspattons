@@ -109,6 +109,9 @@ into `hashtags` when they are topical labels. Import/system labels such as
 `wordpress`, `instagram`, and `facebook` should move into `legacy.source` or
 published metrics, not user-facing tags.
 
+Current normalization also removes migration-only labels such as `gallery` and
+`album` from user-facing taxonomy fields.
+
 `categories` are provisional. They can remain as an optional field while we
 decide whether we need curated site sections, but they should not be required
 for routing, search, or filtering yet.

@@ -12,9 +12,6 @@ source:
   cross_post_source: FB
 categories:
   - Natalie
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Natalie’s first meet, her doubles team won!."

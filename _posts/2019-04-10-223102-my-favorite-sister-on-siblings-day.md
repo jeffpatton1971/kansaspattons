@@ -20,12 +20,8 @@ images:
   - id: "2019/04/10/17870450119349690.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "My favorite sister on siblings day!"

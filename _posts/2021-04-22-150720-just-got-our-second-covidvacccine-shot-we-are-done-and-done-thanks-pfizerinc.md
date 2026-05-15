@@ -25,10 +25,6 @@ hashtags:
 handles:
   - "pfizerinc"
 location:
-tags:
-  - "covidvacccine"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Just got our second  #covidvacccine shot we are done and done! Thanks @pfizerinc"

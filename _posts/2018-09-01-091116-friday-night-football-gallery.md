@@ -10,9 +10,6 @@ source:
   id: instagram-2018-09-01-091116-friday-night-football
   media_count: "6"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to Friday night football."

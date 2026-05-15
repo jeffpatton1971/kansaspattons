@@ -10,9 +10,6 @@ source:
   id: instagram-2019-07-08-155520-a-fun-little-trip
   media_count: "9"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "9 images related to A fun little trip."

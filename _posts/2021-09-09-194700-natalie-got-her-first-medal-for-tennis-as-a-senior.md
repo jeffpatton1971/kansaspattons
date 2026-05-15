@@ -20,11 +20,8 @@ images:
   - id: "2021/09/09/17898778235321936.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Natalie"
 authors:

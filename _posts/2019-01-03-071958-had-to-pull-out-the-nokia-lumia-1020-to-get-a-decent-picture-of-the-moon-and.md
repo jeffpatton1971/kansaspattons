@@ -24,10 +24,6 @@ hashtags:
   - "nokia"
 handles: []
 location:
-tags:
-  - "nokia"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had to pull out the #Nokia Lumia 1020 to get a decent picture of the moon and stars this morning"

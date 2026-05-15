@@ -10,9 +10,6 @@ source:
   id: instagram-2022-05-07-161020-had-a-fun-and-educational-visit
   media_count: "7"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to Had a fun and educational visit."

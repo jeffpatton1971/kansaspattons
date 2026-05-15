@@ -1238,3 +1238,52 @@ Detailed working notes for the React migration live here. This file is intention
   - `npm run build` passed and generated `1,109` entries, `305` galleries, and
     `8,526` images.
   - `npm run api:build` passed.
+
+### Taxonomy Normalization
+
+- Added `scripts/normalize-taxonomy.ts`.
+- Added npm commands:
+  - `npm run taxonomy:normalize`
+  - `npm run taxonomy:normalize:write`
+- The taxonomy migration:
+  - Removes the transitional `tags` field from authored Markdown.
+  - Folds topical tag values into `hashtags`.
+  - Normalizes hashtags by stripping leading `#`, removing whitespace, and
+    lowercasing.
+  - Removes source/import labels from user-facing taxonomy:
+    - `wordpress`
+    - `instagram`
+    - `facebook`
+    - `gallery`
+    - `album`
+  - Normalizes category duplicates and casing while preserving `CPLS` as an
+    acronym.
+- First write pass:
+  - Normalized taxonomy in `1,418` content files.
+  - Removed `1,418` tag fields.
+  - Changed `703` hashtag fields.
+  - Changed `922` category fields.
+  - Folded `2,194` tag values into hashtags.
+  - Removed `1,735` source/import taxonomy values.
+- Follow-up write pass fixed the file comparison so category casing and already
+  present hashtags were actually rewritten, not just normalized in-memory:
+  - Normalized `218` additional content files.
+  - Changed `42` hashtag fields.
+  - Changed `179` category fields.
+- Updated the content validator to fail if source/import labels return to
+  `tags`, `hashtags`, or `categories`, or if duplicate taxonomy values are
+  present after normalization.
+- Removed raw `sourceType` labels from post and story detail headers so
+  `wordpress`, `instagram`, and `facebook` are no longer displayed as content
+  metadata to readers.
+- Final taxonomy state:
+  - `tags: 0`
+  - `hashtags: 213` unique values.
+  - `categories: 32` unique values.
+  - `systemTaxonomyPresent: 0`.
+- Verification:
+  - `npm run taxonomy:normalize` reports zero pending changes.
+  - `npm run content:validate` passed with `0` errors and `0` warnings.
+  - `npm run build` passed and generated `1,109` entries, `305` galleries, and
+    `8,526` images.
+  - `npm run api:build` passed.

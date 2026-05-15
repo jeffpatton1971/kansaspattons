@@ -20,12 +20,8 @@ images:
   - id: "2021/05/21/17888698250183672.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "I thought this little guy had died"

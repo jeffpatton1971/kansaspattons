@@ -10,13 +10,11 @@ source:
   id: instagram-2023-06-17-213145-had-fun-at-our-firstrodeo
   media_count: "10"
   cross_post_source: FB
-tags:
-  - firstrodeo
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Had fun at our #firstrodeo."
+hashtags:
+  - firstrodeo
 gallery: instagram-2023-06-17-213145-had-fun-at-our-firstrodeo
 cover_image: "2023/06/17/17981028932209060.jpg"
 images:

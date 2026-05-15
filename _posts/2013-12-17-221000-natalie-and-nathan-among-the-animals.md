@@ -20,11 +20,8 @@ images:
   - id: "2013/12/17/17842415110063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Natalie"
   - "Nathan"

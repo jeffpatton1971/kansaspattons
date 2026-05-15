@@ -12,13 +12,11 @@ source:
   cross_post_source: FB
 categories:
   - Natalie
-tags:
-  - tennis
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to Watching #tennis today with @natalie.15.2003."
+hashtags:
+  - tennis
 gallery: instagram-2025-04-17-130211-watching-tennis-today-with-natalie-15-2003
 cover_image: "2025/04/17/18100916023514104.jpg"
 images:

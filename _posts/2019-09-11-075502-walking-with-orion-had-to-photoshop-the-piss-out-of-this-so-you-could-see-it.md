@@ -20,12 +20,8 @@ images:
   - id: "2019/09/11/18019768948234141.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Walking with Orion...had to photoshop the piss out of this so you could see it"

@@ -20,12 +20,8 @@ images:
   - id: "2019/09/14/17842882306668827.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Working hard...hardly working..."

@@ -20,12 +20,8 @@ images:
   - id: "2018/04/24/17940507646039818.mp4"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Good wholesome fun...amiright?"

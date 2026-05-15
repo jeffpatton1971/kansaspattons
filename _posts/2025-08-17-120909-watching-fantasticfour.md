@@ -20,13 +20,9 @@ images:
   - id: "2025/08/17/17981641622728774.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "fantasticfour"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Watching @fantasticfour"

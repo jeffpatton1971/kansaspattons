@@ -18,12 +18,10 @@ related:
     id: wordpress-2013-07-04-072530-july-4-2013
     rel: photos
 categories:
-  - "family"
-  - summer
-  - holidays
+  - Family
+  - Holidays
   - "July 4th"
-tags:
-  - "wordpress"
+  - Summer
 authors:
   - "Jeff Patton"
 summary: "My all time favorite holiday! We took some cute pictures of the kids with the flag in the morning, but really didn’t do much most of the day. In fact the kids fell asleep that afternoon and we hadn’t even done anything yet! We hit the firew"

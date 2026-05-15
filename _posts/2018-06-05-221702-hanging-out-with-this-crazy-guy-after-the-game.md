@@ -20,12 +20,8 @@ images:
   - id: "2018/06/05/17843212453279817.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Hanging out with this crazy guy after the game"

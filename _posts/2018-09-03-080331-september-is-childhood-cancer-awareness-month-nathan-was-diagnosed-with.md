@@ -20,14 +20,11 @@ images:
   - id: "2018/09/03/17974473844008708.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
-  - "Nathan"
-  - "cancer"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "September is Childhood Cancer Awareness month. Nathan was diagnosed with hepatoblastoma at 2, within 6 months the cancerous portion of his liver was removed. It’s fitting that this month he will be declared 5yrs cancer free, a milestone."

@@ -20,12 +20,8 @@ images:
   - id: "2018/08/25/17952272044084135.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Everyone in the hot tub!"

@@ -20,12 +20,8 @@ images:
   - id: "2016/05/30/17857324636021561.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Float like a butterfly, swing like a flea!"

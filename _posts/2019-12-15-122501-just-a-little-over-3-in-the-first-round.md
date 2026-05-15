@@ -20,12 +20,8 @@ images:
   - id: "2019/12/15/17849158153776828.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Just a little over 3” in the first round"

@@ -239,6 +239,17 @@ That migration aligns authored Markdown with the final `post` terminology by
 rewriting old `article` compatibility values in `content_type`, `related.type`,
 and companion relationship names.
 
+User-facing taxonomy can be normalized with:
+
+```powershell
+npm run taxonomy:normalize
+npm run taxonomy:normalize:write
+```
+
+That migration folds `tags` into normalized `hashtags`, removes import/source
+labels such as `wordpress`, `instagram`, `facebook`, `gallery`, and `album`
+from user-facing taxonomy fields, and normalizes duplicate category casing.
+
 ## Collision Policy
 
 Filename collisions are acceptable during draft authoring because filenames are scoped at publish time.

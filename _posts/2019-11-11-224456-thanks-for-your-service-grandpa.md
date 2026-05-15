@@ -20,11 +20,8 @@ images:
   - id: "2019/11/11/17844518278759085.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Grandpa"
 authors:

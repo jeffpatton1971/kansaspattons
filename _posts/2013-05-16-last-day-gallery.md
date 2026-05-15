@@ -10,12 +10,9 @@ source:
   id: "464"
   url: "https://jeffspatton.wordpress.com/2013/05/16/may-16-2013/"
 categories:
-  - Natalie
   - CPLS
-  - last-day
-tags:
-  - wordpress
-  - gallery
+  - Last-Day
+  - Natalie
 authors:
   - "Jeff Patton"
 summary: "39 images related to Last Day of 3rd Grade."

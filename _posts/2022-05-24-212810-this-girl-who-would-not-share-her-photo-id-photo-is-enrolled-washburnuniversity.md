@@ -20,13 +20,9 @@ images:
   - id: "2022/05/24/17962496050676801.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "washburnuniversity"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "This girl…who would not share her photo ID photo…is enrolled @washburnuniversity"

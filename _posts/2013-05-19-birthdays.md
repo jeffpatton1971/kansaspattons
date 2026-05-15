@@ -18,12 +18,10 @@ related:
     id: wordpress-2013-05-19-074516-may-19-2013
     rel: photos
 categories:
-  - "children"
-  - "family"
-  - "Natalie"
-  - "Nathan"
-tags:
-  - "wordpress"
+  - Children
+  - Family
+  - Natalie
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "We celebrated birthday’s today, my mom likes getting everyone together every few months to collectively celebrate birthdays. It was a fun day, lots of family, lunch at the McDonald’s playland, a visit from a skink and a thunderstorm!"

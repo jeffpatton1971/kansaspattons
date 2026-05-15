@@ -20,12 +20,8 @@ images:
   - id: "2025/03/29/18070680892881022.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Wavy clouds tonight"

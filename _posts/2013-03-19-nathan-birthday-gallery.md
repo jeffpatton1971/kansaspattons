@@ -10,12 +10,9 @@ source:
   id: "154"
   url: "https://jeffspatton.wordpress.com/2013/03/19/march-19-2013/"
 categories:
-  - family
+  - Birthdays
+  - Family
   - Nathan
-  - birthdays
-tags:
-  - wordpress
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "32 images related to Nathan's 2nd Birthday."

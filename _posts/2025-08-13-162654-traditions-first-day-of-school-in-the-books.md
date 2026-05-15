@@ -30,10 +30,6 @@ hashtags:
   - "traditions"
 handles: []
 location:
-tags:
-  - "traditions"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#traditions first day of school in the books"

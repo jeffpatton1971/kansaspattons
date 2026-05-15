@@ -25,11 +25,6 @@ hashtags:
   - "kansas"
 handles: []
 location:
-tags:
-  - "goodmorning"
-  - "kansas"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#goodmorning #kansas fortunately the wind was blowing the storm away"

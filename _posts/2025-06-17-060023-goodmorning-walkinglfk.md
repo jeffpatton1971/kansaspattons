@@ -28,11 +28,6 @@ hashtags:
   - "walkinglfk"
 handles: []
 location:
-tags:
-  - "goodmorning"
-  - "walkinglfk"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#goodmorning #walkinglfk"

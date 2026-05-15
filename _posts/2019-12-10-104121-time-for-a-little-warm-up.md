@@ -20,12 +20,8 @@ images:
   - id: "2019/12/10/17900860885410273.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Time for a little warm-up"

@@ -10,9 +10,6 @@ source:
   id: instagram-2022-05-06-150244-some-more-exploring-after-lunch
   media_count: "10"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Some more exploring after lunch."

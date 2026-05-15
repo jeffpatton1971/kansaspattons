@@ -31,11 +31,6 @@ hashtags:
   - "sunflowers"
 handles: []
 location:
-tags:
-  - "kansas"
-  - "sunflowers"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#kansas #sunflowers"

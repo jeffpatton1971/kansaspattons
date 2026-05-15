@@ -20,14 +20,10 @@ related:
   - type: gallery
     id: instagram-2019-05-03-105430-had-a-wonderful-time-at-lostvalleyranch-with-cairparaveltopeka-thanks-for-the
     rel: photos
-hashtags: []
 handles:
   - "lostvalleyranch"
   - "cairparaveltopeka"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had a wonderful time at @lostvalleyranch with @cairparaveltopeka thanks for the lifetime memories"

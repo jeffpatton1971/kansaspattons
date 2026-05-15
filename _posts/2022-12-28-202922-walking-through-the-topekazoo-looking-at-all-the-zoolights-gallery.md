@@ -10,13 +10,11 @@ source:
   id: instagram-2022-12-28-202922-walking-through-the-topekazoo-looking-at-all-the-zoolights
   media_count: "10"
   cross_post_source: FB
-tags:
-  - zoolights
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Walking through the @topekazoo looking at all the #zoolights."
+hashtags:
+  - zoolights
 gallery: instagram-2022-12-28-202922-walking-through-the-topekazoo-looking-at-all-the-zoolights
 cover_image: "2022/12/28/18027544963449518.jpg"
 images:

@@ -24,10 +24,6 @@ hashtags:
   - "traditions"
 handles: []
 location:
-tags:
-  - "traditions"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "last day of school #traditions"

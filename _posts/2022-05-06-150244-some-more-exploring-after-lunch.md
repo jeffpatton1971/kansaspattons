@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2022-05-06-150244-some-more-exploring-after-lunch
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Some more exploring after lunch"

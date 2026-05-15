@@ -18,10 +18,8 @@ related:
     id: wordpress-2013-08-02-162201-august-2-2013
     rel: photos
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "A few weeks ago Malia signed up for a package from Cancer Stinks, I don’t know if she found it on the web or Facebook, but his package came today. He was pretty excited about opening up the package, what kid isn’t, and got some really neat "

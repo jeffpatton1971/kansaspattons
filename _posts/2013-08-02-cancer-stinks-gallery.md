@@ -10,11 +10,8 @@ source:
   id: "1221"
   url: "https://jeffspatton.wordpress.com/2013/08/02/august-2-2013/"
 categories:
+  - Cancer
   - Nathan
-  - cancer
-tags:
-  - wordpress
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to Cancer Stinks."

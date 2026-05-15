@@ -11,10 +11,7 @@ source:
   media_count: "7"
   cross_post_source: FB
 categories:
-  - birthday
-tags:
-  - instagram
-  - gallery
+  - Birthday
 authors:
   - "Jeff Patton"
 summary: "7 images related to What an unexpectedly delightful birthday!."

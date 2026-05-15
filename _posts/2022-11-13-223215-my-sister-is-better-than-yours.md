@@ -20,12 +20,8 @@ images:
   - id: "2022/11/13/17936134643354838.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "my sister is better than yours"

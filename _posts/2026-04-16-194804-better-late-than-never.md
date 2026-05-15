@@ -23,14 +23,10 @@ images:
   - id: "2026/04/16/18109431079856917.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
 authors:
   - Jeff Patton
 summary: "Better late than never 💛🖤"
-tags:
-  - "instagram"
-categories: []
 ---
 Better late than never 💛🖤

@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2021-11-16-200315-six-days-out-my-tree
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Six days out my tree"

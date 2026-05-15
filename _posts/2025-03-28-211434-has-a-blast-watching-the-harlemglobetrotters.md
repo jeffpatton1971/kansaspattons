@@ -24,10 +24,6 @@ hashtags:
   - "harlemglobetrotters"
 handles: []
 location:
-tags:
-  - "harlemglobetrotters"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Has a blast watching the #harlemglobetrotters"

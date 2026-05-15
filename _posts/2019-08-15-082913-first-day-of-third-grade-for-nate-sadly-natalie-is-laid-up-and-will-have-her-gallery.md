@@ -13,9 +13,6 @@ source:
 categories:
   - Natalie
   - Nathan
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to First day of third grade for Nate! Sadly Natalie is laid up and will have her first day to...."

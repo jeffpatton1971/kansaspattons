@@ -24,10 +24,6 @@ hashtags:
   - "gosnapshot"
 handles: []
 location:
-tags:
-  - "gosnapshot"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "It’s fine Exeggutor, not like I’m trying to watch something 🙄 #GoSnapshot"

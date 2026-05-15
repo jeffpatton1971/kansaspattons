@@ -24,15 +24,10 @@ images:
     caption:
     alt:
 hashtags:
-  - "littleleague"
-  - "baseball"
+  - baseball
+  - littleleague
 handles: []
 location:
-tags:
-  - "littleleague"
-  - "baseball"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Taking some batting practice with my favorite baseball player #littleleague #baseball"

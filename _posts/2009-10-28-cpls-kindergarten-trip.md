@@ -13,11 +13,9 @@ related:
     id: gallery-2009-10-28
     rel: photos
 categories:
-  - "Natalie"
-  - "CPLS"
-  - field-trips
-tags:
-  - "wordpress"
+  - CPLS
+  - Field-Trips
+  - Natalie
 author:     Jeff
 authors:
   - Jeff

@@ -24,10 +24,6 @@ hashtags:
   - "squirrelsofinstagram"
 handles: []
 location:
-tags:
-  - "squirrelsofinstagram"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Make sure you get your calcium today! #squirrelsofinstagram"

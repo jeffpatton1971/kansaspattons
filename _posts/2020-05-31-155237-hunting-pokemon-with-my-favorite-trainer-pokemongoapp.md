@@ -28,10 +28,6 @@ hashtags:
 handles:
   - "pokemongoapp"
 location:
-tags:
-  - "pokemon"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Hunting #pokemon with my favorite trainer @pokemongoapp"

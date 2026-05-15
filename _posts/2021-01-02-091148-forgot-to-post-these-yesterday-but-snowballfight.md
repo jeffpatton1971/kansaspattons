@@ -27,10 +27,6 @@ hashtags:
   - "snowballfight"
 handles: []
 location:
-tags:
-  - "snowballfight"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Forgot to post these yesterday but #snowballfight"

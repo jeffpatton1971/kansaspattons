@@ -10,13 +10,11 @@ source:
   id: instagram-2025-09-12-150639-coffee-coffee-coffee
   media_count: "7"
   cross_post_source: FB
-tags:
-  - coffee
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to #coffee #coffee #coffee 🤪."
+hashtags:
+  - coffee
 gallery: instagram-2025-09-12-150639-coffee-coffee-coffee
 cover_image: "2025/09/12/18076752812002168.jpg"
 images:

@@ -12,9 +12,6 @@ source:
   cross_post_source: FB
 categories:
   - Natalie
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "5 images related to Mom and Natalie did the 5k this morning."

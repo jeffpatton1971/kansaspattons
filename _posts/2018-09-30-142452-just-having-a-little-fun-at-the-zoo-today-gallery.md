@@ -10,9 +10,6 @@ source:
   id: instagram-2018-09-30-142452-just-having-a-little-fun-at-the-zoo-today
   media_count: "10"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Just having a little fun at the zoo today!."

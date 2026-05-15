@@ -20,12 +20,8 @@ images:
   - id: "2018/05/06/17942667304019068.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "The best part of waking up..."

@@ -20,13 +20,9 @@ related:
   - type: gallery
     id: instagram-2023-07-02-202208-first-time-watching-sportingkcii-great-game-and-good-win
     rel: photos
-hashtags: []
 handles:
   - "sportingkcii"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "First time watching @sportingkcii great game and good win!"

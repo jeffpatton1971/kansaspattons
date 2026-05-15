@@ -20,12 +20,8 @@ images:
   - id: "2025/07/30/18089798686668764.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Quick breakfast today"

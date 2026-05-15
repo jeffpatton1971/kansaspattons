@@ -22,10 +22,6 @@ album:
   media_count: 1
   date_start: 2012-11-14 22:33:29
   date_end: 2012-11-14 22:33:29
-categories:
-  - facebook
-  - album
-tags: []
 authors:
   - "Jeff Patton"
 summary: "Windows 8 cover photo creator Facebook album."

@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-09-07-233900-tough-loss-but-at-least-the-rain-went-away-so-the-girls-could-cheer
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Tough loss but at least the rain went away so the girls could cheer"

@@ -20,13 +20,10 @@ images:
   - id: "2020/11/11/17887868689768040.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
-  - "fall"
+  - Fall
 authors:
   - "Jeff Patton"
 summary: "Feels like Fall today"

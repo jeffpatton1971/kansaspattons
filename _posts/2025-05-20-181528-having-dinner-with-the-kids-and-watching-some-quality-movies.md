@@ -20,12 +20,8 @@ images:
   - id: "2025/05/20/18396360676117362.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Having dinner with the kids and watching some quality movies"

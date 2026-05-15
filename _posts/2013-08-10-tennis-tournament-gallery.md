@@ -11,10 +11,7 @@ source:
   url: "https://jeffspatton.wordpress.com/2013/08/10/august-10-2013/"
 categories:
   - Natalie
-  - tennis
-tags:
-  - wordpress
-  - gallery
+  - Tennis
 authors:
   - "Jeff Patton"
 summary: "14 images related to Tennis Tournament."

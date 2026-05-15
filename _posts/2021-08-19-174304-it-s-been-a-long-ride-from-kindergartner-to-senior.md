@@ -23,12 +23,8 @@ images:
   - id: "2021/08/19/17919038701876995.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "It’s been a long ride…from Kindergartner to Senior"

@@ -20,12 +20,8 @@ images:
   - id: "2025/08/10/18039027839401729.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Coffee and thunder"

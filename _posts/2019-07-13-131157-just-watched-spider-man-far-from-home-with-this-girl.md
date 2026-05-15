@@ -20,12 +20,8 @@ images:
   - id: "2019/07/13/18055414069081453.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Just watched Spider-Man far from home with this girl!"

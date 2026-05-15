@@ -21,15 +21,10 @@ images:
     caption:
     alt:
 hashtags:
-  - "roses"
-  - "climbing_roses"
+  - climbing_roses
+  - roses
 handles: []
 location:
-tags:
-  - "roses"
-  - "climbing_roses"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Not sure what these purple things are but they are choking out my #roses. Not sure how I really feel about it though as planting #climbing_roses under the stairs may have been a bad idea. I’m inclined to let nature decide."

@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-03-04-181906-doing-a-little-building-before-bed-time
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Doing a little building before bed time"

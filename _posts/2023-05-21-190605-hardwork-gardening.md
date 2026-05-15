@@ -21,15 +21,10 @@ related:
     id: instagram-2023-05-21-190605-hardwork-gardening
     rel: photos
 hashtags:
-  - "hardwork"
-  - "gardening"
+  - gardening
+  - hardwork
 handles: []
 location:
-tags:
-  - "hardwork"
-  - "gardening"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#hardwork #gardening"

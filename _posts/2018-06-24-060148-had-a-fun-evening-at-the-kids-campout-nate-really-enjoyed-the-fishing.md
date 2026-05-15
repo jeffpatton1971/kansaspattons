@@ -20,11 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Nathan"
 authors:

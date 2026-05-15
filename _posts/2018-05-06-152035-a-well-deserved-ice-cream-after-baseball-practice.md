@@ -20,12 +20,8 @@ images:
   - id: "2018/05/06/17909205985148160.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "A well deserved ice cream after baseball practice"

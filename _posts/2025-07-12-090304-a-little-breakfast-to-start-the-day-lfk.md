@@ -24,10 +24,6 @@ hashtags:
   - "lfk"
 handles: []
 location:
-tags:
-  - "lfk"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "A little breakfast to start the day #lfk"

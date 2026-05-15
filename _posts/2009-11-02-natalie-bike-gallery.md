@@ -8,10 +8,7 @@ date: 2009-11-02 09:55:00 -0600
 source:
   type: wordpress
 categories:
-  - natalie
-tags:
-  - wordpress
-  - gallery
+  - Natalie
 authors:
   - Jeff
 summary: "7 images related to First bike ride."

@@ -10,12 +10,9 @@ source:
   id: "446"
   url: "https://jeffspatton.wordpress.com/2013/05/13/may-13-2013/"
 categories:
-  - Natalie
+  - Concerts
   - CPLS
-  - concerts
-tags:
-  - wordpress
-  - gallery
+  - Natalie
 authors:
   - "Jeff Patton"
 summary: "10 images related to Final Concert."

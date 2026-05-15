@@ -26,12 +26,8 @@ images:
   - id: "2022/04/28/18133092973266418.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "WTF crazy thing is this?"

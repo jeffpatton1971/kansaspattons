@@ -20,12 +20,8 @@ images:
   - id: "2018/09/27/17969046424110466.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Dinner with this crazy kid on this special day!!"

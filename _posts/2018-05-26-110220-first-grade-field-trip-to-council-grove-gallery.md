@@ -10,9 +10,6 @@ source:
   id: instagram-2018-05-26-110220-first-grade-field-trip-to-council-grove
   media_count: "7"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to First grade field trip to Council Grove."

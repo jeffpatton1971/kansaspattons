@@ -20,12 +20,8 @@ images:
   - id: "2018/07/04/17927153017165044.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "It’s been a fun 4th! Be safe everyone"

@@ -24,15 +24,10 @@ images:
     caption:
     alt:
 hashtags:
-  - "perspectives"
-  - "happynewyear"
+  - happynewyear
+  - perspectives
 handles: []
 location:
-tags:
-  - "perspectives"
-  - "happynewyear"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#perspectives…Yesterday we were in sunny Florida and today we are home in snowy Kansas. #happynewyear"

@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2019-06-17-223747-a-well-played-game-and-an-owls-win
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "A well played game and an owls win!"

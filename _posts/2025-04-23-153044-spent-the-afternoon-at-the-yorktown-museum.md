@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2025-04-23-153044-spent-the-afternoon-at-the-yorktown-museum
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Spent the afternoon at the Yorktown museum"

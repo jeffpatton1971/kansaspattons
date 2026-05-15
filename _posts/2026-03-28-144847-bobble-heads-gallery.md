@@ -10,9 +10,6 @@ source:
   id: instagram-2026-03-28-144847-bobble-heads
   media_count: "7"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to Bobble heads ❤️."

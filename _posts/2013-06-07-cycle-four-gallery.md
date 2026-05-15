@@ -10,11 +10,8 @@ source:
   id: "664"
   url: "https://jeffspatton.wordpress.com/2013/06/07/june-7-2013/"
 categories:
+  - Cancer
   - Nathan
-  - cancer
-tags:
-  - wordpress
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Cycle Four."

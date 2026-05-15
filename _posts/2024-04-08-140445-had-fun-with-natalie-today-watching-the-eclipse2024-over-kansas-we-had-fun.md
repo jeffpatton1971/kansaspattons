@@ -25,10 +25,6 @@ hashtags:
   - "kansas"
 handles: []
 location:
-tags:
-  - "eclipse2024"
-  - "kansas"
-  - "instagram"
 categories:
   - "Natalie"
 authors:

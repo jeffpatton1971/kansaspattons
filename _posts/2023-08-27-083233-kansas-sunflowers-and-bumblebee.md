@@ -27,17 +27,11 @@ images:
     caption:
     alt:
 hashtags:
-  - "kansas"
-  - "sunflowers"
-  - "bumblebee"
+  - bumblebee
+  - kansas
+  - sunflowers
 handles: []
 location:
-tags:
-  - "kansas"
-  - "sunflowers"
-  - "bumblebee"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#kansas #sunflowers🌻 and #bumblebee"

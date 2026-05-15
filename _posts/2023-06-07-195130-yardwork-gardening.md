@@ -27,15 +27,10 @@ images:
     caption:
     alt:
 hashtags:
-  - "yardwork"
-  - "gardening"
+  - gardening
+  - yardwork
 handles: []
 location:
-tags:
-  - "yardwork"
-  - "gardening"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#yardwork #gardening"

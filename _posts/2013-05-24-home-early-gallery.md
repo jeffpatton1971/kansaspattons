@@ -10,11 +10,8 @@ source:
   id: "564"
   url: "https://jeffspatton.wordpress.com/2013/05/24/may-24-2013/"
 categories:
+  - Cancer
   - Nathan
-  - cancer
-tags:
-  - wordpress
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to Home Early."

@@ -20,12 +20,8 @@ images:
   - id: "2019/08/27/17869267699452036.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Sunset after the rain"

@@ -20,13 +20,9 @@ images:
   - id: "2019/10/18/18085979164112263.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "cairparaveltopeka"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "58-34 @cairparaveltopeka win"

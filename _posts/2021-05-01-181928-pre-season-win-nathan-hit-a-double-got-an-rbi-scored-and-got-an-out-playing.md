@@ -30,9 +30,6 @@ hashtags:
   - "baseballlife"
 handles: []
 location:
-tags:
-  - "baseballlife"
-  - "instagram"
 categories:
   - "Nathan"
 authors:

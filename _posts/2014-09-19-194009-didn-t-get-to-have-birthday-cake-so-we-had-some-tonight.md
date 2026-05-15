@@ -20,13 +20,10 @@ images:
   - id: "2014/09/19/17843350729063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
-  - "birthday"
+  - Birthday
 authors:
   - "Jeff Patton"
 summary: "Didn't get to have birthday cake so we had some tonight!"

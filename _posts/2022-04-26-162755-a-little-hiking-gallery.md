@@ -10,9 +10,6 @@ source:
   id: instagram-2022-04-26-162755-a-little-hiking
   media_count: "6"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to A little hiking."

@@ -18,10 +18,6 @@ album:
   media_count: 20
   date_start: 2011-09-04 14:39:38
   date_end: 2011-09-04 15:43:15
-categories:
-  - facebook
-  - album
-tags: []
 gallery: facebook-2011-09-04-143938-wedding-pictures
 cover_image: "2011/09/04/10150303559748340.jpg"
 images:

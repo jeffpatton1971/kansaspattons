@@ -24,15 +24,10 @@ images:
     caption:
     alt:
 hashtags:
-  - "morningwalk"
-  - "breakfast"
+  - breakfast
+  - morningwalk
 handles: []
 location:
-tags:
-  - "morningwalk"
-  - "breakfast"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#morningwalk and #breakfast"

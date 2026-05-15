@@ -20,12 +20,8 @@ images:
   - id: "2021/07/15/17913351460805517.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Hibiscus look kinda spooky in black and white as well"

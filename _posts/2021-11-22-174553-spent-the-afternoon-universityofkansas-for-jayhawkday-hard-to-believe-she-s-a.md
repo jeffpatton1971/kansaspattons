@@ -25,10 +25,6 @@ hashtags:
 handles:
   - "universityofkansas"
 location:
-tags:
-  - "jayhawkday"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Spent the afternoon @universityofkansas for #jayhawkday hard to believe she’s a senior"

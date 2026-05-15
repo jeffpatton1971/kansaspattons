@@ -24,10 +24,6 @@ hashtags:
   - "breakfast"
 handles: []
 location:
-tags:
-  - "breakfast"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Wonderful #breakfast I did not get the quiche but it looked delicious"

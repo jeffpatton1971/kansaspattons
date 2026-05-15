@@ -18,10 +18,8 @@ related:
     id: wordpress-2013-07-26-144934-july-26-2013
     rel: photos
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "Getting pain med’s every few hours makes for long nights, thankfully it looks like his fever is starting to level out. We talked with the doctor this morning and it looks like his Hemoglobin hasn’t dropped, so I think we’re out of the woods"

@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-12-30-161044-having-some-fun-with-my-son-and-niece
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Having some fun with my son and niece"

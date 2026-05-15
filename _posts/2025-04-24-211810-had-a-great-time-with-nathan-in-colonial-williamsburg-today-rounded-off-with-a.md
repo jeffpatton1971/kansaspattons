@@ -20,11 +20,8 @@ related:
   - type: gallery
     id: instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Nathan"
 authors:

@@ -20,12 +20,8 @@ images:
   - id: "2015/07/30/17842073305063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "French Toast, it's what's for dinner!"

@@ -18,13 +18,11 @@ related:
     id: wordpress-2013-06-02-091233-june-2-2012
     rel: photos
 categories:
-  - "children"
-  - "family"
-  - "Natalie"
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+  - Children
+  - Family
+  - Natalie
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "The American Cancer Society has an annual survivor celebration. This is our first time going and Nathan and all the kids had a lot of fun! They had a photo booth, door prizes, comic relief and a great dinner. Malia’s sister Amy and her fami"

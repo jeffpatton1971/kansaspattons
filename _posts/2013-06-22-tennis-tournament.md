@@ -18,12 +18,10 @@ related:
     id: wordpress-2013-06-22-074704-june-22-2013
     rel: photos
 categories:
-  - "family"
-  - "Natalie"
-  - "Nathan"
-  - tennis
-tags:
-  - "wordpress"
+  - Family
+  - Natalie
+  - Nathan
+  - Tennis
 authors:
   - "Jeff Patton"
 summary: "Today was a very busy day for the family. In the morning we had “Tykes on Bikes” which is an annual fundraiser for the Topeka Learning Center (I think). This is the second time we’ve gone and we had a lot of fun. They have some carnival gam"

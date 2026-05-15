@@ -18,10 +18,8 @@ images:
     caption:
     alt:
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "We took Nathan in for his second dose of chemo during this cycle. This is our first visit to the cancer center in Topeka so it took a little longer than perhaps it should have otherwise. The good news though is that next week it should be m"

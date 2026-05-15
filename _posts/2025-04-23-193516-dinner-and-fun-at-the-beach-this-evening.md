@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2025-04-23-193516-dinner-and-fun-at-the-beach-this-evening
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Dinner and fun at the beach this evening"

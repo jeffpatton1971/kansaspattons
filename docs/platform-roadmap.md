@@ -10,7 +10,8 @@ Status: documented target shape with an initial validator.
 - Use [`content-contract.md`](content-contract.md) as the shared envelope.
 - Keep only three authored content types: `post`, `story`, and `gallery`.
 - Treat images and videos as media assets, not authored content pages.
-- Fold topical `tags` into `hashtags`.
+- Fold topical `tags` into `hashtags`. Initial migration is complete; `tags`
+  should not be reintroduced.
 - Keep `categories` provisional until a real site-section taxonomy is needed.
 - Treat import `source` data as optional legacy metadata.
 

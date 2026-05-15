@@ -10,9 +10,6 @@ source:
   id: instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun
   media_count: "10"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Spent the night aboard the Lexington and had a lot of fun."

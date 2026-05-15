@@ -10,9 +10,6 @@ source:
   id: instagram-2025-07-18-202507-dinner-and-good-music-buckcreekcountrymusic
   media_count: "4"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Dinner and good music @buckcreekcountrymusic."

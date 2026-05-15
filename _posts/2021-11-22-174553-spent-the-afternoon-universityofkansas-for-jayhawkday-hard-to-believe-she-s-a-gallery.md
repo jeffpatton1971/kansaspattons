@@ -10,13 +10,11 @@ source:
   id: instagram-2021-11-22-174553-spent-the-afternoon-universityofkansas-for-jayhawkday-hard-to-believe-she-s-a
   media_count: "8"
   cross_post_source: FB
-tags:
-  - jayhawkday
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "8 images related to Spent the afternoon @universityofkansas for #jayhawkday hard to believe she’s a senior."
+hashtags:
+  - jayhawkday
 gallery: instagram-2021-11-22-174553-spent-the-afternoon-universityofkansas-for-jayhawkday-hard-to-believe-she-s-a
 cover_image: "2021/11/22/17920057193055181.jpg"
 images:

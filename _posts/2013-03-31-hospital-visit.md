@@ -13,10 +13,8 @@ source:
   id: 14
   url: "https://jeffspatton.wordpress.com/2013/03/31/march-31-2013/"
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "We checked Nathan into the hospital and he goes in for a biopsy of his liver and to have a port put in his chest so they can more easily administer his chemo medicine. The biopsy will tell us exactly what type of cell started the tumor and "

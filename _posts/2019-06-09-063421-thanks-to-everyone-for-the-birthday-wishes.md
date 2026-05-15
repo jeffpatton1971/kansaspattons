@@ -20,13 +20,10 @@ images:
   - id: "2019/06/09/18075668329046658.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
-  - "birthday"
+  - Birthday
 authors:
   - "Jeff Patton"
 summary: "Thanks to everyone for the birthday wishes!"

@@ -20,12 +20,8 @@ images:
   - id: "2020/08/26/18159302260021577.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Lol my shoes don’t wear out unevenly I was in marching band all through high school and college 😂"

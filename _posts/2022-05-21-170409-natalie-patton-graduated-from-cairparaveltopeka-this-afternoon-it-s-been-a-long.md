@@ -20,14 +20,10 @@ related:
   - type: gallery
     id: instagram-2022-05-21-170409-natalie-patton-graduated-from-cairparaveltopeka-this-afternoon-it-s-been-a-long
     rel: photos
-hashtags: []
 handles:
   - "natalie__patton"
   - "cairparaveltopeka"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "@natalie__patton  graduated from @cairparaveltopeka this afternoon…it’s been a long and wild ride!"

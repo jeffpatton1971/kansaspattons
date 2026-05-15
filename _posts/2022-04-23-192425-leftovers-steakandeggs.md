@@ -25,11 +25,6 @@ hashtags:
   - "steakandeggs"
 handles: []
 location:
-tags:
-  - "leftovers"
-  - "steakandeggs"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#leftovers #steakandeggs"

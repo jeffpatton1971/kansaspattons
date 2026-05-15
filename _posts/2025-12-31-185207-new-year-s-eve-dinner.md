@@ -20,11 +20,8 @@ related:
   - type: gallery
     id: instagram-2025-12-31-185207-new-year-s-eve-dinner
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "New Year"
 authors:

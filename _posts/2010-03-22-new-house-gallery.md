@@ -10,10 +10,7 @@ source:
   id: "849"
   url: "https://jeffspatton.wordpress.com/2010/03/22/march-22-2010/"
 categories:
-  - family
-tags:
-  - wordpress
-  - gallery
+  - Family
 authors:
   - "Jeff Patton"
 summary: "5 images related to New House."

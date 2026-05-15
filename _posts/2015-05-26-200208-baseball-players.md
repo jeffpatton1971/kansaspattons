@@ -20,12 +20,8 @@ images:
   - id: "2015/05/26/17843570524063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Baseball players"

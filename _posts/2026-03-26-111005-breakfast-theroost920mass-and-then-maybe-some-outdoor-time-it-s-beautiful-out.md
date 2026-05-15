@@ -25,10 +25,6 @@ hashtags:
 handles:
   - "theroost920mass"
 location:
-tags:
-  - "breakfast"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#breakfast @theroost920mass and then maybe some outdoor time…it’s beautiful out 💛🖤"

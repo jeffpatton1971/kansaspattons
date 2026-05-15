@@ -10,13 +10,11 @@ source:
   id: instagram-2025-04-25-110434-always-have-fun-visiting-monticello
   media_count: "17"
   cross_post_source: FB
-tags:
-  - monticello
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "17 images related to Always have fun visiting #monticello."
+hashtags:
+  - monticello
 gallery: instagram-2025-04-25-110434-always-have-fun-visiting-monticello
 cover_image: "2025/04/25/18059573207476548.jpg"
 images:

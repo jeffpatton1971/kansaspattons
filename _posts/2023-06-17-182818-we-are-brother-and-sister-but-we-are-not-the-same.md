@@ -20,12 +20,8 @@ images:
   - id: "2023/06/17/18220424722237931.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "we are brother and sister but we are not the same"

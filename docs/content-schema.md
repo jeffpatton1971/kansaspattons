@@ -13,6 +13,9 @@ The target shared contract uses the three authored content types `post`,
 `story`, and `gallery`, folds topical tags into `hashtags`, and treats source
 data as optional legacy metadata.
 
+Authored Markdown has now been normalized so topical `tags` are folded into
+`hashtags`; new content should not add a `tags` field.
+
 ## Generated File Layout
 
 ```text

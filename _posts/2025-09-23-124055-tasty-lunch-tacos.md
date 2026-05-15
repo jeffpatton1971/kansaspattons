@@ -25,11 +25,6 @@ hashtags:
   - "tacos"
 handles: []
 location:
-tags:
-  - "lunch"
-  - "tacos"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Tasty #lunch #tacos"

@@ -10,13 +10,11 @@ source:
   id: instagram-2024-03-12-195848-some-more-from-the-brictionary-exhibit
   media_count: "6"
   cross_post_source: FB
-tags:
-  - brictionary
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to Some more from the #brictionary exhibit."
+hashtags:
+  - brictionary
 gallery: instagram-2024-03-12-195848-some-more-from-the-brictionary-exhibit
 cover_image: "2024/03/12/18024510352973978.jpg"
 images:

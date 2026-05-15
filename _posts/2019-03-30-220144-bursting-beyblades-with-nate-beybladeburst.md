@@ -24,9 +24,6 @@ hashtags:
   - "beybladeburst"
 handles: []
 location:
-tags:
-  - "beybladeburst"
-  - "instagram"
 categories:
   - "Nathan"
 authors:

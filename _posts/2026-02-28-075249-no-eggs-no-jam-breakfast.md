@@ -24,10 +24,6 @@ hashtags:
   - "breakfast"
 handles: []
 location:
-tags:
-  - "breakfast"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "No eggs…no jam… #breakfast 😂😂"

@@ -20,13 +20,9 @@ images:
   - id: "2021/05/17/17953630135449455.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "cocacola"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "“I’d like to buy the world a Coke and keep it company” @cocacola"

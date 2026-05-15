@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2023-05-04-082610-there-they-go-on-their-way-to-st-louis-and-parts-east
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "there they go.., on their way to st louis and parts east!"

@@ -11,18 +11,16 @@ source:
   media_count: "9"
   cross_post_source: FB
 categories:
+  - Birthday
+  - Cancer
   - Nathan
-  - birthday
-  - cancer
-tags:
-  - childhoodcancerawareness
-  - hepatoblastoma
-  - negu
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "9 images related to This month is #childhoodcancerawareness month. It makes people uncomfortable to think abou...."
+hashtags:
+  - childhoodcancerawareness
+  - hepatoblastoma
+  - negu
 gallery: instagram-2019-09-27-205022-this-month-is-childhoodcancerawareness-month-it-makes-people-uncomfortable-to
 cover_image: "2019/09/27/17845815682659475.jpg"
 images:

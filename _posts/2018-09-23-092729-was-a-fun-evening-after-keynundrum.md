@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-09-23-092729-was-a-fun-evening-after-keynundrum
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Was a fun evening after keynundrum"

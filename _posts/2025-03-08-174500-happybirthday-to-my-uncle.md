@@ -24,10 +24,6 @@ hashtags:
   - "happybirthday"
 handles: []
 location:
-tags:
-  - "happybirthday"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#happybirthday to my uncle"

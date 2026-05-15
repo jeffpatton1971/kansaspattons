@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2021-04-28-142531-fun-afternoon-at-the-beach
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Fun afternoon at the beach"

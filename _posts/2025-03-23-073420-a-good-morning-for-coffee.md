@@ -24,10 +24,6 @@ hashtags:
   - "coffee"
 handles: []
 location:
-tags:
-  - "coffee"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "A good morning for #coffee"

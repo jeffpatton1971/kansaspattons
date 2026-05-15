@@ -20,13 +20,10 @@ images:
   - id: "2019/09/18/17856701116551190.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
-  - "birthday"
+  - Birthday
 authors:
   - "Jeff Patton"
 summary: "Happy Birthday to my beautiful daughter"

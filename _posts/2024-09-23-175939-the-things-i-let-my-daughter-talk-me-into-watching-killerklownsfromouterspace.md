@@ -24,10 +24,6 @@ hashtags:
   - "killerklownsfromouterspace"
 handles: []
 location:
-tags:
-  - "killerklownsfromouterspace"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "The things I let my daughter talk me into watching #killerklownsfromouterspace"

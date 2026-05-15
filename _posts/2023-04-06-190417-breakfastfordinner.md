@@ -24,10 +24,6 @@ hashtags:
   - "breakfastfordinner"
 handles: []
 location:
-tags:
-  - "breakfastfordinner"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#breakfastfordinner"

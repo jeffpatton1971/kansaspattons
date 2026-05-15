@@ -12,9 +12,6 @@ source:
   cross_post_source: FB
 categories:
   - Nathan
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Nathan went 3 for 3 at tennis today!."

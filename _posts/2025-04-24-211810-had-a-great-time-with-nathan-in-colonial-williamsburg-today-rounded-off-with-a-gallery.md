@@ -12,9 +12,6 @@ source:
   cross_post_source: FB
 categories:
   - Nathan
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "13 images related to Had a great time with Nathan in Colonial Williamsburg today rounded off with a pirate tria...."

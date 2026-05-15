@@ -24,9 +24,6 @@ hashtags:
   - "happybirthday"
 handles: []
 location:
-tags:
-  - "happybirthday"
-  - "instagram"
 categories:
   - "Nathan"
 authors:

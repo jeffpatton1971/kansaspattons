@@ -20,12 +20,8 @@ images:
   - id: "2020/03/01/17856180424799543.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "First half of the trip gets me through two states the second half is part of Texas 😂"

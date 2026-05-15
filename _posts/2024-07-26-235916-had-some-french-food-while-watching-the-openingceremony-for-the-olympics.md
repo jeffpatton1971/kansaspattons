@@ -32,11 +32,6 @@ hashtags:
 handles:
   - "olympics"
 location:
-tags:
-  - "french"
-  - "openingceremony"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had some “#french” food while watching the #openingceremony for the @olympics"

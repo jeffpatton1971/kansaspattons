@@ -18,11 +18,9 @@ related:
     id: wordpress-2013-05-13-071852-may-13-2013
     rel: photos
 categories:
-  - "Natalie"
-  - "CPLS"
-  - concerts
-tags:
-  - "wordpress"
+  - Concerts
+  - CPLS
+  - Natalie
 authors:
   - "Jeff Patton"
 summary: "Natalie’s final concert was this evening. This year she learned to play the violin which she will continue next year. In addition to continuing the violin, we get to look forward to learning the recorder as well. Afterwards we went to Orang"

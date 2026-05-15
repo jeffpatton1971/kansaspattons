@@ -25,11 +25,6 @@ hashtags:
   - "nosnow"
 handles: []
 location:
-tags:
-  - "goodmorning"
-  - "nosnow"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#goodmorning #nosnow"

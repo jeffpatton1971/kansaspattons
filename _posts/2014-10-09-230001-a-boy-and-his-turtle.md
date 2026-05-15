@@ -20,12 +20,8 @@ images:
   - id: "2014/10/09/17841791173063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "A boy and his turtle"

@@ -20,12 +20,8 @@ images:
   - id: "2019/11/28/17856111691646727.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Mass selfies have broken out"

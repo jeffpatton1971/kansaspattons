@@ -20,14 +20,11 @@ images:
   - id: "2018/07/10/17925367648169804.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
-  - "Nathan"
-  - "cancer"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "When you’re the parent of a cancer survivor, all you want is for your kid to be a normal kid, but they aren’t. I don’t know of anyone who has survived something without scars. Nathan has several, perhaps the most noticeable are his hearing "

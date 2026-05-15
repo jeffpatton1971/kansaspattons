@@ -21,15 +21,10 @@ related:
     id: instagram-2021-01-01-155527-stopped-snowing-time-for-some-fun-snowpocalypse-2021
     rel: photos
 hashtags:
-  - "snowpocalypse"
-  - "2021"
+  - 2021
+  - snowpocalypse
 handles: []
 location:
-tags:
-  - "snowpocalypse"
-  - "2021"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Stopped snowing...time for some fun #snowpocalypse #2021"

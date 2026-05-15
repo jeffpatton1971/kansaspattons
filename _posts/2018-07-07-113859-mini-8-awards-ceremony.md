@@ -26,12 +26,8 @@ images:
   - id: "2018/07/07/17963370670059541.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Mini-8 awards ceremony"

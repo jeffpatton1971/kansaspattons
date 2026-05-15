@@ -11,13 +11,10 @@ source:
   url: "https://jeffspatton.wordpress.com/2011/05/26/may-26-2011/"
 categories:
   - CPLS
-  - crown-center
-  - field-trips
-  - first-grade
+  - Crown-Center
+  - Field-Trips
+  - First-Grade
   - Natalie
-tags:
-  - wordpress
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "24 images related to Crown Center."

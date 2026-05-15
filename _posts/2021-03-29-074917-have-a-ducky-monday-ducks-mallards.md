@@ -25,11 +25,6 @@ hashtags:
   - "mallards"
 handles: []
 location:
-tags:
-  - "ducks"
-  - "mallards"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Have a ducky Monday! #ducks #mallards"

@@ -10,9 +10,6 @@ source:
   id: instagram-2026-01-07-070602-stop-and-smell-the-roses
   media_count: "4"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Stop and smell the roses."

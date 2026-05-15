@@ -10,9 +10,6 @@ source:
   id: instagram-2018-09-28-192321-hanging-out-with-some-really-cool-kids-for-st-baldricks
   media_count: "5"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "5 images related to Hanging out with some really cool kids for St Baldricks."

@@ -20,13 +20,9 @@ related:
   - type: gallery
     id: instagram-2026-03-28-144754-a-lot-of-people-planetcomiconofficial-today
     rel: photos
-hashtags: []
 handles:
   - "planetcomiconofficial"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "A lot of people @planetcomiconofficial today!"

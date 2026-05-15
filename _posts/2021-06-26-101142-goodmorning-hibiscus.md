@@ -25,11 +25,6 @@ hashtags:
   - "hibiscus"
 handles: []
 location:
-tags:
-  - "goodmorning"
-  - "hibiscus"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#goodmorning #hibiscus"

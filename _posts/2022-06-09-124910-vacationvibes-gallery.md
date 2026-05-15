@@ -10,13 +10,11 @@ source:
   id: instagram-2022-06-09-124910-vacationvibes
   media_count: "5"
   cross_post_source: FB
-tags:
-  - vacationvibes
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "5 images related to #vacationvibes."
+hashtags:
+  - vacationvibes
 gallery: instagram-2022-06-09-124910-vacationvibes
 cover_image: "2022/06/09/18140734318264523.jpg"
 images:

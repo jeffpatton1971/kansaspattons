@@ -20,12 +20,8 @@ images:
   - id: "2025/03/29/17927799120023618.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "A coffee and muffin for breakfast on the deck.. it’s the little things"

@@ -20,12 +20,8 @@ images:
   - id: "2024/09/05/18051490864853383.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Breakfast for dinner with leftover tri-tip"

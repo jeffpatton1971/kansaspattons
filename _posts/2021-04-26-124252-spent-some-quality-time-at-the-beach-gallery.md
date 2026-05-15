@@ -10,9 +10,6 @@ source:
   id: instagram-2021-04-26-124252-spent-some-quality-time-at-the-beach
   media_count: "10"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Spent some quality time at the beach."

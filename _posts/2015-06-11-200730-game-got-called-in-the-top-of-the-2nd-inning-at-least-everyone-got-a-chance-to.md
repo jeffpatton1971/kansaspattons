@@ -20,12 +20,8 @@ images:
   - id: "2015/06/11/17841492253063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Game got called in the top of the 2nd inning. At least everyone got a chance to field and hit before it started raining!"

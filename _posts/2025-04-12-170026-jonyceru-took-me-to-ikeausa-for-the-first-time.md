@@ -20,14 +20,10 @@ related:
   - type: gallery
     id: instagram-2025-04-12-170026-jonyceru-took-me-to-ikeausa-for-the-first-time
     rel: photos
-hashtags: []
 handles:
   - "jonyceru"
   - "ikeausa"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "@jonyceru took me to @ikeausa for the first time!"

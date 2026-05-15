@@ -26,11 +26,6 @@ hashtags:
 handles:
   - "jonyceru"
 location:
-tags:
-  - "coffee"
-  - "illinois"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#coffee with @jonyceru before she heads home to #illinois"

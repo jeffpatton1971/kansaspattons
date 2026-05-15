@@ -20,11 +20,8 @@ related:
   - type: gallery
     id: instagram-2021-04-04-134852-happy-easter-everyone-easter-dinner-is-prime-rib-first-time-i-ve-smoked-this-i
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Easter"
 authors:

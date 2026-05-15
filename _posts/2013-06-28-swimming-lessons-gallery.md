@@ -11,9 +11,6 @@ source:
   url: "https://jeffspatton.wordpress.com/2013/06/28/june-28-2013/"
 categories:
   - Natalie
-tags:
-  - wordpress
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "8 images related to Swimming Lessons."

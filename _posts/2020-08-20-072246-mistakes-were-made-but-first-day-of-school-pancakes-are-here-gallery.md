@@ -10,9 +10,6 @@ source:
   id: instagram-2020-08-20-072246-mistakes-were-made-but-first-day-of-school-pancakes-are-here
   media_count: "4"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Mistakes were made but first day of school pancakes are here."

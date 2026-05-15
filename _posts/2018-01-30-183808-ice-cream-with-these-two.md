@@ -20,12 +20,8 @@ images:
   - id: "2018/01/30/17895137110146389.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Ice cream with these two"

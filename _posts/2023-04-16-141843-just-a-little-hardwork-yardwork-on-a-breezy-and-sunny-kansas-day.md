@@ -27,17 +27,11 @@ images:
     caption:
     alt:
 hashtags:
-  - "hardwork"
-  - "yardwork"
-  - "kansas"
+  - hardwork
+  - kansas
+  - yardwork
 handles: []
 location:
-tags:
-  - "hardwork"
-  - "yardwork"
-  - "kansas"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "just a little #hardwork #yardwork on a breezy and sunny #kansas day"

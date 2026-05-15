@@ -20,12 +20,8 @@ images:
   - id: "2017/04/19/17856614734135350.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Take me out to the ballgame"

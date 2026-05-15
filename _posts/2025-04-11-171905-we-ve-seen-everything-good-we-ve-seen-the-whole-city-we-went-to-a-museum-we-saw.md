@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2025-04-11-171905-we-ve-seen-everything-good-we-ve-seen-the-whole-city-we-went-to-a-museum-we-saw
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "We’ve seen everything good. We’ve seen the whole city! We went to a museum, we saw priceless works of art! We ate pancreas!"

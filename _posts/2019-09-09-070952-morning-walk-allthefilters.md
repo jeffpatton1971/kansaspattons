@@ -24,10 +24,6 @@ hashtags:
   - "allthefilters"
 handles: []
 location:
-tags:
-  - "allthefilters"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Morning walk #allthefilters"

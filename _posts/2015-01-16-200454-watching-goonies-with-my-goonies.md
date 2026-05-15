@@ -20,12 +20,8 @@ images:
   - id: "2015/01/16/17843544106063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Watching Goonies with my goonies!"

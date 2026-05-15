@@ -25,10 +25,6 @@ hashtags:
 handles:
   - "munchersbakery"
 location:
-tags:
-  - "brekfast"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#brekfast from @munchersbakery"

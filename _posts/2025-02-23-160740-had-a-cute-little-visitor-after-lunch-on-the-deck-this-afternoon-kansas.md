@@ -24,10 +24,6 @@ hashtags:
   - "kansas"
 handles: []
 location:
-tags:
-  - "kansas"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had a cute little visitor after lunch on the deck this afternoon #kansas"

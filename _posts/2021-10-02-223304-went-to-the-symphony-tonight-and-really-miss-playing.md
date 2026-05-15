@@ -20,12 +20,8 @@ images:
   - id: "2021/10/02/18097398466274056.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Went to the Symphony tonight and really miss playing"

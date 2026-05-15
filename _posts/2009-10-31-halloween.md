@@ -13,10 +13,8 @@ related:
     id: gallery-2009-10-31-2
     rel: photos
 categories:
-  - holidays
-  - halloween
-tags:
-  - "wordpress"
+  - Halloween
+  - Holidays
 author:     Jeff
 authors:
   - Jeff

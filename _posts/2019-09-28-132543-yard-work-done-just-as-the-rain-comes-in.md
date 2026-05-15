@@ -20,12 +20,8 @@ images:
   - id: "2019/09/28/17921681749334283.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Yard work done just as the rain comes in"

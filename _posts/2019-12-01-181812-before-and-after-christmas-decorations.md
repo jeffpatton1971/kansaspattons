@@ -23,11 +23,8 @@ images:
   - id: "2019/12/01/17847999604762074.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Christmas"
 authors:

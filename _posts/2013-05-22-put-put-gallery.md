@@ -10,13 +10,10 @@ source:
   id: "540"
   url: "https://jeffspatton.wordpress.com/2013/05/22/may-22-2013/"
 categories:
-  - children
-  - family
+  - Children
+  - Family
   - Natalie
   - Nathan
-tags:
-  - wordpress
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "21 images related to Put-Put."

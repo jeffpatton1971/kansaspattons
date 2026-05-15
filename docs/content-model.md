@@ -64,9 +64,10 @@ WordPress-shaped posts. The target contract uses `contentType: "post"`. New
 authoring and API extraction work should use the target contract terms, while
 the current app can keep compatibility fields until the migration is complete.
 
-`tags` are also transitional. Topical tags should be folded into `hashtags`.
-Import/system labels such as `wordpress`, `instagram`, and `facebook` should
-move into optional legacy/source metadata rather than display as tags.
+`tags` are also transitional. Authored Markdown has been normalized so topical
+tags are folded into `hashtags`. Import/system labels such as `wordpress`,
+`instagram`, `facebook`, `gallery`, and `album` should not appear in
+user-facing taxonomy.
 
 ## Image Relationship Policy
 

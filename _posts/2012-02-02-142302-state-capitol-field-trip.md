@@ -18,10 +18,6 @@ album:
   media_count: 24
   date_start: 2012-02-02 14:23:02
   date_end: 2012-02-03 17:52:43
-categories:
-  - facebook
-  - album
-tags: []
 gallery: facebook-2012-02-02-142302-state-capitol-field-trip
 cover_image: "2012/02/02/10150576654778340.jpg"
 images:

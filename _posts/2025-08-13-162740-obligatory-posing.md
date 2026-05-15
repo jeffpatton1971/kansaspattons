@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2025-08-13-162740-obligatory-posing
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Obligatory posing"

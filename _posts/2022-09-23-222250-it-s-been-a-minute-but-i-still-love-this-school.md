@@ -20,12 +20,8 @@ images:
   - id: "2022/09/23/17958135887009337.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "it’s been a minute but i still love this school"

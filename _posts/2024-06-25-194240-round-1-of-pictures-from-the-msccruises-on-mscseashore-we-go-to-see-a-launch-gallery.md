@@ -10,15 +10,13 @@ source:
   id: instagram-2024-06-25-194240-round-1-of-pictures-from-the-msccruises-on-mscseashore-we-go-to-see-a-launch
   media_count: "10"
   cross_post_source: FB
-tags:
-  - msccruises
-  - mscseashore
-  - capecanaveral
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Round 1 of pictures from the #msccruises on #mscseashore . We go to see a launch from #cap...."
+hashtags:
+  - capecanaveral
+  - msccruises
+  - mscseashore
 gallery: instagram-2024-06-25-194240-round-1-of-pictures-from-the-msccruises-on-mscseashore-we-go-to-see-a-launch
 cover_image: "2024/06/25/18011919566236935.jpg"
 images:

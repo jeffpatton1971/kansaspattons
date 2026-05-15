@@ -20,13 +20,10 @@ images:
   - id: "2019/09/21/17844247303666376.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
-  - "cancer"
+  - Cancer
 authors:
   - "Jeff Patton"
 summary: "Glow Jump for Childhood Cancer. Going Gold for my favorite cancer survivor!"

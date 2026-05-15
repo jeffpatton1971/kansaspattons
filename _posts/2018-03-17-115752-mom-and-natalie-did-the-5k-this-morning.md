@@ -20,11 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-03-17-115752-mom-and-natalie-did-the-5k-this-morning
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Natalie"
 authors:

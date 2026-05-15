@@ -20,12 +20,8 @@ images:
   - id: "2015/02/16/17843552377063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Just walking in the snow daddy"

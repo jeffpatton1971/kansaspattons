@@ -20,12 +20,8 @@ images:
   - id: "2018/01/22/17859845020221477.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Put a Pokémon puzzle together with this guy last night"

@@ -11,10 +11,7 @@ source:
   media_count: "4"
   cross_post_source: FB
 categories:
-  - birthday
-tags:
-  - instagram
-  - gallery
+  - Birthday
 authors:
   - "Jeff Patton"
 summary: "4 images related to Birthday fun at Red Robin...these two have been friends since kindergarten and it’s fun to...."

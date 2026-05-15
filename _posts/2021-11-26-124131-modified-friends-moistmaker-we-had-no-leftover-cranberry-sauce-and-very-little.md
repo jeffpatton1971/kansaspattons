@@ -25,10 +25,6 @@ hashtags:
 handles:
   - "friends"
 location:
-tags:
-  - "moistmaker"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Modified @friends #moistmaker we had no leftover cranberry sauce and very little gravy soo…Turkey then potatoes and gravy topped with  grandmas dressing 🥰"

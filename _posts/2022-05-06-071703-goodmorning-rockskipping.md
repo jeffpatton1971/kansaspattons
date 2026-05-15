@@ -28,11 +28,6 @@ hashtags:
   - "rockskipping"
 handles: []
 location:
-tags:
-  - "goodmorning"
-  - "rockskipping"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#goodmorning #rockskipping"

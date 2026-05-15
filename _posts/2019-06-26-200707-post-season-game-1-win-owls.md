@@ -24,10 +24,6 @@ hashtags:
   - "owls"
 handles: []
 location:
-tags:
-  - "owls"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Post-Season game 1 Win! #owls"

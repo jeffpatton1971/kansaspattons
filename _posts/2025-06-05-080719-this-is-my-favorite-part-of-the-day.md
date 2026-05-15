@@ -20,12 +20,8 @@ images:
   - id: "2025/06/05/18109373650504662.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "This is my favorite part of the day"

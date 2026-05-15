@@ -25,10 +25,6 @@ hashtags:
 handles:
   - "cometeer"
 location:
-tags:
-  - "breakfsst"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#breakfsst for dinner with @cometeer"

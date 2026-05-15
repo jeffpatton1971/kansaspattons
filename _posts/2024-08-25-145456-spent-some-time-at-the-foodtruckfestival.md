@@ -24,10 +24,6 @@ hashtags:
   - "foodtruckfestival"
 handles: []
 location:
-tags:
-  - "foodtruckfestival"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Spent some time at the #foodtruckfestival"

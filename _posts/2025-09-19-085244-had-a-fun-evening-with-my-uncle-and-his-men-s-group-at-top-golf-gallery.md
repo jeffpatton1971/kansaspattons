@@ -10,9 +10,6 @@ source:
   id: instagram-2025-09-19-085244-had-a-fun-evening-with-my-uncle-and-his-men-s-group-at-top-golf
   media_count: "6"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to Had a fun evening with my uncle and his men’s group at Top Golf."

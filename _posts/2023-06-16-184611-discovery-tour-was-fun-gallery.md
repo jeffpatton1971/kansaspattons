@@ -10,9 +10,6 @@ source:
   id: instagram-2023-06-16-184611-discovery-tour-was-fun
   media_count: "10"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Discovery tour was fun."

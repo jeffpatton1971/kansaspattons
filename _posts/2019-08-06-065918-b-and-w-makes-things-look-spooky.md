@@ -20,12 +20,8 @@ images:
   - id: "2019/08/06/17846214790559420.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "B&W makes things look spooky"

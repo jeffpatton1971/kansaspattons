@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2021-04-29-150415-from-breakfast-selfies-to-airboat-rides
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "From breakfast selfies to airboat rides"

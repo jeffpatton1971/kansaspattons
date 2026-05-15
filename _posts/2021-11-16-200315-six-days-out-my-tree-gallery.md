@@ -10,9 +10,6 @@ source:
   id: instagram-2021-11-16-200315-six-days-out-my-tree
   media_count: "6"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to Six days out my tree."

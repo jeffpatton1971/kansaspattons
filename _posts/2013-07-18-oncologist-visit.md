@@ -13,10 +13,8 @@ source:
   id: 826
   url: "https://jeffspatton.wordpress.com/2013/07/18/july-18-2013/"
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "We met with Nathan’s oncologist today, mostly to set our mind at ease. It’s been a few days since visiting KU Med, and we’re still rather worried about the whole thing. She showed us where in Nathan’s liver that his tumor is, and potentiall"

@@ -20,13 +20,9 @@ images:
   - id: "2019/03/20/17953640470254155.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "jimmyfallon"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "My son called this the @jimmyfallon moon...I feel it may have something to do with the large moon from the tonight show 😂"

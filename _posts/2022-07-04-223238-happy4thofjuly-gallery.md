@@ -10,13 +10,11 @@ source:
   id: instagram-2022-07-04-223238-happy4thofjuly
   media_count: "5"
   cross_post_source: FB
-tags:
-  - happy4thofjuly
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "5 images related to #happy4thofjuly."
+hashtags:
+  - happy4thofjuly
 gallery: instagram-2022-07-04-223238-happy4thofjuly
 cover_image: "2022/07/04/17929752020234534.jpg"
 images:

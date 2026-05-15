@@ -26,12 +26,8 @@ images:
   - id: "2018/11/23/18002262346010520.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had a fun little afternoon with my favorite little man! McDonald’s for lunch and then the movie Smallfoot!"

@@ -24,10 +24,6 @@ hashtags:
   - "oceancaymscmarinereserve"
 handles: []
 location:
-tags:
-  - "oceancaymscmarinereserve"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Round 4 of cruise pictures these were at #oceancaymscmarinereserve lovely weather and lots of fun"

@@ -8,12 +8,9 @@ date: 2009-10-28 09:55:00 -0600
 source:
   type: wordpress
 categories:
-  - Natalie
   - CPLS
-  - field-trips
-tags:
-  - wordpress
-  - gallery
+  - Field-Trips
+  - Natalie
 authors:
   - Jeff
 summary: "10 images related to Rees Fruit Farm Field Trip."

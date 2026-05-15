@@ -10,14 +10,12 @@ source:
   id: instagram-2025-06-26-070012-morningwalk-lfk
   media_count: "5"
   cross_post_source: FB
-tags:
-  - morningwalk
-  - lfk
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "5 images related to #morningwalk #lfk."
+hashtags:
+  - lfk
+  - morningwalk
 gallery: instagram-2025-06-26-070012-morningwalk-lfk
 cover_image: "2025/06/26/18071124364980693.jpg"
 images:

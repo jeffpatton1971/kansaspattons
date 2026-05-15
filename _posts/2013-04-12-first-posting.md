@@ -13,9 +13,7 @@ source:
   id: 8
   url: "https://jeffspatton.wordpress.com/2013/04/12/first-posting/"
 categories:
-  - "site"
-tags:
-  - "wordpress"
+  - Site
 authors:
   - "Jeff Patton"
 summary: "This has been something that I have wanted to do now for the past several months and I feel badly that recent events have prompted me to get off my butt and start, but oh well, here we are. My plan is to document the meaningful events in th"

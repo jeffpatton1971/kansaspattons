@@ -24,10 +24,6 @@ hashtags:
   - "beeakfast"
 handles: []
 location:
-tags:
-  - "beeakfast"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#beeakfast is ready"

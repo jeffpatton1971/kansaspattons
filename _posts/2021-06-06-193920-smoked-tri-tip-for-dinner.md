@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2021-06-06-193920-smoked-tri-tip-for-dinner
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Smoked Tri-Tip for dinner"

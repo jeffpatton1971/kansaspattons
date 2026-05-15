@@ -11,9 +11,6 @@ source:
   url: "https://jeffspatton.wordpress.com/2013/06/23/june-23-2013/"
 categories:
   - Nathan
-tags:
-  - wordpress
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to Nate Nat's Car."

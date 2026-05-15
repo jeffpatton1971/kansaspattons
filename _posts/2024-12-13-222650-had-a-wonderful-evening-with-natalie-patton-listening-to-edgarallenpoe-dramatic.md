@@ -25,10 +25,6 @@ hashtags:
 handles:
   - "natalie__patton"
 location:
-tags:
-  - "edgarallenpoe"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had a wonderful evening with @natalie__patton listening to #edgarallenpoe dramatic readings"

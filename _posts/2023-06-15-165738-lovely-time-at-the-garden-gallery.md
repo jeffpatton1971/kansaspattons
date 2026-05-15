@@ -10,9 +10,6 @@ source:
   id: instagram-2023-06-15-165738-lovely-time-at-the-garden
   media_count: "9"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "9 images related to lovely time at the garden."

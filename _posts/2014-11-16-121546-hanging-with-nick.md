@@ -20,12 +20,8 @@ images:
   - id: "2014/11/16/17841791179063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Hanging with Nick!"

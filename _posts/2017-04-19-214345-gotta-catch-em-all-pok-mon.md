@@ -20,12 +20,8 @@ images:
   - id: "2017/04/19/17866085182126311.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Gotta catch 'em all... Pokémon!"

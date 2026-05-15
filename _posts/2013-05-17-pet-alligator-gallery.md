@@ -10,12 +10,9 @@ source:
   id: "507"
   url: "https://jeffspatton.wordpress.com/2013/05/17/may-17-2013/"
 categories:
-  - family
-  - summer
-  - zoo
-tags:
-  - wordpress
-  - gallery
+  - Family
+  - Summer
+  - Zoo
 authors:
   - "Jeff Patton"
 summary: "11 images related to Pet Alligator."

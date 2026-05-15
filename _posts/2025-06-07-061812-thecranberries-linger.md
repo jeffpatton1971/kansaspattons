@@ -25,10 +25,6 @@ hashtags:
 handles:
   - "thecranberries"
 location:
-tags:
-  - "linger"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "@thecranberries #linger"

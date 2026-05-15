@@ -20,12 +20,8 @@ images:
   - id: "2015/08/03/17842091824063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Watching E.T. The Extraterrestrial with these two"

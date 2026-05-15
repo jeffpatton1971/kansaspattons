@@ -24,10 +24,6 @@ hashtags:
   - "vote"
 handles: []
 location:
-tags:
-  - "vote"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Did you #vote? I just did!"

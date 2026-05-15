@@ -20,12 +20,8 @@ images:
   - id: "2023/09/20/17987139593368268.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "my view this morning at 3a"

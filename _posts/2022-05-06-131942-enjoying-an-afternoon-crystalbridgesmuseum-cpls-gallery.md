@@ -12,13 +12,11 @@ source:
   cross_post_source: FB
 categories:
   - CPLS
-tags:
-  - cpls
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to Enjoying an afternoon @crystalbridgesmuseum #cpls."
+hashtags:
+  - cpls
 gallery: instagram-2022-05-06-131942-enjoying-an-afternoon-crystalbridgesmuseum-cpls
 cover_image: "2022/05/06/18229237762117414.jpg"
 images:

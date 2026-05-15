@@ -24,10 +24,6 @@ hashtags:
   - "snowday"
 handles: []
 location:
-tags:
-  - "snowday"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#snowday minus you know…the snow! that’s ice"

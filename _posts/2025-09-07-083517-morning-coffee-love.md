@@ -21,17 +21,11 @@ images:
     caption:
     alt:
 hashtags:
-  - "morning"
-  - "coffee"
-  - "love"
+  - coffee
+  - love
+  - morning
 handles: []
 location:
-tags:
-  - "morning"
-  - "coffee"
-  - "love"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#morning #coffee #love"

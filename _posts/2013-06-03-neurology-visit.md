@@ -24,10 +24,8 @@ images:
     caption:
     alt:
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "We made a trip to visit with the Neurologist today. Nathan’s oncologist wanted us to meet with a neurologist to get a baseline of Nathan’s neuropathy. In some of the pictures you can see that his right eye is droopy, when he was in the hosp"

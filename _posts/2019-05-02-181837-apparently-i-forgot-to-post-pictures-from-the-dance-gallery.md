@@ -10,9 +10,6 @@ source:
   id: instagram-2019-05-02-181837-apparently-i-forgot-to-post-pictures-from-the-dance
   media_count: "10"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Apparently I forgot to post pictures from the dance."

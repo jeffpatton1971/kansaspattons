@@ -12,9 +12,6 @@ source:
   cross_post_source: FB
 categories:
   - Christmas
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Merry Christmas."

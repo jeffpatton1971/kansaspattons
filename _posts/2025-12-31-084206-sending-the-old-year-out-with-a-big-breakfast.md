@@ -20,12 +20,8 @@ images:
   - id: "2025/12/31/18051329324410407.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Sending the old year out with a big breakfast"

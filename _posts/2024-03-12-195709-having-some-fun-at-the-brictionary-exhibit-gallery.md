@@ -10,13 +10,11 @@ source:
   id: instagram-2024-03-12-195709-having-some-fun-at-the-brictionary-exhibit
   media_count: "10"
   cross_post_source: FB
-tags:
-  - brictionary
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Having some fun at the #brictionary exhibit."
+hashtags:
+  - brictionary
 gallery: instagram-2024-03-12-195709-having-some-fun-at-the-brictionary-exhibit
 cover_image: "2024/03/12/18051983557592891.jpg"
 images:

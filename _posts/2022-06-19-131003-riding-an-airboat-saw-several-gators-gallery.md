@@ -10,9 +10,6 @@ source:
   id: instagram-2022-06-19-131003-riding-an-airboat-saw-several-gators
   media_count: "7"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to Riding an airboat…saw several gators!."

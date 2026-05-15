@@ -26,15 +26,12 @@ images:
   - id: "2023/02/18/18061019248346092.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "eaticecreamforbreakfast"
 location:
-tags:
-  - "instagram"
 categories:
-  - "Nathan"
-  - "cancer"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "we @eaticecreamforbreakfast today for Nathan who has been cancer-free for 9 years!"

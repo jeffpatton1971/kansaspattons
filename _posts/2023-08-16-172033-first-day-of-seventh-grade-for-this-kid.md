@@ -26,12 +26,8 @@ images:
   - id: "2023/08/16/17949154937664551.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "First day of seventh grade for this kid!"

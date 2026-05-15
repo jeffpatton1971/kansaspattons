@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2024-04-25-104816-no-sun-day-but-still-a-fun-day
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "No Sun day but still a fun day"

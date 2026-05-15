@@ -21,19 +21,12 @@ images:
     caption:
     alt:
 hashtags:
-  - "goodmorning"
-  - "kansas"
-  - "adobe"
-  - "psexpress"
+  - adobe
+  - goodmorning
+  - kansas
+  - psexpress
 handles: []
 location:
-tags:
-  - "goodmorning"
-  - "kansas"
-  - "adobe"
-  - "psexpress"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#goodmorning #kansas #adobe #psexpress 

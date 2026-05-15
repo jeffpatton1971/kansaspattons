@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-12-01-163028-spent-the-week-in-san-antonio-training-always-fun-to-be-back-with-the-team
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Spent the week in San Antonio training, always fun to be back with the team!"

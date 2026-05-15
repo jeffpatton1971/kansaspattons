@@ -25,11 +25,8 @@ hashtags:
 handles:
   - "bellonock"
 location:
-tags:
-  - "funambula"
-  - "instagram"
 categories:
-  - "birthday"
+  - Birthday
 authors:
   - "Jeff Patton"
 summary: "Had a wonderful birthday watching #FUNAMBULA and @bellonock"

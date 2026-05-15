@@ -26,12 +26,8 @@ images:
   - id: "2020/05/17/17902533064467769.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Homemade hash browns"

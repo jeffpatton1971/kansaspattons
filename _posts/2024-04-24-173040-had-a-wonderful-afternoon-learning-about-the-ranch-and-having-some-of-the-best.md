@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2024-04-24-173040-had-a-wonderful-afternoon-learning-about-the-ranch-and-having-some-of-the-best
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had a wonderful afternoon learning about the ranch and having some of the best BBQ I’ve had in Texas"

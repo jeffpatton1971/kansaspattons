@@ -20,12 +20,8 @@ images:
   - id: "2021/05/09/17879276318336389.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Happy Mother’s Day mom, I love you."

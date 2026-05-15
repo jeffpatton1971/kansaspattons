@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2019-05-02-181837-apparently-i-forgot-to-post-pictures-from-the-dance
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Apparently I forgot to post pictures from the dance"

@@ -23,12 +23,8 @@ images:
   - id: "2025/05/13/17907668658144145.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Making beef quesadillas with leftover tri-tip"

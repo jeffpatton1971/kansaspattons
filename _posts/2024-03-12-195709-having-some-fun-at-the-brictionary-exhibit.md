@@ -24,10 +24,6 @@ hashtags:
   - "brictionary"
 handles: []
 location:
-tags:
-  - "brictionary"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Having some fun at the #brictionary exhibit"

@@ -20,12 +20,8 @@ images:
   - id: "2018/12/22/17976115417172840.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Love that she still wants to sit on my lap"

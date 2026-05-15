@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2022-05-16-202725-last-concert-for-nat
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Last concert for Nat"

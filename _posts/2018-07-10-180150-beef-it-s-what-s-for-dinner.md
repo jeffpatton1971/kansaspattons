@@ -20,12 +20,8 @@ images:
   - id: "2018/07/10/17961489265032573.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Beef. It’s what’s for dinner!"

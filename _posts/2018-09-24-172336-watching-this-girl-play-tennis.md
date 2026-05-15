@@ -20,12 +20,8 @@ images:
   - id: "2018/09/24/17981514868015860.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Watching this girl play tennis"

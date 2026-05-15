@@ -20,12 +20,8 @@ images:
   - id: "2018/11/13/17868832102288387.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Having pizza with this crazy kid"

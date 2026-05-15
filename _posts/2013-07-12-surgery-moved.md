@@ -13,10 +13,8 @@ source:
   id: 760
   url: "https://jeffspatton.wordpress.com/2013/07/12/july-12-2013/"
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "What a busy week! Malia got call from KU Med, we will go down Tuesday for lab work, and the surgery was moved to the following week. This is not what we wanted to hear! We both just want this tumor out, and being this close and then having "

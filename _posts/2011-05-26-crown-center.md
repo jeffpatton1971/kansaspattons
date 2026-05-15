@@ -18,13 +18,11 @@ related:
     id: wordpress-2011-05-26-200700-may-26-2011
     rel: photos
 categories:
-  - "CPLS"
-  - "crown-center"
-  - "field-trips"
-  - "first-grade"
-  - "Natalie"
-tags:
-  - "wordpress"
+  - CPLS
+  - Crown-Center
+  - Field-Trips
+  - First-Grade
+  - Natalie
 authors:
   - "Jeff Patton"
 summary: "Today was the last field trip for Mrs. Jernigan’s first grade class. The trip was to Crown Center in Kansas City and the kids all seemed to have lots of fun. The main part of the field trip was to visit Kaleidoscope, a place where kids can "

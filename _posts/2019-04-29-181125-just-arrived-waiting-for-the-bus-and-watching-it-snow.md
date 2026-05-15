@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2019-04-29-181125-just-arrived-waiting-for-the-bus-and-watching-it-snow
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Just arrived...waiting for the bus and watching it snow"

@@ -12,9 +12,6 @@ source:
   cross_post_source: FB
 categories:
   - "July 4th"
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "9 images related to Happy 4th of July."

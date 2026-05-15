@@ -18,10 +18,8 @@ related:
     id: wordpress-2013-07-25-135557-july-25-2013
     rel: photos
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "Another long night, Malia and I have taken to sleeping in shifts. Malia get’s the “bed” until about 3 and then switches to the rocking chair until morning. He’s still got a fever and the PICU doc and the surgeon are having a bit of a turf w"

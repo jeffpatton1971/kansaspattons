@@ -10,9 +10,6 @@ source:
   id: instagram-2021-06-06-193920-smoked-tri-tip-for-dinner
   media_count: "4"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Smoked Tri-Tip for dinner."

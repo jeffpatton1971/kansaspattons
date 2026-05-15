@@ -19,10 +19,8 @@ images:
     caption:
     alt:
 categories:
-  - holidays
-  - halloween
-tags:
-  - "wordpress"
+  - Halloween
+  - Holidays
 author:     Jeff
 authors:
   - Jeff

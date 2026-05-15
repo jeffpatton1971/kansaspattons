@@ -20,12 +20,9 @@ images:
   - id: "2022/01/15/17908606124354600.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "cairparaveltopeka"
 location:
-tags:
-  - "instagram"
 categories:
   - "Natalie"
 authors:

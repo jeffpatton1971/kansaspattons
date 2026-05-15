@@ -10,9 +10,6 @@ source:
   id: instagram-2023-06-16-185822-hidden-wonders-tour-was-really-cool
   media_count: "10"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Hidden Wonders tour was really cool."

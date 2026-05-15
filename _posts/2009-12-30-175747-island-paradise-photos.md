@@ -17,10 +17,6 @@ album:
   media_count: 8
   date_start: 2009-12-30 17:57:47
   date_end: 2010-02-01 16:54:46
-categories:
-  - facebook
-  - album
-tags: []
 gallery: facebook-2009-12-30-175747-island-paradise-photos
 cover_image: "2009/12/30/228813228339.jpg"
 images:

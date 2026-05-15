@@ -20,12 +20,8 @@ images:
   - id: "2020/06/28/18116154463124580.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "So I decided to make my own “hashbrowns” with some little potatoes we had laying around.... great success!"

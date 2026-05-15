@@ -20,12 +20,8 @@ images:
   - id: "2025/10/07/17902593801264470.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Artisanal Chicken Fritters with a Tangy Barbecue Emulsion"

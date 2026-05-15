@@ -23,12 +23,8 @@ images:
   - id: "2020/03/02/17879474986530820.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Just a little T-Bone on Texas Independence Day"

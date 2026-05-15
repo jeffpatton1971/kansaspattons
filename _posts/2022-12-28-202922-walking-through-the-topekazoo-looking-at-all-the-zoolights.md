@@ -25,10 +25,6 @@ hashtags:
 handles:
   - "topekazoo"
 location:
-tags:
-  - "zoolights"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Walking through the @topekazoo looking at all the #zoolights"

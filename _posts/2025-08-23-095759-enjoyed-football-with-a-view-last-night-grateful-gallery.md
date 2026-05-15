@@ -10,13 +10,11 @@ source:
   id: instagram-2025-08-23-095759-enjoyed-football-with-a-view-last-night-grateful
   media_count: "5"
   cross_post_source: FB
-tags:
-  - grateful
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "5 images related to Enjoyed football with a view last night #grateful."
+hashtags:
+  - grateful
 gallery: instagram-2025-08-23-095759-enjoyed-football-with-a-view-last-night-grateful
 cover_image: "2025/08/23/17847634008546471.jpg"
 images:

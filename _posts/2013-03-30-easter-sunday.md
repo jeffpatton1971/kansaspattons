@@ -18,11 +18,9 @@ related:
     id: wordpress-2013-03-30-124134-march-30-2013
     rel: photos
 categories:
-  - "family"
-  - holidays
-  - "Easter"
-tags:
-  - "wordpress"
+  - Easter
+  - Family
+  - Holidays
 authors:
   - "Jeff Patton"
 summary: "We decided to have our Easter egg hunt the day before Easter. The main reason was because Nathan will be checked into the hospital on Easter Sunday, and partly because it is supposed to be a miserable day Sunday weather wise. So here are th"

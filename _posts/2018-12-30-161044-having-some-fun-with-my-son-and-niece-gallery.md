@@ -10,9 +10,6 @@ source:
   id: instagram-2018-12-30-161044-having-some-fun-with-my-son-and-niece
   media_count: "6"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to Having some fun with my son and niece."

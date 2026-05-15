@@ -24,10 +24,6 @@ hashtags:
   - "grilling"
 handles: []
 location:
-tags:
-  - "grilling"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Dinner time for mom #grilling"

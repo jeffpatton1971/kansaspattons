@@ -24,10 +24,6 @@ hashtags:
   - "smoked"
 handles: []
 location:
-tags:
-  - "smoked"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#smoked a tri-tip for dinner this evening"

@@ -20,12 +20,8 @@ images:
   - id: "2015/03/01/17841744568063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Sometimes when you feel sick it's better to be in mom's bed with all your toys"

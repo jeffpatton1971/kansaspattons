@@ -24,10 +24,6 @@ hashtags:
   - "breakfast"
 handles: []
 location:
-tags:
-  - "breakfast"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#breakfast the most important meal of the day!"

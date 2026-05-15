@@ -20,13 +20,10 @@ images:
   - id: "2022/09/18/17986325746540557.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
-  - "birthday"
+  - Birthday
 authors:
   - "Jeff Patton"
 summary: "Happy Birthday Princess"

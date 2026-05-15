@@ -10,9 +10,6 @@ source:
   id: instagram-2026-03-28-144754-a-lot-of-people-planetcomiconofficial-today
   media_count: "8"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "8 images related to A lot of people @planetcomiconofficial today!."

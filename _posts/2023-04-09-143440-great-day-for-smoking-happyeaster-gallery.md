@@ -10,13 +10,11 @@ source:
   id: instagram-2023-04-09-143440-great-day-for-smoking-happyeaster
   media_count: "7"
   cross_post_source: FB
-tags:
-  - happyeaster
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to Great day for smoking #happyeaster."
+hashtags:
+  - happyeaster
 gallery: instagram-2023-04-09-143440-great-day-for-smoking-happyeaster
 cover_image: "2023/04/09/17869701584889297.jpg"
 images:

@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2019-10-26-183313-progress-was-made-stringers-and-maybe-the-pickets-tomorrow
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Progress was made. Stringers and maybe the pickets tomorrow"

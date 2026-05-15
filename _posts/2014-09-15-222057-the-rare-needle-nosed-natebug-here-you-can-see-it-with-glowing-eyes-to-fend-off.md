@@ -20,12 +20,8 @@ images:
   - id: "2014/09/15/17843349145063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "The rare needle-nosed Natebug. Here you can see it with glowing eyes to fend off potential predators."

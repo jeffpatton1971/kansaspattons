@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2024-04-23-150126-another-fun-tour-on-the-river-walk
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Another fun tour on the River Walk"

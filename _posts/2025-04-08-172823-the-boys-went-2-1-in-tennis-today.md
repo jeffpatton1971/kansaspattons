@@ -27,10 +27,6 @@ hashtags:
   - "tennis"
 handles: []
 location:
-tags:
-  - "tennis"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "The boys went 2-1 in #tennis today"

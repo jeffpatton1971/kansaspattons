@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2022-06-19-131003-riding-an-airboat-saw-several-gators
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Riding an airboat…saw several gators!"

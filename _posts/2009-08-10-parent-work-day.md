@@ -9,8 +9,6 @@ source:
   type: wordpress
 categories:
   - "CPLS"
-tags:
-  - "wordpress"
 author:     Jeff
 authors:
   - Jeff

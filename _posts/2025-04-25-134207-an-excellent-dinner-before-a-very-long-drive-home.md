@@ -20,12 +20,8 @@ images:
   - id: "2025/04/25/18052378808029238.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "An excellent dinner before a very long drive home"

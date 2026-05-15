@@ -21,15 +21,10 @@ images:
     caption:
     alt:
 hashtags:
-  - "coffee"
-  - "cappuccino"
+  - cappuccino
+  - coffee
 handles: []
 location:
-tags:
-  - "coffee"
-  - "cappuccino"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "DIY #coffee #cappuccino"

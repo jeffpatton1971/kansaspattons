@@ -24,10 +24,6 @@ hashtags:
   - "minecraftmovie"
 handles: []
 location:
-tags:
-  - "minecraftmovie"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Watching the #minecraftmovie with my favorite people ❤️"

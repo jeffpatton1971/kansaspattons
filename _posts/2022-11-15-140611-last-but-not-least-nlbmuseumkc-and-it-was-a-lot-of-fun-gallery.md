@@ -10,9 +10,6 @@ source:
   id: instagram-2022-11-15-140611-last-but-not-least-nlbmuseumkc-and-it-was-a-lot-of-fun
   media_count: "6"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to last but not least @nlbmuseumkc and it was a lot of fun."

@@ -24,17 +24,11 @@ images:
     caption:
     alt:
 hashtags:
-  - "goodmorning"
-  - "breakfast"
-  - "lfk"
+  - breakfast
+  - goodmorning
+  - lfk
 handles: []
 location:
-tags:
-  - "goodmorning"
-  - "breakfast"
-  - "lfk"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#goodmorning #breakfast #lfk my attempt at this recipe I just didn’t have any fancy bread"

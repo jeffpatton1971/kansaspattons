@@ -23,12 +23,8 @@ images:
   - id: "2025/09/29/17875750284420251.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: Cooooooookiesss

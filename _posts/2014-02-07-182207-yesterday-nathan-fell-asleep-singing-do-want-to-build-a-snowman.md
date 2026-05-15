@@ -20,11 +20,8 @@ images:
   - id: "2014/02/07/17842441615063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Nathan"
 authors:

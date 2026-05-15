@@ -24,10 +24,6 @@ hashtags:
   - "grateful"
 handles: []
 location:
-tags:
-  - "grateful"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Enjoyed football with a view last night #grateful"

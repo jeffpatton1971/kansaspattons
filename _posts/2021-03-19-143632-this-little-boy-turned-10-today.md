@@ -23,12 +23,8 @@ images:
   - id: "2021/03/19/17903018359813627.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "This little boy turned 10 today"

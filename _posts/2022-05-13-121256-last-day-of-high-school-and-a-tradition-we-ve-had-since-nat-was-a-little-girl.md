@@ -20,12 +20,8 @@ images:
   - id: "2022/05/13/17963336287633784.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Last day of high school and a tradition we’ve had since Nat was a little girl"

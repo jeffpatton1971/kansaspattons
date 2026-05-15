@@ -17,10 +17,6 @@ album:
   media_count: 22
   date_start: 2008-03-03 09:16:10
   date_end: 2025-05-16 21:05:28
-categories:
-  - facebook
-  - album
-tags: []
 gallery: facebook-2008-03-03-091610-profile-pictures
 cover_image: "2008/03/03/8438233339.jpg"
 images:

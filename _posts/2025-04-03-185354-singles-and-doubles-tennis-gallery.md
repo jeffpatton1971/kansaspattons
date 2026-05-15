@@ -10,13 +10,11 @@ source:
   id: instagram-2025-04-03-185354-singles-and-doubles-tennis
   media_count: "7"
   cross_post_source: FB
-tags:
-  - tennis
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to Singles and doubles #tennis."
+hashtags:
+  - tennis
 gallery: instagram-2025-04-03-185354-singles-and-doubles-tennis
 cover_image: "2025/04/03/18050358515035672.jpg"
 images:

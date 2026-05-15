@@ -11,9 +11,6 @@ source:
   media_count: "7"
 categories:
   - Nathan
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to First tennis meet for Nathan at Jayhawk Tennis Center with lunch at Biemers after!."

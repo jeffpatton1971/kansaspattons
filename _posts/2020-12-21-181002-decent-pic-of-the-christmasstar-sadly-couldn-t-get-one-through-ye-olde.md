@@ -27,10 +27,6 @@ hashtags:
   - "christmasstar"
 handles: []
 location:
-tags:
-  - "christmasstar"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Decent pic of the #christmasstar sadly couldn’t get one through ye olde binoculars 😂"

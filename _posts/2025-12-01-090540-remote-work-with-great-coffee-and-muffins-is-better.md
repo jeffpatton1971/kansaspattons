@@ -20,12 +20,8 @@ images:
   - id: "2025/12/01/17884545087411793.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Remote work with great coffee and muffins is better"

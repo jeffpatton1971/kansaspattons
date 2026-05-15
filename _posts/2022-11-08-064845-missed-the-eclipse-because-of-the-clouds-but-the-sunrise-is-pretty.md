@@ -20,12 +20,8 @@ images:
   - id: "2022/11/08/17975230813730826.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "missed the eclipse because of the clouds…but the sunrise is pretty"

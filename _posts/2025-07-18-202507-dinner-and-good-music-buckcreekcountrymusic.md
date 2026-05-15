@@ -20,13 +20,9 @@ related:
   - type: gallery
     id: instagram-2025-07-18-202507-dinner-and-good-music-buckcreekcountrymusic
     rel: photos
-hashtags: []
 handles:
   - "buckcreekcountrymusic"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Dinner and good music @buckcreekcountrymusic"

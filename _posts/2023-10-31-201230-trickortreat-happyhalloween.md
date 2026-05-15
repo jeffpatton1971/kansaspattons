@@ -27,15 +27,10 @@ images:
     caption:
     alt:
 hashtags:
-  - "trickortreat"
-  - "happyhalloween"
+  - happyhalloween
+  - trickortreat
 handles: []
 location:
-tags:
-  - "trickortreat"
-  - "happyhalloween"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#trickortreat #happyhalloween"

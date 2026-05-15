@@ -20,12 +20,8 @@ images:
   - id: "2025/03/18/18063064726954629.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Don’t worry dessert acquired"

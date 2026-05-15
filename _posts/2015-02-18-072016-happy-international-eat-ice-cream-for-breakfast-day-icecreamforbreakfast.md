@@ -25,11 +25,6 @@ hashtags:
   - "kidsgetcancertoo"
 handles: []
 location:
-tags:
-  - "icecreamforbreakfast"
-  - "kidsgetcancertoo"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Happy International Eat Ice Cream for Breakfast Day!#icecreamforbreakfast#kidsgetcancertoo"

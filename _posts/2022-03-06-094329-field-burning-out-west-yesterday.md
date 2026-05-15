@@ -23,12 +23,8 @@ images:
   - id: "2022/03/06/17911205852313500.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Field burning out west yesterday"

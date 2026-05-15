@@ -30,9 +30,6 @@ hashtags:
   - "thanksgiving2024"
 handles: []
 location:
-tags:
-  - "thanksgiving2024"
-  - "instagram"
 categories:
   - "Thanksgiving"
 authors:

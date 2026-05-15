@@ -11,10 +11,7 @@ source:
   media_count: "10"
   cross_post_source: FB
 categories:
-  - birthday
-tags:
-  - instagram
-  - gallery
+  - Birthday
 authors:
   - "Jeff Patton"
 summary: "10 images related to BEYBLADE birthday party."

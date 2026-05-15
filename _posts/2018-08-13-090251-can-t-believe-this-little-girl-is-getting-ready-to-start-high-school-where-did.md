@@ -20,12 +20,8 @@ images:
   - id: "2018/08/13/17861811448275805.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Can’t believe this little girl is getting ready to start high school...where did the years go"

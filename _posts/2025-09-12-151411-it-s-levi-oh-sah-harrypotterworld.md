@@ -24,10 +24,6 @@ hashtags:
   - "harrypotterworld"
 handles: []
 location:
-tags:
-  - "harrypotterworld"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "It’s Levi-oh-sah #harrypotterworld"

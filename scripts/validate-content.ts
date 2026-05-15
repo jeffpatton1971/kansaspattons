@@ -47,8 +47,11 @@ const recommendations = {
   categoriesPresent: [] as string[],
   sourcePresent: [] as string[],
   relatedArticleType: [] as string[],
+  systemTaxonomyPresent: [] as string[],
   galleryMarkdownFiles: 0,
 };
+
+const removedTaxonomy = new Set(['wordpress', 'instagram', 'facebook', 'gallery', 'album']);
 
 async function main() {
   const mediaIds = await readMediaIds();
@@ -78,6 +81,7 @@ async function main() {
       categoriesPresent: recommendationSummary(recommendations.categoriesPresent),
       sourcePresent: recommendationSummary(recommendations.sourcePresent),
       relatedArticleType: recommendationSummary(recommendations.relatedArticleType),
+      systemTaxonomyPresent: recommendationSummary(recommendations.systemTaxonomyPresent),
       galleryMarkdownFiles: recommendations.galleryMarkdownFiles,
     },
   };
@@ -174,6 +178,7 @@ function validateRecords(records: ContentRecord[], mediaIds: Set<string>) {
   for (const record of records) {
     validateRequiredShape(record);
     validateTargetWarnings(record);
+    validateTaxonomy(record);
     validateMediaReferences(record, mediaIds);
 
     if (record.id) {
@@ -259,6 +264,34 @@ function validateTargetWarnings(record: ContentRecord) {
 
   if (data.source !== undefined) {
     trackRecommendation(recommendations.sourcePresent, file);
+  }
+}
+
+function validateTaxonomy(record: ContentRecord) {
+  const fields = ['tags', 'hashtags', 'categories'] as const;
+
+  for (const field of fields) {
+    const values = stringArray(record.data[field]);
+    const seen = new Set<string>();
+
+    for (const value of values) {
+      const normalized = field === 'categories' ? normalizeCategoryKey(value) : normalizeHashtag(value);
+
+      if (!normalized) {
+        continue;
+      }
+
+      if (removedTaxonomy.has(normalized)) {
+        trackRecommendation(recommendations.systemTaxonomyPresent, record.file);
+        addIssue('error', 'taxonomy.systemValue', record.file, `${field} contains source/import value "${value}".`);
+      }
+
+      if (seen.has(normalized)) {
+        addIssue('error', 'taxonomy.duplicateValue', record.file, `${field} contains duplicate value "${value}" after normalization.`);
+      }
+
+      seen.add(normalized);
+    }
   }
 }
 
@@ -529,6 +562,14 @@ function filenameFromUrl(value: string) {
 
 function isCanonicalMediaKey(value: string) {
   return /^\d{4}\/\d{2}\/\d{2}\/[^/]+\.[A-Za-z0-9]+$/.test(value);
+}
+
+function normalizeHashtag(value: string) {
+  return value.normalize('NFKC').trim().replace(/^#+/, '').replace(/\s+/g, '').toLowerCase();
+}
+
+function normalizeCategoryKey(value: string) {
+  return value.normalize('NFKC').trim().replace(/\s+/g, ' ').toLowerCase();
 }
 
 async function markdownFiles(directory: string) {

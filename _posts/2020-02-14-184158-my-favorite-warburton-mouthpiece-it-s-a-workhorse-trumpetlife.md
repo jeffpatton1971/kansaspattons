@@ -21,17 +21,11 @@ images:
     caption:
     alt:
 hashtags:
-  - "warburton"
-  - "mouthpiece"
-  - "trumpetlife"
+  - mouthpiece
+  - trumpetlife
+  - warburton
 handles: []
 location:
-tags:
-  - "warburton"
-  - "mouthpiece"
-  - "trumpetlife"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "My favorite #warburton #mouthpiece it’s a workhorse #trumpetlife"

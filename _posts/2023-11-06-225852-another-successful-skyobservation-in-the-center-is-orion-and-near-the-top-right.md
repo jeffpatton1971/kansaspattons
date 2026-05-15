@@ -24,10 +24,6 @@ hashtags:
   - "skyobservation"
 handles: []
 location:
-tags:
-  - "skyobservation"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Another successful #skyobservation. In the center is Orion and near the top right Jupiter"

@@ -20,12 +20,8 @@ images:
   - id: "2018/04/16/17925392332113868.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Best part of baseball practice? Ice cream afterwards!!"

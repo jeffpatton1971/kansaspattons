@@ -23,12 +23,8 @@ images:
   - id: "2018/01/20/17907229108097562.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Fun day with these two, McD’s for lunch and then Pokémon hunting after"

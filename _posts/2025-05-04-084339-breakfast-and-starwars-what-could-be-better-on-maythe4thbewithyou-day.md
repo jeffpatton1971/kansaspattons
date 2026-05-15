@@ -25,10 +25,6 @@ hashtags:
 handles:
   - "starwars"
 location:
-tags:
-  - "maythe4thbewithyou"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Breakfast and @starwars what could be better on #maythe4thbewithyou day"

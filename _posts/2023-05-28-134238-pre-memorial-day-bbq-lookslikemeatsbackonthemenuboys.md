@@ -24,10 +24,6 @@ hashtags:
   - "lookslikemeatsbackonthemenuboys"
 handles: []
 location:
-tags:
-  - "lookslikemeatsbackonthemenuboys"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "pre-memorial day bbq #lookslikemeatsbackonthemenuboys"

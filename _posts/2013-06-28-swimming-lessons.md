@@ -19,8 +19,6 @@ related:
     rel: photos
 categories:
   - "Natalie"
-tags:
-  - "wordpress"
 authors:
   - "Jeff Patton"
 summary: "Swimming lessons started up this week! I took my lunch break to take Natalie to her lessons today!"

@@ -23,13 +23,9 @@ images:
   - id: "2022/10/01/17957752718029596.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "topekasymphony"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "@topekasymphony performed Beethoven’s 9th and it was amazing"

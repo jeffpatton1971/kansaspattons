@@ -10,11 +10,8 @@ source:
   id: "818"
   url: "https://jeffspatton.wordpress.com/2013/07/16/july-16-2013/"
 categories:
+  - Cancer
   - Nathan
-  - cancer
-tags:
-  - wordpress
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "32 images related to KU Med Check-In."

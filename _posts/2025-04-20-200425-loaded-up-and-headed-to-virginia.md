@@ -23,12 +23,8 @@ images:
   - id: "2025/04/20/18052569302218216.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Loaded up and headed to Virginia"

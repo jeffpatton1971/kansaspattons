@@ -28,10 +28,6 @@ hashtags:
 handles:
   - "theroost920mass"
 location:
-tags:
-  - "breakfast"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#breakfast @theroost920mass 🖤💛"

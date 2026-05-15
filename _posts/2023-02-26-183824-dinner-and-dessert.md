@@ -23,12 +23,8 @@ images:
   - id: "2023/02/26/18346110739032733.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "dinner and dessert"

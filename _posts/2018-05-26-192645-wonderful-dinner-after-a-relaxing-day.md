@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-05-26-192645-wonderful-dinner-after-a-relaxing-day
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Wonderful dinner after a relaxing day"

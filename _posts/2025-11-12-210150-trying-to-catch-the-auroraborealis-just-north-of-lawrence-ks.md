@@ -30,10 +30,6 @@ hashtags:
   - "auroraborealis"
 handles: []
 location:
-tags:
-  - "auroraborealis"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Trying to catch the #auroraborealis just North of Lawrence, KS"

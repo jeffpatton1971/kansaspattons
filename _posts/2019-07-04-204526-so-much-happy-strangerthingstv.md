@@ -20,13 +20,9 @@ images:
   - id: "2019/07/04/18082725328042022.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "strangerthingstv"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "So much happy! @strangerthingstv"

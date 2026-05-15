@@ -20,12 +20,8 @@ images:
   - id: "2019/10/24/18111401860060210.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Overcast days make for spooky walks"

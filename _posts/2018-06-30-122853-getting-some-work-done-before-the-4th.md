@@ -23,12 +23,8 @@ images:
   - id: "2018/06/30/17957402437052546.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Getting some work done before the 4th"

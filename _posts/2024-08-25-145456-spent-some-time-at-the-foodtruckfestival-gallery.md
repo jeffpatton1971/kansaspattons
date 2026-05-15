@@ -10,13 +10,11 @@ source:
   id: instagram-2024-08-25-145456-spent-some-time-at-the-foodtruckfestival
   media_count: "4"
   cross_post_source: FB
-tags:
-  - foodtruckfestival
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Spent some time at the #foodtruckfestival."
+hashtags:
+  - foodtruckfestival
 gallery: instagram-2024-08-25-145456-spent-some-time-at-the-foodtruckfestival
 cover_image: "2024/08/25/17895798234059024.jpg"
 images:

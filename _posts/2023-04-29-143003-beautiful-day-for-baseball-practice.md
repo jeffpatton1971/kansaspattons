@@ -24,10 +24,6 @@ hashtags:
   - "baseball"
 handles: []
 location:
-tags:
-  - "baseball"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "beautiful day for #baseball practice"

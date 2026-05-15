@@ -20,12 +20,8 @@ images:
   - id: "2018/03/03/17910335653080362.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Blue skies...shining on me"

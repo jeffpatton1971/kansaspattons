@@ -20,13 +20,9 @@ related:
   - type: gallery
     id: instagram-2022-11-15-122940-first-stop-of-the-day-nationalwwimuseum-glad-i-finally-got-to-visit
     rel: photos
-hashtags: []
 handles:
   - "nationalwwimuseum"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "first stop of the day @nationalwwimuseum glad i finally got to visit"

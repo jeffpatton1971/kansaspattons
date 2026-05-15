@@ -10,14 +10,12 @@ source:
   id: instagram-2025-01-06-112620-snowday-kansas
   media_count: "5"
   cross_post_source: FB
-tags:
-  - snowday
-  - kansas
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "5 images related to #snowday #kansas."
+hashtags:
+  - kansas
+  - snowday
 gallery: instagram-2025-01-06-112620-snowday-kansas
 cover_image: "2025/01/06/17895520275105781.jpg"
 images:

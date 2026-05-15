@@ -20,12 +20,8 @@ images:
   - id: "2018/08/25/17959058779109646.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Round one done...Round two on the grill"

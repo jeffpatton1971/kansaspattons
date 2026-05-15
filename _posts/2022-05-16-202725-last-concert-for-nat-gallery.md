@@ -10,9 +10,6 @@ source:
   id: instagram-2022-05-16-202725-last-concert-for-nat
   media_count: "8"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "8 images related to Last concert for Nat."

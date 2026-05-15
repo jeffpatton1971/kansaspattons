@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-09-25-193924-what-a-wonderful-time-this-evening-with-some-truly-wonderful-and-special-kids
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "What a wonderful time this evening with some truly wonderful and special kids!"

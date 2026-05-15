@@ -10,13 +10,11 @@ source:
   id: instagram-2023-06-12-190049-stopped-by-the-rackspacecastle-today-before-everything-gets-moved-ngl-was-a
   media_count: "6"
   cross_post_source: FB
-tags:
-  - rackspacecastle
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to Stopped by the #rackspacecastle today before everything gets moved…ngl…was a little sad."
+hashtags:
+  - rackspacecastle
 gallery: instagram-2023-06-12-190049-stopped-by-the-rackspacecastle-today-before-everything-gets-moved-ngl-was-a
 cover_image: "2023/06/12/17944017923640939.jpg"
 images:

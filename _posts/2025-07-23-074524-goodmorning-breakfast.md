@@ -21,15 +21,10 @@ images:
     caption:
     alt:
 hashtags:
-  - "goodmorning"
-  - "breakfast"
+  - breakfast
+  - goodmorning
 handles: []
 location:
-tags:
-  - "goodmorning"
-  - "breakfast"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#goodmorning #breakfast"

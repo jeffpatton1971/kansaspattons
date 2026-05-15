@@ -23,12 +23,8 @@ images:
   - id: "2025/04/13/18086090803617389.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had a wonderful thing helping my sister this weekend! Headed home"

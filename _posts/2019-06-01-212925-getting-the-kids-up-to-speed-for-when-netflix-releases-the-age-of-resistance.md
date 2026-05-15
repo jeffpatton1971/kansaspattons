@@ -20,13 +20,9 @@ images:
   - id: "2019/06/01/18030106267173021.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "netflix"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Getting the kids up to speed for when @netflix releases the Age of Resistance"

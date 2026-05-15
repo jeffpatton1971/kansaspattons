@@ -25,11 +25,6 @@ hashtags:
   - "lfk"
 handles: []
 location:
-tags:
-  - "greek"
-  - "lfk"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "A tasty #Greek lunch at our favorite place in #lfk"

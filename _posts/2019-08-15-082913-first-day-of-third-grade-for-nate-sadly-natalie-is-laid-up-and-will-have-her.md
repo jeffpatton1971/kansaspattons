@@ -20,11 +20,8 @@ related:
   - type: gallery
     id: instagram-2019-08-15-082913-first-day-of-third-grade-for-nate-sadly-natalie-is-laid-up-and-will-have-her
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Natalie"
   - "Nathan"

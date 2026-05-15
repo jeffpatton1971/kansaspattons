@@ -24,10 +24,6 @@ hashtags:
   - "morningwalk"
 handles: []
 location:
-tags:
-  - "morningwalk"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#morningwalk across campus"

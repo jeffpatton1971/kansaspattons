@@ -10,13 +10,11 @@ source:
   id: instagram-2023-05-28-134238-pre-memorial-day-bbq-lookslikemeatsbackonthemenuboys
   media_count: "4"
   cross_post_source: FB
-tags:
-  - lookslikemeatsbackonthemenuboys
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to pre-memorial day bbq #lookslikemeatsbackonthemenuboys."
+hashtags:
+  - lookslikemeatsbackonthemenuboys
 gallery: instagram-2023-05-28-134238-pre-memorial-day-bbq-lookslikemeatsbackonthemenuboys
 cover_image: "2023/05/28/18364398727026030.jpg"
 images:

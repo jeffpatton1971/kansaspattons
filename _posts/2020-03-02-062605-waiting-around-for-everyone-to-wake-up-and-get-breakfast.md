@@ -20,12 +20,8 @@ images:
   - id: "2020/03/02/17863563373705654.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Waiting around for everyone to wake up and get breakfast"

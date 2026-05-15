@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2025-04-11-153218-lunch-with-my-sister
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Lunch with my sister"

@@ -20,12 +20,8 @@ images:
   - id: "2019/01/12/17930314741250381.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "It’s all fun and games until you get stuck in a snow drift"

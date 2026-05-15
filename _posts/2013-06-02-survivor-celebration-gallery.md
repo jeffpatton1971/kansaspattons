@@ -10,14 +10,11 @@ source:
   id: "593"
   url: "https://jeffspatton.wordpress.com/2013/06/02/june-2-2012/"
 categories:
-  - children
-  - family
+  - Cancer
+  - Children
+  - Family
   - Natalie
   - Nathan
-  - cancer
-tags:
-  - wordpress
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "17 images related to Survivor Celebration."

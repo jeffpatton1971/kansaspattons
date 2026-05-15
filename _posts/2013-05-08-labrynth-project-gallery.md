@@ -10,11 +10,8 @@ source:
   id: "444"
   url: "https://jeffspatton.wordpress.com/2013/05/08/may-8-2013/"
 categories:
-  - Natalie
   - CPLS
-tags:
-  - wordpress
-  - gallery
+  - Natalie
 authors:
   - "Jeff Patton"
 summary: "6 images related to Labrynth Project."

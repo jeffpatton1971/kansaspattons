@@ -20,12 +20,9 @@ related:
   - type: gallery
     id: instagram-2026-01-11-200258-had-an-absolute-wonderful-time-being-natalie-15-2003-chauffeur
     rel: photos
-hashtags: []
 handles:
   - "natalie.15.2003"
 location:
-tags:
-  - "instagram"
 categories:
   - "Natalie"
 authors:

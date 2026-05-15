@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2025-04-23-084841-learned-about-glassmaking-this-morning
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Learned about glassmaking this morning"

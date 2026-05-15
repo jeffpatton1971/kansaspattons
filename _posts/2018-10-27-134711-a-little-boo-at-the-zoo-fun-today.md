@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-10-27-134711-a-little-boo-at-the-zoo-fun-today
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "A little Boo at the Zoo fun today!"

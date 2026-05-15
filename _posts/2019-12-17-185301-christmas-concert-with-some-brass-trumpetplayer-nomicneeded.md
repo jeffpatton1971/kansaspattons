@@ -21,14 +21,10 @@ images:
     caption:
     alt:
 hashtags:
-  - "trumpetplayer"
-  - "nomicneeded"
+  - nomicneeded
+  - trumpetplayer
 handles: []
 location:
-tags:
-  - "trumpetplayer"
-  - "nomicneeded"
-  - "instagram"
 categories:
   - "Christmas"
 authors:

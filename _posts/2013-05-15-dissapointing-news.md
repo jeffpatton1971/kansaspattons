@@ -13,10 +13,8 @@ source:
   id: 505
   url: "https://jeffspatton.wordpress.com/2013/05/15/may-15-2013/"
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "We got a call back from the doctor today, Nathan won’t be going in for surgery like we thought. While this is disappointing news, the surgeon believes that with two more cycles of chemo Nathan’s tumor will be even smaller and hopefully pull"

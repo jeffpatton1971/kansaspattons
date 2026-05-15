@@ -11,11 +11,8 @@ source:
   media_count: "7"
   cross_post_source: FB
 categories:
-  - spring
   - CPLS
-tags:
-  - instagram
-  - gallery
+  - Spring
 authors:
   - "Jeff Patton"
 summary: "7 images related to CPLS 2019 Spring Concert."

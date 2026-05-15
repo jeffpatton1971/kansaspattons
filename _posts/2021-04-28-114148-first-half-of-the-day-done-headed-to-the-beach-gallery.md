@@ -10,9 +10,6 @@ source:
   id: instagram-2021-04-28-114148-first-half-of-the-day-done-headed-to-the-beach
   media_count: "10"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to First half of the day done... headed to the beach."

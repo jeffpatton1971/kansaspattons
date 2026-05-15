@@ -10,9 +10,6 @@ source:
   id: instagram-2018-09-22-181219-girls-did-well-at-keynundrum-not-sure-how-they-figured-it-out-so-quickly-with
   media_count: "4"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Girls did well at keynundrum not sure how they figured it out so quickly with the amount o...."

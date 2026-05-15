@@ -20,11 +20,8 @@ related:
   - type: gallery
     id: instagram-2025-05-23-201611-nathan-s-8th-grade-graduation
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Nathan"
 authors:

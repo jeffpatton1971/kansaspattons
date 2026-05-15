@@ -10,13 +10,11 @@ source:
   id: instagram-2025-03-28-211434-has-a-blast-watching-the-harlemglobetrotters
   media_count: "5"
   cross_post_source: FB
-tags:
-  - harlemglobetrotters
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "5 images related to Has a blast watching the #harlemglobetrotters."
+hashtags:
+  - harlemglobetrotters
 gallery: instagram-2025-03-28-211434-has-a-blast-watching-the-harlemglobetrotters
 cover_image: "2025/03/28/17881761780266263.jpg"
 images:

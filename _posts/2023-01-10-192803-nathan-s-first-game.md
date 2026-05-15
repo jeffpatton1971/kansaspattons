@@ -20,11 +20,8 @@ related:
   - type: gallery
     id: instagram-2023-01-10-192803-nathan-s-first-game
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Nathan"
 authors:

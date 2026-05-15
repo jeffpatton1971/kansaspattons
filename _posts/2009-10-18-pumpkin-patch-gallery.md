@@ -8,10 +8,7 @@ date: 2009-10-18 02:46:00 -0600
 source:
   type: wordpress
 categories:
-  - family
-tags:
-  - wordpress
-  - gallery
+  - Family
 authors:
   - Jeff
 summary: "Fourteen photos from the family pumpkin patch trip."

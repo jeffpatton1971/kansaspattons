@@ -10,9 +10,6 @@ source:
   id: instagram-2025-08-23-155526-visiting-kenya
   media_count: "8"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "8 images related to Visiting Kenya."

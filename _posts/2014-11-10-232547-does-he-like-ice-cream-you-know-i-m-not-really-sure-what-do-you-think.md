@@ -20,12 +20,8 @@ images:
   - id: "2014/11/10/17843479936063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Does he like ice cream? You know I'm not really sure, what do you think?"

@@ -10,9 +10,6 @@ source:
   id: instagram-2021-04-26-204249-had-fun-eating-and-shopping
   media_count: "8"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "8 images related to Had fun eating and shopping."

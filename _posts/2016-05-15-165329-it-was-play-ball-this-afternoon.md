@@ -20,12 +20,8 @@ images:
   - id: "2016/05/15/17847532621097675.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "It was play ball this afternoon!"

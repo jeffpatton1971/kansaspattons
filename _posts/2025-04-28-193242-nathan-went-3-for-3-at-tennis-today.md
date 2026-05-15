@@ -20,11 +20,8 @@ related:
   - type: gallery
     id: instagram-2025-04-28-193242-nathan-went-3-for-3-at-tennis-today
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Nathan"
 authors:

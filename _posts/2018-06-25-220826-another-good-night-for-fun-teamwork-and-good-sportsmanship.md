@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-06-25-220826-another-good-night-for-fun-teamwork-and-good-sportsmanship
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Another good night for fun, teamwork and good sportsmanship"

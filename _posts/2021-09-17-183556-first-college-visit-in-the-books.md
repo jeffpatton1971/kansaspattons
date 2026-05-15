@@ -26,12 +26,8 @@ images:
   - id: "2021/09/17/18129988357236286.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "First college visit in the books"

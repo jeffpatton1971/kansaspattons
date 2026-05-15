@@ -20,12 +20,8 @@ images:
   - id: "2019/07/07/17869676938411694.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "3lbs of delicious rejects!"

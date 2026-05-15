@@ -20,11 +20,8 @@ images:
   - id: "2014/02/02/17842439140063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Grandma"
 authors:

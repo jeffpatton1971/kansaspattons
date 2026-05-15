@@ -10,9 +10,6 @@ source:
   id: instagram-2019-03-27-170816-field-trip
   media_count: "10"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Field trip."

@@ -20,13 +20,10 @@ related:
   - type: gallery
     id: instagram-2025-06-08-185424-what-an-unexpectedly-delightful-birthday
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
-  - "birthday"
+  - Birthday
 authors:
   - "Jeff Patton"
 summary: "What an unexpectedly delightful birthday!"

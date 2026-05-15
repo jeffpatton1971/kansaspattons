@@ -31,10 +31,6 @@ hashtags:
 handles:
   - "fountaincitystringquartet"
 location:
-tags:
-  - "candelightconcert"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Enjoyed a lovely #candelightconcert with @fountaincitystringquartet"

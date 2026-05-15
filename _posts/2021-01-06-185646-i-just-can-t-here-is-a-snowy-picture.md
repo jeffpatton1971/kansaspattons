@@ -20,12 +20,8 @@ images:
   - id: "2021/01/06/18153926800097587.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "I just can’t... here is a snowy picture"

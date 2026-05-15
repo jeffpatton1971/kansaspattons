@@ -20,12 +20,8 @@ images:
   - id: "2018/08/01/17966563330049896.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Just a little Pokémon hunting with my favorite trainers"

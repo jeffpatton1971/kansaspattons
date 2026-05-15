@@ -24,10 +24,6 @@ hashtags:
   - "goodtimes"
 handles: []
 location:
-tags:
-  - "goodtimes"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "The hike up to the natural bridge and then climb down devils gulch #goodtimes"

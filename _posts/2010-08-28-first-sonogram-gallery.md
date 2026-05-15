@@ -10,11 +10,8 @@ source:
   id: "848"
   url: "https://jeffspatton.wordpress.com/2010/08/28/august-28-2010/"
 categories:
-  - family
+  - Family
   - Nathan
-tags:
-  - wordpress
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to First Sonogram."

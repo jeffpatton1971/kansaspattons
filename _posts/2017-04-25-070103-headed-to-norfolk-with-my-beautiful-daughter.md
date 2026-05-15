@@ -20,12 +20,8 @@ images:
   - id: "2017/04/25/17869898869078534.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Headed to Norfolk with my beautiful daughter"

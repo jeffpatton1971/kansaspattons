@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2025-01-21-160917-i-just-can-t-do-another-4-years-with-this-guy-if-you-don-t-agree-with-me-feel
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "I just can’t do another 4 years with this guy. If you don’t agree with me feel free to unfriend me because at this point I don’t really care anymore."

@@ -20,12 +20,8 @@ images:
   - id: "2025/05/25/17867529774383891.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Coffee and donuts with my mom"

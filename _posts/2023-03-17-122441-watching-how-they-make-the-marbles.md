@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2023-03-17-122441-watching-how-they-make-the-marbles
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "watching how they make the marbles"

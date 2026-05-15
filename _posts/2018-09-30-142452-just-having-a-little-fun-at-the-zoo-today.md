@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-09-30-142452-just-having-a-little-fun-at-the-zoo-today
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Just having a little fun at the zoo today!"

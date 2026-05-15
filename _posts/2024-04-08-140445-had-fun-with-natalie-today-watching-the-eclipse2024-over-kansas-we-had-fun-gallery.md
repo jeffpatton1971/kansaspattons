@@ -12,14 +12,12 @@ source:
   cross_post_source: FB
 categories:
   - Natalie
-tags:
-  - eclipse2024
-  - kansas
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to Had fun with Natalie today watching the #eclipse2024 over #kansas. We had fun making a pin...."
+hashtags:
+  - eclipse2024
+  - kansas
 gallery: instagram-2024-04-08-140445-had-fun-with-natalie-today-watching-the-eclipse2024-over-kansas-we-had-fun
 cover_image: "2024/04/08/18316190713134697.jpg"
 images:

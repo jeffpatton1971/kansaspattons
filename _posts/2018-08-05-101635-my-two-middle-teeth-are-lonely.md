@@ -20,12 +20,8 @@ images:
   - id: "2018/08/05/17859086698279289.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "“My two middle teeth are lonely!”"

@@ -18,11 +18,9 @@ related:
     id: wordpress-2013-03-19-102210-march-19-2013
     rel: photos
 categories:
-  - "family"
-  - "Nathan"
-  - birthdays
-tags:
-  - "wordpress"
+  - Birthdays
+  - Family
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "Nathan’s birthday! For whatever reason we tend to spread birthdays out over a few days, this year we had a family birthday about a week beforehand, and then one at T Rex Café and then one on his actual birthday! So I’ll add the pictures I h"

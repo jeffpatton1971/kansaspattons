@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2019-06-14-182321-day-trip-to-chicago
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Day trip to Chicago"

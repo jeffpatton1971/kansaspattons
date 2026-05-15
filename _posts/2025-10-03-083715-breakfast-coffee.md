@@ -25,11 +25,6 @@ hashtags:
   - "coffee"
 handles: []
 location:
-tags:
-  - "breakfast"
-  - "coffee"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#breakfast #coffee"

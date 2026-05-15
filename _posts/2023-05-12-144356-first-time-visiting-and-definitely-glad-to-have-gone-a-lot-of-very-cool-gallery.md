@@ -10,9 +10,6 @@ source:
   id: instagram-2023-05-12-144356-first-time-visiting-and-definitely-glad-to-have-gone-a-lot-of-very-cool
   media_count: "10"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to first time visiting and definitely glad to have gone. a lot of very cool aircraft and incr...."

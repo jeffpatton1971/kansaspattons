@@ -10,12 +10,9 @@ source:
   id: "84"
   url: "https://jeffspatton.wordpress.com/2013/03/30/march-30-2013/"
 categories:
-  - family
-  - holidays
   - Easter
-tags:
-  - wordpress
-  - gallery
+  - Family
+  - Holidays
 authors:
   - "Jeff Patton"
 summary: "21 images related to Easter Sunday."

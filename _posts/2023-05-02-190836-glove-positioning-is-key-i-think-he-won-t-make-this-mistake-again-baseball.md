@@ -24,10 +24,6 @@ hashtags:
   - "baseball"
 handles: []
 location:
-tags:
-  - "baseball"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "glove positioning is key…i think he won’t make this mistake again #baseball"

@@ -24,10 +24,6 @@ hashtags:
   - "trumpetlife"
 handles: []
 location:
-tags:
-  - "trumpetlife"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Yes...I think I will cheer! #trumpetlife"

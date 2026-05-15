@@ -20,13 +20,9 @@ images:
   - id: "2026/03/05/18081412058040069.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "theroost920mass"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Thursday’s @theroost920mass 🖤💛"

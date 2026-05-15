@@ -10,9 +10,6 @@ source:
   id: instagram-2021-04-29-150415-from-breakfast-selfies-to-airboat-rides
   media_count: "9"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "9 images related to From breakfast selfies to airboat rides."

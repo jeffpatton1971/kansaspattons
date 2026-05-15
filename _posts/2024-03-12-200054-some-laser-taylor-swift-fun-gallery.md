@@ -10,9 +10,6 @@ source:
   id: instagram-2024-03-12-200054-some-laser-taylor-swift-fun
   media_count: "6"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to Some Laser Taylor Swift fun."

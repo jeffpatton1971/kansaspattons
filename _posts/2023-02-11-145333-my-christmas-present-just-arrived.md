@@ -20,11 +20,8 @@ images:
   - id: "2023/02/11/17973776729030083.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Christmas"
 authors:

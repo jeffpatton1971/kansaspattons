@@ -10,9 +10,6 @@ source:
   id: instagram-2018-09-30-151547-nice-day-to-be-out-enjoying-some-fun-places
   media_count: "7"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to Nice day to be out enjoying some fun places."

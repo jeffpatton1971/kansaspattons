@@ -10,9 +10,6 @@ source:
   id: instagram-2025-04-11-191659-forgot-to-post-these-i-don-t-know-why-but-the-bean-makes-me-happy
   media_count: "4"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Forgot to post these! I don’t know why but the bean makes me happy!."

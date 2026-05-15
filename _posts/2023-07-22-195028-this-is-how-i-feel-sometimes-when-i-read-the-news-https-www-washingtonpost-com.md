@@ -20,12 +20,8 @@ images:
   - id: "2023/07/22/18371661271024306.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "This is how i feel sometimes when i read the news. https://www.washingtonpost.com/politics/2023/07/22/desantis-slavery-curriculum/?itid=hp_p001_f005"

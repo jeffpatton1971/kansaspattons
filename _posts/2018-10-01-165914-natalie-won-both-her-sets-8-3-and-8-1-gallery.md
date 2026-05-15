@@ -12,9 +12,6 @@ source:
   cross_post_source: FB
 categories:
   - Natalie
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Natalie won both her sets 8-3 and 8-1!."

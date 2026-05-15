@@ -24,10 +24,6 @@ hashtags:
   - "lfk"
 handles: []
 location:
-tags:
-  - "lfk"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "One of the reasons i love #LFK"

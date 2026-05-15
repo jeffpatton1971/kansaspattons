@@ -10,9 +10,6 @@ source:
   id: instagram-2019-10-27-171027-somehow-a-fence-sprung-up-where-i-was-working
   media_count: "4"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Somehow a fence sprung up where I was working!."

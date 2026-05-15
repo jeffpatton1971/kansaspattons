@@ -23,12 +23,8 @@ images:
   - id: "2026/04/10/18093024542153162.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Breakfast in Lawrence and dinner in Crystal Lake 🖤💛"

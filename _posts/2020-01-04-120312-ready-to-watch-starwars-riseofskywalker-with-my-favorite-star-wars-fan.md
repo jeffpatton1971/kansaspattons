@@ -25,10 +25,6 @@ hashtags:
 handles:
   - "starwars"
 location:
-tags:
-  - "riseofskywalker"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Ready to watch @starwars #riseofskywalker with my favorite Star Wars fan!"

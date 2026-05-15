@@ -10,9 +10,6 @@ source:
   id: instagram-2021-04-28-214536-bio-luminescent-kayaking-not-many-pictures-there-is-a-picture-of-a-jelly-comb
   media_count: "6"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to Bio-luminescent kayaking not many pictures...there is a picture of a jelly comb and a shri...."

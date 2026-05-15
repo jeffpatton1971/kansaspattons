@@ -21,17 +21,11 @@ images:
     caption:
     alt:
 hashtags:
-  - "newbeginings"
-  - "goodmorning"
-  - "lfk"
+  - goodmorning
+  - lfk
+  - newbeginings
 handles: []
 location:
-tags:
-  - "newbeginings"
-  - "goodmorning"
-  - "lfk"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#newbeginings #goodmorning #lfk"

@@ -24,10 +24,6 @@ hashtags:
   - "sunflowers"
 handles: []
 location:
-tags:
-  - "sunflowers"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "had to cut the #sunflowers back…these two were the only blooms"

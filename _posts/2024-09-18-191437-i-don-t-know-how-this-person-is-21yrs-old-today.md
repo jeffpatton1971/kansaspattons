@@ -20,12 +20,8 @@ images:
   - id: "2024/09/18/18059853040680927.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "I don’t know how this person is 21yrs old today."

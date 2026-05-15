@@ -20,12 +20,8 @@ images:
   - id: "2023/03/15/18180402886260313.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "dinner last night.. homemade calzones"

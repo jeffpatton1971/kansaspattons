@@ -23,12 +23,9 @@ images:
   - id: "2025/08/12/18093272824657664.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "natalie.15.2003"
 location:
-tags:
-  - "instagram"
 categories:
   - "Natalie"
 authors:

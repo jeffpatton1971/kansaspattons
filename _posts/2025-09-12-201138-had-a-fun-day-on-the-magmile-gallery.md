@@ -10,13 +10,11 @@ source:
   id: instagram-2025-09-12-201138-had-a-fun-day-on-the-magmile
   media_count: "7"
   cross_post_source: FB
-tags:
-  - magmile
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to Had a fun day on the #magmile."
+hashtags:
+  - magmile
 gallery: instagram-2025-09-12-201138-had-a-fun-day-on-the-magmile
 cover_image: "2025/09/12/17842427064578408.jpg"
 images:

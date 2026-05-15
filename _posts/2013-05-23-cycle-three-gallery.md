@@ -10,11 +10,8 @@ source:
   id: "543"
   url: "https://jeffspatton.wordpress.com/2013/05/23/may-23-2013/"
 categories:
+  - Cancer
   - Nathan
-  - cancer
-tags:
-  - wordpress
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "18 images related to Cycle Three."

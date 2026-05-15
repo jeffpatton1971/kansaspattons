@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2024-04-23-145956-very-educational-tour-of-the-alamo-this-morning
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Very educational tour of The Alamo this morning"

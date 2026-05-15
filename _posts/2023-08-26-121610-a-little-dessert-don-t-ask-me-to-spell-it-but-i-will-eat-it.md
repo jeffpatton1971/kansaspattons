@@ -20,12 +20,8 @@ images:
   - id: "2023/08/26/17899871330838882.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "A little dessert…don’t ask me to spell it, but I will eat it!"

@@ -26,12 +26,8 @@ images:
   - id: "2025/03/18/17953629605793053.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Dinner and shopping with my favorite daughter"

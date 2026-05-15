@@ -20,12 +20,8 @@ images:
   - id: "2021/07/16/17893030832123942.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "This came in the mail today"

@@ -26,12 +26,8 @@ images:
   - id: "2022/04/14/17862937685677350.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "choir competition"

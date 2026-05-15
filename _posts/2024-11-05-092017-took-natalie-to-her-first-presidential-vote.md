@@ -24,9 +24,6 @@ hashtags:
   - "vote"
 handles: []
 location:
-tags:
-  - "vote"
-  - "instagram"
 categories:
   - "Natalie"
 authors:

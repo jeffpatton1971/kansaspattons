@@ -10,9 +10,6 @@ source:
   id: instagram-2024-08-01-080818-it-was-windy
   media_count: "7"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to “It was windy”."

@@ -20,11 +20,8 @@ related:
   - type: gallery
     id: instagram-2019-03-23-200428-putting-together-a-beyblade-arena-for-nathan
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Nathan"
 authors:

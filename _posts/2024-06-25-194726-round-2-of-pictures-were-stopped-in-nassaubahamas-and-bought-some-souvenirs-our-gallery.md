@@ -10,14 +10,12 @@ source:
   id: instagram-2024-06-25-194726-round-2-of-pictures-were-stopped-in-nassaubahamas-and-bought-some-souvenirs-our
   media_count: "10"
   cross_post_source: FB
-tags:
-  - nassaubahamas
-  - disneycruise
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Round 2 of pictures were stopped in #nassaubahamas and bought some souvenirs. Our ship was...."
+hashtags:
+  - disneycruise
+  - nassaubahamas
 gallery: instagram-2024-06-25-194726-round-2-of-pictures-were-stopped-in-nassaubahamas-and-bought-some-souvenirs-our
 cover_image: "2024/06/25/18038424550788440.jpg"
 images:

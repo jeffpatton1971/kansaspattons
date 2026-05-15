@@ -10,9 +10,6 @@ source:
   id: instagram-2025-08-13-162740-obligatory-posing
   media_count: "4"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Obligatory posing."

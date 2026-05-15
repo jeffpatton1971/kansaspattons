@@ -11,14 +11,12 @@ source:
   media_count: "10"
   cross_post_source: FB
 categories:
-  - birthday
-tags:
-  - funambula
-  - instagram
-  - gallery
+  - Birthday
 authors:
   - "Jeff Patton"
 summary: "10 images related to Had a wonderful birthday watching #FUNAMBULA and @bellonock."
+hashtags:
+  - funambula
 gallery: instagram-2022-06-09-125319-had-a-wonderful-birthday-watching-funambula-and-bellonock
 cover_image: "2022/06/09/17962295686684519.jpg"
 images:

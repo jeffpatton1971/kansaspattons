@@ -20,12 +20,8 @@ images:
   - id: "2021/07/14/17888482922197235.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Trees look spooky in black and white"

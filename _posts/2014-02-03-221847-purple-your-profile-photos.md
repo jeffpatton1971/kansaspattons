@@ -22,10 +22,6 @@ album:
   media_count: 1
   date_start: 2014-02-03 22:18:47
   date_end: 2014-02-03 22:18:47
-categories:
-  - facebook
-  - album
-tags: []
 authors:
   - "Jeff Patton"
 summary: "Purple Your Profile Photos Facebook album."

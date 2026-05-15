@@ -12,11 +12,8 @@ source:
 categories:
   - Natalie
   - Nathan
-  - summer
-  - zoo
-tags:
-  - wordpress
-  - gallery
+  - Summer
+  - Zoo
 authors:
   - "Jeff Patton"
 summary: "17 images related to Zoo Trip."

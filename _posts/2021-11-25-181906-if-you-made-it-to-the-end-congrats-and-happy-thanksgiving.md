@@ -20,11 +20,8 @@ related:
   - type: gallery
     id: instagram-2021-11-25-181906-if-you-made-it-to-the-end-congrats-and-happy-thanksgiving
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Thanksgiving"
 authors:

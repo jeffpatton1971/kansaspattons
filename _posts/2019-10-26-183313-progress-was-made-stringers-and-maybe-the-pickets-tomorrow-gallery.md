@@ -10,9 +10,6 @@ source:
   id: instagram-2019-10-26-183313-progress-was-made-stringers-and-maybe-the-pickets-tomorrow
   media_count: "6"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to Progress was made. Stringers and maybe the pickets tomorrow."

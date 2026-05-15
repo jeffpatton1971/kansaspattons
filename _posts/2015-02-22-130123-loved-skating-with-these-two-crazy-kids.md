@@ -20,12 +20,8 @@ images:
   - id: "2015/02/22/17843554036063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Loved skating with these two crazy kids!"

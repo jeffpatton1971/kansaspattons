@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2023-10-04-225045-7th-and-8th-grade-camp-out
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "7th and 8th grade camp out"

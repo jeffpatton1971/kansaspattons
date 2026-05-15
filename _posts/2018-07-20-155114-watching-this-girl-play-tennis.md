@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-07-20-155114-watching-this-girl-play-tennis
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Watching this girl play tennis!"

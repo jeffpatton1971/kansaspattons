@@ -20,14 +20,10 @@ related:
   - type: gallery
     id: instagram-2023-04-01-154156-first-tennis-match-at-jayhawktenniscenter-and-lunch-at-biemersbbq-good-day
     rel: photos
-hashtags: []
 handles:
   - "jayhawktenniscenter"
   - "biemersbbq"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "First tennis match at @jayhawktenniscenter and lunch at @biemersbbq … good day"

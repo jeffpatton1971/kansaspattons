@@ -20,11 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-06-24-075456-nate-super-enjoyed-the-fishing
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Nathan"
 authors:

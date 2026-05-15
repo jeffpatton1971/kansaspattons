@@ -20,12 +20,8 @@ images:
   - id: "2022/05/16/17895693305621234.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Really enjoy the view out back"

@@ -11,16 +11,14 @@ source:
   media_count: "10"
   cross_post_source: FB
 categories:
+  - Birthday
   - Nathan
-  - birthday
-tags:
-  - beybladeburst
-  - beybladegeeks
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Building a BEYBLADE battle arena for Nathan’s 8th birthday party #beybladeburst #beybladeg...."
+hashtags:
+  - beybladeburst
+  - beybladegeeks
 gallery: instagram-2019-03-30-140753-building-a-beyblade-battle-arena-for-nathan-s-8th-birthday-party-beybladeburst
 cover_image: "2019/03/30/18024919846092754.jpg"
 images:

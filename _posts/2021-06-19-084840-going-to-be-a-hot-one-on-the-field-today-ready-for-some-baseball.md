@@ -20,12 +20,8 @@ images:
   - id: "2021/06/19/18189272164103118.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Going to be a hot one on the field today…Ready for some baseball"

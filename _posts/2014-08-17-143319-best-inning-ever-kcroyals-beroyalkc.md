@@ -25,10 +25,6 @@ hashtags:
 handles:
   - "kcroyals"
 location:
-tags:
-  - "beroyalkc"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Best!Inning!Ever!@kcroyals #beroyalkc"

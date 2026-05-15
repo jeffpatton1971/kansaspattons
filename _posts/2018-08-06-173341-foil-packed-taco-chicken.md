@@ -23,12 +23,8 @@ images:
   - id: "2018/08/06/17893262779243398.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Foil packed taco chicken"

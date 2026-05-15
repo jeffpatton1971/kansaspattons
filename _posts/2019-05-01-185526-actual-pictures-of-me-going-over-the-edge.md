@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2019-05-01-185526-actual-pictures-of-me-going-over-the-edge
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Actual pictures of me going over the edge"

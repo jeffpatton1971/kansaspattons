@@ -20,12 +20,8 @@ images:
   - id: "2021/12/12/17959031830527735.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "One of my favorite helpers"

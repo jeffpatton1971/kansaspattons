@@ -10,9 +10,6 @@ source:
   id: instagram-2021-10-16-072021-just-a-few-of-natalies-senior-pictures
   media_count: "6"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to Just a few of Natalies senior pictures."

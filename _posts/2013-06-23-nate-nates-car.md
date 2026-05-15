@@ -19,8 +19,6 @@ related:
     rel: photos
 categories:
   - "Nathan"
-tags:
-  - "wordpress"
 authors:
   - "Jeff Patton"
 summary: "We decided to get Nathan one of those trikes that had a handle on it. That way we could take him on walks and he could peddle along, but unfortunately when we went shopping we couldn’t find one, so we bought him a car! He loves his little c"

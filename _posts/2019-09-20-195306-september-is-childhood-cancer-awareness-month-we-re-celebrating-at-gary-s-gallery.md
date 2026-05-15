@@ -11,10 +11,7 @@ source:
   media_count: "10"
   cross_post_source: FB
 categories:
-  - cancer
-tags:
-  - instagram
-  - gallery
+  - Cancer
 authors:
   - "Jeff Patton"
 summary: "10 images related to September is Childhood Cancer Awareness month, we’re celebrating at Gary’s Berries with al...."

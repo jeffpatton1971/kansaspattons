@@ -20,12 +20,8 @@ images:
   - id: "2025/05/11/18029888972418187.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "On this Mother’s Day make sure your siblings know who the favorite is!"

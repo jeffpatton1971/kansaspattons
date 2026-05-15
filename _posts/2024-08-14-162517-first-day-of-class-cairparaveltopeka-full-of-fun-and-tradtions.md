@@ -25,10 +25,6 @@ hashtags:
 handles:
   - "cairparaveltopeka"
 location:
-tags:
-  - "tradtions"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "First day of class @cairparaveltopeka full of fun and #tradtions"

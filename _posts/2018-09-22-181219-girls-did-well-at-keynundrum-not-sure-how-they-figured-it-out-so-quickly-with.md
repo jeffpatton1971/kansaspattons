@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-09-22-181219-girls-did-well-at-keynundrum-not-sure-how-they-figured-it-out-so-quickly-with
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Girls did well at keynundrum not sure how they figured it out so quickly with the amount of singing and talking"

@@ -20,14 +20,10 @@ images:
   - id: "2022/02/11/18225575125096463.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "cairparaveltopeka"
   - "natalie__patton"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Senior night @cairparaveltopeka  congratulations @natalie__patton and all the other seniors it’s been a wild ride"

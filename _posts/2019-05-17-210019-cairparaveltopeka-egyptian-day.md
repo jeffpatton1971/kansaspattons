@@ -20,13 +20,9 @@ related:
   - type: gallery
     id: instagram-2019-05-17-210019-cairparaveltopeka-egyptian-day
     rel: photos
-hashtags: []
 handles:
   - "cairparaveltopeka"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "@cairparaveltopeka Egyptian day"

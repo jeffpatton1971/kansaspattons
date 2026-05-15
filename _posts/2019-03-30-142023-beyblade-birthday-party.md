@@ -20,13 +20,10 @@ related:
   - type: gallery
     id: instagram-2019-03-30-142023-beyblade-birthday-party
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
-  - "birthday"
+  - Birthday
 authors:
   - "Jeff Patton"
 summary: "BEYBLADE birthday party"

@@ -10,9 +10,6 @@ source:
   id: instagram-2023-03-17-153324-tour-the-arabia
   media_count: "9"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "9 images related to tour the Arabia."

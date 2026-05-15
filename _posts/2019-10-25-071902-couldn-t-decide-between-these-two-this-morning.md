@@ -23,12 +23,8 @@ images:
   - id: "2019/10/25/17847803683720857.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Couldn’t decide between these two this morning"

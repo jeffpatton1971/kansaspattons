@@ -10,9 +10,6 @@ source:
   id: instagram-2024-04-25-104816-no-sun-day-but-still-a-fun-day
   media_count: "9"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "9 images related to No Sun day but still a fun day."

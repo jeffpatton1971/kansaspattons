@@ -20,13 +20,10 @@ related:
   - type: gallery
     id: instagram-2023-09-02-065953-this-month-my-son-will-be-10yrs-cancer-free-he-was-diagnosed-with
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
-  - "cancer"
+  - Cancer
 authors:
   - "Jeff Patton"
 summary: "This month my son will be 10yrs cancer free. He was diagnosed with hepatoblastoma at 2yrs old, he had 4 rounds of chemotherapy before his liver resection surgery. Followed by 2 more rounds of chemo post surgery. September is Childhood Cance"

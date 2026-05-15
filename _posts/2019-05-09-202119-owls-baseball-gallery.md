@@ -10,9 +10,6 @@ source:
   id: instagram-2019-05-09-202119-owls-baseball
   media_count: "6"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "6 images related to Owls baseball."

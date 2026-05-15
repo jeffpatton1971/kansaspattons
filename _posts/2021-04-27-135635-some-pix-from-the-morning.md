@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2021-04-27-135635-some-pix-from-the-morning
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Some pix from the morning"

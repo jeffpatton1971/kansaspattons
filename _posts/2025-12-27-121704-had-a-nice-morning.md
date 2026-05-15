@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2025-12-27-121704-had-a-nice-morning
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had a nice morning"

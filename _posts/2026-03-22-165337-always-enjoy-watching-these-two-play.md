@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2026-03-22-165337-always-enjoy-watching-these-two-play
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Always enjoy watching these two play"

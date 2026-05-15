@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2024-03-12-200054-some-laser-taylor-swift-fun
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Some Laser Taylor Swift fun"

@@ -13,10 +13,8 @@ source:
   id: 10
   url: "https://jeffspatton.wordpress.com/2013/03/26/march-26-2013/"
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "Nathan went in earlier this week for a regular checkup and his doctor said that his liver felt a little large and that we needed to take him to the hospital for an ultrasound. We had the ultrasound the next day and the radiologist said it a"

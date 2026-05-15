@@ -18,10 +18,8 @@ related:
     id: wordpress-2013-07-28-111133-july-28-2013
     rel: photos
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "Well, good news, today we got upgraded to a regular pediatric room! It’s a very fancy room, has a couch a bathroom IN the room with a shower and everything! On this side of the Ped’s floor they only monitor every few hours, so he’s more or "

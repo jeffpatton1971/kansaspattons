@@ -10,9 +10,6 @@ source:
   id: instagram-2025-07-18-173439-a-nice-little-wine-tasting-with-my-aunt-and-uncle-and-sister
   media_count: "8"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "8 images related to A nice little wine tasting with my aunt and uncle and sister."

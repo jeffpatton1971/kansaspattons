@@ -20,12 +20,8 @@ images:
   - id: "2024/11/14/17896188654013045.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Welcome to the con."

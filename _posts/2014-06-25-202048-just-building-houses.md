@@ -20,12 +20,8 @@ images:
   - id: "2014/06/25/17843317213063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Just building houses"

@@ -21,17 +21,11 @@ images:
     caption:
     alt:
 hashtags:
-  - "snowy"
-  - "morning"
-  - "kansas"
+  - kansas
+  - morning
+  - snowy
 handles: []
 location:
-tags:
-  - "snowy"
-  - "morning"
-  - "kansas"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "It’s a rare #snowy #morning in #kansas"

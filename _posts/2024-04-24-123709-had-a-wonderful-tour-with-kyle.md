@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2024-04-24-123709-had-a-wonderful-tour-with-kyle
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had a wonderful tour with Kyle"

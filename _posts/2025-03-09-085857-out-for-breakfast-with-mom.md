@@ -20,12 +20,8 @@ images:
   - id: "2025/03/09/18036197924568704.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Out for breakfast with mom"

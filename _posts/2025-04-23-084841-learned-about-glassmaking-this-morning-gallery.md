@@ -10,9 +10,6 @@ source:
   id: instagram-2025-04-23-084841-learned-about-glassmaking-this-morning
   media_count: "10"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Learned about glassmaking this morning."

@@ -20,12 +20,8 @@ images:
   - id: "2022/07/14/18244092637129579.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Messing around with the camera settings"

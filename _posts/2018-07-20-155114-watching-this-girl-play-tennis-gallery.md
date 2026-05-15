@@ -10,9 +10,6 @@ source:
   id: instagram-2018-07-20-155114-watching-this-girl-play-tennis
   media_count: "4"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "4 images related to Watching this girl play tennis!."

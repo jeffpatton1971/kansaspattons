@@ -19,11 +19,8 @@ related:
   - type: gallery
     id: instagram-2023-04-01-160053-first-tennis-meet-for-nathan-at-jayhawk-tennis-center-with-lunch-at-biemers
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Nathan"
 authors:

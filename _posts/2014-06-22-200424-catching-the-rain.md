@@ -20,12 +20,8 @@ images:
   - id: "2014/06/22/17841878605063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Catching the rain"

@@ -10,13 +10,10 @@ source:
   id: "847"
   url: "https://jeffspatton.wordpress.com/2010/11/29/november-29-2011/"
 categories:
-  - family
-  - holidays
+  - Family
+  - Holidays
   - Nathan
   - Thanksgiving
-tags:
-  - wordpress
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "21 images related to Jonyce and Paul and a new name."

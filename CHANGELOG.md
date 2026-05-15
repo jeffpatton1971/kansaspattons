@@ -70,6 +70,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Added a platform roadmap covering publish pipeline work, `_gallery` retirement, shared API extraction, hashtag/search discovery, Azure cleanup, and test coverage.
 - Added a content validation script that checks authored Markdown shape, required metadata, unique IDs/routes, canonical media references, gallery cover/image consistency, and related-content targets.
 - Added a contract frontmatter migration script for moving old `article` compatibility values to the final `post` terminology.
+- Added a taxonomy normalization script for folding tags into hashtags, removing source/import labels from user-facing taxonomy, and normalizing category casing.
 
 ### Changed
 
@@ -151,6 +152,10 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed all authored WordPress-shaped Markdown files from `content_type: article` to `content_type: post`.
 - Changed gallery back-links from `related.type: article` and `companion-article` to `related.type: post` and `companion-post`.
 - Updated content normalization and gallery relationship migration tooling so future authoring migrations write `post` terminology.
+- Changed authored content taxonomy so `tags` are folded into normalized `hashtags` and the `tags` field is removed from Markdown.
+- Removed source/import values such as `wordpress`, `instagram`, `facebook`, `gallery`, and `album` from user-facing tags, hashtags, and categories.
+- Normalized category casing and duplicate category values across authored Markdown.
+- Removed raw source-type labels from post and story detail headers.
 
 ### Fixed
 

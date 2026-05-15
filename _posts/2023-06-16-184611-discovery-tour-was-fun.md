@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2023-06-16-184611-discovery-tour-was-fun
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Discovery tour was fun"

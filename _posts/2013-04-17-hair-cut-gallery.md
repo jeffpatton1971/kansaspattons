@@ -10,11 +10,8 @@ source:
   id: "195"
   url: "https://jeffspatton.wordpress.com/2013/04/17/april-17-2013-2/"
 categories:
-  - family
-  - cancer
-tags:
-  - wordpress
-  - gallery
+  - Cancer
+  - Family
 authors:
   - "Jeff Patton"
 summary: "10 images related to Hair Cut."

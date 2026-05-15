@@ -10,9 +10,6 @@ source:
   id: instagram-2018-05-28-160746-memorial-day-fun
   media_count: "5"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "5 images related to Memorial Day fun."

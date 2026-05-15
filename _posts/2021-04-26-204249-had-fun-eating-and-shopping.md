@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2021-04-26-204249-had-fun-eating-and-shopping
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had fun eating and shopping"

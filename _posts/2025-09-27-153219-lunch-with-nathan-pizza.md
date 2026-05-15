@@ -28,10 +28,6 @@ hashtags:
   - "pizza"
 handles: []
 location:
-tags:
-  - "lunch"
-  - "pizza"
-  - "instagram"
 categories:
   - "Nathan"
 authors:

@@ -20,12 +20,8 @@ images:
   - id: "2014/10/18/17841791176063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "My beautiful kids"

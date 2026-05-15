@@ -21,19 +21,14 @@ images:
     caption:
     alt:
 hashtags:
-  - "eaticecreamforbreakfastday"
-  - "eaticecreamforbreakfast"
-  - "childhoodcancerawareness"
+  - childhoodcancerawareness
+  - eaticecreamforbreakfast
+  - eaticecreamforbreakfastday
 handles:
   - "eaticecreamforbreakfast"
 location:
-tags:
-  - "eaticecreamforbreakfastday"
-  - "eaticecreamforbreakfast"
-  - "childhoodcancerawareness"
-  - "instagram"
 categories:
-  - "cancer"
+  - Cancer
 authors:
   - "Jeff Patton"
 summary: "Celebrating my son who has been cancer free since 2013 on @eaticecreamforbreakfast day #eaticecreamforbreakfastday  #eaticecreamforbreakfast #childhoodcancerawareness"

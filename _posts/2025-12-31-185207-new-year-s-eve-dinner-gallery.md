@@ -12,9 +12,6 @@ source:
   cross_post_source: FB
 categories:
   - "New Year"
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "5 images related to New Year’s Eve Dinner 🖤💛."

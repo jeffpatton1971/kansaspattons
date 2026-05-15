@@ -23,12 +23,8 @@ images:
   - id: "2026/04/12/18063886028352680.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "It’s a whole vibe for lunch 🖤💛"

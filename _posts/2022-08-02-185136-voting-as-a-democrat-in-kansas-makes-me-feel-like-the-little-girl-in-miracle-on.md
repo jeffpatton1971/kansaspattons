@@ -27,10 +27,6 @@ hashtags:
   - "vote"
 handles: []
 location:
-tags:
-  - "vote"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Voting as a Democrat in Kansas makes me feel like the little girl in Miracle on 34th St. I believe, I believe. It’s silly but, I believe. #vote"

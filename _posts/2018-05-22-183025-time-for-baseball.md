@@ -20,12 +20,8 @@ images:
   - id: "2018/05/22/17947957579009186.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Time for baseball"

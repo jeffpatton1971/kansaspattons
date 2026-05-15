@@ -18,10 +18,8 @@ related:
     id: wordpress-2013-05-24-083741-may-24-2013
     rel: photos
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "We get to go home today. Nathan’s oncologist came by today and talked to us about how Nathan is doing and how is body is reacting to all the medicine he’s been on. His counts this time around were good enough to start chemo, but they weren’"

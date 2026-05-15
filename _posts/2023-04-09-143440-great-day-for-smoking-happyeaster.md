@@ -24,10 +24,6 @@ hashtags:
   - "happyeaster"
 handles: []
 location:
-tags:
-  - "happyeaster"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Great day for smoking #happyeaster"

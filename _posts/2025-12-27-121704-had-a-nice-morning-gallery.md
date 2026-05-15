@@ -10,9 +10,6 @@ source:
   id: instagram-2025-12-27-121704-had-a-nice-morning
   media_count: "5"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "5 images related to Had a nice morning."

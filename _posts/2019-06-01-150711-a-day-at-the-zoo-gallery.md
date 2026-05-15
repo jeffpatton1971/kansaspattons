@@ -10,9 +10,6 @@ source:
   id: instagram-2019-06-01-150711-a-day-at-the-zoo
   media_count: "8"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "8 images related to A day at the zoo."

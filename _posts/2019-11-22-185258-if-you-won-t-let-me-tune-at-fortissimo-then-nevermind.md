@@ -20,12 +20,8 @@ images:
   - id: "2019/11/22/17855335843654604.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "If you won’t let me tune at fortissimo then nevermind"

@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-09-30-151547-nice-day-to-be-out-enjoying-some-fun-places
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Nice day to be out enjoying some fun places"

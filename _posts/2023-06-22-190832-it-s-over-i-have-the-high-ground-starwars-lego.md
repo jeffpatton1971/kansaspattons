@@ -20,14 +20,10 @@ images:
   - id: "2023/06/22/18145871722292351.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "starwars"
   - "lego"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "It’s over! I have the high ground! @starwars @lego"

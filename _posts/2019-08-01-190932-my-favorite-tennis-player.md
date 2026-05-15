@@ -20,12 +20,8 @@ images:
   - id: "2019/08/01/18045043198168893.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "My favorite tennis player"

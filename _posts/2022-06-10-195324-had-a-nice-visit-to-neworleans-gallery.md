@@ -10,13 +10,11 @@ source:
   id: instagram-2022-06-10-195324-had-a-nice-visit-to-neworleans
   media_count: "10"
   cross_post_source: FB
-tags:
-  - neworleans
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Had a nice visit to #neworleans."
+hashtags:
+  - neworleans
 gallery: instagram-2022-06-10-195324-had-a-nice-visit-to-neworleans
 cover_image: "2022/06/10/17952492217896247.jpg"
 images:

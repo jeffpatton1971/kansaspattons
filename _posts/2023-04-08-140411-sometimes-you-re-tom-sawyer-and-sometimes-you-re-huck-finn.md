@@ -20,12 +20,8 @@ images:
   - id: "2023/04/08/17890222022747157.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Sometimes you’re Tom Sawyer and sometimes you’re Huck Finn"

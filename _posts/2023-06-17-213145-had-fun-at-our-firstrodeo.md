@@ -24,10 +24,6 @@ hashtags:
   - "firstrodeo"
 handles: []
 location:
-tags:
-  - "firstrodeo"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Had fun at our #firstrodeo"

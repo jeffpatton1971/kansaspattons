@@ -10,9 +10,6 @@ source:
   id: instagram-2018-05-26-192645-wonderful-dinner-after-a-relaxing-day
   media_count: "5"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "5 images related to Wonderful dinner after a relaxing day."

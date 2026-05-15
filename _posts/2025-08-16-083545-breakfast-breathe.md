@@ -25,11 +25,6 @@ hashtags:
   - "breathe"
 handles: []
 location:
-tags:
-  - "breakfast"
-  - "breathe"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#breakfast #breathe"

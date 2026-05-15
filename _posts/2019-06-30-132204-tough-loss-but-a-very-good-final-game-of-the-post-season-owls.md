@@ -30,10 +30,6 @@ hashtags:
   - "owls"
 handles: []
 location:
-tags:
-  - "owls"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Tough loss but a very good final game of the post-season #owls"

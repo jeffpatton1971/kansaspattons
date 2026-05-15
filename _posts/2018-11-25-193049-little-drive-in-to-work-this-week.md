@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2018-11-25-193049-little-drive-in-to-work-this-week
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Little drive in to work this week"

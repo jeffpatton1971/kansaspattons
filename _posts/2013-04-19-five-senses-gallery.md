@@ -10,11 +10,8 @@ source:
   id: "221"
   url: "https://jeffspatton.wordpress.com/2013/04/19/april-19-2013/"
 categories:
-  - Natalie
   - CPLS
-tags:
-  - wordpress
-  - gallery
+  - Natalie
 authors:
   - "Jeff Patton"
 summary: "13 images related to Five Senses."

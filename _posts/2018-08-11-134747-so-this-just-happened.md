@@ -20,12 +20,8 @@ images:
   - id: "2018/08/11/17968825708025854.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "So...this just happened"

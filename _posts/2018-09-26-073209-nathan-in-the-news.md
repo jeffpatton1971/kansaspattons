@@ -20,11 +20,8 @@ images:
   - id: "2018/09/26/17958282967134600.mp4"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Nathan"
 authors:

@@ -25,11 +25,6 @@ hashtags:
   - "lfk"
 handles: []
 location:
-tags:
-  - "goodmorning"
-  - "lfk"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "You can’t always make the smart choices! #goodmorning #lfk"

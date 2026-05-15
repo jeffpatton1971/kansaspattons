@@ -10,9 +10,6 @@ source:
   id: instagram-2025-03-21-154354-first-trip-to-a-comic-con-and-it-was-fun-next-year-we-ll-have-a-plan
   media_count: "10"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to First trip to a Comic-Con and it was fun! Next year we’ll have a plan! 😂😂."

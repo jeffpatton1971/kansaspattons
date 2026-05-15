@@ -10,13 +10,10 @@ source:
   id: "750"
   url: "https://jeffspatton.wordpress.com/2013/07/04/july-4-2013/"
 categories:
-  - family
-  - summer
-  - holidays
+  - Family
+  - Holidays
   - "July 4th"
-tags:
-  - wordpress
-  - gallery
+  - Summer
 authors:
   - "Jeff Patton"
 summary: "17 images related to July 4, 2013."

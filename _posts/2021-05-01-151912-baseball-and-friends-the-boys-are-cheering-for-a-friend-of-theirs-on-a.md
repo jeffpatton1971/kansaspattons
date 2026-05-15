@@ -27,10 +27,6 @@ hashtags:
   - "baseballlife"
 handles: []
 location:
-tags:
-  - "baseballlife"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Baseball and friends...the boys are cheering for a friend of theirs on a different team #baseballlife⚾️"

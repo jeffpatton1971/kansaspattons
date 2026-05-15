@@ -20,12 +20,8 @@ images:
   - id: "2022/04/26/18225295630191370.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "If she were 3 yrs older this would have been more entertaining"

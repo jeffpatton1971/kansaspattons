@@ -18,10 +18,8 @@ related:
     id: wordpress-2013-06-18-071955-june-18-2013
     rel: photos
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+  - Nathan
 authors:
   - "Jeff Patton"
 summary: "Today is the last cycle of chemo before Nathan has his surgery. If things progress well we should be looking at the middle of July for the surgery to remove his tumor. As always the chemo has been doing it’s job very well and Nathan has bee"

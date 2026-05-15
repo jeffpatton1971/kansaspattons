@@ -27,9 +27,6 @@ hashtags:
   - "lawrence"
 handles: []
 location:
-tags:
-  - "lawrence"
-  - "instagram"
 categories:
   - "Nathan"
 authors:

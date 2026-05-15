@@ -25,9 +25,6 @@ hashtags:
 handles:
   - "natalie.15.2003"
 location:
-tags:
-  - "tennis"
-  - "instagram"
 categories:
   - "Natalie"
 authors:

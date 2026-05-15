@@ -21,15 +21,10 @@ images:
     caption:
     alt:
 hashtags:
-  - "littleleague"
-  - "baseball"
+  - baseball
+  - littleleague
 handles: []
 location:
-tags:
-  - "littleleague"
-  - "baseball"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "#littleleague #baseball"

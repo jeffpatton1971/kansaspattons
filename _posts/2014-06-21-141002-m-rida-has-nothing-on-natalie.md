@@ -20,11 +20,8 @@ images:
   - id: "2014/06/21/17843315221063547.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Natalie"
 authors:

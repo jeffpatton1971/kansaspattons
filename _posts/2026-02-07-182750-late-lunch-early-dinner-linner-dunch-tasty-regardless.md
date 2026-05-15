@@ -20,12 +20,8 @@ images:
   - id: "2026/02/07/18407945413127996.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Late lunch…early dinner…linner? Dunch? Tasty regardless"

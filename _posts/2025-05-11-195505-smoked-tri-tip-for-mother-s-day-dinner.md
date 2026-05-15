@@ -26,12 +26,8 @@ images:
   - id: "2025/05/11/18065081576014523.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Smoked Tri-tip for Mother’s Day dinner"

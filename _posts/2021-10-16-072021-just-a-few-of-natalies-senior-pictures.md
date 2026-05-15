@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2021-10-16-072021-just-a-few-of-natalies-senior-pictures
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Just a few of Natalies senior pictures"

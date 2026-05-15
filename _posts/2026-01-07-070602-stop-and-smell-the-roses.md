@@ -20,12 +20,8 @@ related:
   - type: gallery
     id: instagram-2026-01-07-070602-stop-and-smell-the-roses
     rel: photos
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Stop and smell the roses"

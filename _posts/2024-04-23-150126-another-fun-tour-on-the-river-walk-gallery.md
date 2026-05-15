@@ -10,9 +10,6 @@ source:
   id: instagram-2024-04-23-150126-another-fun-tour-on-the-river-walk
   media_count: "7"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to Another fun tour on the River Walk."

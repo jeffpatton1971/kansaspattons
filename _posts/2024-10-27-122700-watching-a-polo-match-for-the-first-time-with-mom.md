@@ -24,10 +24,6 @@ hashtags:
   - "polo"
 handles: []
 location:
-tags:
-  - "polo"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Watching a #polo match for the first time with mom"

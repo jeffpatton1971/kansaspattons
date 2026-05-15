@@ -10,9 +10,6 @@ source:
   id: instagram-2019-06-14-182321-day-trip-to-chicago
   media_count: "8"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "8 images related to Day trip to Chicago."

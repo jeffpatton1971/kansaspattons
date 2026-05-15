@@ -10,11 +10,8 @@ source:
   id: "297"
   url: "https://jeffspatton.wordpress.com/2013/04/26/april-26-2013/"
 categories:
+  - Cancer
   - Nathan
-  - cancer
-tags:
-  - wordpress
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "26 images related to Round Two."

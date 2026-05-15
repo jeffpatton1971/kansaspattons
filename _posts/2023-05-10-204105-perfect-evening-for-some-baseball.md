@@ -30,10 +30,6 @@ hashtags:
   - "baseball"
 handles: []
 location:
-tags:
-  - "baseball"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "perfect evening for some #baseball"

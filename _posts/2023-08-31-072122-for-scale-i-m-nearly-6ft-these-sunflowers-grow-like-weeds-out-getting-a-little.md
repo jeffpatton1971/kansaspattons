@@ -30,10 +30,6 @@ hashtags:
   - "sunflowers"
 handles: []
 location:
-tags:
-  - "sunflowers"
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "For scale I’m nearly 6ft…these #sunflowers grow like weeds! Out getting a little pre-work work done but at least I wasn’t alone!"

@@ -20,11 +20,8 @@ images:
   - id: "2016/11/18/17855641705103055.mp4"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
 categories:
   - "Natalie"
 authors:

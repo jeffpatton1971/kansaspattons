@@ -23,12 +23,8 @@ images:
   - id: "2018/09/01/17960179618115888.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Longest meal ever!"

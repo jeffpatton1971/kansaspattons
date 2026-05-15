@@ -10,9 +10,6 @@ source:
   id: instagram-2021-04-27-135856-magic-wands-and-hogwarts
   media_count: "10"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "10 images related to Magic wands and Hogwarts."

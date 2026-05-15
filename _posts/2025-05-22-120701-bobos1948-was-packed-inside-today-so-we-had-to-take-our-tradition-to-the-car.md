@@ -26,13 +26,9 @@ images:
   - id: "2025/05/22/18065690576043519.jpg"
     caption:
     alt:
-hashtags: []
 handles:
   - "bobos1948"
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "@bobos1948 was packed inside today so we had to take our tradition to the car! That’s a wrap on Junior High!"

@@ -26,12 +26,8 @@ images:
   - id: "2021/06/05/17874288575503278.jpg"
     caption:
     alt:
-hashtags: []
 handles: []
 location:
-tags:
-  - "instagram"
-categories: []
 authors:
   - "Jeff Patton"
 summary: "Finish the day with s’mores and colorful fire pit flames"

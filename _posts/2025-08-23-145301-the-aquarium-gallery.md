@@ -10,9 +10,6 @@ source:
   id: instagram-2025-08-23-145301-the-aquarium
   media_count: "7"
   cross_post_source: FB
-tags:
-  - instagram
-  - gallery
 authors:
   - "Jeff Patton"
 summary: "7 images related to The aquarium."
