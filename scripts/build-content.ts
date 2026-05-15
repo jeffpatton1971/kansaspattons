@@ -269,11 +269,11 @@ async function main() {
       galleries: galleries.length,
       images: images.length,
     },
-    recentEntries: recentHomeEntries(blogPosts, stories, gallerySummaries, 6),
-    recentPosts: blogPosts.slice(0, 6),
-    recentStories: stories.slice(0, 6),
-    recentGalleries: gallerySummaries.slice(0, 6),
-    recentImages: images.slice(0, 18),
+    recentEntries: recentHomeEntries(blogPosts, stories, gallerySummaries, 5),
+    recentPosts: blogPosts.slice(0, 5),
+    recentStories: stories.slice(0, 5),
+    recentGalleries: gallerySummaries.slice(0, 5),
+    recentImages: images.slice(0, 10),
     sourceCounts,
   });
 

@@ -21,11 +21,24 @@ export function HomePage() {
   const summary = state.data;
   const site = summary.site ?? { title: 'KansasPattons' };
   const author = site.author;
-  const recentUpdates = summary.recentEntries.slice(0, 6);
+  const recentUpdates = summary.recentEntries.slice(0, 5);
+  const recentImages = summary.recentImages.slice(0, 10);
 
   return (
-    <main className="page page--archive page--landing page--home">
-      <aside className="archive-rail archive-rail--left">
+    <main className="home-layout page--landing">
+      <section className="home-banner" aria-labelledby="home-title">
+        <div className="home-banner__inner">
+          <p className="eyebrow">Family archive</p>
+          <h1 id="home-title">{site.title}</h1>
+          <p>
+            Posts, stories, galleries, and images from the family archive, rebuilt from Markdown
+            and structured media.
+          </p>
+        </div>
+      </section>
+
+      <section className="page page--archive page--home home-body" aria-label="Archive overview">
+        <aside className="archive-rail archive-rail--left">
         {author ? (
           <section className="author-card" aria-label="Author information">
             {author.imageUrl ? <img src={author.imageUrl} alt={author.name} /> : null}
@@ -46,45 +59,35 @@ export function HomePage() {
             ) : null}
           </section>
         ) : null}
-      </aside>
+        </aside>
 
-      <section className="archive-main">
-        <div className="overview">
-          <div>
-            <p className="eyebrow">Family archive</p>
-            <h1>{site.title}</h1>
-            <p>
-              A React archive prototype reading generated content from the existing Markdown and
-              gallery records.
-            </p>
-          </div>
-        </div>
-
-        <section className="split">
-          <div>
-            <div className="section-heading">
-              <h2>Recent Updates</h2>
-              <div className="section-heading__links">
-                <Link to="/posts">Posts</Link>
-                <Link to="/stories">Stories</Link>
-                <Link to="/galleries">Galleries</Link>
+        <section className="archive-main">
+          <section className="split">
+            <div>
+              <div className="section-heading">
+                <h2>Recent Updates</h2>
+                <div className="section-heading__links">
+                  <Link to="/posts">Posts</Link>
+                  <Link to="/stories">Stories</Link>
+                  <Link to="/galleries">Galleries</Link>
+                </div>
               </div>
+              <EntrySummaryList entries={recentUpdates} />
             </div>
-            <EntrySummaryList entries={recentUpdates} />
-          </div>
-          <div>
-            <div className="section-heading">
-              <h2>Recent Images</h2>
-              <Link to="/images">Browse all</Link>
+            <div>
+              <div className="section-heading">
+                <h2>Recent Images</h2>
+                <Link to="/images">Browse all</Link>
+              </div>
+              <ImageGrid images={recentImages} />
             </div>
-            <ImageGrid images={summary.recentImages} />
-          </div>
+          </section>
         </section>
-      </section>
 
-      <aside className="archive-rail archive-rail--right">
-        <ArchiveMetrics />
-      </aside>
+        <aside className="archive-rail archive-rail--right">
+          <ArchiveMetrics />
+        </aside>
+      </section>
     </main>
   );
 }

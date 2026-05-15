@@ -126,7 +126,11 @@ Published behavior changes and bug fixes for the React site migration.
 - Replaced the story-only detail grid with a shared post/story detail shell using a larger center column and balanced side rails.
 - Changed the app frame to use a header, shared three-column body, and footer layout.
 - Changed landing pages to reserve a consistent body viewport between the header and footer.
-- Changed the home Recent Updates feed to include posts, stories, and galleries, capped at six items.
+- Changed the home Recent Updates feed to include posts, stories, and galleries, capped at five items.
+- Changed the home Recent Images feed to return and render ten items.
+- Changed the React shell to use a PattonTech/Minimal Mistakes-inspired dark skin with a masthead, constrained three-column archive body, dark cards, and side-rail profile/metric styling.
+- Changed the home intro copy from prototype language to archive-focused production copy.
+- Changed the home page intro to render as a full-width banner below the header before the three-column body begins, matching the PattonTech page structure more closely.
 
 ### Fixed
 

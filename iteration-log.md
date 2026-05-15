@@ -943,14 +943,63 @@ Detailed working notes for the React migration live here. This file is intention
   - Story detail.
   - Gallery detail.
   - Selected image detail.
-- Updated `home.json` so `recentEntries` is a six-item date-sorted feed from posts, stories, and galleries.
+- Updated `home.json` so `recentEntries` is a five-item date-sorted feed from posts, stories, and galleries.
 - Added `recentGalleries` to the home payload.
-- Updated the home page to render only the first six recent updates.
+- Updated the home page to render only the first five recent updates.
+- Updated the home page and generated home payload to use ten recent images.
 - Updated content-schema docs and API/frontend types for mixed post/story/gallery recent updates.
 - Verification:
   - `npm run build` passed.
   - `npm run api:build` passed.
-  - Generated `home.json` now has `6` recent entries and `6` recent galleries.
+  - Generated `home.json` now has `5` recent entries and `5` recent galleries.
+
+### PattonTech-Inspired Layout Pass
+
+- Reviewed `D:\CODE\Sites\pattontech` as the visual reference.
+- Noted the current PattonTech site uses:
+  - `mmistakes/minimal-mistakes@4.28.0`.
+  - `minimal_mistakes_skin: dark`.
+  - A masthead navigation row.
+  - Author profile enabled by default for pages and posts.
+  - A home overlay header image with compact title/excerpt content.
+- Chose to mimic the reusable design language instead of copying the Jekyll theme directly:
+  - Dark Minimal Mistakes-style skin.
+  - Constrained masthead and page width.
+  - Three-column archive body with a profile/calendar left rail, primary content column, and metrics right rail.
+  - Dark raised cards and panels.
+  - Muted metadata with blue/green accent links.
+- Updated the home page language so it reads like the archive itself rather than a prototype implementation note.
+- Verification:
+  - `npm run build` passed.
+  - Local Vite smoke checks returned `200` for `/`, `/posts`, `/stories`, `/galleries`, and `/images`.
+
+### Home Banner Structure Adjustment
+
+- Adjusted the home page to better match the PattonTech layout sequence:
+  - Header/nav.
+  - Full-width banner.
+  - Three-column body.
+- Moved the KansasPattons intro out of the center column and into a dedicated banner below the masthead.
+- Kept the author card, recent updates/images, and metrics in the three-column archive body beneath the banner.
+- Verification:
+  - `npm run build` passed.
+  - Local Vite smoke checks returned `200` for `/`, `/posts`, and `/galleries`.
+
+### Home Recent Feed Caps
+
+- Reduced the home Recent Updates feed from `6` items to `5` items.
+- Reduced the home Recent Images feed from `18` items to `10` items.
+- Kept the generated `home.json` and `/api/home` response aligned with the rendered home page.
+- Verification:
+  - `npm run build` passed.
+  - Generated `public/content/home.json` reports:
+    - `recentEntries: 5`
+    - `recentPosts: 5`
+    - `recentStories: 5`
+    - `recentGalleries: 5`
+    - `recentImages: 10`
+  - `/api/home` reports the same counts.
+  - Local Vite smoke check returned `200` for `/`.
 
 ### Detail Page Archive Shell And Story Metadata
 
