@@ -863,6 +863,30 @@ Detailed working notes for the React migration live here. This file is intention
 - Production build passed.
 - Smoke checks returned 200 for `/`, `/posts`, `/stories`, and `/images`.
 
+### Image Storage Blob Migration Runner
+
+- Moved from planning to executable migration tooling.
+- Added `scripts/migrate-image-storage.ts`.
+- Added npm commands:
+  - `npm run assets:migrate` for a no-write migration preview.
+  - `npm run assets:migrate:write` to copy blobs from the manifest.
+- Runner behavior:
+  - Reads `.tmp/image-storage-migration-manifest.json`.
+  - Re-validates zero target collisions before any write.
+  - Uses the same Azure auth pattern as generated content publishing.
+  - Creates the target container if needed.
+  - Copies blobs with Azure Blob `syncCopyFromURL`.
+  - Skips existing canonical target blobs by default so reruns are safe.
+  - Supports `--limit`, `--offset`, `--kind`, `--concurrency`, and `--overwrite`.
+  - Writes `.tmp/image-storage-migration-result.json` after write runs.
+- Documentation now covers dry-run, pilot batch, full migration, and auth setup.
+- Verification:
+  - `npm run assets:migrate` passed and previewed all `17,056` copy operations.
+  - `npm run assets:migrate -- --limit=10` passed and previewed a scoped batch.
+  - `npm run build` passed.
+  - A pilot `npm run assets:migrate:write -- --limit=20` was blocked before copying because this shell does not have Azure storage credentials or an active Azure login.
+  - The runner now reports that auth failure with concise setup guidance instead of a large credential stack trace.
+
 ### Detail Page Archive Shell And Story Metadata
 
 - Updated individual post and story detail pages to use the shared archive shell:
