@@ -89,9 +89,10 @@ type HomeSummary = {
     galleries: number;
     images: number;
   };
-  recentEntries: EntrySummary[];
+  recentEntries: Array<EntrySummary | GallerySummary>;
   recentPosts: EntrySummary[];
   recentStories: EntrySummary[];
+  recentGalleries: GallerySummary[];
   recentImages: ImageSummary[];
   sourceCounts?: SourceCount[];
 };

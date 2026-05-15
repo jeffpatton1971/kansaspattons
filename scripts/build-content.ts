@@ -241,6 +241,7 @@ async function main() {
   const galleries = await buildGalleries(posts, images, gallerySources);
   const blogPosts = posts.filter((post) => post.type === 'article');
   const stories = posts.filter((post) => post.type === 'story');
+  const gallerySummaries = galleries.map(gallerySummary);
   const sourceCounts = archiveSourceCounts(blogPosts, stories, galleries);
   await rewriteEntryDocuments(posts);
   await rewriteEntrySummaries(posts);
@@ -268,9 +269,10 @@ async function main() {
       galleries: galleries.length,
       images: images.length,
     },
-    recentEntries: recentHomeEntries(blogPosts, stories, 6),
+    recentEntries: recentHomeEntries(blogPosts, stories, gallerySummaries, 6),
     recentPosts: blogPosts.slice(0, 6),
     recentStories: stories.slice(0, 6),
+    recentGalleries: gallerySummaries.slice(0, 6),
     recentImages: images.slice(0, 18),
     sourceCounts,
   });
@@ -714,10 +716,15 @@ function archiveSourceCounts(
   ];
 }
 
-function recentHomeEntries(posts: PostSummary[], stories: PostSummary[], perShape: number) {
-  return [...posts.slice(0, perShape), ...stories.slice(0, perShape)].sort((a, b) =>
-    b.date.localeCompare(a.date),
-  );
+function recentHomeEntries(
+  posts: PostSummary[],
+  stories: PostSummary[],
+  galleries: GallerySummary[],
+  limit: number,
+) {
+  return [...posts.slice(0, limit), ...stories.slice(0, limit), ...galleries.slice(0, limit)]
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .slice(0, limit);
 }
 
 async function markdownFiles(directory: string) {

@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { formatDateLabel } from '../archive';
-import type { PostSummary } from '../types';
+import type { GallerySummary, PostSummary } from '../types';
+
+type RecentUpdate = PostSummary | GallerySummary;
 
 export function PostList({ posts, compact = false }: { posts: PostSummary[]; compact?: boolean }) {
   if (posts.length === 0) {
@@ -22,20 +24,24 @@ export function PostList({ posts, compact = false }: { posts: PostSummary[]; com
   );
 }
 
-export function EntrySummaryList({ entries }: { entries: PostSummary[] }) {
+export function EntrySummaryList({ entries }: { entries: RecentUpdate[] }) {
   if (entries.length === 0) {
     return <p className="state-text">No recent updates found.</p>;
   }
 
   return (
     <div className="entry-summary-list">
-      {entries.map((entry) => (
-        <Link className="entry-summary-card" to={entry.route} key={entry.route}>
-          <time dateTime={entry.date}>{formatDateLabel(entry.date)}</time>
-          <h2>{entry.title}</h2>
-          {entry.excerpt ? <p>{entry.excerpt}</p> : null}
-        </Link>
-      ))}
+      {entries.map((entry) => {
+        const excerpt = 'excerpt' in entry ? entry.excerpt : entry.summary;
+
+        return (
+          <Link className="entry-summary-card" to={entry.route} key={entry.route}>
+            <time dateTime={entry.date}>{formatDateLabel(entry.date)}</time>
+            <h2>{entry.title}</h2>
+            {excerpt ? <p>{excerpt}</p> : null}
+          </Link>
+        );
+      })}
     </div>
   );
 }

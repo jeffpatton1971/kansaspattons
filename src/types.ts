@@ -222,8 +222,9 @@ export type HomeSummary = {
     images: number;
   };
   sourceCounts?: SourceCount[];
-  recentEntries: PostSummary[];
+  recentEntries: Array<PostSummary | GallerySummary>;
   recentPosts: PostSummary[];
   recentStories: PostSummary[];
+  recentGalleries?: GallerySummary[];
   recentImages: ImageSummary[];
 };

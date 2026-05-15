@@ -930,6 +930,28 @@ Detailed working notes for the React migration live here. This file is intention
   - `npm run build` passed and generated `8,526` images.
   - `npm run assets:migrate -- --limit=10` passed against the refreshed manifest.
 
+### Header Body Footer Layout
+
+- Added an app-level shell:
+  - Sticky header.
+  - Shared routed body.
+  - Persistent footer.
+- Marked home, post archive, story archive, gallery archive, and image archive pages as landing pages.
+- Landing pages now reserve a consistent body height between the header and footer so the footer begins from a predictable visual position.
+- Detail pages remain natural-height pages:
+  - Post detail.
+  - Story detail.
+  - Gallery detail.
+  - Selected image detail.
+- Updated `home.json` so `recentEntries` is a six-item date-sorted feed from posts, stories, and galleries.
+- Added `recentGalleries` to the home payload.
+- Updated the home page to render only the first six recent updates.
+- Updated content-schema docs and API/frontend types for mixed post/story/gallery recent updates.
+- Verification:
+  - `npm run build` passed.
+  - `npm run api:build` passed.
+  - Generated `home.json` now has `6` recent entries and `6` recent galleries.
+
 ### Detail Page Archive Shell And Story Metadata
 
 - Updated individual post and story detail pages to use the shared archive shell:

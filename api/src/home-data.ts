@@ -15,6 +15,7 @@ export async function loadHomePayload(siteKey?: string) {
     recentEntries: home.recentEntries,
     recentPosts: home.recentPosts,
     recentStories: home.recentStories,
+    recentGalleries: home.recentGalleries,
     recentImages: home.recentImages,
   };
 }

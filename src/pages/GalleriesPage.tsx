@@ -50,7 +50,7 @@ function GalleryArchivePage({ params }: { params: GalleryParams }) {
   const total = index.page?.total ?? index.galleries.length;
 
   return (
-    <main className="page page--archive">
+    <main className="page page--archive page--landing">
       <div className="archive-rail archive-rail--left">
         <ArchiveCalendar
           basePath="/galleries"
@@ -118,7 +118,7 @@ function GalleryDetailPage({ params }: { params: Required<GalleryParams> }) {
   const { gallery, index, sourceSearch } = state.data;
 
   return (
-    <main className="page page--archive">
+    <main className="page page--archive page--detail">
       <div className="archive-rail archive-rail--left">
         <ArchiveCalendar
           basePath="/galleries"

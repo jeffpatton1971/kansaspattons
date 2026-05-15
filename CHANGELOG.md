@@ -65,6 +65,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Added image storage migration documentation for the shared storage-account, site-container asset layout.
 - Added an image storage blob migration runner with dry-run, batch, skip-existing, and explicit write modes.
 - Added video-thumbnail awareness to image storage migration planning and copy execution.
+- Added a persistent site footer below the shared application body.
 
 ### Changed
 
@@ -123,6 +124,9 @@ Published behavior changes and bug fixes for the React site migration.
 - Removed two Instagram image records whose raw source files are absent from both Azure Storage and the Instagram export.
 - Changed three Instagram image records with missing thumbnail blobs to use their raw image as the thumbnail fallback.
 - Replaced the story-only detail grid with a shared post/story detail shell using a larger center column and balanced side rails.
+- Changed the app frame to use a header, shared three-column body, and footer layout.
+- Changed landing pages to reserve a consistent body viewport between the header and footer.
+- Changed the home Recent Updates feed to include posts, stories, and galleries, capped at six items.
 
 ### Fixed
 

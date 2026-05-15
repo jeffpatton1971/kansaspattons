@@ -49,9 +49,10 @@ export function ImagesPage() {
   const yearGroups = shouldShowYearGroups ? groups : [];
   const monthGroups = shouldShowMonthGroups ? groups : [];
   const totalCount = index.page?.total ?? sumGroups(groups) ?? scopedImages.length;
+  const pageClassName = selectedImage ? 'page page--archive page--detail' : 'page page--archive page--landing';
 
   return (
-    <main className="page page--archive">
+    <main className={pageClassName}>
       <div className="archive-rail archive-rail--left">
         <ArchiveCalendar
           basePath="/images"

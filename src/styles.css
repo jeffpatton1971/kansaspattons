@@ -140,6 +140,16 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  min-height: 100%;
+}
+
+body,
+#root {
+  min-height: 100vh;
+}
+
 body {
   margin: 0;
   min-width: 320px;
@@ -158,6 +168,18 @@ button {
   font: inherit;
 }
 
+.app-shell {
+  --site-header-height: 68px;
+  --site-footer-height: 92px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.app-content {
+  flex: 1 0 auto;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -171,6 +193,44 @@ button {
   border-bottom: 1px solid #dde2dc;
   background: rgba(246, 247, 244, 0.94);
   backdrop-filter: blur(14px);
+}
+
+.site-footer {
+  display: flex;
+  min-height: var(--site-footer-height);
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 18px clamp(16px, 4vw, 48px);
+  border-top: 1px solid #dde2dc;
+  color: #4c5552;
+  background: #eef2ec;
+}
+
+.site-footer__brand {
+  color: #17201f;
+  font-weight: 780;
+  text-decoration: none;
+}
+
+.site-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px 14px;
+}
+
+.site-footer nav a {
+  color: #4c5552;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-footer nav a.active,
+.site-footer nav a:hover {
+  color: #102321;
 }
 
 .brand,
@@ -230,6 +290,10 @@ button {
   gap: 24px;
   align-items: start;
   padding: 30px clamp(16px, 2vw, 32px) 56px;
+}
+
+.page--landing {
+  min-height: calc(100vh - var(--site-header-height) - var(--site-footer-height));
 }
 
 .page--home {
@@ -1545,14 +1609,28 @@ h1 {
 }
 
 @media (max-width: 840px) {
+  .app-shell {
+    --site-header-height: 122px;
+    --site-footer-height: 132px;
+  }
+
   .site-header {
     align-items: flex-start;
     flex-direction: column;
     gap: 12px;
   }
 
-    .overview,
-    .page-heading,
+  .site-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .site-footer nav {
+    justify-content: flex-start;
+  }
+
+  .overview,
+  .page-heading,
   .split,
   .page--archive {
     grid-template-columns: 1fr;

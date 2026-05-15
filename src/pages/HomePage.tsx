@@ -21,9 +21,10 @@ export function HomePage() {
   const summary = state.data;
   const site = summary.site ?? { title: 'KansasPattons' };
   const author = site.author;
+  const recentUpdates = summary.recentEntries.slice(0, 6);
 
   return (
-    <main className="page page--archive page--home">
+    <main className="page page--archive page--landing page--home">
       <aside className="archive-rail archive-rail--left">
         {author ? (
           <section className="author-card" aria-label="Author information">
@@ -69,7 +70,7 @@ export function HomePage() {
                 <Link to="/galleries">Galleries</Link>
               </div>
             </div>
-            <EntrySummaryList entries={summary.recentEntries} />
+            <EntrySummaryList entries={recentUpdates} />
           </div>
           <div>
             <div className="section-heading">

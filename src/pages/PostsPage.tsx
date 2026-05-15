@@ -73,7 +73,7 @@ function EntryArchivePage({ basePath, label, titleLabel, loader }: EntryArchiveP
   const title = pageTitle(activeParams, total, sourceLabel(source, titleLabel));
 
   return (
-    <main className="page page--archive">
+    <main className="page page--archive page--landing">
       <div className="archive-rail archive-rail--left">
         <ArchiveCalendar
           basePath={basePath}
