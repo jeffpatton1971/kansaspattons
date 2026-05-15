@@ -10,6 +10,8 @@ import type {
   PostDocument,
   PostIndex,
   PostSummary,
+  TaxonomyFamily,
+  TaxonomyTerm,
 } from './types';
 
 const jsonCache = new Map<string, Promise<unknown>>();
@@ -140,6 +142,10 @@ export function fetchStoryDocument(year: string, month: string, day: string, slu
 
 export function fetchGalleryDocument(year: string, month: string, day: string, slug: string) {
   return fetchJson<GalleryDocument>(`galleries/${year}/${month}/${day}/${slug}`);
+}
+
+export function fetchTaxonomyTerm(family: TaxonomyFamily, slug: string) {
+  return fetchJson<TaxonomyTerm>(`taxonomy/${family}/${slug}`);
 }
 
 function toPostIndex(response: ApiListResponse<PostSummary>): PostIndex {

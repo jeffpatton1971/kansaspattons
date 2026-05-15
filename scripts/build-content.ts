@@ -3,6 +3,12 @@ import path from 'node:path';
 import matter from 'gray-matter';
 import MarkdownIt from 'markdown-it';
 import sanitizeHtml from 'sanitize-html';
+import {
+  buildLegacyMediaManifest,
+  readMediaManifest,
+  type MediaAsset,
+  type MediaManifest,
+} from './media-manifest-lib';
 
 type Frontmatter = Record<string, unknown>;
 
@@ -123,6 +129,7 @@ type ImageSummary = DateParts & {
   siteKey: string;
   id: string;
   type: 'image';
+  kind?: 'image' | 'video';
   title: string;
   date: string;
   route: string;
@@ -222,7 +229,7 @@ const root = process.cwd();
 const publicRoot = path.join(root, 'public');
 const outputRoot = path.join(publicRoot, 'content');
 const postsRoot = path.join(root, '_posts');
-const galleryRoot = path.join(root, '_gallery');
+const sourceMediaManifestPath = path.join(root, 'content', 'media', 'index.json');
 const siteKey = cleanSiteKey(process.env.CONTENT_SITE_KEY || process.env.SITE_KEY || 'kansaspattons');
 const siteTitle = process.env.CONTENT_SITE_TITLE || process.env.SITE_TITLE || 'KansasPattons';
 
@@ -261,13 +268,15 @@ async function main() {
   await mkdir(outputRoot, { recursive: true });
 
   const { posts, gallerySources } = await buildPosts();
-  const images = await buildImages(posts);
+  const mediaManifest = await loadMediaManifest();
+  const images = await buildImages(posts, mediaManifest);
   applyEntryImages(posts, images);
   const galleries = await buildGalleries(posts, images, gallerySources);
   const blogPosts = posts.filter((post) => post.type === 'article');
   const stories = posts.filter((post) => post.type === 'story');
   const gallerySummaries = galleries.map(gallerySummary);
   const sourceCounts = archiveSourceCounts(blogPosts, stories, galleries);
+  resolveContentLinks(posts, gallerySummaries);
   await rewriteEntryDocuments(posts);
   await rewriteEntrySummaries(posts);
 
@@ -469,55 +478,26 @@ function entrySummary(post: PostDocument): PostSummary {
   return summary;
 }
 
-async function buildImages(posts: PostSummary[]) {
-  const files = await markdownFiles(galleryRoot);
-  const postRoutesById = new Map(posts.map((post) => [post.id, post.route]));
-  const images: ImageSummary[] = [];
-
-  for (const file of files) {
-    const fullPath = path.join(galleryRoot, file);
-    const raw = await readFile(fullPath, 'utf8');
-    const parsed = matter(raw);
-    const filename = path.basename(file, '.md');
-    const parts = partsFromFrontmatter(parsed.data) ?? partsFromFilename(filename);
-
-    if (!parts) {
-      console.warn(`Skipping image without date parts: ${file}`);
-      continue;
+async function loadMediaManifest() {
+  try {
+    return await readMediaManifest(sourceMediaManifestPath);
+  } catch (error) {
+    if (isMissingFileError(error)) {
+      console.warn('content/media/index.json was not found; building media manifest from legacy _gallery metadata.');
+      return buildLegacyMediaManifest({ root, siteKey, siteTitle });
     }
 
-    const sourceFilename = canonicalImageFilename(parsed.data, filename);
-    const id = canonicalImageId(parts, sourceFilename);
-    const title = textValue(parsed.data.title) || textValue(parsed.data.description) || titleFromSlug(id);
-    const date = normalizedDate(parsed.data.taken_at, parts);
-    const postId = textValue(parsed.data.post_id);
-    const caption = textValue(parsed.data.caption) || textValue(parsed.data.description);
-    const rawUrl = canonicalAssetUrl(parsed.data.raw_url, 'images', parts, sourceFilename);
-    const thumbUrl = isVideoFilename(sourceFilename)
-      ? rawUrl
-      : canonicalAssetUrl(parsed.data.raw_url, 'thumbs', parts, sourceFilename);
-
-    images.push({
-      siteKey,
-      id,
-      type: 'image',
-      title,
-      date,
-      route: `/images/${parts.year}/${parts.month}/${parts.day}/${encodeURIComponent(sourceFilename)}`,
-      rawUrl,
-      thumbUrl,
-      caption: caption || undefined,
-      alt: textValue(parsed.data.alt) || caption || title,
-      galleryId: textValue(parsed.data.gallery),
-      source: imageSource(parsed.data.source),
-      sourceFilename,
-      postId,
-      postRoute: postId ? postRoutesById.get(postId) : undefined,
-      ...parts,
-    });
+    throw error;
   }
+}
+
+async function buildImages(posts: PostSummary[], mediaManifest: MediaManifest) {
+  const postRoutesById = new Map(posts.map((post) => [post.id, post.route]));
+  const images = mediaManifest.assets.map((asset) => mediaAssetToImageSummary(asset, postRoutesById));
 
   images.sort((a, b) => b.date.localeCompare(a.date));
+
+  await writeJson('media/index.json', mediaManifest);
 
   await writeJson('images/index.json', {
     generatedAt: new Date().toISOString(),
@@ -526,6 +506,32 @@ async function buildImages(posts: PostSummary[]) {
   });
 
   return images;
+}
+
+function mediaAssetToImageSummary(asset: MediaAsset, postRoutesById: Map<string, string>): ImageSummary {
+  const postId = asset.legacy?.postId;
+
+  return {
+    siteKey,
+    id: asset.id,
+    type: 'image',
+    kind: asset.kind,
+    title: asset.title || titleFromSlug(asset.id),
+    date: asset.date,
+    route: `/images/${asset.year}/${asset.month}/${asset.day}/${encodeURIComponent(asset.filename)}`,
+    rawUrl: asset.rawUrl,
+    thumbUrl: asset.thumbUrl || asset.posterUrl || asset.rawUrl,
+    caption: asset.caption,
+    alt: asset.alt || asset.caption || asset.title || asset.filename,
+    galleryId: asset.legacy?.galleryId,
+    source: asset.legacy?.source,
+    sourceFilename: asset.legacy?.sourceFilename || asset.filename,
+    postId,
+    postRoute: postId ? postRoutesById.get(postId) : undefined,
+    year: asset.year,
+    month: asset.month,
+    day: asset.day,
+  };
 }
 
 function applyEntryImages(posts: PostSummary[], images: ImageSummary[]) {
@@ -725,6 +731,31 @@ function gallerySummary(gallery: GalleryDocument): GallerySummary {
   } = gallery;
 
   return summary;
+}
+
+function resolveContentLinks(posts: PostDocument[], galleries: GallerySummary[]) {
+  const postsById = new Map(posts.map((post) => [post.id, post]));
+  const galleriesById = new Map(galleries.map((gallery) => [gallery.id, gallery]));
+
+  for (const post of posts) {
+    post.related = post.related.map((link) => {
+      const type = contentLinkType(link.type);
+      const linkedPost = type !== 'gallery' ? postsById.get(link.id) : undefined;
+      const linkedGallery = type === 'gallery' ? galleriesById.get(link.id) : undefined;
+      const target = linkedGallery ?? linkedPost;
+
+      if (!target) {
+        return link;
+      }
+
+      return {
+        ...link,
+        type: linkedGallery ? 'gallery' : linkedPost?.type,
+        title: link.title || target.title,
+        route: link.route || target.route,
+      };
+    });
+  }
 }
 
 function archiveSourceCounts(
@@ -1476,6 +1507,15 @@ function siteAuthor(): SiteAuthor {
 function optionalText(value: unknown) {
   const text = textValue(value);
   return text || undefined;
+}
+
+function isMissingFileError(error: unknown) {
+  return (
+    typeof error === 'object' &&
+    error !== null &&
+    'code' in error &&
+    (error as NodeJS.ErrnoException).code === 'ENOENT'
+  );
 }
 
 function jsonObject<T>(value: string | undefined) {

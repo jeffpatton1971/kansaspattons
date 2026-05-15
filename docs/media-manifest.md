@@ -18,7 +18,13 @@ single generated data set.
 
 ## Manifest Location
 
-The first implementation can be a generated JSON artifact:
+The first implementation uses a checked-in source manifest:
+
+```text
+content/media/index.json
+```
+
+The content build publishes that manifest into generated JSON artifacts:
 
 ```text
 public/content/media/index.json
@@ -114,11 +120,23 @@ For new content:
 
 For existing content:
 
-1. Generate the first media manifest from `_gallery`.
+1. Generate the first source media manifest from `_gallery`.
 2. Verify generated `images/index.json` is identical or intentionally changed.
 3. Switch the compiler to read the manifest.
 4. Keep `_gallery` temporarily as a backup.
 5. Remove `_gallery` after the site/API run cleanly from manifest-backed media.
+
+Current commands:
+
+```powershell
+npm run media:manifest
+npm run media:manifest:write
+npm run build
+```
+
+The compiler reads `content/media/index.json` when present. If the manifest is
+missing during the transition, it can still fall back to `_gallery` so the site
+does not become brittle mid-migration.
 
 ## Why Not Store This In Posts?
 

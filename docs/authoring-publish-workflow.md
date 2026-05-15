@@ -157,7 +157,8 @@ The publish action should:
 8. Generate and upload thumbnails to `thumbs/yyyy/mm/dd/filename.ext`.
 9. Rewrite the Markdown image references to canonical media keys.
 10. Remove local image files from the repo after a successful upload and rewrite.
-11. Build generated JSON from the canonical Markdown.
+11. Update `content/media/index.json`.
+12. Build generated JSON from the canonical Markdown and media manifest.
 
 ## GitHub Action Triggers
 
@@ -262,6 +263,25 @@ The content build emits the current aggregate taxonomy list to:
 public/content/taxonomy.json
 dist/content/taxonomy.json
 ```
+
+Taxonomy terms are intended to be browsable:
+
+```text
+/hashtags/{slug}
+/categories/{slug}
+/people/{slug}
+/locations/{slug}
+```
+
+The matching API shape is:
+
+```text
+/api/taxonomy/{family}/{slug}
+/api/sites/{site}/taxonomy/{family}/{slug}
+```
+
+Each term response returns related posts, stories, and galleries together,
+sorted by date.
 
 The category alias rules currently merge common wording variants such as
 `Birthdays` into `Birthday`, `Fourth Of July` into `July 4th`, `New Years Day`

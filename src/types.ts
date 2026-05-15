@@ -129,6 +129,7 @@ export type ImageSummary = {
   siteKey?: string;
   id: string;
   type?: 'image';
+  kind?: 'image' | 'video';
   title: string;
   date: string;
   year: string;
@@ -231,4 +232,33 @@ export type HomeSummary = {
   recentStories: PostSummary[];
   recentGalleries?: GallerySummary[];
   recentImages: ImageSummary[];
+};
+
+export type TaxonomyFamily = 'hashtags' | 'categories' | 'people' | 'locations';
+
+export type TaxonomyContentType = 'post' | 'story' | 'gallery';
+
+export type TaxonomyContentRef = {
+  id: string;
+  type: TaxonomyContentType;
+  title: string;
+  date: string;
+  route: string;
+};
+
+export type TaxonomyTerm = {
+  value: string;
+  label: string;
+  slug: string;
+  count: number;
+  href: string;
+  items: TaxonomyContentRef[];
+};
+
+export type TaxonomyIndex = {
+  generatedAt: string;
+  hashtags: TaxonomyTerm[];
+  categories: TaxonomyTerm[];
+  people: TaxonomyTerm[];
+  locations: TaxonomyTerm[];
 };

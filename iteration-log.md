@@ -1462,3 +1462,64 @@ Detailed working notes for the React migration live here. This file is intention
   - `npm run build` passed and generated `1,109` entries, `305` galleries, and
     `8,526` images.
   - `npm run api:build` passed.
+
+### Manifest-Backed Media And Metadata Browse Routes
+
+- Added a source media manifest at `content/media/index.json`.
+- Added manifest commands:
+  - `npm run media:manifest`
+  - `npm run media:manifest:write`
+- Generated manifest summary:
+  - `8,526` assets.
+  - `8,469` images.
+  - `57` videos.
+  - Source distribution:
+    - `facebook`: `5,297`
+    - `instagram`: `2,490`
+    - `wordpress`: `687`
+    - `legacy`: `52`
+  - Storage base detected as
+    `https://prdwebappstorage.blob.core.windows.net/kansaspattons/`.
+- Changed the content compiler to read `content/media/index.json` when present.
+- Kept a temporary fallback that can still build the manifest from `_gallery` if
+  the source manifest is missing during the transition.
+- The build now emits:
+  - `public/content/media/index.json`
+  - `dist/content/media/index.json`
+  - existing `images/index.json` derived from the manifest.
+- Updated validation so media references are checked against the source media
+  manifest instead of requiring `_gallery`.
+- Current validation still reports the legacy `_gallery` count so we can see
+  the remaining cleanup target:
+  - `_gallery` files: `8,526`
+  - media manifest assets: `8,526`
+- Added taxonomy API routes:
+  - `/api/taxonomy`
+  - `/api/taxonomy/{family}/{slug}`
+  - `/api/sites/{site}/taxonomy`
+  - `/api/sites/{site}/taxonomy/{family}/{slug}`
+- Added frontend routes:
+  - `/hashtags/{slug}`
+  - `/categories/{slug}`
+  - `/people/{slug}`
+  - `/locations/{slug}`
+- Changed post/story detail metadata chips:
+  - categories link to internal category results.
+  - people link to internal people results.
+  - locations link to internal location results.
+  - hashtags link to internal hashtag results instead of Instagram hashtag
+    pages.
+  - Instagram handles still link out to Instagram.
+- Added a shared taxonomy result page that lists matching posts, stories, and
+  galleries together in date order.
+- Resolved authored `related` post/story links during content generation so
+  detail pages can render internal related-content links when routes can be
+  found.
+- Example term check:
+  - `/hashtags/breakfast` resolves to `63` items.
+- Verification:
+  - `npm run build:content` passed and generated `1,109` entries, `305`
+    galleries, and `8,526` images from the media manifest.
+  - `npm run content:validate` passed with `0` errors and `0` warnings.
+  - `npm run api:build` passed.
+  - `npm run build` passed and emitted `dist/content/media/index.json`.

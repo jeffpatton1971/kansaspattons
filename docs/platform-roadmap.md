@@ -46,14 +46,13 @@ Next work:
 
 ## 3. `_gallery` Retirement
 
-Status: generated image IDs and content references are canonicalized, but
-`_gallery` still exists as import metadata.
+Status: generated image IDs and content references are canonicalized, and the
+site now has a checked-in `content/media/index.json` source manifest. `_gallery`
+still exists as temporary import backup metadata.
 
 Next work:
 
-- Generate the first media manifest described in
-  [`media-manifest.md`](media-manifest.md).
-- Generate media indexes without requiring one Markdown file per image.
+- Verify the React site and API against manifest-backed media.
 - Move needed captions, alt text, dates, and legacy data into generated media
   assets or source manifests.
 - Stop creating new `_gallery` files.
@@ -86,6 +85,8 @@ Target direction:
 Next endpoints:
 
 - `/api/sites/{site}/hashtags/{hashtag}`
+- `/api/sites/{site}/taxonomy/{family}/{slug}` is available for hashtags,
+  categories, people, and locations.
 - `/api/sites/{site}/search`
 - richer paging and filtering across posts, stories, galleries, and media
 

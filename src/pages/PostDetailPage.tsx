@@ -149,6 +149,7 @@ function PostDetail({
         <div className="rich-text" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
       </article>
 
+      <RelatedContentLinks post={post} />
       {relatedImages.length > 0 ? <ImageCarousel images={relatedImages} title="Images" /> : null}
       <RelatedGallerySections galleries={relatedGalleries} />
     </>
@@ -184,8 +185,32 @@ function StoryDetail({
 
         <div className="rich-text" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
       </article>
+      <RelatedContentLinks post={post} />
       <RelatedGallerySections galleries={remainingGalleries} />
     </>
+  );
+}
+
+function RelatedContentLinks({ post }: { post: PostDocument }) {
+  const links = (post.related ?? []).filter((item) => item.type !== 'gallery' && item.route);
+
+  if (links.length === 0) {
+    return null;
+  }
+
+  return (
+    <section className="related-content-links" aria-labelledby={`${post.id}-related-content`}>
+      <p className="eyebrow" id={`${post.id}-related-content`}>
+        Related
+      </p>
+      <div>
+        {links.map((item) => (
+          <Link to={item.route!} key={`${item.type}-${item.id}`}>
+            {item.title || item.id}
+          </Link>
+        ))}
+      </div>
+    </section>
   );
 }
 

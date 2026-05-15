@@ -7,6 +7,7 @@ import { LegacyPostRedirect } from './pages/LegacyPostRedirect';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { PostDetailPage, StoryDetailPage } from './pages/PostDetailPage';
 import { PostsPage, StoriesPage } from './pages/PostsPage';
+import { TaxonomyTermPage } from './pages/TaxonomyTermPage';
 import { TooltipProvider } from '@/components/ui/tooltip';
 
 const primaryNav = [
@@ -63,6 +64,10 @@ export function App() {
             <Route path="/images/:year/:month" element={<ImagesPage />} />
             <Route path="/images/:year/:month/:day" element={<ImagesPage />} />
             <Route path="/images/:year/:month/:day/:imageId" element={<ImagesPage />} />
+            <Route path="/hashtags/:slug" element={<TaxonomyTermPage family="hashtags" eyebrow="Hashtag" />} />
+            <Route path="/categories/:slug" element={<TaxonomyTermPage family="categories" eyebrow="Category" />} />
+            <Route path="/people/:slug" element={<TaxonomyTermPage family="people" eyebrow="Person" />} />
+            <Route path="/locations/:slug" element={<TaxonomyTermPage family="locations" eyebrow="Location" />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </div>

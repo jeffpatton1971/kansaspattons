@@ -74,6 +74,10 @@ Published behavior changes and bug fixes for the React site migration.
 - Added generated `taxonomy.json` output listing hashtags and categories with counts and related content items.
 - Added an entity normalization script for moving people and places out of categories into `people` and `locations` metadata.
 - Added media manifest documentation for replacing legacy one-file-per-image `_gallery` metadata with a generated media asset inventory.
+- Added a checked-in `content/media/index.json` media manifest generated from legacy `_gallery` metadata.
+- Added `media:manifest` and `media:manifest:write` commands for rebuilding the source media manifest.
+- Added taxonomy API endpoints for resolving hashtag, category, people, and location terms.
+- Added frontend routes for `/hashtags/{slug}`, `/categories/{slug}`, `/people/{slug}`, and `/locations/{slug}`.
 
 ### Changed
 
@@ -166,6 +170,10 @@ Published behavior changes and bug fixes for the React site migration.
 - Moved place-like category values such as `Cair Paravel` and `Crown Center` into `locations` metadata.
 - Changed generated taxonomy output to include `people` and `locations` term indexes alongside hashtags and categories.
 - Changed post, story, and gallery metadata rendering to show people and locations separately from categories.
+- Changed content generation to read media from `content/media/index.json` when present, while keeping `_gallery` as a temporary fallback during migration.
+- Changed generated output to publish the media manifest at `media/index.json` beside the existing image browse index.
+- Changed hashtag, category, people, and location chips on detail pages into internal links.
+- Changed related post/story links to resolve routes and render on detail pages when authored in `related`.
 
 ### Fixed
 

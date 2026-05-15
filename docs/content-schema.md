@@ -23,6 +23,7 @@ public/content/
   home.json
   site.json
   taxonomy.json
+  media/index.json
   entries/index.json
   posts/index.json
   posts/yyyy/mm/dd/post-slug.json
@@ -257,6 +258,8 @@ type EntryDocument = EntrySummary & {
 Images currently come from legacy `_gallery/*.md` import metadata, but generated image IDs are canonical media keys rather than Markdown document IDs.
 The planned manifest-backed replacement for `_gallery` is documented in
 [`media-manifest.md`](media-manifest.md).
+The current build reads `content/media/index.json` when present and emits the
+same manifest to `public/content/media/index.json`.
 
 Example:
 
@@ -272,6 +275,7 @@ type ImageSummary = {
   siteKey: string;
   id: string;
   type: "image";
+  kind?: "image" | "video";
   title: string;
   date: string;
   year: string;

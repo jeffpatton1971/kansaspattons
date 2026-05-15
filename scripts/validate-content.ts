@@ -36,6 +36,7 @@ type DateParts = {
 const root = process.cwd();
 const postsRoot = path.join(root, '_posts');
 const galleryRoot = path.join(root, '_gallery');
+const sourceMediaManifestPath = path.join(root, 'content', 'media', 'index.json');
 const reportPath = path.join(root, '.tmp', 'content-validation-report.json');
 const strict = process.argv.includes('--strict');
 const maxConsoleIssues = numberArg('--max-issues') ?? 25;
@@ -49,6 +50,7 @@ const recommendations = {
   relatedArticleType: [] as string[],
   systemTaxonomyPresent: [] as string[],
   galleryMarkdownFiles: 0,
+  mediaManifestAssets: 0,
 };
 
 const removedTaxonomy = new Set(['wordpress', 'instagram', 'facebook', 'gallery', 'album']);
@@ -91,6 +93,7 @@ async function main() {
     files: {
       posts: records.length,
       galleryMarkdown: recommendations.galleryMarkdownFiles,
+      mediaManifestAssets: recommendations.mediaManifestAssets,
     },
     media: {
       ids: mediaIds.size,
@@ -108,6 +111,7 @@ async function main() {
       relatedArticleType: recommendationSummary(recommendations.relatedArticleType),
       systemTaxonomyPresent: recommendationSummary(recommendations.systemTaxonomyPresent),
       galleryMarkdownFiles: recommendations.galleryMarkdownFiles,
+      mediaManifestAssets: recommendations.mediaManifestAssets,
     },
   };
 
@@ -122,6 +126,13 @@ async function main() {
 }
 
 async function readMediaIds() {
+  const manifestIds = await readMediaManifestIds();
+
+  if (manifestIds) {
+    recommendations.galleryMarkdownFiles = (await markdownFiles(galleryRoot)).length;
+    return manifestIds;
+  }
+
   const ids = new Set<string>();
   const files = await markdownFiles(galleryRoot);
   recommendations.galleryMarkdownFiles = files.length;
@@ -154,6 +165,53 @@ async function readMediaIds() {
     ids.add(id);
   }
 
+  return ids;
+}
+
+async function readMediaManifestIds() {
+  let raw = '';
+
+  try {
+    raw = await fs.readFile(sourceMediaManifestPath, 'utf8');
+  } catch (error) {
+    if (isMissingFileError(error)) {
+      return undefined;
+    }
+
+    throw error;
+  }
+
+  const parsed = JSON.parse(raw) as {
+    assets?: Array<{
+      id?: unknown;
+      rawUrl?: unknown;
+      thumbUrl?: unknown;
+    }>;
+  };
+  const ids = new Set<string>();
+
+  for (const [index, asset] of (parsed.assets ?? []).entries()) {
+    const id = textValue(asset.id);
+    const file = `content/media/index.json#assets[${index}]`;
+
+    if (!id) {
+      addIssue('error', 'mediaManifest.missingId', file, 'Media manifest asset is missing id.');
+      continue;
+    }
+
+    if (!isCanonicalMediaKey(id)) {
+      addIssue('error', 'mediaManifest.nonCanonicalId', file, `Media manifest id "${id}" is not shaped like yyyy/mm/dd/filename.ext.`);
+      continue;
+    }
+
+    if (ids.has(id)) {
+      addIssue('error', 'mediaManifest.duplicateId', file, `Duplicate media manifest id: ${id}`);
+    }
+
+    ids.add(id);
+  }
+
+  recommendations.mediaManifestAssets = ids.size;
   return ids;
 }
 
@@ -619,6 +677,15 @@ function filenameFromUrl(value: string) {
   }
 }
 
+function isMissingFileError(error: unknown) {
+  return (
+    typeof error === 'object' &&
+    error !== null &&
+    'code' in error &&
+    (error as NodeJS.ErrnoException).code === 'ENOENT'
+  );
+}
+
 function isCanonicalMediaKey(value: string) {
   return /^\d{4}\/\d{2}\/\d{2}\/[^/]+\.[A-Za-z0-9]+$/.test(value);
 }
@@ -713,7 +780,7 @@ function numberArg(name: string) {
 }
 
 function printSummary(summary: {
-  files: { posts: number; galleryMarkdown: number };
+  files: { posts: number; galleryMarkdown: number; mediaManifestAssets: number };
   media: { ids: number };
   contentTypes: Record<string, number>;
   issues: { errors: number; warnings: number };
@@ -722,6 +789,7 @@ function printSummary(summary: {
   console.log('Content validation');
   console.log(`Posts: ${summary.files.posts}`);
   console.log(`Legacy _gallery files: ${summary.files.galleryMarkdown}`);
+  console.log(`Media manifest assets: ${summary.files.mediaManifestAssets}`);
   console.log(`Media IDs: ${summary.media.ids}`);
   console.log(`Content types: ${JSON.stringify(summary.contentTypes)}`);
   console.log(`Errors: ${summary.issues.errors}`);

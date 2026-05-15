@@ -931,6 +931,107 @@ h1 {
   text-decoration: none;
 }
 
+.related-content-links {
+  display: grid;
+  gap: 8px;
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid #dde2dc;
+}
+
+.related-content-links > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.related-content-links a {
+  display: inline-flex;
+  min-height: 34px;
+  align-items: center;
+  padding: 0 10px;
+  border: 1px solid #cbd8d4;
+  border-radius: 8px;
+  color: #0d5d56;
+  background: #fff;
+  font-size: 0.88rem;
+  font-weight: 760;
+  text-decoration: none;
+}
+
+.taxonomy-card {
+  position: sticky;
+  top: 94px;
+  display: grid;
+  gap: 8px;
+  padding: 16px;
+  border: 1px solid #d1d9d2;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.taxonomy-card h2 {
+  margin: 0;
+  color: #17201f;
+  font-size: 1.25rem;
+  line-height: 1.15;
+}
+
+.taxonomy-card p:not(.eyebrow) {
+  margin: 0;
+  color: #697370;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.taxonomy-result-list {
+  display: grid;
+  gap: 10px;
+}
+
+.taxonomy-result-card {
+  display: grid;
+  gap: 7px;
+  min-height: 112px;
+  align-content: start;
+  padding: 16px;
+  border: 1px solid #d1d9d2;
+  border-radius: 8px;
+  background: #fff;
+  color: inherit;
+  text-decoration: none;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+.taxonomy-result-card:hover,
+.taxonomy-result-card:focus-visible {
+  border-color: #8fb7ae;
+  box-shadow: 0 10px 24px rgba(30, 46, 42, 0.08);
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.taxonomy-result-card span {
+  width: max-content;
+  padding: 3px 7px;
+  border: 1px solid #d1d9d2;
+  border-radius: 8px;
+  color: #0d5d56;
+  background: #f7faf8;
+  font-size: 0.76rem;
+  font-weight: 780;
+}
+
+.taxonomy-result-card h2 {
+  margin: 0;
+  color: #17201f;
+  font-size: 1.02rem;
+  line-height: 1.28;
+}
+
 .image-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(118px, 1fr));
@@ -1726,6 +1827,7 @@ body {
 .post-detail header,
 .image-group,
 .related-media,
+.related-content-links,
 .image-carousel {
   border-color: var(--mm-border);
 }
@@ -1736,10 +1838,12 @@ h1,
 .image-carousel__header h2,
 .author-card h2,
 .archive-calendar__heading h2,
+.taxonomy-card h2,
 .article-card h2,
 .entry-summary-card h2,
 .story-card h2,
 .gallery-card h2,
+.taxonomy-result-card h2,
 .related-gallery__heading h2,
 .archive-summary strong,
 .image-group__header a {
@@ -1754,6 +1858,7 @@ h1,
 .gallery-card p,
 .gallery-detail__summary,
 .gallery-detail .page-heading p:not(.eyebrow),
+.taxonomy-card p:not(.eyebrow),
 .related-gallery__heading p:not(.eyebrow),
 .rich-text,
 .image-carousel__header span,
@@ -1779,6 +1884,7 @@ time,
 .row-action,
 .author-card a,
 .gallery-detail__related a,
+.related-content-links a,
 .rich-text a,
 .entry-meta__chip a {
   color: var(--mm-accent);
@@ -1789,6 +1895,7 @@ time,
 .row-action:hover,
 .author-card a:hover,
 .gallery-detail__related a:hover,
+.related-content-links a:hover,
 .rich-text a:hover,
 .entry-meta__chip a:hover,
 .image-group__header a:hover {
@@ -1797,10 +1904,12 @@ time,
 
 .author-card,
 .archive-calendar,
+.taxonomy-card,
 .article-card,
 .entry-summary-card,
 .story-card,
 .gallery-card,
+.taxonomy-result-card,
 .shelf__item,
 .archive-summary,
 .image-viewer,
@@ -1809,6 +1918,8 @@ time,
 .row-action,
 .icon-line,
 .gallery-detail__related a,
+.related-content-links a,
+.taxonomy-result-card span,
 .entry-meta__chip {
   border-color: var(--mm-border);
   background: var(--mm-surface);
@@ -1833,7 +1944,9 @@ time,
 .story-card:hover,
 .story-card:focus-visible,
 .gallery-card:hover,
-.gallery-card:focus-visible {
+.gallery-card:focus-visible,
+.taxonomy-result-card:hover,
+.taxonomy-result-card:focus-visible {
   border-color: var(--mm-accent);
   box-shadow: 0 16px 34px rgba(0, 0, 0, 0.2);
 }
@@ -1861,6 +1974,7 @@ time,
 
 .archive-calendar__day small,
 .image-group__more,
+.taxonomy-result-card span,
 .entry-meta__chip {
   color: var(--mm-accent);
 }

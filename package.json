@@ -14,6 +14,8 @@
     "taxonomy:normalize:write": "tsx scripts/normalize-taxonomy.ts --write",
     "entities:normalize": "tsx scripts/normalize-entities.ts",
     "entities:normalize:write": "tsx scripts/normalize-entities.ts --write",
+    "media:manifest": "tsx scripts/build-media-manifest.ts",
+    "media:manifest:write": "tsx scripts/build-media-manifest.ts --write",
     "normalize:posts": "tsx scripts/normalize-post-frontmatter.ts",
     "migrate:galleries": "tsx scripts/migrate-gallery-relationships.ts",
     "migrate:galleries:write": "tsx scripts/migrate-gallery-relationships.ts --write",
