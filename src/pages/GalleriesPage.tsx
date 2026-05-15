@@ -1,9 +1,10 @@
-import { Link, useParams, useSearchParams } from 'react-router-dom';
+import { Link, useLocation, useParams, useSearchParams } from 'react-router-dom';
 import { formatDateLabel, monthName } from '../archive';
 import { ArchiveCalendar, resolveSelection } from '../components/ArchiveCalendar';
 import { ArchiveMetrics } from '../components/ArchiveMetrics';
 import { GalleryPeekCarousel } from '../components/GalleryPeekCarousel';
 import { ErrorState, LoadingState } from '../components/LoadingState';
+import { pageHref, pageNumber, pageRangeLabel, PaginationNav } from '../components/PaginationNav';
 import { fetchGalleryDocument, fetchGalleryIndex } from '../content';
 import { useAsyncData } from '../hooks';
 import type { GallerySummary } from '../types';
@@ -14,6 +15,8 @@ type GalleryParams = {
   day?: string;
   slug?: string;
 };
+
+const GALLERY_PAGE_SIZE = 4;
 
 export function GalleriesPage() {
   const params = useParams<GalleryParams>();
@@ -26,16 +29,26 @@ export function GalleriesPage() {
 }
 
 function GalleryArchivePage({ params }: { params: GalleryParams }) {
+  const location = useLocation();
   const [searchParams] = useSearchParams();
   const source = searchParams.get('source') || undefined;
+  const currentPage = pageNumber(searchParams.get('page'));
   const sourceSearch = source ? `?source=${encodeURIComponent(source)}` : '';
   const query = {
     year: params.year,
     month: params.month,
     day: params.day,
     source,
+    cursor: (currentPage - 1) * GALLERY_PAGE_SIZE,
+    limit: GALLERY_PAGE_SIZE,
   };
-  const state = useAsyncData(() => fetchGalleryIndex(query), [params.year, params.month, params.day, source]);
+  const state = useAsyncData(() => fetchGalleryIndex(query), [
+    params.year,
+    params.month,
+    params.day,
+    source,
+    currentPage,
+  ]);
 
   if (state.status === 'loading') {
     return <LoadingState label="Loading galleries" />;
@@ -75,10 +88,19 @@ function GalleryArchivePage({ params }: { params: GalleryParams }) {
         </div>
 
         <GalleryList galleries={index.galleries} search={sourceSearch} />
-        {index.page && index.page.total > index.galleries.length ? (
-          <p className="archive-count">
-            Showing {index.galleries.length.toLocaleString()} of {index.page.total.toLocaleString()}
-          </p>
+        {index.page ? (
+          <>
+            <p className="archive-count">
+              {pageRangeLabel(index.page.cursor, index.galleries.length, index.page.total)}
+            </p>
+            <PaginationNav
+              currentPage={currentPage}
+              totalItems={index.page.total}
+              pageSize={index.page.limit}
+              buildHref={(page) => pageHref(location.pathname, searchParams, page)}
+              label="Gallery pages"
+            />
+          </>
         ) : null}
       </section>
 

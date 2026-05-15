@@ -1,8 +1,9 @@
-import { Link, useParams, useSearchParams } from 'react-router-dom';
+import { Link, useLocation, useParams, useSearchParams } from 'react-router-dom';
 import { formatDateLabel, monthName } from '../archive';
 import { ArchiveCalendar, resolveSelection } from '../components/ArchiveCalendar';
 import { ArchiveMetrics } from '../components/ArchiveMetrics';
 import { ErrorState, LoadingState } from '../components/LoadingState';
+import { pageHref, pageNumber, pageRangeLabel, PaginationNav } from '../components/PaginationNav';
 import { PostList, StoryList } from '../components/PostList';
 import { fetchPostIndex, fetchStoryIndex, type ArchiveQuery } from '../content';
 import { useAsyncData } from '../hooks';
@@ -13,6 +14,8 @@ type PostParams = {
   month?: string;
   day?: string;
 };
+
+const ENTRY_PAGE_SIZE = 4;
 
 type EntryArchivePageProps = {
   basePath: '/posts' | '/stories';
@@ -45,16 +48,27 @@ export function StoriesPage() {
 
 function EntryArchivePage({ basePath, label, titleLabel, loader }: EntryArchivePageProps) {
   const params = useParams<PostParams>();
+  const location = useLocation();
   const [searchParams] = useSearchParams();
   const source = searchParams.get('source') || undefined;
+  const currentPage = pageNumber(searchParams.get('page'));
   const sourceSearch = source ? `?source=${encodeURIComponent(source)}` : '';
   const query = {
     year: params.year,
     month: params.month,
     day: params.day,
     source,
+    cursor: (currentPage - 1) * ENTRY_PAGE_SIZE,
+    limit: ENTRY_PAGE_SIZE,
   };
-  const state = useAsyncData(() => loader(query), [basePath, params.year, params.month, params.day, source]);
+  const state = useAsyncData(() => loader(query), [
+    basePath,
+    params.year,
+    params.month,
+    params.day,
+    source,
+    currentPage,
+  ]);
 
   if (state.status === 'loading') {
     return <LoadingState label={`Loading ${titleLabel.toLowerCase()}`} />;
@@ -97,10 +111,17 @@ function EntryArchivePage({ basePath, label, titleLabel, loader }: EntryArchiveP
           </Link>
         </div>
         {basePath === '/stories' ? <StoryList stories={posts} /> : <PostList posts={posts} />}
-        {index.page && index.page.total > posts.length ? (
-          <p className="archive-count">
-            Showing {posts.length.toLocaleString()} of {index.page.total.toLocaleString()}
-          </p>
+        {index.page ? (
+          <>
+            <p className="archive-count">{pageRangeLabel(index.page.cursor, posts.length, index.page.total)}</p>
+            <PaginationNav
+              currentPage={currentPage}
+              totalItems={index.page.total}
+              pageSize={index.page.limit}
+              buildHref={(page) => pageHref(location.pathname, searchParams, page)}
+              label={`${titleLabel} pages`}
+            />
+          </>
         ) : null}
       </section>
 

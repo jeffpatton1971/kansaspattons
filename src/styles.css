@@ -2027,6 +2027,61 @@ time,
   color: #f1b6c0;
 }
 
+.pagination-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.pagination-nav__pages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.pagination-nav__control,
+.pagination-nav__page,
+.pagination-nav__gap {
+  display: inline-flex;
+  min-width: 36px;
+  min-height: 36px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--mm-border);
+  border-radius: 4px;
+  color: var(--mm-muted);
+  background: var(--mm-surface);
+  font-size: 0.9rem;
+  font-weight: 760;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.pagination-nav__page {
+  padding: 0 10px;
+}
+
+.pagination-nav__page[aria-current="page"] {
+  border-color: var(--mm-accent);
+  color: #111319;
+  background: var(--mm-accent);
+}
+
+.pagination-nav__control:hover,
+.pagination-nav__page:hover {
+  border-color: var(--mm-accent);
+  color: var(--mm-text);
+}
+
+.pagination-nav__control--disabled,
+.pagination-nav__gap {
+  cursor: default;
+  opacity: 0.48;
+}
+
 @media (max-width: 840px) {
   .app-shell {
     --site-header-height: 122px;

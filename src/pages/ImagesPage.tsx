@@ -1,12 +1,13 @@
 import { useCallback, useEffect, useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useLocation, useParams, useSearchParams } from 'react-router-dom';
 import useEmblaCarousel from 'embla-carousel-react';
 import { formatDateLabel, monthName } from '../archive';
 import { ArchiveCalendar, resolveSelection } from '../components/ArchiveCalendar';
 import { ArchiveMetrics } from '../components/ArchiveMetrics';
 import { ImageGrid } from '../components/ImageGrid';
 import { ErrorState, LoadingState } from '../components/LoadingState';
+import { pageHref, pageNumber, PaginationNav } from '../components/PaginationNav';
 import { fetchImageIndex } from '../content';
 import { useAsyncData } from '../hooks';
 import type { ImageGroup } from '../types';
@@ -18,8 +19,13 @@ type ImageParams = {
   imageId?: string;
 };
 
+const IMAGE_GROUP_PAGE_SIZE = 4;
+
 export function ImagesPage() {
   const params = useParams<ImageParams>();
+  const location = useLocation();
+  const [searchParams] = useSearchParams();
+  const currentGroupPage = pageNumber(searchParams.get('page'));
   const query = imageQuery(params);
   const state = useAsyncData(() => fetchImageIndex(query), [
     params.year,
@@ -85,15 +91,35 @@ export function ImagesPage() {
         ) : null}
 
         {shouldShowRootGroups ? (
-          <ImageGroups groups={rootGroups} emptyText="No images found." previewLimit={12} />
+          <PaginatedImageGroups
+            groups={rootGroups}
+            groupBy={index.groupBy}
+            currentPage={currentGroupPage}
+            buildHref={(page) => pageHref(location.pathname, searchParams, page)}
+            emptyText="No images found."
+            previewLimit={12}
+          />
         ) : null}
 
         {shouldShowYearGroups ? (
-          <ImageGroups groups={yearGroups} emptyText="No images found for this year." previewLimit={12} />
+          <PaginatedImageGroups
+            groups={yearGroups}
+            groupBy={index.groupBy}
+            currentPage={currentGroupPage}
+            buildHref={(page) => pageHref(location.pathname, searchParams, page)}
+            emptyText="No images found for this year."
+            previewLimit={12}
+          />
         ) : null}
 
         {shouldShowMonthGroups ? (
-          <ImageGroups groups={monthGroups} emptyText="No images found for this month." />
+          <PaginatedImageGroups
+            groups={monthGroups}
+            groupBy={index.groupBy}
+            currentPage={currentGroupPage}
+            buildHref={(page) => pageHref(location.pathname, searchParams, page)}
+            emptyText="No images found for this month."
+          />
         ) : null}
 
         {selectedImage ? (
@@ -117,6 +143,43 @@ export function ImagesPage() {
         <ArchiveMetrics />
       </aside>
     </main>
+  );
+}
+
+function PaginatedImageGroups({
+  groups,
+  groupBy,
+  currentPage,
+  buildHref,
+  emptyText,
+  previewLimit,
+}: {
+  groups: ImageGroup[];
+  groupBy: 'year' | 'month' | 'day' | undefined;
+  currentPage: number;
+  buildHref: (page: number) => string;
+  emptyText: string;
+  previewLimit?: number;
+}) {
+  const page = imageGroupPage(groups, currentPage);
+
+  return (
+    <>
+      <ImageGroups groups={page.groups} emptyText={emptyText} previewLimit={previewLimit} />
+      {groups.length > IMAGE_GROUP_PAGE_SIZE ? (
+        <>
+          <p className="archive-count">{imageGroupRangeLabel(groups, page.start, page.groups.length, groupBy)}</p>
+          <PaginationNav
+            currentPage={page.currentPage}
+            totalItems={groups.length}
+            pageSize={IMAGE_GROUP_PAGE_SIZE}
+            buildHref={buildHref}
+            pageLabel={(pageNumber) => imageGroupPageLabel(groups, pageNumber, groupBy)}
+            label="Image group pages"
+          />
+        </>
+      ) : null}
+    </>
   );
 }
 
@@ -313,4 +376,85 @@ function sumGroups(groups: ImageGroup[]) {
   }
 
   return groups.reduce((total, group) => total + group.count, 0);
+}
+
+function imageGroupPage(groups: ImageGroup[], requestedPage: number) {
+  const totalPages = Math.max(1, Math.ceil(groups.length / IMAGE_GROUP_PAGE_SIZE));
+  const currentPage = Math.min(Math.max(requestedPage, 1), totalPages);
+  const start = (currentPage - 1) * IMAGE_GROUP_PAGE_SIZE;
+
+  return {
+    currentPage,
+    start,
+    groups: groups.slice(start, start + IMAGE_GROUP_PAGE_SIZE),
+  };
+}
+
+function imageGroupPageLabel(groups: ImageGroup[], page: number, groupBy: 'year' | 'month' | 'day' | undefined) {
+  const start = (page - 1) * IMAGE_GROUP_PAGE_SIZE;
+  const pageGroups = groups.slice(start, start + IMAGE_GROUP_PAGE_SIZE);
+
+  if (pageGroups.length === 0) {
+    return String(page);
+  }
+
+  return imageGroupLabelRange(pageGroups[0], pageGroups[pageGroups.length - 1], groupBy);
+}
+
+function imageGroupRangeLabel(
+  groups: ImageGroup[],
+  start: number,
+  shown: number,
+  groupBy: 'year' | 'month' | 'day' | undefined,
+) {
+  if (shown === 0 || groups.length === 0) {
+    return `Showing 0 of ${groups.length.toLocaleString()} ${imageGroupKind(groupBy)}`;
+  }
+
+  const first = groups[start];
+  const last = groups[start + shown - 1];
+  return `Showing ${imageGroupLabelRange(first, last, groupBy)} of ${groups.length.toLocaleString()} ${imageGroupKind(
+    groupBy,
+  )}`;
+}
+
+function imageGroupLabelRange(first: ImageGroup, last: ImageGroup, groupBy: 'year' | 'month' | 'day' | undefined) {
+  const firstLabel = compactGroupLabel(first, groupBy);
+  const lastLabel = compactGroupLabel(last, groupBy);
+
+  if (firstLabel === lastLabel) {
+    return firstLabel;
+  }
+
+  return `${firstLabel}-${lastLabel}`;
+}
+
+function compactGroupLabel(group: ImageGroup, groupBy: 'year' | 'month' | 'day' | undefined) {
+  if (groupBy === 'month') {
+    const [, month] = group.key.split('-');
+    return shortMonthName(month);
+  }
+
+  if (groupBy === 'day') {
+    return group.key.split('-').at(-1)?.replace(/^0/, '') ?? group.label;
+  }
+
+  return group.label;
+}
+
+function shortMonthName(month: string) {
+  const date = new Date(2000, Number(month) - 1, 1);
+  return new Intl.DateTimeFormat(undefined, { month: 'short' }).format(date);
+}
+
+function imageGroupKind(groupBy: 'year' | 'month' | 'day' | undefined) {
+  if (groupBy === 'month') {
+    return 'month groups';
+  }
+
+  if (groupBy === 'day') {
+    return 'day groups';
+  }
+
+  return 'year groups';
 }

@@ -1001,6 +1001,34 @@ Detailed working notes for the React migration live here. This file is intention
   - `/api/home` reports the same counts.
   - Local Vite smoke check returned `200` for `/`.
 
+### Archive Pagination Pass
+
+- Added a shared pagination component for archive pages.
+- Updated `/posts` and `/stories` to request `4` entries per page from the API.
+- Updated `/galleries` to request `4` galleries per page from the API.
+- Pagination links use a readable shape:
+  - Previous control.
+  - First page.
+  - Neighboring page links around the current page.
+  - Ellipsis gaps.
+  - Last page.
+  - Next control.
+- Page state is stored in the `page` query parameter while preserving filters such as `source`.
+- Calendar links continue to reset pagination so date-filtered views start on page `1`.
+- Updated `/images` differently:
+  - Root image browsing paginates year groups.
+  - Year image browsing paginates month groups.
+  - Month image browsing paginates day groups.
+  - The large grouped carousel tile presentation remains intact.
+  - Image group pagination labels use group ranges such as year ranges instead of raw image counts.
+- Verification:
+  - `npm run build` passed.
+  - `/api/posts?limit=4&cursor=0` returned `4` items out of `91`, so posts now produce `23` pages.
+  - `/api/stories?limit=4&cursor=4` returned `4` items out of `1018`.
+  - `/api/galleries?limit=4&cursor=0` returned `4` items out of `305`.
+  - `/api/images?groupBy=year` returned `20` year groups from `2026` through `2003`.
+  - Local Vite smoke checks returned `200` for `/posts`, `/posts?page=2`, `/stories?page=2`, and `/images?page=2`.
+
 ### Detail Page Archive Shell And Story Metadata
 
 - Updated individual post and story detail pages to use the shared archive shell:

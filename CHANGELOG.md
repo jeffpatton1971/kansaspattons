@@ -131,6 +131,8 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed the React shell to use a PattonTech/Minimal Mistakes-inspired dark skin with a masthead, constrained three-column archive body, dark cards, and side-rail profile/metric styling.
 - Changed the home intro copy from prototype language to archive-focused production copy.
 - Changed the home page intro to render as a full-width banner below the header before the three-column body begins, matching the PattonTech page structure more closely.
+- Changed post, story, and gallery archive pages to render four items per page with linked pagination controls.
+- Changed image archive group browsing to paginate visible year, month, and day group tiles while preserving the grouped carousel presentation.
 
 ### Fixed
 
