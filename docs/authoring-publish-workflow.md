@@ -249,6 +249,7 @@ npm run taxonomy:normalize:write
 That migration folds `tags` into normalized `hashtags`, removes import/source
 labels such as `wordpress`, `instagram`, `facebook`, `gallery`, and `album`
 from user-facing taxonomy fields, and normalizes duplicate category casing.
+Hashtags are written without a leading `#`, lowercased, and with spaces removed.
 
 The content build emits the current aggregate taxonomy list to:
 

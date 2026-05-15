@@ -112,6 +112,9 @@ published metrics, not user-facing tags.
 Current normalization also removes migration-only labels such as `gallery` and
 `album` from user-facing taxonomy fields.
 
+Hashtags must be stored without a leading `#`, lowercase, and with no spaces.
+For example, author `Good Morning` or `#GoodMorning` as `goodmorning`.
+
 `categories` are provisional. They can remain as an optional field while we
 decide whether we need curated site sections, but they should not be required
 for routing, search, or filtering yet.

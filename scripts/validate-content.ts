@@ -281,6 +281,15 @@ function validateTaxonomy(record: ContentRecord) {
         continue;
       }
 
+      if (field === 'hashtags' && value !== normalized) {
+        addIssue(
+          'error',
+          'taxonomy.hashtagNotNormalized',
+          record.file,
+          `Hashtag "${value}" must be lowercase, have no leading #, and contain no spaces.`,
+        );
+      }
+
       if (removedTaxonomy.has(normalized)) {
         trackRecommendation(recommendations.systemTaxonomyPresent, record.file);
         addIssue('error', 'taxonomy.systemValue', record.file, `${field} contains source/import value "${value}".`);

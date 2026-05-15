@@ -1308,6 +1308,10 @@ Detailed working notes for the React migration live here. This file is intention
 - Added generated `public/content/taxonomy.json` during the content build:
   - `hashtags`: generated hashtag terms with counts and related content refs.
   - `categories`: generated category terms with counts and related content refs.
+- Tightened validator rules so authored `hashtags` must already be normalized:
+  - no leading `#`
+  - lowercase
+  - no spaces
 - Current generated taxonomy counts:
   - `213` hashtag terms.
   - `31` category terms.
