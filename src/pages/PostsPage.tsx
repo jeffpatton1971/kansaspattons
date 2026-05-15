@@ -1,4 +1,4 @@
-import { Link, useLocation, useParams, useSearchParams } from 'react-router-dom';
+import { useLocation, useParams, useSearchParams } from 'react-router-dom';
 import { formatDateLabel, monthName } from '../archive';
 import { ArchiveCalendar, resolveSelection } from '../components/ArchiveCalendar';
 import { ArchiveMetrics } from '../components/ArchiveMetrics';
@@ -82,9 +82,8 @@ function EntryArchivePage({ basePath, label, titleLabel, loader }: EntryArchiveP
   const selection = resolveSelection(index.years, params.year, params.month);
   const activeParams = query;
   const posts = index.posts;
-  const total = index.page?.total ?? posts.length;
 
-  const title = pageTitle(activeParams, total, sourceLabel(source, titleLabel));
+  const title = pageTitle(activeParams, sourceLabel(source, titleLabel));
 
   return (
     <main className="page page--archive page--landing">
@@ -106,9 +105,6 @@ function EntryArchivePage({ basePath, label, titleLabel, loader }: EntryArchiveP
             <p className="eyebrow">{titleLabel}</p>
             <h1>{title}</h1>
           </div>
-          <Link className="quiet-link" to={basePath}>
-            Reset
-          </Link>
         </div>
         {basePath === '/stories' ? <StoryList stories={posts} /> : <PostList posts={posts} />}
         {index.page ? (
@@ -140,18 +136,18 @@ function sourceLabel(source: string | undefined, titleLabel: string) {
   return `${source.charAt(0).toUpperCase()}${source.slice(1)} ${titleLabel}`;
 }
 
-function pageTitle(params: PostParams, count: number, titleLabel: string) {
+function pageTitle(params: PostParams, titleLabel: string) {
   if (params.year && params.month && params.day) {
-    return `${formatDateLabel(`${params.year}-${params.month}-${params.day}T00:00:00`)} (${count})`;
+    return formatDateLabel(`${params.year}-${params.month}-${params.day}T00:00:00`);
   }
 
   if (params.year && params.month) {
-    return `${monthName(params.year, params.month)} (${count})`;
+    return monthName(params.year, params.month);
   }
 
   if (params.year) {
-    return `${params.year} (${count})`;
+    return params.year;
   }
 
-  return `All ${titleLabel} (${count})`;
+  return `All ${titleLabel}`;
 }

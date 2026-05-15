@@ -1,8 +1,6 @@
 import { BookOpen, CalendarDays, Images } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Separator } from '@/components/ui/separator';
 import { Skeleton } from '@/components/ui/skeleton';
 import { fetchHomeSummary } from '../content';
 import { useAsyncData } from '../hooks';
@@ -27,7 +25,7 @@ export function ArchiveMetrics() {
     return null;
   }
 
-  const { counts, sourceCounts = [] } = state.data;
+  const { counts } = state.data;
   const metrics = [
     { href: '/posts', label: 'posts', value: counts.posts, icon: CalendarDays },
     { href: '/stories', label: 'stories', value: counts.stories, icon: BookOpen },
@@ -63,45 +61,6 @@ export function ArchiveMetrics() {
           })}
         </CardContent>
       </Card>
-      {sourceCounts.length > 0 ? (
-        <Card size="sm" aria-label="Source filters">
-          <CardHeader>
-            <CardTitle>Sources</CardTitle>
-          </CardHeader>
-          <CardContent className="grid gap-2">
-            <Separator />
-            {sourceCounts.map((item) => (
-              <Badge
-                asChild
-                className={`h-9 w-full justify-between rounded-lg px-3 ${sourceClassName(item.source)}`}
-                variant="outline"
-                key={item.source}
-              >
-                <Link to={item.href}>
-                  <span>{item.label}</span>
-                  <strong>{item.count.toLocaleString()}</strong>
-                </Link>
-              </Badge>
-            ))}
-          </CardContent>
-        </Card>
-      ) : null}
     </div>
   );
-}
-
-function sourceClassName(source: string) {
-  if (source === 'wordpress') {
-    return 'border-teal-200 bg-teal-50 text-teal-900 hover:bg-teal-100';
-  }
-
-  if (source === 'instagram') {
-    return 'border-violet-200 bg-violet-50 text-violet-900 hover:bg-violet-100';
-  }
-
-  if (source === 'facebook') {
-    return 'border-rose-200 bg-rose-50 text-rose-900 hover:bg-rose-100';
-  }
-
-  return 'bg-background';
 }

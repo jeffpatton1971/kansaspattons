@@ -133,6 +133,11 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed the home page intro to render as a full-width banner below the header before the three-column body begins, matching the PattonTech page structure more closely.
 - Changed post, story, and gallery archive pages to render four items per page with linked pagination controls.
 - Changed image archive group browsing to paginate visible year, month, and day group tiles while preserving the grouped carousel presentation.
+- Removed home page secondary heading links from Recent Updates and Recent Images.
+- Removed the source filter card from the archive metrics rail.
+- Removed archive heading reset buttons from post, story, gallery, and image archive pages.
+- Removed item counts from post, story, and gallery archive titles.
+- Changed image archive group browsing to show one grouped tile per page.
 
 ### Fixed
 

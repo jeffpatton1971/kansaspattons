@@ -473,12 +473,6 @@ h1 {
   font-weight: 760;
 }
 
-.section-heading__links {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-
 .page-heading {
   margin-bottom: 26px;
 }
@@ -2003,22 +1997,6 @@ time,
 .metrics-stack .group:hover span:first-child {
   background: var(--mm-accent);
   color: #111319;
-}
-
-.metrics-stack .border-teal-200,
-.metrics-stack .border-violet-200,
-.metrics-stack .border-rose-200 {
-  border-color: var(--mm-border);
-  background: #20242d;
-  color: var(--mm-muted);
-}
-
-.metrics-stack .border-teal-200:hover,
-.metrics-stack .border-violet-200:hover,
-.metrics-stack .border-rose-200:hover {
-  border-color: var(--mm-accent);
-  background: #2e3543;
-  color: var(--mm-text);
 }
 
 .notice {

@@ -19,7 +19,7 @@ type ImageParams = {
   imageId?: string;
 };
 
-const IMAGE_GROUP_PAGE_SIZE = 4;
+const IMAGE_GROUP_PAGE_SIZE = 1;
 
 export function ImagesPage() {
   const params = useParams<ImageParams>();
@@ -76,9 +76,6 @@ export function ImagesPage() {
             <p className="eyebrow">Images</p>
             <h1>{pageTitle(params, totalCount)}</h1>
           </div>
-          <Link className="quiet-link" to="/images">
-            Reset
-          </Link>
         </div>
 
         {params.year && !selectedImage ? <ImageBreadcrumb params={params} /> : null}

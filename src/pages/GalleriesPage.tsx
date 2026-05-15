@@ -60,7 +60,6 @@ function GalleryArchivePage({ params }: { params: GalleryParams }) {
 
   const index = state.data;
   const selection = resolveSelection(index.years, params.year, params.month);
-  const total = index.page?.total ?? index.galleries.length;
 
   return (
     <main className="page page--archive page--landing">
@@ -80,11 +79,8 @@ function GalleryArchivePage({ params }: { params: GalleryParams }) {
         <div className="page-heading">
           <div>
             <p className="eyebrow">Galleries</p>
-            <h1>{pageTitle(params, total, source)}</h1>
+            <h1>{pageTitle(params, source)}</h1>
           </div>
-          <Link className="quiet-link" to="/galleries">
-            Reset
-          </Link>
         </div>
 
         <GalleryList galleries={index.galleries} search={sourceSearch} />
@@ -205,20 +201,20 @@ function GalleryList({ galleries, search = '' }: { galleries: GallerySummary[]; 
   );
 }
 
-function pageTitle(params: GalleryParams, count: number, source?: string) {
+function pageTitle(params: GalleryParams, source?: string) {
   const label = source ? `${source.charAt(0).toUpperCase()}${source.slice(1)} Galleries` : 'Galleries';
 
   if (params.year && params.month && params.day) {
-    return `${formatDateLabel(`${params.year}-${params.month}-${params.day}T00:00:00`)} (${count})`;
+    return formatDateLabel(`${params.year}-${params.month}-${params.day}T00:00:00`);
   }
 
   if (params.year && params.month) {
-    return `${monthName(params.year, params.month)} (${count})`;
+    return monthName(params.year, params.month);
   }
 
   if (params.year) {
-    return `${params.year} (${count})`;
+    return params.year;
   }
 
-  return `All ${label} (${count})`;
+  return `All ${label}`;
 }

@@ -1029,6 +1029,27 @@ Detailed working notes for the React migration live here. This file is intention
   - `/api/images?groupBy=year` returned `20` year groups from `2026` through `2003`.
   - Local Vite smoke checks returned `200` for `/posts`, `/posts?page=2`, `/stories?page=2`, and `/images?page=2`.
 
+### Archive Cleanup Pass
+
+- Removed the home page secondary links beside:
+  - Recent Updates.
+  - Recent Images.
+- Removed the Sources card from the archive metrics rail.
+- Removed archive heading Reset links from:
+  - `/posts`
+  - `/stories`
+  - `/galleries`
+  - `/images`
+- The Reset links were a convenience from earlier iterations:
+  - They linked back to the base archive path.
+  - They cleared date path segments, source filters, and pagination query parameters.
+  - They are not technically required because navigation, calendar links, breadcrumbs, and direct archive nav now cover the same escape paths.
+- Removed count suffixes from post, story, and gallery archive titles, keeping counts in the range text beneath the lists.
+- Changed image group pagination from `4` grouped tiles per page to `1` grouped tile per page.
+- Verification:
+  - `npm run build` passed.
+  - Local Vite smoke checks returned `200` for `/`, `/posts`, `/stories`, `/galleries`, and `/images?page=2`.
+
 ### Detail Page Archive Shell And Story Metadata
 
 - Updated individual post and story detail pages to use the shared archive shell:
