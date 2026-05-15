@@ -1,7 +1,7 @@
 ---
 layout:     single
 title:      "No Bathtub"
-content_type: article
+content_type: post
 slug: no-bathtub
 post_id:         2009-08-04-no-bathtub
 date:       2009-08-08 08:52:00 -0600

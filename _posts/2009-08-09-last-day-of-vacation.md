@@ -1,7 +1,7 @@
 ---
 layout:     single
 title:      "Last day of vacation"
-content_type: article
+content_type: post
 slug: last-day-of-vacation
 post_id:         2009-08-09-last-day-of-vacation
 date:       2009-08-06 08:56:00 -0600

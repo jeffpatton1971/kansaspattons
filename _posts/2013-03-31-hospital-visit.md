@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Hospital Visit"
-content_type: article
+content_type: post
 slug: hospital-visit
 post_id: 2013-03-31-hospital-visit
 date: 2013-03-31 09:32:55

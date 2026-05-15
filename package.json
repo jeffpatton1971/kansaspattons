@@ -6,6 +6,10 @@
   "scripts": {
     "dev": "npm run build:content && vite",
     "build:content": "tsx scripts/build-content.ts",
+    "content:validate": "tsx scripts/validate-content.ts",
+    "content:validate:strict": "tsx scripts/validate-content.ts --strict",
+    "content:contract:migrate": "tsx scripts/migrate-contract-frontmatter.ts",
+    "content:contract:migrate:write": "tsx scripts/migrate-contract-frontmatter.ts --write",
     "normalize:posts": "tsx scripts/normalize-post-frontmatter.ts",
     "migrate:galleries": "tsx scripts/migrate-gallery-relationships.ts",
     "migrate:galleries:write": "tsx scripts/migrate-gallery-relationships.ts --write",

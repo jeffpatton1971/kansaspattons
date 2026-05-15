@@ -75,10 +75,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-07-04-fourth-of-july"
     title: "July 4, 2013"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

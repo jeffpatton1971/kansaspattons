@@ -140,10 +140,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-05-16-last-day"
     title: "Last Day of 3rd Grade"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

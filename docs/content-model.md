@@ -1,12 +1,18 @@
 # Content Model
 
-The long-term content model is a small content graph. Articles, stories, galleries, and images share enough metadata to be searched and rendered together, but each content type has a payload that matches how people actually use it.
+The long-term content model is a small content graph. Posts, stories, galleries, and media assets share enough metadata to be searched and rendered together, but each authored content type has a payload that matches how people actually use it.
+
+The canonical target envelope and child object definitions now live in
+[`content-contract.md`](content-contract.md). This document remains as migration
+context for how the current Jekyll-shaped imports are being moved toward that
+contract.
 
 ## Principles
 
 - Markdown remains the authoring format for human-written content.
-- Images are first-class assets and can be reused by articles, stories, and galleries.
-- Articles, stories, and galleries have stable IDs and routes.
+- Images are first-class media assets and can be reused by posts, stories, and galleries.
+- Posts, stories, and galleries have stable IDs and routes.
+- `_gallery` is legacy import metadata, not a permanent authoring model.
 - Site identity is metadata, not business logic. Each repo can publish with its own `CONTENT_SITE_KEY`.
 - The generated JSON can evolve while old compatibility fields remain during migration.
 
@@ -53,22 +59,33 @@ type ContentImageRef = {
 };
 ```
 
+Migration note: the current compiler still emits `type: "article"` for
+WordPress-shaped posts. The target contract uses `contentType: "post"`. New
+authoring and API extraction work should use the target contract terms, while
+the current app can keep compatibility fields until the migration is complete.
+
+`tags` are also transitional. Topical tags should be folded into `hashtags`.
+Import/system labels such as `wordpress`, `instagram`, and `facebook` should
+move into optional legacy/source metadata rather than display as tags.
+
 ## Image Relationship Policy
 
 Image relationships are authored according to the size and meaning of the image set:
 
-- `1-3` images belong directly to the article or story with rich `images` frontmatter.
+- `1-3` images belong directly to the post or story with rich `images` frontmatter.
 - `4+` images become a first-class `content_type: gallery` document.
-- Articles and stories link to their gallery with `related`, and the React detail view renders that gallery inline as well as under `/galleries`.
+- Posts and stories link to their gallery with `related`, and the React detail view renders that gallery inline as well as under `/galleries`.
 - Facebook `Mobile Uploads` albums remain excluded from post/story/gallery archives because they are catch-all import containers rather than meaningful authored galleries.
 
-## Articles
+## Posts
 
-Articles are the traditional blog-post shape and live under `/posts`.
+Posts are the traditional blog-post shape and live under `/posts`. The current
+compiler still uses `article` as a compatibility type in generated JSON, but the
+final contract name is `post`.
 
 ```ts
-type Article = ContentBase & {
-  type: "article";
+type Post = ContentBase & {
+  type: "article"; // current compatibility value; target contentType is "post"
   bodyMarkdown: string;
   bodyHtml: string;
   images?: ContentImageRef[];
@@ -82,7 +99,7 @@ Authoring example:
 ```yaml
 ---
 title: "Christmas 2025"
-content_type: article
+content_type: post
 date: 2010-12-25 01:34:00
 authors:
   - Jeff
@@ -98,7 +115,7 @@ related:
 ---
 ```
 
-An article can embed images directly in Markdown, attach a small image set with `images`, or reference a gallery with `related`.
+A post can embed images directly in Markdown, attach a small image set with `images`, or reference a gallery with `related`.
 
 Single-image or small image sets should usually use direct image references:
 
@@ -155,7 +172,7 @@ handles: []
 
 ## Galleries
 
-Galleries are image collections and live under `/galleries`. A gallery may stand alone, or an article/story may reference it.
+Galleries are image collections and live under `/galleries`. A gallery may stand alone, or a post/story may reference it.
 
 ```ts
 type Gallery = ContentBase & {
@@ -169,7 +186,7 @@ type Gallery = ContentBase & {
 };
 ```
 
-Current generated galleries are derived from image records grouped by `gallery`. The first related article/story, when one exists, supplies the gallery title, summary, authors, tags, categories, and related content link.
+Current generated galleries are derived from image records grouped by `gallery`. The first related post/story, when one exists, supplies the gallery title, summary, authors, tags, categories, and related content link.
 
 Future explicit gallery authoring can use a Markdown file that looks like:
 
@@ -186,9 +203,9 @@ gallery: "field-trip-2024"
 tags:
   - school
 related:
-  - type: article
+  - type: post
     id: field-trip
-    rel: companion-article
+    rel: companion-post
 ---
 ```
 
@@ -292,7 +309,7 @@ type ImageAsset = {
 ## Routing
 
 ```text
-/posts       -> articles
+/posts       -> posts
 /stories     -> stories
 /galleries   -> galleries
 /images      -> image asset/archive browsing

@@ -1,0 +1,652 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import matter from 'gray-matter';
+
+type Frontmatter = Record<string, unknown>;
+type Severity = 'error' | 'warning';
+type ContentType = 'post' | 'article' | 'story' | 'gallery';
+type TargetContentType = 'post' | 'story' | 'gallery';
+
+type Issue = {
+  severity: Severity;
+  code: string;
+  file: string;
+  message: string;
+};
+
+type ContentRecord = {
+  file: string;
+  data: Frontmatter;
+  filename: string;
+  id: string;
+  type?: ContentType;
+  targetType?: TargetContentType;
+  slug: string;
+  route?: string;
+  galleryId?: string;
+  excluded: boolean;
+};
+
+type DateParts = {
+  year: string;
+  month: string;
+  day: string;
+};
+
+const root = process.cwd();
+const postsRoot = path.join(root, '_posts');
+const galleryRoot = path.join(root, '_gallery');
+const reportPath = path.join(root, '.tmp', 'content-validation-report.json');
+const strict = process.argv.includes('--strict');
+const maxConsoleIssues = numberArg('--max-issues') ?? 25;
+
+const issues: Issue[] = [];
+const recommendations = {
+  articleContentType: [] as string[],
+  tagsPresent: [] as string[],
+  categoriesPresent: [] as string[],
+  sourcePresent: [] as string[],
+  relatedArticleType: [] as string[],
+  galleryMarkdownFiles: 0,
+};
+
+async function main() {
+  const mediaIds = await readMediaIds();
+  const records = await readContentRecords();
+
+  validateRecords(records, mediaIds);
+  validateRelationships(records);
+
+  const summary = {
+    generatedAt: new Date().toISOString(),
+    strict,
+    files: {
+      posts: records.length,
+      galleryMarkdown: recommendations.galleryMarkdownFiles,
+    },
+    media: {
+      ids: mediaIds.size,
+    },
+    contentTypes: countBy(records, (record) => record.targetType ?? 'unknown'),
+    issues: {
+      errors: issues.filter((issue) => issue.severity === 'error').length,
+      warnings: issues.filter((issue) => issue.severity === 'warning').length,
+    },
+    recommendations: {
+      articleContentType: recommendationSummary(recommendations.articleContentType),
+      tagsPresent: recommendationSummary(recommendations.tagsPresent),
+      categoriesPresent: recommendationSummary(recommendations.categoriesPresent),
+      sourcePresent: recommendationSummary(recommendations.sourcePresent),
+      relatedArticleType: recommendationSummary(recommendations.relatedArticleType),
+      galleryMarkdownFiles: recommendations.galleryMarkdownFiles,
+    },
+  };
+
+  await fs.mkdir(path.dirname(reportPath), { recursive: true });
+  await fs.writeFile(reportPath, `${JSON.stringify({ ...summary, issueList: issues }, null, 2)}\n`, 'utf8');
+
+  printSummary(summary);
+
+  if (summary.issues.errors > 0) {
+    process.exitCode = 1;
+  }
+}
+
+async function readMediaIds() {
+  const ids = new Set<string>();
+  const files = await markdownFiles(galleryRoot);
+  recommendations.galleryMarkdownFiles = files.length;
+
+  for (const file of files) {
+    const fullPath = path.join(galleryRoot, file);
+    const raw = await fs.readFile(fullPath, 'utf8');
+    const parsed = matter(raw);
+    const filename = path.basename(file, '.md');
+    const parts = partsFromFrontmatter(parsed.data) ?? partsFromFilename(filename);
+
+    if (!parts) {
+      addIssue('warning', 'media.missingDateParts', `_gallery/${file}`, 'Media metadata cannot produce a canonical date-scoped ID.');
+      continue;
+    }
+
+    const sourceFilename = canonicalImageFilename(parsed.data, filename);
+
+    if (!sourceFilename) {
+      addIssue('warning', 'media.missingFilename', `_gallery/${file}`, 'Media metadata cannot produce a canonical filename.');
+      continue;
+    }
+
+    const id = `${parts.year}/${parts.month}/${parts.day}/${sourceFilename}`;
+
+    if (ids.has(id)) {
+      addIssue('error', 'media.duplicateCanonicalId', `_gallery/${file}`, `Duplicate canonical media ID: ${id}`);
+    }
+
+    ids.add(id);
+  }
+
+  return ids;
+}
+
+async function readContentRecords() {
+  const files = await markdownFiles(postsRoot);
+  const records: ContentRecord[] = [];
+
+  for (const file of files) {
+    const fullPath = path.join(postsRoot, file);
+    const raw = await fs.readFile(fullPath, 'utf8');
+    const filename = path.basename(file, '.md');
+
+    if (!hasFrontmatter(raw)) {
+      addIssue('error', 'content.missingFrontmatter', `_posts/${file}`, 'Content file is missing YAML frontmatter.');
+      continue;
+    }
+
+    const parsed = matter(raw);
+    const type = contentType(parsed.data);
+    const targetType = targetContentType(type);
+    const slug = textValue(parsed.data.slug) || slugFromPostFilename(filename);
+    const id = textValue(parsed.data.post_id) || textValue(parsed.data.id) || filename;
+    const galleryId = textValue(parsed.data.gallery);
+    const excluded = parsed.data.exclude_from_archives === true || parsed.data.excludeFromArchives === true;
+
+    records.push({
+      file: `_posts/${file}`,
+      data: parsed.data,
+      filename,
+      id,
+      type,
+      targetType,
+      slug,
+      route: routeFor(targetType, parsed.data, slug),
+      galleryId,
+      excluded,
+    });
+  }
+
+  return records;
+}
+
+function validateRecords(records: ContentRecord[], mediaIds: Set<string>) {
+  const ids = new Map<string, ContentRecord>();
+  const routes = new Map<string, ContentRecord>();
+
+  for (const record of records) {
+    validateRequiredShape(record);
+    validateTargetWarnings(record);
+    validateMediaReferences(record, mediaIds);
+
+    if (record.id) {
+      const existing = ids.get(record.id);
+
+      if (existing) {
+        addIssue('error', 'content.duplicateId', record.file, `Duplicate content ID "${record.id}" also used by ${existing.file}.`);
+      } else {
+        ids.set(record.id, record);
+      }
+    }
+
+    if (record.route) {
+      const existing = routes.get(record.route);
+
+      if (existing) {
+        addIssue('error', 'content.duplicateRoute', record.file, `Duplicate route "${record.route}" also used by ${existing.file}.`);
+      } else {
+        routes.set(record.route, record);
+      }
+    }
+  }
+}
+
+function validateRequiredShape(record: ContentRecord) {
+  const data = record.data;
+
+  if (!record.type) {
+    addIssue('error', 'content.invalidType', record.file, 'content_type must be one of post, article, story, or gallery.');
+  }
+
+  requireText(record, 'title', 'content.missingTitle');
+  requireText(record, 'slug', 'content.missingSlug');
+  requireText(record, 'post_id', 'content.missingPostId');
+  requireText(record, 'summary', 'content.missingSummary');
+
+  if (!validDate(data.date)) {
+    addIssue('error', 'content.invalidDate', record.file, 'date must be present and parseable.');
+  }
+
+  const status = textValue(data.status).toLowerCase();
+  if (!['draft', 'published', 'archived'].includes(status)) {
+    addIssue('error', 'content.invalidStatus', record.file, 'status must be draft, published, or archived.');
+  }
+
+  if (stringArray(data.authors).length === 0) {
+    addIssue('error', 'content.missingAuthors', record.file, 'authors must contain at least one author.');
+  }
+
+  if (record.targetType === 'gallery' && !record.excluded) {
+    const imageIds = imageRefs(data);
+    const cover = textValue(data.cover_image || data.coverImage || data.coverMedia);
+
+    if (imageIds.length === 0) {
+      addIssue('error', 'gallery.missingImages', record.file, 'Gallery content must include an ordered images list.');
+    }
+
+    if (!cover) {
+      addIssue('error', 'gallery.missingCover', record.file, 'Gallery content must include cover_image.');
+    } else if (imageIds.length > 0 && !imageIds.includes(cover)) {
+      addIssue('error', 'gallery.coverNotInImages', record.file, `Gallery cover_image "${cover}" is not present in images.`);
+    }
+  }
+}
+
+function validateTargetWarnings(record: ContentRecord) {
+  const data = record.data;
+  const file = record.file;
+
+  if (record.type === 'article') {
+    trackRecommendation(recommendations.articleContentType, file);
+    maybeStrictIssue('contract.articleContentType', file, 'Use content_type: post instead of the compatibility value article.');
+  }
+
+  if (stringArray(data.tags).length > 0) {
+    trackRecommendation(recommendations.tagsPresent, file);
+    maybeStrictIssue('contract.tagsPresent', file, 'Fold topical tags into hashtags and move import/system tags to legacy metadata.');
+  }
+
+  if (stringArray(data.categories).length > 0) {
+    trackRecommendation(recommendations.categoriesPresent, file);
+  }
+
+  if (data.source !== undefined) {
+    trackRecommendation(recommendations.sourcePresent, file);
+  }
+}
+
+function validateMediaReferences(record: ContentRecord, mediaIds: Set<string>) {
+  const refs = new Set<string>();
+  const cover = textValue(record.data.cover_image || record.data.coverImage || record.data.coverImageId);
+
+  if (cover) {
+    refs.add(cover);
+  }
+
+  for (const id of imageRefs(record.data)) {
+    refs.add(id);
+  }
+
+  for (const ref of refs) {
+    if (!isCanonicalMediaKey(ref)) {
+      addIssue('error', 'media.nonCanonicalReference', record.file, `Media reference "${ref}" is not shaped like yyyy/mm/dd/filename.ext.`);
+      continue;
+    }
+
+    if (!mediaIds.has(ref)) {
+      addIssue('error', 'media.missingReference', record.file, `Media reference "${ref}" was not found in the media index.`);
+    }
+  }
+}
+
+function validateRelationships(records: ContentRecord[]) {
+  const contentIds = new Set(records.map((record) => record.id).filter(Boolean));
+  const galleryIds = new Set(
+    records
+      .filter((record) => record.targetType === 'gallery')
+      .flatMap((record) => [record.id, record.galleryId])
+      .filter(Boolean),
+  );
+
+  for (const record of records) {
+    for (const link of relatedLinks(record.data)) {
+      const type = contentLinkType(link.type);
+
+      if (link.type === 'article') {
+        trackRecommendation(recommendations.relatedArticleType, record.file);
+        maybeStrictIssue('contract.relatedArticleType', record.file, 'Use related.type: post instead of article.');
+      }
+
+      if (type === 'gallery') {
+        if (!galleryIds.has(link.id)) {
+          addIssue('error', 'related.missingGallery', record.file, `Related gallery "${link.id}" does not exist.`);
+        }
+        continue;
+      }
+
+      if (type === 'post' || type === 'story' || !type) {
+        if (!contentIds.has(link.id)) {
+          addIssue('error', 'related.missingContent', record.file, `Related content "${link.id}" does not exist.`);
+        }
+      }
+    }
+  }
+}
+
+function requireText(record: ContentRecord, key: string, code: string) {
+  if (!textValue(record.data[key])) {
+    addIssue('error', code, record.file, `${key} is required.`);
+  }
+}
+
+function contentType(data: Frontmatter): ContentType | undefined {
+  const explicit = textValue(data.content_type || data.contentType || data.type).toLowerCase();
+
+  if (explicit === 'post' || explicit === 'article' || explicit === 'story' || explicit === 'gallery') {
+    return explicit;
+  }
+
+  return undefined;
+}
+
+function targetContentType(type: ContentType | undefined): TargetContentType | undefined {
+  if (type === 'article') {
+    return 'post';
+  }
+
+  return type;
+}
+
+function routeFor(type: TargetContentType | undefined, data: Frontmatter, slug: string) {
+  if (!type || !slug) {
+    return undefined;
+  }
+
+  const parts = partsFromDate(data.date);
+
+  if (!parts) {
+    return undefined;
+  }
+
+  return `/${type === 'post' ? 'posts' : `${type}s`}/${parts.year}/${parts.month}/${parts.day}/${slug}`;
+}
+
+function relatedLinks(data: Frontmatter) {
+  const related = data.related;
+
+  if (typeof related === 'string') {
+    return related.trim() ? [{ id: related.trim() }] : [];
+  }
+
+  if (!Array.isArray(related)) {
+    return [];
+  }
+
+  return related
+    .map((item) => {
+      if (typeof item === 'string') {
+        return item.trim() ? { id: item.trim() } : undefined;
+      }
+
+      if (!item || typeof item !== 'object' || item instanceof Date) {
+        return undefined;
+      }
+
+      const value = item as Frontmatter;
+      const id = textValue(value.id || value.post_id || value.slug || value.route);
+
+      if (!id) {
+        return undefined;
+      }
+
+      return {
+        type: textValue(value.type),
+        id,
+      };
+    })
+    .filter(Boolean) as Array<{ type?: string; id: string }>;
+}
+
+function contentLinkType(value: string | undefined): TargetContentType | undefined {
+  const type = textValue(value).toLowerCase();
+
+  if (type === 'article' || type === 'post') {
+    return 'post';
+  }
+
+  if (type === 'story' || type === 'gallery') {
+    return type;
+  }
+
+  return undefined;
+}
+
+function imageRefs(data: Frontmatter) {
+  const refs: string[] = [];
+
+  for (const value of [data.images, data.imageIds, data.image_ids]) {
+    if (Array.isArray(value)) {
+      for (const item of value) {
+        if (typeof item === 'string') {
+          refs.push(item);
+        } else if (item && typeof item === 'object' && !(item instanceof Date)) {
+          refs.push(textValue((item as Frontmatter).id));
+        }
+      }
+    } else if (typeof value === 'string') {
+      refs.push(...value.split(',').map((item) => item.trim()));
+    }
+  }
+
+  return refs.filter(Boolean);
+}
+
+function validDate(value: unknown) {
+  return partsFromDate(value) !== undefined;
+}
+
+function partsFromFrontmatter(data: Frontmatter) {
+  const year = padDatePart(data.year, 4);
+  const month = padDatePart(data.month, 2);
+  const day = padDatePart(data.day, 2);
+
+  if (!year || !month || !day) {
+    return undefined;
+  }
+
+  return { year, month, day };
+}
+
+function partsFromDate(value: unknown): DateParts | undefined {
+  if (value instanceof Date && !Number.isNaN(value.valueOf())) {
+    return {
+      year: String(value.getFullYear()).padStart(4, '0'),
+      month: String(value.getMonth() + 1).padStart(2, '0'),
+      day: String(value.getDate()).padStart(2, '0'),
+    };
+  }
+
+  const text = textValue(value);
+
+  if (!text) {
+    return undefined;
+  }
+
+  const match = /^(\d{4})-(\d{2})-(\d{2})/.exec(text);
+
+  if (!match) {
+    return undefined;
+  }
+
+  const normalized = text
+    .replace(/^(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2})/, '$1T$2')
+    .replace(/\s+([+-]\d{2})(\d{2})$/, '$1:$2');
+  const parsed = new Date(normalized);
+
+  if (Number.isNaN(parsed.valueOf())) {
+    return undefined;
+  }
+
+  return {
+    year: match[1],
+    month: match[2],
+    day: match[3],
+  };
+}
+
+function partsFromFilename(filename: string) {
+  const match = /^(\d{4})-(\d{2})-(\d{2})-/.exec(filename);
+
+  if (!match) {
+    return undefined;
+  }
+
+  return {
+    year: match[1],
+    month: match[2],
+    day: match[3],
+  };
+}
+
+function padDatePart(value: unknown, length: number) {
+  const text = textValue(value);
+
+  if (!text) {
+    return '';
+  }
+
+  return text.padStart(length, '0');
+}
+
+function canonicalImageFilename(data: Frontmatter, fallbackFile: string) {
+  return (
+    filenameFromUrl(textValue(data.raw_url)) ||
+    textValue(data.source_filename) ||
+    filenameFromUrl(textValue(data.thumb_url)) ||
+    path.basename(fallbackFile, '.md')
+  );
+}
+
+function filenameFromUrl(value: string) {
+  if (!value) {
+    return '';
+  }
+
+  try {
+    const url = new URL(value);
+    return decodeURIComponent(url.pathname).split('/').filter(Boolean).at(-1) ?? '';
+  } catch {
+    return value.split('/').filter(Boolean).at(-1) ?? '';
+  }
+}
+
+function isCanonicalMediaKey(value: string) {
+  return /^\d{4}\/\d{2}\/\d{2}\/[^/]+\.[A-Za-z0-9]+$/.test(value);
+}
+
+async function markdownFiles(directory: string) {
+  try {
+    return (await fs.readdir(directory)).filter((file) => file.endsWith('.md')).sort();
+  } catch {
+    return [];
+  }
+}
+
+function hasFrontmatter(raw: string) {
+  return /^---\r?\n[\s\S]*?\r?\n---/.test(raw);
+}
+
+function slugFromPostFilename(filename: string) {
+  return filename.replace(/^\d{4}-\d{2}-\d{2}-/, '');
+}
+
+function stringArray(value: unknown) {
+  if (typeof value === 'string') {
+    return value.trim() ? [value.trim()] : [];
+  }
+
+  if (!Array.isArray(value)) {
+    return [];
+  }
+
+  return value.map((item) => textValue(item)).filter(Boolean);
+}
+
+function textValue(value: unknown) {
+  if (value === undefined || value === null) {
+    return '';
+  }
+
+  if (value instanceof Date && !Number.isNaN(value.valueOf())) {
+    return value.toISOString();
+  }
+
+  return String(value).trim();
+}
+
+function addIssue(severity: Severity, code: string, file: string, message: string) {
+  issues.push({ severity, code, file, message });
+}
+
+function maybeStrictIssue(code: string, file: string, message: string) {
+  if (strict) {
+    addIssue('error', code, file, message);
+  }
+}
+
+function trackRecommendation(list: string[], file: string) {
+  list.push(file);
+}
+
+function recommendationSummary(files: string[]) {
+  return {
+    count: files.length,
+    examples: files.slice(0, 10),
+  };
+}
+
+function countBy<T>(items: T[], key: (item: T) => string) {
+  return items.reduce<Record<string, number>>((counts, item) => {
+    const value = key(item);
+    counts[value] = (counts[value] ?? 0) + 1;
+    return counts;
+  }, {});
+}
+
+function numberArg(name: string) {
+  const raw = process.argv.find((arg) => arg.startsWith(`${name}=`));
+
+  if (!raw) {
+    return undefined;
+  }
+
+  const value = Number(raw.slice(name.length + 1));
+  return Number.isFinite(value) ? value : undefined;
+}
+
+function printSummary(summary: {
+  files: { posts: number; galleryMarkdown: number };
+  media: { ids: number };
+  contentTypes: Record<string, number>;
+  issues: { errors: number; warnings: number };
+  recommendations: Record<string, { count: number; examples: string[] } | number>;
+}) {
+  console.log('Content validation');
+  console.log(`Posts: ${summary.files.posts}`);
+  console.log(`Legacy _gallery files: ${summary.files.galleryMarkdown}`);
+  console.log(`Media IDs: ${summary.media.ids}`);
+  console.log(`Content types: ${JSON.stringify(summary.contentTypes)}`);
+  console.log(`Errors: ${summary.issues.errors}`);
+  console.log(`Warnings: ${summary.issues.warnings}`);
+  console.log(`Report: ${path.relative(root, reportPath)}`);
+
+  if (issues.length > 0) {
+    console.log('');
+    console.log(`First ${Math.min(maxConsoleIssues, issues.length)} issue(s):`);
+    for (const issue of issues.slice(0, maxConsoleIssues)) {
+      console.log(`- ${issue.severity.toUpperCase()} ${issue.code} ${issue.file}: ${issue.message}`);
+    }
+  }
+
+  console.log('');
+  console.log('Target-contract cleanup counts:');
+  for (const [key, value] of Object.entries(summary.recommendations)) {
+    if (typeof value === 'number') {
+      console.log(`- ${key}: ${value}`);
+    } else {
+      console.log(`- ${key}: ${value.count}`);
+    }
+  }
+}
+
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});

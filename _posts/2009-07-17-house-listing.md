@@ -1,7 +1,7 @@
 ---
 layout:     single
 title:      "House Listing"
-content_type: article
+content_type: post
 slug: house-listing
 post_id:         2009-07-17-house-listing
 date:       2009-07-17 08:39:00 -0600

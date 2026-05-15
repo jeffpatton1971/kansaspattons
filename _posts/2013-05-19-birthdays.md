@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Birthdays"
-content_type: article
+content_type: post
 slug: birthdays
 post_id: 2013-05-19-birthdays
 date: 2013-05-19 07:45:16

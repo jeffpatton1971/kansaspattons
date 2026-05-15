@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Site Update"
-content_type: article
+content_type: post
 slug: site-update
 post_id: 2011-02-09-site-update
 date: 2011-02-09 13:17:00

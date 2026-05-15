@@ -43,10 +43,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-08-02-cancer-stinks"
     title: "Cancer Stinks"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

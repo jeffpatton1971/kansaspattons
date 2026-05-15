@@ -51,10 +51,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2009-10-28-cpls-kindergarten-trip"
     title: "Rees Fruit Farm Field Trip"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

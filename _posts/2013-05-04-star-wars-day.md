@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Star Wars Day"
-content_type: article
+content_type: post
 slug: star-wars-day
 post_id: 2013-05-04-star-wars-day
 date: 2013-05-04 07:59:42

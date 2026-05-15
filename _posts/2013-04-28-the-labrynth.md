@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "The Labrynth"
-content_type: article
+content_type: post
 slug: the-labrynth
 post_id: 2013-04-28-the-labrynth
 date: 2013-04-28 22:03:50

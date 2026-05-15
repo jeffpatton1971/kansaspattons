@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Final Concert"
-content_type: article
+content_type: post
 slug: final-concert
 post_id: 2013-05-13-final-concert
 date: 2013-05-13 07:18:52

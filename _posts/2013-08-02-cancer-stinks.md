@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Cancer Stinks"
-content_type: article
+content_type: post
 slug: cancer-stinks
 post_id: 2013-08-02-cancer-stinks
 date: 2013-08-02 16:22:01

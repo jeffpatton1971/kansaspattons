@@ -87,10 +87,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-05-22-put-put"
     title: Put-Put
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

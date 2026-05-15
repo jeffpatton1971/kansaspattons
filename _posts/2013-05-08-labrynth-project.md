@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Labrynth Project"
-content_type: article
+content_type: post
 slug: labrynth-project
 post_id: 2013-05-08-labrynth-project
 date: 2013-05-08 08:16:56

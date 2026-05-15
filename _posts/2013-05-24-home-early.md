@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Home Early"
-content_type: article
+content_type: post
 slug: home-early
 post_id: 2013-05-24-home-early
 date: 2013-05-24 08:37:41

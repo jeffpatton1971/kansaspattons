@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Cycle Five"
-content_type: article
+content_type: post
 slug: cycle-five
 post_id: 2013-08-08-cycle-five
 date: 2013-08-08 16:36:43

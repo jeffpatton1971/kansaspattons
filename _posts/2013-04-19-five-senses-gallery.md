@@ -61,10 +61,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-04-19-five-senses"
     title: "Five Senses"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

@@ -3,7 +3,7 @@ import path from 'node:path';
 import matter from 'gray-matter';
 
 type Frontmatter = Record<string, unknown>;
-type ContentType = 'article' | 'story' | 'gallery';
+type ContentType = 'post' | 'story' | 'gallery';
 
 const postsRoot = path.join(process.cwd(), '_posts');
 const defaultAuthor = 'Jeff Patton';
@@ -20,7 +20,7 @@ const stats: Stats = {
   files: 0,
   changed: 0,
   contentTypes: {
-    article: 0,
+    post: 0,
     story: 0,
     gallery: 0,
   },
@@ -232,7 +232,7 @@ function classifyContentType(source: string, data: Frontmatter): ContentType {
   const explicitType = textValue(data.content_type || data.contentType || data.type).toLowerCase();
 
   if (explicitType === 'article' || explicitType === 'post') {
-    return 'article';
+    return 'post';
   }
 
   if (explicitType === 'story') {
@@ -251,7 +251,7 @@ function classifyContentType(source: string, data: Frontmatter): ContentType {
   }
 
   if (source === 'wordpress' || stringArray(data.tags).includes('wordpress')) {
-    return 'article';
+    return 'post';
   }
 
   return 'story';

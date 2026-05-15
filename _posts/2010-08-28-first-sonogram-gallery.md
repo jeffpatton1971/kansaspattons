@@ -34,10 +34,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2010-08-28-first-sonogram"
     title: "First Sonogram"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

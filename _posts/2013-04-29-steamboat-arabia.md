@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Steamboat Arabia"
-content_type: article
+content_type: post
 slug: steamboat-arabia
 post_id: 2013-04-29-steamboat-arabia
 date: 2013-04-29 22:13:44

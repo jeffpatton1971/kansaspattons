@@ -1151,3 +1151,90 @@ Detailed working notes for the React migration live here. This file is intention
 - Fixed missing numeric source metadata so an absent `media_count` no longer becomes `0` in generated JSON.
 - Production build passed.
 - Smoke checks returned 200 for `/`, `/posts`, `/stories`, `/images`, `/posts/2010/12/25/christmas-2025`, and `/stories/2026/02/26/091137-breakfast-theroost920mass`.
+
+### Shared Content Contract And Roadmap
+
+- Captured the next content-model decision as a formal contract instead of more
+  one-off schema notes.
+- Added `docs/content-contract.md` as the target shared envelope:
+  - Only three authored content types: `post`, `story`, and `gallery`.
+  - Images/videos are media assets, not authored content pages.
+  - Shared metadata includes authors, people, hashtags, location, cover media,
+    optional categories, and related content.
+  - `tags` are transitional and should fold into `hashtags`.
+  - `source` data becomes optional legacy metadata, useful for migration and
+    metrics but not required for new content.
+  - `_gallery` is explicitly legacy import metadata and should disappear from
+    normal authoring after the publish pipeline owns media upload/indexing.
+- Documented GitHub Actions intent:
+  - Pull requests run full validation and full rebuild without production
+    publish.
+  - Pushes to `main` run incremental publish.
+  - Manual dispatch remains available for full rebuilds and republish work.
+- Added `docs/platform-roadmap.md` to track outstanding work:
+  - Contract validation.
+  - Publish pipeline implementation.
+  - `_gallery` retirement.
+  - Existing content cleanup and eventual Azure old-path cleanup.
+  - API extraction into a shared multi-site platform.
+  - Hashtag/search discovery.
+  - Tests for compiler, publish, API, frontend smoke checks, and Dependabot.
+- Updated existing schema/workflow docs so they point to the contract and call
+  out current compatibility fields such as `article`, `tags`, `categories`, and
+  `source`.
+
+### Content Validator And First Contract Tightening
+
+- Added `scripts/validate-content.ts`.
+- Added npm commands:
+  - `npm run content:validate`
+  - `npm run content:validate:strict`
+- The validator currently checks:
+  - Required frontmatter fields such as `content_type`, `title`, `slug`,
+    `post_id`, `date`, `status`, `authors`, and `summary`.
+  - Valid content type values.
+  - Unique content IDs and routes.
+  - Canonical media references shaped as `yyyy/mm/dd/filename.ext`.
+  - Media references resolving against the current `_gallery`-derived media
+    index.
+  - Gallery cover images being present in the gallery image list.
+  - Related content and related gallery targets existing.
+- The validator writes `.tmp/content-validation-report.json`.
+- Initial validation result:
+  - `1,418` content files scanned.
+  - `8,526` media IDs scanned.
+  - `0` hard errors.
+  - Target cleanup counts before the first tightening:
+    - `91` `article` content type compatibility values.
+    - `51` `related.type: article` values.
+    - `1,377` files with `tags`.
+    - `358` files with `categories`.
+    - `1,418` files with `source`.
+    - `8,526` legacy `_gallery` files.
+- Added `scripts/migrate-contract-frontmatter.ts`.
+- Added npm commands:
+  - `npm run content:contract:migrate`
+  - `npm run content:contract:migrate:write`
+- Applied the first safe contract migration:
+  - `91` authored WordPress-shaped files changed from `content_type: article`
+    to `content_type: post`.
+  - `51` gallery back-links changed from `related.type: article` to
+    `related.type: post`.
+  - `51` gallery companion rels changed from `companion-article` to
+    `companion-post`.
+- Updated `normalize-post-frontmatter.ts` and `migrate-gallery-relationships.ts`
+  so future authoring migrations use `post` terminology instead of
+  reintroducing `article`.
+- Follow-up validation:
+  - `0` hard errors.
+  - `articleContentType: 0`.
+  - `relatedArticleType: 0`.
+  - Remaining cleanup buckets are the larger decisions: `tags`, `categories`,
+    `source`, and `_gallery` retirement.
+- Verification:
+  - `npm run content:validate` passed.
+  - `npm run normalize:posts -- --dry-run` reports zero pending changes.
+  - `npm run content:contract:migrate` reports zero pending changes.
+  - `npm run build` passed and generated `1,109` entries, `305` galleries, and
+    `8,526` images.
+  - `npm run api:build` passed.

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Survivor Celebration"
-content_type: article
+content_type: post
 slug: survivor-celebration
 post_id: 2013-06-02-survivor-celebration
 date: 2013-06-02 09:12:33

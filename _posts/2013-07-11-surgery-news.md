@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Surgery News"
-content_type: article
+content_type: post
 slug: surgery-news
 post_id: 2013-07-11-surgery-news
 date: 2013-07-11 08:10:52

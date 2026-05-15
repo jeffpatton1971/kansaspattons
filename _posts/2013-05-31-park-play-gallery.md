@@ -54,10 +54,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-05-31-park-play"
     title: "Play At the Park"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

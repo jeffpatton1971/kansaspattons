@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "July 4, 2013"
-content_type: article
+content_type: post
 slug: fourth-of-july
 post_id: 2013-07-04-fourth-of-july
 date: 2013-07-04 07:25:30

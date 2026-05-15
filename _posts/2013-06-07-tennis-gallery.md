@@ -41,10 +41,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-06-07-tennis"
     title: Tennis
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

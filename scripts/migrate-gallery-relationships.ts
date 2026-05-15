@@ -3,7 +3,7 @@ import path from 'node:path';
 import matter from 'gray-matter';
 
 type Frontmatter = Record<string, unknown>;
-type ContentType = 'article' | 'story' | 'gallery';
+type ContentType = 'post' | 'story' | 'gallery';
 
 type FrontmatterRange = {
   before: string;
@@ -660,7 +660,7 @@ function galleryBackLink(entry: EntrySource): RelatedLink {
     type: entry.type,
     id: entry.id,
     title: entry.title,
-    rel: entry.type === 'article' ? 'companion-article' : 'companion-story',
+    rel: entry.type === 'post' ? 'companion-post' : 'companion-story',
   };
 }
 
@@ -744,7 +744,7 @@ function classifyContentType(source: string, data: Frontmatter): ContentType {
   const explicitType = textValue(data.content_type || data.contentType || data.type).toLowerCase();
 
   if (explicitType === 'article' || explicitType === 'post') {
-    return 'article';
+    return 'post';
   }
 
   if (explicitType === 'story') {
@@ -763,7 +763,7 @@ function classifyContentType(source: string, data: Frontmatter): ContentType {
   }
 
   if (source === 'wordpress' || stringArray(data.tags).includes('wordpress')) {
-    return 'article';
+    return 'post';
   }
 
   return 'story';
@@ -772,12 +772,12 @@ function classifyContentType(source: string, data: Frontmatter): ContentType {
 function contentLinkType(value: unknown): ContentType | undefined {
   const type = textValue(value).toLowerCase();
 
-  if (type === 'article' || type === 'story' || type === 'gallery') {
+  if (type === 'story' || type === 'gallery' || type === 'post') {
     return type;
   }
 
-  if (type === 'post') {
-    return 'article';
+  if (type === 'article') {
+    return 'post';
   }
 
   return undefined;

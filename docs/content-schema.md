@@ -4,7 +4,14 @@ The site is authored in Markdown and gallery Markdown records. `npm run build:co
 
 The JSON files are generated artifacts. Do not hand-edit files under `public/content`.
 
-For the broader target model and authoring examples, see [`content-model.md`](content-model.md).
+For the final shared content envelope, see [`content-contract.md`](content-contract.md).
+For migration context and authoring examples, see [`content-model.md`](content-model.md).
+
+Migration note: the current generated schema still includes compatibility names
+such as `type: "article"`, `contentShape`, `tags`, `categories`, and `source`.
+The target shared contract uses the three authored content types `post`,
+`story`, and `gallery`, folds topical tags into `hashtags`, and treats source
+data as optional legacy metadata.
 
 ## Generated File Layout
 

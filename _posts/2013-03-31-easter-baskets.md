@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Easter Baskets"
-content_type: article
+content_type: post
 slug: easter-baskets
 post_id: 2013-03-31-easter-baskets
 date: 2013-03-31 13:00:41

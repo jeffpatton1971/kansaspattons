@@ -40,10 +40,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-05-08-labrynth-project"
     title: "Labrynth Project"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

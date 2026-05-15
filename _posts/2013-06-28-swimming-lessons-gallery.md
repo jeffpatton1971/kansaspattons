@@ -45,10 +45,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-06-28-swimming-lessons"
     title: "Swimming Lessons"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

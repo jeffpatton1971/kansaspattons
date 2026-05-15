@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Cancer Center"
-content_type: article
+content_type: post
 slug: cancer-center
 post_id: 2013-04-10-cancer-center
 date: 2013-04-10 09:46:11

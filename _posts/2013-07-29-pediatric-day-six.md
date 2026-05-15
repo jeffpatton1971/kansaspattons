@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Pediatric Day 6"
-content_type: article
+content_type: post
 slug: pediatric-day-six
 post_id: 2013-07-29-pediatric-day-six
 date: 2013-07-29 11:18:51

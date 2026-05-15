@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Tennis Tournament"
-content_type: article
+content_type: post
 slug: tennis-tournament
 post_id: 2013-06-22-tennis-tournament
 date: 2013-06-22 07:47:04

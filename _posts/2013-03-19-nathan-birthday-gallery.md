@@ -119,10 +119,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-03-19-nathan-birthday"
     title: "Nathan's 2nd Birthday"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

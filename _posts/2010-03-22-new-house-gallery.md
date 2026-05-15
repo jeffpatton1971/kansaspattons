@@ -36,10 +36,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2010-03-22-new-house"
     title: "New House"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

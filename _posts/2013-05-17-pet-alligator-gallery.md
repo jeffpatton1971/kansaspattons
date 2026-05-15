@@ -56,10 +56,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-05-17-pet-alligator"
     title: "Pet Alligator"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

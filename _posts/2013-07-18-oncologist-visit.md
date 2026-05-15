@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Oncologist Visit"
-content_type: article
+content_type: post
 slug: oncologist-visit
 post_id: 2013-07-18-oncologist-visit
 date: 2013-07-18 19:30:04

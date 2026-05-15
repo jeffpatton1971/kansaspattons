@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Surgery Moved"
-content_type: article
+content_type: post
 slug: surgery-moved
 post_id: 2013-07-12-surgery-moved
 date: 2013-07-12 08:17:29

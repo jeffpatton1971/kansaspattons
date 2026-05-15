@@ -11,8 +11,14 @@ Images should be decoupled from posts, stories, and galleries.
 - `/images` is a raw media library and archive browser.
 - `/posts`, `/stories`, and `/galleries` reference image assets by ID/path.
 - New image uploads should not require one Markdown page per image.
+- The only final authored content types are `post`, `story`, and `gallery`.
+- `tags` should collapse into `hashtags`; import/system labels should move to
+  legacy metadata rather than user-facing filters.
 
 The existing `_gallery/*.md` files are useful import metadata from the GitHub Pages/Jekyll migration. They should be treated as legacy input, not the long-term authoring model.
+
+The target content envelope and child payload shapes are defined in
+[`content-contract.md`](content-contract.md).
 
 ## Draft Authoring
 
@@ -36,11 +42,11 @@ images:
 ---
 ```
 
-Example article draft with a small image set:
+Example post draft with a small image set:
 
 ```yaml
 ---
-content_type: article
+content_type: post
 title: Big Boy
 date: 2013-05-29
 cover_image: wp-20130529-002.jpg
@@ -51,11 +57,11 @@ images:
 ---
 ```
 
-Example article draft that references a gallery:
+Example post draft that references a gallery:
 
 ```yaml
 ---
-content_type: article
+content_type: post
 title: Pumpkin Patch
 date: 2009-10-18
 related:
@@ -150,6 +156,21 @@ The publish action should:
 10. Remove local image files from the repo after a successful upload and rewrite.
 11. Build generated JSON from the canonical Markdown.
 
+## GitHub Action Triggers
+
+The target publish flow should separate validation from production publishing.
+
+```text
+pull_request       full validation and full site rebuild, no production publish
+push to main       incremental publish for changed Markdown and local media
+workflow_dispatch  manual full rebuild and republish
+```
+
+The pull-request rebuild protects the shared API/content contract before a merge.
+The push-to-main incremental path keeps normal authoring fast. The manual full
+rebuild remains available for migrations, dependency updates, index repairs, and
+large cleanup work.
+
 ## Existing Content Canonicalization
 
 Existing migrated content can be canonicalized with the image reference migration tool.
@@ -186,6 +207,37 @@ The compiler then emits canonical image IDs, canonical raw/thumb URLs, and image
 ```text
 /images/yyyy/mm/dd/filename.ext
 ```
+
+## Content Validation
+
+Run validation after content migrations, before publishing, and in pull-request
+checks.
+
+```powershell
+npm run content:validate
+```
+
+The validator writes `.tmp/content-validation-report.json`, exits nonzero for
+hard publish blockers, and keeps target-contract cleanup counts separate from
+errors.
+
+Strict mode can be used later when we are ready to promote more cleanup items to
+CI failures:
+
+```powershell
+npm run content:validate:strict
+```
+
+The current contract frontmatter migration can be checked and applied with:
+
+```powershell
+npm run content:contract:migrate
+npm run content:contract:migrate:write
+```
+
+That migration aligns authored Markdown with the final `post` terminology by
+rewriting old `article` compatibility values in `content_type`, `related.type`,
+and companion relationship names.
 
 ## Collision Policy
 
@@ -232,6 +284,9 @@ Posts and stories can either reference `images` directly or link to one or more 
 
 Galleries own ordered image lists and should be the preferred shape for meaningful image sets.
 
+Hashtags should be emitted as normalized, clickable metadata. A hashtag route
+should return posts, stories, and galleries together, sorted by date.
+
 ## Routing Implications
 
 Long-term route meanings:
@@ -252,3 +307,5 @@ An image may still be selectable in `/images`, but that view is a media-library 
 - Video poster/thumbnail generation.
 - Whether publish should fail on hash mismatch or auto-rename with a deterministic suffix.
 - Whether EXIF dates can optionally override content dates for media-library sorting.
+- Whether `categories` remain as curated site sections or are removed from the
+  final user-facing model.

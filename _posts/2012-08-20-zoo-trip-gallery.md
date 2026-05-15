@@ -75,10 +75,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2012-08-20-zoo-trip"
     title: "Zoo Trip"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

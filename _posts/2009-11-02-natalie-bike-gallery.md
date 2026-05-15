@@ -40,10 +40,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2009-11-02-natalie-bike"
     title: "First bike ride"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

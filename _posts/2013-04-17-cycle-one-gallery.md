@@ -36,10 +36,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-04-17-cycle-one"
     title: "End of Cycle 1"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

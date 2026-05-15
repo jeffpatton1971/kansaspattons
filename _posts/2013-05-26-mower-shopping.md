@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Mower Shopping"
-content_type: article
+content_type: post
 slug: mower-shopping
 post_id: 2013-05-26-mower-shopping
 date: 2013-05-26 08:55:59

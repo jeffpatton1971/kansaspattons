@@ -97,10 +97,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2011-05-26-crown-center"
     title: "Crown Center"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

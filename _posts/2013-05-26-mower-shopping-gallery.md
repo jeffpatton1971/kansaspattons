@@ -34,10 +34,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-05-26-mower-shopping"
     title: "Mower Shopping"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

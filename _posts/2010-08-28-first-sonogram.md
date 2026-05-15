@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "First Sonogram"
-content_type: article
+content_type: post
 slug: first-sonogram
 post_id: 2010-08-28-first-sonogram
 date: 2010-08-28 23:53:00

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Biopsy and Port"
-content_type: article
+content_type: post
 slug: biopsy-and-port
 post_id: 2013-04-02-biopsy-and-port
 date: 2013-04-02 09:38:48

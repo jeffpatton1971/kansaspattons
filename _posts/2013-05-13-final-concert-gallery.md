@@ -53,10 +53,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-05-13-final-concert"
     title: "Final Concert"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

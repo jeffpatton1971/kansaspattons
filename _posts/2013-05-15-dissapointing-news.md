@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Disappointing News"
-content_type: article
+content_type: post
 slug: dissapointing-news
 post_id: 2013-05-15-dissapointing-news
 date: 2013-05-15 08:31:29

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Nate Nat's Car"
-content_type: article
+content_type: post
 slug: nate-nates-car
 post_id: 2013-06-23-nate-nates-car
 date: 2013-06-23 08:06:36

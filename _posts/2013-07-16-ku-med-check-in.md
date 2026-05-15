@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "KU Med Check-In"
-content_type: article
+content_type: post
 slug: ku-med-check-in
 post_id: 2013-07-16-ku-med-check-in
 date: 2013-07-16 17:34:47

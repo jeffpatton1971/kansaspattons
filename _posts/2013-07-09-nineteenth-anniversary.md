@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "19th Anniversary"
-content_type: article
+content_type: post
 slug: nineteenth-anniversary
 post_id: 2013-07-09-nineteenth-anniversary
 date: 2013-07-09 07:46:50

@@ -100,10 +100,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-04-26-round-two"
     title: "Round Two"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

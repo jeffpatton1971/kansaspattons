@@ -39,10 +39,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-06-03-tennis"
     title: "June 3, 2013"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

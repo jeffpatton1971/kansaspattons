@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Pet Alligator"
-content_type: article
+content_type: post
 slug: pet-alligator
 post_id: 2013-05-17-pet-alligator
 date: 2013-05-17 08:42:33

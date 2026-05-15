@@ -76,10 +76,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-07-26-picu-day-three"
     title: "PICU Day 3"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

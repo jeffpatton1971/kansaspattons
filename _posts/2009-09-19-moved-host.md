@@ -1,7 +1,7 @@
 ---
 layout:     single
 title:      "Moved to a new host"
-content_type: article
+content_type: post
 slug: moved-host
 post_id:         2009-09-19-moved-host
 date:       2009-09-19 09:03:00 -0600

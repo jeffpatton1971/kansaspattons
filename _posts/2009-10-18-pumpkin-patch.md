@@ -1,7 +1,7 @@
 ---
 layout:     single
 title:      "Pumpkin Patch"
-content_type: article
+content_type: post
 slug: pumpkin-patch
 post_id:         2009-10-18-pumpkin-patch
 date:       2009-10-18 02:46:00 -0600

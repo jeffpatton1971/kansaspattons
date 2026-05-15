@@ -1,7 +1,7 @@
 ---
 layout:     single
 title:      "Realtor"
-content_type: article
+content_type: post
 slug: more-showings
 post_id:         2009-07-24-more-showings
 date:       2009-07-24 08:42:00 -0600

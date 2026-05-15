@@ -74,10 +74,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2009-10-31-halloween"
     title: Halloween
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

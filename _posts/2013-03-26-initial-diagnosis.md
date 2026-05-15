@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Initial Diagnosis"
-content_type: article
+content_type: post
 slug: initial-diagnosis
 post_id: 2013-03-26-initial-diagnosis
 date: 2013-03-26 09:27:25

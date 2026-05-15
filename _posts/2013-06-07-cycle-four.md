@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Cycle Four"
-content_type: article
+content_type: post
 slug: cycle-four
 post_id: 2013-06-07-cycle-four
 date: 2013-06-07 14:14:40

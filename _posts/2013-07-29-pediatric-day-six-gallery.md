@@ -49,10 +49,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-07-29-pediatric-day-six"
     title: "Pediatric Day 6"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

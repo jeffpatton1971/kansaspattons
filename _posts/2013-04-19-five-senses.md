@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Five Senses"
-content_type: article
+content_type: post
 slug: five-senses
 post_id: 2013-04-19-five-senses
 date: 2013-04-19 17:15:26

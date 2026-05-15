@@ -1,7 +1,7 @@
 ---
 layout:     single
 title:      "First Posting"
-content_type: article
+content_type: post
 slug: first-posting
 post_id:         2009-07-17-first-posting
 date:       2009-07-17 03:10:00 -0600

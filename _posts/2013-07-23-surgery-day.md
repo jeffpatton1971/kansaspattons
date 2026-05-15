@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Surgery Day"
-content_type: article
+content_type: post
 slug: surgery-day
 post_id: 2013-07-23-surgery-day
 date: 2013-07-23 13:00:00

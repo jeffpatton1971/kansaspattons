@@ -118,10 +118,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-07-16-ku-med-check-in"
     title: "KU Med Check-In"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

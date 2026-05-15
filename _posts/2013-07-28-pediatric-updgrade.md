@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Pediatric Upgrade"
-content_type: article
+content_type: post
 slug: pediatric-updgrade
 post_id: 2013-07-28-pediatric-updgrade
 date: 2013-07-28 11:11:33

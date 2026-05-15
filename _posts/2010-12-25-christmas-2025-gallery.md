@@ -162,10 +162,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2010-12-25-christmas-2025"
     title: "Christmas 2025"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

@@ -42,10 +42,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-06-23-nate-nates-car"
     title: "Nate Nat's Car"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

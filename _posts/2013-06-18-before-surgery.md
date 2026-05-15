@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Last Round Before Surgery"
-content_type: article
+content_type: post
 slug: before-surgery
 post_id: 2013-06-18-before-surgery
 date: 2013-06-18 07:19:55

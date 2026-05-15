@@ -1,7 +1,7 @@
 ---
 layout:     single
 title:      "Plumbing Drama"
-content_type: article
+content_type: post
 slug: plumbing-drama
 post_id:         2009-08-04-plumbing-drama
 date:       2009-08-04 08:53:00 -0600

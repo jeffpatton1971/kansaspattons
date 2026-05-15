@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Grandparent Time"
-content_type: article
+content_type: post
 slug: grandparent-time
 post_id: 2013-05-21-grandparent-time
 date: 2013-05-21 07:50:51

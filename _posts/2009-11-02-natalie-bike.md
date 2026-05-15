@@ -1,7 +1,7 @@
 ---
 layout:     single
 title:      "First bike ride"
-content_type: article
+content_type: post
 slug: natalie-bike
 post_id:         2009-11-02-natalie-bike
 date:       2009-11-02 09:55:00 -0600

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Jonyce and Paul and a new name"
-content_type: article
+content_type: post
 slug: jonyce-paul-nathan
 post_id: 2010-11-29-jonyce-paul-nathan
 date: 2010-11-29 17:59:00

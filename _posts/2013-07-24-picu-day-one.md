@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "PICU Day 1"
-content_type: article
+content_type: post
 slug: picu-day-one
 post_id: 2013-07-24-picu-day-one
 date: 2013-07-24 13:35:55

@@ -76,10 +76,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-05-23-cycle-three"
     title: "Cycle Three"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

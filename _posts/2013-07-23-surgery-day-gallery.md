@@ -40,10 +40,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-07-23-surgery-day"
     title: "Surgery Day"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

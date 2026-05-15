@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Swimming Lessons"
-content_type: article
+content_type: post
 slug: swimming-lessons
 post_id: 2013-06-28-swimming-lessons
 date: 2013-06-28 08:34:18

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Easter Sunday"
-content_type: article
+content_type: post
 slug: easter-sunday
 post_id: 2013-03-30-easter-sunday
 date: 2013-03-30 12:41:34

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Cycle Three"
-content_type: article
+content_type: post
 slug: cycle-three
 post_id: 2013-05-23-cycle-three
 date: 2013-05-23 08:04:34

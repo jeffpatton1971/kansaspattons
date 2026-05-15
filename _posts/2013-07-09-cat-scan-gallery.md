@@ -37,10 +37,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-07-09-cat-scan"
     title: "Cat Scan"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

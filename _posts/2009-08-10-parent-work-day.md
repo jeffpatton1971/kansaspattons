@@ -1,7 +1,7 @@
 ---
 layout:     single
 title:      "Parent Workday"
-content_type: article
+content_type: post
 slug: parent-work-day
 post_id:         2009-08-10-parent-work-day
 date:       2009-08-10 09:02:00 -0600

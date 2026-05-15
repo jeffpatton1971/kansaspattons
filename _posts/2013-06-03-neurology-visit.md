@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Neurology Visit"
-content_type: article
+content_type: post
 slug: neurology-visit
 post_id: 2013-06-03-neurology-visit
 date: 2013-06-03 09:41:05

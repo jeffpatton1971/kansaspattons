@@ -1,7 +1,7 @@
 ---
 layout:     single
 title:      "Rees Fruit Farm Field Trip"
-content_type: article
+content_type: post
 slug: cpls-kindergarten-trip
 post_id:         2009-10-28-cpls-kindergarten-trip
 date:       2009-10-28 09:55:00 -0600

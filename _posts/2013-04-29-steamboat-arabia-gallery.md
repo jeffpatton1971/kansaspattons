@@ -149,10 +149,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-04-29-steamboat-arabia"
     title: "Steamboat Arabia"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

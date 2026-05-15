@@ -64,10 +64,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-08-10-tennis-tournament"
     title: "Tennis Tournament"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

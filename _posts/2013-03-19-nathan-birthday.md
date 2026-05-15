@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Nathan's 2nd Birthday"
-content_type: article
+content_type: post
 slug: nathan-birthday
 post_id: 2013-03-19-nathan-birthday
 date: 2013-03-19 10:22:10

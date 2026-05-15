@@ -86,10 +86,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-03-30-easter-sunday"
     title: "Easter Sunday"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

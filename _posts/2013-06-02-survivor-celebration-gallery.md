@@ -76,10 +76,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-06-02-survivor-celebration"
     title: "Survivor Celebration"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

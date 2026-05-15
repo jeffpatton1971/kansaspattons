@@ -87,10 +87,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2010-11-29-jonyce-paul-nathan"
     title: "Jonyce and Paul and a new name"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

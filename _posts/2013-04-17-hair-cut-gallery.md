@@ -52,10 +52,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-04-17-hair-cut"
     title: "Hair Cut"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

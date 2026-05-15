@@ -52,10 +52,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-07-27-picu-day-four"
     title: "PICU Day 4"
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false

@@ -66,6 +66,10 @@ Published behavior changes and bug fixes for the React site migration.
 - Added an image storage blob migration runner with dry-run, batch, skip-existing, and explicit write modes.
 - Added video-thumbnail awareness to image storage migration planning and copy execution.
 - Added a persistent site footer below the shared application body.
+- Added a shared content contract document defining the target `post`, `story`, and `gallery` envelope, metadata, media references, publish triggers, API direction, and validation expectations.
+- Added a platform roadmap covering publish pipeline work, `_gallery` retirement, shared API extraction, hashtag/search discovery, Azure cleanup, and test coverage.
+- Added a content validation script that checks authored Markdown shape, required metadata, unique IDs/routes, canonical media references, gallery cover/image consistency, and related-content targets.
+- Added a contract frontmatter migration script for moving old `article` compatibility values to the final `post` terminology.
 
 ### Changed
 
@@ -143,6 +147,10 @@ Published behavior changes and bug fixes for the React site migration.
 - Added image reference canonicalization tooling for rewriting migrated Markdown image references to `yyyy/mm/dd/filename.ext`.
 - Changed generated image IDs, image routes, and raw/thumb URLs to use canonical date-scoped media keys and storage paths.
 - Changed image detail lookup to resolve canonical media IDs from `/images/yyyy/mm/dd/filename.ext` routes.
+- Clarified documentation so the final authored content model has only `post`, `story`, and `gallery`, while current `article`, `tags`, `categories`, and `source` fields are treated as migration compatibility data.
+- Changed all authored WordPress-shaped Markdown files from `content_type: article` to `content_type: post`.
+- Changed gallery back-links from `related.type: article` and `companion-article` to `related.type: post` and `companion-post`.
+- Updated content normalization and gallery relationship migration tooling so future authoring migrations write `post` terminology.
 
 ### Fixed
 

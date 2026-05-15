@@ -34,10 +34,10 @@ images:
     caption:
     alt:
 related:
-  - type: article
+  - type: post
     id: "2013-08-09-karis"
     title: Karis
-    rel: companion-article
+    rel: companion-post
 published: true
 status: published
 comments: false
