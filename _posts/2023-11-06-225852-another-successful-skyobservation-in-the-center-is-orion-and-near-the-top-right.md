@@ -15,9 +15,9 @@ source:
   caption: "Another successful #skyobservation. In the center is Orion and near the top right Jupiter"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-11-06-225852-another-successful-skyobservation-in-the-center-is-orion-and-near-the-top-right-01
+cover_image: "2023/11/06/18019582105865126.jpg"
 images:
-  - id: instagram-2023-11-06-225852-another-successful-skyobservation-in-the-center-is-orion-and-near-the-top-right-01
+  - id: "2023/11/06/18019582105865126.jpg"
     caption:
     alt:
 hashtags:

@@ -15,7 +15,7 @@ source:
   caption: "Spent the week in San Antonio training, always fun to be back with the team!"
   media_count: 9
   cross_post_source: "FB"
-cover_image: instagram-2018-12-01-163028-spent-the-week-in-san-antonio-training-always-fun-to-be-back-with-the-team-01
+cover_image: "2018/12/01/18007851604041947.jpg"
 related:
   - type: gallery
     id: instagram-2018-12-01-163028-spent-the-week-in-san-antonio-training-always-fun-to-be-back-with-the-team

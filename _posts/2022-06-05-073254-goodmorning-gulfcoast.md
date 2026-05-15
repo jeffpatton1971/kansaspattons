@@ -15,9 +15,9 @@ source:
   caption: "#goodmorning #gulfcoast"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2022-06-05-073254-goodmorning-gulfcoast-01
+cover_image: "2022/06/05/17962820869684220.jpg"
 images:
-  - id: instagram-2022-06-05-073254-goodmorning-gulfcoast-01
+  - id: "2022/06/05/17962820869684220.jpg"
     caption:
     alt:
 hashtags:

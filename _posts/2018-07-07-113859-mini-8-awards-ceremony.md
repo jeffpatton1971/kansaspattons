@@ -15,15 +15,15 @@ source:
   caption: "Mini-8 awards ceremony"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2018-07-07-113859-mini-8-awards-ceremony-01
+cover_image: "2018/07/07/17868876070254674.jpg"
 images:
-  - id: instagram-2018-07-07-113859-mini-8-awards-ceremony-01
+  - id: "2018/07/07/17868876070254674.jpg"
     caption:
     alt:
-  - id: instagram-2018-07-07-113859-mini-8-awards-ceremony-02
+  - id: "2018/07/07/17899512784205008.jpg"
     caption:
     alt:
-  - id: instagram-2018-07-07-113859-mini-8-awards-ceremony-03
+  - id: "2018/07/07/17963370670059541.jpg"
     caption:
     alt:
 hashtags: []

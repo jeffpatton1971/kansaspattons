@@ -18,21 +18,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to End of Cycle 1."
 gallery: wordpress-2013-04-17-125847-april-17-2013
-cover_image: "2013-04-17-wp-20130414-006"
+cover_image: "2013/04/17/wp_20130414_006.jpg"
 images:
-  - id: "2013-04-17-wp-20130414-006"
+  - id: "2013/04/17/wp_20130414_006.jpg"
     caption:
     alt:
-  - id: "2013-04-17-wp-20130414-007"
+  - id: "2013/04/17/wp_20130414_007.jpg"
     caption:
     alt:
-  - id: "2013-04-17-wp-20130414-008"
+  - id: "2013/04/17/wp_20130414_008.jpg"
     caption:
     alt:
-  - id: "2013-04-17-wp-20130414-009"
+  - id: "2013/04/17/wp_20130414_009.jpg"
     caption:
     alt:
-  - id: "2013-04-17-wp-20130414-010"
+  - id: "2013/04/17/wp_20130414_010.jpg"
     caption:
     alt:
 related:

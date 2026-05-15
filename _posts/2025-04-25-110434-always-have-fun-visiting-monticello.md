@@ -15,7 +15,7 @@ source:
   caption: "Always have fun visiting #monticello"
   media_count: 17
   cross_post_source: "FB"
-cover_image: instagram-2025-04-25-110434-always-have-fun-visiting-monticello-01
+cover_image: "2025/04/25/18059573207476548.jpg"
 related:
   - type: gallery
     id: instagram-2025-04-25-110434-always-have-fun-visiting-monticello

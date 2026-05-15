@@ -17,36 +17,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Some more exploring after lunch."
 gallery: instagram-2022-05-06-150244-some-more-exploring-after-lunch
-cover_image: instagram-2022-05-06-150244-some-more-exploring-after-lunch-01
+cover_image: "2022/05/06/17958131038734920.jpg"
 images:
-  - id: instagram-2022-05-06-150244-some-more-exploring-after-lunch-01
+  - id: "2022/05/06/17958131038734920.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-06-150244-some-more-exploring-after-lunch-02
+  - id: "2022/05/06/18225751978141870.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-06-150244-some-more-exploring-after-lunch-03
+  - id: "2022/05/06/17908382840465199.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-06-150244-some-more-exploring-after-lunch-04
+  - id: "2022/05/06/18161512954239552.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-06-150244-some-more-exploring-after-lunch-05
+  - id: "2022/05/06/17969405818600028.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-06-150244-some-more-exploring-after-lunch-06
+  - id: "2022/05/06/18027346522342932.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-06-150244-some-more-exploring-after-lunch-07
+  - id: "2022/05/06/17868697367703530.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-06-150244-some-more-exploring-after-lunch-08
+  - id: "2022/05/06/17920327355381904.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-06-150244-some-more-exploring-after-lunch-09
+  - id: "2022/05/06/17903722829560538.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-06-150244-some-more-exploring-after-lunch-10
+  - id: "2022/05/06/17947927264798102.jpg"
     caption:
     alt:
 related:

@@ -15,9 +15,9 @@ source:
   caption: "It’s fine Exeggutor, not like I’m trying to watch something 🙄 #GoSnapshot"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-08-11-214430-it-s-fine-exeggutor-not-like-i-m-trying-to-watch-something-gosnapshot-01
+cover_image: "2019/08/11/18092924797012751.jpg"
 images:
-  - id: instagram-2019-08-11-214430-it-s-fine-exeggutor-not-like-i-m-trying-to-watch-something-gosnapshot-01
+  - id: "2019/08/11/18092924797012751.jpg"
     caption:
     alt:
 hashtags:

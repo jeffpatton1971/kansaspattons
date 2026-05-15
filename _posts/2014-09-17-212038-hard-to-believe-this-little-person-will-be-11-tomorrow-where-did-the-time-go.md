@@ -15,9 +15,9 @@ source:
   caption: "Hard to believe this little person will be 11 tomorrow! Where did the time go?"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-09-17-212038-hard-to-believe-this-little-person-will-be-11-tomorrow-where-did-the-time-go-01
+cover_image: "2014/09/17/17843349988063547.jpg"
 images:
-  - id: instagram-2014-09-17-212038-hard-to-believe-this-little-person-will-be-11-tomorrow-where-did-the-time-go-01
+  - id: "2014/09/17/17843349988063547.jpg"
     caption:
     alt:
 hashtags: []

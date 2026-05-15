@@ -15,9 +15,9 @@ source:
   caption: "#morning #coffee #love"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-09-07-083517-morning-coffee-love-01
+cover_image: "2025/09/07/17895585825295563.jpg"
 images:
-  - id: instagram-2025-09-07-083517-morning-coffee-love-01
+  - id: "2025/09/07/17895585825295563.jpg"
     caption:
     alt:
 hashtags:

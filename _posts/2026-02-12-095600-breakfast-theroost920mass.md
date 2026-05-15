@@ -15,12 +15,12 @@ source:
   caption: "#breakfast @theroost920mass 🖤💛"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2026-02-12-095600-breakfast-theroost920mass-01
+cover_image: "2026/02/12/18081255575011998.jpg"
 images:
-  - id: instagram-2026-02-12-095600-breakfast-theroost920mass-01
+  - id: "2026/02/12/18081255575011998.jpg"
     caption:
     alt:
-  - id: instagram-2026-02-12-095600-breakfast-theroost920mass-02
+  - id: "2026/02/12/17933602212175889.jpg"
     caption:
     alt:
 hashtags:

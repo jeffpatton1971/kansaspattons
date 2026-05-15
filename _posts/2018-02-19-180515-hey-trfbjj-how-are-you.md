@@ -15,9 +15,9 @@ source:
   caption: "Hey @trfbjj how are you"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-02-19-180515-hey-trfbjj-how-are-you-01
+cover_image: "2018/02/19/17925732172062600.jpg"
 images:
-  - id: instagram-2018-02-19-180515-hey-trfbjj-how-are-you-01
+  - id: "2018/02/19/17925732172062600.jpg"
     caption:
     alt:
 hashtags: []

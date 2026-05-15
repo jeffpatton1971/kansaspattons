@@ -15,9 +15,9 @@ source:
   caption: "It’s all fun and games until you get stuck in a snow drift"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-01-12-132328-it-s-all-fun-and-games-until-you-get-stuck-in-a-snow-drift-01
+cover_image: "2019/01/12/17930314741250381.jpg"
 images:
-  - id: instagram-2019-01-12-132328-it-s-all-fun-and-games-until-you-get-stuck-in-a-snow-drift-01
+  - id: "2019/01/12/17930314741250381.jpg"
     caption:
     alt:
 hashtags: []

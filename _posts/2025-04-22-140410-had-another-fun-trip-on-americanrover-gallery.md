@@ -17,36 +17,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Had another fun trip on @americanrover."
 gallery: instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover
-cover_image: instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover-01
+cover_image: "2025/04/22/17903829435150906.jpg"
 images:
-  - id: instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover-01
+  - id: "2025/04/22/17903829435150906.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover-02
+  - id: "2025/04/22/18367166320131783.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover-03
+  - id: "2025/04/22/18476774065066341.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover-04
+  - id: "2025/04/22/18273683290267957.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover-05
+  - id: "2025/04/22/18065447438313118.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover-06
+  - id: "2025/04/22/18005032730753914.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover-07
+  - id: "2025/04/22/17962316714879695.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover-08
+  - id: "2025/04/22/17899779957182250.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover-09
+  - id: "2025/04/22/18050991620520384.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover-10
+  - id: "2025/04/22/18053487917209008.jpg"
     caption:
     alt:
 related:

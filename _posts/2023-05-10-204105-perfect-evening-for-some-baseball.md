@@ -15,15 +15,15 @@ source:
   caption: "perfect evening for some #baseball"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2023-05-10-204105-perfect-evening-for-some-baseball-01
+cover_image: "2023/05/10/17992723486933272.jpg"
 images:
-  - id: instagram-2023-05-10-204105-perfect-evening-for-some-baseball-01
+  - id: "2023/05/10/17992723486933272.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-10-204105-perfect-evening-for-some-baseball-02
+  - id: "2023/05/10/17976710552077024.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-10-204105-perfect-evening-for-some-baseball-03
+  - id: "2023/05/10/17844589787983679.mp4"
     caption:
     alt:
 hashtags:

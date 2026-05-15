@@ -15,9 +15,9 @@ source:
   caption: "Here in Kansas we don’t forecast the weather we just make it up as we go!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-04-20-065908-here-in-kansas-we-don-t-forecast-the-weather-we-just-make-it-up-as-we-go-01
+cover_image: "2021/04/20/17899732873841214.jpg"
 images:
-  - id: instagram-2021-04-20-065908-here-in-kansas-we-don-t-forecast-the-weather-we-just-make-it-up-as-we-go-01
+  - id: "2021/04/20/17899732873841214.jpg"
     caption:
     alt:
 hashtags: []

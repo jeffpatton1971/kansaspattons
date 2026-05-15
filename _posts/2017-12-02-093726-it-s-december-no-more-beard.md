@@ -15,9 +15,9 @@ source:
   caption: "It's December, no more beard."
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2017-12-02-093726-it-s-december-no-more-beard-01
+cover_image: "2017/12/02/17893857046090145.jpg"
 images:
-  - id: instagram-2017-12-02-093726-it-s-december-no-more-beard-01
+  - id: "2017/12/02/17893857046090145.jpg"
     caption:
     alt:
 hashtags: []

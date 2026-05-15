@@ -15,7 +15,7 @@ source:
   caption: "Had a wonderful tour with Kyle"
   media_count: 9
   cross_post_source: "FB"
-cover_image: instagram-2024-04-24-123709-had-a-wonderful-tour-with-kyle-01
+cover_image: "2024/04/24/18012521210346971.jpg"
 related:
   - type: gallery
     id: instagram-2024-04-24-123709-had-a-wonderful-tour-with-kyle

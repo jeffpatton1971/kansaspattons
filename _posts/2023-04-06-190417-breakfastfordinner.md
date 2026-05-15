@@ -15,9 +15,9 @@ source:
   caption: "#breakfastfordinner"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-04-06-190417-breakfastfordinner-01
+cover_image: "2023/04/06/17981059949030626.jpg"
 images:
-  - id: instagram-2023-04-06-190417-breakfastfordinner-01
+  - id: "2023/04/06/17981059949030626.jpg"
     caption:
     alt:
 hashtags:

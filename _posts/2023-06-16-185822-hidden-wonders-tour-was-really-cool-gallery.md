@@ -17,36 +17,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Hidden Wonders tour was really cool."
 gallery: instagram-2023-06-16-185822-hidden-wonders-tour-was-really-cool
-cover_image: instagram-2023-06-16-185822-hidden-wonders-tour-was-really-cool-01
+cover_image: "2023/06/16/18194763751248872.jpg"
 images:
-  - id: instagram-2023-06-16-185822-hidden-wonders-tour-was-really-cool-01
+  - id: "2023/06/16/18194763751248872.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-16-185822-hidden-wonders-tour-was-really-cool-02
+  - id: "2023/06/16/18261517246159064.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-16-185822-hidden-wonders-tour-was-really-cool-03
+  - id: "2023/06/16/17997732706928436.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-16-185822-hidden-wonders-tour-was-really-cool-04
+  - id: "2023/06/16/18099728641326216.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-16-185822-hidden-wonders-tour-was-really-cool-05
+  - id: "2023/06/16/18022541287564084.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-16-185822-hidden-wonders-tour-was-really-cool-06
+  - id: "2023/06/16/17999289163761276.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-16-185822-hidden-wonders-tour-was-really-cool-07
+  - id: "2023/06/16/18088118173347594.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-16-185822-hidden-wonders-tour-was-really-cool-08
+  - id: "2023/06/16/18011652148729701.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-16-185822-hidden-wonders-tour-was-really-cool-09
+  - id: "2023/06/16/18370702816003858.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-16-185822-hidden-wonders-tour-was-really-cool-10
+  - id: "2023/06/16/18082278436363005.jpg"
     caption:
     alt:
 related:

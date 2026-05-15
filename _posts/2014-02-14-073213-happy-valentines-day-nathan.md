@@ -15,9 +15,9 @@ source:
   caption: "Happy Valentines Day Nathan!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-02-14-073213-happy-valentines-day-nathan-01
+cover_image: "2014/02/14/17842444675063547.jpg"
 images:
-  - id: instagram-2014-02-14-073213-happy-valentines-day-nathan-01
+  - id: "2014/02/14/17842444675063547.jpg"
     caption:
     alt:
 hashtags: []

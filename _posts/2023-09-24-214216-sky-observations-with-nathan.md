@@ -15,9 +15,9 @@ source:
   caption: "Sky Observations with Nathan"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-09-24-214216-sky-observations-with-nathan-01
+cover_image: "2023/09/24/18058492201454490.jpg"
 images:
-  - id: instagram-2023-09-24-214216-sky-observations-with-nathan-01
+  - id: "2023/09/24/18058492201454490.jpg"
     caption:
     alt:
 hashtags: []

@@ -15,15 +15,15 @@ source:
   caption: "Happy Thanksgiving #thanksgiving2024"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2024-11-28-170539-happy-thanksgiving-thanksgiving2024-01
+cover_image: "2024/11/28/18063859909772420.jpg"
 images:
-  - id: instagram-2024-11-28-170539-happy-thanksgiving-thanksgiving2024-01
+  - id: "2024/11/28/18063859909772420.jpg"
     caption:
     alt:
-  - id: instagram-2024-11-28-170539-happy-thanksgiving-thanksgiving2024-02
+  - id: "2024/11/28/18284822653168929.jpg"
     caption:
     alt:
-  - id: instagram-2024-11-28-170539-happy-thanksgiving-thanksgiving2024-03
+  - id: "2024/11/28/18062362090830018.jpg"
     caption:
     alt:
 hashtags:

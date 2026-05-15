@@ -15,12 +15,12 @@ source:
   caption: "#goodmorning #walkinglfk"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2025-06-17-060023-goodmorning-walkinglfk-01
+cover_image: "2025/06/17/18410166118108295.jpg"
 images:
-  - id: instagram-2025-06-17-060023-goodmorning-walkinglfk-01
+  - id: "2025/06/17/18410166118108295.jpg"
     caption:
     alt:
-  - id: instagram-2025-06-17-060023-goodmorning-walkinglfk-02
+  - id: "2025/06/17/17893478079252934.jpg"
     caption:
     alt:
 hashtags:

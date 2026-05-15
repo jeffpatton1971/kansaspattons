@@ -17,33 +17,33 @@ authors:
   - "Jeff Patton"
 summary: "9 images related to A fun little trip."
 gallery: instagram-2019-07-08-155520-a-fun-little-trip
-cover_image: instagram-2019-07-08-155520-a-fun-little-trip-01
+cover_image: "2019/07/08/17985397150258883.jpg"
 images:
-  - id: instagram-2019-07-08-155520-a-fun-little-trip-01
+  - id: "2019/07/08/17985397150258883.jpg"
     caption:
     alt:
-  - id: instagram-2019-07-08-155520-a-fun-little-trip-02
+  - id: "2019/07/08/17847214384497804.jpg"
     caption:
     alt:
-  - id: instagram-2019-07-08-155520-a-fun-little-trip-03
+  - id: "2019/07/08/18004700281234014.jpg"
     caption:
     alt:
-  - id: instagram-2019-07-08-155520-a-fun-little-trip-04
+  - id: "2019/07/08/18083695192024475.jpg"
     caption:
     alt:
-  - id: instagram-2019-07-08-155520-a-fun-little-trip-05
+  - id: "2019/07/08/18080644090037871.jpg"
     caption:
     alt:
-  - id: instagram-2019-07-08-155520-a-fun-little-trip-06
+  - id: "2019/07/08/18003118552234782.jpg"
     caption:
     alt:
-  - id: instagram-2019-07-08-155520-a-fun-little-trip-07
+  - id: "2019/07/08/18000010675246848.jpg"
     caption:
     alt:
-  - id: instagram-2019-07-08-155520-a-fun-little-trip-08
+  - id: "2019/07/08/18019189684206001.jpg"
     caption:
     alt:
-  - id: instagram-2019-07-08-155520-a-fun-little-trip-09
+  - id: "2019/07/08/17868078985424740.jpg"
     caption:
     alt:
 related:

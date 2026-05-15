@@ -15,9 +15,9 @@ source:
   caption: "#breakfastofchampions 2 egg omelette with Gouda and bacon"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-01-09-094654-breakfastofchampions-2-egg-omelette-with-gouda-and-bacon-01
+cover_image: "2021/01/09/17923034878487043.jpg"
 images:
-  - id: instagram-2021-01-09-094654-breakfastofchampions-2-egg-omelette-with-gouda-and-bacon-01
+  - id: "2021/01/09/17923034878487043.jpg"
     caption:
     alt:
 hashtags:

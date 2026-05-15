@@ -15,7 +15,7 @@ source:
   caption: "It’s Levi-oh-sah #harrypotterworld"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2025-09-12-151411-it-s-levi-oh-sah-harrypotterworld-01
+cover_image: "2025/09/12/18054229823568739.jpg"
 related:
   - type: gallery
     id: instagram-2025-09-12-151411-it-s-levi-oh-sah-harrypotterworld

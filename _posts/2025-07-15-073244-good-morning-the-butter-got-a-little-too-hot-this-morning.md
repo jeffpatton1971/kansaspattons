@@ -15,9 +15,9 @@ source:
   caption: "Good morning …the butter got a little too hot this morning"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-07-15-073244-good-morning-the-butter-got-a-little-too-hot-this-morning-01
+cover_image: "2025/07/15/17867850417410333.jpg"
 images:
-  - id: instagram-2025-07-15-073244-good-morning-the-butter-got-a-little-too-hot-this-morning-01
+  - id: "2025/07/15/17867850417410333.jpg"
     caption:
     alt:
 hashtags: []

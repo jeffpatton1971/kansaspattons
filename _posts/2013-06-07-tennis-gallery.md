@@ -20,24 +20,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Tennis."
 gallery: wordpress-2013-06-07-145354-june-7-2013-2
-cover_image: "2013-06-07-wp-20130607-026"
+cover_image: "2013/06/07/wp_20130607_026.jpg"
 images:
-  - id: "2013-06-07-wp-20130607-026"
+  - id: "2013/06/07/wp_20130607_026.jpg"
     caption:
     alt:
-  - id: "2013-06-07-wp-20130607-029"
+  - id: "2013/06/07/wp_20130607_029.jpg"
     caption:
     alt:
-  - id: "2013-06-07-wp-20130607-043"
+  - id: "2013/06/07/wp_20130607_043.jpg"
     caption:
     alt:
-  - id: "2013-06-07-wp-20130607-041"
+  - id: "2013/06/07/wp_20130607_041.jpg"
     caption:
     alt:
-  - id: "2013-06-07-wp-20130607-034"
+  - id: "2013/06/07/wp_20130607_034.jpg"
     caption:
     alt:
-  - id: "2013-06-07-wp-20130607-03820130607174229"
+  - id: "2013/06/07/wp_20130607_03820130607174229.jpg"
     caption:
     alt:
 related:

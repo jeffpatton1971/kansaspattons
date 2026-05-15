@@ -15,9 +15,9 @@ source:
   caption: "Nice family picnic"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-06-05-122014-nice-family-picnic-01
+cover_image: "2021/06/05/17975096599377200.jpg"
 images:
-  - id: instagram-2021-06-05-122014-nice-family-picnic-01
+  - id: "2021/06/05/17975096599377200.jpg"
     caption:
     alt:
 hashtags: []

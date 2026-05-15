@@ -17,21 +17,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to Wonderful dinner after a relaxing day."
 gallery: instagram-2018-05-26-192645-wonderful-dinner-after-a-relaxing-day
-cover_image: instagram-2018-05-26-192645-wonderful-dinner-after-a-relaxing-day-01
+cover_image: "2018/05/26/17921522311132849.jpg"
 images:
-  - id: instagram-2018-05-26-192645-wonderful-dinner-after-a-relaxing-day-01
+  - id: "2018/05/26/17921522311132849.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-192645-wonderful-dinner-after-a-relaxing-day-02
+  - id: "2018/05/26/17874173464243421.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-192645-wonderful-dinner-after-a-relaxing-day-03
+  - id: "2018/05/26/17924296837141380.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-192645-wonderful-dinner-after-a-relaxing-day-04
+  - id: "2018/05/26/17928710701082640.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-192645-wonderful-dinner-after-a-relaxing-day-05
+  - id: "2018/05/26/17933297983107081.mp4"
     caption:
     alt:
 related:

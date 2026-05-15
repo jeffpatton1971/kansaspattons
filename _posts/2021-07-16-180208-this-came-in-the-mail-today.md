@@ -15,9 +15,9 @@ source:
   caption: "This came in the mail today"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-07-16-180208-this-came-in-the-mail-today-01
+cover_image: "2021/07/16/17893030832123942.jpg"
 images:
-  - id: instagram-2021-07-16-180208-this-came-in-the-mail-today-01
+  - id: "2021/07/16/17893030832123942.jpg"
     caption:
     alt:
 hashtags: []

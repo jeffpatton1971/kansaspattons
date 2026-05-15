@@ -15,9 +15,9 @@ source:
   caption: "Round one done...Round two on the grill"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-08-25-180338-round-one-done-round-two-on-the-grill-01
+cover_image: "2018/08/25/17959058779109646.jpg"
 images:
-  - id: instagram-2018-08-25-180338-round-one-done-round-two-on-the-grill-01
+  - id: "2018/08/25/17959058779109646.jpg"
     caption:
     alt:
 hashtags: []

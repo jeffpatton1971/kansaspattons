@@ -18,27 +18,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to Singles and doubles #tennis."
 gallery: instagram-2025-04-03-185354-singles-and-doubles-tennis
-cover_image: instagram-2025-04-03-185354-singles-and-doubles-tennis-01
+cover_image: "2025/04/03/18050358515035672.jpg"
 images:
-  - id: instagram-2025-04-03-185354-singles-and-doubles-tennis-01
+  - id: "2025/04/03/18050358515035672.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-03-185354-singles-and-doubles-tennis-02
+  - id: "2025/04/03/18086490898537079.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-03-185354-singles-and-doubles-tennis-03
+  - id: "2025/04/03/18061135085098866.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-03-185354-singles-and-doubles-tennis-04
+  - id: "2025/04/03/18027391583391064.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-03-185354-singles-and-doubles-tennis-05
+  - id: "2025/04/03/18134358643403908.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-03-185354-singles-and-doubles-tennis-06
+  - id: "2025/04/03/18494319604040737.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-03-185354-singles-and-doubles-tennis-07
+  - id: "2025/04/03/17852965782422106.jpg"
     caption:
     alt:
 related:

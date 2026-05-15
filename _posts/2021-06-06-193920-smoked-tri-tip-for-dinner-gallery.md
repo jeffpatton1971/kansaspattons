@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Smoked Tri-Tip for dinner."
 gallery: instagram-2021-06-06-193920-smoked-tri-tip-for-dinner
-cover_image: instagram-2021-06-06-193920-smoked-tri-tip-for-dinner-01
+cover_image: "2021/06/06/17954915068450411.jpg"
 images:
-  - id: instagram-2021-06-06-193920-smoked-tri-tip-for-dinner-01
+  - id: "2021/06/06/17954915068450411.jpg"
     caption:
     alt:
-  - id: instagram-2021-06-06-193920-smoked-tri-tip-for-dinner-02
+  - id: "2021/06/06/17909080639799196.jpg"
     caption:
     alt:
-  - id: instagram-2021-06-06-193920-smoked-tri-tip-for-dinner-03
+  - id: "2021/06/06/17850274292572376.jpg"
     caption:
     alt:
-  - id: instagram-2021-06-06-193920-smoked-tri-tip-for-dinner-04
+  - id: "2021/06/06/17874826025501291.jpg"
     caption:
     alt:
 related:

@@ -15,7 +15,7 @@ source:
   caption: "#hardwork #gardening"
   media_count: 5
   cross_post_source: "FB"
-cover_image: instagram-2023-05-21-190605-hardwork-gardening-01
+cover_image: "2023/05/21/17876371733887359.jpg"
 related:
   - type: gallery
     id: instagram-2023-05-21-190605-hardwork-gardening

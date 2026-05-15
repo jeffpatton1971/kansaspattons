@@ -15,7 +15,7 @@ source:
   caption: "Has a blast watching the #harlemglobetrotters"
   media_count: 5
   cross_post_source: "FB"
-cover_image: instagram-2025-03-28-211434-has-a-blast-watching-the-harlemglobetrotters-01
+cover_image: "2025/03/28/17881761780266263.jpg"
 related:
   - type: gallery
     id: instagram-2025-03-28-211434-has-a-blast-watching-the-harlemglobetrotters

@@ -15,9 +15,9 @@ source:
   caption: "#leftovers #steakandeggs"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2022-04-23-192425-leftovers-steakandeggs-01
+cover_image: "2022/04/23/17951907889728921.jpg"
 images:
-  - id: instagram-2022-04-23-192425-leftovers-steakandeggs-01
+  - id: "2022/04/23/17951907889728921.jpg"
     caption:
     alt:
 hashtags:

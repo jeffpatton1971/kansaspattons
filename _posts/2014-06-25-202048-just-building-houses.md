@@ -15,9 +15,9 @@ source:
   caption: "Just building houses"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-06-25-202048-just-building-houses-01
+cover_image: "2014/06/25/17843317213063547.jpg"
 images:
-  - id: instagram-2014-06-25-202048-just-building-houses-01
+  - id: "2014/06/25/17843317213063547.jpg"
     caption:
     alt:
 hashtags: []

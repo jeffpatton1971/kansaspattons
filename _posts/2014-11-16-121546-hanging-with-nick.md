@@ -15,9 +15,9 @@ source:
   caption: "Hanging with Nick!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-11-16-121546-hanging-with-nick-01
+cover_image: "2014/11/16/17841791179063547.jpg"
 images:
-  - id: instagram-2014-11-16-121546-hanging-with-nick-01
+  - id: "2014/11/16/17841791179063547.jpg"
     caption:
     alt:
 hashtags: []

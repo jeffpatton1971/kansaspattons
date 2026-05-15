@@ -17,24 +17,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to watching how they make the marbles."
 gallery: instagram-2023-03-17-122441-watching-how-they-make-the-marbles
-cover_image: instagram-2023-03-17-122441-watching-how-they-make-the-marbles-01
+cover_image: "2023/03/17/18214536121174875.jpg"
 images:
-  - id: instagram-2023-03-17-122441-watching-how-they-make-the-marbles-01
+  - id: "2023/03/17/18214536121174875.jpg"
     caption:
     alt:
-  - id: instagram-2023-03-17-122441-watching-how-they-make-the-marbles-02
+  - id: "2023/03/17/18026995387485827.jpg"
     caption:
     alt:
-  - id: instagram-2023-03-17-122441-watching-how-they-make-the-marbles-03
+  - id: "2023/03/17/17907019523683796.jpg"
     caption:
     alt:
-  - id: instagram-2023-03-17-122441-watching-how-they-make-the-marbles-04
+  - id: "2023/03/17/17992851694692457.jpg"
     caption:
     alt:
-  - id: instagram-2023-03-17-122441-watching-how-they-make-the-marbles-05
+  - id: "2023/03/17/18001581322642229.jpg"
     caption:
     alt:
-  - id: instagram-2023-03-17-122441-watching-how-they-make-the-marbles-06
+  - id: "2023/03/17/17993784232773052.jpg"
     caption:
     alt:
 related:

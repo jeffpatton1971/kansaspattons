@@ -15,7 +15,7 @@ source:
   caption: "7th and 8th grade camp out"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2023-10-04-225045-7th-and-8th-grade-camp-out-01
+cover_image: "2023/10/04/17981872601291478.jpg"
 related:
   - type: gallery
     id: instagram-2023-10-04-225045-7th-and-8th-grade-camp-out

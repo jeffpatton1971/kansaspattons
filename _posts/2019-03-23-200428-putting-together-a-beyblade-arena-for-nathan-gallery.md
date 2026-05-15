@@ -19,24 +19,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Putting together a beyblade arena for Nathan."
 gallery: instagram-2019-03-23-200428-putting-together-a-beyblade-arena-for-nathan
-cover_image: instagram-2019-03-23-200428-putting-together-a-beyblade-arena-for-nathan-01
+cover_image: "2019/03/23/17930391463301658.jpg"
 images:
-  - id: instagram-2019-03-23-200428-putting-together-a-beyblade-arena-for-nathan-01
+  - id: "2019/03/23/17930391463301658.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-23-200428-putting-together-a-beyblade-arena-for-nathan-02
+  - id: "2019/03/23/18049426045050226.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-23-200428-putting-together-a-beyblade-arena-for-nathan-03
+  - id: "2019/03/23/17842817923399318.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-23-200428-putting-together-a-beyblade-arena-for-nathan-04
+  - id: "2019/03/23/17843360860396625.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-23-200428-putting-together-a-beyblade-arena-for-nathan-05
+  - id: "2019/03/23/17971427170236485.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-23-200428-putting-together-a-beyblade-arena-for-nathan-06
+  - id: "2019/03/23/18051265021022530.jpg"
     caption:
     alt:
 related:

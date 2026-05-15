@@ -15,7 +15,7 @@ source:
   caption: "New Year’s Eve Dinner 🖤💛"
   media_count: 5
   cross_post_source: "FB"
-cover_image: instagram-2025-12-31-185207-new-year-s-eve-dinner-01
+cover_image: "2025/12/31/18149106754435022.jpg"
 related:
   - type: gallery
     id: instagram-2025-12-31-185207-new-year-s-eve-dinner

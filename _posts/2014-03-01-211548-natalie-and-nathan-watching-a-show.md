@@ -15,9 +15,9 @@ source:
   caption: "Natalie and Nathan watching a show"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-03-01-211548-natalie-and-nathan-watching-a-show-01
+cover_image: "2014/03/01/17842452688063547.jpg"
 images:
-  - id: instagram-2014-03-01-211548-natalie-and-nathan-watching-a-show-01
+  - id: "2014/03/01/17842452688063547.jpg"
     caption:
     alt:
 hashtags: []

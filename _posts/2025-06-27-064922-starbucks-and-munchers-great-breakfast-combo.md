@@ -15,9 +15,9 @@ source:
   caption: "#starbucks and #munchers great breakfast combo"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-06-27-064922-starbucks-and-munchers-great-breakfast-combo-01
+cover_image: "2025/06/27/18068409977102299.jpg"
 images:
-  - id: instagram-2025-06-27-064922-starbucks-and-munchers-great-breakfast-combo-01
+  - id: "2025/06/27/18068409977102299.jpg"
     caption:
     alt:
 hashtags:

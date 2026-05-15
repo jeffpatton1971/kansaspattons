@@ -17,36 +17,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to first stop of the day @nationalwwimuseum glad i finally got to visit."
 gallery: instagram-2022-11-15-122940-first-stop-of-the-day-nationalwwimuseum-glad-i-finally-got-to-visit
-cover_image: instagram-2022-11-15-122940-first-stop-of-the-day-nationalwwimuseum-glad-i-finally-got-to-visit-01
+cover_image: "2022/11/15/17977900480837702.jpg"
 images:
-  - id: instagram-2022-11-15-122940-first-stop-of-the-day-nationalwwimuseum-glad-i-finally-got-to-visit-01
+  - id: "2022/11/15/17977900480837702.jpg"
     caption:
     alt:
-  - id: instagram-2022-11-15-122940-first-stop-of-the-day-nationalwwimuseum-glad-i-finally-got-to-visit-02
+  - id: "2022/11/15/17952890552476848.jpg"
     caption:
     alt:
-  - id: instagram-2022-11-15-122940-first-stop-of-the-day-nationalwwimuseum-glad-i-finally-got-to-visit-03
+  - id: "2022/11/15/18264906295128825.jpg"
     caption:
     alt:
-  - id: instagram-2022-11-15-122940-first-stop-of-the-day-nationalwwimuseum-glad-i-finally-got-to-visit-04
+  - id: "2022/11/15/17899406639687776.jpg"
     caption:
     alt:
-  - id: instagram-2022-11-15-122940-first-stop-of-the-day-nationalwwimuseum-glad-i-finally-got-to-visit-05
+  - id: "2022/11/15/17933890817401003.jpg"
     caption:
     alt:
-  - id: instagram-2022-11-15-122940-first-stop-of-the-day-nationalwwimuseum-glad-i-finally-got-to-visit-06
+  - id: "2022/11/15/17986374511638676.jpg"
     caption:
     alt:
-  - id: instagram-2022-11-15-122940-first-stop-of-the-day-nationalwwimuseum-glad-i-finally-got-to-visit-07
+  - id: "2022/11/15/17844614066878000.jpg"
     caption:
     alt:
-  - id: instagram-2022-11-15-122940-first-stop-of-the-day-nationalwwimuseum-glad-i-finally-got-to-visit-08
+  - id: "2022/11/15/18137477980303422.jpg"
     caption:
     alt:
-  - id: instagram-2022-11-15-122940-first-stop-of-the-day-nationalwwimuseum-glad-i-finally-got-to-visit-09
+  - id: "2022/11/15/17972816584822609.jpg"
     caption:
     alt:
-  - id: instagram-2022-11-15-122940-first-stop-of-the-day-nationalwwimuseum-glad-i-finally-got-to-visit-10
+  - id: "2022/11/15/17867268554802243.jpg"
     caption:
     alt:
 related:

@@ -15,7 +15,7 @@ source:
   caption: "Natalie won both her sets 8-3 and 8-1!"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2018-10-01-165914-natalie-won-both-her-sets-8-3-and-8-1-01
+cover_image: "2018/10/01/17985107917012124.jpg"
 related:
   - type: gallery
     id: instagram-2018-10-01-165914-natalie-won-both-her-sets-8-3-and-8-1

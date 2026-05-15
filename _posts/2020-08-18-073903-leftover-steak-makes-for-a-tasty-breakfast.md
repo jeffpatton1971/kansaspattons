@@ -15,9 +15,9 @@ source:
   caption: "Leftover steak makes for a tasty breakfast"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2020-08-18-073903-leftover-steak-makes-for-a-tasty-breakfast-01
+cover_image: "2020/08/18/17860563575089847.jpg"
 images:
-  - id: instagram-2020-08-18-073903-leftover-steak-makes-for-a-tasty-breakfast-01
+  - id: "2020/08/18/17860563575089847.jpg"
     caption:
     alt:
 hashtags: []

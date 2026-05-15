@@ -15,9 +15,9 @@ source:
   caption: "These two have been playing together since first grade. ❤️ these two"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-05-06-164113-these-two-have-been-playing-together-since-first-grade-these-two-01
+cover_image: "2018/05/06/17943079462049076.jpg"
 images:
-  - id: instagram-2018-05-06-164113-these-two-have-been-playing-together-since-first-grade-these-two-01
+  - id: "2018/05/06/17943079462049076.jpg"
     caption:
     alt:
 hashtags: []

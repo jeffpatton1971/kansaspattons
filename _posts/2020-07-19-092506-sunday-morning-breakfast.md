@@ -15,9 +15,9 @@ source:
   caption: "Sunday morning breakfast"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2020-07-19-092506-sunday-morning-breakfast-01
+cover_image: "2020/07/19/17880175897725639.jpg"
 images:
-  - id: instagram-2020-07-19-092506-sunday-morning-breakfast-01
+  - id: "2020/07/19/17880175897725639.jpg"
     caption:
     alt:
 hashtags: []

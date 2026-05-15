@@ -19,33 +19,33 @@ authors:
   - "Jeff Patton"
 summary: "9 images related to If you made it to the end congrats and happy thanksgiving."
 gallery: instagram-2021-11-25-181906-if-you-made-it-to-the-end-congrats-and-happy-thanksgiving
-cover_image: instagram-2021-11-25-181906-if-you-made-it-to-the-end-congrats-and-happy-thanksgiving-01
+cover_image: "2021/11/25/18027849454323586.jpg"
 images:
-  - id: instagram-2021-11-25-181906-if-you-made-it-to-the-end-congrats-and-happy-thanksgiving-01
+  - id: "2021/11/25/18027849454323586.jpg"
     caption:
     alt:
-  - id: instagram-2021-11-25-181906-if-you-made-it-to-the-end-congrats-and-happy-thanksgiving-02
+  - id: "2021/11/25/17909249873271516.jpg"
     caption:
     alt:
-  - id: instagram-2021-11-25-181906-if-you-made-it-to-the-end-congrats-and-happy-thanksgiving-03
+  - id: "2021/11/25/17940624418681114.jpg"
     caption:
     alt:
-  - id: instagram-2021-11-25-181906-if-you-made-it-to-the-end-congrats-and-happy-thanksgiving-04
+  - id: "2021/11/25/17897757011429364.jpg"
     caption:
     alt:
-  - id: instagram-2021-11-25-181906-if-you-made-it-to-the-end-congrats-and-happy-thanksgiving-05
+  - id: "2021/11/25/17873245220547855.jpg"
     caption:
     alt:
-  - id: instagram-2021-11-25-181906-if-you-made-it-to-the-end-congrats-and-happy-thanksgiving-06
+  - id: "2021/11/25/18179043772083093.jpg"
     caption:
     alt:
-  - id: instagram-2021-11-25-181906-if-you-made-it-to-the-end-congrats-and-happy-thanksgiving-07
+  - id: "2021/11/25/17945392054620242.jpg"
     caption:
     alt:
-  - id: instagram-2021-11-25-181906-if-you-made-it-to-the-end-congrats-and-happy-thanksgiving-08
+  - id: "2021/11/25/18265375963057087.jpg"
     caption:
     alt:
-  - id: instagram-2021-11-25-181906-if-you-made-it-to-the-end-congrats-and-happy-thanksgiving-09
+  - id: "2021/11/25/17919948659041718.jpg"
     caption:
     alt:
 related:

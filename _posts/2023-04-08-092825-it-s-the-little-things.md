@@ -15,9 +15,9 @@ source:
   caption: "It’s the little things"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-04-08-092825-it-s-the-little-things-01
+cover_image: "2023/04/08/18010747756599781.jpg"
 images:
-  - id: instagram-2023-04-08-092825-it-s-the-little-things-01
+  - id: "2023/04/08/18010747756599781.jpg"
     caption:
     alt:
 hashtags: []

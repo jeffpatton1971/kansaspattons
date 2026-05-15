@@ -15,9 +15,9 @@ source:
   caption: "Hashbrowns, omelet with mango habanero salsa and havarti cheese with coffee #breakfast"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-07-04-105617-hashbrowns-omelet-with-mango-habanero-salsa-and-havarti-cheese-with-coffee-01
+cover_image: "2021/07/04/17945244733474833.jpg"
 images:
-  - id: instagram-2021-07-04-105617-hashbrowns-omelet-with-mango-habanero-salsa-and-havarti-cheese-with-coffee-01
+  - id: "2021/07/04/17945244733474833.jpg"
     caption:
     alt:
 hashtags:

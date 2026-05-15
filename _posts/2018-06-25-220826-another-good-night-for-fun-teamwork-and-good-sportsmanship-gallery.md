@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Another good night for fun, teamwork and good sportsmanship."
 gallery: instagram-2018-06-25-220826-another-good-night-for-fun-teamwork-and-good-sportsmanship
-cover_image: instagram-2018-06-25-220826-another-good-night-for-fun-teamwork-and-good-sportsmanship-01
+cover_image: "2018/06/25/17914184179199891.jpg"
 images:
-  - id: instagram-2018-06-25-220826-another-good-night-for-fun-teamwork-and-good-sportsmanship-01
+  - id: "2018/06/25/17914184179199891.jpg"
     caption:
     alt:
-  - id: instagram-2018-06-25-220826-another-good-night-for-fun-teamwork-and-good-sportsmanship-02
+  - id: "2018/06/25/17957107864029711.jpg"
     caption:
     alt:
-  - id: instagram-2018-06-25-220826-another-good-night-for-fun-teamwork-and-good-sportsmanship-03
+  - id: "2018/06/25/17948148214073260.jpg"
     caption:
     alt:
-  - id: instagram-2018-06-25-220826-another-good-night-for-fun-teamwork-and-good-sportsmanship-04
+  - id: "2018/06/25/17914781776199755.jpg"
     caption:
     alt:
 related:

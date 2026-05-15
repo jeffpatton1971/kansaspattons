@@ -15,7 +15,7 @@ source:
   caption: "#happybirthday to my uncle"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2025-03-08-174500-happybirthday-to-my-uncle-01
+cover_image: "2025/03/08/17957717180881243.jpg"
 related:
   - type: gallery
     id: instagram-2025-03-08-174500-happybirthday-to-my-uncle

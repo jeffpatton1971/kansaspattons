@@ -17,27 +17,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to @jonyceru took me to @ikeausa for the first time!."
 gallery: instagram-2025-04-12-170026-jonyceru-took-me-to-ikeausa-for-the-first-time
-cover_image: instagram-2025-04-12-170026-jonyceru-took-me-to-ikeausa-for-the-first-time-01
+cover_image: "2025/04/12/18324245299167052.jpg"
 images:
-  - id: instagram-2025-04-12-170026-jonyceru-took-me-to-ikeausa-for-the-first-time-01
+  - id: "2025/04/12/18324245299167052.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-12-170026-jonyceru-took-me-to-ikeausa-for-the-first-time-02
+  - id: "2025/04/12/17938010588878379.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-12-170026-jonyceru-took-me-to-ikeausa-for-the-first-time-03
+  - id: "2025/04/12/18032647877337109.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-12-170026-jonyceru-took-me-to-ikeausa-for-the-first-time-04
+  - id: "2025/04/12/17850606093399153.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-12-170026-jonyceru-took-me-to-ikeausa-for-the-first-time-05
+  - id: "2025/04/12/18092870455503791.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-12-170026-jonyceru-took-me-to-ikeausa-for-the-first-time-06
+  - id: "2025/04/12/18325983193161600.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-12-170026-jonyceru-took-me-to-ikeausa-for-the-first-time-07
+  - id: "2025/04/12/18342131377156309.jpg"
     caption:
     alt:
 related:

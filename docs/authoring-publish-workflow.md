@@ -150,6 +150,43 @@ The publish action should:
 10. Remove local image files from the repo after a successful upload and rewrite.
 11. Build generated JSON from the canonical Markdown.
 
+## Existing Content Canonicalization
+
+Existing migrated content can be canonicalized with the image reference migration tool.
+
+Dry run:
+
+```powershell
+npm run images:canonicalize
+```
+
+Write Markdown changes:
+
+```powershell
+npm run images:canonicalize:write
+```
+
+The tool:
+
+- Builds a map from legacy `_gallery` image IDs to canonical `yyyy/mm/dd/filename.ext` media keys.
+- Rewrites `_posts` frontmatter fields such as `cover_image` and `images[].id`.
+- Writes `.tmp/image-canonicalization-report.json`.
+- Reports missing references.
+- Reports canonical path collisions.
+- Refuses to write if canonical collisions exist.
+
+After write mode, run a manual full rebuild:
+
+```powershell
+npm run build
+```
+
+The compiler then emits canonical image IDs, canonical raw/thumb URLs, and image routes shaped like:
+
+```text
+/images/yyyy/mm/dd/filename.ext
+```
+
 ## Collision Policy
 
 Filename collisions are acceptable during draft authoring because filenames are scoped at publish time.

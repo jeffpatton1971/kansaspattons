@@ -15,7 +15,7 @@ source:
   caption: "Some Laser Taylor Swift fun"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2024-03-12-200054-some-laser-taylor-swift-fun-01
+cover_image: "2024/03/12/18253412380240199.jpg"
 related:
   - type: gallery
     id: instagram-2024-03-12-200054-some-laser-taylor-swift-fun

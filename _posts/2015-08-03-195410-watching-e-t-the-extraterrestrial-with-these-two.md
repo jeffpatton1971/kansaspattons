@@ -15,9 +15,9 @@ source:
   caption: "Watching E.T. The Extraterrestrial with these two"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2015-08-03-195410-watching-e-t-the-extraterrestrial-with-these-two-01
+cover_image: "2015/08/03/17842091824063547.jpg"
 images:
-  - id: instagram-2015-08-03-195410-watching-e-t-the-extraterrestrial-with-these-two-01
+  - id: "2015/08/03/17842091824063547.jpg"
     caption:
     alt:
 hashtags: []

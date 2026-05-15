@@ -15,9 +15,9 @@ source:
   caption: "Natalie just finished working on this one"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-05-31-193410-natalie-just-finished-working-on-this-one-01
+cover_image: "2021/05/31/17919263473672999.jpg"
 images:
-  - id: instagram-2021-05-31-193410-natalie-just-finished-working-on-this-one-01
+  - id: "2021/05/31/17919263473672999.jpg"
     caption:
     alt:
 hashtags: []

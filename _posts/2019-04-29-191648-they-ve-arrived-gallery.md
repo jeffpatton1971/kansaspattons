@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to They’ve arrived."
 gallery: instagram-2019-04-29-191648-they-ve-arrived
-cover_image: instagram-2019-04-29-191648-they-ve-arrived-01
+cover_image: "2019/04/29/18041932426117897.jpg"
 images:
-  - id: instagram-2019-04-29-191648-they-ve-arrived-01
+  - id: "2019/04/29/18041932426117897.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-29-191648-they-ve-arrived-02
+  - id: "2019/04/29/18060816496048635.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-29-191648-they-ve-arrived-03
+  - id: "2019/04/29/17983881574238979.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-29-191648-they-ve-arrived-04
+  - id: "2019/04/29/17848415992423905.jpg"
     caption:
     alt:
 related:

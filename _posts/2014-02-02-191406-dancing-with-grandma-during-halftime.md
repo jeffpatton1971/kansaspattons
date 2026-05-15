@@ -15,9 +15,9 @@ source:
   caption: "Dancing with Grandma during halftime"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-02-02-191406-dancing-with-grandma-during-halftime-01
+cover_image: "2014/02/02/17842439140063547.jpg"
 images:
-  - id: instagram-2014-02-02-191406-dancing-with-grandma-during-halftime-01
+  - id: "2014/02/02/17842439140063547.jpg"
     caption:
     alt:
 hashtags: []

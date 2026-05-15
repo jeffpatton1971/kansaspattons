@@ -15,9 +15,9 @@ source:
   caption: "my view this morning at 3a"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-09-20-074530-my-view-this-morning-at-3a-01
+cover_image: "2023/09/20/17987139593368268.jpg"
 images:
-  - id: instagram-2023-09-20-074530-my-view-this-morning-at-3a-01
+  - id: "2023/09/20/17987139593368268.jpg"
     caption:
     alt:
 hashtags: []

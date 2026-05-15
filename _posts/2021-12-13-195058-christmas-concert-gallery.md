@@ -19,18 +19,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Christmas Concert."
 gallery: instagram-2021-12-13-195058-christmas-concert
-cover_image: instagram-2021-12-13-195058-christmas-concert-01
+cover_image: "2021/12/13/17999223682391275.jpg"
 images:
-  - id: instagram-2021-12-13-195058-christmas-concert-01
+  - id: "2021/12/13/17999223682391275.jpg"
     caption:
     alt:
-  - id: instagram-2021-12-13-195058-christmas-concert-02
+  - id: "2021/12/13/17913886733294117.jpg"
     caption:
     alt:
-  - id: instagram-2021-12-13-195058-christmas-concert-03
+  - id: "2021/12/13/18157519807172363.jpg"
     caption:
     alt:
-  - id: instagram-2021-12-13-195058-christmas-concert-04
+  - id: "2021/12/13/17866255316633592.jpg"
     caption:
     alt:
 related:

@@ -17,27 +17,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to Bobble heads ❤️."
 gallery: instagram-2026-03-28-144847-bobble-heads
-cover_image: instagram-2026-03-28-144847-bobble-heads-01
+cover_image: "2026/03/28/18109208275695694.jpg"
 images:
-  - id: instagram-2026-03-28-144847-bobble-heads-01
+  - id: "2026/03/28/18109208275695694.jpg"
     caption:
     alt:
-  - id: instagram-2026-03-28-144847-bobble-heads-02
+  - id: "2026/03/28/18115528819598028.jpg"
     caption:
     alt:
-  - id: instagram-2026-03-28-144847-bobble-heads-03
+  - id: "2026/03/28/17906790582379722.jpg"
     caption:
     alt:
-  - id: instagram-2026-03-28-144847-bobble-heads-04
+  - id: "2026/03/28/18127791862563490.jpg"
     caption:
     alt:
-  - id: instagram-2026-03-28-144847-bobble-heads-05
+  - id: "2026/03/28/17872744212570979.jpg"
     caption:
     alt:
-  - id: instagram-2026-03-28-144847-bobble-heads-06
+  - id: "2026/03/28/17893399128431405.jpg"
     caption:
     alt:
-  - id: instagram-2026-03-28-144847-bobble-heads-07
+  - id: "2026/03/28/18116652631726108.jpg"
     caption:
     alt:
 related:

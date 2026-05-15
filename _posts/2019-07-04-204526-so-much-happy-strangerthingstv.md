@@ -15,9 +15,9 @@ source:
   caption: "So much happy! @strangerthingstv"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-07-04-204526-so-much-happy-strangerthingstv-01
+cover_image: "2019/07/04/18082725328042022.jpg"
 images:
-  - id: instagram-2019-07-04-204526-so-much-happy-strangerthingstv-01
+  - id: "2019/07/04/18082725328042022.jpg"
     caption:
     alt:
 hashtags: []

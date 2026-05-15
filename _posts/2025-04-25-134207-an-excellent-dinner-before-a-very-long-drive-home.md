@@ -15,9 +15,9 @@ source:
   caption: "An excellent dinner before a very long drive home"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-04-25-134207-an-excellent-dinner-before-a-very-long-drive-home-01
+cover_image: "2025/04/25/18052378808029238.jpg"
 images:
-  - id: instagram-2025-04-25-134207-an-excellent-dinner-before-a-very-long-drive-home-01
+  - id: "2025/04/25/18052378808029238.jpg"
     caption:
     alt:
 hashtags: []

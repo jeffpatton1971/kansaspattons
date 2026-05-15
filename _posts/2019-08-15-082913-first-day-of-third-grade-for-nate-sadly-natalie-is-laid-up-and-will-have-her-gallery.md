@@ -20,18 +20,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to First day of third grade for Nate! Sadly Natalie is laid up and will have her first day to...."
 gallery: instagram-2019-08-15-082913-first-day-of-third-grade-for-nate-sadly-natalie-is-laid-up-and-will-have-her
-cover_image: instagram-2019-08-15-082913-first-day-of-third-grade-for-nate-sadly-natalie-is-laid-up-and-will-have-her-01
+cover_image: "2019/08/15/18090958213023183.jpg"
 images:
-  - id: instagram-2019-08-15-082913-first-day-of-third-grade-for-nate-sadly-natalie-is-laid-up-and-will-have-her-01
+  - id: "2019/08/15/18090958213023183.jpg"
     caption:
     alt:
-  - id: instagram-2019-08-15-082913-first-day-of-third-grade-for-nate-sadly-natalie-is-laid-up-and-will-have-her-02
+  - id: "2019/08/15/17857906930496363.jpg"
     caption:
     alt:
-  - id: instagram-2019-08-15-082913-first-day-of-third-grade-for-nate-sadly-natalie-is-laid-up-and-will-have-her-03
+  - id: "2019/08/15/17888256988391191.jpg"
     caption:
     alt:
-  - id: instagram-2019-08-15-082913-first-day-of-third-grade-for-nate-sadly-natalie-is-laid-up-and-will-have-her-04
+  - id: "2019/08/15/17881128562406706.jpg"
     caption:
     alt:
 related:

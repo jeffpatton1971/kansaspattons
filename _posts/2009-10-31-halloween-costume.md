@@ -7,15 +7,15 @@ post_id:         2009-10-31-halloween-costume
 date:       2009-10-31 08:55:00 -0600
 source:
   type: wordpress
-cover_image: "2009-10-31-img58893"
+cover_image: "2009/10/31/img58893.jpg"
 images:
-  - id: "2009-10-31-img58893"
+  - id: "2009/10/31/img58893.jpg"
     caption:
     alt:
-  - id: "2009-10-31-img58913"
+  - id: "2009/10/31/img58913.jpg"
     caption:
     alt:
-  - id: "2009-10-31-img58943"
+  - id: "2009/10/31/img58943.jpg"
     caption:
     alt:
 categories:

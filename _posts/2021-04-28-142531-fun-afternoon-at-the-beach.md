@@ -15,7 +15,7 @@ source:
   caption: "Fun afternoon at the beach"
   media_count: 9
   cross_post_source: "FB"
-cover_image: instagram-2021-04-28-142531-fun-afternoon-at-the-beach-01
+cover_image: "2021/04/28/17873327870382253.jpg"
 related:
   - type: gallery
     id: instagram-2021-04-28-142531-fun-afternoon-at-the-beach

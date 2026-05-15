@@ -15,9 +15,9 @@ source:
   caption: "Time for a quick nap"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2022-04-17-143031-time-for-a-quick-nap-01
+cover_image: "2022/04/17/17960089924715839.jpg"
 images:
-  - id: instagram-2022-04-17-143031-time-for-a-quick-nap-01
+  - id: "2022/04/17/17960089924715839.jpg"
     caption:
     alt:
 hashtags: []

@@ -17,24 +17,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to A little hiking."
 gallery: instagram-2022-04-26-162755-a-little-hiking
-cover_image: instagram-2022-04-26-162755-a-little-hiking-01
+cover_image: "2022/04/26/17919719606459640.jpg"
 images:
-  - id: instagram-2022-04-26-162755-a-little-hiking-01
+  - id: "2022/04/26/17919719606459640.jpg"
     caption:
     alt:
-  - id: instagram-2022-04-26-162755-a-little-hiking-02
+  - id: "2022/04/26/17928520436100341.jpg"
     caption:
     alt:
-  - id: instagram-2022-04-26-162755-a-little-hiking-03
+  - id: "2022/04/26/18289778956031717.jpg"
     caption:
     alt:
-  - id: instagram-2022-04-26-162755-a-little-hiking-04
+  - id: "2022/04/26/18226188895184106.jpg"
     caption:
     alt:
-  - id: instagram-2022-04-26-162755-a-little-hiking-05
+  - id: "2022/04/26/17952119569839259.jpg"
     caption:
     alt:
-  - id: instagram-2022-04-26-162755-a-little-hiking-06
+  - id: "2022/04/26/18208275055149845.jpg"
     caption:
     alt:
 related:

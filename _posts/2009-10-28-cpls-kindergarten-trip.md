@@ -7,7 +7,7 @@ post_id:         2009-10-28-cpls-kindergarten-trip
 date:       2009-10-28 09:55:00 -0600
 source:
   type: wordpress
-cover_image: "2009-10-28-photo00412"
+cover_image: "2009/10/28/photo00412.jpg"
 related:
   - type: gallery
     id: gallery-2009-10-28

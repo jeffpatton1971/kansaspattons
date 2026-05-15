@@ -19,27 +19,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to Happy Easter everyone. Easter dinner is Prime Rib, first time I’ve smoked this... I starte...."
 gallery: instagram-2021-04-04-134852-happy-easter-everyone-easter-dinner-is-prime-rib-first-time-i-ve-smoked-this-i
-cover_image: instagram-2021-04-04-134852-happy-easter-everyone-easter-dinner-is-prime-rib-first-time-i-ve-smoked-this-i-01
+cover_image: "2021/04/04/17918950705613075.jpg"
 images:
-  - id: instagram-2021-04-04-134852-happy-easter-everyone-easter-dinner-is-prime-rib-first-time-i-ve-smoked-this-i-01
+  - id: "2021/04/04/17918950705613075.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-04-134852-happy-easter-everyone-easter-dinner-is-prime-rib-first-time-i-ve-smoked-this-i-02
+  - id: "2021/04/04/18067924426273157.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-04-134852-happy-easter-everyone-easter-dinner-is-prime-rib-first-time-i-ve-smoked-this-i-03
+  - id: "2021/04/04/17865063932386150.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-04-134852-happy-easter-everyone-easter-dinner-is-prime-rib-first-time-i-ve-smoked-this-i-04
+  - id: "2021/04/04/18106438591228884.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-04-134852-happy-easter-everyone-easter-dinner-is-prime-rib-first-time-i-ve-smoked-this-i-05
+  - id: "2021/04/04/17955096901423522.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-04-134852-happy-easter-everyone-easter-dinner-is-prime-rib-first-time-i-ve-smoked-this-i-06
+  - id: "2021/04/04/17843019851575854.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-04-134852-happy-easter-everyone-easter-dinner-is-prime-rib-first-time-i-ve-smoked-this-i-07
+  - id: "2021/04/04/17920888774604680.jpg"
     caption:
     alt:
 related:

@@ -15,9 +15,9 @@ source:
   caption: "Did you #vote? I just did!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-11-06-151415-did-you-vote-i-just-did-01
+cover_image: "2018/11/06/17974810390094497.jpg"
 images:
-  - id: instagram-2018-11-06-151415-did-you-vote-i-just-did-01
+  - id: "2018/11/06/17974810390094497.jpg"
     caption:
     alt:
 hashtags:

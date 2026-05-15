@@ -15,7 +15,7 @@ source:
   caption: "A nice little wine tasting with my aunt and uncle and sister"
   media_count: 8
   cross_post_source: "FB"
-cover_image: instagram-2025-07-18-173439-a-nice-little-wine-tasting-with-my-aunt-and-uncle-and-sister-01
+cover_image: "2025/07/18/18008646719784037.jpg"
 related:
   - type: gallery
     id: instagram-2025-07-18-173439-a-nice-little-wine-tasting-with-my-aunt-and-uncle-and-sister

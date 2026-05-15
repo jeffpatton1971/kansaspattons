@@ -15,9 +15,9 @@ source:
   caption: "Great scrimmage, Nathan did great"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2017-03-26-174425-great-scrimmage-nathan-did-great-01
+cover_image: "2017/03/26/17876402425060417.jpg"
 images:
-  - id: instagram-2017-03-26-174425-great-scrimmage-nathan-did-great-01
+  - id: "2017/03/26/17876402425060417.jpg"
     caption:
     alt:
 hashtags: []

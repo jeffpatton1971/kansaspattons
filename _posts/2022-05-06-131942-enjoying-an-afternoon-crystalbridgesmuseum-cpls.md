@@ -15,7 +15,7 @@ source:
   caption: "Enjoying an afternoon @crystalbridgesmuseum #cpls"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2022-05-06-131942-enjoying-an-afternoon-crystalbridgesmuseum-cpls-01
+cover_image: "2022/05/06/18229237762117414.jpg"
 related:
   - type: gallery
     id: instagram-2022-05-06-131942-enjoying-an-afternoon-crystalbridgesmuseum-cpls

@@ -15,7 +15,7 @@ source:
   caption: "Another great day for Owls baseball"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2019-04-20-140116-another-great-day-for-owls-baseball-01
+cover_image: "2019/04/20/17992788052214381.jpg"
 related:
   - type: gallery
     id: instagram-2019-04-20-140116-another-great-day-for-owls-baseball

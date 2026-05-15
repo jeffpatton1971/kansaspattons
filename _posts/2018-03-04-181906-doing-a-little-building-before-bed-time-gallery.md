@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Doing a little building before bed time."
 gallery: instagram-2018-03-04-181906-doing-a-little-building-before-bed-time
-cover_image: instagram-2018-03-04-181906-doing-a-little-building-before-bed-time-01
+cover_image: "2018/03/04/17899679407161498.jpg"
 images:
-  - id: instagram-2018-03-04-181906-doing-a-little-building-before-bed-time-01
+  - id: "2018/03/04/17899679407161498.jpg"
     caption:
     alt:
-  - id: instagram-2018-03-04-181906-doing-a-little-building-before-bed-time-02
+  - id: "2018/03/04/17927666140027495.jpg"
     caption:
     alt:
-  - id: instagram-2018-03-04-181906-doing-a-little-building-before-bed-time-03
+  - id: "2018/03/04/17920981276075253.jpg"
     caption:
     alt:
-  - id: instagram-2018-03-04-181906-doing-a-little-building-before-bed-time-04
+  - id: "2018/03/04/17929205251050534.jpg"
     caption:
     alt:
 related:

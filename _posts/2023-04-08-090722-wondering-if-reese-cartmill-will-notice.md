@@ -15,9 +15,9 @@ source:
   caption: "Wondering if @reese.cartmill will notice"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-04-08-090722-wondering-if-reese-cartmill-will-notice-01
+cover_image: "2023/04/08/18008587012608845.jpg"
 images:
-  - id: instagram-2023-04-08-090722-wondering-if-reese-cartmill-will-notice-01
+  - id: "2023/04/08/18008587012608845.jpg"
     caption:
     alt:
 hashtags: []

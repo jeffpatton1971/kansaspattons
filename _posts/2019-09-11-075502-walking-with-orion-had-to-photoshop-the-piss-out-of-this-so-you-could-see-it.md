@@ -15,9 +15,9 @@ source:
   caption: "Walking with Orion...had to photoshop the piss out of this so you could see it"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-09-11-075502-walking-with-orion-had-to-photoshop-the-piss-out-of-this-so-you-could-see-it-01
+cover_image: "2019/09/11/18019768948234141.jpg"
 images:
-  - id: instagram-2019-09-11-075502-walking-with-orion-had-to-photoshop-the-piss-out-of-this-so-you-could-see-it-01
+  - id: "2019/09/11/18019768948234141.jpg"
     caption:
     alt:
 hashtags: []

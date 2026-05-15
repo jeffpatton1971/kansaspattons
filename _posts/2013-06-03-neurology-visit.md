@@ -12,15 +12,15 @@ source:
   type: wordpress
   id: 615
   url: "https://jeffspatton.wordpress.com/2013/06/03/june-3-2013/"
-cover_image: "2013-06-03-wp-20130603-002"
+cover_image: "2013/06/03/wp_20130603_002.jpg"
 images:
-  - id: "2013-06-03-wp-20130603-002"
+  - id: "2013/06/03/wp_20130603_002.jpg"
     caption:
     alt:
-  - id: "2013-06-03-wp-20130603-003"
+  - id: "2013/06/03/wp_20130603_003.jpg"
     caption:
     alt:
-  - id: "2013-06-03-wp-20130603-004"
+  - id: "2013/06/03/wp_20130603_004.jpg"
     caption:
     alt:
 categories:

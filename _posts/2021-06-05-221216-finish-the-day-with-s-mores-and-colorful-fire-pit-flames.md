@@ -15,15 +15,15 @@ source:
   caption: "Finish the day with s’mores and colorful fire pit flames"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2021-06-05-221216-finish-the-day-with-s-mores-and-colorful-fire-pit-flames-01
+cover_image: "2021/06/05/17914956910749928.jpg"
 images:
-  - id: instagram-2021-06-05-221216-finish-the-day-with-s-mores-and-colorful-fire-pit-flames-01
+  - id: "2021/06/05/17914956910749928.jpg"
     caption:
     alt:
-  - id: instagram-2021-06-05-221216-finish-the-day-with-s-mores-and-colorful-fire-pit-flames-02
+  - id: "2021/06/05/17859180773544267.jpg"
     caption:
     alt:
-  - id: instagram-2021-06-05-221216-finish-the-day-with-s-mores-and-colorful-fire-pit-flames-03
+  - id: "2021/06/05/17874288575503278.jpg"
     caption:
     alt:
 hashtags: []

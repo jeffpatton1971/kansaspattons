@@ -17,36 +17,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to 8th grade Accolade."
 gallery: instagram-2018-05-26-110501-8th-grade-accolade
-cover_image: instagram-2018-05-26-110501-8th-grade-accolade-01
+cover_image: "2018/05/26/17933724226100282.jpg"
 images:
-  - id: instagram-2018-05-26-110501-8th-grade-accolade-01
+  - id: "2018/05/26/17933724226100282.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110501-8th-grade-accolade-02
+  - id: "2018/05/26/17947300339038397.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110501-8th-grade-accolade-03
+  - id: "2018/05/26/17887239295213319.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110501-8th-grade-accolade-04
+  - id: "2018/05/26/17874682822237633.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110501-8th-grade-accolade-05
+  - id: "2018/05/26/17933641258102413.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110501-8th-grade-accolade-06
+  - id: "2018/05/26/17858586340254920.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110501-8th-grade-accolade-07
+  - id: "2018/05/26/17928292690089030.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110501-8th-grade-accolade-08
+  - id: "2018/05/26/17917535944166579.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110501-8th-grade-accolade-09
+  - id: "2018/05/26/17928322405083947.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110501-8th-grade-accolade-10
+  - id: "2018/05/26/17856481687260806.jpg"
     caption:
     alt:
 related:

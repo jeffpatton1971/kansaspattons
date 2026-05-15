@@ -15,9 +15,9 @@ source:
   caption: "First game of the season"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-04-18-203847-first-game-of-the-season-01
+cover_image: "2018/04/18/17925352759098115.jpg"
 images:
-  - id: instagram-2018-04-18-203847-first-game-of-the-season-01
+  - id: "2018/04/18/17925352759098115.jpg"
     caption:
     alt:
 hashtags: []

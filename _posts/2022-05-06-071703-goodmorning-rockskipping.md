@@ -15,12 +15,12 @@ source:
   caption: "#goodmorning #rockskipping"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2022-05-06-071703-goodmorning-rockskipping-01
+cover_image: "2022/05/06/17996633080450085.jpg"
 images:
-  - id: instagram-2022-05-06-071703-goodmorning-rockskipping-01
+  - id: "2022/05/06/17996633080450085.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-06-071703-goodmorning-rockskipping-02
+  - id: "2022/05/06/17939926039936309.jpg"
     caption:
     alt:
 hashtags:

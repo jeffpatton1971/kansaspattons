@@ -19,33 +19,33 @@ authors:
   - "Jeff Patton"
 summary: "9 images related to Christmas parade."
 gallery: instagram-2025-11-28-202218-christmas-parade
-cover_image: instagram-2025-11-28-202218-christmas-parade-01
+cover_image: "2025/11/28/18077920052188326.jpg"
 images:
-  - id: instagram-2025-11-28-202218-christmas-parade-01
+  - id: "2025/11/28/18077920052188326.jpg"
     caption:
     alt:
-  - id: instagram-2025-11-28-202218-christmas-parade-02
+  - id: "2025/11/28/17942247930087908.jpg"
     caption:
     alt:
-  - id: instagram-2025-11-28-202218-christmas-parade-03
+  - id: "2025/11/28/18295992415259847.jpg"
     caption:
     alt:
-  - id: instagram-2025-11-28-202218-christmas-parade-04
+  - id: "2025/11/28/18084721193048097.jpg"
     caption:
     alt:
-  - id: instagram-2025-11-28-202218-christmas-parade-05
+  - id: "2025/11/28/18383522578151864.jpg"
     caption:
     alt:
-  - id: instagram-2025-11-28-202218-christmas-parade-06
+  - id: "2025/11/28/17902791297312866.jpg"
     caption:
     alt:
-  - id: instagram-2025-11-28-202218-christmas-parade-07
+  - id: "2025/11/28/17902483731303629.jpg"
     caption:
     alt:
-  - id: instagram-2025-11-28-202218-christmas-parade-08
+  - id: "2025/11/28/17916383490212867.jpg"
     caption:
     alt:
-  - id: instagram-2025-11-28-202218-christmas-parade-09
+  - id: "2025/11/28/18046582613694289.jpg"
     caption:
     alt:
 related:

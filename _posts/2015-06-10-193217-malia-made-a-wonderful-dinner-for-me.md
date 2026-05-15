@@ -15,9 +15,9 @@ source:
   caption: "Malia made a wonderful dinner for me!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2015-06-10-193217-malia-made-a-wonderful-dinner-for-me-01
+cover_image: "2015/06/10/17841744571063547.jpg"
 images:
-  - id: instagram-2015-06-10-193217-malia-made-a-wonderful-dinner-for-me-01
+  - id: "2015/06/10/17841744571063547.jpg"
     caption:
     alt:
 hashtags: []

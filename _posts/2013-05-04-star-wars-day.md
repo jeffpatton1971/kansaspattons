@@ -12,12 +12,12 @@ source:
   type: wordpress
   id: 434
   url: "https://jeffspatton.wordpress.com/2013/05/04/may-4-2013/"
-cover_image: "2013-05-04-wp-20130504-001"
+cover_image: "2013/05/04/wp_20130504_001.jpg"
 images:
-  - id: "2013-05-04-wp-20130504-001"
+  - id: "2013/05/04/wp_20130504_001.jpg"
     caption:
     alt:
-  - id: "2013-05-04-wp-20130504-033"
+  - id: "2013/05/04/wp_20130504_033.jpg"
     caption:
     alt:
 categories:

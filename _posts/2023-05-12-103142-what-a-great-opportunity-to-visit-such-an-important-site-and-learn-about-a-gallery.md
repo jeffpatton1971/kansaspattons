@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to what a great opportunity to visit such an important site and learn about a ruling that is ...."
 gallery: instagram-2023-05-12-103142-what-a-great-opportunity-to-visit-such-an-important-site-and-learn-about-a
-cover_image: instagram-2023-05-12-103142-what-a-great-opportunity-to-visit-such-an-important-site-and-learn-about-a-01
+cover_image: "2023/05/12/17946702167624813.jpg"
 images:
-  - id: instagram-2023-05-12-103142-what-a-great-opportunity-to-visit-such-an-important-site-and-learn-about-a-01
+  - id: "2023/05/12/17946702167624813.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-12-103142-what-a-great-opportunity-to-visit-such-an-important-site-and-learn-about-a-02
+  - id: "2023/05/12/18008858647636998.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-12-103142-what-a-great-opportunity-to-visit-such-an-important-site-and-learn-about-a-03
+  - id: "2023/05/12/17936245994661894.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-12-103142-what-a-great-opportunity-to-visit-such-an-important-site-and-learn-about-a-04
+  - id: "2023/05/12/17860642634944368.jpg"
     caption:
     alt:
 related:

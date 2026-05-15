@@ -15,9 +15,9 @@ source:
   caption: "So...this just happened"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-08-11-134747-so-this-just-happened-01
+cover_image: "2018/08/11/17968825708025854.jpg"
 images:
-  - id: instagram-2018-08-11-134747-so-this-just-happened-01
+  - id: "2018/08/11/17968825708025854.jpg"
     caption:
     alt:
 hashtags: []

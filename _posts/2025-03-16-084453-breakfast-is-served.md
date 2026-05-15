@@ -15,9 +15,9 @@ source:
   caption: "#breakfast is served"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-03-16-084453-breakfast-is-served-01
+cover_image: "2025/03/16/18094265821555276.jpg"
 images:
-  - id: instagram-2025-03-16-084453-breakfast-is-served-01
+  - id: "2025/03/16/18094265821555276.jpg"
     caption:
     alt:
 hashtags:

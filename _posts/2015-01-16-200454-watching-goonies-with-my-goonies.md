@@ -15,9 +15,9 @@ source:
   caption: "Watching Goonies with my goonies!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2015-01-16-200454-watching-goonies-with-my-goonies-01
+cover_image: "2015/01/16/17843544106063547.jpg"
 images:
-  - id: instagram-2015-01-16-200454-watching-goonies-with-my-goonies-01
+  - id: "2015/01/16/17843544106063547.jpg"
     caption:
     alt:
 hashtags: []

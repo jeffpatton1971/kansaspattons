@@ -15,9 +15,9 @@ source:
   caption: "Why is @natalie__patton smiling? She thinks that @taylorswift may be at the Chiefs game today. #rumors"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-09-17-125204-why-is-natalie-patton-smiling-she-thinks-that-taylorswift-may-be-at-the-chiefs-01
+cover_image: "2023/09/17/18039162508483134.jpg"
 images:
-  - id: instagram-2023-09-17-125204-why-is-natalie-patton-smiling-she-thinks-that-taylorswift-may-be-at-the-chiefs-01
+  - id: "2023/09/17/18039162508483134.jpg"
     caption:
     alt:
 hashtags:

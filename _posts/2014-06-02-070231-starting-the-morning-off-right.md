@@ -15,9 +15,9 @@ source:
   caption: "Starting the morning off right!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-06-02-070231-starting-the-morning-off-right-01
+cover_image: "2014/06/02/17842507027063547.jpg"
 images:
-  - id: instagram-2014-06-02-070231-starting-the-morning-off-right-01
+  - id: "2014/06/02/17842507027063547.jpg"
     caption:
     alt:
 hashtags: []

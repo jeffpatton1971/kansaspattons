@@ -20,27 +20,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to Easter Baskets."
 gallery: wordpress-2013-03-31-130041-march-31-2013-2
-cover_image: "2013-03-31-wp-20130331-001"
+cover_image: "2013/03/31/wp_20130331_001.jpg"
 images:
-  - id: "2013-03-31-wp-20130331-001"
+  - id: "2013/03/31/wp_20130331_001.jpg"
     caption:
     alt:
-  - id: "2013-03-31-wp-20130331-002"
+  - id: "2013/03/31/wp_20130331_002.jpg"
     caption:
     alt:
-  - id: "2013-03-31-wp-20130331-005"
+  - id: "2013/03/31/wp_20130331_005.jpg"
     caption:
     alt:
-  - id: "2013-03-31-wp-20130331-011"
+  - id: "2013/03/31/wp_20130331_011.jpg"
     caption:
     alt:
-  - id: "2013-03-31-wp-20130331-014"
+  - id: "2013/03/31/wp_20130331_014.jpg"
     caption:
     alt:
-  - id: "2013-03-31-wp-20130331-015"
+  - id: "2013/03/31/wp_20130331_015.jpg"
     caption:
     alt:
-  - id: "2013-03-31-wp-20130331-020"
+  - id: "2013/03/31/wp_20130331_020.jpg"
     caption:
     alt:
 related:

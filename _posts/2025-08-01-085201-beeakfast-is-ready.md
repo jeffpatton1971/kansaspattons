@@ -15,9 +15,9 @@ source:
   caption: "#beeakfast is ready"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-08-01-085201-beeakfast-is-ready-01
+cover_image: "2025/08/01/18375447715131108.jpg"
 images:
-  - id: instagram-2025-08-01-085201-beeakfast-is-ready-01
+  - id: "2025/08/01/18375447715131108.jpg"
     caption:
     alt:
 hashtags:

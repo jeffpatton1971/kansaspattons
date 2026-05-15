@@ -15,12 +15,12 @@ source:
   caption: "Breakfast in Lawrence and dinner in Crystal Lake 🖤💛"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2026-04-10-220141-breakfast-in-lawrence-and-dinner-in-crystal-lake-01
+cover_image: "2026/04/10/18387459607088146.jpg"
 images:
-  - id: instagram-2026-04-10-220141-breakfast-in-lawrence-and-dinner-in-crystal-lake-01
+  - id: "2026/04/10/18387459607088146.jpg"
     caption:
     alt:
-  - id: instagram-2026-04-10-220141-breakfast-in-lawrence-and-dinner-in-crystal-lake-02
+  - id: "2026/04/10/18093024542153162.jpg"
     caption:
     alt:
 hashtags: []

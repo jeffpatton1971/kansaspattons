@@ -15,9 +15,9 @@ source:
   caption: "Natalie on the violin"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2013-12-09-194344-natalie-on-the-violin-01
+cover_image: "2013/12/09/17842411345063547.jpg"
 images:
-  - id: instagram-2013-12-09-194344-natalie-on-the-violin-01
+  - id: "2013/12/09/17842411345063547.jpg"
     caption:
     alt:
 hashtags: []

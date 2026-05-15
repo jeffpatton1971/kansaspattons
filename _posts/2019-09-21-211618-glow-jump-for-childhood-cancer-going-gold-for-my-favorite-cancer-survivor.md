@@ -15,9 +15,9 @@ source:
   caption: "Glow Jump for Childhood Cancer. Going Gold for my favorite cancer survivor!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-09-21-211618-glow-jump-for-childhood-cancer-going-gold-for-my-favorite-cancer-survivor-01
+cover_image: "2019/09/21/17844247303666376.jpg"
 images:
-  - id: instagram-2019-09-21-211618-glow-jump-for-childhood-cancer-going-gold-for-my-favorite-cancer-survivor-01
+  - id: "2019/09/21/17844247303666376.jpg"
     caption:
     alt:
 hashtags: []

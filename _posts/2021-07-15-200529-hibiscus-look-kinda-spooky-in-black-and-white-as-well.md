@@ -15,9 +15,9 @@ source:
   caption: "Hibiscus look kinda spooky in black and white as well"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-07-15-200529-hibiscus-look-kinda-spooky-in-black-and-white-as-well-01
+cover_image: "2021/07/15/17913351460805517.jpg"
 images:
-  - id: instagram-2021-07-15-200529-hibiscus-look-kinda-spooky-in-black-and-white-as-well-01
+  - id: "2021/07/15/17913351460805517.jpg"
     caption:
     alt:
 hashtags: []

@@ -15,9 +15,9 @@ source:
   caption: "French Toast Flight…banana nut…cinnamon toast…red velvet…you’re welcome 🖤💛"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2026-04-11-091650-french-toast-flight-banana-nut-cinnamon-toast-red-velvet-you-re-welcome-01
+cover_image: "2026/04/11/18109062805667607.jpg"
 images:
-  - id: instagram-2026-04-11-091650-french-toast-flight-banana-nut-cinnamon-toast-red-velvet-you-re-welcome-01
+  - id: "2026/04/11/18109062805667607.jpg"
     caption:
     alt:
 hashtags: []

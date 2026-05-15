@@ -14,12 +14,12 @@ source:
   timestamp: 1686314820
   caption: "thanks for all the birthday wishes"
   media_count: 2
-cover_image: instagram-2023-06-09-074700-thanks-for-all-the-birthday-wishes-01
+cover_image: "2023/06/09/17863733882949516.jpg"
 images:
-  - id: instagram-2023-06-09-074700-thanks-for-all-the-birthday-wishes-01
+  - id: "2023/06/09/17863733882949516.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-09-074700-thanks-for-all-the-birthday-wishes-02
+  - id: "2023/06/09/18039836725479776.jpg"
     caption:
     alt:
 hashtags: []

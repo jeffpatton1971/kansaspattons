@@ -19,36 +19,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to BEYBLADE birthday party."
 gallery: instagram-2019-03-30-142023-beyblade-birthday-party
-cover_image: instagram-2019-03-30-142023-beyblade-birthday-party-01
+cover_image: "2019/03/30/18025139398091861.jpg"
 images:
-  - id: instagram-2019-03-30-142023-beyblade-birthday-party-01
+  - id: "2019/03/30/18025139398091861.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-30-142023-beyblade-birthday-party-02
+  - id: "2019/03/30/17845760596392547.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-30-142023-beyblade-birthday-party-03
+  - id: "2019/03/30/18050617189053684.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-30-142023-beyblade-birthday-party-04
+  - id: "2019/03/30/18016945189159924.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-30-142023-beyblade-birthday-party-05
+  - id: "2019/03/30/18050381536063102.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-30-142023-beyblade-birthday-party-06
+  - id: "2019/03/30/18021467800132828.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-30-142023-beyblade-birthday-party-07
+  - id: "2019/03/30/18032412559114724.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-30-142023-beyblade-birthday-party-08
+  - id: "2019/03/30/18050630590028032.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-30-142023-beyblade-birthday-party-09
+  - id: "2019/03/30/17983089559223513.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-30-142023-beyblade-birthday-party-10
+  - id: "2019/03/30/18034320223106692.jpg"
     caption:
     alt:
 related:

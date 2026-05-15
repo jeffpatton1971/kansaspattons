@@ -17,21 +17,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to Had a nice morning."
 gallery: instagram-2025-12-27-121704-had-a-nice-morning
-cover_image: instagram-2025-12-27-121704-had-a-nice-morning-01
+cover_image: "2025/12/27/18077521811201727.jpg"
 images:
-  - id: instagram-2025-12-27-121704-had-a-nice-morning-01
+  - id: "2025/12/27/18077521811201727.jpg"
     caption:
     alt:
-  - id: instagram-2025-12-27-121704-had-a-nice-morning-02
+  - id: "2025/12/27/18061355753285458.jpg"
     caption:
     alt:
-  - id: instagram-2025-12-27-121704-had-a-nice-morning-03
+  - id: "2025/12/27/17978219945957022.jpg"
     caption:
     alt:
-  - id: instagram-2025-12-27-121704-had-a-nice-morning-04
+  - id: "2025/12/27/18427411882113981.jpg"
     caption:
     alt:
-  - id: instagram-2025-12-27-121704-had-a-nice-morning-05
+  - id: "2025/12/27/18036490337718817.jpg"
     caption:
     alt:
 related:

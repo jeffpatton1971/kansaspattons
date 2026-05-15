@@ -15,12 +15,12 @@ source:
   caption: "Nathan won both sets of doubles today so took him out for dinner. Of all the great places to eat in #lawrence were at Freddy’s! 😂🤷‍♂️🤦‍♂️"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2024-04-04-175017-nathan-won-both-sets-of-doubles-today-so-took-him-out-for-dinner-of-all-the-01
+cover_image: "2024/04/04/18426708505020171.jpg"
 images:
-  - id: instagram-2024-04-04-175017-nathan-won-both-sets-of-doubles-today-so-took-him-out-for-dinner-of-all-the-01
+  - id: "2024/04/04/18426708505020171.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-04-175017-nathan-won-both-sets-of-doubles-today-so-took-him-out-for-dinner-of-all-the-02
+  - id: "2024/04/04/17999993762309942.jpg"
     caption:
     alt:
 hashtags:

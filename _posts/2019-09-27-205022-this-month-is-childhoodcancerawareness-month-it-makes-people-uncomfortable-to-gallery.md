@@ -24,33 +24,33 @@ authors:
   - "Jeff Patton"
 summary: "9 images related to This month is #childhoodcancerawareness month. It makes people uncomfortable to think abou...."
 gallery: instagram-2019-09-27-205022-this-month-is-childhoodcancerawareness-month-it-makes-people-uncomfortable-to
-cover_image: instagram-2019-09-27-205022-this-month-is-childhoodcancerawareness-month-it-makes-people-uncomfortable-to-01
+cover_image: "2019/09/27/17845815682659475.jpg"
 images:
-  - id: instagram-2019-09-27-205022-this-month-is-childhoodcancerawareness-month-it-makes-people-uncomfortable-to-01
+  - id: "2019/09/27/17845815682659475.jpg"
     caption:
     alt:
-  - id: instagram-2019-09-27-205022-this-month-is-childhoodcancerawareness-month-it-makes-people-uncomfortable-to-02
+  - id: "2019/09/27/17842664749708972.jpg"
     caption:
     alt:
-  - id: instagram-2019-09-27-205022-this-month-is-childhoodcancerawareness-month-it-makes-people-uncomfortable-to-03
+  - id: "2019/09/27/18034842427204884.jpg"
     caption:
     alt:
-  - id: instagram-2019-09-27-205022-this-month-is-childhoodcancerawareness-month-it-makes-people-uncomfortable-to-04
+  - id: "2019/09/27/18092010409078770.jpg"
     caption:
     alt:
-  - id: instagram-2019-09-27-205022-this-month-is-childhoodcancerawareness-month-it-makes-people-uncomfortable-to-05
+  - id: "2019/09/27/18081220507115023.jpg"
     caption:
     alt:
-  - id: instagram-2019-09-27-205022-this-month-is-childhoodcancerawareness-month-it-makes-people-uncomfortable-to-06
+  - id: "2019/09/27/18035393146207087.jpg"
     caption:
     alt:
-  - id: instagram-2019-09-27-205022-this-month-is-childhoodcancerawareness-month-it-makes-people-uncomfortable-to-07
+  - id: "2019/09/27/17885342242421228.jpg"
     caption:
     alt:
-  - id: instagram-2019-09-27-205022-this-month-is-childhoodcancerawareness-month-it-makes-people-uncomfortable-to-08
+  - id: "2019/09/27/17914873606349817.jpg"
     caption:
     alt:
-  - id: instagram-2019-09-27-205022-this-month-is-childhoodcancerawareness-month-it-makes-people-uncomfortable-to-09
+  - id: "2019/09/27/18101857186037476.jpg"
     caption:
     alt:
 related:

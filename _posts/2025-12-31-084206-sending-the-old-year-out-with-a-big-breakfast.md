@@ -15,9 +15,9 @@ source:
   caption: "Sending the old year out with a big breakfast"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-12-31-084206-sending-the-old-year-out-with-a-big-breakfast-01
+cover_image: "2025/12/31/18051329324410407.jpg"
 images:
-  - id: instagram-2025-12-31-084206-sending-the-old-year-out-with-a-big-breakfast-01
+  - id: "2025/12/31/18051329324410407.jpg"
     caption:
     alt:
 hashtags: []

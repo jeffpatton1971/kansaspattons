@@ -15,9 +15,9 @@ source:
   caption: "A little breakfast to start the day #lfk"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-07-12-090304-a-little-breakfast-to-start-the-day-lfk-01
+cover_image: "2025/07/12/18099442618583314.jpg"
 images:
-  - id: instagram-2025-07-12-090304-a-little-breakfast-to-start-the-day-lfk-01
+  - id: "2025/07/12/18099442618583314.jpg"
     caption:
     alt:
 hashtags:

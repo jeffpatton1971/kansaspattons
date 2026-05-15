@@ -18,18 +18,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Spent some time at the #foodtruckfestival."
 gallery: instagram-2024-08-25-145456-spent-some-time-at-the-foodtruckfestival
-cover_image: instagram-2024-08-25-145456-spent-some-time-at-the-foodtruckfestival-01
+cover_image: "2024/08/25/17895798234059024.jpg"
 images:
-  - id: instagram-2024-08-25-145456-spent-some-time-at-the-foodtruckfestival-01
+  - id: "2024/08/25/17895798234059024.jpg"
     caption:
     alt:
-  - id: instagram-2024-08-25-145456-spent-some-time-at-the-foodtruckfestival-02
+  - id: "2024/08/25/18032913635512036.jpg"
     caption:
     alt:
-  - id: instagram-2024-08-25-145456-spent-some-time-at-the-foodtruckfestival-03
+  - id: "2024/08/25/18046744324746352.jpg"
     caption:
     alt:
-  - id: instagram-2024-08-25-145456-spent-some-time-at-the-foodtruckfestival-04
+  - id: "2024/08/25/18042639334943229.jpg"
     caption:
     alt:
 related:

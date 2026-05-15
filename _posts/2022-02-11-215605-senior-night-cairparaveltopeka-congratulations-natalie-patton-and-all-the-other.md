@@ -15,9 +15,9 @@ source:
   caption: "Senior night @cairparaveltopeka  congratulations @natalie__patton and all the other seniors it’s been a wild ride"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2022-02-11-215605-senior-night-cairparaveltopeka-congratulations-natalie-patton-and-all-the-other-01
+cover_image: "2022/02/11/18225575125096463.jpg"
 images:
-  - id: instagram-2022-02-11-215605-senior-night-cairparaveltopeka-congratulations-natalie-patton-and-all-the-other-01
+  - id: "2022/02/11/18225575125096463.jpg"
     caption:
     alt:
 hashtags: []

@@ -15,7 +15,7 @@ source:
   caption: "Singles and doubles #tennis"
   media_count: 7
   cross_post_source: "FB"
-cover_image: instagram-2025-04-03-185354-singles-and-doubles-tennis-01
+cover_image: "2025/04/03/18050358515035672.jpg"
 related:
   - type: gallery
     id: instagram-2025-04-03-185354-singles-and-doubles-tennis

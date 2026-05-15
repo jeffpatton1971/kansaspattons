@@ -15,9 +15,9 @@ source:
   caption: "Took this the other day, didn't see the rainbow at the time"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-08-28-215817-took-this-the-other-day-didn-t-see-the-rainbow-at-the-time-01
+cover_image: "2014/08/28/17843341126063547.jpg"
 images:
-  - id: instagram-2014-08-28-215817-took-this-the-other-day-didn-t-see-the-rainbow-at-the-time-01
+  - id: "2014/08/28/17843341126063547.jpg"
     caption:
     alt:
 hashtags: []

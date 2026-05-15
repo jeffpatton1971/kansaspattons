@@ -15,7 +15,7 @@ source:
   caption: "Smoked pork for dinner and brownie ala mode for dessert"
   media_count: 7
   cross_post_source: "FB"
-cover_image: instagram-2021-02-07-210005-smoked-pork-for-dinner-and-brownie-ala-mode-for-dessert-01
+cover_image: "2021/02/07/17905167991690681.jpg"
 related:
   - type: gallery
     id: instagram-2021-02-07-210005-smoked-pork-for-dinner-and-brownie-ala-mode-for-dessert

@@ -17,27 +17,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to Had a fun and educational visit."
 gallery: instagram-2022-05-07-161020-had-a-fun-and-educational-visit
-cover_image: instagram-2022-05-07-161020-had-a-fun-and-educational-visit-01
+cover_image: "2022/05/07/18018986017363060.jpg"
 images:
-  - id: instagram-2022-05-07-161020-had-a-fun-and-educational-visit-01
+  - id: "2022/05/07/18018986017363060.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-07-161020-had-a-fun-and-educational-visit-02
+  - id: "2022/05/07/17913168833344341.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-07-161020-had-a-fun-and-educational-visit-03
+  - id: "2022/05/07/17962701088637437.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-07-161020-had-a-fun-and-educational-visit-04
+  - id: "2022/05/07/17974166152510852.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-07-161020-had-a-fun-and-educational-visit-05
+  - id: "2022/05/07/17901306773600763.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-07-161020-had-a-fun-and-educational-visit-06
+  - id: "2022/05/07/17922442220242643.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-07-161020-had-a-fun-and-educational-visit-07
+  - id: "2022/05/07/17923442540199679.jpg"
     caption:
     alt:
 related:

@@ -15,7 +15,7 @@ source:
   caption: "What an unexpectedly delightful birthday!"
   media_count: 7
   cross_post_source: "FB"
-cover_image: instagram-2025-06-08-185424-what-an-unexpectedly-delightful-birthday-01
+cover_image: "2025/06/08/18068458991051021.jpg"
 related:
   - type: gallery
     id: instagram-2025-06-08-185424-what-an-unexpectedly-delightful-birthday

@@ -17,24 +17,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Owls baseball."
 gallery: instagram-2019-05-09-202119-owls-baseball
-cover_image: instagram-2019-05-09-202119-owls-baseball-01
+cover_image: "2019/05/09/17858752267403463.jpg"
 images:
-  - id: instagram-2019-05-09-202119-owls-baseball-01
+  - id: "2019/05/09/17858752267403463.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-09-202119-owls-baseball-02
+  - id: "2019/05/09/18064311739000674.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-09-202119-owls-baseball-03
+  - id: "2019/05/09/17941196743287622.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-09-202119-owls-baseball-04
+  - id: "2019/05/09/18037282096094941.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-09-202119-owls-baseball-05
+  - id: "2019/05/09/17862991855381133.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-09-202119-owls-baseball-06
+  - id: "2019/05/09/17848243333433752.jpg"
     caption:
     alt:
 related:

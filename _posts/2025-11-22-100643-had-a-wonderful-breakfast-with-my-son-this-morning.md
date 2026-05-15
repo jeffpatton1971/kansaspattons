@@ -15,15 +15,15 @@ source:
   caption: "Had a wonderful #breakfast with my son this morning"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2025-11-22-100643-had-a-wonderful-breakfast-with-my-son-this-morning-01
+cover_image: "2025/11/22/17947279971060643.jpg"
 images:
-  - id: instagram-2025-11-22-100643-had-a-wonderful-breakfast-with-my-son-this-morning-01
+  - id: "2025/11/22/17947279971060643.jpg"
     caption:
     alt:
-  - id: instagram-2025-11-22-100643-had-a-wonderful-breakfast-with-my-son-this-morning-02
+  - id: "2025/11/22/17931723777134677.jpg"
     caption:
     alt:
-  - id: instagram-2025-11-22-100643-had-a-wonderful-breakfast-with-my-son-this-morning-03
+  - id: "2025/11/22/17858394582492236.jpg"
     caption:
     alt:
 hashtags:

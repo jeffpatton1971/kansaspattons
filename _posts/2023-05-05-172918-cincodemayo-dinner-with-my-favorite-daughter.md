@@ -15,9 +15,9 @@ source:
   caption: "#cincodemayo dinner with my favorite daughter"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-05-05-172918-cincodemayo-dinner-with-my-favorite-daughter-01
+cover_image: "2023/05/05/17888650766817599.jpg"
 images:
-  - id: instagram-2023-05-05-172918-cincodemayo-dinner-with-my-favorite-daughter-01
+  - id: "2023/05/05/17888650766817599.jpg"
     caption:
     alt:
 hashtags:

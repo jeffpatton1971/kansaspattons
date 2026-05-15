@@ -15,9 +15,9 @@ source:
   caption: "Celebrating my son who has been cancer free since 2013 on @eaticecreamforbreakfast day #eaticecreamforbreakfastday  #eaticecreamforbreakfast #childhoodcancerawareness"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-02-18-072928-celebrating-my-son-who-has-been-cancer-free-since-2013-on-01
+cover_image: "2021/02/18/17905048990701442.jpg"
 images:
-  - id: instagram-2021-02-18-072928-celebrating-my-son-who-has-been-cancer-free-since-2013-on-01
+  - id: "2021/02/18/17905048990701442.jpg"
     caption:
     alt:
 hashtags:

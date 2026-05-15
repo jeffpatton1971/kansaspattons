@@ -15,7 +15,7 @@ source:
   caption: "Posting pictures from the family reunion earlier this month. Had a blast with the family and a lot of fun in #bransonmissouri"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2024-06-25-193506-posting-pictures-from-the-family-reunion-earlier-this-month-had-a-blast-with-01
+cover_image: "2024/06/25/18032537486026701.jpg"
 related:
   - type: gallery
     id: instagram-2024-06-25-193506-posting-pictures-from-the-family-reunion-earlier-this-month-had-a-blast-with

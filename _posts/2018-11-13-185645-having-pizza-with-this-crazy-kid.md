@@ -15,9 +15,9 @@ source:
   caption: "Having pizza with this crazy kid"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-11-13-185645-having-pizza-with-this-crazy-kid-01
+cover_image: "2018/11/13/17868832102288387.jpg"
 images:
-  - id: instagram-2018-11-13-185645-having-pizza-with-this-crazy-kid-01
+  - id: "2018/11/13/17868832102288387.jpg"
     caption:
     alt:
 hashtags: []

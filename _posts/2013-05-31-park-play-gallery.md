@@ -21,36 +21,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Play At the Park."
 gallery: wordpress-2013-05-31-090152-may-31-2013
-cover_image: "2013-05-31-wp-20130531-006"
+cover_image: "2013/05/31/wp_20130531_006.jpg"
 images:
-  - id: "2013-05-31-wp-20130531-006"
+  - id: "2013/05/31/wp_20130531_006.jpg"
     caption:
     alt:
-  - id: "2013-05-31-wp-20130531-007"
+  - id: "2013/05/31/wp_20130531_007.jpg"
     caption:
     alt:
-  - id: "2013-05-31-wp-20130531-009"
+  - id: "2013/05/31/wp_20130531_009.jpg"
     caption:
     alt:
-  - id: "2013-05-31-wp-20130531-015"
+  - id: "2013/05/31/wp_20130531_015.jpg"
     caption:
     alt:
-  - id: "2013-05-31-wp-20130531-016"
+  - id: "2013/05/31/wp_20130531_016.jpg"
     caption:
     alt:
-  - id: "2013-05-31-wp-20130531-019"
+  - id: "2013/05/31/wp_20130531_019.jpg"
     caption:
     alt:
-  - id: "2013-05-31-wp-20130531-021"
+  - id: "2013/05/31/wp_20130531_021.jpg"
     caption:
     alt:
-  - id: "2013-05-31-wp-20130531-022"
+  - id: "2013/05/31/wp_20130531_022.jpg"
     caption:
     alt:
-  - id: "2013-05-31-wp-20130531-024"
+  - id: "2013/05/31/wp_20130531_024.jpg"
     caption:
     alt:
-  - id: "2013-05-31-wp-20130531-026"
+  - id: "2013/05/31/wp_20130531_026.jpg"
     caption:
     alt:
 related:

@@ -15,7 +15,7 @@ source:
   caption: "Great day for smoking #happyeaster"
   media_count: 7
   cross_post_source: "FB"
-cover_image: instagram-2023-04-09-143440-great-day-for-smoking-happyeaster-01
+cover_image: "2023/04/09/17869701584889297.jpg"
 related:
   - type: gallery
     id: instagram-2023-04-09-143440-great-day-for-smoking-happyeaster

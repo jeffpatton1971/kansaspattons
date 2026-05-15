@@ -15,7 +15,7 @@ source:
   caption: "Walking through the @topekazoo looking at all the #zoolights"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2022-12-28-202922-walking-through-the-topekazoo-looking-at-all-the-zoolights-01
+cover_image: "2022/12/28/18027544963449518.jpg"
 related:
   - type: gallery
     id: instagram-2022-12-28-202922-walking-through-the-topekazoo-looking-at-all-the-zoolights

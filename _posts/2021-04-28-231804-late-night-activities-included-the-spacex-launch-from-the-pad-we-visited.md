@@ -15,15 +15,15 @@ source:
   caption: "Late night activities included the @spacex  launch from the pad we visited earlier today!"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2021-04-28-231804-late-night-activities-included-the-spacex-launch-from-the-pad-we-visited-01
+cover_image: "2021/04/28/17881180457188025.jpg"
 images:
-  - id: instagram-2021-04-28-231804-late-night-activities-included-the-spacex-launch-from-the-pad-we-visited-01
+  - id: "2021/04/28/17881180457188025.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-28-231804-late-night-activities-included-the-spacex-launch-from-the-pad-we-visited-02
+  - id: "2021/04/28/17883762437231003.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-28-231804-late-night-activities-included-the-spacex-launch-from-the-pad-we-visited-03
+  - id: "2021/04/28/17930632954538454.mp4"
     caption:
     alt:
 hashtags: []

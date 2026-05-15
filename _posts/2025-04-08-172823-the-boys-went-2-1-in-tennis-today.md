@@ -15,12 +15,12 @@ source:
   caption: "The boys went 2-1 in #tennis today"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2025-04-08-172823-the-boys-went-2-1-in-tennis-today-01
+cover_image: "2025/04/08/18064347847823074.jpg"
 images:
-  - id: instagram-2025-04-08-172823-the-boys-went-2-1-in-tennis-today-01
+  - id: "2025/04/08/18064347847823074.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-08-172823-the-boys-went-2-1-in-tennis-today-02
+  - id: "2025/04/08/18383277172115532.jpg"
     caption:
     alt:
 hashtags:

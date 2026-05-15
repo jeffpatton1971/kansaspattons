@@ -17,36 +17,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Spent the afternoon at the Yorktown museum."
 gallery: instagram-2025-04-23-153044-spent-the-afternoon-at-the-yorktown-museum
-cover_image: instagram-2025-04-23-153044-spent-the-afternoon-at-the-yorktown-museum-01
+cover_image: "2025/04/23/18077095093770609.jpg"
 images:
-  - id: instagram-2025-04-23-153044-spent-the-afternoon-at-the-yorktown-museum-01
+  - id: "2025/04/23/18077095093770609.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-153044-spent-the-afternoon-at-the-yorktown-museum-02
+  - id: "2025/04/23/17891675556228378.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-153044-spent-the-afternoon-at-the-yorktown-museum-03
+  - id: "2025/04/23/18073432678857459.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-153044-spent-the-afternoon-at-the-yorktown-museum-04
+  - id: "2025/04/23/18078758599706298.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-153044-spent-the-afternoon-at-the-yorktown-museum-05
+  - id: "2025/04/23/18050244941372757.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-153044-spent-the-afternoon-at-the-yorktown-museum-06
+  - id: "2025/04/23/17970185297855538.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-153044-spent-the-afternoon-at-the-yorktown-museum-07
+  - id: "2025/04/23/17938908830878120.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-153044-spent-the-afternoon-at-the-yorktown-museum-08
+  - id: "2025/04/23/18379229746137848.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-153044-spent-the-afternoon-at-the-yorktown-museum-09
+  - id: "2025/04/23/18011184305538720.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-153044-spent-the-afternoon-at-the-yorktown-museum-10
+  - id: "2025/04/23/18382364830184080.jpg"
     caption:
     alt:
 related:

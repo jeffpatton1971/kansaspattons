@@ -15,7 +15,7 @@ source:
   caption: "Another good night for fun, teamwork and good sportsmanship"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2018-06-25-220826-another-good-night-for-fun-teamwork-and-good-sportsmanship-01
+cover_image: "2018/06/25/17914184179199891.jpg"
 related:
   - type: gallery
     id: instagram-2018-06-25-220826-another-good-night-for-fun-teamwork-and-good-sportsmanship

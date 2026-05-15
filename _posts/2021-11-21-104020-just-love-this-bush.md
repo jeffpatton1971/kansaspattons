@@ -15,9 +15,9 @@ source:
   caption: "Just love this bush"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-11-21-104020-just-love-this-bush-01
+cover_image: "2021/11/21/18263245645016181.jpg"
 images:
-  - id: instagram-2021-11-21-104020-just-love-this-bush-01
+  - id: "2021/11/21/18263245645016181.jpg"
     caption:
     alt:
 hashtags: []

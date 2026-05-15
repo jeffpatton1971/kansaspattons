@@ -15,9 +15,9 @@ source:
   caption: "Gotta catch 'em all... Pokémon!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2017-04-19-214345-gotta-catch-em-all-pok-mon-01
+cover_image: "2017/04/19/17866085182126311.jpg"
 images:
-  - id: instagram-2017-04-19-214345-gotta-catch-em-all-pok-mon-01
+  - id: "2017/04/19/17866085182126311.jpg"
     caption:
     alt:
 hashtags: []

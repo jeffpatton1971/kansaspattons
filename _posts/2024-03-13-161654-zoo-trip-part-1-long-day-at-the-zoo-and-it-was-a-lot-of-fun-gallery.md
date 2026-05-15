@@ -17,36 +17,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Zoo trip part 1: long day at the zoo and it was a lot of fun."
 gallery: instagram-2024-03-13-161654-zoo-trip-part-1-long-day-at-the-zoo-and-it-was-a-lot-of-fun
-cover_image: instagram-2024-03-13-161654-zoo-trip-part-1-long-day-at-the-zoo-and-it-was-a-lot-of-fun-01
+cover_image: "2024/03/13/17905252181942229.jpg"
 images:
-  - id: instagram-2024-03-13-161654-zoo-trip-part-1-long-day-at-the-zoo-and-it-was-a-lot-of-fun-01
+  - id: "2024/03/13/17905252181942229.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-13-161654-zoo-trip-part-1-long-day-at-the-zoo-and-it-was-a-lot-of-fun-02
+  - id: "2024/03/13/17934428093814814.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-13-161654-zoo-trip-part-1-long-day-at-the-zoo-and-it-was-a-lot-of-fun-03
+  - id: "2024/03/13/18018467351318294.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-13-161654-zoo-trip-part-1-long-day-at-the-zoo-and-it-was-a-lot-of-fun-04
+  - id: "2024/03/13/17864649477056771.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-13-161654-zoo-trip-part-1-long-day-at-the-zoo-and-it-was-a-lot-of-fun-05
+  - id: "2024/03/13/18022841006035904.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-13-161654-zoo-trip-part-1-long-day-at-the-zoo-and-it-was-a-lot-of-fun-06
+  - id: "2024/03/13/18029716210757043.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-13-161654-zoo-trip-part-1-long-day-at-the-zoo-and-it-was-a-lot-of-fun-07
+  - id: "2024/03/13/18020753189304998.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-13-161654-zoo-trip-part-1-long-day-at-the-zoo-and-it-was-a-lot-of-fun-08
+  - id: "2024/03/13/18000117245406467.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-13-161654-zoo-trip-part-1-long-day-at-the-zoo-and-it-was-a-lot-of-fun-09
+  - id: "2024/03/13/18102577654380416.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-13-161654-zoo-trip-part-1-long-day-at-the-zoo-and-it-was-a-lot-of-fun-10
+  - id: "2024/03/13/18015407405182077.jpg"
     caption:
     alt:
 related:

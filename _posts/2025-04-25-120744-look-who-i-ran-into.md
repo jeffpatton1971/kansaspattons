@@ -15,9 +15,9 @@ source:
   caption: "Look who I ran into!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-04-25-120744-look-who-i-ran-into-01
+cover_image: "2025/04/25/17903035539155838.jpg"
 images:
-  - id: instagram-2025-04-25-120744-look-who-i-ran-into-01
+  - id: "2025/04/25/17903035539155838.jpg"
     caption:
     alt:
 hashtags: []

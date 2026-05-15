@@ -15,9 +15,9 @@ source:
   caption: "#brekfast from @munchersbakery"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-10-10-071137-brekfast-from-munchersbakery-01
+cover_image: "2025/10/10/17936339366963379.jpg"
 images:
-  - id: instagram-2025-10-10-071137-brekfast-from-munchersbakery-01
+  - id: "2025/10/10/17936339366963379.jpg"
     caption:
     alt:
 hashtags:

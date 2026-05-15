@@ -15,7 +15,7 @@ source:
   caption: "there they go.., on their way to st louis and parts east!"
   media_count: 5
   cross_post_source: "FB"
-cover_image: instagram-2023-05-04-082610-there-they-go-on-their-way-to-st-louis-and-parts-east-01
+cover_image: "2023/05/04/18080245837322628.jpg"
 related:
   - type: gallery
     id: instagram-2023-05-04-082610-there-they-go-on-their-way-to-st-louis-and-parts-east

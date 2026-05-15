@@ -15,12 +15,12 @@ source:
   caption: "#perspectives…Yesterday we were in sunny Florida and today we are home in snowy Kansas. #happynewyear"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2022-01-01-093018-perspectives-yesterday-we-were-in-sunny-florida-and-today-we-are-home-in-snowy-01
+cover_image: "2022/01/01/18108581662284379.jpg"
 images:
-  - id: instagram-2022-01-01-093018-perspectives-yesterday-we-were-in-sunny-florida-and-today-we-are-home-in-snowy-01
+  - id: "2022/01/01/18108581662284379.jpg"
     caption:
     alt:
-  - id: instagram-2022-01-01-093018-perspectives-yesterday-we-were-in-sunny-florida-and-today-we-are-home-in-snowy-02
+  - id: "2022/01/01/17907732983228373.jpg"
     caption:
     alt:
 hashtags:

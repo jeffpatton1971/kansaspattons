@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Girls did well at keynundrum not sure how they figured it out so quickly with the amount o...."
 gallery: instagram-2018-09-22-181219-girls-did-well-at-keynundrum-not-sure-how-they-figured-it-out-so-quickly-with
-cover_image: instagram-2018-09-22-181219-girls-did-well-at-keynundrum-not-sure-how-they-figured-it-out-so-quickly-with-01
+cover_image: "2018/09/22/17964168145123076.jpg"
 images:
-  - id: instagram-2018-09-22-181219-girls-did-well-at-keynundrum-not-sure-how-they-figured-it-out-so-quickly-with-01
+  - id: "2018/09/22/17964168145123076.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-22-181219-girls-did-well-at-keynundrum-not-sure-how-they-figured-it-out-so-quickly-with-02
+  - id: "2018/09/22/17983385662013110.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-22-181219-girls-did-well-at-keynundrum-not-sure-how-they-figured-it-out-so-quickly-with-03
+  - id: "2018/09/22/17918819869220465.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-22-181219-girls-did-well-at-keynundrum-not-sure-how-they-figured-it-out-so-quickly-with-04
+  - id: "2018/09/22/17884211998268909.jpg"
     caption:
     alt:
 related:

@@ -15,9 +15,9 @@ source:
   caption: "it’s been a minute but i still love this school"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2022-09-23-222250-it-s-been-a-minute-but-i-still-love-this-school-01
+cover_image: "2022/09/23/17958135887009337.jpg"
 images:
-  - id: instagram-2022-09-23-222250-it-s-been-a-minute-but-i-still-love-this-school-01
+  - id: "2022/09/23/17958135887009337.jpg"
     caption:
     alt:
 hashtags: []

@@ -17,27 +17,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to “It was windy”."
 gallery: instagram-2024-08-01-080818-it-was-windy
-cover_image: instagram-2024-08-01-080818-it-was-windy-01
+cover_image: "2024/08/01/18087980689466085.jpg"
 images:
-  - id: instagram-2024-08-01-080818-it-was-windy-01
+  - id: "2024/08/01/18087980689466085.jpg"
     caption:
     alt:
-  - id: instagram-2024-08-01-080818-it-was-windy-02
+  - id: "2024/08/01/18050850217773297.jpg"
     caption:
     alt:
-  - id: instagram-2024-08-01-080818-it-was-windy-03
+  - id: "2024/08/01/18040043545817450.jpg"
     caption:
     alt:
-  - id: instagram-2024-08-01-080818-it-was-windy-04
+  - id: "2024/08/01/18005874644373778.jpg"
     caption:
     alt:
-  - id: instagram-2024-08-01-080818-it-was-windy-05
+  - id: "2024/08/01/18055723714676820.jpg"
     caption:
     alt:
-  - id: instagram-2024-08-01-080818-it-was-windy-06
+  - id: "2024/08/01/18059842015619428.jpg"
     caption:
     alt:
-  - id: instagram-2024-08-01-080818-it-was-windy-07
+  - id: "2024/08/01/18246180844267836.jpg"
     caption:
     alt:
 related:

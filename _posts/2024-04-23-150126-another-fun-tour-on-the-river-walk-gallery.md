@@ -17,27 +17,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to Another fun tour on the River Walk."
 gallery: instagram-2024-04-23-150126-another-fun-tour-on-the-river-walk
-cover_image: instagram-2024-04-23-150126-another-fun-tour-on-the-river-walk-01
+cover_image: "2024/04/23/18343302166129348.jpg"
 images:
-  - id: instagram-2024-04-23-150126-another-fun-tour-on-the-river-walk-01
+  - id: "2024/04/23/18343302166129348.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-23-150126-another-fun-tour-on-the-river-walk-02
+  - id: "2024/04/23/17955537884772868.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-23-150126-another-fun-tour-on-the-river-walk-03
+  - id: "2024/04/23/18038219398875889.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-23-150126-another-fun-tour-on-the-river-walk-04
+  - id: "2024/04/23/17933516498748715.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-23-150126-another-fun-tour-on-the-river-walk-05
+  - id: "2024/04/23/17926693076855447.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-23-150126-another-fun-tour-on-the-river-walk-06
+  - id: "2024/04/23/18067340476508551.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-23-150126-another-fun-tour-on-the-river-walk-07
+  - id: "2024/04/23/18026891804070768.jpg"
     caption:
     alt:
 related:

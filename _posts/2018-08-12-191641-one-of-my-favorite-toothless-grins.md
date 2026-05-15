@@ -15,9 +15,9 @@ source:
   caption: "One of my favorite toothless grins!!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-08-12-191641-one-of-my-favorite-toothless-grins-01
+cover_image: "2018/08/12/17968400539027093.jpg"
 images:
-  - id: instagram-2018-08-12-191641-one-of-my-favorite-toothless-grins-01
+  - id: "2018/08/12/17968400539027093.jpg"
     caption:
     alt:
 hashtags: []

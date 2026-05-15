@@ -15,9 +15,9 @@ source:
   caption: "Headed to Norfolk with my beautiful daughter"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2017-04-25-070103-headed-to-norfolk-with-my-beautiful-daughter-01
+cover_image: "2017/04/25/17869898869078534.jpg"
 images:
-  - id: instagram-2017-04-25-070103-headed-to-norfolk-with-my-beautiful-daughter-01
+  - id: "2017/04/25/17869898869078534.jpg"
     caption:
     alt:
 hashtags: []

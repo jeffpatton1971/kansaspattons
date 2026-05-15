@@ -21,69 +21,69 @@ authors:
   - "Jeff Patton"
 summary: "21 images related to Put-Put."
 gallery: wordpress-2013-05-22-075503-may-22-2013
-cover_image: "2013-05-22-img-3416"
+cover_image: "2013/05/22/img_3416.jpg"
 images:
-  - id: "2013-05-22-img-3416"
+  - id: "2013/05/22/img_3416.jpg"
     caption:
     alt:
-  - id: "2013-05-22-img-3419"
+  - id: "2013/05/22/img_3419.jpg"
     caption:
     alt:
-  - id: "2013-05-22-wp-20130522-001"
+  - id: "2013/05/22/wp_20130522_001.jpg"
     caption:
     alt:
-  - id: "2013-05-22-img-3420"
+  - id: "2013/05/22/img_3420.jpg"
     caption:
     alt:
-  - id: "2013-05-22-img-3428"
+  - id: "2013/05/22/img_3428.jpg"
     caption:
     alt:
-  - id: "2013-05-22-img-3429"
+  - id: "2013/05/22/img_3429.jpg"
     caption:
     alt:
-  - id: "2013-05-22-img-3431"
+  - id: "2013/05/22/img_3431.jpg"
     caption:
     alt:
-  - id: "2013-05-22-img-3432"
+  - id: "2013/05/22/img_3432.jpg"
     caption:
     alt:
-  - id: "2013-05-22-img-3433"
+  - id: "2013/05/22/img_3433.jpg"
     caption:
     alt:
-  - id: "2013-05-22-img-3439"
+  - id: "2013/05/22/img_3439.jpg"
     caption:
     alt:
-  - id: "2013-05-22-img-3443"
+  - id: "2013/05/22/img_3443.jpg"
     caption:
     alt:
-  - id: "2013-05-22-img-3445"
+  - id: "2013/05/22/img_3445.jpg"
     caption:
     alt:
-  - id: "2013-05-22-img-3452"
+  - id: "2013/05/22/img_3452.jpg"
     caption:
     alt:
-  - id: "2013-05-22-img-3454"
+  - id: "2013/05/22/img_3454.jpg"
     caption:
     alt:
-  - id: "2013-05-22-img-3455"
+  - id: "2013/05/22/img_3455.jpg"
     caption:
     alt:
-  - id: "2013-05-22-img-3456"
+  - id: "2013/05/22/img_3456.jpg"
     caption:
     alt:
-  - id: "2013-05-22-img-3457"
+  - id: "2013/05/22/img_3457.jpg"
     caption:
     alt:
-  - id: "2013-05-22-img-3464"
+  - id: "2013/05/22/img_3464.jpg"
     caption:
     alt:
-  - id: "2013-05-22-img-3465"
+  - id: "2013/05/22/img_3465.jpg"
     caption:
     alt:
-  - id: "2013-05-22-img-3466"
+  - id: "2013/05/22/img_3466.jpg"
     caption:
     alt:
-  - id: "2013-05-22-img-3475"
+  - id: "2013/05/22/img_3475.jpg"
     caption:
     alt:
 related:

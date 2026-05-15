@@ -15,9 +15,9 @@ source:
   caption: "Nathan pointed out that I didn't have a picture with me and him, so here goes."
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-05-16-174612-nathan-pointed-out-that-i-didn-t-have-a-picture-with-me-and-him-so-here-goes-01
+cover_image: "2014/05/16/17842496782063547.jpg"
 images:
-  - id: instagram-2014-05-16-174612-nathan-pointed-out-that-i-didn-t-have-a-picture-with-me-and-him-so-here-goes-01
+  - id: "2014/05/16/17842496782063547.jpg"
     caption:
     alt:
 hashtags: []

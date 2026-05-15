@@ -19,27 +19,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to Cancer Stinks."
 gallery: wordpress-2013-08-02-162201-august-2-2013
-cover_image: "2013-08-02-wp-20130802-15-39-32-pro"
+cover_image: "2013/08/02/wp_20130802_15_39_32_pro.jpg"
 images:
-  - id: "2013-08-02-wp-20130802-15-39-32-pro"
+  - id: "2013/08/02/wp_20130802_15_39_32_pro.jpg"
     caption:
     alt:
-  - id: "2013-08-02-wp-20130802-15-39-45-pro"
+  - id: "2013/08/02/wp_20130802_15_39_45_pro.jpg"
     caption:
     alt:
-  - id: "2013-08-02-wp-20130802-15-39-53-pro"
+  - id: "2013/08/02/wp_20130802_15_39_53_pro.jpg"
     caption:
     alt:
-  - id: "2013-08-02-wp-20130802-15-40-27-pro"
+  - id: "2013/08/02/wp_20130802_15_40_27_pro.jpg"
     caption:
     alt:
-  - id: "2013-08-02-wp-20130802-15-40-43-pro"
+  - id: "2013/08/02/wp_20130802_15_40_43_pro.jpg"
     caption:
     alt:
-  - id: "2013-08-02-wp-20130802-15-40-51-pro"
+  - id: "2013/08/02/wp_20130802_15_40_51_pro.jpg"
     caption:
     alt:
-  - id: "2013-08-02-wp-20130802-15-41-29-pro"
+  - id: "2013/08/02/wp_20130802_15_41_29_pro.jpg"
     caption:
     alt:
 related:

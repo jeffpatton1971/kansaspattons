@@ -17,24 +17,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Bio-luminescent kayaking not many pictures...there is a picture of a jelly comb and a shri...."
 gallery: instagram-2021-04-28-214536-bio-luminescent-kayaking-not-many-pictures-there-is-a-picture-of-a-jelly-comb
-cover_image: instagram-2021-04-28-214536-bio-luminescent-kayaking-not-many-pictures-there-is-a-picture-of-a-jelly-comb-01
+cover_image: "2021/04/28/17905236376866651.jpg"
 images:
-  - id: instagram-2021-04-28-214536-bio-luminescent-kayaking-not-many-pictures-there-is-a-picture-of-a-jelly-comb-01
+  - id: "2021/04/28/17905236376866651.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-28-214536-bio-luminescent-kayaking-not-many-pictures-there-is-a-picture-of-a-jelly-comb-02
+  - id: "2021/04/28/17922340294572060.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-28-214536-bio-luminescent-kayaking-not-many-pictures-there-is-a-picture-of-a-jelly-comb-03
+  - id: "2021/04/28/17896213192930612.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-28-214536-bio-luminescent-kayaking-not-many-pictures-there-is-a-picture-of-a-jelly-comb-04
+  - id: "2021/04/28/18141288739167994.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-28-214536-bio-luminescent-kayaking-not-many-pictures-there-is-a-picture-of-a-jelly-comb-05
+  - id: "2021/04/28/17888382392147823.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-28-214536-bio-luminescent-kayaking-not-many-pictures-there-is-a-picture-of-a-jelly-comb-06
+  - id: "2021/04/28/17846067932565148.jpg"
     caption:
     alt:
 related:

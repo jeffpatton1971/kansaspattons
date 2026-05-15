@@ -15,9 +15,9 @@ source:
   caption: "We really do love them both!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2015-03-16-211500-we-really-do-love-them-both-01
+cover_image: "2015/03/16/17843559013063547.jpg"
 images:
-  - id: instagram-2015-03-16-211500-we-really-do-love-them-both-01
+  - id: "2015/03/16/17843559013063547.jpg"
     caption:
     alt:
 hashtags: []

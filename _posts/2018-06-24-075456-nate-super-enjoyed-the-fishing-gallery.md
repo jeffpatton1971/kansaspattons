@@ -19,18 +19,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Nate super enjoyed the fishing."
 gallery: instagram-2018-06-24-075456-nate-super-enjoyed-the-fishing
-cover_image: instagram-2018-06-24-075456-nate-super-enjoyed-the-fishing-01
+cover_image: "2018/06/24/17941011094096855.jpg"
 images:
-  - id: instagram-2018-06-24-075456-nate-super-enjoyed-the-fishing-01
+  - id: "2018/06/24/17941011094096855.jpg"
     caption:
     alt:
-  - id: instagram-2018-06-24-075456-nate-super-enjoyed-the-fishing-02
+  - id: "2018/06/24/17921336806168640.mp4"
     caption:
     alt:
-  - id: instagram-2018-06-24-075456-nate-super-enjoyed-the-fishing-03
+  - id: "2018/06/24/17894607556211097.jpg"
     caption:
     alt:
-  - id: instagram-2018-06-24-075456-nate-super-enjoyed-the-fishing-04
+  - id: "2018/06/24/17881807204237576.jpg"
     caption:
     alt:
 related:

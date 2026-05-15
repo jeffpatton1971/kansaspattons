@@ -15,9 +15,9 @@ source:
   caption: "WTF?!?! I know I’m old but I’m not that old yet!!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-03-03-131419-wtf-i-know-i-m-old-but-i-m-not-that-old-yet-01
+cover_image: "2018/03/03/17928187648029848.jpg"
 images:
-  - id: instagram-2018-03-03-131419-wtf-i-know-i-m-old-but-i-m-not-that-old-yet-01
+  - id: "2018/03/03/17928187648029848.jpg"
     caption:
     alt:
 hashtags: []

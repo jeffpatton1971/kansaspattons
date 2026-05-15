@@ -15,9 +15,9 @@ source:
   caption: "My folks...aren't they cute?"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-09-12-193602-my-folks-aren-t-they-cute-01
+cover_image: "2014/09/12/17841813142063547.jpg"
 images:
-  - id: instagram-2014-09-12-193602-my-folks-aren-t-they-cute-01
+  - id: "2014/09/12/17841813142063547.jpg"
     caption:
     alt:
 hashtags: []

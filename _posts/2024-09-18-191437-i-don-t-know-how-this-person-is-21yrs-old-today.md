@@ -15,9 +15,9 @@ source:
   caption: "I don’t know how this person is 21yrs old today."
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2024-09-18-191437-i-don-t-know-how-this-person-is-21yrs-old-today-01
+cover_image: "2024/09/18/18059853040680927.jpg"
 images:
-  - id: instagram-2024-09-18-191437-i-don-t-know-how-this-person-is-21yrs-old-today-01
+  - id: "2024/09/18/18059853040680927.jpg"
     caption:
     alt:
 hashtags: []

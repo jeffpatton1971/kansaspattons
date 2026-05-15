@@ -15,9 +15,9 @@ source:
   caption: "a little cloudy but there is orion"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-03-04-221447-a-little-cloudy-but-there-is-orion-01
+cover_image: "2023/03/04/17988890725878834.jpg"
 images:
-  - id: instagram-2023-03-04-221447-a-little-cloudy-but-there-is-orion-01
+  - id: "2023/03/04/17988890725878834.jpg"
     caption:
     alt:
 hashtags: []

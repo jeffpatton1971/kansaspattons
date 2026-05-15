@@ -15,12 +15,12 @@ source:
   caption: "My daughter and I doing some coloring this morning... thanks for the coloring book @briankesinger"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2020-04-04-113706-my-daughter-and-i-doing-some-coloring-this-morning-thanks-for-the-coloring-book-01
+cover_image: "2020/04/04/17862479467782706.jpg"
 images:
-  - id: instagram-2020-04-04-113706-my-daughter-and-i-doing-some-coloring-this-morning-thanks-for-the-coloring-book-01
+  - id: "2020/04/04/17862479467782706.jpg"
     caption:
     alt:
-  - id: instagram-2020-04-04-113706-my-daughter-and-i-doing-some-coloring-this-morning-thanks-for-the-coloring-book-02
+  - id: "2020/04/04/17847533255025085.jpg"
     caption:
     alt:
 hashtags: []

@@ -15,7 +15,7 @@ source:
   caption: "If you made it to the end congrats and happy thanksgiving"
   media_count: 9
   cross_post_source: "FB"
-cover_image: instagram-2021-11-25-181906-if-you-made-it-to-the-end-congrats-and-happy-thanksgiving-01
+cover_image: "2021/11/25/18027849454323586.jpg"
 related:
   - type: gallery
     id: instagram-2021-11-25-181906-if-you-made-it-to-the-end-congrats-and-happy-thanksgiving

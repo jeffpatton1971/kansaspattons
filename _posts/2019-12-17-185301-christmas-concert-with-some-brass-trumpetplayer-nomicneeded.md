@@ -15,9 +15,9 @@ source:
   caption: "Christmas concert with some brass! #trumpetplayer #nomicneeded"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-12-17-185301-christmas-concert-with-some-brass-trumpetplayer-nomicneeded-01
+cover_image: "2019/12/17/18097133308098724.jpg"
 images:
-  - id: instagram-2019-12-17-185301-christmas-concert-with-some-brass-trumpetplayer-nomicneeded-01
+  - id: "2019/12/17/18097133308098724.jpg"
     caption:
     alt:
 hashtags:

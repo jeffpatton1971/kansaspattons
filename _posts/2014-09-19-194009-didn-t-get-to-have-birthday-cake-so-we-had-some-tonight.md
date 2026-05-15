@@ -15,9 +15,9 @@ source:
   caption: "Didn't get to have birthday cake so we had some tonight!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-09-19-194009-didn-t-get-to-have-birthday-cake-so-we-had-some-tonight-01
+cover_image: "2014/09/19/17843350729063547.jpg"
 images:
-  - id: instagram-2014-09-19-194009-didn-t-get-to-have-birthday-cake-so-we-had-some-tonight-01
+  - id: "2014/09/19/17843350729063547.jpg"
     caption:
     alt:
 hashtags: []

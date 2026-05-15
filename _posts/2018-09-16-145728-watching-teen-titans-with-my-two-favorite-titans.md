@@ -15,9 +15,9 @@ source:
   caption: "Watching Teen Titans with my two favorite titans!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-09-16-145728-watching-teen-titans-with-my-two-favorite-titans-01
+cover_image: "2018/09/16/17916981694217700.jpg"
 images:
-  - id: instagram-2018-09-16-145728-watching-teen-titans-with-my-two-favorite-titans-01
+  - id: "2018/09/16/17916981694217700.jpg"
     caption:
     alt:
 hashtags: []

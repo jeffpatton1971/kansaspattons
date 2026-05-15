@@ -17,30 +17,30 @@ authors:
   - "Jeff Patton"
 summary: "8 images related to Day trip to Chicago."
 gallery: instagram-2019-06-14-182321-day-trip-to-chicago
-cover_image: instagram-2019-06-14-182321-day-trip-to-chicago-01
+cover_image: "2019/06/14/17842326688491149.jpg"
 images:
-  - id: instagram-2019-06-14-182321-day-trip-to-chicago-01
+  - id: "2019/06/14/17842326688491149.jpg"
     caption:
     alt:
-  - id: instagram-2019-06-14-182321-day-trip-to-chicago-02
+  - id: "2019/06/14/18058687099099277.jpg"
     caption:
     alt:
-  - id: instagram-2019-06-14-182321-day-trip-to-chicago-03
+  - id: "2019/06/14/17979679996255098.jpg"
     caption:
     alt:
-  - id: instagram-2019-06-14-182321-day-trip-to-chicago-04
+  - id: "2019/06/14/18012594802207324.jpg"
     caption:
     alt:
-  - id: instagram-2019-06-14-182321-day-trip-to-chicago-05
+  - id: "2019/06/14/17847034984476777.jpg"
     caption:
     alt:
-  - id: instagram-2019-06-14-182321-day-trip-to-chicago-06
+  - id: "2019/06/14/17973551638269096.jpg"
     caption:
     alt:
-  - id: instagram-2019-06-14-182321-day-trip-to-chicago-07
+  - id: "2019/06/14/18038414674165520.jpg"
     caption:
     alt:
-  - id: instagram-2019-06-14-182321-day-trip-to-chicago-08
+  - id: "2019/06/14/17888562643355565.jpg"
     caption:
     alt:
 related:

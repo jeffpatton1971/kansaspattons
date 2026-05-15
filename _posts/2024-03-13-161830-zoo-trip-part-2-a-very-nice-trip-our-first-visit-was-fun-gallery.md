@@ -17,36 +17,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Zoo trip part 2: a very nice trip our first visit was fun."
 gallery: instagram-2024-03-13-161830-zoo-trip-part-2-a-very-nice-trip-our-first-visit-was-fun
-cover_image: instagram-2024-03-13-161830-zoo-trip-part-2-a-very-nice-trip-our-first-visit-was-fun-01
+cover_image: "2024/03/13/17900923394955469.jpg"
 images:
-  - id: instagram-2024-03-13-161830-zoo-trip-part-2-a-very-nice-trip-our-first-visit-was-fun-01
+  - id: "2024/03/13/17900923394955469.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-13-161830-zoo-trip-part-2-a-very-nice-trip-our-first-visit-was-fun-02
+  - id: "2024/03/13/17987373245475310.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-13-161830-zoo-trip-part-2-a-very-nice-trip-our-first-visit-was-fun-03
+  - id: "2024/03/13/18043056922660533.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-13-161830-zoo-trip-part-2-a-very-nice-trip-our-first-visit-was-fun-04
+  - id: "2024/03/13/17917968728893134.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-13-161830-zoo-trip-part-2-a-very-nice-trip-our-first-visit-was-fun-05
+  - id: "2024/03/13/17879810562026474.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-13-161830-zoo-trip-part-2-a-very-nice-trip-our-first-visit-was-fun-06
+  - id: "2024/03/13/18101522794389538.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-13-161830-zoo-trip-part-2-a-very-nice-trip-our-first-visit-was-fun-07
+  - id: "2024/03/13/18006974501142830.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-13-161830-zoo-trip-part-2-a-very-nice-trip-our-first-visit-was-fun-08
+  - id: "2024/03/13/17935394255813990.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-13-161830-zoo-trip-part-2-a-very-nice-trip-our-first-visit-was-fun-09
+  - id: "2024/03/13/18029929234901612.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-13-161830-zoo-trip-part-2-a-very-nice-trip-our-first-visit-was-fun-10
+  - id: "2024/03/13/18002730410522945.jpg"
     caption:
     alt:
 related:

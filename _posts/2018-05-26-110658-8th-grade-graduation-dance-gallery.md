@@ -17,21 +17,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to 8th grade graduation dance."
 gallery: instagram-2018-05-26-110658-8th-grade-graduation-dance
-cover_image: instagram-2018-05-26-110658-8th-grade-graduation-dance-01
+cover_image: "2018/05/26/17934314281103306.jpg"
 images:
-  - id: instagram-2018-05-26-110658-8th-grade-graduation-dance-01
+  - id: "2018/05/26/17934314281103306.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110658-8th-grade-graduation-dance-02
+  - id: "2018/05/26/17947939351022323.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110658-8th-grade-graduation-dance-03
+  - id: "2018/05/26/17947547353061975.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110658-8th-grade-graduation-dance-04
+  - id: "2018/05/26/17858575771252493.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110658-8th-grade-graduation-dance-05
+  - id: "2018/05/26/17870495167244998.jpg"
     caption:
     alt:
 related:

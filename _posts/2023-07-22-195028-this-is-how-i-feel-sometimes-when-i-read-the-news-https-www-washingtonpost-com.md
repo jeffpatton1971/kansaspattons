@@ -15,9 +15,9 @@ source:
   caption: "This is how i feel sometimes when i read the news. \n\nhttps://www.washingtonpost.com/politics/2023/07/22/desantis-slavery-curriculum/?itid=hp_p001_f005"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-07-22-195028-this-is-how-i-feel-sometimes-when-i-read-the-news-https-www-washingtonpost-com-01
+cover_image: "2023/07/22/18371661271024306.jpg"
 images:
-  - id: instagram-2023-07-22-195028-this-is-how-i-feel-sometimes-when-i-read-the-news-https-www-washingtonpost-com-01
+  - id: "2023/07/22/18371661271024306.jpg"
     caption:
     alt:
 hashtags: []

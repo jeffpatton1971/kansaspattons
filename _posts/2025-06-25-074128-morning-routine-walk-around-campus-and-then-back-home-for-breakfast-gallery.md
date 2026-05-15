@@ -17,24 +17,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Morning routine. Walk around campus and then back home for breakfast."
 gallery: instagram-2025-06-25-074128-morning-routine-walk-around-campus-and-then-back-home-for-breakfast
-cover_image: instagram-2025-06-25-074128-morning-routine-walk-around-campus-and-then-back-home-for-breakfast-01
+cover_image: "2025/06/25/17850170280485485.jpg"
 images:
-  - id: instagram-2025-06-25-074128-morning-routine-walk-around-campus-and-then-back-home-for-breakfast-01
+  - id: "2025/06/25/17850170280485485.jpg"
     caption:
     alt:
-  - id: instagram-2025-06-25-074128-morning-routine-walk-around-campus-and-then-back-home-for-breakfast-02
+  - id: "2025/06/25/18085150327615230.jpg"
     caption:
     alt:
-  - id: instagram-2025-06-25-074128-morning-routine-walk-around-campus-and-then-back-home-for-breakfast-03
+  - id: "2025/06/25/18274157521272141.jpg"
     caption:
     alt:
-  - id: instagram-2025-06-25-074128-morning-routine-walk-around-campus-and-then-back-home-for-breakfast-04
+  - id: "2025/06/25/18063362798326415.jpg"
     caption:
     alt:
-  - id: instagram-2025-06-25-074128-morning-routine-walk-around-campus-and-then-back-home-for-breakfast-05
+  - id: "2025/06/25/17979515090715568.jpg"
     caption:
     alt:
-  - id: instagram-2025-06-25-074128-morning-routine-walk-around-campus-and-then-back-home-for-breakfast-06
+  - id: "2025/06/25/18304166590174222.jpg"
     caption:
     alt:
 related:

@@ -15,9 +15,9 @@ source:
   caption: "Nathan and Annika"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-07-05-141143-nathan-and-annika-01
+cover_image: "2014/07/05/17843321482063547.jpg"
 images:
-  - id: instagram-2014-07-05-141143-nathan-and-annika-01
+  - id: "2014/07/05/17843321482063547.jpg"
     caption:
     alt:
 hashtags: []

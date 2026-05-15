@@ -15,7 +15,7 @@ source:
   caption: "Nice day to be out enjoying some fun places"
   media_count: 7
   cross_post_source: "FB"
-cover_image: instagram-2018-09-30-151547-nice-day-to-be-out-enjoying-some-fun-places-01
+cover_image: "2018/09/30/17921061859216118.jpg"
 related:
   - type: gallery
     id: instagram-2018-09-30-151547-nice-day-to-be-out-enjoying-some-fun-places

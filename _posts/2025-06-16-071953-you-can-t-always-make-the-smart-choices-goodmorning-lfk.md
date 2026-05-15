@@ -15,9 +15,9 @@ source:
   caption: "You can’t always make the smart choices! #goodmorning #lfk"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-06-16-071953-you-can-t-always-make-the-smart-choices-goodmorning-lfk-01
+cover_image: "2025/06/16/18060920170967789.jpg"
 images:
-  - id: instagram-2025-06-16-071953-you-can-t-always-make-the-smart-choices-goodmorning-lfk-01
+  - id: "2025/06/16/18060920170967789.jpg"
     caption:
     alt:
 hashtags:

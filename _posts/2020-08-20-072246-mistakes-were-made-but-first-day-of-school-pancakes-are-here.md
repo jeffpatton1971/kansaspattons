@@ -15,7 +15,7 @@ source:
   caption: "Mistakes were made but first day of school pancakes are here"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2020-08-20-072246-mistakes-were-made-but-first-day-of-school-pancakes-are-here-01
+cover_image: "2020/08/20/18105837025163184.jpg"
 related:
   - type: gallery
     id: instagram-2020-08-20-072246-mistakes-were-made-but-first-day-of-school-pancakes-are-here

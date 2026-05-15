@@ -15,9 +15,9 @@ source:
   caption: "#fireworks #slowmotion"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-07-04-163106-fireworks-slowmotion-01
+cover_image: "2021/07/04/17897062610057242.mp4"
 images:
-  - id: instagram-2021-07-04-163106-fireworks-slowmotion-01
+  - id: "2021/07/04/17897062610057242.mp4"
     caption:
     alt:
 hashtags:

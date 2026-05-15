@@ -15,12 +15,12 @@ source:
   caption: "Couldn’t decide which I liked more so here’s both #morningwalk"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2020-04-08-072754-couldn-t-decide-which-i-liked-more-so-here-s-both-morningwalk-01
+cover_image: "2020/04/08/17863802491763426.jpg"
 images:
-  - id: instagram-2020-04-08-072754-couldn-t-decide-which-i-liked-more-so-here-s-both-morningwalk-01
+  - id: "2020/04/08/17863802491763426.jpg"
     caption:
     alt:
-  - id: instagram-2020-04-08-072754-couldn-t-decide-which-i-liked-more-so-here-s-both-morningwalk-02
+  - id: "2020/04/08/17928535042374143.jpg"
     caption:
     alt:
 hashtags:

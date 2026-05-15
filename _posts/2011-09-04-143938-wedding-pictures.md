@@ -23,66 +23,66 @@ categories:
   - album
 tags: []
 gallery: facebook-2011-09-04-143938-wedding-pictures
-cover_image: facebook-2011-09-04-143938-wedding-pictures-0001
+cover_image: "2011/09/04/10150303559748340.jpg"
 images:
-  - id: facebook-2011-09-04-143938-wedding-pictures-0001
+  - id: "2011/09/04/10150303559748340.jpg"
     caption:
     alt:
-  - id: facebook-2011-09-04-143938-wedding-pictures-0002
+  - id: "2011/09/04/10150303572813340.jpg"
     caption:
     alt:
-  - id: facebook-2011-09-04-143938-wedding-pictures-0003
+  - id: "2011/09/04/10150303578153340.jpg"
     caption:
     alt:
-  - id: facebook-2011-09-04-143938-wedding-pictures-0004
+  - id: "2011/09/04/10150303579708340.jpg"
     caption:
     alt:
-  - id: facebook-2011-09-04-143938-wedding-pictures-0005
+  - id: "2011/09/04/10150303582978340.jpg"
     caption:
     alt:
-  - id: facebook-2011-09-04-143938-wedding-pictures-0006
+  - id: "2011/09/04/10150303585023340.jpg"
     caption:
     alt:
-  - id: facebook-2011-09-04-143938-wedding-pictures-0007
+  - id: "2011/09/04/10150303587118340.jpg"
     caption:
     alt:
-  - id: facebook-2011-09-04-143938-wedding-pictures-0008
+  - id: "2011/09/04/10150303588233340.jpg"
     caption:
     alt:
-  - id: facebook-2011-09-04-143938-wedding-pictures-0009
+  - id: "2011/09/04/10150303589523340.jpg"
     caption:
     alt:
-  - id: facebook-2011-09-04-143938-wedding-pictures-0010
+  - id: "2011/09/04/10150303590908340.jpg"
     caption:
     alt:
-  - id: facebook-2011-09-04-143938-wedding-pictures-0011
+  - id: "2011/09/04/10150303593163340.jpg"
     caption:
     alt:
-  - id: facebook-2011-09-04-143938-wedding-pictures-0012
+  - id: "2011/09/04/10150303598283340.jpg"
     caption:
     alt:
-  - id: facebook-2011-09-04-143938-wedding-pictures-0013
+  - id: "2011/09/04/10150303600383340.jpg"
     caption:
     alt:
-  - id: facebook-2011-09-04-143938-wedding-pictures-0014
+  - id: "2011/09/04/10150303608128340.jpg"
     caption:
     alt:
-  - id: facebook-2011-09-04-143938-wedding-pictures-0015
+  - id: "2011/09/04/10150303610283340.jpg"
     caption:
     alt:
-  - id: facebook-2011-09-04-143938-wedding-pictures-0016
+  - id: "2011/09/04/10150303612413340.jpg"
     caption:
     alt:
-  - id: facebook-2011-09-04-143938-wedding-pictures-0017
+  - id: "2011/09/04/10150303614643340.jpg"
     caption:
     alt:
-  - id: facebook-2011-09-04-143938-wedding-pictures-0018
+  - id: "2011/09/04/10150303617418340.jpg"
     caption:
     alt:
-  - id: facebook-2011-09-04-143938-wedding-pictures-0019
+  - id: "2011/09/04/10150303621893340.jpg"
     caption:
     alt:
-  - id: facebook-2011-09-04-143938-wedding-pictures-0020
+  - id: "2011/09/04/10150303623688340.jpg"
     caption:
     alt:
 authors:

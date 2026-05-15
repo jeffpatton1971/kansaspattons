@@ -15,7 +15,7 @@ source:
   caption: "Nate super enjoyed the fishing"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2018-06-24-075456-nate-super-enjoyed-the-fishing-01
+cover_image: "2018/06/24/17941011094096855.jpg"
 related:
   - type: gallery
     id: instagram-2018-06-24-075456-nate-super-enjoyed-the-fishing

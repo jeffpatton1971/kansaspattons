@@ -17,24 +17,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Had a fun evening with my uncle and his men’s group at Top Golf."
 gallery: instagram-2025-09-19-085244-had-a-fun-evening-with-my-uncle-and-his-men-s-group-at-top-golf
-cover_image: instagram-2025-09-19-085244-had-a-fun-evening-with-my-uncle-and-his-men-s-group-at-top-golf-01
+cover_image: "2025/09/19/18004991969801334.jpg"
 images:
-  - id: instagram-2025-09-19-085244-had-a-fun-evening-with-my-uncle-and-his-men-s-group-at-top-golf-01
+  - id: "2025/09/19/18004991969801334.jpg"
     caption:
     alt:
-  - id: instagram-2025-09-19-085244-had-a-fun-evening-with-my-uncle-and-his-men-s-group-at-top-golf-02
+  - id: "2025/09/19/17938385172072669.jpg"
     caption:
     alt:
-  - id: instagram-2025-09-19-085244-had-a-fun-evening-with-my-uncle-and-his-men-s-group-at-top-golf-03
+  - id: "2025/09/19/18082094519500804.jpg"
     caption:
     alt:
-  - id: instagram-2025-09-19-085244-had-a-fun-evening-with-my-uncle-and-his-men-s-group-at-top-golf-04
+  - id: "2025/09/19/17933006442098559.jpg"
     caption:
     alt:
-  - id: instagram-2025-09-19-085244-had-a-fun-evening-with-my-uncle-and-his-men-s-group-at-top-golf-05
+  - id: "2025/09/19/18094168981681128.jpg"
     caption:
     alt:
-  - id: instagram-2025-09-19-085244-had-a-fun-evening-with-my-uncle-and-his-men-s-group-at-top-golf-06
+  - id: "2025/09/19/17895637851307091.jpg"
     caption:
     alt:
 related:

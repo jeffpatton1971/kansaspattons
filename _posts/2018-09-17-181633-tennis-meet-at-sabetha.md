@@ -15,15 +15,15 @@ source:
   caption: "Tennis meet at Sabetha"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2018-09-17-181633-tennis-meet-at-sabetha-01
+cover_image: "2018/09/17/17962391989121220.jpg"
 images:
-  - id: instagram-2018-09-17-181633-tennis-meet-at-sabetha-01
+  - id: "2018/09/17/17962391989121220.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-17-181633-tennis-meet-at-sabetha-02
+  - id: "2018/09/17/17982018655001065.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-17-181633-tennis-meet-at-sabetha-03
+  - id: "2018/09/17/17953053865185105.jpg"
     caption:
     alt:
 hashtags: []

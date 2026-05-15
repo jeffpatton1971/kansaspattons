@@ -15,9 +15,9 @@ source:
   caption: "Loved skating with these two crazy kids!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2015-02-22-130123-loved-skating-with-these-two-crazy-kids-01
+cover_image: "2015/02/22/17843554036063547.jpg"
 images:
-  - id: instagram-2015-02-22-130123-loved-skating-with-these-two-crazy-kids-01
+  - id: "2015/02/22/17843554036063547.jpg"
     caption:
     alt:
 hashtags: []

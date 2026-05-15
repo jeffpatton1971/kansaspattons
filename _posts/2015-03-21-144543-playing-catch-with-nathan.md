@@ -15,9 +15,9 @@ source:
   caption: "Playing catch with Nathan"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2015-03-21-144543-playing-catch-with-nathan-01
+cover_image: "2015/03/21/17841776326063547.jpg"
 images:
-  - id: instagram-2015-03-21-144543-playing-catch-with-nathan-01
+  - id: "2015/03/21/17841776326063547.jpg"
     caption:
     alt:
 hashtags: []

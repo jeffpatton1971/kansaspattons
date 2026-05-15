@@ -18,30 +18,30 @@ authors:
   - "Jeff Patton"
 summary: "8 images related to Swimming Lessons."
 gallery: wordpress-2013-06-28-083418-june-28-2013
-cover_image: "2013-06-28-wp-20130628-005"
+cover_image: "2013/06/28/wp_20130628_005.jpg"
 images:
-  - id: "2013-06-28-wp-20130628-005"
+  - id: "2013/06/28/wp_20130628_005.jpg"
     caption:
     alt:
-  - id: "2013-06-28-wp-20130628-007"
+  - id: "2013/06/28/wp_20130628_007.jpg"
     caption:
     alt:
-  - id: "2013-06-28-wp-20130628-010"
+  - id: "2013/06/28/wp_20130628_010.jpg"
     caption:
     alt:
-  - id: "2013-06-28-wp-20130628-011"
+  - id: "2013/06/28/wp_20130628_011.jpg"
     caption:
     alt:
-  - id: "2013-06-28-wp-20130628-012"
+  - id: "2013/06/28/wp_20130628_012.jpg"
     caption:
     alt:
-  - id: "2013-06-28-wp-20130628-014"
+  - id: "2013/06/28/wp_20130628_014.jpg"
     caption:
     alt:
-  - id: "2013-06-28-wp-20130628-015"
+  - id: "2013/06/28/wp_20130628_015.jpg"
     caption:
     alt:
-  - id: "2013-06-28-wp-20130628-017"
+  - id: "2013/06/28/wp_20130628_017.jpg"
     caption:
     alt:
 related:

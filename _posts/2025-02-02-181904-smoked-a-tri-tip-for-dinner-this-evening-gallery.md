@@ -18,21 +18,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to #smoked a tri-tip for dinner this evening."
 gallery: instagram-2025-02-02-181904-smoked-a-tri-tip-for-dinner-this-evening
-cover_image: instagram-2025-02-02-181904-smoked-a-tri-tip-for-dinner-this-evening-01
+cover_image: "2025/02/02/18315883798207811.jpg"
 images:
-  - id: instagram-2025-02-02-181904-smoked-a-tri-tip-for-dinner-this-evening-01
+  - id: "2025/02/02/18315883798207811.jpg"
     caption:
     alt:
-  - id: instagram-2025-02-02-181904-smoked-a-tri-tip-for-dinner-this-evening-02
+  - id: "2025/02/02/18032453201540840.jpg"
     caption:
     alt:
-  - id: instagram-2025-02-02-181904-smoked-a-tri-tip-for-dinner-this-evening-03
+  - id: "2025/02/02/18035050247408461.jpg"
     caption:
     alt:
-  - id: instagram-2025-02-02-181904-smoked-a-tri-tip-for-dinner-this-evening-04
+  - id: "2025/02/02/18032994134246113.jpg"
     caption:
     alt:
-  - id: instagram-2025-02-02-181904-smoked-a-tri-tip-for-dinner-this-evening-05
+  - id: "2025/02/02/18055881961841772.jpg"
     caption:
     alt:
 related:

@@ -15,9 +15,9 @@ source:
   caption: "Yard work done just as the rain comes in"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-09-28-132543-yard-work-done-just-as-the-rain-comes-in-01
+cover_image: "2019/09/28/17921681749334283.jpg"
 images:
-  - id: instagram-2019-09-28-132543-yard-work-done-just-as-the-rain-comes-in-01
+  - id: "2019/09/28/17921681749334283.jpg"
     caption:
     alt:
 hashtags: []

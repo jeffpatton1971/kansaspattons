@@ -15,9 +15,9 @@ source:
   caption: "Natalie & co singing before the play"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2013-12-14-121014-natalie-and-co-singing-before-the-play-01
+cover_image: "2013/12/14/17842413373063547.jpg"
 images:
-  - id: instagram-2013-12-14-121014-natalie-and-co-singing-before-the-play-01
+  - id: "2013/12/14/17842413373063547.jpg"
     caption:
     alt:
 hashtags: []

@@ -15,7 +15,7 @@ source:
   caption: "Was a cheerleader today at Helen’s Rock"
   media_count: 5
   cross_post_source: "FB"
-cover_image: instagram-2019-05-02-123223-was-a-cheerleader-today-at-helen-s-rock-01
+cover_image: "2019/05/02/18044402374109687.jpg"
 related:
   - type: gallery
     id: instagram-2019-05-02-123223-was-a-cheerleader-today-at-helen-s-rock

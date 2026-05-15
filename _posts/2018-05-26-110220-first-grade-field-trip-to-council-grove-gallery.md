@@ -17,27 +17,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to First grade field trip to Council Grove."
 gallery: instagram-2018-05-26-110220-first-grade-field-trip-to-council-grove
-cover_image: instagram-2018-05-26-110220-first-grade-field-trip-to-council-grove-01
+cover_image: "2018/05/26/17946944464041052.jpg"
 images:
-  - id: instagram-2018-05-26-110220-first-grade-field-trip-to-council-grove-01
+  - id: "2018/05/26/17946944464041052.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110220-first-grade-field-trip-to-council-grove-02
+  - id: "2018/05/26/17929121260087596.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110220-first-grade-field-trip-to-council-grove-03
+  - id: "2018/05/26/17923337878193227.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110220-first-grade-field-trip-to-council-grove-04
+  - id: "2018/05/26/17919329932177014.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110220-first-grade-field-trip-to-council-grove-05
+  - id: "2018/05/26/17947284943061619.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110220-first-grade-field-trip-to-council-grove-06
+  - id: "2018/05/26/17886319855222364.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110220-first-grade-field-trip-to-council-grove-07
+  - id: "2018/05/26/17949068752059508.jpg"
     caption:
     alt:
 related:

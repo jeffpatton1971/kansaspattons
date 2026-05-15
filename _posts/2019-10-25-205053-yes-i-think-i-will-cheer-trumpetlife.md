@@ -15,9 +15,9 @@ source:
   caption: "Yes...I think I will cheer! #trumpetlife"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-10-25-205053-yes-i-think-i-will-cheer-trumpetlife-01
+cover_image: "2019/10/25/17902046191387124.jpg"
 images:
-  - id: instagram-2019-10-25-205053-yes-i-think-i-will-cheer-trumpetlife-01
+  - id: "2019/10/25/17902046191387124.jpg"
     caption:
     alt:
 hashtags:

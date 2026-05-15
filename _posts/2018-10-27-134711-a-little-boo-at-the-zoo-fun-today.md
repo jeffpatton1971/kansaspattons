@@ -15,7 +15,7 @@ source:
   caption: "A little Boo at the Zoo fun today!"
   media_count: 7
   cross_post_source: "FB"
-cover_image: instagram-2018-10-27-134711-a-little-boo-at-the-zoo-fun-today-01
+cover_image: "2018/10/27/17985768700079045.jpg"
 related:
   - type: gallery
     id: instagram-2018-10-27-134711-a-little-boo-at-the-zoo-fun-today

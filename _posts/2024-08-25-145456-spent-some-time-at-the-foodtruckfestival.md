@@ -15,7 +15,7 @@ source:
   caption: "Spent some time at the #foodtruckfestival"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2024-08-25-145456-spent-some-time-at-the-foodtruckfestival-01
+cover_image: "2024/08/25/17895798234059024.jpg"
 related:
   - type: gallery
     id: instagram-2024-08-25-145456-spent-some-time-at-the-foodtruckfestival

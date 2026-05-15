@@ -15,9 +15,9 @@ source:
   caption: "Taking this girl out for a nice little dinner"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-10-01-175904-taking-this-girl-out-for-a-nice-little-dinner-01
+cover_image: "2018/10/01/17943839137194022.jpg"
 images:
-  - id: instagram-2018-10-01-175904-taking-this-girl-out-for-a-nice-little-dinner-01
+  - id: "2018/10/01/17943839137194022.jpg"
     caption:
     alt:
 hashtags: []

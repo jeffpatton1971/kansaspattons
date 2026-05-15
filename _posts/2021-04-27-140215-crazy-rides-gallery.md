@@ -17,36 +17,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Crazy rides."
 gallery: instagram-2021-04-27-140215-crazy-rides
-cover_image: instagram-2021-04-27-140215-crazy-rides-01
+cover_image: "2021/04/27/17929299358554984.jpg"
 images:
-  - id: instagram-2021-04-27-140215-crazy-rides-01
+  - id: "2021/04/27/17929299358554984.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-140215-crazy-rides-02
+  - id: "2021/04/27/17965247122398989.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-140215-crazy-rides-03
+  - id: "2021/04/27/17871902252472985.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-140215-crazy-rides-04
+  - id: "2021/04/27/18156195433145729.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-140215-crazy-rides-05
+  - id: "2021/04/27/18220296949019746.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-140215-crazy-rides-06
+  - id: "2021/04/27/17846392820581403.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-140215-crazy-rides-07
+  - id: "2021/04/27/17886244700080313.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-140215-crazy-rides-08
+  - id: "2021/04/27/17930710102536576.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-140215-crazy-rides-09
+  - id: "2021/04/27/17939995705491749.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-140215-crazy-rides-10
+  - id: "2021/04/27/17894147924025117.jpg"
     caption:
     alt:
 related:

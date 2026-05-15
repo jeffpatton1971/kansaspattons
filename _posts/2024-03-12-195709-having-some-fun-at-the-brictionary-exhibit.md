@@ -15,7 +15,7 @@ source:
   caption: "Having some fun at the #brictionary exhibit"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2024-03-12-195709-having-some-fun-at-the-brictionary-exhibit-01
+cover_image: "2024/03/12/18051983557592891.jpg"
 related:
   - type: gallery
     id: instagram-2024-03-12-195709-having-some-fun-at-the-brictionary-exhibit

@@ -15,7 +15,7 @@ source:
   caption: "Lunch with my sister"
   media_count: 7
   cross_post_source: "FB"
-cover_image: instagram-2025-04-11-153218-lunch-with-my-sister-01
+cover_image: "2025/04/11/18058863068082490.jpg"
 related:
   - type: gallery
     id: instagram-2025-04-11-153218-lunch-with-my-sister

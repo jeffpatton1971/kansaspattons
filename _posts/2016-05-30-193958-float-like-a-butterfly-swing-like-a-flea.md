@@ -15,9 +15,9 @@ source:
   caption: "Float like a butterfly, swing like a flea!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2016-05-30-193958-float-like-a-butterfly-swing-like-a-flea-01
+cover_image: "2016/05/30/17857324636021561.jpg"
 images:
-  - id: instagram-2016-05-30-193958-float-like-a-butterfly-swing-like-a-flea-01
+  - id: "2016/05/30/17857324636021561.jpg"
     caption:
     alt:
 hashtags: []

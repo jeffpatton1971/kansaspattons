@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Was a fun evening after keynundrum."
 gallery: instagram-2018-09-23-092729-was-a-fun-evening-after-keynundrum
-cover_image: instagram-2018-09-23-092729-was-a-fun-evening-after-keynundrum-01
+cover_image: "2018/09/23/17974160650079415.jpg"
 images:
-  - id: instagram-2018-09-23-092729-was-a-fun-evening-after-keynundrum-01
+  - id: "2018/09/23/17974160650079415.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-23-092729-was-a-fun-evening-after-keynundrum-02
+  - id: "2018/09/23/17982582493048150.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-23-092729-was-a-fun-evening-after-keynundrum-03
+  - id: "2018/09/23/17984468341063312.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-23-092729-was-a-fun-evening-after-keynundrum-04
+  - id: "2018/09/23/17960908276083263.jpg"
     caption:
     alt:
 related:

@@ -18,27 +18,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to Had a wonderful evening with @natalie__patton listening to #edgarallenpoe dramatic reading...."
 gallery: instagram-2024-12-13-222650-had-a-wonderful-evening-with-natalie-patton-listening-to-edgarallenpoe-dramatic
-cover_image: instagram-2024-12-13-222650-had-a-wonderful-evening-with-natalie-patton-listening-to-edgarallenpoe-dramatic-01
+cover_image: "2024/12/13/18047082764473902.jpg"
 images:
-  - id: instagram-2024-12-13-222650-had-a-wonderful-evening-with-natalie-patton-listening-to-edgarallenpoe-dramatic-01
+  - id: "2024/12/13/18047082764473902.jpg"
     caption:
     alt:
-  - id: instagram-2024-12-13-222650-had-a-wonderful-evening-with-natalie-patton-listening-to-edgarallenpoe-dramatic-02
+  - id: "2024/12/13/18156662245331560.jpg"
     caption:
     alt:
-  - id: instagram-2024-12-13-222650-had-a-wonderful-evening-with-natalie-patton-listening-to-edgarallenpoe-dramatic-03
+  - id: "2024/12/13/18050439752015530.jpg"
     caption:
     alt:
-  - id: instagram-2024-12-13-222650-had-a-wonderful-evening-with-natalie-patton-listening-to-edgarallenpoe-dramatic-04
+  - id: "2024/12/13/18051701033064092.jpg"
     caption:
     alt:
-  - id: instagram-2024-12-13-222650-had-a-wonderful-evening-with-natalie-patton-listening-to-edgarallenpoe-dramatic-05
+  - id: "2024/12/13/17869801653258352.jpg"
     caption:
     alt:
-  - id: instagram-2024-12-13-222650-had-a-wonderful-evening-with-natalie-patton-listening-to-edgarallenpoe-dramatic-06
+  - id: "2024/12/13/18099665416472164.jpg"
     caption:
     alt:
-  - id: instagram-2024-12-13-222650-had-a-wonderful-evening-with-natalie-patton-listening-to-edgarallenpoe-dramatic-07
+  - id: "2024/12/13/18060443551867153.jpg"
     caption:
     alt:
 related:

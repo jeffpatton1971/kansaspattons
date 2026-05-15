@@ -15,9 +15,9 @@ source:
   caption: "Last regular season game"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-06-25-203116-last-regular-season-game-01
+cover_image: "2019/06/25/18050743276094877.jpg"
 images:
-  - id: instagram-2019-06-25-203116-last-regular-season-game-01
+  - id: "2019/06/25/18050743276094877.jpg"
     caption:
     alt:
 hashtags: []

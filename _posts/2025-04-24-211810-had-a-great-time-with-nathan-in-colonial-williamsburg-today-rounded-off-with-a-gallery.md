@@ -19,45 +19,45 @@ authors:
   - "Jeff Patton"
 summary: "13 images related to Had a great time with Nathan in Colonial Williamsburg today rounded off with a pirate tria...."
 gallery: instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a
-cover_image: instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a-01
+cover_image: "2025/04/24/18073953901858176.jpg"
 images:
-  - id: instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a-01
+  - id: "2025/04/24/18073953901858176.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a-02
+  - id: "2025/04/24/18070039123927291.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a-03
+  - id: "2025/04/24/18049683443605939.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a-04
+  - id: "2025/04/24/17966931146750580.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a-05
+  - id: "2025/04/24/18072700060892312.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a-06
+  - id: "2025/04/24/18075670240840444.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a-07
+  - id: "2025/04/24/17965524956906245.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a-08
+  - id: "2025/04/24/17893861479211962.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a-09
+  - id: "2025/04/24/18057713426148454.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a-10
+  - id: "2025/04/24/18065002046054226.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a-11
+  - id: "2025/04/24/17920311840079533.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a-12
+  - id: "2025/04/24/18097131046489289.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a-13
+  - id: "2025/04/24/18162103009343721.jpg"
     caption:
     alt:
 related:

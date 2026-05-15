@@ -19,21 +19,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to Cat Scan."
 gallery: wordpress-2013-07-09-074017-july-9-2013
-cover_image: "2013-07-09-wp-20130709-001"
+cover_image: "2013/07/09/wp_20130709_001.jpg"
 images:
-  - id: "2013-07-09-wp-20130709-001"
+  - id: "2013/07/09/wp_20130709_001.jpg"
     caption:
     alt:
-  - id: "2013-07-09-wp-20130709-002"
+  - id: "2013/07/09/wp_20130709_002.jpg"
     caption:
     alt:
-  - id: "2013-07-09-wp-20130709-004"
+  - id: "2013/07/09/wp_20130709_004.jpg"
     caption:
     alt:
-  - id: "2013-07-09-wp-20130709-007"
+  - id: "2013/07/09/wp_20130709_007.jpg"
     caption:
     alt:
-  - id: "2013-07-09-wp-20130709-008"
+  - id: "2013/07/09/wp_20130709_008.jpg"
     caption:
     alt:
 related:

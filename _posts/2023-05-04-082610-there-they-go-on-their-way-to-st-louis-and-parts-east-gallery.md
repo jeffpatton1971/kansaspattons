@@ -17,21 +17,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to there they go.., on their way to st louis and parts east!."
 gallery: instagram-2023-05-04-082610-there-they-go-on-their-way-to-st-louis-and-parts-east
-cover_image: instagram-2023-05-04-082610-there-they-go-on-their-way-to-st-louis-and-parts-east-01
+cover_image: "2023/05/04/18080245837322628.jpg"
 images:
-  - id: instagram-2023-05-04-082610-there-they-go-on-their-way-to-st-louis-and-parts-east-01
+  - id: "2023/05/04/18080245837322628.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-04-082610-there-they-go-on-their-way-to-st-louis-and-parts-east-02
+  - id: "2023/05/04/18042805993449407.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-04-082610-there-they-go-on-their-way-to-st-louis-and-parts-east-03
+  - id: "2023/05/04/18008076802629576.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-04-082610-there-they-go-on-their-way-to-st-louis-and-parts-east-04
+  - id: "2023/05/04/17975785715476041.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-04-082610-there-they-go-on-their-way-to-st-louis-and-parts-east-05
+  - id: "2023/05/04/17969499200366373.jpg"
     caption:
     alt:
 related:

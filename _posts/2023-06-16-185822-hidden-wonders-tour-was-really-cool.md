@@ -15,7 +15,7 @@ source:
   caption: "Hidden Wonders tour was really cool"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2023-06-16-185822-hidden-wonders-tour-was-really-cool-01
+cover_image: "2023/06/16/18194763751248872.jpg"
 related:
   - type: gallery
     id: instagram-2023-06-16-185822-hidden-wonders-tour-was-really-cool

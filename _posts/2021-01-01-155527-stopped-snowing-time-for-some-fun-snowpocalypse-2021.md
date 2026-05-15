@@ -15,7 +15,7 @@ source:
   caption: "Stopped snowing...time for some fun #snowpocalypse #2021"
   media_count: 8
   cross_post_source: "FB"
-cover_image: instagram-2021-01-01-155527-stopped-snowing-time-for-some-fun-snowpocalypse-2021-01
+cover_image: "2021/01/01/17893368112815551.jpg"
 related:
   - type: gallery
     id: instagram-2021-01-01-155527-stopped-snowing-time-for-some-fun-snowpocalypse-2021

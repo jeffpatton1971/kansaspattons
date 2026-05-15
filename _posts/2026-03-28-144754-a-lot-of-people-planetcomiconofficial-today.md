@@ -15,7 +15,7 @@ source:
   caption: "A lot of people @planetcomiconofficial today!"
   media_count: 8
   cross_post_source: "FB"
-cover_image: instagram-2026-03-28-144754-a-lot-of-people-planetcomiconofficial-today-01
+cover_image: "2026/03/28/18138062575504336.jpg"
 related:
   - type: gallery
     id: instagram-2026-03-28-144754-a-lot-of-people-planetcomiconofficial-today

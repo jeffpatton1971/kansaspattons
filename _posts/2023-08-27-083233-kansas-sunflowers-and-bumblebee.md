@@ -15,15 +15,15 @@ source:
   caption: "#kansas #sunflowers🌻 and #bumblebee"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2023-08-27-083233-kansas-sunflowers-and-bumblebee-01
+cover_image: "2023/08/27/18041497837507840.jpg"
 images:
-  - id: instagram-2023-08-27-083233-kansas-sunflowers-and-bumblebee-01
+  - id: "2023/08/27/18041497837507840.jpg"
     caption:
     alt:
-  - id: instagram-2023-08-27-083233-kansas-sunflowers-and-bumblebee-02
+  - id: "2023/08/27/17898914522847723.jpg"
     caption:
     alt:
-  - id: instagram-2023-08-27-083233-kansas-sunflowers-and-bumblebee-03
+  - id: "2023/08/27/17961543059499788.jpg"
     caption:
     alt:
 hashtags:

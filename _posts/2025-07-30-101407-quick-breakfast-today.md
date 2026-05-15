@@ -15,9 +15,9 @@ source:
   caption: "Quick breakfast today"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-07-30-101407-quick-breakfast-today-01
+cover_image: "2025/07/30/18089798686668764.jpg"
 images:
-  - id: instagram-2025-07-30-101407-quick-breakfast-today-01
+  - id: "2025/07/30/18089798686668764.jpg"
     caption:
     alt:
 hashtags: []

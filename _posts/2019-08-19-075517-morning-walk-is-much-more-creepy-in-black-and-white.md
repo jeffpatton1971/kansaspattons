@@ -15,9 +15,9 @@ source:
   caption: "Morning walk is much more creepy in black and white 😂"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-08-19-075517-morning-walk-is-much-more-creepy-in-black-and-white-01
+cover_image: "2019/08/19/17881850530409833.jpg"
 images:
-  - id: instagram-2019-08-19-075517-morning-walk-is-much-more-creepy-in-black-and-white-01
+  - id: "2019/08/19/17881850530409833.jpg"
     caption:
     alt:
 hashtags: []

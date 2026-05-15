@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to First time watching @sportingkcii great game and good win!."
 gallery: instagram-2023-07-02-202208-first-time-watching-sportingkcii-great-game-and-good-win
-cover_image: instagram-2023-07-02-202208-first-time-watching-sportingkcii-great-game-and-good-win-01
+cover_image: "2023/07/02/17963262092376229.jpg"
 images:
-  - id: instagram-2023-07-02-202208-first-time-watching-sportingkcii-great-game-and-good-win-01
+  - id: "2023/07/02/17963262092376229.jpg"
     caption:
     alt:
-  - id: instagram-2023-07-02-202208-first-time-watching-sportingkcii-great-game-and-good-win-02
+  - id: "2023/07/02/18000278014907282.jpg"
     caption:
     alt:
-  - id: instagram-2023-07-02-202208-first-time-watching-sportingkcii-great-game-and-good-win-03
+  - id: "2023/07/02/18299758867105005.jpg"
     caption:
     alt:
-  - id: instagram-2023-07-02-202208-first-time-watching-sportingkcii-great-game-and-good-win-04
+  - id: "2023/07/02/17894049356832421.jpg"
     caption:
     alt:
 related:

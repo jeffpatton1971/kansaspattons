@@ -19,48 +19,48 @@ authors:
   - "Jeff Patton"
 summary: "14 images related to Tennis Tournament."
 gallery: wordpress-2013-08-10-165044-august-10-2013
-cover_image: "2013-08-10-wp-20130810-15-03-39-pro"
+cover_image: "2013/08/10/wp_20130810_15_03_39_pro.jpg"
 images:
-  - id: "2013-08-10-wp-20130810-15-03-39-pro"
+  - id: "2013/08/10/wp_20130810_15_03_39_pro.jpg"
     caption:
     alt:
-  - id: "2013-08-10-wp-20130810-15-03-59-pro"
+  - id: "2013/08/10/wp_20130810_15_03_59_pro.jpg"
     caption:
     alt:
-  - id: "2013-08-10-wp-20130810-15-19-47-smart"
+  - id: "2013/08/10/wp_20130810_15_19_47_smart.jpg"
     caption:
     alt:
-  - id: "2013-08-10-wp-20130810-15-23-24-pro"
+  - id: "2013/08/10/wp_20130810_15_23_24_pro.jpg"
     caption:
     alt:
-  - id: "2013-08-10-wp-20130810-15-23-43-pro"
+  - id: "2013/08/10/wp_20130810_15_23_43_pro.jpg"
     caption:
     alt:
-  - id: "2013-08-10-wp-20130810-15-26-47-pro"
+  - id: "2013/08/10/wp_20130810_15_26_47_pro.jpg"
     caption:
     alt:
-  - id: "2013-08-10-wp-20130810-15-28-02-pro"
+  - id: "2013/08/10/wp_20130810_15_28_02_pro.jpg"
     caption:
     alt:
-  - id: "2013-08-10-wp-20130810-15-28-37-pro"
+  - id: "2013/08/10/wp_20130810_15_28_37_pro.jpg"
     caption:
     alt:
-  - id: "2013-08-10-wp-20130810-15-29-44-pro"
+  - id: "2013/08/10/wp_20130810_15_29_44_pro.jpg"
     caption:
     alt:
-  - id: "2013-08-10-wp-20130810-15-29-54-pro"
+  - id: "2013/08/10/wp_20130810_15_29_54_pro.jpg"
     caption:
     alt:
-  - id: "2013-08-10-wp-20130810-15-50-15-pro"
+  - id: "2013/08/10/wp_20130810_15_50_15_pro.jpg"
     caption:
     alt:
-  - id: "2013-08-10-wp-20130810-15-50-55-pro"
+  - id: "2013/08/10/wp_20130810_15_50_55_pro.jpg"
     caption:
     alt:
-  - id: "2013-08-10-wp-20130810-16-47-41-pro"
+  - id: "2013/08/10/wp_20130810_16_47_41_pro.jpg"
     caption:
     alt:
-  - id: "2013-08-10-wp-20130810-16-49-14-pro"
+  - id: "2013/08/10/wp_20130810_16_49_14_pro.jpg"
     caption:
     alt:
 related:

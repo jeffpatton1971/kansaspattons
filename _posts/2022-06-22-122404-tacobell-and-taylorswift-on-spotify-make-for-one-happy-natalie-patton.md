@@ -15,9 +15,9 @@ source:
   caption: "@tacobell and @taylorswift on @spotify make for one happy @natalie__patton"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2022-06-22-122404-tacobell-and-taylorswift-on-spotify-make-for-one-happy-natalie-patton-01
+cover_image: "2022/06/22/17984038918487462.jpg"
 images:
-  - id: instagram-2022-06-22-122404-tacobell-and-taylorswift-on-spotify-make-for-one-happy-natalie-patton-01
+  - id: "2022/06/22/17984038918487462.jpg"
     caption:
     alt:
 hashtags: []

@@ -15,9 +15,9 @@ source:
   caption: "@kansastourism #sunflowers"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2022-08-27-161934-kansastourism-sunflowers-01
+cover_image: "2022/08/27/17950944256979578.jpg"
 images:
-  - id: instagram-2022-08-27-161934-kansastourism-sunflowers-01
+  - id: "2022/08/27/17950944256979578.jpg"
     caption:
     alt:
 hashtags:

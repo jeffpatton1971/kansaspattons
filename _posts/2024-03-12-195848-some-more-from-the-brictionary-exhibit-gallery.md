@@ -18,24 +18,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Some more from the #brictionary exhibit."
 gallery: instagram-2024-03-12-195848-some-more-from-the-brictionary-exhibit
-cover_image: instagram-2024-03-12-195848-some-more-from-the-brictionary-exhibit-01
+cover_image: "2024/03/12/18024510352973978.jpg"
 images:
-  - id: instagram-2024-03-12-195848-some-more-from-the-brictionary-exhibit-01
+  - id: "2024/03/12/18024510352973978.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-12-195848-some-more-from-the-brictionary-exhibit-02
+  - id: "2024/03/12/17883095364011344.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-12-195848-some-more-from-the-brictionary-exhibit-03
+  - id: "2024/03/12/18257629030209349.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-12-195848-some-more-from-the-brictionary-exhibit-04
+  - id: "2024/03/12/18219923152274608.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-12-195848-some-more-from-the-brictionary-exhibit-05
+  - id: "2024/03/12/18016473176276889.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-12-195848-some-more-from-the-brictionary-exhibit-06
+  - id: "2024/03/12/18013662761223923.jpg"
     caption:
     alt:
 related:

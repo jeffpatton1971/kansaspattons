@@ -15,7 +15,7 @@ source:
   caption: "First half of the day done... headed to the beach"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2021-04-28-114148-first-half-of-the-day-done-headed-to-the-beach-01
+cover_image: "2021/04/28/17848699886549894.jpg"
 related:
   - type: gallery
     id: instagram-2021-04-28-114148-first-half-of-the-day-done-headed-to-the-beach

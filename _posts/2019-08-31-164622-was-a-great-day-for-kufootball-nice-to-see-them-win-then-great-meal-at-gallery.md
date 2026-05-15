@@ -17,30 +17,30 @@ authors:
   - "Jeff Patton"
 summary: "8 images related to Was a great day for @kufootball nice to see them win! Then great meal at @biemersbbq."
 gallery: instagram-2019-08-31-164622-was-a-great-day-for-kufootball-nice-to-see-them-win-then-great-meal-at
-cover_image: instagram-2019-08-31-164622-was-a-great-day-for-kufootball-nice-to-see-them-win-then-great-meal-at-01
+cover_image: "2019/08/31/18096025222004954.jpg"
 images:
-  - id: instagram-2019-08-31-164622-was-a-great-day-for-kufootball-nice-to-see-them-win-then-great-meal-at-01
+  - id: "2019/08/31/18096025222004954.jpg"
     caption:
     alt:
-  - id: instagram-2019-08-31-164622-was-a-great-day-for-kufootball-nice-to-see-them-win-then-great-meal-at-02
+  - id: "2019/08/31/17901254749367953.jpg"
     caption:
     alt:
-  - id: instagram-2019-08-31-164622-was-a-great-day-for-kufootball-nice-to-see-them-win-then-great-meal-at-03
+  - id: "2019/08/31/17916528277329462.jpg"
     caption:
     alt:
-  - id: instagram-2019-08-31-164622-was-a-great-day-for-kufootball-nice-to-see-them-win-then-great-meal-at-04
+  - id: "2019/08/31/17864020234478941.jpg"
     caption:
     alt:
-  - id: instagram-2019-08-31-164622-was-a-great-day-for-kufootball-nice-to-see-them-win-then-great-meal-at-05
+  - id: "2019/08/31/17843708068617019.jpg"
     caption:
     alt:
-  - id: instagram-2019-08-31-164622-was-a-great-day-for-kufootball-nice-to-see-them-win-then-great-meal-at-06
+  - id: "2019/08/31/17895828448372138.jpg"
     caption:
     alt:
-  - id: instagram-2019-08-31-164622-was-a-great-day-for-kufootball-nice-to-see-them-win-then-great-meal-at-07
+  - id: "2019/08/31/18060520342156508.jpg"
     caption:
     alt:
-  - id: instagram-2019-08-31-164622-was-a-great-day-for-kufootball-nice-to-see-them-win-then-great-meal-at-08
+  - id: "2019/08/31/17843651770624783.jpg"
     caption:
     alt:
 related:

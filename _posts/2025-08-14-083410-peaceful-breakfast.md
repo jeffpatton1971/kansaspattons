@@ -15,9 +15,9 @@ source:
   caption: "#peaceful #breakfast"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-08-14-083410-peaceful-breakfast-01
+cover_image: "2025/08/14/17885474994219749.jpg"
 images:
-  - id: instagram-2025-08-14-083410-peaceful-breakfast-01
+  - id: "2025/08/14/17885474994219749.jpg"
     caption:
     alt:
 hashtags:

@@ -15,9 +15,9 @@ source:
   caption: "Clear skies makes for good pictures"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-01-19-225745-clear-skies-makes-for-good-pictures-01
+cover_image: "2021/01/19/17917348354553198.jpg"
 images:
-  - id: instagram-2021-01-19-225745-clear-skies-makes-for-good-pictures-01
+  - id: "2021/01/19/17917348354553198.jpg"
     caption:
     alt:
 hashtags: []

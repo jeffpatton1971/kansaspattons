@@ -15,9 +15,9 @@ source:
   caption: "I thought this little guy had died"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-05-21-202314-i-thought-this-little-guy-had-died-01
+cover_image: "2021/05/21/17888698250183672.jpg"
 images:
-  - id: instagram-2021-05-21-202314-i-thought-this-little-guy-had-died-01
+  - id: "2021/05/21/17888698250183672.jpg"
     caption:
     alt:
 hashtags: []

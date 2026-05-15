@@ -19,36 +19,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Hair Cut."
 gallery: wordpress-2013-04-17-171217-april-17-2013-2
-cover_image: "2013-04-17-samsung-galaxy-555"
+cover_image: "2013/04/17/samsung-galaxy-555.jpg"
 images:
-  - id: "2013-04-17-samsung-galaxy-555"
+  - id: "2013/04/17/samsung-galaxy-555.jpg"
     caption:
     alt:
-  - id: "2013-04-17-samsung-galaxy-559"
+  - id: "2013/04/17/samsung-galaxy-559.jpg"
     caption:
     alt:
-  - id: "2013-04-17-samsung-galaxy-561"
+  - id: "2013/04/17/samsung-galaxy-561.jpg"
     caption:
     alt:
-  - id: "2013-04-17-wp-20130417-008"
+  - id: "2013/04/17/wp_20130417_008.jpg"
     caption:
     alt:
-  - id: "2013-04-17-wp-20130417-007"
+  - id: "2013/04/17/wp_20130417_007.jpg"
     caption:
     alt:
-  - id: "2013-04-17-wp-20130417-018"
+  - id: "2013/04/17/wp_20130417_018.jpg"
     caption:
     alt:
-  - id: "2013-04-17-wp-20130417-016"
+  - id: "2013/04/17/wp_20130417_016.jpg"
     caption:
     alt:
-  - id: "2013-04-17-wp-20130417-014"
+  - id: "2013/04/17/wp_20130417_014.jpg"
     caption:
     alt:
-  - id: "2013-04-17-wp-20130417-021"
+  - id: "2013/04/17/wp_20130417_021.jpg"
     caption:
     alt:
-  - id: "2013-04-17-wp-20130417-032"
+  - id: "2013/04/17/wp_20130417_032.jpg"
     caption:
     alt:
 related:

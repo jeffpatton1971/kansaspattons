@@ -15,15 +15,15 @@ source:
   caption: "#yardwork #gardening"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2023-06-07-195130-yardwork-gardening-01
+cover_image: "2023/06/07/17986352653953833.jpg"
 images:
-  - id: instagram-2023-06-07-195130-yardwork-gardening-01
+  - id: "2023/06/07/17986352653953833.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-07-195130-yardwork-gardening-02
+  - id: "2023/06/07/17974672514345400.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-07-195130-yardwork-gardening-03
+  - id: "2023/06/07/18102431398319918.jpg"
     caption:
     alt:
 hashtags:

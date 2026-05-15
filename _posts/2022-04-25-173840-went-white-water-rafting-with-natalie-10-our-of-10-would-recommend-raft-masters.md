@@ -15,9 +15,9 @@ source:
   caption: "Went white water rafting with Natalie. 10 our of 10 would recommend @raft_masters and 10 out of 10 would recommend staying IN THE BOAT! It’s a lot more fun that way…. Thanks for pulling me back in every time😂😂"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2022-04-25-173840-went-white-water-rafting-with-natalie-10-our-of-10-would-recommend-raft-masters-01
+cover_image: "2022/04/25/17948477320751191.jpg"
 images:
-  - id: instagram-2022-04-25-173840-went-white-water-rafting-with-natalie-10-our-of-10-would-recommend-raft-masters-01
+  - id: "2022/04/25/17948477320751191.jpg"
     caption:
     alt:
 hashtags: []

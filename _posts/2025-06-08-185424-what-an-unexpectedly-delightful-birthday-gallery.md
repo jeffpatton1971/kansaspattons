@@ -19,27 +19,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to What an unexpectedly delightful birthday!."
 gallery: instagram-2025-06-08-185424-what-an-unexpectedly-delightful-birthday
-cover_image: instagram-2025-06-08-185424-what-an-unexpectedly-delightful-birthday-01
+cover_image: "2025/06/08/18068458991051021.jpg"
 images:
-  - id: instagram-2025-06-08-185424-what-an-unexpectedly-delightful-birthday-01
+  - id: "2025/06/08/18068458991051021.jpg"
     caption:
     alt:
-  - id: instagram-2025-06-08-185424-what-an-unexpectedly-delightful-birthday-02
+  - id: "2025/06/08/18096815443518104.jpg"
     caption:
     alt:
-  - id: instagram-2025-06-08-185424-what-an-unexpectedly-delightful-birthday-03
+  - id: "2025/06/08/18106227118517928.jpg"
     caption:
     alt:
-  - id: instagram-2025-06-08-185424-what-an-unexpectedly-delightful-birthday-04
+  - id: "2025/06/08/17968558442870563.jpg"
     caption:
     alt:
-  - id: instagram-2025-06-08-185424-what-an-unexpectedly-delightful-birthday-05
+  - id: "2025/06/08/18073090018930690.jpg"
     caption:
     alt:
-  - id: instagram-2025-06-08-185424-what-an-unexpectedly-delightful-birthday-06
+  - id: "2025/06/08/17949398852988122.jpg"
     caption:
     alt:
-  - id: instagram-2025-06-08-185424-what-an-unexpectedly-delightful-birthday-07
+  - id: "2025/06/08/17862147753351441.jpg"
     caption:
     alt:
 related:

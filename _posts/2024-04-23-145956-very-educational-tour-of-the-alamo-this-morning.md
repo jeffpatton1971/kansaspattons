@@ -15,7 +15,7 @@ source:
   caption: "Very educational tour of The Alamo this morning"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2024-04-23-145956-very-educational-tour-of-the-alamo-this-morning-01
+cover_image: "2024/04/23/17855668608124981.jpg"
 related:
   - type: gallery
     id: instagram-2024-04-23-145956-very-educational-tour-of-the-alamo-this-morning

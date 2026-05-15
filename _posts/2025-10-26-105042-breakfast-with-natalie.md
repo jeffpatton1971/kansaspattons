@@ -15,9 +15,9 @@ source:
   caption: "Breakfast with Natalie"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-10-26-105042-breakfast-with-natalie-01
+cover_image: "2025/10/26/18076970180472057.jpg"
 images:
-  - id: instagram-2025-10-26-105042-breakfast-with-natalie-01
+  - id: "2025/10/26/18076970180472057.jpg"
     caption:
     alt:
 hashtags: []

@@ -15,9 +15,9 @@ source:
   caption: "#goodmorning #nosnow"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2022-04-26-074612-goodmorning-nosnow-01
+cover_image: "2022/04/26/17947865209880374.jpg"
 images:
-  - id: instagram-2022-04-26-074612-goodmorning-nosnow-01
+  - id: "2022/04/26/17947865209880374.jpg"
     caption:
     alt:
 hashtags:

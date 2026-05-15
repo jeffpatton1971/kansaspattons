@@ -15,7 +15,7 @@ source:
   caption: "8th grade graduation banquet"
   media_count: 5
   cross_post_source: "FB"
-cover_image: instagram-2018-05-26-110324-8th-grade-graduation-banquet-01
+cover_image: "2018/05/26/17920792528145472.jpg"
 related:
   - type: gallery
     id: instagram-2018-05-26-110324-8th-grade-graduation-banquet

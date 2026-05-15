@@ -18,27 +18,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to Great day for smoking #happyeaster."
 gallery: instagram-2023-04-09-143440-great-day-for-smoking-happyeaster
-cover_image: instagram-2023-04-09-143440-great-day-for-smoking-happyeaster-01
+cover_image: "2023/04/09/17869701584889297.jpg"
 images:
-  - id: instagram-2023-04-09-143440-great-day-for-smoking-happyeaster-01
+  - id: "2023/04/09/17869701584889297.jpg"
     caption:
     alt:
-  - id: instagram-2023-04-09-143440-great-day-for-smoking-happyeaster-02
+  - id: "2023/04/09/17933099639648900.jpg"
     caption:
     alt:
-  - id: instagram-2023-04-09-143440-great-day-for-smoking-happyeaster-03
+  - id: "2023/04/09/17873559332817702.jpg"
     caption:
     alt:
-  - id: instagram-2023-04-09-143440-great-day-for-smoking-happyeaster-04
+  - id: "2023/04/09/18011479822591945.jpg"
     caption:
     alt:
-  - id: instagram-2023-04-09-143440-great-day-for-smoking-happyeaster-05
+  - id: "2023/04/09/17961724925393244.jpg"
     caption:
     alt:
-  - id: instagram-2023-04-09-143440-great-day-for-smoking-happyeaster-06
+  - id: "2023/04/09/18000003064700128.jpg"
     caption:
     alt:
-  - id: instagram-2023-04-09-143440-great-day-for-smoking-happyeaster-07
+  - id: "2023/04/09/18001816627668559.jpg"
     caption:
     alt:
 related:

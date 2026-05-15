@@ -15,9 +15,9 @@ source:
   caption: "Natalie after the concert"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-12-08-224116-natalie-after-the-concert-01
+cover_image: "2014/12/08/17843530366063547.jpg"
 images:
-  - id: instagram-2014-12-08-224116-natalie-after-the-concert-01
+  - id: "2014/12/08/17843530366063547.jpg"
     caption:
     alt:
 hashtags: []

@@ -17,30 +17,30 @@ authors:
   - "Jeff Patton"
 summary: "8 images related to Riding horses with my favorite cowgirl."
 gallery: instagram-2019-04-30-171341-riding-horses-with-my-favorite-cowgirl
-cover_image: instagram-2019-04-30-171341-riding-horses-with-my-favorite-cowgirl-01
+cover_image: "2019/04/30/18035027176094459.jpg"
 images:
-  - id: instagram-2019-04-30-171341-riding-horses-with-my-favorite-cowgirl-01
+  - id: "2019/04/30/18035027176094459.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-30-171341-riding-horses-with-my-favorite-cowgirl-02
+  - id: "2019/04/30/17860250578380825.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-30-171341-riding-horses-with-my-favorite-cowgirl-03
+  - id: "2019/04/30/17844594886433239.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-30-171341-riding-horses-with-my-favorite-cowgirl-04
+  - id: "2019/04/30/17870471731366863.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-30-171341-riding-horses-with-my-favorite-cowgirl-05
+  - id: "2019/04/30/17979385030246066.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-30-171341-riding-horses-with-my-favorite-cowgirl-06
+  - id: "2019/04/30/17855750416400756.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-30-171341-riding-horses-with-my-favorite-cowgirl-07
+  - id: "2019/04/30/17926702681288855.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-30-171341-riding-horses-with-my-favorite-cowgirl-08
+  - id: "2019/04/30/17842561735442499.jpg"
     caption:
     alt:
 related:

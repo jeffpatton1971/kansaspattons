@@ -18,27 +18,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to First day of class @cairparaveltopeka full of fun and #tradtions."
 gallery: instagram-2024-08-14-162517-first-day-of-class-cairparaveltopeka-full-of-fun-and-tradtions
-cover_image: instagram-2024-08-14-162517-first-day-of-class-cairparaveltopeka-full-of-fun-and-tradtions-01
+cover_image: "2024/08/14/18248945953270216.jpg"
 images:
-  - id: instagram-2024-08-14-162517-first-day-of-class-cairparaveltopeka-full-of-fun-and-tradtions-01
+  - id: "2024/08/14/18248945953270216.jpg"
     caption:
     alt:
-  - id: instagram-2024-08-14-162517-first-day-of-class-cairparaveltopeka-full-of-fun-and-tradtions-02
+  - id: "2024/08/14/18016593602406210.jpg"
     caption:
     alt:
-  - id: instagram-2024-08-14-162517-first-day-of-class-cairparaveltopeka-full-of-fun-and-tradtions-03
+  - id: "2024/08/14/18054133489699841.jpg"
     caption:
     alt:
-  - id: instagram-2024-08-14-162517-first-day-of-class-cairparaveltopeka-full-of-fun-and-tradtions-04
+  - id: "2024/08/14/17930320007915492.jpg"
     caption:
     alt:
-  - id: instagram-2024-08-14-162517-first-day-of-class-cairparaveltopeka-full-of-fun-and-tradtions-05
+  - id: "2024/08/14/18015062939279931.jpg"
     caption:
     alt:
-  - id: instagram-2024-08-14-162517-first-day-of-class-cairparaveltopeka-full-of-fun-and-tradtions-06
+  - id: "2024/08/14/18047746285862548.jpg"
     caption:
     alt:
-  - id: instagram-2024-08-14-162517-first-day-of-class-cairparaveltopeka-full-of-fun-and-tradtions-07
+  - id: "2024/08/14/18016381295582905.jpg"
     caption:
     alt:
 related:

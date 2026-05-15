@@ -15,9 +15,9 @@ source:
   caption: "Overcast days make for spooky walks"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-10-24-065513-overcast-days-make-for-spooky-walks-01
+cover_image: "2019/10/24/18111401860060210.jpg"
 images:
-  - id: instagram-2019-10-24-065513-overcast-days-make-for-spooky-walks-01
+  - id: "2019/10/24/18111401860060210.jpg"
     caption:
     alt:
 hashtags: []

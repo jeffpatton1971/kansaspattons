@@ -19,36 +19,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to The Labrynth."
 gallery: wordpress-2013-04-28-220350-april-28-2013
-cover_image: "2013-04-28-wp-20130428-001"
+cover_image: "2013/04/28/wp_20130428_001.jpg"
 images:
-  - id: "2013-04-28-wp-20130428-001"
+  - id: "2013/04/28/wp_20130428_001.jpg"
     caption:
     alt:
-  - id: "2013-04-28-wp-20130428-002"
+  - id: "2013/04/28/wp_20130428_002.jpg"
     caption:
     alt:
-  - id: "2013-04-28-wp-20130428-007"
+  - id: "2013/04/28/wp_20130428_007.jpg"
     caption:
     alt:
-  - id: "2013-04-28-wp-20130428-010"
+  - id: "2013/04/28/wp_20130428_010.jpg"
     caption:
     alt:
-  - id: "2013-04-28-wp-20130428-011"
+  - id: "2013/04/28/wp_20130428_011.jpg"
     caption:
     alt:
-  - id: "2013-04-28-wp-20130428-013"
+  - id: "2013/04/28/wp_20130428_013.jpg"
     caption:
     alt:
-  - id: "2013-04-28-wp-20130428-014"
+  - id: "2013/04/28/wp_20130428_014.jpg"
     caption:
     alt:
-  - id: "2013-04-28-wp-20130428-015"
+  - id: "2013/04/28/wp_20130428_015.jpg"
     caption:
     alt:
-  - id: "2013-04-28-wp-20130428-016"
+  - id: "2013/04/28/wp_20130428_016.jpg"
     caption:
     alt:
-  - id: "2013-04-28-wp-20130428-017"
+  - id: "2013/04/28/wp_20130428_017.jpg"
     caption:
     alt:
 related:

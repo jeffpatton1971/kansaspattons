@@ -15,12 +15,12 @@ source:
   caption: "#bowling and #pizza"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2023-09-15-202407-bowling-and-pizza-01
+cover_image: "2023/09/15/17953906001659795.jpg"
 images:
-  - id: instagram-2023-09-15-202407-bowling-and-pizza-01
+  - id: "2023/09/15/17953906001659795.jpg"
     caption:
     alt:
-  - id: instagram-2023-09-15-202407-bowling-and-pizza-02
+  - id: "2023/09/15/18010989451767703.jpg"
     caption:
     alt:
 hashtags:

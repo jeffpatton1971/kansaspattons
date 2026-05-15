@@ -17,24 +17,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Another great day for Owls baseball."
 gallery: instagram-2019-04-20-140116-another-great-day-for-owls-baseball
-cover_image: instagram-2019-04-20-140116-another-great-day-for-owls-baseball-01
+cover_image: "2019/04/20/17992788052214381.jpg"
 images:
-  - id: instagram-2019-04-20-140116-another-great-day-for-owls-baseball-01
+  - id: "2019/04/20/17992788052214381.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-20-140116-another-great-day-for-owls-baseball-02
+  - id: "2019/04/20/18057382648025095.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-20-140116-another-great-day-for-owls-baseball-03
+  - id: "2019/04/20/17891723476313818.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-20-140116-another-great-day-for-owls-baseball-04
+  - id: "2019/04/20/17964234496252671.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-20-140116-another-great-day-for-owls-baseball-05
+  - id: "2019/04/20/18056893537033082.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-20-140116-another-great-day-for-owls-baseball-06
+  - id: "2019/04/20/17878570516339657.jpg"
     caption:
     alt:
 related:

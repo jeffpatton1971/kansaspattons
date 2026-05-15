@@ -15,7 +15,7 @@ source:
   caption: "No Sun day but still a fun day"
   media_count: 9
   cross_post_source: "FB"
-cover_image: instagram-2024-04-25-104816-no-sun-day-but-still-a-fun-day-01
+cover_image: "2024/04/25/17958496685756646.jpg"
 related:
   - type: gallery
     id: instagram-2024-04-25-104816-no-sun-day-but-still-a-fun-day

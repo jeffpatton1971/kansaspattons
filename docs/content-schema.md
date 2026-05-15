@@ -187,7 +187,16 @@ type EntryDocument = EntrySummary & {
 
 ## Image Summary
 
-Images come from `_gallery/*.md`.
+Images currently come from legacy `_gallery/*.md` import metadata, but generated image IDs are canonical media keys rather than Markdown document IDs.
+
+Example:
+
+```text
+id: 2009/10/18/img58363.jpg
+route: /images/2009/10/18/img58363.jpg
+rawUrl: https://prdwebappstorage.blob.core.windows.net/kansaspattons/images/2009/10/18/img58363.jpg
+thumbUrl: https://prdwebappstorage.blob.core.windows.net/kansaspattons/thumbs/2009/10/18/img58363.jpg
+```
 
 ```ts
 type ImageSummary = {

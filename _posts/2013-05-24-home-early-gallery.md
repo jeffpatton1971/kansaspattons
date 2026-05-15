@@ -19,27 +19,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to Home Early."
 gallery: wordpress-2013-05-24-083741-may-24-2013
-cover_image: "2013-05-24-wp-20130524-001"
+cover_image: "2013/05/24/wp_20130524_001.jpg"
 images:
-  - id: "2013-05-24-wp-20130524-001"
+  - id: "2013/05/24/wp_20130524_001.jpg"
     caption:
     alt:
-  - id: "2013-05-24-wp-20130524-002"
+  - id: "2013/05/24/wp_20130524_002.jpg"
     caption:
     alt:
-  - id: "2013-05-24-wp-20130524-005"
+  - id: "2013/05/24/wp_20130524_005.jpg"
     caption:
     alt:
-  - id: "2013-05-24-wp-20130524-010"
+  - id: "2013/05/24/wp_20130524_010.jpg"
     caption:
     alt:
-  - id: "2013-05-24-wp-20130524-015"
+  - id: "2013/05/24/wp_20130524_015.jpg"
     caption:
     alt:
-  - id: "2013-05-24-20130524-114146"
+  - id: "2013/05/24/20130524_114146.jpg"
     caption:
     alt:
-  - id: "2013-05-24-20130524-173625"
+  - id: "2013/05/24/20130524_173625.jpg"
     caption:
     alt:
 related:

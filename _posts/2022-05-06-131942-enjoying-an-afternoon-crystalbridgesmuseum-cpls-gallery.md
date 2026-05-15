@@ -20,24 +20,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Enjoying an afternoon @crystalbridgesmuseum #cpls."
 gallery: instagram-2022-05-06-131942-enjoying-an-afternoon-crystalbridgesmuseum-cpls
-cover_image: instagram-2022-05-06-131942-enjoying-an-afternoon-crystalbridgesmuseum-cpls-01
+cover_image: "2022/05/06/18229237762117414.jpg"
 images:
-  - id: instagram-2022-05-06-131942-enjoying-an-afternoon-crystalbridgesmuseum-cpls-01
+  - id: "2022/05/06/18229237762117414.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-06-131942-enjoying-an-afternoon-crystalbridgesmuseum-cpls-02
+  - id: "2022/05/06/18132539932301428.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-06-131942-enjoying-an-afternoon-crystalbridgesmuseum-cpls-03
+  - id: "2022/05/06/17937371776966068.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-06-131942-enjoying-an-afternoon-crystalbridgesmuseum-cpls-04
+  - id: "2022/05/06/18296769979011554.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-06-131942-enjoying-an-afternoon-crystalbridgesmuseum-cpls-05
+  - id: "2022/05/06/17964890644618616.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-06-131942-enjoying-an-afternoon-crystalbridgesmuseum-cpls-06
+  - id: "2022/05/06/18235405003111099.jpg"
     caption:
     alt:
 related:

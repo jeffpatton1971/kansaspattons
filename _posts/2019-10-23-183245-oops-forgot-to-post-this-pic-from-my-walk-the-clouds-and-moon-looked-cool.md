@@ -15,9 +15,9 @@ source:
   caption: "Oops! Forgot to post this pic from my walk... the clouds and moon looked cool"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-10-23-183245-oops-forgot-to-post-this-pic-from-my-walk-the-clouds-and-moon-looked-cool-01
+cover_image: "2019/10/23/17933118448319691.jpg"
 images:
-  - id: instagram-2019-10-23-183245-oops-forgot-to-post-this-pic-from-my-walk-the-clouds-and-moon-looked-cool-01
+  - id: "2019/10/23/17933118448319691.jpg"
     caption:
     alt:
 hashtags: []

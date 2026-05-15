@@ -15,9 +15,9 @@ source:
   caption: "Baseball players"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2015-05-26-200208-baseball-players-01
+cover_image: "2015/05/26/17843570524063547.jpg"
 images:
-  - id: instagram-2015-05-26-200208-baseball-players-01
+  - id: "2015/05/26/17843570524063547.jpg"
     caption:
     alt:
 hashtags: []

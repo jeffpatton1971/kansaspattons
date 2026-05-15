@@ -15,7 +15,7 @@ source:
   caption: "Last concert for Nat"
   media_count: 8
   cross_post_source: "FB"
-cover_image: instagram-2022-05-16-202725-last-concert-for-nat-01
+cover_image: "2022/05/16/17941094402029200.jpg"
 related:
   - type: gallery
     id: instagram-2022-05-16-202725-last-concert-for-nat

@@ -15,15 +15,15 @@ source:
   caption: "Had some “#french” food while watching the #openingceremony for the @olympics"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2024-07-26-235916-had-some-french-food-while-watching-the-openingceremony-for-the-olympics-01
+cover_image: "2024/07/26/17862560958191296.jpg"
 images:
-  - id: instagram-2024-07-26-235916-had-some-french-food-while-watching-the-openingceremony-for-the-olympics-01
+  - id: "2024/07/26/17862560958191296.jpg"
     caption:
     alt:
-  - id: instagram-2024-07-26-235916-had-some-french-food-while-watching-the-openingceremony-for-the-olympics-02
+  - id: "2024/07/26/18238629880283183.jpg"
     caption:
     alt:
-  - id: instagram-2024-07-26-235916-had-some-french-food-while-watching-the-openingceremony-for-the-olympics-03
+  - id: "2024/07/26/18005614790340974.jpg"
     caption:
     alt:
 hashtags:

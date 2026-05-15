@@ -45,7 +45,7 @@ export function ImagesPage() {
   const index = state.data;
   const calendarSelection = resolveSelection(index.years, params.year, params.month);
   const scopedImages = index.images;
-  const selectedImage = scopedImages.find((image) => image.id === params.imageId);
+  const selectedImage = scopedImages.find((image) => imageMatchesRouteParam(image.id, params.imageId));
   const shouldShowImages = Boolean(params.day);
   const shouldShowRootGroups = !params.year;
   const shouldShowYearGroups = Boolean(params.year && !params.month);
@@ -124,7 +124,7 @@ export function ImagesPage() {
         ) : null}
 
         {shouldShowImages ? (
-          <ImageGrid images={scopedImages} selectedId={params.imageId} />
+          <ImageGrid images={scopedImages} selectedId={selectedImage?.id} />
         ) : null}
         {index.page && index.page.total > scopedImages.length ? (
           <p className="archive-count">
@@ -424,4 +424,12 @@ function imageGroupKind(groupBy: 'year' | 'month' | 'day' | undefined) {
   }
 
   return 'year groups';
+}
+
+function imageMatchesRouteParam(imageId: string, routeParam: string | undefined) {
+  if (!routeParam) {
+    return false;
+  }
+
+  return imageId === routeParam || imageId.split('/').at(-1) === routeParam;
 }

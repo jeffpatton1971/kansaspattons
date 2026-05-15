@@ -18,36 +18,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Walking through the @topekazoo looking at all the #zoolights."
 gallery: instagram-2022-12-28-202922-walking-through-the-topekazoo-looking-at-all-the-zoolights
-cover_image: instagram-2022-12-28-202922-walking-through-the-topekazoo-looking-at-all-the-zoolights-01
+cover_image: "2022/12/28/18027544963449518.jpg"
 images:
-  - id: instagram-2022-12-28-202922-walking-through-the-topekazoo-looking-at-all-the-zoolights-01
+  - id: "2022/12/28/18027544963449518.jpg"
     caption:
     alt:
-  - id: instagram-2022-12-28-202922-walking-through-the-topekazoo-looking-at-all-the-zoolights-02
+  - id: "2022/12/28/18073127407332402.jpg"
     caption:
     alt:
-  - id: instagram-2022-12-28-202922-walking-through-the-topekazoo-looking-at-all-the-zoolights-03
+  - id: "2022/12/28/18159728848277683.jpg"
     caption:
     alt:
-  - id: instagram-2022-12-28-202922-walking-through-the-topekazoo-looking-at-all-the-zoolights-04
+  - id: "2022/12/28/17946908378451474.jpg"
     caption:
     alt:
-  - id: instagram-2022-12-28-202922-walking-through-the-topekazoo-looking-at-all-the-zoolights-05
+  - id: "2022/12/28/17971469360001262.jpg"
     caption:
     alt:
-  - id: instagram-2022-12-28-202922-walking-through-the-topekazoo-looking-at-all-the-zoolights-06
+  - id: "2022/12/28/17912807294671196.jpg"
     caption:
     alt:
-  - id: instagram-2022-12-28-202922-walking-through-the-topekazoo-looking-at-all-the-zoolights-07
+  - id: "2022/12/28/17947737335437657.jpg"
     caption:
     alt:
-  - id: instagram-2022-12-28-202922-walking-through-the-topekazoo-looking-at-all-the-zoolights-08
+  - id: "2022/12/28/17947044173440298.jpg"
     caption:
     alt:
-  - id: instagram-2022-12-28-202922-walking-through-the-topekazoo-looking-at-all-the-zoolights-09
+  - id: "2022/12/28/18035756290387466.jpg"
     caption:
     alt:
-  - id: instagram-2022-12-28-202922-walking-through-the-topekazoo-looking-at-all-the-zoolights-10
+  - id: "2022/12/28/17957761451485127.jpg"
     caption:
     alt:
 related:

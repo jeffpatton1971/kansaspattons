@@ -15,7 +15,7 @@ source:
   caption: "#traditions always a good time @bobos1948 after schools out"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2024-05-23-121751-traditions-always-a-good-time-bobos1948-after-schools-out-01
+cover_image: "2024/05/23/17926530431864448.jpg"
 related:
   - type: gallery
     id: instagram-2024-05-23-121751-traditions-always-a-good-time-bobos1948-after-schools-out

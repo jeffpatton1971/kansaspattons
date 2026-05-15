@@ -15,7 +15,7 @@ source:
   caption: "Two wild and crazy kinds of guys!"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2025-03-15-152159-two-wild-and-crazy-kinds-of-guys-01
+cover_image: "2025/03/15/17943035651970825.jpg"
 related:
   - type: gallery
     id: instagram-2025-03-15-152159-two-wild-and-crazy-kinds-of-guys

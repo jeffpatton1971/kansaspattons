@@ -15,9 +15,9 @@ source:
   caption: "Best!\rInning!\rEver!\r@kcroyals #beroyalkc"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-08-17-143319-best-inning-ever-kcroyals-beroyalkc-01
+cover_image: "2014/08/17/17843337037063547.jpg"
 images:
-  - id: instagram-2014-08-17-143319-best-inning-ever-kcroyals-beroyalkc-01
+  - id: "2014/08/17/17843337037063547.jpg"
     caption:
     alt:
 hashtags:

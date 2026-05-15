@@ -15,9 +15,9 @@ source:
   caption: "Take me out to the ballgame"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2017-04-19-092434-take-me-out-to-the-ballgame-01
+cover_image: "2017/04/19/17856614734135350.jpg"
 images:
-  - id: instagram-2017-04-19-092434-take-me-out-to-the-ballgame-01
+  - id: "2017/04/19/17856614734135350.jpg"
     caption:
     alt:
 hashtags: []

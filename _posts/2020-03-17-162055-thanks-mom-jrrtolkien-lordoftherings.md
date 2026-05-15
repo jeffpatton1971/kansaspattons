@@ -15,9 +15,9 @@ source:
   caption: "Thanks Mom #jrrtolkien #lordoftherings"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2020-03-17-162055-thanks-mom-jrrtolkien-lordoftherings-01
+cover_image: "2020/03/17/17846815736007976.jpg"
 images:
-  - id: instagram-2020-03-17-162055-thanks-mom-jrrtolkien-lordoftherings-01
+  - id: "2020/03/17/17846815736007976.jpg"
     caption:
     alt:
 hashtags:

@@ -15,9 +15,9 @@ source:
   caption: "Sky Observations with my son"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-10-16-220947-sky-observations-with-my-son-01
+cover_image: "2023/10/16/17986231877439472.jpg"
 images:
-  - id: instagram-2023-10-16-220947-sky-observations-with-my-son-01
+  - id: "2023/10/16/17986231877439472.jpg"
     caption:
     alt:
 hashtags: []

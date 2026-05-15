@@ -15,12 +15,12 @@ source:
   caption: "views from the yard"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2022-10-01-135337-views-from-the-yard-01
+cover_image: "2022/10/01/18155767033256032.jpg"
 images:
-  - id: instagram-2022-10-01-135337-views-from-the-yard-01
+  - id: "2022/10/01/18155767033256032.jpg"
     caption:
     alt:
-  - id: instagram-2022-10-01-135337-views-from-the-yard-02
+  - id: "2022/10/01/18075384136312420.jpg"
     caption:
     alt:
 hashtags: []

@@ -15,15 +15,15 @@ source:
   caption: "Dinner and shopping with my favorite daughter"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2025-03-18-202523-dinner-and-shopping-with-my-favorite-daughter-01
+cover_image: "2025/03/18/18061508006507826.jpg"
 images:
-  - id: instagram-2025-03-18-202523-dinner-and-shopping-with-my-favorite-daughter-01
+  - id: "2025/03/18/18061508006507826.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-18-202523-dinner-and-shopping-with-my-favorite-daughter-02
+  - id: "2025/03/18/18041032955156400.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-18-202523-dinner-and-shopping-with-my-favorite-daughter-03
+  - id: "2025/03/18/17953629605793053.jpg"
     caption:
     alt:
 hashtags: []

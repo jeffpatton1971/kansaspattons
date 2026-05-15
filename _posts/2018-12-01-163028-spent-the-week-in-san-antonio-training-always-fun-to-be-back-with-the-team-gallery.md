@@ -17,33 +17,33 @@ authors:
   - "Jeff Patton"
 summary: "9 images related to Spent the week in San Antonio training, always fun to be back with the team!."
 gallery: instagram-2018-12-01-163028-spent-the-week-in-san-antonio-training-always-fun-to-be-back-with-the-team
-cover_image: instagram-2018-12-01-163028-spent-the-week-in-san-antonio-training-always-fun-to-be-back-with-the-team-01
+cover_image: "2018/12/01/18007851604041947.jpg"
 images:
-  - id: instagram-2018-12-01-163028-spent-the-week-in-san-antonio-training-always-fun-to-be-back-with-the-team-01
+  - id: "2018/12/01/18007851604041947.jpg"
     caption:
     alt:
-  - id: instagram-2018-12-01-163028-spent-the-week-in-san-antonio-training-always-fun-to-be-back-with-the-team-02
+  - id: "2018/12/01/17990405209110279.jpg"
     caption:
     alt:
-  - id: instagram-2018-12-01-163028-spent-the-week-in-san-antonio-training-always-fun-to-be-back-with-the-team-03
+  - id: "2018/12/01/17973031528164871.jpg"
     caption:
     alt:
-  - id: instagram-2018-12-01-163028-spent-the-week-in-san-antonio-training-always-fun-to-be-back-with-the-team-04
+  - id: "2018/12/01/17930573563242864.jpg"
     caption:
     alt:
-  - id: instagram-2018-12-01-163028-spent-the-week-in-san-antonio-training-always-fun-to-be-back-with-the-team-05
+  - id: "2018/12/01/17898437893277039.jpg"
     caption:
     alt:
-  - id: instagram-2018-12-01-163028-spent-the-week-in-san-antonio-training-always-fun-to-be-back-with-the-team-06
+  - id: "2018/12/01/17932184728238871.jpg"
     caption:
     alt:
-  - id: instagram-2018-12-01-163028-spent-the-week-in-san-antonio-training-always-fun-to-be-back-with-the-team-07
+  - id: "2018/12/01/18001217512065599.jpg"
     caption:
     alt:
-  - id: instagram-2018-12-01-163028-spent-the-week-in-san-antonio-training-always-fun-to-be-back-with-the-team-08
+  - id: "2018/12/01/18006783739030310.jpg"
     caption:
     alt:
-  - id: instagram-2018-12-01-163028-spent-the-week-in-san-antonio-training-always-fun-to-be-back-with-the-team-09
+  - id: "2018/12/01/17931832519231179.jpg"
     caption:
     alt:
 related:

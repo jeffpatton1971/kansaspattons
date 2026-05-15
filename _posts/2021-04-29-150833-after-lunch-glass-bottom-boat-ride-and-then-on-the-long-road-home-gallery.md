@@ -17,33 +17,33 @@ authors:
   - "Jeff Patton"
 summary: "9 images related to After lunch glass bottom boat ride and then on the long road home."
 gallery: instagram-2021-04-29-150833-after-lunch-glass-bottom-boat-ride-and-then-on-the-long-road-home
-cover_image: instagram-2021-04-29-150833-after-lunch-glass-bottom-boat-ride-and-then-on-the-long-road-home-01
+cover_image: "2021/04/29/17905204390871405.jpg"
 images:
-  - id: instagram-2021-04-29-150833-after-lunch-glass-bottom-boat-ride-and-then-on-the-long-road-home-01
+  - id: "2021/04/29/17905204390871405.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-29-150833-after-lunch-glass-bottom-boat-ride-and-then-on-the-long-road-home-02
+  - id: "2021/04/29/17909236624774394.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-29-150833-after-lunch-glass-bottom-boat-ride-and-then-on-the-long-road-home-03
+  - id: "2021/04/29/17867645045507749.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-29-150833-after-lunch-glass-bottom-boat-ride-and-then-on-the-long-road-home-04
+  - id: "2021/04/29/17862479285513897.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-29-150833-after-lunch-glass-bottom-boat-ride-and-then-on-the-long-road-home-05
+  - id: "2021/04/29/17906297374755809.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-29-150833-after-lunch-glass-bottom-boat-ride-and-then-on-the-long-road-home-06
+  - id: "2021/04/29/17875576922288857.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-29-150833-after-lunch-glass-bottom-boat-ride-and-then-on-the-long-road-home-07
+  - id: "2021/04/29/18003931924319465.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-29-150833-after-lunch-glass-bottom-boat-ride-and-then-on-the-long-road-home-08
+  - id: "2021/04/29/17862155210513771.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-29-150833-after-lunch-glass-bottom-boat-ride-and-then-on-the-long-road-home-09
+  - id: "2021/04/29/17873233790378784.jpg"
     caption:
     alt:
 related:

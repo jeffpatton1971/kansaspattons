@@ -18,27 +18,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to Nate Nat's Car."
 gallery: wordpress-2013-06-23-080636-june-23-2013
-cover_image: "2013-06-23-wp-20130623-005"
+cover_image: "2013/06/23/wp_20130623_005.jpg"
 images:
-  - id: "2013-06-23-wp-20130623-005"
+  - id: "2013/06/23/wp_20130623_005.jpg"
     caption:
     alt:
-  - id: "2013-06-23-wp-20130623-007"
+  - id: "2013/06/23/wp_20130623_007.jpg"
     caption:
     alt:
-  - id: "2013-06-23-wp-20130623-006"
+  - id: "2013/06/23/wp_20130623_006.jpg"
     caption:
     alt:
-  - id: "2013-06-23-wp-20130623-008"
+  - id: "2013/06/23/wp_20130623_008.jpg"
     caption:
     alt:
-  - id: "2013-06-23-wp-20130623-014"
+  - id: "2013/06/23/wp_20130623_014.jpg"
     caption:
     alt:
-  - id: "2013-06-23-wp-20130623-019"
+  - id: "2013/06/23/wp_20130623_019.jpg"
     caption:
     alt:
-  - id: "2013-06-23-wp-20130624-003"
+  - id: "2013/06/23/wp_20130624_003.jpg"
     caption:
     alt:
 related:

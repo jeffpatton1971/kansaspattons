@@ -15,12 +15,12 @@ source:
   caption: "Just a little snowy out"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2025-11-29-150814-just-a-little-snowy-out-01
+cover_image: "2025/11/29/17890154211379383.jpg"
 images:
-  - id: instagram-2025-11-29-150814-just-a-little-snowy-out-01
+  - id: "2025/11/29/17890154211379383.jpg"
     caption:
     alt:
-  - id: instagram-2025-11-29-150814-just-a-little-snowy-out-02
+  - id: "2025/11/29/18431448412104004.jpg"
     caption:
     alt:
 hashtags: []

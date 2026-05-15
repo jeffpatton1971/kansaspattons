@@ -17,33 +17,33 @@ authors:
   - "Jeff Patton"
 summary: "9 images related to No Sun day but still a fun day."
 gallery: instagram-2024-04-25-104816-no-sun-day-but-still-a-fun-day
-cover_image: instagram-2024-04-25-104816-no-sun-day-but-still-a-fun-day-01
+cover_image: "2024/04/25/17958496685756646.jpg"
 images:
-  - id: instagram-2024-04-25-104816-no-sun-day-but-still-a-fun-day-01
+  - id: "2024/04/25/17958496685756646.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-25-104816-no-sun-day-but-still-a-fun-day-02
+  - id: "2024/04/25/17988687047642677.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-25-104816-no-sun-day-but-still-a-fun-day-03
+  - id: "2024/04/25/18014108132081269.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-25-104816-no-sun-day-but-still-a-fun-day-04
+  - id: "2024/04/25/18034236184899830.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-25-104816-no-sun-day-but-still-a-fun-day-05
+  - id: "2024/04/25/18023751620109796.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-25-104816-no-sun-day-but-still-a-fun-day-06
+  - id: "2024/04/25/18231569596258350.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-25-104816-no-sun-day-but-still-a-fun-day-07
+  - id: "2024/04/25/18095395240416857.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-25-104816-no-sun-day-but-still-a-fun-day-08
+  - id: "2024/04/25/18115183960332189.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-25-104816-no-sun-day-but-still-a-fun-day-09
+  - id: "2024/04/25/18028289162049997.jpg"
     caption:
     alt:
 related:

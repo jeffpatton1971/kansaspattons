@@ -15,9 +15,9 @@ source:
   caption: "Sometimes you’re Tom Sawyer and sometimes you’re Huck Finn"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-04-08-140411-sometimes-you-re-tom-sawyer-and-sometimes-you-re-huck-finn-01
+cover_image: "2023/04/08/17890222022747157.jpg"
 images:
-  - id: instagram-2023-04-08-140411-sometimes-you-re-tom-sawyer-and-sometimes-you-re-huck-finn-01
+  - id: "2023/04/08/17890222022747157.jpg"
     caption:
     alt:
 hashtags: []

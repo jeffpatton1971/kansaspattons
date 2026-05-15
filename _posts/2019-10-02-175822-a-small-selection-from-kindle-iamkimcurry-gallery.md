@@ -17,24 +17,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to A small selection from Kindle @iamkimcurry."
 gallery: instagram-2019-10-02-175822-a-small-selection-from-kindle-iamkimcurry
-cover_image: instagram-2019-10-02-175822-a-small-selection-from-kindle-iamkimcurry-01
+cover_image: "2019/10/02/17922262054328771.jpg"
 images:
-  - id: instagram-2019-10-02-175822-a-small-selection-from-kindle-iamkimcurry-01
+  - id: "2019/10/02/17922262054328771.jpg"
     caption:
     alt:
-  - id: instagram-2019-10-02-175822-a-small-selection-from-kindle-iamkimcurry-02
+  - id: "2019/10/02/18100281214070859.jpg"
     caption:
     alt:
-  - id: instagram-2019-10-02-175822-a-small-selection-from-kindle-iamkimcurry-03
+  - id: "2019/10/02/17979758341304612.jpg"
     caption:
     alt:
-  - id: instagram-2019-10-02-175822-a-small-selection-from-kindle-iamkimcurry-04
+  - id: "2019/10/02/17855825152559845.jpg"
     caption:
     alt:
-  - id: instagram-2019-10-02-175822-a-small-selection-from-kindle-iamkimcurry-05
+  - id: "2019/10/02/18085223428129481.jpg"
     caption:
     alt:
-  - id: instagram-2019-10-02-175822-a-small-selection-from-kindle-iamkimcurry-06
+  - id: "2019/10/02/17882766313433141.jpg"
     caption:
     alt:
 related:

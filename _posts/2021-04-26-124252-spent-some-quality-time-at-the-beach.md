@@ -15,7 +15,7 @@ source:
   caption: "Spent some quality time at the beach"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2021-04-26-124252-spent-some-quality-time-at-the-beach-01
+cover_image: "2021/04/26/17868219851379551.jpg"
 related:
   - type: gallery
     id: instagram-2021-04-26-124252-spent-some-quality-time-at-the-beach

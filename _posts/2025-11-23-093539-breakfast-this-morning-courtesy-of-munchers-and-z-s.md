@@ -15,9 +15,9 @@ source:
   caption: "#breakfast this morning courtesy of munchers and z’s"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-11-23-093539-breakfast-this-morning-courtesy-of-munchers-and-z-s-01
+cover_image: "2025/11/23/18105203884563835.jpg"
 images:
-  - id: instagram-2025-11-23-093539-breakfast-this-morning-courtesy-of-munchers-and-z-s-01
+  - id: "2025/11/23/18105203884563835.jpg"
     caption:
     alt:
 hashtags:

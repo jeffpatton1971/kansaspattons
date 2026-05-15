@@ -15,9 +15,9 @@ source:
   caption: "Post-Season game 1 Win! #owls"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-06-26-200707-post-season-game-1-win-owls-01
+cover_image: "2019/06/26/17855532739444919.jpg"
 images:
-  - id: instagram-2019-06-26-200707-post-season-game-1-win-owls-01
+  - id: "2019/06/26/17855532739444919.jpg"
     caption:
     alt:
 hashtags:

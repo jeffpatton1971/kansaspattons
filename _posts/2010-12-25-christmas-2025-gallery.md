@@ -21,144 +21,144 @@ authors:
   - Jeff
 summary: "46 images related to Christmas 2025."
 gallery: wordpress-2010-12-25-013400-december-25-2010
-cover_image: "2010-12-25-wp-000207"
+cover_image: "2010/12/25/wp_000207.jpg"
 images:
-  - id: "2010-12-25-wp-000207"
+  - id: "2010/12/25/wp_000207.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000208"
+  - id: "2010/12/25/wp_000208.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000209"
+  - id: "2010/12/25/wp_000209.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000210"
+  - id: "2010/12/25/wp_000210.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000211"
+  - id: "2010/12/25/wp_000211.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000212"
+  - id: "2010/12/25/wp_000212.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000213"
+  - id: "2010/12/25/wp_000213.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000214"
+  - id: "2010/12/25/wp_000214.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000215"
+  - id: "2010/12/25/wp_000215.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000216"
+  - id: "2010/12/25/wp_000216.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000217"
+  - id: "2010/12/25/wp_000217.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000218"
+  - id: "2010/12/25/wp_000218.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000219"
+  - id: "2010/12/25/wp_000219.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000220"
+  - id: "2010/12/25/wp_000220.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000221"
+  - id: "2010/12/25/wp_000221.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000222"
+  - id: "2010/12/25/wp_000222.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000223"
+  - id: "2010/12/25/wp_000223.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000224"
+  - id: "2010/12/25/wp_000224.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000225"
+  - id: "2010/12/25/wp_000225.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000226"
+  - id: "2010/12/25/wp_000226.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000227"
+  - id: "2010/12/25/wp_000227.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000228"
+  - id: "2010/12/25/wp_000228.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000229"
+  - id: "2010/12/25/wp_000229.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000230"
+  - id: "2010/12/25/wp_000230.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000231"
+  - id: "2010/12/25/wp_000231.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000232"
+  - id: "2010/12/25/wp_000232.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000233"
+  - id: "2010/12/25/wp_000233.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000234"
+  - id: "2010/12/25/wp_000234.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000235"
+  - id: "2010/12/25/wp_000235.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000236"
+  - id: "2010/12/25/wp_000236.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000237"
+  - id: "2010/12/25/wp_000237.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000238"
+  - id: "2010/12/25/wp_000238.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000239"
+  - id: "2010/12/25/wp_000239.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000240"
+  - id: "2010/12/25/wp_000240.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000241"
+  - id: "2010/12/25/wp_000241.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000242"
+  - id: "2010/12/25/wp_000242.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000243"
+  - id: "2010/12/25/wp_000243.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000244"
+  - id: "2010/12/25/wp_000244.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000245"
+  - id: "2010/12/25/wp_000245.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000246"
+  - id: "2010/12/25/wp_000246.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000247"
+  - id: "2010/12/25/wp_000247.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000248"
+  - id: "2010/12/25/wp_000248.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000249"
+  - id: "2010/12/25/wp_000249.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000250"
+  - id: "2010/12/25/wp_000250.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000251"
+  - id: "2010/12/25/wp_000251.jpg"
     caption:
     alt:
-  - id: "2010-12-25-wp-000252"
+  - id: "2010/12/25/wp_000252.jpg"
     caption:
     alt:
 related:

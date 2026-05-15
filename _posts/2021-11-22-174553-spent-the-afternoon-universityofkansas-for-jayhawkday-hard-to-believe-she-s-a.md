@@ -15,7 +15,7 @@ source:
   caption: "Spent the afternoon @universityofkansas for #jayhawkday hard to believe she’s a senior"
   media_count: 8
   cross_post_source: "FB"
-cover_image: instagram-2021-11-22-174553-spent-the-afternoon-universityofkansas-for-jayhawkday-hard-to-believe-she-s-a-01
+cover_image: "2021/11/22/17920057193055181.jpg"
 related:
   - type: gallery
     id: instagram-2021-11-22-174553-spent-the-afternoon-universityofkansas-for-jayhawkday-hard-to-believe-she-s-a

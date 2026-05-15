@@ -15,9 +15,9 @@ source:
   caption: "My Christmas present just arrived!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-02-11-145333-my-christmas-present-just-arrived-01
+cover_image: "2023/02/11/17973776729030083.jpg"
 images:
-  - id: instagram-2023-02-11-145333-my-christmas-present-just-arrived-01
+  - id: "2023/02/11/17973776729030083.jpg"
     caption:
     alt:
 hashtags: []

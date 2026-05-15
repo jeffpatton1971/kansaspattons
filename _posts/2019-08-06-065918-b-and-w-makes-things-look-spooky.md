@@ -15,9 +15,9 @@ source:
   caption: "B&W makes things look spooky"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-08-06-065918-b-and-w-makes-things-look-spooky-01
+cover_image: "2019/08/06/17846214790559420.jpg"
 images:
-  - id: instagram-2019-08-06-065918-b-and-w-makes-things-look-spooky-01
+  - id: "2019/08/06/17846214790559420.jpg"
     caption:
     alt:
 hashtags: []

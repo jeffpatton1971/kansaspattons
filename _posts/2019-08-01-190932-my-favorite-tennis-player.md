@@ -15,9 +15,9 @@ source:
   caption: "My favorite tennis player"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-08-01-190932-my-favorite-tennis-player-01
+cover_image: "2019/08/01/18045043198168893.jpg"
 images:
-  - id: instagram-2019-08-01-190932-my-favorite-tennis-player-01
+  - id: "2019/08/01/18045043198168893.jpg"
     caption:
     alt:
 hashtags: []

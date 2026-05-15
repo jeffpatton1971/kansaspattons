@@ -15,9 +15,9 @@ source:
   caption: "Having dinner with the kids and watching some quality movies"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-05-20-181528-having-dinner-with-the-kids-and-watching-some-quality-movies-01
+cover_image: "2025/05/20/18396360676117362.jpg"
 images:
-  - id: instagram-2025-05-20-181528-having-dinner-with-the-kids-and-watching-some-quality-movies-01
+  - id: "2025/05/20/18396360676117362.jpg"
     caption:
     alt:
 hashtags: []

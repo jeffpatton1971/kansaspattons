@@ -15,9 +15,9 @@ source:
   caption: "Just got our second  #covidvacccine shot we are done and done! Thanks @pfizerinc"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-04-22-150720-just-got-our-second-covidvacccine-shot-we-are-done-and-done-thanks-pfizerinc-01
+cover_image: "2021/04/22/17883694691194446.jpg"
 images:
-  - id: instagram-2021-04-22-150720-just-got-our-second-covidvacccine-shot-we-are-done-and-done-thanks-pfizerinc-01
+  - id: "2021/04/22/17883694691194446.jpg"
     caption:
     alt:
 hashtags:

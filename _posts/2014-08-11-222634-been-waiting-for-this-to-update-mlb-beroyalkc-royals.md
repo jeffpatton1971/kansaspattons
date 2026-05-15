@@ -15,9 +15,9 @@ source:
   caption: "Been waiting for this to update @mlb #beroyalkc #royals"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-08-11-222634-been-waiting-for-this-to-update-mlb-beroyalkc-royals-01
+cover_image: "2014/08/11/17843335219063547.jpg"
 images:
-  - id: instagram-2014-08-11-222634-been-waiting-for-this-to-update-mlb-beroyalkc-royals-01
+  - id: "2014/08/11/17843335219063547.jpg"
     caption:
     alt:
 hashtags:

@@ -15,9 +15,9 @@ source:
   caption: "Happy Birthday Natalie! You are my favorite 11yr old"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-09-18-072620-happy-birthday-natalie-you-are-my-favorite-11yr-old-01
+cover_image: "2014/09/18/17843350144063547.jpg"
 images:
-  - id: instagram-2014-09-18-072620-happy-birthday-natalie-you-are-my-favorite-11yr-old-01
+  - id: "2014/09/18/17843350144063547.jpg"
     caption:
     alt:
 hashtags: []

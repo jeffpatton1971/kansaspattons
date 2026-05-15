@@ -15,9 +15,9 @@ source:
   caption: "First half of the trip gets me through two states the second half is part of Texas 😂"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2020-03-01-113250-first-half-of-the-trip-gets-me-through-two-states-the-second-half-is-part-of-01
+cover_image: "2020/03/01/17856180424799543.jpg"
 images:
-  - id: instagram-2020-03-01-113250-first-half-of-the-trip-gets-me-through-two-states-the-second-half-is-part-of-01
+  - id: "2020/03/01/17856180424799543.jpg"
     caption:
     alt:
 hashtags: []

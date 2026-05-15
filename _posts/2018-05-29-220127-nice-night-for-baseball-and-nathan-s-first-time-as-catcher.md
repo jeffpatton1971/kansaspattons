@@ -15,15 +15,15 @@ source:
   caption: "Nice night for baseball and Nathan’s first time as catcher"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2018-05-29-220127-nice-night-for-baseball-and-nathan-s-first-time-as-catcher-01
+cover_image: "2018/05/29/17933621866124316.jpg"
 images:
-  - id: instagram-2018-05-29-220127-nice-night-for-baseball-and-nathan-s-first-time-as-catcher-01
+  - id: "2018/05/29/17933621866124316.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-29-220127-nice-night-for-baseball-and-nathan-s-first-time-as-catcher-02
+  - id: "2018/05/29/17949798322033691.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-29-220127-nice-night-for-baseball-and-nathan-s-first-time-as-catcher-03
+  - id: "2018/05/29/17932720927123848.jpg"
     caption:
     alt:
 hashtags: []

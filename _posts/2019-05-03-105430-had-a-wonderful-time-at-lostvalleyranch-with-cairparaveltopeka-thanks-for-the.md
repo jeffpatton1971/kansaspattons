@@ -15,7 +15,7 @@ source:
   caption: "Had a wonderful time at @lostvalleyranch with @cairparaveltopeka thanks for the lifetime memories"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2019-05-03-105430-had-a-wonderful-time-at-lostvalleyranch-with-cairparaveltopeka-thanks-for-the-01
+cover_image: "2019/05/03/18035460991094306.jpg"
 related:
   - type: gallery
     id: instagram-2019-05-03-105430-had-a-wonderful-time-at-lostvalleyranch-with-cairparaveltopeka-thanks-for-the

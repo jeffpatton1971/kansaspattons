@@ -15,7 +15,7 @@ source:
   caption: "Doing a little building before bed time"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2018-03-04-181906-doing-a-little-building-before-bed-time-01
+cover_image: "2018/03/04/17899679407161498.jpg"
 related:
   - type: gallery
     id: instagram-2018-03-04-181906-doing-a-little-building-before-bed-time

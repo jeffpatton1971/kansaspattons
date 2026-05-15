@@ -15,9 +15,9 @@ source:
   caption: "#snowday minus you know…the snow! that’s ice"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-02-16-134635-snowday-minus-you-know-the-snow-that-s-ice-01
+cover_image: "2023/02/16/17982278500929864.jpg"
 images:
-  - id: instagram-2023-02-16-134635-snowday-minus-you-know-the-snow-that-s-ice-01
+  - id: "2023/02/16/17982278500929864.jpg"
     caption:
     alt:
 hashtags:

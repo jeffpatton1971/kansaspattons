@@ -15,7 +15,7 @@ source:
   caption: "Magic wands and Hogwarts"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2021-04-27-135856-magic-wands-and-hogwarts-01
+cover_image: "2021/04/27/17996719156328554.jpg"
 related:
   - type: gallery
     id: instagram-2021-04-27-135856-magic-wands-and-hogwarts

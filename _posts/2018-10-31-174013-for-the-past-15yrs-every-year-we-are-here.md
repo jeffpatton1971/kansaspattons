@@ -15,9 +15,9 @@ source:
   caption: "For the past 15yrs, every year we are here ❤️"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-10-31-174013-for-the-past-15yrs-every-year-we-are-here-01
+cover_image: "2018/10/31/17977294900122211.jpg"
 images:
-  - id: instagram-2018-10-31-174013-for-the-past-15yrs-every-year-we-are-here-01
+  - id: "2018/10/31/17977294900122211.jpg"
     caption:
     alt:
 hashtags: []

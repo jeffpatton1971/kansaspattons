@@ -15,9 +15,9 @@ source:
   caption: "Everything is Awesome...with these two at the movies! #legomovie2"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-02-08-182947-everything-is-awesome-with-these-two-at-the-movies-legomovie2-01
+cover_image: "2019/02/08/17865082339319535.jpg"
 images:
-  - id: instagram-2019-02-08-182947-everything-is-awesome-with-these-two-at-the-movies-legomovie2-01
+  - id: "2019/02/08/17865082339319535.jpg"
     caption:
     alt:
 hashtags:

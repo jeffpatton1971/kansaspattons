@@ -15,9 +15,9 @@ source:
   caption: "Starting the day off right with my favorite daughter"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-05-13-080701-starting-the-day-off-right-with-my-favorite-daughter-01
+cover_image: "2025/05/13/18080811193688144.jpg"
 images:
-  - id: instagram-2025-05-13-080701-starting-the-day-off-right-with-my-favorite-daughter-01
+  - id: "2025/05/13/18080811193688144.jpg"
     caption:
     alt:
 hashtags: []

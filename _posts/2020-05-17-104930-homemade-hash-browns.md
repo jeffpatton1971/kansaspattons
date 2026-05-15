@@ -15,15 +15,15 @@ source:
   caption: "Homemade hash browns"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2020-05-17-104930-homemade-hash-browns-01
+cover_image: "2020/05/17/17959798846317157.jpg"
 images:
-  - id: instagram-2020-05-17-104930-homemade-hash-browns-01
+  - id: "2020/05/17/17959798846317157.jpg"
     caption:
     alt:
-  - id: instagram-2020-05-17-104930-homemade-hash-browns-02
+  - id: "2020/05/17/18062277820223077.jpg"
     caption:
     alt:
-  - id: instagram-2020-05-17-104930-homemade-hash-browns-03
+  - id: "2020/05/17/17902533064467769.jpg"
     caption:
     alt:
 hashtags: []

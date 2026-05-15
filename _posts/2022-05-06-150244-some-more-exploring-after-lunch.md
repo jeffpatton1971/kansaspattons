@@ -15,7 +15,7 @@ source:
   caption: "Some more exploring after lunch"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2022-05-06-150244-some-more-exploring-after-lunch-01
+cover_image: "2022/05/06/17958131038734920.jpg"
 related:
   - type: gallery
     id: instagram-2022-05-06-150244-some-more-exploring-after-lunch

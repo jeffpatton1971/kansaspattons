@@ -15,9 +15,9 @@ source:
   caption: "Just a little over 3” in the first round"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-12-15-122501-just-a-little-over-3-in-the-first-round-01
+cover_image: "2019/12/15/17849158153776828.jpg"
 images:
-  - id: instagram-2019-12-15-122501-just-a-little-over-3-in-the-first-round-01
+  - id: "2019/12/15/17849158153776828.jpg"
     caption:
     alt:
 hashtags: []

@@ -15,7 +15,7 @@ source:
   caption: "@cairparaveltopeka Egyptian day"
   media_count: 8
   cross_post_source: "FB"
-cover_image: instagram-2019-05-17-210019-cairparaveltopeka-egyptian-day-01
+cover_image: "2019/05/17/18025172242168787.jpg"
 related:
   - type: gallery
     id: instagram-2019-05-17-210019-cairparaveltopeka-egyptian-day

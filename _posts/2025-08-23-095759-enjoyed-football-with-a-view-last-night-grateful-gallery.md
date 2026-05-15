@@ -18,21 +18,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to Enjoyed football with a view last night #grateful."
 gallery: instagram-2025-08-23-095759-enjoyed-football-with-a-view-last-night-grateful
-cover_image: instagram-2025-08-23-095759-enjoyed-football-with-a-view-last-night-grateful-01
+cover_image: "2025/08/23/17847634008546471.jpg"
 images:
-  - id: instagram-2025-08-23-095759-enjoyed-football-with-a-view-last-night-grateful-01
+  - id: "2025/08/23/17847634008546471.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-23-095759-enjoyed-football-with-a-view-last-night-grateful-02
+  - id: "2025/08/23/18092636029661401.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-23-095759-enjoyed-football-with-a-view-last-night-grateful-03
+  - id: "2025/08/23/18088553299696862.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-23-095759-enjoyed-football-with-a-view-last-night-grateful-04
+  - id: "2025/08/23/17868813069351393.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-23-095759-enjoyed-football-with-a-view-last-night-grateful-05
+  - id: "2025/08/23/18080737753905580.jpg"
     caption:
     alt:
 related:

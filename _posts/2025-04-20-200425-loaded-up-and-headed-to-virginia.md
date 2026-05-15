@@ -15,12 +15,12 @@ source:
   caption: "Loaded up and headed to Virginia"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2025-04-20-200425-loaded-up-and-headed-to-virginia-01
+cover_image: "2025/04/20/18030723959368484.jpg"
 images:
-  - id: instagram-2025-04-20-200425-loaded-up-and-headed-to-virginia-01
+  - id: "2025/04/20/18030723959368484.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-20-200425-loaded-up-and-headed-to-virginia-02
+  - id: "2025/04/20/18052569302218216.jpg"
     caption:
     alt:
 hashtags: []

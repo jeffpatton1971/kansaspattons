@@ -15,7 +15,7 @@ source:
   caption: "hope everyone had a fun and safe fourth"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth-01
+cover_image: "2023/07/04/18290373913112066.jpg"
 related:
   - type: gallery
     id: instagram-2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth

@@ -15,9 +15,9 @@ source:
   caption: "Thursday’s @theroost920mass 🖤💛"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2026-03-05-100045-thursday-s-theroost920mass-01
+cover_image: "2026/03/05/18081412058040069.jpg"
 images:
-  - id: instagram-2026-03-05-100045-thursday-s-theroost920mass-01
+  - id: "2026/03/05/18081412058040069.jpg"
     caption:
     alt:
 hashtags: []

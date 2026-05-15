@@ -15,9 +15,9 @@ source:
   caption: "Just a dude\nPosting #food"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-04-03-200638-just-a-dude-posting-food-01
+cover_image: "2025/04/03/17983334558671588.jpg"
 images:
-  - id: instagram-2025-04-03-200638-just-a-dude-posting-food-01
+  - id: "2025/04/03/17983334558671588.jpg"
     caption:
     alt:
 hashtags:

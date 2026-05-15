@@ -15,15 +15,15 @@ source:
   caption: "#trickortreat #happyhalloween"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2023-10-31-201230-trickortreat-happyhalloween-01
+cover_image: "2023/10/31/17986822976411497.jpg"
 images:
-  - id: instagram-2023-10-31-201230-trickortreat-happyhalloween-01
+  - id: "2023/10/31/17986822976411497.jpg"
     caption:
     alt:
-  - id: instagram-2023-10-31-201230-trickortreat-happyhalloween-02
+  - id: "2023/10/31/18003165514984418.jpg"
     caption:
     alt:
-  - id: instagram-2023-10-31-201230-trickortreat-happyhalloween-03
+  - id: "2023/10/31/17976709316391626.jpg"
     caption:
     alt:
 hashtags:

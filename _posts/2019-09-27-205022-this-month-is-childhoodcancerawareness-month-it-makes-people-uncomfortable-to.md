@@ -15,7 +15,7 @@ source:
   caption: "This month is #childhoodcancerawareness month. It makes people uncomfortable to think about children having to go through painful medications, treatments and surgeries. Some of these treatments go on for years, some for only a few months. Some kids, like my son Nathan are extremely fortunate and some kids are not. Nathan was diagnosed with #hepatoblastoma shortly after his second birthday and was in treatment from March until his resection at @kumedcenter in July. Today Nathan is 6yrs cancer free and we are so grateful for the doctors and friends and family who were with us on the journey. #negu"
   media_count: 9
   cross_post_source: "FB"
-cover_image: instagram-2019-09-27-205022-this-month-is-childhoodcancerawareness-month-it-makes-people-uncomfortable-to-01
+cover_image: "2019/09/27/17845815682659475.jpg"
 related:
   - type: gallery
     id: instagram-2019-09-27-205022-this-month-is-childhoodcancerawareness-month-it-makes-people-uncomfortable-to

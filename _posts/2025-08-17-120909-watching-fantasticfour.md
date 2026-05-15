@@ -15,9 +15,9 @@ source:
   caption: "Watching @fantasticfour"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-08-17-120909-watching-fantasticfour-01
+cover_image: "2025/08/17/17981641622728774.jpg"
 images:
-  - id: instagram-2025-08-17-120909-watching-fantasticfour-01
+  - id: "2025/08/17/17981641622728774.jpg"
     caption:
     alt:
 hashtags: []

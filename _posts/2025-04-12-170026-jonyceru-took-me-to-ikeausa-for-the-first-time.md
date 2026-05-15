@@ -15,7 +15,7 @@ source:
   caption: "@jonyceru took me to @ikeausa for the first time!"
   media_count: 7
   cross_post_source: "FB"
-cover_image: instagram-2025-04-12-170026-jonyceru-took-me-to-ikeausa-for-the-first-time-01
+cover_image: "2025/04/12/18324245299167052.jpg"
 related:
   - type: gallery
     id: instagram-2025-04-12-170026-jonyceru-took-me-to-ikeausa-for-the-first-time

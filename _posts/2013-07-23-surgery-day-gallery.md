@@ -19,24 +19,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Surgery Day."
 gallery: wordpress-2013-07-23-130000-july-23-2013
-cover_image: "2013-07-23-wp-20130723-001"
+cover_image: "2013/07/23/wp_20130723_001.jpg"
 images:
-  - id: "2013-07-23-wp-20130723-001"
+  - id: "2013/07/23/wp_20130723_001.jpg"
     caption:
     alt:
-  - id: "2013-07-23-wp-20130723-002"
+  - id: "2013/07/23/wp_20130723_002.jpg"
     caption:
     alt:
-  - id: "2013-07-23-wp-20130723-003"
+  - id: "2013/07/23/wp_20130723_003.jpg"
     caption:
     alt:
-  - id: "2013-07-23-wp-20130723-004"
+  - id: "2013/07/23/wp_20130723_004.jpg"
     caption:
     alt:
-  - id: "2013-07-23-wp-20130723-005"
+  - id: "2013/07/23/wp_20130723_005.jpg"
     caption:
     alt:
-  - id: "2013-07-23-wp-20130723-008"
+  - id: "2013/07/23/wp_20130723_008.jpg"
     caption:
     alt:
 related:

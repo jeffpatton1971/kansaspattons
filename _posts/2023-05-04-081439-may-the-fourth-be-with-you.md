@@ -14,9 +14,9 @@ source:
   timestamp: 1683206079
   caption: "May the fourth be with you"
   media_count: 1
-cover_image: instagram-2023-05-04-081439-may-the-fourth-be-with-you-01
+cover_image: "2023/05/04/18245994211090038.jpg"
 images:
-  - id: instagram-2023-05-04-081439-may-the-fourth-be-with-you-01
+  - id: "2023/05/04/18245994211090038.jpg"
     caption:
     alt:
 hashtags: []

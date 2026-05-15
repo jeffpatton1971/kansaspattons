@@ -15,9 +15,9 @@ source:
   caption: "Went to the Symphony tonight and really miss playing"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-10-02-223304-went-to-the-symphony-tonight-and-really-miss-playing-01
+cover_image: "2021/10/02/18097398466274056.jpg"
 images:
-  - id: instagram-2021-10-02-223304-went-to-the-symphony-tonight-and-really-miss-playing-01
+  - id: "2021/10/02/18097398466274056.jpg"
     caption:
     alt:
 hashtags: []

@@ -20,39 +20,39 @@ authors:
   - "Jeff Patton"
 summary: "11 images related to Pet Alligator."
 gallery: wordpress-2013-05-17-084233-may-17-2013
-cover_image: "2013-05-17-wp-20130517-002"
+cover_image: "2013/05/17/wp_20130517_002.jpg"
 images:
-  - id: "2013-05-17-wp-20130517-002"
+  - id: "2013/05/17/wp_20130517_002.jpg"
     caption:
     alt:
-  - id: "2013-05-17-wp-20130517-006"
+  - id: "2013/05/17/wp_20130517_006.jpg"
     caption:
     alt:
-  - id: "2013-05-17-wp-20130517-007"
+  - id: "2013/05/17/wp_20130517_007.jpg"
     caption:
     alt:
-  - id: "2013-05-17-wp-20130517-009"
+  - id: "2013/05/17/wp_20130517_009.jpg"
     caption:
     alt:
-  - id: "2013-05-17-wp-20130517-010"
+  - id: "2013/05/17/wp_20130517_010.jpg"
     caption:
     alt:
-  - id: "2013-05-17-wp-20130517-014"
+  - id: "2013/05/17/wp_20130517_014.jpg"
     caption:
     alt:
-  - id: "2013-05-17-wp-20130517-016"
+  - id: "2013/05/17/wp_20130517_016.jpg"
     caption:
     alt:
-  - id: "2013-05-17-wp-20130517-017"
+  - id: "2013/05/17/wp_20130517_017.jpg"
     caption:
     alt:
-  - id: "2013-05-17-wp-20130517-018"
+  - id: "2013/05/17/wp_20130517_018.jpg"
     caption:
     alt:
-  - id: "2013-05-17-wp-20130517-019"
+  - id: "2013/05/17/wp_20130517_019.jpg"
     caption:
     alt:
-  - id: "2013-05-17-wp-20130517-022"
+  - id: "2013/05/17/wp_20130517_022.jpg"
     caption:
     alt:
 related:

@@ -15,7 +15,7 @@ source:
   caption: "Round 2 of pictures were stopped in #nassaubahamas and bought some souvenirs. Our ship was docked next to a #disneycruise ship which was very cool"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2024-06-25-194726-round-2-of-pictures-were-stopped-in-nassaubahamas-and-bought-some-souvenirs-our-01
+cover_image: "2024/06/25/18038424550788440.jpg"
 related:
   - type: gallery
     id: instagram-2024-06-25-194726-round-2-of-pictures-were-stopped-in-nassaubahamas-and-bought-some-souvenirs-our

@@ -15,9 +15,9 @@ source:
   caption: "This girl…who would not share her photo ID photo…is enrolled @washburnuniversity"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2022-05-24-212810-this-girl-who-would-not-share-her-photo-id-photo-is-enrolled-washburnuniversity-01
+cover_image: "2022/05/24/17962496050676801.jpg"
 images:
-  - id: instagram-2022-05-24-212810-this-girl-who-would-not-share-her-photo-id-photo-is-enrolled-washburnuniversity-01
+  - id: "2022/05/24/17962496050676801.jpg"
     caption:
     alt:
 hashtags: []

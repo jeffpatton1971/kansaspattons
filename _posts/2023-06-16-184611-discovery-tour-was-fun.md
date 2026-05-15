@@ -15,7 +15,7 @@ source:
   caption: "Discovery tour was fun"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2023-06-16-184611-discovery-tour-was-fun-01
+cover_image: "2023/06/16/17911996181773844.jpg"
 related:
   - type: gallery
     id: instagram-2023-06-16-184611-discovery-tour-was-fun

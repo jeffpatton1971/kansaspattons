@@ -15,9 +15,9 @@ source:
   caption: "Happy International Eat Ice Cream for Breakfast Day!\r#icecreamforbreakfast\r#kidsgetcancertoo"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2015-02-18-072016-happy-international-eat-ice-cream-for-breakfast-day-icecreamforbreakfast-01
+cover_image: "2015/02/18/17841791182063547.jpg"
 images:
-  - id: instagram-2015-02-18-072016-happy-international-eat-ice-cream-for-breakfast-day-icecreamforbreakfast-01
+  - id: "2015/02/18/17841791182063547.jpg"
     caption:
     alt:
 hashtags:

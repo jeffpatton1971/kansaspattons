@@ -15,9 +15,9 @@ source:
   caption: "“My two middle teeth are lonely!”"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-08-05-101635-my-two-middle-teeth-are-lonely-01
+cover_image: "2018/08/05/17859086698279289.jpg"
 images:
-  - id: instagram-2018-08-05-101635-my-two-middle-teeth-are-lonely-01
+  - id: "2018/08/05/17859086698279289.jpg"
     caption:
     alt:
 hashtags: []

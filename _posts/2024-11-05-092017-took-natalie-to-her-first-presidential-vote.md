@@ -15,9 +15,9 @@ source:
   caption: "Took Natalie to her first Presidential #vote"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2024-11-05-092017-took-natalie-to-her-first-presidential-vote-01
+cover_image: "2024/11/05/17947387247770112.jpg"
 images:
-  - id: instagram-2024-11-05-092017-took-natalie-to-her-first-presidential-vote-01
+  - id: "2024/11/05/17947387247770112.jpg"
     caption:
     alt:
 hashtags:

@@ -15,7 +15,7 @@ source:
   caption: "Had a fun day on the #magmile"
   media_count: 7
   cross_post_source: "FB"
-cover_image: instagram-2025-09-12-201138-had-a-fun-day-on-the-magmile-01
+cover_image: "2025/09/12/17842427064578408.jpg"
 related:
   - type: gallery
     id: instagram-2025-09-12-201138-had-a-fun-day-on-the-magmile

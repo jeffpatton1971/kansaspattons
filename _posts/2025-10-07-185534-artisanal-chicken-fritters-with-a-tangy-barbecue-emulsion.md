@@ -15,9 +15,9 @@ source:
   caption: "Artisanal Chicken Fritters with a Tangy Barbecue Emulsion"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-10-07-185534-artisanal-chicken-fritters-with-a-tangy-barbecue-emulsion-01
+cover_image: "2025/10/07/17902593801264470.jpg"
 images:
-  - id: instagram-2025-10-07-185534-artisanal-chicken-fritters-with-a-tangy-barbecue-emulsion-01
+  - id: "2025/10/07/17902593801264470.jpg"
     caption:
     alt:
 hashtags: []

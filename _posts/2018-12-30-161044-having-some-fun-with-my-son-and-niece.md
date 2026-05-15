@@ -15,7 +15,7 @@ source:
   caption: "Having some fun with my son and niece"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2018-12-30-161044-having-some-fun-with-my-son-and-niece-01
+cover_image: "2018/12/30/17987639296192089.jpg"
 related:
   - type: gallery
     id: instagram-2018-12-30-161044-having-some-fun-with-my-son-and-niece

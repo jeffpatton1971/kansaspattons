@@ -15,12 +15,12 @@ source:
   caption: "Decent pic of the #christmasstar sadly couldn’t get one through ye olde binoculars 😂"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2020-12-21-181002-decent-pic-of-the-christmasstar-sadly-couldn-t-get-one-through-ye-olde-01
+cover_image: "2020/12/21/17938550446417926.jpg"
 images:
-  - id: instagram-2020-12-21-181002-decent-pic-of-the-christmasstar-sadly-couldn-t-get-one-through-ye-olde-01
+  - id: "2020/12/21/17938550446417926.jpg"
     caption:
     alt:
-  - id: instagram-2020-12-21-181002-decent-pic-of-the-christmasstar-sadly-couldn-t-get-one-through-ye-olde-02
+  - id: "2020/12/21/17843844407507743.jpg"
     caption:
     alt:
 hashtags:

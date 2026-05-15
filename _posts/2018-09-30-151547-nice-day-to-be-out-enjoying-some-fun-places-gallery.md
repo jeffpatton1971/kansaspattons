@@ -17,27 +17,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to Nice day to be out enjoying some fun places."
 gallery: instagram-2018-09-30-151547-nice-day-to-be-out-enjoying-some-fun-places
-cover_image: instagram-2018-09-30-151547-nice-day-to-be-out-enjoying-some-fun-places-01
+cover_image: "2018/09/30/17921061859216118.jpg"
 images:
-  - id: instagram-2018-09-30-151547-nice-day-to-be-out-enjoying-some-fun-places-01
+  - id: "2018/09/30/17921061859216118.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-30-151547-nice-day-to-be-out-enjoying-some-fun-places-02
+  - id: "2018/09/30/17984627734020331.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-30-151547-nice-day-to-be-out-enjoying-some-fun-places-03
+  - id: "2018/09/30/17970369892096530.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-30-151547-nice-day-to-be-out-enjoying-some-fun-places-04
+  - id: "2018/09/30/17853885538295995.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-30-151547-nice-day-to-be-out-enjoying-some-fun-places-05
+  - id: "2018/09/30/17886048625270656.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-30-151547-nice-day-to-be-out-enjoying-some-fun-places-06
+  - id: "2018/09/30/17983544629042668.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-30-151547-nice-day-to-be-out-enjoying-some-fun-places-07
+  - id: "2018/09/30/17963382703082023.jpg"
     caption:
     alt:
 related:

@@ -17,30 +17,30 @@ authors:
   - "Jeff Patton"
 summary: "8 images related to A day at the zoo."
 gallery: instagram-2019-06-01-150711-a-day-at-the-zoo
-cover_image: instagram-2019-06-01-150711-a-day-at-the-zoo-01
+cover_image: "2019/06/01/17882738071360012.jpg"
 images:
-  - id: instagram-2019-06-01-150711-a-day-at-the-zoo-01
+  - id: "2019/06/01/17882738071360012.jpg"
     caption:
     alt:
-  - id: instagram-2019-06-01-150711-a-day-at-the-zoo-02
+  - id: "2019/06/01/18071325436059686.jpg"
     caption:
     alt:
-  - id: instagram-2019-06-01-150711-a-day-at-the-zoo-03
+  - id: "2019/06/01/18065047120069763.jpg"
     caption:
     alt:
-  - id: instagram-2019-06-01-150711-a-day-at-the-zoo-04
+  - id: "2019/06/01/18071530108062594.jpg"
     caption:
     alt:
-  - id: instagram-2019-06-01-150711-a-day-at-the-zoo-05
+  - id: "2019/06/01/18052779379114461.jpg"
     caption:
     alt:
-  - id: instagram-2019-06-01-150711-a-day-at-the-zoo-06
+  - id: "2019/06/01/17845738126461089.jpg"
     caption:
     alt:
-  - id: instagram-2019-06-01-150711-a-day-at-the-zoo-07
+  - id: "2019/06/01/18041374135188608.jpg"
     caption:
     alt:
-  - id: instagram-2019-06-01-150711-a-day-at-the-zoo-08
+  - id: "2019/06/01/17860278802412213.jpg"
     caption:
     alt:
 related:

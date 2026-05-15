@@ -15,9 +15,9 @@ source:
   caption: "Natalie on the court"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2016-11-18-210735-natalie-on-the-court-01
+cover_image: "2016/11/18/17855641705103055.mp4"
 images:
-  - id: instagram-2016-11-18-210735-natalie-on-the-court-01
+  - id: "2016/11/18/17855641705103055.mp4"
     caption:
     alt:
 hashtags: []

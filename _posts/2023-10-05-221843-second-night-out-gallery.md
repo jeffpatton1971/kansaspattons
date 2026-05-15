@@ -17,21 +17,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to second night out."
 gallery: instagram-2023-10-05-221843-second-night-out
-cover_image: instagram-2023-10-05-221843-second-night-out-01
+cover_image: "2023/10/05/17994724919069844.jpg"
 images:
-  - id: instagram-2023-10-05-221843-second-night-out-01
+  - id: "2023/10/05/17994724919069844.jpg"
     caption:
     alt:
-  - id: instagram-2023-10-05-221843-second-night-out-02
+  - id: "2023/10/05/17982698027522712.jpg"
     caption:
     alt:
-  - id: instagram-2023-10-05-221843-second-night-out-03
+  - id: "2023/10/05/18033833278602294.jpg"
     caption:
     alt:
-  - id: instagram-2023-10-05-221843-second-night-out-04
+  - id: "2023/10/05/17886794081927235.jpg"
     caption:
     alt:
-  - id: instagram-2023-10-05-221843-second-night-out-05
+  - id: "2023/10/05/18303966421184052.jpg"
     caption:
     alt:
 related:

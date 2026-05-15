@@ -9,6 +9,8 @@
     "normalize:posts": "tsx scripts/normalize-post-frontmatter.ts",
     "migrate:galleries": "tsx scripts/migrate-gallery-relationships.ts",
     "migrate:galleries:write": "tsx scripts/migrate-gallery-relationships.ts --write",
+    "images:canonicalize": "tsx scripts/canonicalize-image-references.ts",
+    "images:canonicalize:write": "tsx scripts/canonicalize-image-references.ts --write",
     "assets:manifest": "tsx scripts/image-storage-migration-manifest.ts",
     "assets:manifest:write": "tsx scripts/image-storage-migration-manifest.ts --write-manifest",
     "assets:migrate": "tsx scripts/migrate-image-storage.ts",

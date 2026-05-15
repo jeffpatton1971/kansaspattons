@@ -18,36 +18,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Having some fun at the #brictionary exhibit."
 gallery: instagram-2024-03-12-195709-having-some-fun-at-the-brictionary-exhibit
-cover_image: instagram-2024-03-12-195709-having-some-fun-at-the-brictionary-exhibit-01
+cover_image: "2024/03/12/18051983557592891.jpg"
 images:
-  - id: instagram-2024-03-12-195709-having-some-fun-at-the-brictionary-exhibit-01
+  - id: "2024/03/12/18051983557592891.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-12-195709-having-some-fun-at-the-brictionary-exhibit-02
+  - id: "2024/03/12/18222655420272783.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-12-195709-having-some-fun-at-the-brictionary-exhibit-03
+  - id: "2024/03/12/17989586027418920.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-12-195709-having-some-fun-at-the-brictionary-exhibit-04
+  - id: "2024/03/12/18281523226167995.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-12-195709-having-some-fun-at-the-brictionary-exhibit-05
+  - id: "2024/03/12/18030989485741125.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-12-195709-having-some-fun-at-the-brictionary-exhibit-06
+  - id: "2024/03/12/17996486732601298.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-12-195709-having-some-fun-at-the-brictionary-exhibit-07
+  - id: "2024/03/12/18019346582107244.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-12-195709-having-some-fun-at-the-brictionary-exhibit-08
+  - id: "2024/03/12/18303882541148853.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-12-195709-having-some-fun-at-the-brictionary-exhibit-09
+  - id: "2024/03/12/18000483995256237.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-12-195709-having-some-fun-at-the-brictionary-exhibit-10
+  - id: "2024/03/12/17947131569669585.jpg"
     caption:
     alt:
 related:

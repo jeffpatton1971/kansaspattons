@@ -23,21 +23,21 @@ categories:
   - album
 tags: []
 gallery: facebook-2009-04-28-140238-natalie-at-michelle-s-wedding
-cover_image: facebook-2009-04-28-140238-natalie-at-michelle-s-wedding-0001
+cover_image: "2009/04/28/77122763339.jpg"
 images:
-  - id: facebook-2009-04-28-140238-natalie-at-michelle-s-wedding-0001
+  - id: "2009/04/28/77122763339.jpg"
     caption:
     alt:
-  - id: facebook-2009-04-28-140238-natalie-at-michelle-s-wedding-0002
+  - id: "2009/04/28/77122768339.jpg"
     caption:
     alt:
-  - id: facebook-2009-04-28-140238-natalie-at-michelle-s-wedding-0003
+  - id: "2009/04/28/77122778339.jpg"
     caption:
     alt:
-  - id: facebook-2009-04-28-140238-natalie-at-michelle-s-wedding-0004
+  - id: "2009/04/28/77122783339.jpg"
     caption:
     alt:
-  - id: facebook-2009-04-28-140238-natalie-at-michelle-s-wedding-0005
+  - id: "2009/04/28/77122788339.jpg"
     caption:
     alt:
 authors:

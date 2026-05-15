@@ -15,9 +15,9 @@ source:
   caption: "#goodmorning #kansas #sunflowers"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-08-18-074235-goodmorning-kansas-sunflowers-01
+cover_image: "2023/08/18/18054253300455582.jpg"
 images:
-  - id: instagram-2023-08-18-074235-goodmorning-kansas-sunflowers-01
+  - id: "2023/08/18/18054253300455582.jpg"
     caption:
     alt:
 hashtags:

@@ -15,9 +15,9 @@ source:
   caption: "It’s over! I have the high ground! @starwars @lego"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-06-22-190832-it-s-over-i-have-the-high-ground-starwars-lego-01
+cover_image: "2023/06/22/18145871722292351.jpg"
 images:
-  - id: instagram-2023-06-22-190832-it-s-over-i-have-the-high-ground-starwars-lego-01
+  - id: "2023/06/22/18145871722292351.jpg"
     caption:
     alt:
 hashtags: []

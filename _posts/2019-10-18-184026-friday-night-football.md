@@ -15,9 +15,9 @@ source:
   caption: "Friday night football"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-10-18-184026-friday-night-football-01
+cover_image: "2019/10/18/17906378209372592.jpg"
 images:
-  - id: instagram-2019-10-18-184026-friday-night-football-01
+  - id: "2019/10/18/17906378209372592.jpg"
     caption:
     alt:
 hashtags: []

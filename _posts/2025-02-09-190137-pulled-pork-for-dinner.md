@@ -15,7 +15,7 @@ source:
   caption: "Pulled pork for dinner"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2025-02-09-190137-pulled-pork-for-dinner-01
+cover_image: "2025/02/09/17943902999823007.jpg"
 related:
   - type: gallery
     id: instagram-2025-02-09-190137-pulled-pork-for-dinner

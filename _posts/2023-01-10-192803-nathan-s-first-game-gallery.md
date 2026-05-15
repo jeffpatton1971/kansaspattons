@@ -19,36 +19,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Nathan’s first game."
 gallery: instagram-2023-01-10-192803-nathan-s-first-game
-cover_image: instagram-2023-01-10-192803-nathan-s-first-game-01
+cover_image: "2023/01/10/17946060413521953.jpg"
 images:
-  - id: instagram-2023-01-10-192803-nathan-s-first-game-01
+  - id: "2023/01/10/17946060413521953.jpg"
     caption:
     alt:
-  - id: instagram-2023-01-10-192803-nathan-s-first-game-02
+  - id: "2023/01/10/17998472902608838.jpg"
     caption:
     alt:
-  - id: instagram-2023-01-10-192803-nathan-s-first-game-03
+  - id: "2023/01/10/18311810872072895.jpg"
     caption:
     alt:
-  - id: instagram-2023-01-10-192803-nathan-s-first-game-04
+  - id: "2023/01/10/17951976614512346.jpg"
     caption:
     alt:
-  - id: instagram-2023-01-10-192803-nathan-s-first-game-05
+  - id: "2023/01/10/17993660461714078.jpg"
     caption:
     alt:
-  - id: instagram-2023-01-10-192803-nathan-s-first-game-06
+  - id: "2023/01/10/17931389507623714.jpg"
     caption:
     alt:
-  - id: instagram-2023-01-10-192803-nathan-s-first-game-07
+  - id: "2023/01/10/17992303153711958.jpg"
     caption:
     alt:
-  - id: instagram-2023-01-10-192803-nathan-s-first-game-08
+  - id: "2023/01/10/17969248109119032.jpg"
     caption:
     alt:
-  - id: instagram-2023-01-10-192803-nathan-s-first-game-09
+  - id: "2023/01/10/17861160494830499.jpg"
     caption:
     alt:
-  - id: instagram-2023-01-10-192803-nathan-s-first-game-10
+  - id: "2023/01/10/17943249302342530.jpg"
     caption:
     alt:
 related:

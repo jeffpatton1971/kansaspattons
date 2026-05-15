@@ -15,9 +15,9 @@ source:
   caption: "Starting off the New Year with a great breakfast"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2020-01-01-103740-starting-off-the-new-year-with-a-great-breakfast-01
+cover_image: "2020/01/01/17860450090629591.jpg"
 images:
-  - id: instagram-2020-01-01-103740-starting-off-the-new-year-with-a-great-breakfast-01
+  - id: "2020/01/01/17860450090629591.jpg"
     caption:
     alt:
 hashtags: []

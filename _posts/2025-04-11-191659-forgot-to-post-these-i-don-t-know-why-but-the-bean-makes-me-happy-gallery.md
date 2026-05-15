@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Forgot to post these! I don’t know why but the bean makes me happy!."
 gallery: instagram-2025-04-11-191659-forgot-to-post-these-i-don-t-know-why-but-the-bean-makes-me-happy
-cover_image: instagram-2025-04-11-191659-forgot-to-post-these-i-don-t-know-why-but-the-bean-makes-me-happy-01
+cover_image: "2025/04/11/18079418440612485.jpg"
 images:
-  - id: instagram-2025-04-11-191659-forgot-to-post-these-i-don-t-know-why-but-the-bean-makes-me-happy-01
+  - id: "2025/04/11/18079418440612485.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-11-191659-forgot-to-post-these-i-don-t-know-why-but-the-bean-makes-me-happy-02
+  - id: "2025/04/11/17919361617078502.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-11-191659-forgot-to-post-these-i-don-t-know-why-but-the-bean-makes-me-happy-03
+  - id: "2025/04/11/18089949292591866.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-11-191659-forgot-to-post-these-i-don-t-know-why-but-the-bean-makes-me-happy-04
+  - id: "2025/04/11/17930758152022584.jpg"
     caption:
     alt:
 related:

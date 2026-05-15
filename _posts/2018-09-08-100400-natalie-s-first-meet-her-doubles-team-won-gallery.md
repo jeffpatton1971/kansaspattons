@@ -19,18 +19,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Natalie’s first meet, her doubles team won!."
 gallery: instagram-2018-09-08-100400-natalie-s-first-meet-her-doubles-team-won
-cover_image: instagram-2018-09-08-100400-natalie-s-first-meet-her-doubles-team-won-01
+cover_image: "2018/09/08/17977729882051311.jpg"
 images:
-  - id: instagram-2018-09-08-100400-natalie-s-first-meet-her-doubles-team-won-01
+  - id: "2018/09/08/17977729882051311.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-08-100400-natalie-s-first-meet-her-doubles-team-won-02
+  - id: "2018/09/08/17959942585126356.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-08-100400-natalie-s-first-meet-her-doubles-team-won-03
+  - id: "2018/09/08/17977682194015042.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-08-100400-natalie-s-first-meet-her-doubles-team-won-04
+  - id: "2018/09/08/17959921720122778.jpg"
     caption:
     alt:
 related:

@@ -15,9 +15,9 @@ source:
   caption: "#breakfast @theroost920mass and then maybe some outdoor time…it’s beautiful out 💛🖤"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2026-03-26-111005-breakfast-theroost920mass-and-then-maybe-some-outdoor-time-it-s-beautiful-out-01
+cover_image: "2026/03/26/18041394536753612.jpg"
 images:
-  - id: instagram-2026-03-26-111005-breakfast-theroost920mass-and-then-maybe-some-outdoor-time-it-s-beautiful-out-01
+  - id: "2026/03/26/18041394536753612.jpg"
     caption:
     alt:
 hashtags:

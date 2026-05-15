@@ -12,9 +12,9 @@ source:
   type: facebook
   subtype: album
   file: ".facebook\\your_facebook_activity\\posts\\album\\39.json"
-cover_image: facebook-2012-11-14-223329-windows-8-cover-photo-creator-0001
+cover_image: "2012/11/14/10151249417303340.jpg"
 images:
-  - id: facebook-2012-11-14-223329-windows-8-cover-photo-creator-0001
+  - id: "2012/11/14/10151249417303340.jpg"
     caption:
     alt:
 album:

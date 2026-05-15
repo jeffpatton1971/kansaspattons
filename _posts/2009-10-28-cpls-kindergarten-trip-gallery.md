@@ -18,36 +18,36 @@ authors:
   - Jeff
 summary: "10 images related to Rees Fruit Farm Field Trip."
 gallery: gallery-2009-10-28
-cover_image: "2009-10-28-photo00412"
+cover_image: "2009/10/28/photo00412.jpg"
 images:
-  - id: "2009-10-28-photo00412"
+  - id: "2009/10/28/photo00412.jpg"
     caption:
     alt:
-  - id: "2009-10-28-photo00422"
+  - id: "2009/10/28/photo00422.jpg"
     caption:
     alt:
-  - id: "2009-10-28-photo00462"
+  - id: "2009/10/28/photo00462.jpg"
     caption:
     alt:
-  - id: "2009-10-28-photo004721"
+  - id: "2009/10/28/photo004721.jpg"
     caption:
     alt:
-  - id: "2009-10-28-photo00492"
+  - id: "2009/10/28/photo00492.jpg"
     caption:
     alt:
-  - id: "2009-10-28-photo00512"
+  - id: "2009/10/28/photo00512.jpg"
     caption:
     alt:
-  - id: "2009-10-28-photo00552"
+  - id: "2009/10/28/photo00552.jpg"
     caption:
     alt:
-  - id: "2009-10-28-photo00572"
+  - id: "2009/10/28/photo00572.jpg"
     caption:
     alt:
-  - id: "2009-10-28-photo005921"
+  - id: "2009/10/28/photo005921.jpg"
     caption:
     alt:
-  - id: "2009-10-28-photo00622"
+  - id: "2009/10/28/photo00622.jpg"
     caption:
     alt:
 related:

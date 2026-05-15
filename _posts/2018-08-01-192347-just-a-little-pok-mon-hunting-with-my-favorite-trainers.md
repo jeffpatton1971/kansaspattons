@@ -15,9 +15,9 @@ source:
   caption: "Just a little Pokémon hunting with my favorite trainers"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-08-01-192347-just-a-little-pok-mon-hunting-with-my-favorite-trainers-01
+cover_image: "2018/08/01/17966563330049896.jpg"
 images:
-  - id: instagram-2018-08-01-192347-just-a-little-pok-mon-hunting-with-my-favorite-trainers-01
+  - id: "2018/08/01/17966563330049896.jpg"
     caption:
     alt:
 hashtags: []

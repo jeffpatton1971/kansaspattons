@@ -140,6 +140,9 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed image archive group browsing to show one grouped tile per page.
 - Removed image archive breadcrumb links from image browsing and selected image views.
 - Changed selected image page titles to show only the image date instead of date plus daily image count.
+- Added image reference canonicalization tooling for rewriting migrated Markdown image references to `yyyy/mm/dd/filename.ext`.
+- Changed generated image IDs, image routes, and raw/thumb URLs to use canonical date-scoped media keys and storage paths.
+- Changed image detail lookup to resolve canonical media IDs from `/images/yyyy/mm/dd/filename.ext` routes.
 
 ### Fixed
 

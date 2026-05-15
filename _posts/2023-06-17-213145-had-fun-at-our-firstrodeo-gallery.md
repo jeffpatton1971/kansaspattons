@@ -18,36 +18,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Had fun at our #firstrodeo."
 gallery: instagram-2023-06-17-213145-had-fun-at-our-firstrodeo
-cover_image: instagram-2023-06-17-213145-had-fun-at-our-firstrodeo-01
+cover_image: "2023/06/17/17981028932209060.jpg"
 images:
-  - id: instagram-2023-06-17-213145-had-fun-at-our-firstrodeo-01
+  - id: "2023/06/17/17981028932209060.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-17-213145-had-fun-at-our-firstrodeo-02
+  - id: "2023/06/17/17954819612617798.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-17-213145-had-fun-at-our-firstrodeo-03
+  - id: "2023/06/17/18027691225528470.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-17-213145-had-fun-at-our-firstrodeo-04
+  - id: "2023/06/17/17975114504167324.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-17-213145-had-fun-at-our-firstrodeo-05
+  - id: "2023/06/17/17966693918524668.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-17-213145-had-fun-at-our-firstrodeo-06
+  - id: "2023/06/17/17982116144273539.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-17-213145-had-fun-at-our-firstrodeo-07
+  - id: "2023/06/17/17959912352593319.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-17-213145-had-fun-at-our-firstrodeo-08
+  - id: "2023/06/17/18252824362080319.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-17-213145-had-fun-at-our-firstrodeo-09
+  - id: "2023/06/17/18027521497527140.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-17-213145-had-fun-at-our-firstrodeo-10
+  - id: "2023/06/17/18021446977572075.jpg"
     caption:
     alt:
 related:

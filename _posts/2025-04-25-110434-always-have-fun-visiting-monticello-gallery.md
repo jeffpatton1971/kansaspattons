@@ -18,57 +18,57 @@ authors:
   - "Jeff Patton"
 summary: "17 images related to Always have fun visiting #monticello."
 gallery: instagram-2025-04-25-110434-always-have-fun-visiting-monticello
-cover_image: instagram-2025-04-25-110434-always-have-fun-visiting-monticello-01
+cover_image: "2025/04/25/18059573207476548.jpg"
 images:
-  - id: instagram-2025-04-25-110434-always-have-fun-visiting-monticello-01
+  - id: "2025/04/25/18059573207476548.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-25-110434-always-have-fun-visiting-monticello-02
+  - id: "2025/04/25/18039177239264180.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-25-110434-always-have-fun-visiting-monticello-03
+  - id: "2025/04/25/18112367077475120.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-25-110434-always-have-fun-visiting-monticello-04
+  - id: "2025/04/25/18328803199166711.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-25-110434-always-have-fun-visiting-monticello-05
+  - id: "2025/04/25/18068843485758730.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-25-110434-always-have-fun-visiting-monticello-06
+  - id: "2025/04/25/18297904696168012.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-25-110434-always-have-fun-visiting-monticello-07
+  - id: "2025/04/25/17929039712932128.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-25-110434-always-have-fun-visiting-monticello-08
+  - id: "2025/04/25/18084656575570968.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-25-110434-always-have-fun-visiting-monticello-09
+  - id: "2025/04/25/18136823461403269.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-25-110434-always-have-fun-visiting-monticello-10
+  - id: "2025/04/25/18083849584654972.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-25-110434-always-have-fun-visiting-monticello-11
+  - id: "2025/04/25/18114605506467590.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-25-110434-always-have-fun-visiting-monticello-12
+  - id: "2025/04/25/18066006884063114.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-25-110434-always-have-fun-visiting-monticello-13
+  - id: "2025/04/25/18083235142731790.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-25-110434-always-have-fun-visiting-monticello-14
+  - id: "2025/04/25/17846931282437771.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-25-110434-always-have-fun-visiting-monticello-15
+  - id: "2025/04/25/18336397324093369.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-25-110434-always-have-fun-visiting-monticello-16
+  - id: "2025/04/25/18009740072550219.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-25-110434-always-have-fun-visiting-monticello-17
+  - id: "2025/04/25/17918799996084142.jpg"
     caption:
     alt:
 related:

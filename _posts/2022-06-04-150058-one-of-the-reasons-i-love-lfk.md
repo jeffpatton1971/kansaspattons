@@ -15,9 +15,9 @@ source:
   caption: "One of the reasons i love #LFK"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2022-06-04-150058-one-of-the-reasons-i-love-lfk-01
+cover_image: "2022/06/04/17942841593028644.jpg"
 images:
-  - id: instagram-2022-06-04-150058-one-of-the-reasons-i-love-lfk-01
+  - id: "2022/06/04/17942841593028644.jpg"
     caption:
     alt:
 hashtags:

@@ -15,9 +15,9 @@ source:
   caption: "#breakfsst for dinner with @cometeer"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-01-23-184839-breakfsst-for-dinner-with-cometeer-01
+cover_image: "2025/01/23/18033416381612957.jpg"
 images:
-  - id: instagram-2025-01-23-184839-breakfsst-for-dinner-with-cometeer-01
+  - id: "2025/01/23/18033416381612957.jpg"
     caption:
     alt:
 hashtags:

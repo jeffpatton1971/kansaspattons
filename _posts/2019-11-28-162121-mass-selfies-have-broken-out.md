@@ -15,9 +15,9 @@ source:
   caption: "Mass selfies have broken out"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-11-28-162121-mass-selfies-have-broken-out-01
+cover_image: "2019/11/28/17856111691646727.jpg"
 images:
-  - id: instagram-2019-11-28-162121-mass-selfies-have-broken-out-01
+  - id: "2019/11/28/17856111691646727.jpg"
     caption:
     alt:
 hashtags: []

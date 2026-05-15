@@ -15,7 +15,7 @@ source:
   caption: "Learned about glassmaking this morning"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2025-04-23-084841-learned-about-glassmaking-this-morning-01
+cover_image: "2025/04/23/17919485547084939.jpg"
 related:
   - type: gallery
     id: instagram-2025-04-23-084841-learned-about-glassmaking-this-morning

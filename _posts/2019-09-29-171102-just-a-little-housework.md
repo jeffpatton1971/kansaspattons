@@ -15,15 +15,15 @@ source:
   caption: "Just a little housework"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2019-09-29-171102-just-a-little-housework-01
+cover_image: "2019/09/29/18004534798252949.jpg"
 images:
-  - id: instagram-2019-09-29-171102-just-a-little-housework-01
+  - id: "2019/09/29/18004534798252949.jpg"
     caption:
     alt:
-  - id: instagram-2019-09-29-171102-just-a-little-housework-02
+  - id: "2019/09/29/18078090862123943.jpg"
     caption:
     alt:
-  - id: instagram-2019-09-29-171102-just-a-little-housework-03
+  - id: "2019/09/29/17847208795642735.jpg"
     caption:
     alt:
 hashtags: []

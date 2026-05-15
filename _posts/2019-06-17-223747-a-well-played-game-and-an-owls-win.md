@@ -15,7 +15,7 @@ source:
   caption: "A well played game and an owls win!"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2019-06-17-223747-a-well-played-game-and-an-owls-win-01
+cover_image: "2019/06/17/18046358530132673.jpg"
 related:
   - type: gallery
     id: instagram-2019-06-17-223747-a-well-played-game-and-an-owls-win

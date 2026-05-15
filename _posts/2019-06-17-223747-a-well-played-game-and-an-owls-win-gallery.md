@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to A well played game and an owls win!."
 gallery: instagram-2019-06-17-223747-a-well-played-game-and-an-owls-win
-cover_image: instagram-2019-06-17-223747-a-well-played-game-and-an-owls-win-01
+cover_image: "2019/06/17/18046358530132673.jpg"
 images:
-  - id: instagram-2019-06-17-223747-a-well-played-game-and-an-owls-win-01
+  - id: "2019/06/17/18046358530132673.jpg"
     caption:
     alt:
-  - id: instagram-2019-06-17-223747-a-well-played-game-and-an-owls-win-02
+  - id: "2019/06/17/17955997480283643.jpg"
     caption:
     alt:
-  - id: instagram-2019-06-17-223747-a-well-played-game-and-an-owls-win-03
+  - id: "2019/06/17/18075733915016923.jpg"
     caption:
     alt:
-  - id: instagram-2019-06-17-223747-a-well-played-game-and-an-owls-win-04
+  - id: "2019/06/17/17998941607236058.jpg"
     caption:
     alt:
 related:

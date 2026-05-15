@@ -15,15 +15,15 @@ source:
   caption: "Enjoyed a lovely #candelightconcert with @fountaincitystringquartet"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2025-12-19-230841-enjoyed-a-lovely-candelightconcert-with-fountaincitystringquartet-01
+cover_image: "2025/12/19/18099389701872211.jpg"
 images:
-  - id: instagram-2025-12-19-230841-enjoyed-a-lovely-candelightconcert-with-fountaincitystringquartet-01
+  - id: "2025/12/19/18099389701872211.jpg"
     caption:
     alt:
-  - id: instagram-2025-12-19-230841-enjoyed-a-lovely-candelightconcert-with-fountaincitystringquartet-02
+  - id: "2025/12/19/18099737137815438.jpg"
     caption:
     alt:
-  - id: instagram-2025-12-19-230841-enjoyed-a-lovely-candelightconcert-with-fountaincitystringquartet-03
+  - id: "2025/12/19/18119484547488982.jpg"
     caption:
     alt:
 hashtags:

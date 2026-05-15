@@ -19,36 +19,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to PICU Day 4."
 gallery: wordpress-2013-07-27-110130-july-27-2013
-cover_image: "2013-07-27-wp-20130727-010"
+cover_image: "2013/07/27/wp_20130727_010.jpg"
 images:
-  - id: "2013-07-27-wp-20130727-010"
+  - id: "2013/07/27/wp_20130727_010.jpg"
     caption:
     alt:
-  - id: "2013-07-27-wp-20130727-003"
+  - id: "2013/07/27/wp_20130727_003.jpg"
     caption:
     alt:
-  - id: "2013-07-27-wp-20130727-004"
+  - id: "2013/07/27/wp_20130727_004.jpg"
     caption:
     alt:
-  - id: "2013-07-27-wp-20130727-006"
+  - id: "2013/07/27/wp_20130727_006.jpg"
     caption:
     alt:
-  - id: "2013-07-27-wp-20130727-007"
+  - id: "2013/07/27/wp_20130727_007.jpg"
     caption:
     alt:
-  - id: "2013-07-27-wp-20130727-008"
+  - id: "2013/07/27/wp_20130727_008.jpg"
     caption:
     alt:
-  - id: "2013-07-27-wp-20130727-009"
+  - id: "2013/07/27/wp_20130727_009.jpg"
     caption:
     alt:
-  - id: "2013-07-27-wp-20130727-011"
+  - id: "2013/07/27/wp_20130727_011.jpg"
     caption:
     alt:
-  - id: "2013-07-27-wp-20130727-016"
+  - id: "2013/07/27/wp_20130727_016.jpg"
     caption:
     alt:
-  - id: "2013-07-27-wp-20130727-019"
+  - id: "2013/07/27/wp_20130727_019.jpg"
     caption:
     alt:
 related:

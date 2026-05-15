@@ -19,18 +19,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Mower Shopping."
 gallery: wordpress-2013-05-26-085559-may-26-2013
-cover_image: "2013-05-26-wp-20130526-005"
+cover_image: "2013/05/26/wp_20130526_005.jpg"
 images:
-  - id: "2013-05-26-wp-20130526-005"
+  - id: "2013/05/26/wp_20130526_005.jpg"
     caption:
     alt:
-  - id: "2013-05-26-wp-20130526-010"
+  - id: "2013/05/26/wp_20130526_010.jpg"
     caption:
     alt:
-  - id: "2013-05-26-wp-20130526-011"
+  - id: "2013/05/26/wp_20130526_011.jpg"
     caption:
     alt:
-  - id: "2013-05-26-wp-20130526-020"
+  - id: "2013/05/26/wp_20130526_020.jpg"
     caption:
     alt:
 related:

@@ -15,9 +15,9 @@ source:
   caption: "#breakfast #breathe"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-08-16-083545-breakfast-breathe-01
+cover_image: "2025/08/16/18069531310927021.jpg"
 images:
-  - id: instagram-2025-08-16-083545-breakfast-breathe-01
+  - id: "2025/08/16/18069531310927021.jpg"
     caption:
     alt:
 hashtags:

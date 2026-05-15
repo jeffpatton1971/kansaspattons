@@ -15,7 +15,7 @@ source:
   caption: "Watching #tennis today with @natalie.15.2003"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2025-04-17-130211-watching-tennis-today-with-natalie-15-2003-01
+cover_image: "2025/04/17/18100916023514104.jpg"
 related:
   - type: gallery
     id: instagram-2025-04-17-130211-watching-tennis-today-with-natalie-15-2003

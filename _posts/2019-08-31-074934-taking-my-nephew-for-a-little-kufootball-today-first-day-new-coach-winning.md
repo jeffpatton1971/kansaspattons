@@ -15,9 +15,9 @@ source:
   caption: "Taking my nephew for a little @kufootball today! First day! New coach! #winning"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-08-31-074934-taking-my-nephew-for-a-little-kufootball-today-first-day-new-coach-winning-01
+cover_image: "2019/08/31/18098726512016368.jpg"
 images:
-  - id: instagram-2019-08-31-074934-taking-my-nephew-for-a-little-kufootball-today-first-day-new-coach-winning-01
+  - id: "2019/08/31/18098726512016368.jpg"
     caption:
     alt:
 hashtags:

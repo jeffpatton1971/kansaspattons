@@ -15,9 +15,9 @@ source:
   caption: "So this just happened! @kcroyals #beroyalkc #royals"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-08-11-215732-so-this-just-happened-kcroyals-beroyalkc-royals-01
+cover_image: "2014/08/11/17843335213063547.jpg"
 images:
-  - id: instagram-2014-08-11-215732-so-this-just-happened-kcroyals-beroyalkc-royals-01
+  - id: "2014/08/11/17843335213063547.jpg"
     caption:
     alt:
 hashtags:

@@ -15,9 +15,9 @@ source:
   caption: "Yea…you’re not fooling me… #iykyk 😂"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-03-01-120908-yea-you-re-not-fooling-me-iykyk-01
+cover_image: "2025/03/01/17885309787229028.jpg"
 images:
-  - id: instagram-2025-03-01-120908-yea-you-re-not-fooling-me-iykyk-01
+  - id: "2025/03/01/17885309787229028.jpg"
     caption:
     alt:
 hashtags:

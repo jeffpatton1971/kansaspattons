@@ -15,15 +15,15 @@ source:
   caption: "long day but we made it"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2023-06-11-212847-long-day-but-we-made-it-01
+cover_image: "2023/06/11/17980554557236794.jpg"
 images:
-  - id: instagram-2023-06-11-212847-long-day-but-we-made-it-01
+  - id: "2023/06/11/17980554557236794.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-11-212847-long-day-but-we-made-it-02
+  - id: "2023/06/11/17980421435266312.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-11-212847-long-day-but-we-made-it-03
+  - id: "2023/06/11/18007553050743214.jpg"
     caption:
     alt:
 hashtags: []

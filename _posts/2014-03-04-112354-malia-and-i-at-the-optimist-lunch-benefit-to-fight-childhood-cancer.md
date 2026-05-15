@@ -15,9 +15,9 @@ source:
   caption: "Malia and I at the Optimist lunch benefit to fight childhood cancer"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-03-04-112354-malia-and-i-at-the-optimist-lunch-benefit-to-fight-childhood-cancer-01
+cover_image: "2014/03/04/17842454386063547.jpg"
 images:
-  - id: instagram-2014-03-04-112354-malia-and-i-at-the-optimist-lunch-benefit-to-fight-childhood-cancer-01
+  - id: "2014/03/04/17842454386063547.jpg"
     caption:
     alt:
 hashtags: []

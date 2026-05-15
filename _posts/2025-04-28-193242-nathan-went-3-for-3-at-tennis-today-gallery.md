@@ -19,18 +19,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Nathan went 3 for 3 at tennis today!."
 gallery: instagram-2025-04-28-193242-nathan-went-3-for-3-at-tennis-today
-cover_image: instagram-2025-04-28-193242-nathan-went-3-for-3-at-tennis-today-01
+cover_image: "2025/04/28/18083879158643132.jpg"
 images:
-  - id: instagram-2025-04-28-193242-nathan-went-3-for-3-at-tennis-today-01
+  - id: "2025/04/28/18083879158643132.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-28-193242-nathan-went-3-for-3-at-tennis-today-02
+  - id: "2025/04/28/17864029443302491.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-28-193242-nathan-went-3-for-3-at-tennis-today-03
+  - id: "2025/04/28/18029628338661539.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-28-193242-nathan-went-3-for-3-at-tennis-today-04
+  - id: "2025/04/28/18064122533488791.jpg"
     caption:
     alt:
 related:

@@ -20,27 +20,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to CPLS 2019 Spring Concert."
 gallery: instagram-2019-05-19-161508-cpls-2019-spring-concert
-cover_image: instagram-2019-05-19-161508-cpls-2019-spring-concert-01
+cover_image: "2019/05/19/17946601990304876.jpg"
 images:
-  - id: instagram-2019-05-19-161508-cpls-2019-spring-concert-01
+  - id: "2019/05/19/17946601990304876.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-19-161508-cpls-2019-spring-concert-02
+  - id: "2019/05/19/17872013425375590.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-19-161508-cpls-2019-spring-concert-03
+  - id: "2019/05/19/17990595037226243.mp4"
     caption:
     alt:
-  - id: instagram-2019-05-19-161508-cpls-2019-spring-concert-04
+  - id: "2019/05/19/17989422172242620.mp4"
     caption:
     alt:
-  - id: instagram-2019-05-19-161508-cpls-2019-spring-concert-05
+  - id: "2019/05/19/18040462801082219.mp4"
     caption:
     alt:
-  - id: instagram-2019-05-19-161508-cpls-2019-spring-concert-06
+  - id: "2019/05/19/17843827654456672.mp4"
     caption:
     alt:
-  - id: instagram-2019-05-19-161508-cpls-2019-spring-concert-07
+  - id: "2019/05/19/17908799218307358.mp4"
     caption:
     alt:
 related:

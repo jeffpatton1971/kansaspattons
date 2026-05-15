@@ -17,24 +17,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to last but not least @nlbmuseumkc and it was a lot of fun."
 gallery: instagram-2022-11-15-140611-last-but-not-least-nlbmuseumkc-and-it-was-a-lot-of-fun
-cover_image: instagram-2022-11-15-140611-last-but-not-least-nlbmuseumkc-and-it-was-a-lot-of-fun-01
+cover_image: "2022/11/15/17882517590757733.jpg"
 images:
-  - id: instagram-2022-11-15-140611-last-but-not-least-nlbmuseumkc-and-it-was-a-lot-of-fun-01
+  - id: "2022/11/15/17882517590757733.jpg"
     caption:
     alt:
-  - id: instagram-2022-11-15-140611-last-but-not-least-nlbmuseumkc-and-it-was-a-lot-of-fun-02
+  - id: "2022/11/15/17934104216395353.jpg"
     caption:
     alt:
-  - id: instagram-2022-11-15-140611-last-but-not-least-nlbmuseumkc-and-it-was-a-lot-of-fun-03
+  - id: "2022/11/15/18325150042014322.jpg"
     caption:
     alt:
-  - id: instagram-2022-11-15-140611-last-but-not-least-nlbmuseumkc-and-it-was-a-lot-of-fun-04
+  - id: "2022/11/15/18011524708478493.jpg"
     caption:
     alt:
-  - id: instagram-2022-11-15-140611-last-but-not-least-nlbmuseumkc-and-it-was-a-lot-of-fun-05
+  - id: "2022/11/15/18330823759032681.jpg"
     caption:
     alt:
-  - id: instagram-2022-11-15-140611-last-but-not-least-nlbmuseumkc-and-it-was-a-lot-of-fun-06
+  - id: "2022/11/15/17963551706041363.jpg"
     caption:
     alt:
 related:

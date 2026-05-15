@@ -15,12 +15,12 @@ source:
   caption: "My daughter made the President’s List @washburnuniversity https://news.washburn.edu/2023/01/01192023Washburn-University-Announces-Fall-2022-Presidents-List-Honorees.html"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2023-01-22-152728-my-daughter-made-the-president-s-list-washburnuniversity-https-news-washburn-01
+cover_image: "2023/01/22/17931765068622384.jpg"
 images:
-  - id: instagram-2023-01-22-152728-my-daughter-made-the-president-s-list-washburnuniversity-https-news-washburn-01
+  - id: "2023/01/22/17931765068622384.jpg"
     caption:
     alt:
-  - id: instagram-2023-01-22-152728-my-daughter-made-the-president-s-list-washburnuniversity-https-news-washburn-02
+  - id: "2023/01/22/17991849889666914.jpg"
     caption:
     alt:
 hashtags: []

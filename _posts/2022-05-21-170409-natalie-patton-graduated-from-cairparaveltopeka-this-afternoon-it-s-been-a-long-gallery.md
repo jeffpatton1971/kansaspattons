@@ -17,24 +17,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to @natalie__patton graduated from @cairparaveltopeka this afternoon…it’s been a long and wil...."
 gallery: instagram-2022-05-21-170409-natalie-patton-graduated-from-cairparaveltopeka-this-afternoon-it-s-been-a-long
-cover_image: instagram-2022-05-21-170409-natalie-patton-graduated-from-cairparaveltopeka-this-afternoon-it-s-been-a-long-01
+cover_image: "2022/05/21/17950753684786517.jpg"
 images:
-  - id: instagram-2022-05-21-170409-natalie-patton-graduated-from-cairparaveltopeka-this-afternoon-it-s-been-a-long-01
+  - id: "2022/05/21/17950753684786517.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-21-170409-natalie-patton-graduated-from-cairparaveltopeka-this-afternoon-it-s-been-a-long-02
+  - id: "2022/05/21/17957296276809093.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-21-170409-natalie-patton-graduated-from-cairparaveltopeka-this-afternoon-it-s-been-a-long-03
+  - id: "2022/05/21/17921290379298557.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-21-170409-natalie-patton-graduated-from-cairparaveltopeka-this-afternoon-it-s-been-a-long-04
+  - id: "2022/05/21/17951700523763275.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-21-170409-natalie-patton-graduated-from-cairparaveltopeka-this-afternoon-it-s-been-a-long-05
+  - id: "2022/05/21/17845207247782785.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-21-170409-natalie-patton-graduated-from-cairparaveltopeka-this-afternoon-it-s-been-a-long-06
+  - id: "2022/05/21/17845053659775603.jpg"
     caption:
     alt:
 related:

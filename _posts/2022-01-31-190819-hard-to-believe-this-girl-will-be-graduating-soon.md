@@ -15,7 +15,7 @@ source:
   caption: "Hard to believe this girl will be graduating soon"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2022-01-31-190819-hard-to-believe-this-girl-will-be-graduating-soon-01
+cover_image: "2022/01/31/18276516694017601.jpg"
 related:
   - type: gallery
     id: instagram-2022-01-31-190819-hard-to-believe-this-girl-will-be-graduating-soon

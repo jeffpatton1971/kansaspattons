@@ -15,9 +15,9 @@ source:
   caption: "Out for a stroll earlier this morning"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-07-06-073250-out-for-a-stroll-earlier-this-morning-01
+cover_image: "2019/07/06/17987118199247498.jpg"
 images:
-  - id: instagram-2019-07-06-073250-out-for-a-stroll-earlier-this-morning-01
+  - id: "2019/07/06/17987118199247498.jpg"
     caption:
     alt:
 hashtags: []

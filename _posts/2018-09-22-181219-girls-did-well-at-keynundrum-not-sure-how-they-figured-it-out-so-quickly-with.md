@@ -15,7 +15,7 @@ source:
   caption: "Girls did well at keynundrum not sure how they figured it out so quickly with the amount of singing and talking"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2018-09-22-181219-girls-did-well-at-keynundrum-not-sure-how-they-figured-it-out-so-quickly-with-01
+cover_image: "2018/09/22/17964168145123076.jpg"
 related:
   - type: gallery
     id: instagram-2018-09-22-181219-girls-did-well-at-keynundrum-not-sure-how-they-figured-it-out-so-quickly-with

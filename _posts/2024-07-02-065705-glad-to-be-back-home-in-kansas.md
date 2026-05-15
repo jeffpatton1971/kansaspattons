@@ -15,9 +15,9 @@ source:
   caption: "Glad to be back home in #kansas"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2024-07-02-065705-glad-to-be-back-home-in-kansas-01
+cover_image: "2024/07/02/17888469210058086.jpg"
 images:
-  - id: instagram-2024-07-02-065705-glad-to-be-back-home-in-kansas-01
+  - id: "2024/07/02/17888469210058086.jpg"
     caption:
     alt:
 hashtags:

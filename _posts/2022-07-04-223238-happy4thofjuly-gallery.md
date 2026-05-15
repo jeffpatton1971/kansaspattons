@@ -18,21 +18,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to #happy4thofjuly."
 gallery: instagram-2022-07-04-223238-happy4thofjuly
-cover_image: instagram-2022-07-04-223238-happy4thofjuly-01
+cover_image: "2022/07/04/17929752020234534.jpg"
 images:
-  - id: instagram-2022-07-04-223238-happy4thofjuly-01
+  - id: "2022/07/04/17929752020234534.jpg"
     caption:
     alt:
-  - id: instagram-2022-07-04-223238-happy4thofjuly-02
+  - id: "2022/07/04/17937609461237976.jpg"
     caption:
     alt:
-  - id: instagram-2022-07-04-223238-happy4thofjuly-03
+  - id: "2022/07/04/17985902638522930.jpg"
     caption:
     alt:
-  - id: instagram-2022-07-04-223238-happy4thofjuly-04
+  - id: "2022/07/04/17877821606685460.mp4"
     caption:
     alt:
-  - id: instagram-2022-07-04-223238-happy4thofjuly-05
+  - id: "2022/07/04/17935485437250792.jpg"
     caption:
     alt:
 related:

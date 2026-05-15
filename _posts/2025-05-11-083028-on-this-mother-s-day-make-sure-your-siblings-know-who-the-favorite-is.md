@@ -15,9 +15,9 @@ source:
   caption: "On this Mother’s Day make sure your siblings know who the favorite is!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-05-11-083028-on-this-mother-s-day-make-sure-your-siblings-know-who-the-favorite-is-01
+cover_image: "2025/05/11/18029888972418187.jpg"
 images:
-  - id: instagram-2025-05-11-083028-on-this-mother-s-day-make-sure-your-siblings-know-who-the-favorite-is-01
+  - id: "2025/05/11/18029888972418187.jpg"
     caption:
     alt:
 hashtags: []

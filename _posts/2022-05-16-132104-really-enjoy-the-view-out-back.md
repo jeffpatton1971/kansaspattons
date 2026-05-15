@@ -15,9 +15,9 @@ source:
   caption: "Really enjoy the view out back"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2022-05-16-132104-really-enjoy-the-view-out-back-01
+cover_image: "2022/05/16/17895693305621234.jpg"
 images:
-  - id: instagram-2022-05-16-132104-really-enjoy-the-view-out-back-01
+  - id: "2022/05/16/17895693305621234.jpg"
     caption:
     alt:
 hashtags: []

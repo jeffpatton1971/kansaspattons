@@ -17,33 +17,33 @@ authors:
   - "Jeff Patton"
 summary: "9 images related to From breakfast selfies to airboat rides."
 gallery: instagram-2021-04-29-150415-from-breakfast-selfies-to-airboat-rides
-cover_image: instagram-2021-04-29-150415-from-breakfast-selfies-to-airboat-rides-01
+cover_image: "2021/04/29/17901271645920340.jpg"
 images:
-  - id: instagram-2021-04-29-150415-from-breakfast-selfies-to-airboat-rides-01
+  - id: "2021/04/29/17901271645920340.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-29-150415-from-breakfast-selfies-to-airboat-rides-02
+  - id: "2021/04/29/17884825073110369.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-29-150415-from-breakfast-selfies-to-airboat-rides-03
+  - id: "2021/04/29/17846521340582154.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-29-150415-from-breakfast-selfies-to-airboat-rides-04
+  - id: "2021/04/29/18221629585006488.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-29-150415-from-breakfast-selfies-to-airboat-rides-05
+  - id: "2021/04/29/18222681688038771.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-29-150415-from-breakfast-selfies-to-airboat-rides-06
+  - id: "2021/04/29/17877986387244968.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-29-150415-from-breakfast-selfies-to-airboat-rides-07
+  - id: "2021/04/29/17872959152483495.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-29-150415-from-breakfast-selfies-to-airboat-rides-08
+  - id: "2021/04/29/17900373880940015.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-29-150415-from-breakfast-selfies-to-airboat-rides-09
+  - id: "2021/04/29/17852912738521360.jpg"
     caption:
     alt:
 related:

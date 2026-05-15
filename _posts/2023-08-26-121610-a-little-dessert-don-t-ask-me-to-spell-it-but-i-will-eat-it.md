@@ -15,9 +15,9 @@ source:
   caption: "A little dessert…don’t ask me to spell it, but I will eat it!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-08-26-121610-a-little-dessert-don-t-ask-me-to-spell-it-but-i-will-eat-it-01
+cover_image: "2023/08/26/17899871330838882.jpg"
 images:
-  - id: instagram-2023-08-26-121610-a-little-dessert-don-t-ask-me-to-spell-it-but-i-will-eat-it-01
+  - id: "2023/08/26/17899871330838882.jpg"
     caption:
     alt:
 hashtags: []

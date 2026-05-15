@@ -15,9 +15,9 @@ source:
   caption: "Catching the rain"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-06-22-200424-catching-the-rain-01
+cover_image: "2014/06/22/17841878605063547.jpg"
 images:
-  - id: instagram-2014-06-22-200424-catching-the-rain-01
+  - id: "2014/06/22/17841878605063547.jpg"
     caption:
     alt:
 hashtags: []

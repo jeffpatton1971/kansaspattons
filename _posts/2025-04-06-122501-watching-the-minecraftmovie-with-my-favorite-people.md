@@ -15,9 +15,9 @@ source:
   caption: "Watching the #minecraftmovie with my favorite people ❤️"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-04-06-122501-watching-the-minecraftmovie-with-my-favorite-people-01
+cover_image: "2025/04/06/18062920640061642.jpg"
 images:
-  - id: instagram-2025-04-06-122501-watching-the-minecraftmovie-with-my-favorite-people-01
+  - id: "2025/04/06/18062920640061642.jpg"
     caption:
     alt:
 hashtags:

@@ -18,36 +18,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Had a nice visit to #neworleans."
 gallery: instagram-2022-06-10-195324-had-a-nice-visit-to-neworleans
-cover_image: instagram-2022-06-10-195324-had-a-nice-visit-to-neworleans-01
+cover_image: "2022/06/10/17952492217896247.jpg"
 images:
-  - id: instagram-2022-06-10-195324-had-a-nice-visit-to-neworleans-01
+  - id: "2022/06/10/17952492217896247.jpg"
     caption:
     alt:
-  - id: instagram-2022-06-10-195324-had-a-nice-visit-to-neworleans-02
+  - id: "2022/06/10/17943993037921730.jpg"
     caption:
     alt:
-  - id: instagram-2022-06-10-195324-had-a-nice-visit-to-neworleans-03
+  - id: "2022/06/10/17908675589578130.jpg"
     caption:
     alt:
-  - id: instagram-2022-06-10-195324-had-a-nice-visit-to-neworleans-04
+  - id: "2022/06/10/18139994284266237.jpg"
     caption:
     alt:
-  - id: instagram-2022-06-10-195324-had-a-nice-visit-to-neworleans-05
+  - id: "2022/06/10/17966544277721752.jpg"
     caption:
     alt:
-  - id: instagram-2022-06-10-195324-had-a-nice-visit-to-neworleans-06
+  - id: "2022/06/10/17943846236082356.jpg"
     caption:
     alt:
-  - id: instagram-2022-06-10-195324-had-a-nice-visit-to-neworleans-07
+  - id: "2022/06/10/17951793046916735.jpg"
     caption:
     alt:
-  - id: instagram-2022-06-10-195324-had-a-nice-visit-to-neworleans-08
+  - id: "2022/06/10/17963032819682566.jpg"
     caption:
     alt:
-  - id: instagram-2022-06-10-195324-had-a-nice-visit-to-neworleans-09
+  - id: "2022/06/10/17967538804639180.jpg"
     caption:
     alt:
-  - id: instagram-2022-06-10-195324-had-a-nice-visit-to-neworleans-10
+  - id: "2022/06/10/17928312728352070.jpg"
     caption:
     alt:
 related:

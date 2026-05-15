@@ -17,33 +17,33 @@ authors:
   - "Jeff Patton"
 summary: "9 images related to We’ve seen everything good. We’ve seen the whole city! We went to a museum, we saw pricele...."
 gallery: instagram-2025-04-11-171905-we-ve-seen-everything-good-we-ve-seen-the-whole-city-we-went-to-a-museum-we-saw
-cover_image: instagram-2025-04-11-171905-we-ve-seen-everything-good-we-ve-seen-the-whole-city-we-went-to-a-museum-we-saw-01
+cover_image: "2025/04/11/17955470900794958.jpg"
 images:
-  - id: instagram-2025-04-11-171905-we-ve-seen-everything-good-we-ve-seen-the-whole-city-we-went-to-a-museum-we-saw-01
+  - id: "2025/04/11/17955470900794958.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-11-171905-we-ve-seen-everything-good-we-ve-seen-the-whole-city-we-went-to-a-museum-we-saw-02
+  - id: "2025/04/11/18497378359013145.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-11-171905-we-ve-seen-everything-good-we-ve-seen-the-whole-city-we-went-to-a-museum-we-saw-03
+  - id: "2025/04/11/18119031166457010.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-11-171905-we-ve-seen-everything-good-we-ve-seen-the-whole-city-we-went-to-a-museum-we-saw-04
+  - id: "2025/04/11/18022667234665770.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-11-171905-we-ve-seen-everything-good-we-ve-seen-the-whole-city-we-went-to-a-museum-we-saw-05
+  - id: "2025/04/11/18042782102154117.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-11-171905-we-ve-seen-everything-good-we-ve-seen-the-whole-city-we-went-to-a-museum-we-saw-06
+  - id: "2025/04/11/18063851614832760.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-11-171905-we-ve-seen-everything-good-we-ve-seen-the-whole-city-we-went-to-a-museum-we-saw-07
+  - id: "2025/04/11/17930081142015839.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-11-171905-we-ve-seen-everything-good-we-ve-seen-the-whole-city-we-went-to-a-museum-we-saw-08
+  - id: "2025/04/11/18272968081259012.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-11-171905-we-ve-seen-everything-good-we-ve-seen-the-whole-city-we-went-to-a-museum-we-saw-09
+  - id: "2025/04/11/17955631421795104.jpg"
     caption:
     alt:
 related:

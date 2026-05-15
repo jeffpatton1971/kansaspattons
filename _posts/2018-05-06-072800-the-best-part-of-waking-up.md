@@ -15,9 +15,9 @@ source:
   caption: "The best part of waking up..."
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-05-06-072800-the-best-part-of-waking-up-01
+cover_image: "2018/05/06/17942667304019068.jpg"
 images:
-  - id: instagram-2018-05-06-072800-the-best-part-of-waking-up-01
+  - id: "2018/05/06/17942667304019068.jpg"
     caption:
     alt:
 hashtags: []

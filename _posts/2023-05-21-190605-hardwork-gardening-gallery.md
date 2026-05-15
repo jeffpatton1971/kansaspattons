@@ -19,21 +19,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to #hardwork #gardening."
 gallery: instagram-2023-05-21-190605-hardwork-gardening
-cover_image: instagram-2023-05-21-190605-hardwork-gardening-01
+cover_image: "2023/05/21/17876371733887359.jpg"
 images:
-  - id: instagram-2023-05-21-190605-hardwork-gardening-01
+  - id: "2023/05/21/17876371733887359.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-21-190605-hardwork-gardening-02
+  - id: "2023/05/21/17981396933020507.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-21-190605-hardwork-gardening-03
+  - id: "2023/05/21/17964899282439884.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-21-190605-hardwork-gardening-04
+  - id: "2023/05/21/17976811988245309.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-21-190605-hardwork-gardening-05
+  - id: "2023/05/21/18252425824085672.jpg"
     caption:
     alt:
 related:

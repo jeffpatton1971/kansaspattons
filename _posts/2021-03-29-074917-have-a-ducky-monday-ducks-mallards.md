@@ -15,9 +15,9 @@ source:
   caption: "Have a ducky Monday! #ducks #mallards"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-03-29-074917-have-a-ducky-monday-ducks-mallards-01
+cover_image: "2021/03/29/17863869200400955.jpg"
 images:
-  - id: instagram-2021-03-29-074917-have-a-ducky-monday-ducks-mallards-01
+  - id: "2021/03/29/17863869200400955.jpg"
     caption:
     alt:
 hashtags:

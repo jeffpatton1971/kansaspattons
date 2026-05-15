@@ -18,18 +18,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to #woodworking."
 gallery: instagram-2020-11-15-111748-woodworking
-cover_image: instagram-2020-11-15-111748-woodworking-01
+cover_image: "2020/11/15/17977368124326077.jpg"
 images:
-  - id: instagram-2020-11-15-111748-woodworking-01
+  - id: "2020/11/15/17977368124326077.jpg"
     caption:
     alt:
-  - id: instagram-2020-11-15-111748-woodworking-02
+  - id: "2020/11/15/18173458879062285.jpg"
     caption:
     alt:
-  - id: instagram-2020-11-15-111748-woodworking-03
+  - id: "2020/11/15/17926216153455809.jpg"
     caption:
     alt:
-  - id: instagram-2020-11-15-111748-woodworking-04
+  - id: "2020/11/15/17879261680933269.jpg"
     caption:
     alt:
 related:

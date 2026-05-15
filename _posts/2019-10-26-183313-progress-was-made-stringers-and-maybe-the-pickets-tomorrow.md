@@ -15,7 +15,7 @@ source:
   caption: "Progress was made. Stringers and maybe the pickets tomorrow"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2019-10-26-183313-progress-was-made-stringers-and-maybe-the-pickets-tomorrow-01
+cover_image: "2019/10/26/18026747551243119.jpg"
 related:
   - type: gallery
     id: instagram-2019-10-26-183313-progress-was-made-stringers-and-maybe-the-pickets-tomorrow

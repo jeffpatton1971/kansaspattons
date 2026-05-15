@@ -15,15 +15,15 @@ source:
   caption: "Smoked Tri-tip for Mother’s Day dinner"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2025-05-11-195505-smoked-tri-tip-for-mother-s-day-dinner-01
+cover_image: "2025/05/11/17852928777442284.jpg"
 images:
-  - id: instagram-2025-05-11-195505-smoked-tri-tip-for-mother-s-day-dinner-01
+  - id: "2025/05/11/17852928777442284.jpg"
     caption:
     alt:
-  - id: instagram-2025-05-11-195505-smoked-tri-tip-for-mother-s-day-dinner-02
+  - id: "2025/05/11/18105121522505247.jpg"
     caption:
     alt:
-  - id: instagram-2025-05-11-195505-smoked-tri-tip-for-mother-s-day-dinner-03
+  - id: "2025/05/11/18065081576014523.jpg"
     caption:
     alt:
 hashtags: []

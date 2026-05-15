@@ -15,12 +15,12 @@ source:
   caption: "#morningwalk and #breakfast"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2025-10-01-070940-morningwalk-and-breakfast-01
+cover_image: "2025/10/01/18040015709475440.jpg"
 images:
-  - id: instagram-2025-10-01-070940-morningwalk-and-breakfast-01
+  - id: "2025/10/01/18040015709475440.jpg"
     caption:
     alt:
-  - id: instagram-2025-10-01-070940-morningwalk-and-breakfast-02
+  - id: "2025/10/01/18061688642611949.jpg"
     caption:
     alt:
 hashtags:

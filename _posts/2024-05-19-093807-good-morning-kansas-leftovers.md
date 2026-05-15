@@ -15,9 +15,9 @@ source:
   caption: "Good Morning #kansas #leftovers"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2024-05-19-093807-good-morning-kansas-leftovers-01
+cover_image: "2024/05/19/17917416410829052.jpg"
 images:
-  - id: instagram-2024-05-19-093807-good-morning-kansas-leftovers-01
+  - id: "2024/05/19/17917416410829052.jpg"
     caption:
     alt:
 hashtags:

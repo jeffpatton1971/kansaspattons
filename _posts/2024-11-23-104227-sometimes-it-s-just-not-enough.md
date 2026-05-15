@@ -15,9 +15,9 @@ source:
   caption: "Sometimes it’s just not enough"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2024-11-23-104227-sometimes-it-s-just-not-enough-01
+cover_image: "2024/11/23/18058423231713570.jpg"
 images:
-  - id: instagram-2024-11-23-104227-sometimes-it-s-just-not-enough-01
+  - id: "2024/11/23/18058423231713570.jpg"
     caption:
     alt:
 hashtags: []

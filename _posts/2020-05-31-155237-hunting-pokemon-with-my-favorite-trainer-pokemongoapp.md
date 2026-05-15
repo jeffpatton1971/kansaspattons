@@ -15,12 +15,12 @@ source:
   caption: "Hunting #pokemon with my favorite trainer @pokemongoapp"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2020-05-31-155237-hunting-pokemon-with-my-favorite-trainer-pokemongoapp-01
+cover_image: "2020/05/31/18146379460027914.jpg"
 images:
-  - id: instagram-2020-05-31-155237-hunting-pokemon-with-my-favorite-trainer-pokemongoapp-01
+  - id: "2020/05/31/18146379460027914.jpg"
     caption:
     alt:
-  - id: instagram-2020-05-31-155237-hunting-pokemon-with-my-favorite-trainer-pokemongoapp-02
+  - id: "2020/05/31/17865244207853012.jpg"
     caption:
     alt:
 hashtags:

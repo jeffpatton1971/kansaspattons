@@ -15,9 +15,9 @@ source:
   caption: "Breakfast for dinner with leftover tri-tip"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2024-09-05-191916-breakfast-for-dinner-with-leftover-tri-tip-01
+cover_image: "2024/09/05/18051490864853383.jpg"
 images:
-  - id: instagram-2024-09-05-191916-breakfast-for-dinner-with-leftover-tri-tip-01
+  - id: "2024/09/05/18051490864853383.jpg"
     caption:
     alt:
 hashtags: []

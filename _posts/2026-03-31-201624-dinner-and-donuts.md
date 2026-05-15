@@ -15,12 +15,12 @@ source:
   caption: "Dinner and donuts 🖤💛"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2026-03-31-201624-dinner-and-donuts-01
+cover_image: "2026/03/31/17991633125951771.jpg"
 images:
-  - id: instagram-2026-03-31-201624-dinner-and-donuts-01
+  - id: "2026/03/31/17991633125951771.jpg"
     caption:
     alt:
-  - id: instagram-2026-03-31-201624-dinner-and-donuts-02
+  - id: "2026/03/31/17920015347313775.jpg"
     caption:
     alt:
 hashtags: []

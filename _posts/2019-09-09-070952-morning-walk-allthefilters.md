@@ -15,9 +15,9 @@ source:
   caption: "Morning walk #allthefilters"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-09-09-070952-morning-walk-allthefilters-01
+cover_image: "2019/09/09/17999472811259360.jpg"
 images:
-  - id: instagram-2019-09-09-070952-morning-walk-allthefilters-01
+  - id: "2019/09/09/17999472811259360.jpg"
     caption:
     alt:
 hashtags:

@@ -19,21 +19,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to New Year’s Eve Dinner 🖤💛."
 gallery: instagram-2025-12-31-185207-new-year-s-eve-dinner
-cover_image: instagram-2025-12-31-185207-new-year-s-eve-dinner-01
+cover_image: "2025/12/31/18149106754435022.jpg"
 images:
-  - id: instagram-2025-12-31-185207-new-year-s-eve-dinner-01
+  - id: "2025/12/31/18149106754435022.jpg"
     caption:
     alt:
-  - id: instagram-2025-12-31-185207-new-year-s-eve-dinner-02
+  - id: "2025/12/31/18079000574218663.jpg"
     caption:
     alt:
-  - id: instagram-2025-12-31-185207-new-year-s-eve-dinner-03
+  - id: "2025/12/31/18177957538370421.jpg"
     caption:
     alt:
-  - id: instagram-2025-12-31-185207-new-year-s-eve-dinner-04
+  - id: "2025/12/31/18089434060999732.jpg"
     caption:
     alt:
-  - id: instagram-2025-12-31-185207-new-year-s-eve-dinner-05
+  - id: "2025/12/31/18041138087713049.jpg"
     caption:
     alt:
 related:

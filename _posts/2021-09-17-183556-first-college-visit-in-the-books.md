@@ -15,15 +15,15 @@ source:
   caption: "First college visit in the books"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2021-09-17-183556-first-college-visit-in-the-books-01
+cover_image: "2021/09/17/17872256216554625.jpg"
 images:
-  - id: instagram-2021-09-17-183556-first-college-visit-in-the-books-01
+  - id: "2021/09/17/17872256216554625.jpg"
     caption:
     alt:
-  - id: instagram-2021-09-17-183556-first-college-visit-in-the-books-02
+  - id: "2021/09/17/17912171678033998.jpg"
     caption:
     alt:
-  - id: instagram-2021-09-17-183556-first-college-visit-in-the-books-03
+  - id: "2021/09/17/18129988357236286.jpg"
     caption:
     alt:
 hashtags: []

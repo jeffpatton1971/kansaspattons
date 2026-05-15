@@ -15,7 +15,7 @@ source:
   caption: "Little drive in to work this week"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2018-11-25-193049-little-drive-in-to-work-this-week-01
+cover_image: "2018/11/25/17978080933143152.jpg"
 related:
   - type: gallery
     id: instagram-2018-11-25-193049-little-drive-in-to-work-this-week

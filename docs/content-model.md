@@ -247,6 +247,13 @@ For the current Azure Blob layout, `{siteId}` is the blob container name. Existi
 
 For new authored content, draft Markdown may use simple local filenames. The publish action should upload the assets, rewrite those local filenames to canonical media keys, and remove the local image files from the repo.
 
+Existing migrated content can be rewritten to the same canonical media-key shape with:
+
+```powershell
+npm run images:canonicalize
+npm run images:canonicalize:write
+```
+
 Draft:
 
 ```yaml

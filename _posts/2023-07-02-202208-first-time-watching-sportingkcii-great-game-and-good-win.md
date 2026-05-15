@@ -15,7 +15,7 @@ source:
   caption: "First time watching @sportingkcii great game and good win!"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2023-07-02-202208-first-time-watching-sportingkcii-great-game-and-good-win-01
+cover_image: "2023/07/02/17963262092376229.jpg"
 related:
   - type: gallery
     id: instagram-2023-07-02-202208-first-time-watching-sportingkcii-great-game-and-good-win

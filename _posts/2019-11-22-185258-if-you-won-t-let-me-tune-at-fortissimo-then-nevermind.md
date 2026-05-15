@@ -15,9 +15,9 @@ source:
   caption: "If you won’t let me tune at fortissimo then nevermind"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-11-22-185258-if-you-won-t-let-me-tune-at-fortissimo-then-nevermind-01
+cover_image: "2019/11/22/17855335843654604.jpg"
 images:
-  - id: instagram-2019-11-22-185258-if-you-won-t-let-me-tune-at-fortissimo-then-nevermind-01
+  - id: "2019/11/22/17855335843654604.jpg"
     caption:
     alt:
 hashtags: []

@@ -17,21 +17,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to It’s snowy."
 gallery: instagram-2024-01-09-174341-it-s-snowy
-cover_image: instagram-2024-01-09-174341-it-s-snowy-01
+cover_image: "2024/01/09/18309293461134443.jpg"
 images:
-  - id: instagram-2024-01-09-174341-it-s-snowy-01
+  - id: "2024/01/09/18309293461134443.jpg"
     caption:
     alt:
-  - id: instagram-2024-01-09-174341-it-s-snowy-02
+  - id: "2024/01/09/17967249752542620.jpg"
     caption:
     alt:
-  - id: instagram-2024-01-09-174341-it-s-snowy-03
+  - id: "2024/01/09/18030943144813247.jpg"
     caption:
     alt:
-  - id: instagram-2024-01-09-174341-it-s-snowy-04
+  - id: "2024/01/09/18050903860498869.jpg"
     caption:
     alt:
-  - id: instagram-2024-01-09-174341-it-s-snowy-05
+  - id: "2024/01/09/18411592330005107.jpg"
     caption:
     alt:
 related:

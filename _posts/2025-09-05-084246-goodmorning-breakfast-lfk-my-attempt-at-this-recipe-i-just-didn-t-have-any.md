@@ -15,12 +15,12 @@ source:
   caption: "#goodmorning #breakfast #lfk my attempt at this recipe I just didn’t have any fancy bread"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2025-09-05-084246-goodmorning-breakfast-lfk-my-attempt-at-this-recipe-i-just-didn-t-have-any-01
+cover_image: "2025/09/05/18398544532191675.jpg"
 images:
-  - id: instagram-2025-09-05-084246-goodmorning-breakfast-lfk-my-attempt-at-this-recipe-i-just-didn-t-have-any-01
+  - id: "2025/09/05/18398544532191675.jpg"
     caption:
     alt:
-  - id: instagram-2025-09-05-084246-goodmorning-breakfast-lfk-my-attempt-at-this-recipe-i-just-didn-t-have-any-02
+  - id: "2025/09/05/18089350243793442.jpg"
     caption:
     alt:
 hashtags:

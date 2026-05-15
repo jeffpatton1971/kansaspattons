@@ -15,9 +15,9 @@ source:
   caption: "Beginning to think I was going to go all summer without seeing one of these little guys"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-08-10-134159-beginning-to-think-i-was-going-to-go-all-summer-without-seeing-one-of-these-01
+cover_image: "2019/08/10/18057763663144381.jpg"
 images:
-  - id: instagram-2019-08-10-134159-beginning-to-think-i-was-going-to-go-all-summer-without-seeing-one-of-these-01
+  - id: "2019/08/10/18057763663144381.jpg"
     caption:
     alt:
 hashtags: []

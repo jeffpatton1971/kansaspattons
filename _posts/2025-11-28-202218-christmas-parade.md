@@ -15,7 +15,7 @@ source:
   caption: "Christmas parade"
   media_count: 9
   cross_post_source: "FB"
-cover_image: instagram-2025-11-28-202218-christmas-parade-01
+cover_image: "2025/11/28/18077920052188326.jpg"
 related:
   - type: gallery
     id: instagram-2025-11-28-202218-christmas-parade

@@ -15,9 +15,9 @@ source:
   caption: "Make sure you get your calcium today! #squirrelsofinstagram"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-05-01-093415-make-sure-you-get-your-calcium-today-squirrelsofinstagram-01
+cover_image: "2021/05/01/17891347367017831.jpg"
 images:
-  - id: instagram-2021-05-01-093415-make-sure-you-get-your-calcium-today-squirrelsofinstagram-01
+  - id: "2021/05/01/17891347367017831.jpg"
     caption:
     alt:
 hashtags:

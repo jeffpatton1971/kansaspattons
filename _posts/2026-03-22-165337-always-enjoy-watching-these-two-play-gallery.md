@@ -17,21 +17,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to Always enjoy watching these two play."
 gallery: instagram-2026-03-22-165337-always-enjoy-watching-these-two-play
-cover_image: instagram-2026-03-22-165337-always-enjoy-watching-these-two-play-01
+cover_image: "2026/03/22/18082224800343116.jpg"
 images:
-  - id: instagram-2026-03-22-165337-always-enjoy-watching-these-two-play-01
+  - id: "2026/03/22/18082224800343116.jpg"
     caption:
     alt:
-  - id: instagram-2026-03-22-165337-always-enjoy-watching-these-two-play-02
+  - id: "2026/03/22/17948757372104552.jpg"
     caption:
     alt:
-  - id: instagram-2026-03-22-165337-always-enjoy-watching-these-two-play-03
+  - id: "2026/03/22/18125343043572436.jpg"
     caption:
     alt:
-  - id: instagram-2026-03-22-165337-always-enjoy-watching-these-two-play-04
+  - id: "2026/03/22/17901185964242765.jpg"
     caption:
     alt:
-  - id: instagram-2026-03-22-165337-always-enjoy-watching-these-two-play-05
+  - id: "2026/03/22/17998782008915947.jpg"
     caption:
     alt:
 related:

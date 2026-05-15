@@ -17,36 +17,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Spent the morning exploring Jamestown."
 gallery: instagram-2025-04-23-115350-spent-the-morning-exploring-jamestown
-cover_image: instagram-2025-04-23-115350-spent-the-morning-exploring-jamestown-01
+cover_image: "2025/04/23/17928621806929559.jpg"
 images:
-  - id: instagram-2025-04-23-115350-spent-the-morning-exploring-jamestown-01
+  - id: "2025/04/23/17928621806929559.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-115350-spent-the-morning-exploring-jamestown-02
+  - id: "2025/04/23/17930314109922664.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-115350-spent-the-morning-exploring-jamestown-03
+  - id: "2025/04/23/18044134691157510.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-115350-spent-the-morning-exploring-jamestown-04
+  - id: "2025/04/23/18367073089122159.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-115350-spent-the-morning-exploring-jamestown-05
+  - id: "2025/04/23/17951630669816638.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-115350-spent-the-morning-exploring-jamestown-06
+  - id: "2025/04/23/18046152749115999.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-115350-spent-the-morning-exploring-jamestown-07
+  - id: "2025/04/23/18504759100053550.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-115350-spent-the-morning-exploring-jamestown-08
+  - id: "2025/04/23/18041460623199630.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-115350-spent-the-morning-exploring-jamestown-09
+  - id: "2025/04/23/18103752187508321.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-115350-spent-the-morning-exploring-jamestown-10
+  - id: "2025/04/23/18020773763501794.jpg"
     caption:
     alt:
 related:

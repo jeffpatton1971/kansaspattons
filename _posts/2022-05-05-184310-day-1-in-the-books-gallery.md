@@ -17,27 +17,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to Day 1 in the books."
 gallery: instagram-2022-05-05-184310-day-1-in-the-books
-cover_image: instagram-2022-05-05-184310-day-1-in-the-books-01
+cover_image: "2022/05/05/18007432858414563.jpg"
 images:
-  - id: instagram-2022-05-05-184310-day-1-in-the-books-01
+  - id: "2022/05/05/18007432858414563.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-05-184310-day-1-in-the-books-02
+  - id: "2022/05/05/17933994497150165.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-05-184310-day-1-in-the-books-03
+  - id: "2022/05/05/18300546271048271.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-05-184310-day-1-in-the-books-04
+  - id: "2022/05/05/17930394710081587.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-05-184310-day-1-in-the-books-05
+  - id: "2022/05/05/17950738348856259.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-05-184310-day-1-in-the-books-06
+  - id: "2022/05/05/17941733543000356.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-05-184310-day-1-in-the-books-07
+  - id: "2022/05/05/17879891594664400.jpg"
     caption:
     alt:
 related:

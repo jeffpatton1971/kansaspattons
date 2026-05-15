@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Hard to believe this girl will be graduating soon."
 gallery: instagram-2022-01-31-190819-hard-to-believe-this-girl-will-be-graduating-soon
-cover_image: instagram-2022-01-31-190819-hard-to-believe-this-girl-will-be-graduating-soon-01
+cover_image: "2022/01/31/18276516694017601.jpg"
 images:
-  - id: instagram-2022-01-31-190819-hard-to-believe-this-girl-will-be-graduating-soon-01
+  - id: "2022/01/31/18276516694017601.jpg"
     caption:
     alt:
-  - id: instagram-2022-01-31-190819-hard-to-believe-this-girl-will-be-graduating-soon-02
+  - id: "2022/01/31/17896724948527325.jpg"
     caption:
     alt:
-  - id: instagram-2022-01-31-190819-hard-to-believe-this-girl-will-be-graduating-soon-03
+  - id: "2022/01/31/18277698913000440.jpg"
     caption:
     alt:
-  - id: instagram-2022-01-31-190819-hard-to-believe-this-girl-will-be-graduating-soon-04
+  - id: "2022/01/31/17954994496568022.jpg"
     caption:
     alt:
 related:

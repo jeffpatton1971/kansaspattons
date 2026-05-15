@@ -18,21 +18,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to Has a blast watching the #harlemglobetrotters."
 gallery: instagram-2025-03-28-211434-has-a-blast-watching-the-harlemglobetrotters
-cover_image: instagram-2025-03-28-211434-has-a-blast-watching-the-harlemglobetrotters-01
+cover_image: "2025/03/28/17881761780266263.jpg"
 images:
-  - id: instagram-2025-03-28-211434-has-a-blast-watching-the-harlemglobetrotters-01
+  - id: "2025/03/28/17881761780266263.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-28-211434-has-a-blast-watching-the-harlemglobetrotters-02
+  - id: "2025/03/28/18352105564179910.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-28-211434-has-a-blast-watching-the-harlemglobetrotters-03
+  - id: "2025/03/28/18064062571975647.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-28-211434-has-a-blast-watching-the-harlemglobetrotters-04
+  - id: "2025/03/28/18500221867048112.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-28-211434-has-a-blast-watching-the-harlemglobetrotters-05
+  - id: "2025/03/28/17847291141415988.jpg"
     caption:
     alt:
 related:

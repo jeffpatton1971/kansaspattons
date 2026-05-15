@@ -18,21 +18,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to #vacationvibes."
 gallery: instagram-2022-06-09-124910-vacationvibes
-cover_image: instagram-2022-06-09-124910-vacationvibes-01
+cover_image: "2022/06/09/18140734318264523.jpg"
 images:
-  - id: instagram-2022-06-09-124910-vacationvibes-01
+  - id: "2022/06/09/18140734318264523.jpg"
     caption:
     alt:
-  - id: instagram-2022-06-09-124910-vacationvibes-02
+  - id: "2022/06/09/17946021493995939.jpg"
     caption:
     alt:
-  - id: instagram-2022-06-09-124910-vacationvibes-03
+  - id: "2022/06/09/18222226843131333.jpg"
     caption:
     alt:
-  - id: instagram-2022-06-09-124910-vacationvibes-04
+  - id: "2022/06/09/17874895973694869.jpg"
     caption:
     alt:
-  - id: instagram-2022-06-09-124910-vacationvibes-05
+  - id: "2022/06/09/18040994689345464.jpg"
     caption:
     alt:
 related:

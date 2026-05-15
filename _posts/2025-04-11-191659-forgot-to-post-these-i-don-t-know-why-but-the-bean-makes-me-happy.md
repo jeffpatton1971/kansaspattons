@@ -15,7 +15,7 @@ source:
   caption: "Forgot to post these! I don’t know why but the bean makes me happy!"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2025-04-11-191659-forgot-to-post-these-i-don-t-know-why-but-the-bean-makes-me-happy-01
+cover_image: "2025/04/11/18079418440612485.jpg"
 related:
   - type: gallery
     id: instagram-2025-04-11-191659-forgot-to-post-these-i-don-t-know-why-but-the-bean-makes-me-happy

@@ -15,7 +15,7 @@ source:
   caption: "First tennis match at @jayhawktenniscenter and lunch at @biemersbbq … good day"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2023-04-01-154156-first-tennis-match-at-jayhawktenniscenter-and-lunch-at-biemersbbq-good-day-01
+cover_image: "2023/04/01/17965737608176229.jpg"
 related:
   - type: gallery
     id: instagram-2023-04-01-154156-first-tennis-match-at-jayhawktenniscenter-and-lunch-at-biemersbbq-good-day

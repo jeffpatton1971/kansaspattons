@@ -17,27 +17,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to Smoked pork for dinner and brownie ala mode for dessert."
 gallery: instagram-2021-02-07-210005-smoked-pork-for-dinner-and-brownie-ala-mode-for-dessert
-cover_image: instagram-2021-02-07-210005-smoked-pork-for-dinner-and-brownie-ala-mode-for-dessert-01
+cover_image: "2021/02/07/17905167991690681.jpg"
 images:
-  - id: instagram-2021-02-07-210005-smoked-pork-for-dinner-and-brownie-ala-mode-for-dessert-01
+  - id: "2021/02/07/17905167991690681.jpg"
     caption:
     alt:
-  - id: instagram-2021-02-07-210005-smoked-pork-for-dinner-and-brownie-ala-mode-for-dessert-02
+  - id: "2021/02/07/18096774334216233.jpg"
     caption:
     alt:
-  - id: instagram-2021-02-07-210005-smoked-pork-for-dinner-and-brownie-ala-mode-for-dessert-03
+  - id: "2021/02/07/17878087694132955.jpg"
     caption:
     alt:
-  - id: instagram-2021-02-07-210005-smoked-pork-for-dinner-and-brownie-ala-mode-for-dessert-04
+  - id: "2021/02/07/17924650327515206.jpg"
     caption:
     alt:
-  - id: instagram-2021-02-07-210005-smoked-pork-for-dinner-and-brownie-ala-mode-for-dessert-05
+  - id: "2021/02/07/17873386235174598.jpg"
     caption:
     alt:
-  - id: instagram-2021-02-07-210005-smoked-pork-for-dinner-and-brownie-ala-mode-for-dessert-06
+  - id: "2021/02/07/17899928020778327.jpg"
     caption:
     alt:
-  - id: instagram-2021-02-07-210005-smoked-pork-for-dinner-and-brownie-ala-mode-for-dessert-07
+  - id: "2021/02/07/17879277230112825.jpg"
     caption:
     alt:
 related:

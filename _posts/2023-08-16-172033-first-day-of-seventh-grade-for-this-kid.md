@@ -15,15 +15,15 @@ source:
   caption: "First day of seventh grade for this kid!"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2023-08-16-172033-first-day-of-seventh-grade-for-this-kid-01
+cover_image: "2023/08/16/18230896357215815.jpg"
 images:
-  - id: instagram-2023-08-16-172033-first-day-of-seventh-grade-for-this-kid-01
+  - id: "2023/08/16/18230896357215815.jpg"
     caption:
     alt:
-  - id: instagram-2023-08-16-172033-first-day-of-seventh-grade-for-this-kid-02
+  - id: "2023/08/16/17936074877619991.jpg"
     caption:
     alt:
-  - id: instagram-2023-08-16-172033-first-day-of-seventh-grade-for-this-kid-03
+  - id: "2023/08/16/17949154937664551.jpg"
     caption:
     alt:
 hashtags: []

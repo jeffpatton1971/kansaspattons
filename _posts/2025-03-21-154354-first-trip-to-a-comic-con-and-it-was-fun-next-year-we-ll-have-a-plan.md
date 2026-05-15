@@ -15,7 +15,7 @@ source:
   caption: "First trip to a Comic-Con and it was fun! Next year we’ll have a plan! 😂😂"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2025-03-21-154354-first-trip-to-a-comic-con-and-it-was-fun-next-year-we-ll-have-a-plan-01
+cover_image: "2025/03/21/17926121649023864.jpg"
 related:
   - type: gallery
     id: instagram-2025-03-21-154354-first-trip-to-a-comic-con-and-it-was-fun-next-year-we-ll-have-a-plan

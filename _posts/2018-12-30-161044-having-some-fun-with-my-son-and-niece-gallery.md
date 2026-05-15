@@ -17,24 +17,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Having some fun with my son and niece."
 gallery: instagram-2018-12-30-161044-having-some-fun-with-my-son-and-niece
-cover_image: instagram-2018-12-30-161044-having-some-fun-with-my-son-and-niece-01
+cover_image: "2018/12/30/17987639296192089.jpg"
 images:
-  - id: instagram-2018-12-30-161044-having-some-fun-with-my-son-and-niece-01
+  - id: "2018/12/30/17987639296192089.jpg"
     caption:
     alt:
-  - id: instagram-2018-12-30-161044-having-some-fun-with-my-son-and-niece-02
+  - id: "2018/12/30/17917523071270104.jpg"
     caption:
     alt:
-  - id: instagram-2018-12-30-161044-having-some-fun-with-my-son-and-niece-03
+  - id: "2018/12/30/17942067775233760.jpg"
     caption:
     alt:
-  - id: instagram-2018-12-30-161044-having-some-fun-with-my-son-and-niece-04
+  - id: "2018/12/30/17942759545226184.jpg"
     caption:
     alt:
-  - id: instagram-2018-12-30-161044-having-some-fun-with-my-son-and-niece-05
+  - id: "2018/12/30/18015949663023531.jpg"
     caption:
     alt:
-  - id: instagram-2018-12-30-161044-having-some-fun-with-my-son-and-niece-06
+  - id: "2018/12/30/17990266918186178.jpg"
     caption:
     alt:
 related:

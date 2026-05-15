@@ -17,36 +17,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Magic wands and Hogwarts."
 gallery: instagram-2021-04-27-135856-magic-wands-and-hogwarts
-cover_image: instagram-2021-04-27-135856-magic-wands-and-hogwarts-01
+cover_image: "2021/04/27/17996719156328554.jpg"
 images:
-  - id: instagram-2021-04-27-135856-magic-wands-and-hogwarts-01
+  - id: "2021/04/27/17996719156328554.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-135856-magic-wands-and-hogwarts-02
+  - id: "2021/04/27/17902344577830648.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-135856-magic-wands-and-hogwarts-03
+  - id: "2021/04/27/17914227175723464.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-135856-magic-wands-and-hogwarts-04
+  - id: "2021/04/27/17865057806448349.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-135856-magic-wands-and-hogwarts-05
+  - id: "2021/04/27/17907207676840452.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-135856-magic-wands-and-hogwarts-06
+  - id: "2021/04/27/17893957495968230.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-135856-magic-wands-and-hogwarts-07
+  - id: "2021/04/27/18151522846095971.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-135856-magic-wands-and-hogwarts-08
+  - id: "2021/04/27/17913392224692732.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-135856-magic-wands-and-hogwarts-09
+  - id: "2021/04/27/17913681280708201.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-135856-magic-wands-and-hogwarts-10
+  - id: "2021/04/27/17849295518570690.jpg"
     caption:
     alt:
 related:

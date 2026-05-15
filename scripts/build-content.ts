@@ -455,11 +455,16 @@ async function buildImages(posts: PostSummary[]) {
       continue;
     }
 
-    const id = textValue(parsed.data.id) || filename;
+    const sourceFilename = canonicalImageFilename(parsed.data, filename);
+    const id = canonicalImageId(parts, sourceFilename);
     const title = textValue(parsed.data.title) || textValue(parsed.data.description) || titleFromSlug(id);
     const date = normalizedDate(parsed.data.taken_at, parts);
     const postId = textValue(parsed.data.post_id);
     const caption = textValue(parsed.data.caption) || textValue(parsed.data.description);
+    const rawUrl = canonicalAssetUrl(parsed.data.raw_url, 'images', parts, sourceFilename);
+    const thumbUrl = isVideoFilename(sourceFilename)
+      ? rawUrl
+      : canonicalAssetUrl(parsed.data.raw_url, 'thumbs', parts, sourceFilename);
 
     images.push({
       siteKey,
@@ -467,14 +472,14 @@ async function buildImages(posts: PostSummary[]) {
       type: 'image',
       title,
       date,
-      route: `/images/${parts.year}/${parts.month}/${parts.day}/${id}`,
-      rawUrl: textValue(parsed.data.raw_url),
-      thumbUrl: textValue(parsed.data.thumb_url) || textValue(parsed.data.raw_url),
+      route: `/images/${parts.year}/${parts.month}/${parts.day}/${encodeURIComponent(sourceFilename)}`,
+      rawUrl,
+      thumbUrl,
       caption: caption || undefined,
       alt: textValue(parsed.data.alt) || caption || title,
       galleryId: textValue(parsed.data.gallery),
       source: imageSource(parsed.data.source),
-      sourceFilename: textValue(parsed.data.source_filename),
+      sourceFilename,
       postId,
       postRoute: postId ? postRoutesById.get(postId) : undefined,
       ...parts,
@@ -972,6 +977,64 @@ function imageSource(value: unknown) {
   }
 
   return textValue(value) || undefined;
+}
+
+function canonicalImageFilename(data: Frontmatter, fallbackFile: string) {
+  return (
+    filenameFromUrl(textValue(data.raw_url)) ||
+    textValue(data.source_filename) ||
+    filenameFromUrl(textValue(data.thumb_url)) ||
+    path.basename(fallbackFile, '.md')
+  );
+}
+
+function canonicalImageId(parts: DateParts, filename: string) {
+  return `${parts.year}/${parts.month}/${parts.day}/${filename}`;
+}
+
+function canonicalAssetUrl(currentRawUrl: unknown, prefix: 'images' | 'thumbs', parts: DateParts, filename: string) {
+  const current = textValue(currentRawUrl);
+
+  if (!current) {
+    return '';
+  }
+
+  try {
+    const url = new URL(current);
+    const [container] = url.pathname.split('/').filter(Boolean);
+
+    if (!container) {
+      return current;
+    }
+
+    url.pathname = `/${encodePath([container, prefix, parts.year, parts.month, parts.day, filename])}`;
+    url.search = '';
+    url.hash = '';
+    return url.toString();
+  } catch {
+    return current;
+  }
+}
+
+function filenameFromUrl(value: string) {
+  if (!value) {
+    return '';
+  }
+
+  try {
+    const url = new URL(value);
+    return decodeURIComponent(url.pathname).split('/').filter(Boolean).at(-1) ?? '';
+  } catch {
+    return value.split('/').filter(Boolean).at(-1) ?? '';
+  }
+}
+
+function encodePath(parts: string[]) {
+  return parts.map((part) => encodeURIComponent(part)).join('/');
+}
+
+function isVideoFilename(value: string) {
+  return /\.(mp4|mov|m4v|webm)$/i.test(value);
 }
 
 function excludeFromArchives(data: Frontmatter, title: string, galleryIds: string[]) {

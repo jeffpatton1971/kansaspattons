@@ -15,9 +15,9 @@ source:
   caption: "Happy Mother’s Day mom, I love you."
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-05-09-075837-happy-mother-s-day-mom-i-love-you-01
+cover_image: "2021/05/09/17879276318336389.jpg"
 images:
-  - id: instagram-2021-05-09-075837-happy-mother-s-day-mom-i-love-you-01
+  - id: "2021/05/09/17879276318336389.jpg"
     caption:
     alt:
 hashtags: []

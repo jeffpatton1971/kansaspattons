@@ -15,9 +15,9 @@ source:
   caption: "Hanging out with Nathan at the basketball game tonight"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-02-27-183612-hanging-out-with-nathan-at-the-basketball-game-tonight-01
+cover_image: "2025/02/27/18321999169167870.jpg"
 images:
-  - id: instagram-2025-02-27-183612-hanging-out-with-nathan-at-the-basketball-game-tonight-01
+  - id: "2025/02/27/18321999169167870.jpg"
     caption:
     alt:
 hashtags: []

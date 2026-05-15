@@ -15,9 +15,9 @@ source:
   caption: "Blue skies...shining on me"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-03-03-121609-blue-skies-shining-on-me-01
+cover_image: "2018/03/03/17910335653080362.jpg"
 images:
-  - id: instagram-2018-03-03-121609-blue-skies-shining-on-me-01
+  - id: "2018/03/03/17910335653080362.jpg"
     caption:
     alt:
 hashtags: []

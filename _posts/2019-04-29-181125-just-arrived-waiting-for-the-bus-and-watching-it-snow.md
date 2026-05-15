@@ -15,7 +15,7 @@ source:
   caption: "Just arrived...waiting for the bus and watching it snow"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2019-04-29-181125-just-arrived-waiting-for-the-bus-and-watching-it-snow-01
+cover_image: "2019/04/29/18055727332068777.jpg"
 related:
   - type: gallery
     id: instagram-2019-04-29-181125-just-arrived-waiting-for-the-bus-and-watching-it-snow

@@ -15,7 +15,7 @@ source:
   caption: "Christmas Concert"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2021-12-13-195058-christmas-concert-01
+cover_image: "2021/12/13/17999223682391275.jpg"
 related:
   - type: gallery
     id: instagram-2021-12-13-195058-christmas-concert

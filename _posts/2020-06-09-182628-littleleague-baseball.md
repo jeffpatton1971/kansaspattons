@@ -15,9 +15,9 @@ source:
   caption: "#littleleague #baseball"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2020-06-09-182628-littleleague-baseball-01
+cover_image: "2020/06/09/17848764083117174.jpg"
 images:
-  - id: instagram-2020-06-09-182628-littleleague-baseball-01
+  - id: "2020/06/09/17848764083117174.jpg"
     caption:
     alt:
 hashtags:

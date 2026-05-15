@@ -15,7 +15,7 @@ source:
   caption: "Morning routine. Walk around campus and then back home for breakfast"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2025-06-25-074128-morning-routine-walk-around-campus-and-then-back-home-for-breakfast-01
+cover_image: "2025/06/25/17850170280485485.jpg"
 related:
   - type: gallery
     id: instagram-2025-06-25-074128-morning-routine-walk-around-campus-and-then-back-home-for-breakfast

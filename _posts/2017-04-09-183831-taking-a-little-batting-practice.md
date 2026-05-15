@@ -15,9 +15,9 @@ source:
   caption: "Taking a little batting practice"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2017-04-09-183831-taking-a-little-batting-practice-01
+cover_image: "2017/04/09/17863814629095774.jpg"
 images:
-  - id: instagram-2017-04-09-183831-taking-a-little-batting-practice-01
+  - id: "2017/04/09/17863814629095774.jpg"
     caption:
     alt:
 hashtags: []

@@ -15,7 +15,7 @@ source:
   caption: "BEYBLADE birthday party"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2019-03-30-142023-beyblade-birthday-party-01
+cover_image: "2019/03/30/18025139398091861.jpg"
 related:
   - type: gallery
     id: instagram-2019-03-30-142023-beyblade-birthday-party

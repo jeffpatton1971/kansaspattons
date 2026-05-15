@@ -19,18 +19,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Nathan’s class visited Farpoint tonight, we got to see the Milky Way and all the stars he’...."
 gallery: instagram-2019-11-15-211849-nathan-s-class-visited-farpoint-tonight-we-got-to-see-the-milky-way-and-all-the
-cover_image: instagram-2019-11-15-211849-nathan-s-class-visited-farpoint-tonight-we-got-to-see-the-milky-way-and-all-the-01
+cover_image: "2019/11/15/18113890117056130.jpg"
 images:
-  - id: instagram-2019-11-15-211849-nathan-s-class-visited-farpoint-tonight-we-got-to-see-the-milky-way-and-all-the-01
+  - id: "2019/11/15/18113890117056130.jpg"
     caption:
     alt:
-  - id: instagram-2019-11-15-211849-nathan-s-class-visited-farpoint-tonight-we-got-to-see-the-milky-way-and-all-the-02
+  - id: "2019/11/15/17940153790310858.jpg"
     caption:
     alt:
-  - id: instagram-2019-11-15-211849-nathan-s-class-visited-farpoint-tonight-we-got-to-see-the-milky-way-and-all-the-03
+  - id: "2019/11/15/18075903553176009.jpg"
     caption:
     alt:
-  - id: instagram-2019-11-15-211849-nathan-s-class-visited-farpoint-tonight-we-got-to-see-the-milky-way-and-all-the-04
+  - id: "2019/11/15/17873289925500935.jpg"
     caption:
     alt:
 related:

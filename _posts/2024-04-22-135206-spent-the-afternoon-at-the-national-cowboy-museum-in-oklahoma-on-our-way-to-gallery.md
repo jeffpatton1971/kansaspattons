@@ -17,36 +17,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Spent the afternoon at the National Cowboy Museum in Oklahoma on our way to Texas."
 gallery: instagram-2024-04-22-135206-spent-the-afternoon-at-the-national-cowboy-museum-in-oklahoma-on-our-way-to
-cover_image: instagram-2024-04-22-135206-spent-the-afternoon-at-the-national-cowboy-museum-in-oklahoma-on-our-way-to-01
+cover_image: "2024/04/22/18025313306095459.jpg"
 images:
-  - id: instagram-2024-04-22-135206-spent-the-afternoon-at-the-national-cowboy-museum-in-oklahoma-on-our-way-to-01
+  - id: "2024/04/22/18025313306095459.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-22-135206-spent-the-afternoon-at-the-national-cowboy-museum-in-oklahoma-on-our-way-to-02
+  - id: "2024/04/22/17894923883998839.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-22-135206-spent-the-afternoon-at-the-national-cowboy-museum-in-oklahoma-on-our-way-to-03
+  - id: "2024/04/22/18029434981955301.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-22-135206-spent-the-afternoon-at-the-national-cowboy-museum-in-oklahoma-on-our-way-to-04
+  - id: "2024/04/22/17876226864066640.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-22-135206-spent-the-afternoon-at-the-national-cowboy-museum-in-oklahoma-on-our-way-to-05
+  - id: "2024/04/22/17922333281896170.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-22-135206-spent-the-afternoon-at-the-national-cowboy-museum-in-oklahoma-on-our-way-to-06
+  - id: "2024/04/22/18016595282472850.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-22-135206-spent-the-afternoon-at-the-national-cowboy-museum-in-oklahoma-on-our-way-to-07
+  - id: "2024/04/22/17999605010331118.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-22-135206-spent-the-afternoon-at-the-national-cowboy-museum-in-oklahoma-on-our-way-to-08
+  - id: "2024/04/22/18004323305254205.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-22-135206-spent-the-afternoon-at-the-national-cowboy-museum-in-oklahoma-on-our-way-to-09
+  - id: "2024/04/22/17936569259734403.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-22-135206-spent-the-afternoon-at-the-national-cowboy-museum-in-oklahoma-on-our-way-to-10
+  - id: "2024/04/22/18087803404429472.jpg"
     caption:
     alt:
 related:

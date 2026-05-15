@@ -15,9 +15,9 @@ source:
   caption: "Breakfast and @starwars what could be better on #maythe4thbewithyou day"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-05-04-084339-breakfast-and-starwars-what-could-be-better-on-maythe4thbewithyou-day-01
+cover_image: "2025/05/04/17862262926398208.jpg"
 images:
-  - id: instagram-2025-05-04-084339-breakfast-and-starwars-what-could-be-better-on-maythe4thbewithyou-day-01
+  - id: "2025/05/04/17862262926398208.jpg"
     caption:
     alt:
 hashtags:

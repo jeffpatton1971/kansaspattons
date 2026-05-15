@@ -15,12 +15,12 @@ source:
   caption: "It’s been a long ride…from Kindergartner to Senior"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2021-08-19-174304-it-s-been-a-long-ride-from-kindergartner-to-senior-01
+cover_image: "2021/08/19/17926962493660985.jpg"
 images:
-  - id: instagram-2021-08-19-174304-it-s-been-a-long-ride-from-kindergartner-to-senior-01
+  - id: "2021/08/19/17926962493660985.jpg"
     caption:
     alt:
-  - id: instagram-2021-08-19-174304-it-s-been-a-long-ride-from-kindergartner-to-senior-02
+  - id: "2021/08/19/17919038701876995.jpg"
     caption:
     alt:
 hashtags: []

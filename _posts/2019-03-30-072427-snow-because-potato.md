@@ -15,9 +15,9 @@ source:
   caption: "Snow...because potato!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-03-30-072427-snow-because-potato-01
+cover_image: "2019/03/30/17949203947270461.jpg"
 images:
-  - id: instagram-2019-03-30-072427-snow-because-potato-01
+  - id: "2019/03/30/17949203947270461.jpg"
     caption:
     alt:
 hashtags: []

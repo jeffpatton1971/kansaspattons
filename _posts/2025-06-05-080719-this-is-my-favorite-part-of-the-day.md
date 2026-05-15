@@ -15,9 +15,9 @@ source:
   caption: "This is my favorite part of the day"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-06-05-080719-this-is-my-favorite-part-of-the-day-01
+cover_image: "2025/06/05/18109373650504662.jpg"
 images:
-  - id: instagram-2025-06-05-080719-this-is-my-favorite-part-of-the-day-01
+  - id: "2025/06/05/18109373650504662.jpg"
     caption:
     alt:
 hashtags: []

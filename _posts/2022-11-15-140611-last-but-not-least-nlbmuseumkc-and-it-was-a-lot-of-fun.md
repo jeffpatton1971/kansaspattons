@@ -15,7 +15,7 @@ source:
   caption: "last but not least @nlbmuseumkc and it was a lot of fun"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2022-11-15-140611-last-but-not-least-nlbmuseumkc-and-it-was-a-lot-of-fun-01
+cover_image: "2022/11/15/17882517590757733.jpg"
 related:
   - type: gallery
     id: instagram-2022-11-15-140611-last-but-not-least-nlbmuseumkc-and-it-was-a-lot-of-fun

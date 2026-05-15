@@ -15,7 +15,7 @@ source:
   caption: "Putting together a beyblade arena for Nathan"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2019-03-23-200428-putting-together-a-beyblade-arena-for-nathan-01
+cover_image: "2019/03/23/17930391463301658.jpg"
 related:
   - type: gallery
     id: instagram-2019-03-23-200428-putting-together-a-beyblade-arena-for-nathan

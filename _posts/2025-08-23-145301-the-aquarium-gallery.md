@@ -17,27 +17,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to The aquarium."
 gallery: instagram-2025-08-23-145301-the-aquarium
-cover_image: instagram-2025-08-23-145301-the-aquarium-01
+cover_image: "2025/08/23/18109821835533230.jpg"
 images:
-  - id: instagram-2025-08-23-145301-the-aquarium-01
+  - id: "2025/08/23/18109821835533230.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-23-145301-the-aquarium-02
+  - id: "2025/08/23/18074589806094891.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-23-145301-the-aquarium-03
+  - id: "2025/08/23/17859330720472032.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-23-145301-the-aquarium-04
+  - id: "2025/08/23/18286060000256748.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-23-145301-the-aquarium-05
+  - id: "2025/08/23/18194317564317185.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-23-145301-the-aquarium-06
+  - id: "2025/08/23/18035036660693968.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-23-145301-the-aquarium-07
+  - id: "2025/08/23/18523957003029953.jpg"
     caption:
     alt:
 related:

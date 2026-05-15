@@ -17,21 +17,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to Was a cheerleader today at Helen’s Rock."
 gallery: instagram-2019-05-02-123223-was-a-cheerleader-today-at-helen-s-rock
-cover_image: instagram-2019-05-02-123223-was-a-cheerleader-today-at-helen-s-rock-01
+cover_image: "2019/05/02/18044402374109687.jpg"
 images:
-  - id: instagram-2019-05-02-123223-was-a-cheerleader-today-at-helen-s-rock-01
+  - id: "2019/05/02/18044402374109687.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-02-123223-was-a-cheerleader-today-at-helen-s-rock-02
+  - id: "2019/05/02/17851496797412750.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-02-123223-was-a-cheerleader-today-at-helen-s-rock-03
+  - id: "2019/05/02/17986500070228173.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-02-123223-was-a-cheerleader-today-at-helen-s-rock-04
+  - id: "2019/05/02/17966704078248085.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-02-123223-was-a-cheerleader-today-at-helen-s-rock-05
+  - id: "2019/05/02/17998267945204840.jpg"
     caption:
     alt:
 related:

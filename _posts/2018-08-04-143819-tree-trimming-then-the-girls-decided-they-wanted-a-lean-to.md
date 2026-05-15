@@ -15,9 +15,9 @@ source:
   caption: "Tree trimming then the girls decided they wanted a lean-to"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-08-04-143819-tree-trimming-then-the-girls-decided-they-wanted-a-lean-to-01
+cover_image: "2018/08/04/17945856814084045.jpg"
 images:
-  - id: instagram-2018-08-04-143819-tree-trimming-then-the-girls-decided-they-wanted-a-lean-to-01
+  - id: "2018/08/04/17945856814084045.jpg"
     caption:
     alt:
 hashtags: []

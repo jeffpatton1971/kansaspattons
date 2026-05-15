@@ -17,30 +17,30 @@ authors:
   - "Jeff Patton"
 summary: "8 images related to Had a great time with @nater_potater123 today."
 gallery: instagram-2025-08-02-165920-had-a-great-time-with-nater-potater123-today
-cover_image: instagram-2025-08-02-165920-had-a-great-time-with-nater-potater123-today-01
+cover_image: "2025/08/02/17996628344656305.jpg"
 images:
-  - id: instagram-2025-08-02-165920-had-a-great-time-with-nater-potater123-today-01
+  - id: "2025/08/02/17996628344656305.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-02-165920-had-a-great-time-with-nater-potater123-today-02
+  - id: "2025/08/02/18170832274349365.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-02-165920-had-a-great-time-with-nater-potater123-today-03
+  - id: "2025/08/02/17854270065492186.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-02-165920-had-a-great-time-with-nater-potater123-today-04
+  - id: "2025/08/02/18048676919561607.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-02-165920-had-a-great-time-with-nater-potater123-today-05
+  - id: "2025/08/02/18086615074748694.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-02-165920-had-a-great-time-with-nater-potater123-today-06
+  - id: "2025/08/02/18077370490752432.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-02-165920-had-a-great-time-with-nater-potater123-today-07
+  - id: "2025/08/02/18016405313749356.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-02-165920-had-a-great-time-with-nater-potater123-today-08
+  - id: "2025/08/02/18169915807348294.mp4"
     caption:
     alt:
 related:

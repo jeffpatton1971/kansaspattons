@@ -19,30 +19,30 @@ authors:
   - "Jeff Patton"
 summary: "8 images related to Stopped snowing...time for some fun #snowpocalypse #2021."
 gallery: instagram-2021-01-01-155527-stopped-snowing-time-for-some-fun-snowpocalypse-2021
-cover_image: instagram-2021-01-01-155527-stopped-snowing-time-for-some-fun-snowpocalypse-2021-01
+cover_image: "2021/01/01/17893368112815551.jpg"
 images:
-  - id: instagram-2021-01-01-155527-stopped-snowing-time-for-some-fun-snowpocalypse-2021-01
+  - id: "2021/01/01/17893368112815551.jpg"
     caption:
     alt:
-  - id: instagram-2021-01-01-155527-stopped-snowing-time-for-some-fun-snowpocalypse-2021-02
+  - id: "2021/01/01/18040886188287839.jpg"
     caption:
     alt:
-  - id: instagram-2021-01-01-155527-stopped-snowing-time-for-some-fun-snowpocalypse-2021-03
+  - id: "2021/01/01/17895835360762604.jpg"
     caption:
     alt:
-  - id: instagram-2021-01-01-155527-stopped-snowing-time-for-some-fun-snowpocalypse-2021-04
+  - id: "2021/01/01/18152034532101767.jpg"
     caption:
     alt:
-  - id: instagram-2021-01-01-155527-stopped-snowing-time-for-some-fun-snowpocalypse-2021-05
+  - id: "2021/01/01/18184604827018725.jpg"
     caption:
     alt:
-  - id: instagram-2021-01-01-155527-stopped-snowing-time-for-some-fun-snowpocalypse-2021-06
+  - id: "2021/01/01/17928561454468848.jpg"
     caption:
     alt:
-  - id: instagram-2021-01-01-155527-stopped-snowing-time-for-some-fun-snowpocalypse-2021-07
+  - id: "2021/01/01/17885013901948782.jpg"
     caption:
     alt:
-  - id: instagram-2021-01-01-155527-stopped-snowing-time-for-some-fun-snowpocalypse-2021-08
+  - id: "2021/01/01/17969790172357249.jpg"
     caption:
     alt:
 related:

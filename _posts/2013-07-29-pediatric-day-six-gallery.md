@@ -19,33 +19,33 @@ authors:
   - "Jeff Patton"
 summary: "9 images related to Pediatric Day 6."
 gallery: wordpress-2013-07-29-111851-july-29-2013
-cover_image: "2013-07-29-wp-20130729-001"
+cover_image: "2013/07/29/wp_20130729_001.jpg"
 images:
-  - id: "2013-07-29-wp-20130729-001"
+  - id: "2013/07/29/wp_20130729_001.jpg"
     caption:
     alt:
-  - id: "2013-07-29-wp-20130729-002"
+  - id: "2013/07/29/wp_20130729_002.jpg"
     caption:
     alt:
-  - id: "2013-07-29-wp-20130729-004"
+  - id: "2013/07/29/wp_20130729_004.jpg"
     caption:
     alt:
-  - id: "2013-07-29-wp-20130729-007"
+  - id: "2013/07/29/wp_20130729_007.jpg"
     caption:
     alt:
-  - id: "2013-07-29-wp-20130729-010"
+  - id: "2013/07/29/wp_20130729_010.jpg"
     caption:
     alt:
-  - id: "2013-07-29-wp-20130729-013"
+  - id: "2013/07/29/wp_20130729_013.jpg"
     caption:
     alt:
-  - id: "2013-07-29-wp-20130729-014"
+  - id: "2013/07/29/wp_20130729_014.jpg"
     caption:
     alt:
-  - id: "2013-07-29-wp-20130729-015"
+  - id: "2013/07/29/wp_20130729_015.jpg"
     caption:
     alt:
-  - id: "2013-07-29-wp-20130729-016"
+  - id: "2013/07/29/wp_20130729_016.jpg"
     caption:
     alt:
 related:

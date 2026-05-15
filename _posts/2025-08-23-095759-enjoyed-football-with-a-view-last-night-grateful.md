@@ -15,7 +15,7 @@ source:
   caption: "Enjoyed football with a view last night #grateful"
   media_count: 5
   cross_post_source: "FB"
-cover_image: instagram-2025-08-23-095759-enjoyed-football-with-a-view-last-night-grateful-01
+cover_image: "2025/08/23/17847634008546471.jpg"
 related:
   - type: gallery
     id: instagram-2025-08-23-095759-enjoyed-football-with-a-view-last-night-grateful

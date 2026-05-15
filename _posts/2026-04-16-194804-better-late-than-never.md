@@ -15,12 +15,12 @@ source:
   caption: "Better late than never 💛🖤"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2026-04-16-194804-better-late-than-never-01
+cover_image: "2026/04/16/18125308324595834.jpg"
 images:
-  - id: instagram-2026-04-16-194804-better-late-than-never-01
+  - id: "2026/04/16/18125308324595834.jpg"
     caption:
     alt:
-  - id: instagram-2026-04-16-194804-better-late-than-never-02
+  - id: "2026/04/16/18109431079856917.jpg"
     caption:
     alt:
 hashtags: []

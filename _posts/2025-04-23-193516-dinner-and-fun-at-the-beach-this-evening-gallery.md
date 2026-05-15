@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Dinner and fun at the beach this evening."
 gallery: instagram-2025-04-23-193516-dinner-and-fun-at-the-beach-this-evening
-cover_image: instagram-2025-04-23-193516-dinner-and-fun-at-the-beach-this-evening-01
+cover_image: "2025/04/23/17851542108393183.jpg"
 images:
-  - id: instagram-2025-04-23-193516-dinner-and-fun-at-the-beach-this-evening-01
+  - id: "2025/04/23/17851542108393183.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-193516-dinner-and-fun-at-the-beach-this-evening-02
+  - id: "2025/04/23/18052940048198890.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-193516-dinner-and-fun-at-the-beach-this-evening-03
+  - id: "2025/04/23/18028980902391557.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-193516-dinner-and-fun-at-the-beach-this-evening-04
+  - id: "2025/04/23/18092789935586832.jpg"
     caption:
     alt:
 related:

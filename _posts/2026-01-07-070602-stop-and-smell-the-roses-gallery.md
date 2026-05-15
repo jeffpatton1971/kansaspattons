@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Stop and smell the roses."
 gallery: instagram-2026-01-07-070602-stop-and-smell-the-roses
-cover_image: instagram-2026-01-07-070602-stop-and-smell-the-roses-01
+cover_image: "2026/01/07/18067610942165314.jpg"
 images:
-  - id: instagram-2026-01-07-070602-stop-and-smell-the-roses-01
+  - id: "2026/01/07/18067610942165314.jpg"
     caption:
     alt:
-  - id: instagram-2026-01-07-070602-stop-and-smell-the-roses-02
+  - id: "2026/01/07/18069897458152593.jpg"
     caption:
     alt:
-  - id: instagram-2026-01-07-070602-stop-and-smell-the-roses-03
+  - id: "2026/01/07/18066561878624544.jpg"
     caption:
     alt:
-  - id: instagram-2026-01-07-070602-stop-and-smell-the-roses-04
+  - id: "2026/01/07/18077869433021025.jpg"
     caption:
     alt:
 related:

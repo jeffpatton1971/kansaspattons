@@ -15,7 +15,7 @@ source:
   caption: "Had a nice visit to #neworleans"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2022-06-10-195324-had-a-nice-visit-to-neworleans-01
+cover_image: "2022/06/10/17952492217896247.jpg"
 related:
   - type: gallery
     id: instagram-2022-06-10-195324-had-a-nice-visit-to-neworleans

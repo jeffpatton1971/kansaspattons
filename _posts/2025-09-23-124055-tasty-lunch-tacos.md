@@ -15,9 +15,9 @@ source:
   caption: "Tasty #lunch #tacos"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-09-23-124055-tasty-lunch-tacos-01
+cover_image: "2025/09/23/18058133105454707.jpg"
 images:
-  - id: instagram-2025-09-23-124055-tasty-lunch-tacos-01
+  - id: "2025/09/23/18058133105454707.jpg"
     caption:
     alt:
 hashtags:

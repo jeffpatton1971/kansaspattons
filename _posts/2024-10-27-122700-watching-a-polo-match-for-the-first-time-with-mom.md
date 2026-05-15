@@ -15,7 +15,7 @@ source:
   caption: "Watching a #polo match for the first time with mom"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2024-10-27-122700-watching-a-polo-match-for-the-first-time-with-mom-01
+cover_image: "2024/10/27/17936142797922432.jpg"
 related:
   - type: gallery
     id: instagram-2024-10-27-122700-watching-a-polo-match-for-the-first-time-with-mom

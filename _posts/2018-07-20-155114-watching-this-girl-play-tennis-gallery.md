@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Watching this girl play tennis!."
 gallery: instagram-2018-07-20-155114-watching-this-girl-play-tennis
-cover_image: instagram-2018-07-20-155114-watching-this-girl-play-tennis-01
+cover_image: "2018/07/20/17930598502165352.jpg"
 images:
-  - id: instagram-2018-07-20-155114-watching-this-girl-play-tennis-01
+  - id: "2018/07/20/17930598502165352.jpg"
     caption:
     alt:
-  - id: instagram-2018-07-20-155114-watching-this-girl-play-tennis-02
+  - id: "2018/07/20/17903451832204139.jpg"
     caption:
     alt:
-  - id: instagram-2018-07-20-155114-watching-this-girl-play-tennis-03
+  - id: "2018/07/20/17900426293210384.jpg"
     caption:
     alt:
-  - id: instagram-2018-07-20-155114-watching-this-girl-play-tennis-04
+  - id: "2018/07/20/17934576202184719.jpg"
     caption:
     alt:
 related:

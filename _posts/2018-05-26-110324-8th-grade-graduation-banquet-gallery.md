@@ -17,21 +17,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to 8th grade graduation banquet."
 gallery: instagram-2018-05-26-110324-8th-grade-graduation-banquet
-cover_image: instagram-2018-05-26-110324-8th-grade-graduation-banquet-01
+cover_image: "2018/05/26/17920792528145472.jpg"
 images:
-  - id: instagram-2018-05-26-110324-8th-grade-graduation-banquet-01
+  - id: "2018/05/26/17920792528145472.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110324-8th-grade-graduation-banquet-02
+  - id: "2018/05/26/17923332697135905.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110324-8th-grade-graduation-banquet-03
+  - id: "2018/05/26/17942551099066242.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110324-8th-grade-graduation-banquet-04
+  - id: "2018/05/26/17921478073134891.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-26-110324-8th-grade-graduation-banquet-05
+  - id: "2018/05/26/17933570077118799.jpg"
     caption:
     alt:
 related:

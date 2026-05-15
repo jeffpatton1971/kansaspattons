@@ -15,9 +15,9 @@ source:
   caption: "A coffee and muffin for breakfast on the deck.. it’s the little things"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-03-29-101842-a-coffee-and-muffin-for-breakfast-on-the-deck-it-s-the-little-things-01
+cover_image: "2025/03/29/17927799120023618.jpg"
 images:
-  - id: instagram-2025-03-29-101842-a-coffee-and-muffin-for-breakfast-on-the-deck-it-s-the-little-things-01
+  - id: "2025/03/29/17927799120023618.jpg"
     caption:
     alt:
 hashtags: []

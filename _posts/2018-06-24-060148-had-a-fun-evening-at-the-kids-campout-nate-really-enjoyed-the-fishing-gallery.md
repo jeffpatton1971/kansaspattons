@@ -19,33 +19,33 @@ authors:
   - "Jeff Patton"
 summary: "9 images related to Had a fun evening at the kids campout...Nate really enjoyed the fishing."
 gallery: instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing
-cover_image: instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing-01
+cover_image: "2018/06/24/17955488428001740.jpg"
 images:
-  - id: instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing-01
+  - id: "2018/06/24/17955488428001740.jpg"
     caption:
     alt:
-  - id: instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing-02
+  - id: "2018/06/24/17957406613010892.jpg"
     caption:
     alt:
-  - id: instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing-03
+  - id: "2018/06/24/17956369159003799.jpg"
     caption:
     alt:
-  - id: instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing-04
+  - id: "2018/06/24/17954867635011321.jpg"
     caption:
     alt:
-  - id: instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing-05
+  - id: "2018/06/24/17947183159076166.jpg"
     caption:
     alt:
-  - id: instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing-06
+  - id: "2018/06/24/17893679110210146.jpg"
     caption:
     alt:
-  - id: instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing-07
+  - id: "2018/06/24/17950857835066755.jpg"
     caption:
     alt:
-  - id: instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing-08
+  - id: "2018/06/24/17941553851119795.jpg"
     caption:
     alt:
-  - id: instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing-09
+  - id: "2018/06/24/17955561436033268.jpg"
     caption:
     alt:
 related:

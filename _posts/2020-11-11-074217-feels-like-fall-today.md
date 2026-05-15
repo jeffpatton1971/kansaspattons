@@ -15,9 +15,9 @@ source:
   caption: "Feels like Fall today"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2020-11-11-074217-feels-like-fall-today-01
+cover_image: "2020/11/11/17887868689768040.jpg"
 images:
-  - id: instagram-2020-11-11-074217-feels-like-fall-today-01
+  - id: "2020/11/11/17887868689768040.jpg"
     caption:
     alt:
 hashtags: []

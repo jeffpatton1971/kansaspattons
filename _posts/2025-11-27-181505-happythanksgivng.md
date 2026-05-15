@@ -15,15 +15,15 @@ source:
   caption: "#happythanksgivng"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2025-11-27-181505-happythanksgivng-01
+cover_image: "2025/11/27/18111529324581695.jpg"
 images:
-  - id: instagram-2025-11-27-181505-happythanksgivng-01
+  - id: "2025/11/27/18111529324581695.jpg"
     caption:
     alt:
-  - id: instagram-2025-11-27-181505-happythanksgivng-02
+  - id: "2025/11/27/18101635144664782.jpg"
     caption:
     alt:
-  - id: instagram-2025-11-27-181505-happythanksgivng-03
+  - id: "2025/11/27/17911664400253606.jpg"
     caption:
     alt:
 hashtags:

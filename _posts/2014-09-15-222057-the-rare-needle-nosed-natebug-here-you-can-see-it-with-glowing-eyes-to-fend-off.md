@@ -15,9 +15,9 @@ source:
   caption: "The rare needle-nosed Natebug. Here you can see it with glowing eyes to fend off potential predators."
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-09-15-222057-the-rare-needle-nosed-natebug-here-you-can-see-it-with-glowing-eyes-to-fend-off-01
+cover_image: "2014/09/15/17843349145063547.jpg"
 images:
-  - id: instagram-2014-09-15-222057-the-rare-needle-nosed-natebug-here-you-can-see-it-with-glowing-eyes-to-fend-off-01
+  - id: "2014/09/15/17843349145063547.jpg"
     caption:
     alt:
 hashtags: []

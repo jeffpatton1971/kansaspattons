@@ -15,7 +15,7 @@ source:
   caption: "Had fun with Natalie today watching the #eclipse2024 over #kansas. We had fun making a pinhole camera and then a friend on Facebook posted a pic of a pasta strainer view!"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2024-04-08-140445-had-fun-with-natalie-today-watching-the-eclipse2024-over-kansas-we-had-fun-01
+cover_image: "2024/04/08/18316190713134697.jpg"
 related:
   - type: gallery
     id: instagram-2024-04-08-140445-had-fun-with-natalie-today-watching-the-eclipse2024-over-kansas-we-had-fun

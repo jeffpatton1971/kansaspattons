@@ -15,9 +15,9 @@ source:
   caption: "Happy fourth of July everyone"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2017-07-04-090213-happy-fourth-of-july-everyone-01
+cover_image: "2017/07/04/17864301229133003.jpg"
 images:
-  - id: instagram-2017-07-04-090213-happy-fourth-of-july-everyone-01
+  - id: "2017/07/04/17864301229133003.jpg"
     caption:
     alt:
 hashtags: []

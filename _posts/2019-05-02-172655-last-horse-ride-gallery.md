@@ -17,30 +17,30 @@ authors:
   - "Jeff Patton"
 summary: "8 images related to Last horse ride."
 gallery: instagram-2019-05-02-172655-last-horse-ride
-cover_image: instagram-2019-05-02-172655-last-horse-ride-01
+cover_image: "2019/05/02/18061489783030778.jpg"
 images:
-  - id: instagram-2019-05-02-172655-last-horse-ride-01
+  - id: "2019/05/02/18061489783030778.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-02-172655-last-horse-ride-02
+  - id: "2019/05/02/18045687103103999.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-02-172655-last-horse-ride-03
+  - id: "2019/05/02/17895774832311510.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-02-172655-last-horse-ride-04
+  - id: "2019/05/02/17869126003370869.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-02-172655-last-horse-ride-05
+  - id: "2019/05/02/18026135818162042.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-02-172655-last-horse-ride-06
+  - id: "2019/05/02/18028035034156106.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-02-172655-last-horse-ride-07
+  - id: "2019/05/02/17877853093352239.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-02-172655-last-horse-ride-08
+  - id: "2019/05/02/17882269657340716.jpg"
     caption:
     alt:
 related:

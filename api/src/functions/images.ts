@@ -67,8 +67,13 @@ async function imageDetailHandler(request: HttpRequest) {
   return withErrors(async () => {
     const { year, month, day, imageId } = request.params;
     const index = await readContentJson<ImageIndex>('images/index.json', siteKeyFromRequest(request));
+    const canonicalId = `${year}/${month}/${day}/${imageId}`;
     const image = index.images.find(
-      (item) => item.year === year && item.month === month && item.day === day && item.id === imageId,
+      (item) =>
+        item.year === year &&
+        item.month === month &&
+        item.day === day &&
+        (item.id === canonicalId || item.id === imageId || item.id.split('/').at(-1) === imageId),
     );
 
     if (!image) {

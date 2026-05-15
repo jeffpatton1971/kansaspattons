@@ -17,30 +17,30 @@ authors:
   - "Jeff Patton"
 summary: "8 images related to @cairparaveltopeka Egyptian day."
 gallery: instagram-2019-05-17-210019-cairparaveltopeka-egyptian-day
-cover_image: instagram-2019-05-17-210019-cairparaveltopeka-egyptian-day-01
+cover_image: "2019/05/17/18025172242168787.jpg"
 images:
-  - id: instagram-2019-05-17-210019-cairparaveltopeka-egyptian-day-01
+  - id: "2019/05/17/18025172242168787.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-17-210019-cairparaveltopeka-egyptian-day-02
+  - id: "2019/05/17/17964582934267698.mp4"
     caption:
     alt:
-  - id: instagram-2019-05-17-210019-cairparaveltopeka-egyptian-day-03
+  - id: "2019/05/17/18044925604127539.mp4"
     caption:
     alt:
-  - id: instagram-2019-05-17-210019-cairparaveltopeka-egyptian-day-04
+  - id: "2019/05/17/18002600449200478.mp4"
     caption:
     alt:
-  - id: instagram-2019-05-17-210019-cairparaveltopeka-egyptian-day-05
+  - id: "2019/05/17/18002702026200476.mp4"
     caption:
     alt:
-  - id: instagram-2019-05-17-210019-cairparaveltopeka-egyptian-day-06
+  - id: "2019/05/17/18073487782023087.mp4"
     caption:
     alt:
-  - id: instagram-2019-05-17-210019-cairparaveltopeka-egyptian-day-07
+  - id: "2019/05/17/18067188139039766.mp4"
     caption:
     alt:
-  - id: instagram-2019-05-17-210019-cairparaveltopeka-egyptian-day-08
+  - id: "2019/05/17/18039197635134703.mp4"
     caption:
     alt:
 related:

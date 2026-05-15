@@ -15,7 +15,7 @@ source:
   caption: "Always enjoy watching these two play"
   media_count: 5
   cross_post_source: "FB"
-cover_image: instagram-2026-03-22-165337-always-enjoy-watching-these-two-play-01
+cover_image: "2026/03/22/18082224800343116.jpg"
 related:
   - type: gallery
     id: instagram-2026-03-22-165337-always-enjoy-watching-these-two-play

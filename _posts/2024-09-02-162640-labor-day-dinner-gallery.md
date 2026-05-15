@@ -17,21 +17,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to Labor Day dinner."
 gallery: instagram-2024-09-02-162640-labor-day-dinner
-cover_image: instagram-2024-09-02-162640-labor-day-dinner-01
+cover_image: "2024/09/02/18274849915169055.jpg"
 images:
-  - id: instagram-2024-09-02-162640-labor-day-dinner-01
+  - id: "2024/09/02/18274849915169055.jpg"
     caption:
     alt:
-  - id: instagram-2024-09-02-162640-labor-day-dinner-02
+  - id: "2024/09/02/17957089544807328.jpg"
     caption:
     alt:
-  - id: instagram-2024-09-02-162640-labor-day-dinner-03
+  - id: "2024/09/02/18052139797833239.jpg"
     caption:
     alt:
-  - id: instagram-2024-09-02-162640-labor-day-dinner-04
+  - id: "2024/09/02/18069345307600914.jpg"
     caption:
     alt:
-  - id: instagram-2024-09-02-162640-labor-day-dinner-05
+  - id: "2024/09/02/18056444806705537.jpg"
     caption:
     alt:
 related:

@@ -21,39 +21,39 @@ authors:
   - "Jeff Patton"
 summary: "11 images related to Birthdays."
 gallery: wordpress-2013-05-19-074516-may-19-2013
-cover_image: "2013-05-19-wp-20130519-001"
+cover_image: "2013/05/19/wp_20130519_001.jpg"
 images:
-  - id: "2013-05-19-wp-20130519-001"
+  - id: "2013/05/19/wp_20130519_001.jpg"
     caption:
     alt:
-  - id: "2013-05-19-wp-20130519-003"
+  - id: "2013/05/19/wp_20130519_003.jpg"
     caption:
     alt:
-  - id: "2013-05-19-wp-20130519-017"
+  - id: "2013/05/19/wp_20130519_017.jpg"
     caption:
     alt:
-  - id: "2013-05-19-wp-20130519-021"
+  - id: "2013/05/19/wp_20130519_021.jpg"
     caption:
     alt:
-  - id: "2013-05-19-wp-20130519-028"
+  - id: "2013/05/19/wp_20130519_028.jpg"
     caption:
     alt:
-  - id: "2013-05-19-wp-20130519-035"
+  - id: "2013/05/19/wp_20130519_035.jpg"
     caption:
     alt:
-  - id: "2013-05-19-wp-20130519-037"
+  - id: "2013/05/19/wp_20130519_037.jpg"
     caption:
     alt:
-  - id: "2013-05-19-wp-20130519-038"
+  - id: "2013/05/19/wp_20130519_038.jpg"
     caption:
     alt:
-  - id: "2013-05-19-wp-20130519-040"
+  - id: "2013/05/19/wp_20130519_040.jpg"
     caption:
     alt:
-  - id: "2013-05-19-wp-20130519-041"
+  - id: "2013/05/19/wp_20130519_041.jpg"
     caption:
     alt:
-  - id: "2013-05-19-wp-20130519-046"
+  - id: "2013/05/19/wp_20130519_046.jpg"
     caption:
     alt:
 related:

@@ -15,9 +15,9 @@ source:
   caption: "58-34 @cairparaveltopeka win"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-10-18-212250-58-34-cairparaveltopeka-win-01
+cover_image: "2019/10/18/18085979164112263.jpg"
 images:
-  - id: instagram-2019-10-18-212250-58-34-cairparaveltopeka-win-01
+  - id: "2019/10/18/18085979164112263.jpg"
     caption:
     alt:
 hashtags: []

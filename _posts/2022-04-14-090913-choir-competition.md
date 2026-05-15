@@ -15,15 +15,15 @@ source:
   caption: "choir competition"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2022-04-14-090913-choir-competition-01
+cover_image: "2022/04/14/17946549541787013.jpg"
 images:
-  - id: instagram-2022-04-14-090913-choir-competition-01
+  - id: "2022/04/14/17946549541787013.jpg"
     caption:
     alt:
-  - id: instagram-2022-04-14-090913-choir-competition-02
+  - id: "2022/04/14/17943580675936244.jpg"
     caption:
     alt:
-  - id: instagram-2022-04-14-090913-choir-competition-03
+  - id: "2022/04/14/17862937685677350.jpg"
     caption:
     alt:
 hashtags: []

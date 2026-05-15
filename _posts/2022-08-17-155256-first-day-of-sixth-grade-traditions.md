@@ -15,9 +15,9 @@ source:
   caption: "first day of sixth grade #traditions"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2022-08-17-155256-first-day-of-sixth-grade-traditions-01
+cover_image: "2022/08/17/17939581682140870.jpg"
 images:
-  - id: instagram-2022-08-17-155256-first-day-of-sixth-grade-traditions-01
+  - id: "2022/08/17/17939581682140870.jpg"
     caption:
     alt:
 hashtags:

@@ -15,9 +15,9 @@ source:
   caption: "September is Childhood Cancer Awareness month. Nathan was diagnosed with hepatoblastoma at 2, within 6 months the cancerous portion of his liver was removed. It’s fitting that this month he will be declared 5yrs cancer free, a milestone."
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-09-03-080331-september-is-childhood-cancer-awareness-month-nathan-was-diagnosed-with-01
+cover_image: "2018/09/03/17974473844008708.jpg"
 images:
-  - id: instagram-2018-09-03-080331-september-is-childhood-cancer-awareness-month-nathan-was-diagnosed-with-01
+  - id: "2018/09/03/17974473844008708.jpg"
     caption:
     alt:
 hashtags: []

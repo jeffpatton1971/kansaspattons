@@ -17,33 +17,33 @@ authors:
   - "Jeff Patton"
 summary: "9 images related to tour the Arabia."
 gallery: instagram-2023-03-17-153324-tour-the-arabia
-cover_image: instagram-2023-03-17-153324-tour-the-arabia-01
+cover_image: "2023/03/17/17982577027950288.jpg"
 images:
-  - id: instagram-2023-03-17-153324-tour-the-arabia-01
+  - id: "2023/03/17/17982577027950288.jpg"
     caption:
     alt:
-  - id: instagram-2023-03-17-153324-tour-the-arabia-02
+  - id: "2023/03/17/17861530424906957.jpg"
     caption:
     alt:
-  - id: instagram-2023-03-17-153324-tour-the-arabia-03
+  - id: "2023/03/17/18000466726658482.jpg"
     caption:
     alt:
-  - id: instagram-2023-03-17-153324-tour-the-arabia-04
+  - id: "2023/03/17/18023890102495019.jpg"
     caption:
     alt:
-  - id: instagram-2023-03-17-153324-tour-the-arabia-05
+  - id: "2023/03/17/18254067892198342.jpg"
     caption:
     alt:
-  - id: instagram-2023-03-17-153324-tour-the-arabia-06
+  - id: "2023/03/17/17944310588556473.jpg"
     caption:
     alt:
-  - id: instagram-2023-03-17-153324-tour-the-arabia-07
+  - id: "2023/03/17/17976433933950354.jpg"
     caption:
     alt:
-  - id: instagram-2023-03-17-153324-tour-the-arabia-08
+  - id: "2023/03/17/17978677850023696.jpg"
     caption:
     alt:
-  - id: instagram-2023-03-17-153324-tour-the-arabia-09
+  - id: "2023/03/17/17996305177692087.jpg"
     caption:
     alt:
 related:

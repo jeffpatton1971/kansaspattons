@@ -15,12 +15,12 @@ source:
   caption: "Fun way to end Childhood Cancer Awareness month. Having a party at SkyZone with some of the friends we met while going through cancer with Nathan"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2018-09-25-174930-fun-way-to-end-childhood-cancer-awareness-month-having-a-party-at-skyzone-with-01
+cover_image: "2018/09/25/17940471031196731.jpg"
 images:
-  - id: instagram-2018-09-25-174930-fun-way-to-end-childhood-cancer-awareness-month-having-a-party-at-skyzone-with-01
+  - id: "2018/09/25/17940471031196731.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-25-174930-fun-way-to-end-childhood-cancer-awareness-month-having-a-party-at-skyzone-with-02
+  - id: "2018/09/25/17985036628006220.jpg"
     caption:
     alt:
 hashtags: []

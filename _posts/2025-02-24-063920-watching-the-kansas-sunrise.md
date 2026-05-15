@@ -15,9 +15,9 @@ source:
   caption: "Watching the #kansas #sunrise"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-02-24-063920-watching-the-kansas-sunrise-01
+cover_image: "2025/02/24/18084137815612292.jpg"
 images:
-  - id: instagram-2025-02-24-063920-watching-the-kansas-sunrise-01
+  - id: "2025/02/24/18084137815612292.jpg"
     caption:
     alt:
 hashtags:

@@ -15,7 +15,7 @@ source:
   caption: "Natalie’s first meet, her doubles team won!"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2018-09-08-100400-natalie-s-first-meet-her-doubles-team-won-01
+cover_image: "2018/09/08/17977729882051311.jpg"
 related:
   - type: gallery
     id: instagram-2018-09-08-100400-natalie-s-first-meet-her-doubles-team-won

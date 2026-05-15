@@ -19,21 +19,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to Natalie placed 4th today at the tennis meet! Very proud of her and how well she played and...."
 gallery: instagram-2018-09-26-171831-natalie-placed-4th-today-at-the-tennis-meet-very-proud-of-her-and-how-well-she
-cover_image: instagram-2018-09-26-171831-natalie-placed-4th-today-at-the-tennis-meet-very-proud-of-her-and-how-well-she-01
+cover_image: "2018/09/26/17956810642189086.jpg"
 images:
-  - id: instagram-2018-09-26-171831-natalie-placed-4th-today-at-the-tennis-meet-very-proud-of-her-and-how-well-she-01
+  - id: "2018/09/26/17956810642189086.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-26-171831-natalie-placed-4th-today-at-the-tennis-meet-very-proud-of-her-and-how-well-she-02
+  - id: "2018/09/26/17965492717121780.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-26-171831-natalie-placed-4th-today-at-the-tennis-meet-very-proud-of-her-and-how-well-she-03
+  - id: "2018/09/26/17910275077225816.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-26-171831-natalie-placed-4th-today-at-the-tennis-meet-very-proud-of-her-and-how-well-she-04
+  - id: "2018/09/26/17978677918064710.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-26-171831-natalie-placed-4th-today-at-the-tennis-meet-very-proud-of-her-and-how-well-she-05
+  - id: "2018/09/26/17958968734136937.jpg"
     caption:
     alt:
 related:

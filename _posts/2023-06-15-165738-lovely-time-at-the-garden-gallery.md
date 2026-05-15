@@ -17,33 +17,33 @@ authors:
   - "Jeff Patton"
 summary: "9 images related to lovely time at the garden."
 gallery: instagram-2023-06-15-165738-lovely-time-at-the-garden
-cover_image: instagram-2023-06-15-165738-lovely-time-at-the-garden-01
+cover_image: "2023/06/15/17994403312976655.jpg"
 images:
-  - id: instagram-2023-06-15-165738-lovely-time-at-the-garden-01
+  - id: "2023/06/15/17994403312976655.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-15-165738-lovely-time-at-the-garden-02
+  - id: "2023/06/15/17992667131871569.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-15-165738-lovely-time-at-the-garden-03
+  - id: "2023/06/15/17988182258310883.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-15-165738-lovely-time-at-the-garden-04
+  - id: "2023/06/15/17987829790950872.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-15-165738-lovely-time-at-the-garden-05
+  - id: "2023/06/15/18265546507158769.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-15-165738-lovely-time-at-the-garden-06
+  - id: "2023/06/15/17863702226952987.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-15-165738-lovely-time-at-the-garden-07
+  - id: "2023/06/15/18222928372235708.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-15-165738-lovely-time-at-the-garden-08
+  - id: "2023/06/15/17982395210494744.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-15-165738-lovely-time-at-the-garden-09
+  - id: "2023/06/15/18009765604679839.jpg"
     caption:
     alt:
 related:

@@ -15,7 +15,7 @@ source:
   caption: "Round 3 dinners aboard ship were always fun"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2024-06-25-195027-round-3-dinners-aboard-ship-were-always-fun-01
+cover_image: "2024/06/25/17870726211111492.jpg"
 related:
   - type: gallery
     id: instagram-2024-06-25-195027-round-3-dinners-aboard-ship-were-always-fun

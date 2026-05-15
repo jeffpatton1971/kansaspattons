@@ -15,9 +15,9 @@ source:
   caption: "My company for lunch"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2015-08-06-123913-my-company-for-lunch-01
+cover_image: "2015/08/06/17842101976063547.jpg"
 images:
-  - id: instagram-2015-08-06-123913-my-company-for-lunch-01
+  - id: "2015/08/06/17842101976063547.jpg"
     caption:
     alt:
 hashtags: []

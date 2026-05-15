@@ -15,9 +15,9 @@ source:
   caption: "Had to pull out the #Nokia Lumia 1020 to get a decent picture of the moon and stars this morning"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-01-03-071958-had-to-pull-out-the-nokia-lumia-1020-to-get-a-decent-picture-of-the-moon-and-01
+cover_image: "2019/01/03/17980712512175093.jpg"
 images:
-  - id: instagram-2019-01-03-071958-had-to-pull-out-the-nokia-lumia-1020-to-get-a-decent-picture-of-the-moon-and-01
+  - id: "2019/01/03/17980712512175093.jpg"
     caption:
     alt:
 hashtags:

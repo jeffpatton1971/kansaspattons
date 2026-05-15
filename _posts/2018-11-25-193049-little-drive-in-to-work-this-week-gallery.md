@@ -17,24 +17,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Little drive in to work this week."
 gallery: instagram-2018-11-25-193049-little-drive-in-to-work-this-week
-cover_image: instagram-2018-11-25-193049-little-drive-in-to-work-this-week-01
+cover_image: "2018/11/25/17978080933143152.jpg"
 images:
-  - id: instagram-2018-11-25-193049-little-drive-in-to-work-this-week-01
+  - id: "2018/11/25/17978080933143152.jpg"
     caption:
     alt:
-  - id: instagram-2018-11-25-193049-little-drive-in-to-work-this-week-02
+  - id: "2018/11/25/18004694866046517.jpg"
     caption:
     alt:
-  - id: instagram-2018-11-25-193049-little-drive-in-to-work-this-week-03
+  - id: "2018/11/25/17929863694227364.jpg"
     caption:
     alt:
-  - id: instagram-2018-11-25-193049-little-drive-in-to-work-this-week-04
+  - id: "2018/11/25/17977250803132231.jpg"
     caption:
     alt:
-  - id: instagram-2018-11-25-193049-little-drive-in-to-work-this-week-05
+  - id: "2018/11/25/17996261242073364.jpg"
     caption:
     alt:
-  - id: instagram-2018-11-25-193049-little-drive-in-to-work-this-week-06
+  - id: "2018/11/25/17849116930305963.jpg"
     caption:
     alt:
 related:

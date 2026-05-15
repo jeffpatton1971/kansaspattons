@@ -15,15 +15,15 @@ source:
   caption: "Found a new friend on the step this morning"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2024-05-26-094656-found-a-new-friend-on-the-step-this-morning-01
+cover_image: "2024/05/26/17906226686966294.jpg"
 images:
-  - id: instagram-2024-05-26-094656-found-a-new-friend-on-the-step-this-morning-01
+  - id: "2024/05/26/17906226686966294.jpg"
     caption:
     alt:
-  - id: instagram-2024-05-26-094656-found-a-new-friend-on-the-step-this-morning-02
+  - id: "2024/05/26/18437465566054122.jpg"
     caption:
     alt:
-  - id: instagram-2024-05-26-094656-found-a-new-friend-on-the-step-this-morning-03
+  - id: "2024/05/26/18010256048437208.jpg"
     caption:
     alt:
 hashtags: []

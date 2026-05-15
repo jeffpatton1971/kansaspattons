@@ -20,24 +20,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Watching #tennis today with @natalie.15.2003."
 gallery: instagram-2025-04-17-130211-watching-tennis-today-with-natalie-15-2003
-cover_image: instagram-2025-04-17-130211-watching-tennis-today-with-natalie-15-2003-01
+cover_image: "2025/04/17/18100916023514104.jpg"
 images:
-  - id: instagram-2025-04-17-130211-watching-tennis-today-with-natalie-15-2003-01
+  - id: "2025/04/17/18100916023514104.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-17-130211-watching-tennis-today-with-natalie-15-2003-02
+  - id: "2025/04/17/17860352742332380.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-17-130211-watching-tennis-today-with-natalie-15-2003-03
+  - id: "2025/04/17/17899883340067830.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-17-130211-watching-tennis-today-with-natalie-15-2003-04
+  - id: "2025/04/17/18026102486438087.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-17-130211-watching-tennis-today-with-natalie-15-2003-05
+  - id: "2025/04/17/17971204439727963.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-17-130211-watching-tennis-today-with-natalie-15-2003-06
+  - id: "2025/04/17/18088640473609506.jpg"
     caption:
     alt:
 related:

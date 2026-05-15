@@ -15,9 +15,9 @@ source:
   caption: "Beef. It’s what’s for dinner!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-07-10-180150-beef-it-s-what-s-for-dinner-01
+cover_image: "2018/07/10/17961489265032573.jpg"
 images:
-  - id: instagram-2018-07-10-180150-beef-it-s-what-s-for-dinner-01
+  - id: "2018/07/10/17961489265032573.jpg"
     caption:
     alt:
 hashtags: []

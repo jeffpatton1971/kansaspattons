@@ -15,9 +15,9 @@ source:
   caption: "DIY #coffee #cappuccino"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2024-12-28-102528-diy-coffee-cappuccino-01
+cover_image: "2024/12/28/18290673481208833.jpg"
 images:
-  - id: instagram-2024-12-28-102528-diy-coffee-cappuccino-01
+  - id: "2024/12/28/18290673481208833.jpg"
     caption:
     alt:
 hashtags:

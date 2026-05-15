@@ -19,27 +19,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to Pediatric Upgrade."
 gallery: wordpress-2013-07-28-111133-july-28-2013
-cover_image: "2013-07-28-wp-20130728-002"
+cover_image: "2013/07/28/wp_20130728_002.jpg"
 images:
-  - id: "2013-07-28-wp-20130728-002"
+  - id: "2013/07/28/wp_20130728_002.jpg"
     caption:
     alt:
-  - id: "2013-07-28-wp-20130728-003"
+  - id: "2013/07/28/wp_20130728_003.jpg"
     caption:
     alt:
-  - id: "2013-07-28-wp-20130728-005"
+  - id: "2013/07/28/wp_20130728_005.jpg"
     caption:
     alt:
-  - id: "2013-07-28-wp-20130728-006"
+  - id: "2013/07/28/wp_20130728_006.jpg"
     caption:
     alt:
-  - id: "2013-07-28-wp-20130728-008"
+  - id: "2013/07/28/wp_20130728_008.jpg"
     caption:
     alt:
-  - id: "2013-07-28-wp-20130728-009"
+  - id: "2013/07/28/wp_20130728_009.jpg"
     caption:
     alt:
-  - id: "2013-07-28-wp-20130728-010"
+  - id: "2013/07/28/wp_20130728_010.jpg"
     caption:
     alt:
 related:

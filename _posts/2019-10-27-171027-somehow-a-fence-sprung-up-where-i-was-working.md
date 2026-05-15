@@ -15,7 +15,7 @@ source:
   caption: "Somehow a fence sprung up where I was working!"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2019-10-27-171027-somehow-a-fence-sprung-up-where-i-was-working-01
+cover_image: "2019/10/27/17849026516682377.jpg"
 related:
   - type: gallery
     id: instagram-2019-10-27-171027-somehow-a-fence-sprung-up-where-i-was-working

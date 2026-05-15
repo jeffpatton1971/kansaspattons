@@ -15,9 +15,9 @@ source:
   caption: "Not sure which is better being done or knowing I don’t have to do this again for several months"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-11-09-115621-not-sure-which-is-better-being-done-or-knowing-i-don-t-have-to-do-this-again-01
+cover_image: "2019/11/09/17883547219451888.jpg"
 images:
-  - id: instagram-2019-11-09-115621-not-sure-which-is-better-being-done-or-knowing-i-don-t-have-to-do-this-again-01
+  - id: "2019/11/09/17883547219451888.jpg"
     caption:
     alt:
 hashtags: []

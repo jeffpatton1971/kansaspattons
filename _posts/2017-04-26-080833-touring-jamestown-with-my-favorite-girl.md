@@ -15,9 +15,9 @@ source:
   caption: "Touring Jamestown with my favorite girl"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2017-04-26-080833-touring-jamestown-with-my-favorite-girl-01
+cover_image: "2017/04/26/17865100363082227.jpg"
 images:
-  - id: instagram-2017-04-26-080833-touring-jamestown-with-my-favorite-girl-01
+  - id: "2017/04/26/17865100363082227.jpg"
     caption:
     alt:
 hashtags: []

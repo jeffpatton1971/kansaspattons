@@ -15,9 +15,9 @@ source:
   caption: "Friday night lights"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-10-04-200616-friday-night-lights-01
+cover_image: "2019/10/04/17898118264384013.jpg"
 images:
-  - id: instagram-2019-10-04-200616-friday-night-lights-01
+  - id: "2019/10/04/17898118264384013.jpg"
     caption:
     alt:
 hashtags: []

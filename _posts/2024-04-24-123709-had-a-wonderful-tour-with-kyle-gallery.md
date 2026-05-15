@@ -17,33 +17,33 @@ authors:
   - "Jeff Patton"
 summary: "9 images related to Had a wonderful tour with Kyle."
 gallery: instagram-2024-04-24-123709-had-a-wonderful-tour-with-kyle
-cover_image: instagram-2024-04-24-123709-had-a-wonderful-tour-with-kyle-01
+cover_image: "2024/04/24/18012521210346971.jpg"
 images:
-  - id: instagram-2024-04-24-123709-had-a-wonderful-tour-with-kyle-01
+  - id: "2024/04/24/18012521210346971.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-24-123709-had-a-wonderful-tour-with-kyle-02
+  - id: "2024/04/24/18061717507550764.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-24-123709-had-a-wonderful-tour-with-kyle-03
+  - id: "2024/04/24/18037937548854563.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-24-123709-had-a-wonderful-tour-with-kyle-04
+  - id: "2024/04/24/18006100508219439.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-24-123709-had-a-wonderful-tour-with-kyle-05
+  - id: "2024/04/24/17864311509107177.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-24-123709-had-a-wonderful-tour-with-kyle-06
+  - id: "2024/04/24/17878641342062370.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-24-123709-had-a-wonderful-tour-with-kyle-07
+  - id: "2024/04/24/18049046878633015.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-24-123709-had-a-wonderful-tour-with-kyle-08
+  - id: "2024/04/24/18311375437177321.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-24-123709-had-a-wonderful-tour-with-kyle-09
+  - id: "2024/04/24/18003210248288584.jpg"
     caption:
     alt:
 related:

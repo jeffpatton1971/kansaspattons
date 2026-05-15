@@ -17,21 +17,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to Fun day outside."
 gallery: instagram-2018-10-21-181146-fun-day-outside
-cover_image: instagram-2018-10-21-181146-fun-day-outside-01
+cover_image: "2018/10/21/17984768320078344.jpg"
 images:
-  - id: instagram-2018-10-21-181146-fun-day-outside-01
+  - id: "2018/10/21/17984768320078344.jpg"
     caption:
     alt:
-  - id: instagram-2018-10-21-181146-fun-day-outside-02
+  - id: "2018/10/21/17975935147112381.jpg"
     caption:
     alt:
-  - id: instagram-2018-10-21-181146-fun-day-outside-03
+  - id: "2018/10/21/17992235692037330.jpg"
     caption:
     alt:
-  - id: instagram-2018-10-21-181146-fun-day-outside-04
+  - id: "2018/10/21/17973855160124759.mp4"
     caption:
     alt:
-  - id: instagram-2018-10-21-181146-fun-day-outside-05
+  - id: "2018/10/21/17860656310288834.jpg"
     caption:
     alt:
 related:

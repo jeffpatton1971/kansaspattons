@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to 7th and 8th grade camp out."
 gallery: instagram-2023-10-04-225045-7th-and-8th-grade-camp-out
-cover_image: instagram-2023-10-04-225045-7th-and-8th-grade-camp-out-01
+cover_image: "2023/10/04/17981872601291478.jpg"
 images:
-  - id: instagram-2023-10-04-225045-7th-and-8th-grade-camp-out-01
+  - id: "2023/10/04/17981872601291478.jpg"
     caption:
     alt:
-  - id: instagram-2023-10-04-225045-7th-and-8th-grade-camp-out-02
+  - id: "2023/10/04/17991163241122431.jpg"
     caption:
     alt:
-  - id: instagram-2023-10-04-225045-7th-and-8th-grade-camp-out-03
+  - id: "2023/10/04/18006740095973730.jpg"
     caption:
     alt:
-  - id: instagram-2023-10-04-225045-7th-and-8th-grade-camp-out-04
+  - id: "2023/10/04/18255267172205634.jpg"
     caption:
     alt:
 related:

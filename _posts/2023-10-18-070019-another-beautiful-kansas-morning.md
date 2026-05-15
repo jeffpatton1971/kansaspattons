@@ -15,9 +15,9 @@ source:
   caption: "Another beautiful #kansas morning"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-10-18-070019-another-beautiful-kansas-morning-01
+cover_image: "2023/10/18/18013689826782656.jpg"
 images:
-  - id: instagram-2023-10-18-070019-another-beautiful-kansas-morning-01
+  - id: "2023/10/18/18013689826782656.jpg"
     caption:
     alt:
 hashtags:

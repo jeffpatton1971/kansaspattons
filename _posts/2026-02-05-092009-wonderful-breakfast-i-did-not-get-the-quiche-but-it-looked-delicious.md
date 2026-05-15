@@ -15,9 +15,9 @@ source:
   caption: "Wonderful #breakfast I did not get the quiche but it looked delicious"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2026-02-05-092009-wonderful-breakfast-i-did-not-get-the-quiche-but-it-looked-delicious-01
+cover_image: "2026/02/05/18069167336451654.jpg"
 images:
-  - id: instagram-2026-02-05-092009-wonderful-breakfast-i-did-not-get-the-quiche-but-it-looked-delicious-01
+  - id: "2026/02/05/18069167336451654.jpg"
     caption:
     alt:
 hashtags:

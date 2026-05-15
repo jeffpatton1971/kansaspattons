@@ -15,7 +15,7 @@ source:
   caption: "Had a blast at the hoe-down"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2022-05-06-215632-had-a-blast-at-the-hoe-down-01
+cover_image: "2022/05/06/17911143317391660.jpg"
 related:
   - type: gallery
     id: instagram-2022-05-06-215632-had-a-blast-at-the-hoe-down

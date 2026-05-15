@@ -15,9 +15,9 @@ source:
   caption: "Today is Nathan’s 8yr cancer-free anniversary! #cancersucks #childhoodcancerawareness #hepatoblastoma"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-09-27-083500-today-is-nathan-s-8yr-cancer-free-anniversary-cancersucks-01
+cover_image: "2021/09/27/17935523752718347.jpg"
 images:
-  - id: instagram-2021-09-27-083500-today-is-nathan-s-8yr-cancer-free-anniversary-cancersucks-01
+  - id: "2021/09/27/17935523752718347.jpg"
     caption:
     alt:
 hashtags:

@@ -15,9 +15,9 @@ source:
   caption: "Mom said she missed my #breakfast pictures"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2026-01-31-084545-mom-said-she-missed-my-breakfast-pictures-01
+cover_image: "2026/01/31/18085272796922130.jpg"
 images:
-  - id: instagram-2026-01-31-084545-mom-said-she-missed-my-breakfast-pictures-01
+  - id: "2026/01/31/18085272796922130.jpg"
     caption:
     alt:
 hashtags:

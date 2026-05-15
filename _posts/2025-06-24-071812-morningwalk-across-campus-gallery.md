@@ -18,21 +18,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to #morningwalk across campus."
 gallery: instagram-2025-06-24-071812-morningwalk-across-campus
-cover_image: instagram-2025-06-24-071812-morningwalk-across-campus-01
+cover_image: "2025/06/24/17901009330090795.jpg"
 images:
-  - id: instagram-2025-06-24-071812-morningwalk-across-campus-01
+  - id: "2025/06/24/17901009330090795.jpg"
     caption:
     alt:
-  - id: instagram-2025-06-24-071812-morningwalk-across-campus-02
+  - id: "2025/06/24/18100681327500251.jpg"
     caption:
     alt:
-  - id: instagram-2025-06-24-071812-morningwalk-across-campus-03
+  - id: "2025/06/24/17958605486955560.jpg"
     caption:
     alt:
-  - id: instagram-2025-06-24-071812-morningwalk-across-campus-04
+  - id: "2025/06/24/18082936408633159.jpg"
     caption:
     alt:
-  - id: instagram-2025-06-24-071812-morningwalk-across-campus-05
+  - id: "2025/06/24/17891438148284647.jpg"
     caption:
     alt:
 related:

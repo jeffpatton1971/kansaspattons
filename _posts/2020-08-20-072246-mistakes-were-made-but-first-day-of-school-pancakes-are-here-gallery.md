@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Mistakes were made but first day of school pancakes are here."
 gallery: instagram-2020-08-20-072246-mistakes-were-made-but-first-day-of-school-pancakes-are-here
-cover_image: instagram-2020-08-20-072246-mistakes-were-made-but-first-day-of-school-pancakes-are-here-01
+cover_image: "2020/08/20/18105837025163184.jpg"
 images:
-  - id: instagram-2020-08-20-072246-mistakes-were-made-but-first-day-of-school-pancakes-are-here-01
+  - id: "2020/08/20/18105837025163184.jpg"
     caption:
     alt:
-  - id: instagram-2020-08-20-072246-mistakes-were-made-but-first-day-of-school-pancakes-are-here-02
+  - id: "2020/08/20/18099726088197649.jpg"
     caption:
     alt:
-  - id: instagram-2020-08-20-072246-mistakes-were-made-but-first-day-of-school-pancakes-are-here-03
+  - id: "2020/08/20/17894075128594687.jpg"
     caption:
     alt:
-  - id: instagram-2020-08-20-072246-mistakes-were-made-but-first-day-of-school-pancakes-are-here-04
+  - id: "2020/08/20/17908400695491161.jpg"
     caption:
     alt:
 related:

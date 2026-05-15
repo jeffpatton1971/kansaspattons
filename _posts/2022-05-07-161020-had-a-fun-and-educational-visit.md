@@ -15,7 +15,7 @@ source:
   caption: "Had a fun and educational visit"
   media_count: 7
   cross_post_source: "FB"
-cover_image: instagram-2022-05-07-161020-had-a-fun-and-educational-visit-01
+cover_image: "2022/05/07/18018986017363060.jpg"
 related:
   - type: gallery
     id: instagram-2022-05-07-161020-had-a-fun-and-educational-visit

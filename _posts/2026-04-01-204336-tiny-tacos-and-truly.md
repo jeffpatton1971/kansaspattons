@@ -15,9 +15,9 @@ source:
   caption: "Tiny tacos and truly 💛🖤"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2026-04-01-204336-tiny-tacos-and-truly-01
+cover_image: "2026/04/01/18019420208819728.jpg"
 images:
-  - id: instagram-2026-04-01-204336-tiny-tacos-and-truly-01
+  - id: "2026/04/01/18019420208819728.jpg"
     caption:
     alt:
 hashtags: []

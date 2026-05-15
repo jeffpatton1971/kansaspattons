@@ -15,12 +15,12 @@ source:
   caption: "Apparently it was breakfast day in Lawrence so… @culvers 🥰"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2025-08-17-114410-apparently-it-was-breakfast-day-in-lawrence-so-culvers-01
+cover_image: "2025/08/17/18087734440697833.jpg"
 images:
-  - id: instagram-2025-08-17-114410-apparently-it-was-breakfast-day-in-lawrence-so-culvers-01
+  - id: "2025/08/17/18087734440697833.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-17-114410-apparently-it-was-breakfast-day-in-lawrence-so-culvers-02
+  - id: "2025/08/17/17903116050249680.jpg"
     caption:
     alt:
 hashtags: []

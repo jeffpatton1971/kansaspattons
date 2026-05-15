@@ -15,15 +15,15 @@ source:
   caption: "#traditions first day of school in the books"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2025-08-13-162654-traditions-first-day-of-school-in-the-books-01
+cover_image: "2025/08/13/17912656008055262.jpg"
 images:
-  - id: instagram-2025-08-13-162654-traditions-first-day-of-school-in-the-books-01
+  - id: "2025/08/13/17912656008055262.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-13-162654-traditions-first-day-of-school-in-the-books-02
+  - id: "2025/08/13/18059329307604818.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-13-162654-traditions-first-day-of-school-in-the-books-03
+  - id: "2025/08/13/18068336957272190.jpg"
     caption:
     alt:
 hashtags:

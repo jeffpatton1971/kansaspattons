@@ -15,9 +15,9 @@ source:
   caption: "Modified @friends #moistmaker we had no leftover cranberry sauce and very little gravy soo…Turkey then potatoes and gravy topped with  grandmas dressing 🥰"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-11-26-124131-modified-friends-moistmaker-we-had-no-leftover-cranberry-sauce-and-very-little-01
+cover_image: "2021/11/26/18011740195360784.jpg"
 images:
-  - id: instagram-2021-11-26-124131-modified-friends-moistmaker-we-had-no-leftover-cranberry-sauce-and-very-little-01
+  - id: "2021/11/26/18011740195360784.jpg"
     caption:
     alt:
 hashtags:

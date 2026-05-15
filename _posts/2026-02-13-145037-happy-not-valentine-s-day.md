@@ -15,12 +15,12 @@ source:
   caption: "Happy not Valentine’s Day!"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2026-02-13-145037-happy-not-valentine-s-day-01
+cover_image: "2026/02/13/18102983044887568.jpg"
 images:
-  - id: instagram-2026-02-13-145037-happy-not-valentine-s-day-01
+  - id: "2026/02/13/18102983044887568.jpg"
     caption:
     alt:
-  - id: instagram-2026-02-13-145037-happy-not-valentine-s-day-02
+  - id: "2026/02/13/17976436988994320.jpg"
     caption:
     alt:
 hashtags: []

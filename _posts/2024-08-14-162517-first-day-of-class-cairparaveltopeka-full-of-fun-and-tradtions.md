@@ -15,7 +15,7 @@ source:
   caption: "First day of class @cairparaveltopeka full of fun and #tradtions"
   media_count: 7
   cross_post_source: "FB"
-cover_image: instagram-2024-08-14-162517-first-day-of-class-cairparaveltopeka-full-of-fun-and-tradtions-01
+cover_image: "2024/08/14/18248945953270216.jpg"
 related:
   - type: gallery
     id: instagram-2024-08-14-162517-first-day-of-class-cairparaveltopeka-full-of-fun-and-tradtions

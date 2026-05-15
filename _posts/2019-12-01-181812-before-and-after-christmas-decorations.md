@@ -15,12 +15,12 @@ source:
   caption: "Before and after Christmas Decorations"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2019-12-01-181812-before-and-after-christmas-decorations-01
+cover_image: "2019/12/01/18115461844058648.jpg"
 images:
-  - id: instagram-2019-12-01-181812-before-and-after-christmas-decorations-01
+  - id: "2019/12/01/18115461844058648.jpg"
     caption:
     alt:
-  - id: instagram-2019-12-01-181812-before-and-after-christmas-decorations-02
+  - id: "2019/12/01/17847999604762074.jpg"
     caption:
     alt:
 hashtags: []

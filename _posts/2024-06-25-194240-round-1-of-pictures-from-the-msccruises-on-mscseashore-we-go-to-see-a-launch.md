@@ -15,7 +15,7 @@ source:
   caption: "Round 1 of pictures from the #msccruises on #mscseashore . We go to see a launch from #capecanaveral from the ship and @natalie__patton found her favorite spot on the ship"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2024-06-25-194240-round-1-of-pictures-from-the-msccruises-on-mscseashore-we-go-to-see-a-launch-01
+cover_image: "2024/06/25/18011919566236935.jpg"
 related:
   - type: gallery
     id: instagram-2024-06-25-194240-round-1-of-pictures-from-the-msccruises-on-mscseashore-we-go-to-see-a-launch

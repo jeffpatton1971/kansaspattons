@@ -20,36 +20,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Final Concert."
 gallery: wordpress-2013-05-13-071852-may-13-2013
-cover_image: "2013-05-13-wp-20130513-001"
+cover_image: "2013/05/13/wp_20130513_001.jpg"
 images:
-  - id: "2013-05-13-wp-20130513-001"
+  - id: "2013/05/13/wp_20130513_001.jpg"
     caption:
     alt:
-  - id: "2013-05-13-wp-20130513-006"
+  - id: "2013/05/13/wp_20130513_006.jpg"
     caption:
     alt:
-  - id: "2013-05-13-wp-20130513-017"
+  - id: "2013/05/13/wp_20130513_017.jpg"
     caption:
     alt:
-  - id: "2013-05-13-wp-20130513-018"
+  - id: "2013/05/13/wp_20130513_018.jpg"
     caption:
     alt:
-  - id: "2013-05-13-wp-20130513-019"
+  - id: "2013/05/13/wp_20130513_019.jpg"
     caption:
     alt:
-  - id: "2013-05-13-wp-20130513-023"
+  - id: "2013/05/13/wp_20130513_023.jpg"
     caption:
     alt:
-  - id: "2013-05-13-wp-20130513-024"
+  - id: "2013/05/13/wp_20130513_024.jpg"
     caption:
     alt:
-  - id: "2013-05-13-wp-20130513-029"
+  - id: "2013/05/13/wp_20130513_029.jpg"
     caption:
     alt:
-  - id: "2013-05-13-wp-20130513-030"
+  - id: "2013/05/13/wp_20130513_030.jpg"
     caption:
     alt:
-  - id: "2013-05-13-wp-20130513-031"
+  - id: "2013/05/13/wp_20130513_031.jpg"
     caption:
     alt:
 related:

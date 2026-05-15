@@ -15,7 +15,7 @@ source:
   caption: "8th grade graduation dance"
   media_count: 5
   cross_post_source: "FB"
-cover_image: instagram-2018-05-26-110658-8th-grade-graduation-dance-01
+cover_image: "2018/05/26/17934314281103306.jpg"
 related:
   - type: gallery
     id: instagram-2018-05-26-110658-8th-grade-graduation-dance

@@ -15,9 +15,9 @@ source:
   caption: "Mothers Day french toast! #happymothersday"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-05-14-090849-mothers-day-french-toast-happymothersday-01
+cover_image: "2023/05/14/18005442160734523.jpg"
 images:
-  - id: instagram-2023-05-14-090849-mothers-day-french-toast-happymothersday-01
+  - id: "2023/05/14/18005442160734523.jpg"
     caption:
     alt:
 hashtags:

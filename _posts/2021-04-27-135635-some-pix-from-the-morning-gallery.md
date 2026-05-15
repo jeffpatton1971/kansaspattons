@@ -8,36 +8,33 @@ date: 2021-04-27 13:56:35
 source:
   type: instagram
   id: instagram-2021-04-27-135635-some-pix-from-the-morning
-  media_count: "7"
+  media_count: "6"
   cross_post_source: FB
 tags:
   - instagram
   - gallery
 authors:
   - "Jeff Patton"
-summary: "7 images related to Some pix from the morning."
+summary: "6 images related to Some pix from the morning."
 gallery: instagram-2021-04-27-135635-some-pix-from-the-morning
-cover_image: instagram-2021-04-27-135635-some-pix-from-the-morning-01
+cover_image: "2021/04/27/17865738527424034.jpg"
 images:
-  - id: instagram-2021-04-27-135635-some-pix-from-the-morning-01
+  - id: "2021/04/27/17865738527424034.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-135635-some-pix-from-the-morning-02
+  - id: "2021/04/27/17922099736572585.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-135635-some-pix-from-the-morning-03
+  - id: "2021/04/27/17917629877653608.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-135635-some-pix-from-the-morning-04
+  - id: "2021/04/27/18220269829035370.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-135635-some-pix-from-the-morning-05
+  - id: "2021/04/27/17919854653627204.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-27-135635-some-pix-from-the-morning-06
-    caption:
-    alt:
-  - id: instagram-2021-04-27-135635-some-pix-from-the-morning-07
+  - id: "2021/04/27/17876048276280743.jpg"
     caption:
     alt:
 related:

@@ -17,21 +17,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to A great day for tennis plus @natalie__patton got to visit with @zion_marsh @ustamovalley."
 gallery: instagram-2019-10-08-133950-a-great-day-for-tennis-plus-natalie-patton-got-to-visit-with-zion-marsh
-cover_image: instagram-2019-10-08-133950-a-great-day-for-tennis-plus-natalie-patton-got-to-visit-with-zion-marsh-01
+cover_image: "2019/10/08/17856572953571402.jpg"
 images:
-  - id: instagram-2019-10-08-133950-a-great-day-for-tennis-plus-natalie-patton-got-to-visit-with-zion-marsh-01
+  - id: "2019/10/08/17856572953571402.jpg"
     caption:
     alt:
-  - id: instagram-2019-10-08-133950-a-great-day-for-tennis-plus-natalie-patton-got-to-visit-with-zion-marsh-02
+  - id: "2019/10/08/17920504726337871.mp4"
     caption:
     alt:
-  - id: instagram-2019-10-08-133950-a-great-day-for-tennis-plus-natalie-patton-got-to-visit-with-zion-marsh-03
+  - id: "2019/10/08/17863123426525336.jpg"
     caption:
     alt:
-  - id: instagram-2019-10-08-133950-a-great-day-for-tennis-plus-natalie-patton-got-to-visit-with-zion-marsh-04
+  - id: "2019/10/08/17848782640631700.jpg"
     caption:
     alt:
-  - id: instagram-2019-10-08-133950-a-great-day-for-tennis-plus-natalie-patton-got-to-visit-with-zion-marsh-05
+  - id: "2019/10/08/17980249021303494.jpg"
     caption:
     alt:
 related:

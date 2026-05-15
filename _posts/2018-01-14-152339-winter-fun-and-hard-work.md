@@ -15,9 +15,9 @@ source:
   caption: "Winter fun and hard work"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-01-14-152339-winter-fun-and-hard-work-01
+cover_image: "2018/01/14/17918364214019323.jpg"
 images:
-  - id: instagram-2018-01-14-152339-winter-fun-and-hard-work-01
+  - id: "2018/01/14/17918364214019323.jpg"
     caption:
     alt:
 hashtags: []

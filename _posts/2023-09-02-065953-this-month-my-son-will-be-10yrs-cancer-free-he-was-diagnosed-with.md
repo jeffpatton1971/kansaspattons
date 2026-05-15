@@ -15,7 +15,7 @@ source:
   caption: "This month my son will be 10yrs cancer free. He was diagnosed with hepatoblastoma at 2yrs old, he had 4 rounds of chemotherapy before his liver resection surgery. Followed by 2 more rounds of chemo post surgery. September is Childhood Cancer Awareness month. https://www.acco.org/childhood-cancer-awareness-month/"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2023-09-02-065953-this-month-my-son-will-be-10yrs-cancer-free-he-was-diagnosed-with-01
+cover_image: "2023/09/02/18086391085374415.jpg"
 related:
   - type: gallery
     id: instagram-2023-09-02-065953-this-month-my-son-will-be-10yrs-cancer-free-he-was-diagnosed-with

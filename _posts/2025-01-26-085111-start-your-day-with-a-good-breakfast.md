@@ -15,9 +15,9 @@ source:
   caption: "Start your day with a good #breakfast"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-01-26-085111-start-your-day-with-a-good-breakfast-01
+cover_image: "2025/01/26/18128364694365155.jpg"
 images:
-  - id: instagram-2025-01-26-085111-start-your-day-with-a-good-breakfast-01
+  - id: "2025/01/26/18128364694365155.jpg"
     caption:
     alt:
 hashtags:

@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Had a blast at the hoe-down."
 gallery: instagram-2022-05-06-215632-had-a-blast-at-the-hoe-down
-cover_image: instagram-2022-05-06-215632-had-a-blast-at-the-hoe-down-01
+cover_image: "2022/05/06/17911143317391660.jpg"
 images:
-  - id: instagram-2022-05-06-215632-had-a-blast-at-the-hoe-down-01
+  - id: "2022/05/06/17911143317391660.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-06-215632-had-a-blast-at-the-hoe-down-02
+  - id: "2022/05/06/18165658210209226.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-06-215632-had-a-blast-at-the-hoe-down-03
+  - id: "2022/05/06/17926959800333071.jpg"
     caption:
     alt:
-  - id: instagram-2022-05-06-215632-had-a-blast-at-the-hoe-down-04
+  - id: "2022/05/06/17950680727846459.jpg"
     caption:
     alt:
 related:

@@ -15,9 +15,9 @@ source:
   caption: "Nice night for #baseball"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-06-24-205145-nice-night-for-baseball-01
+cover_image: "2021/06/24/17976930190384688.jpg"
 images:
-  - id: instagram-2021-06-24-205145-nice-night-for-baseball-01
+  - id: "2021/06/24/17976930190384688.jpg"
     caption:
     alt:
 hashtags:

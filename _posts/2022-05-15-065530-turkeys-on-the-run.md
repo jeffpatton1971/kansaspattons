@@ -15,9 +15,9 @@ source:
   caption: "Turkeys on the run"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2022-05-15-065530-turkeys-on-the-run-01
+cover_image: "2022/05/15/18294091198000145.jpg"
 images:
-  - id: instagram-2022-05-15-065530-turkeys-on-the-run-01
+  - id: "2022/05/15/18294091198000145.jpg"
     caption:
     alt:
 hashtags: []

@@ -18,18 +18,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to It’s Levi-oh-sah #harrypotterworld."
 gallery: instagram-2025-09-12-151411-it-s-levi-oh-sah-harrypotterworld
-cover_image: instagram-2025-09-12-151411-it-s-levi-oh-sah-harrypotterworld-01
+cover_image: "2025/09/12/18054229823568739.jpg"
 images:
-  - id: instagram-2025-09-12-151411-it-s-levi-oh-sah-harrypotterworld-01
+  - id: "2025/09/12/18054229823568739.jpg"
     caption:
     alt:
-  - id: instagram-2025-09-12-151411-it-s-levi-oh-sah-harrypotterworld-02
+  - id: "2025/09/12/18067535593986704.jpg"
     caption:
     alt:
-  - id: instagram-2025-09-12-151411-it-s-levi-oh-sah-harrypotterworld-03
+  - id: "2025/09/12/18074118911513189.jpg"
     caption:
     alt:
-  - id: instagram-2025-09-12-151411-it-s-levi-oh-sah-harrypotterworld-04
+  - id: "2025/09/12/18036375719484495.jpg"
     caption:
     alt:
 related:

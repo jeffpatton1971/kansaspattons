@@ -15,15 +15,15 @@ source:
   caption: "#kansas #sunflowers"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2021-08-14-095641-kansas-sunflowers-01
+cover_image: "2021/08/14/17930691721638519.jpg"
 images:
-  - id: instagram-2021-08-14-095641-kansas-sunflowers-01
+  - id: "2021/08/14/17930691721638519.jpg"
     caption:
     alt:
-  - id: instagram-2021-08-14-095641-kansas-sunflowers-02
+  - id: "2021/08/14/17906953232065493.jpg"
     caption:
     alt:
-  - id: instagram-2021-08-14-095641-kansas-sunflowers-03
+  - id: "2021/08/14/17961857233456707.jpg"
     caption:
     alt:
 hashtags:

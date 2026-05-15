@@ -15,9 +15,9 @@ source:
   caption: "glove positioning is key…i think he won’t make this mistake again #baseball"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-05-02-190836-glove-positioning-is-key-i-think-he-won-t-make-this-mistake-again-baseball-01
+cover_image: "2023/05/02/17991993484789972.jpg"
 images:
-  - id: instagram-2023-05-02-190836-glove-positioning-is-key-i-think-he-won-t-make-this-mistake-again-baseball-01
+  - id: "2023/05/02/17991993484789972.jpg"
     caption:
     alt:
 hashtags:

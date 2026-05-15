@@ -15,9 +15,9 @@ source:
   caption: "#morningwalk #psexpress"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-10-06-071029-morningwalk-psexpress-01
+cover_image: "2021/10/06/17911557005101371.jpg"
 images:
-  - id: instagram-2021-10-06-071029-morningwalk-psexpress-01
+  - id: "2021/10/06/17911557005101371.jpg"
     caption:
     alt:
 hashtags:

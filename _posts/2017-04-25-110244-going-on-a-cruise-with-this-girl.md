@@ -15,9 +15,9 @@ source:
   caption: "Going on a cruise with this girl"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2017-04-25-110244-going-on-a-cruise-with-this-girl-01
+cover_image: "2017/04/25/17857052746136244.jpg"
 images:
-  - id: instagram-2017-04-25-110244-going-on-a-cruise-with-this-girl-01
+  - id: "2017/04/25/17857052746136244.jpg"
     caption:
     alt:
 hashtags: []

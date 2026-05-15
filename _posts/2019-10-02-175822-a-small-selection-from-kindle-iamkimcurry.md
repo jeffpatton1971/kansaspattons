@@ -15,7 +15,7 @@ source:
   caption: "A small selection from Kindle @iamkimcurry"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2019-10-02-175822-a-small-selection-from-kindle-iamkimcurry-01
+cover_image: "2019/10/02/17922262054328771.jpg"
 related:
   - type: gallery
     id: instagram-2019-10-02-175822-a-small-selection-from-kindle-iamkimcurry

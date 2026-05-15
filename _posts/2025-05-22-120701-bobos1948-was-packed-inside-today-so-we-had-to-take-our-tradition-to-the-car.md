@@ -15,15 +15,15 @@ source:
   caption: "@bobos1948 was packed inside today so we had to take our tradition to the car! That’s a wrap on Junior High!"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2025-05-22-120701-bobos1948-was-packed-inside-today-so-we-had-to-take-our-tradition-to-the-car-01
+cover_image: "2025/05/22/17941766525878814.jpg"
 images:
-  - id: instagram-2025-05-22-120701-bobos1948-was-packed-inside-today-so-we-had-to-take-our-tradition-to-the-car-01
+  - id: "2025/05/22/17941766525878814.jpg"
     caption:
     alt:
-  - id: instagram-2025-05-22-120701-bobos1948-was-packed-inside-today-so-we-had-to-take-our-tradition-to-the-car-02
+  - id: "2025/05/22/18271568533275730.jpg"
     caption:
     alt:
-  - id: instagram-2025-05-22-120701-bobos1948-was-packed-inside-today-so-we-had-to-take-our-tradition-to-the-car-03
+  - id: "2025/05/22/18065690576043519.jpg"
     caption:
     alt:
 hashtags: []

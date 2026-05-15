@@ -15,7 +15,7 @@ source:
   caption: "Spent the night aboard the Lexington and had a lot of fun"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun-01
+cover_image: "2024/04/26/18052177846624091.jpg"
 related:
   - type: gallery
     id: instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun

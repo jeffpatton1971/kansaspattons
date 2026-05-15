@@ -12,9 +12,9 @@ source:
   type: facebook
   subtype: album
   file: ".facebook\\your_facebook_activity\\posts\\album\\31.json"
-cover_image: facebook-2014-02-03-221847-purple-your-profile-photos-0001
+cover_image: "2014/02/03/10152168114283340.jpg"
 images:
-  - id: facebook-2014-02-03-221847-purple-your-profile-photos-0001
+  - id: "2014/02/03/10152168114283340.jpg"
     caption:
     alt:
 album:

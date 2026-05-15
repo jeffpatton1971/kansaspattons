@@ -15,12 +15,12 @@ source:
   caption: "Cooooooookiesss"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2025-09-29-194242-cooooooookiesss-01
+cover_image: "2025/09/29/18345937840164077.jpg"
 images:
-  - id: instagram-2025-09-29-194242-cooooooookiesss-01
+  - id: "2025/09/29/18345937840164077.jpg"
     caption:
     alt:
-  - id: instagram-2025-09-29-194242-cooooooookiesss-02
+  - id: "2025/09/29/17875750284420251.jpg"
     caption:
     alt:
 hashtags: []

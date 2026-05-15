@@ -15,9 +15,9 @@ source:
   caption: "Natalie got her first medal for Tennis as a senior"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-09-09-194700-natalie-got-her-first-medal-for-tennis-as-a-senior-01
+cover_image: "2021/09/09/17898778235321936.jpg"
 images:
-  - id: instagram-2021-09-09-194700-natalie-got-her-first-medal-for-tennis-as-a-senior-01
+  - id: "2021/09/09/17898778235321936.jpg"
     caption:
     alt:
 hashtags: []

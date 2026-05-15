@@ -15,9 +15,9 @@ source:
   caption: "Getting ready for the concert"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2013-12-09-180818-getting-ready-for-the-concert-01
+cover_image: "2013/12/09/17842411315063547.jpg"
 images:
-  - id: instagram-2013-12-09-180818-getting-ready-for-the-concert-01
+  - id: "2013/12/09/17842411315063547.jpg"
     caption:
     alt:
 hashtags: []

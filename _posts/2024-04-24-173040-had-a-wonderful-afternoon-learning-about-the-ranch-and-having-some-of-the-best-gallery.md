@@ -17,30 +17,30 @@ authors:
   - "Jeff Patton"
 summary: "8 images related to Had a wonderful afternoon learning about the ranch and having some of the best BBQ I’ve ha...."
 gallery: instagram-2024-04-24-173040-had-a-wonderful-afternoon-learning-about-the-ranch-and-having-some-of-the-best
-cover_image: instagram-2024-04-24-173040-had-a-wonderful-afternoon-learning-about-the-ranch-and-having-some-of-the-best-01
+cover_image: "2024/04/24/18275428702203437.jpg"
 images:
-  - id: instagram-2024-04-24-173040-had-a-wonderful-afternoon-learning-about-the-ranch-and-having-some-of-the-best-01
+  - id: "2024/04/24/18275428702203437.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-24-173040-had-a-wonderful-afternoon-learning-about-the-ranch-and-having-some-of-the-best-02
+  - id: "2024/04/24/18026932615892058.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-24-173040-had-a-wonderful-afternoon-learning-about-the-ranch-and-having-some-of-the-best-03
+  - id: "2024/04/24/18057044596570838.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-24-173040-had-a-wonderful-afternoon-learning-about-the-ranch-and-having-some-of-the-best-04
+  - id: "2024/04/24/18053420602555021.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-24-173040-had-a-wonderful-afternoon-learning-about-the-ranch-and-having-some-of-the-best-05
+  - id: "2024/04/24/18043361050743088.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-24-173040-had-a-wonderful-afternoon-learning-about-the-ranch-and-having-some-of-the-best-06
+  - id: "2024/04/24/18075575053488733.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-24-173040-had-a-wonderful-afternoon-learning-about-the-ranch-and-having-some-of-the-best-07
+  - id: "2024/04/24/17994904943399705.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-24-173040-had-a-wonderful-afternoon-learning-about-the-ranch-and-having-some-of-the-best-08
+  - id: "2024/04/24/18032310169796233.jpg"
     caption:
     alt:
 related:

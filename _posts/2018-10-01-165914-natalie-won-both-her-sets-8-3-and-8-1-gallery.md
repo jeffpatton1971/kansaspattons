@@ -19,18 +19,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Natalie won both her sets 8-3 and 8-1!."
 gallery: instagram-2018-10-01-165914-natalie-won-both-her-sets-8-3-and-8-1
-cover_image: instagram-2018-10-01-165914-natalie-won-both-her-sets-8-3-and-8-1-01
+cover_image: "2018/10/01/17985107917012124.jpg"
 images:
-  - id: instagram-2018-10-01-165914-natalie-won-both-her-sets-8-3-and-8-1-01
+  - id: "2018/10/01/17985107917012124.jpg"
     caption:
     alt:
-  - id: instagram-2018-10-01-165914-natalie-won-both-her-sets-8-3-and-8-1-02
+  - id: "2018/10/01/17984838361032195.jpg"
     caption:
     alt:
-  - id: instagram-2018-10-01-165914-natalie-won-both-her-sets-8-3-and-8-1-03
+  - id: "2018/10/01/17985098143022570.jpg"
     caption:
     alt:
-  - id: instagram-2018-10-01-165914-natalie-won-both-her-sets-8-3-and-8-1-04
+  - id: "2018/10/01/17984046619007330.jpg"
     caption:
     alt:
 related:

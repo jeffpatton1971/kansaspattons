@@ -15,7 +15,7 @@ source:
   caption: "#coffee #coffee #coffee 🤪"
   media_count: 7
   cross_post_source: "FB"
-cover_image: instagram-2025-09-12-150639-coffee-coffee-coffee-01
+cover_image: "2025/09/12/18076752812002168.jpg"
 related:
   - type: gallery
     id: instagram-2025-09-12-150639-coffee-coffee-coffee

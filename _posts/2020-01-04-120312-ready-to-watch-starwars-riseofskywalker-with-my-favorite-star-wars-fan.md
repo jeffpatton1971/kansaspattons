@@ -15,9 +15,9 @@ source:
   caption: "Ready to watch @starwars #riseofskywalker with my favorite Star Wars fan!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2020-01-04-120312-ready-to-watch-starwars-riseofskywalker-with-my-favorite-star-wars-fan-01
+cover_image: "2020/01/04/17881737982485672.jpg"
 images:
-  - id: instagram-2020-01-04-120312-ready-to-watch-starwars-riseofskywalker-with-my-favorite-star-wars-fan-01
+  - id: "2020/01/04/17881737982485672.jpg"
     caption:
     alt:
 hashtags:

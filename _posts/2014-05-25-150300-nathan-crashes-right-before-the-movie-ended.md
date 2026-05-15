@@ -15,9 +15,9 @@ source:
   caption: "Nathan crashes right before the movie ended"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-05-25-150300-nathan-crashes-right-before-the-movie-ended-01
+cover_image: "2014/05/25/17842502431063547.jpg"
 images:
-  - id: instagram-2014-05-25-150300-nathan-crashes-right-before-the-movie-ended-01
+  - id: "2014/05/25/17842502431063547.jpg"
     caption:
     alt:
 hashtags: []

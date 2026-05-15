@@ -17,24 +17,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Six days out my tree."
 gallery: instagram-2021-11-16-200315-six-days-out-my-tree
-cover_image: instagram-2021-11-16-200315-six-days-out-my-tree-01
+cover_image: "2021/11/16/18100780396282406.jpg"
 images:
-  - id: instagram-2021-11-16-200315-six-days-out-my-tree-01
+  - id: "2021/11/16/18100780396282406.jpg"
     caption:
     alt:
-  - id: instagram-2021-11-16-200315-six-days-out-my-tree-02
+  - id: "2021/11/16/18133273225244211.jpg"
     caption:
     alt:
-  - id: instagram-2021-11-16-200315-six-days-out-my-tree-03
+  - id: "2021/11/16/18152352640205065.jpg"
     caption:
     alt:
-  - id: instagram-2021-11-16-200315-six-days-out-my-tree-04
+  - id: "2021/11/16/17934290215714875.jpg"
     caption:
     alt:
-  - id: instagram-2021-11-16-200315-six-days-out-my-tree-05
+  - id: "2021/11/16/17964676513458954.jpg"
     caption:
     alt:
-  - id: instagram-2021-11-16-200315-six-days-out-my-tree-06
+  - id: "2021/11/16/18154129246172445.jpg"
     caption:
     alt:
 related:

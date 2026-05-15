@@ -15,9 +15,9 @@ source:
   caption: "Natalie and Nathan among the animals"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2013-12-17-221000-natalie-and-nathan-among-the-animals-01
+cover_image: "2013/12/17/17842415110063547.jpg"
 images:
-  - id: instagram-2013-12-17-221000-natalie-and-nathan-among-the-animals-01
+  - id: "2013/12/17/17842415110063547.jpg"
     caption:
     alt:
 hashtags: []

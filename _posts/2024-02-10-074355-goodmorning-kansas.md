@@ -15,9 +15,9 @@ source:
   caption: "#goodmorning  #kansas"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2024-02-10-074355-goodmorning-kansas-01
+cover_image: "2024/02/10/17989874321344149.jpg"
 images:
-  - id: instagram-2024-02-10-074355-goodmorning-kansas-01
+  - id: "2024/02/10/17989874321344149.jpg"
     caption:
     alt:
 hashtags:

@@ -15,9 +15,9 @@ source:
   caption: "Natalie’s last Silver Bells dance at @cairparaveltopeka"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2022-01-15-165954-natalie-s-last-silver-bells-dance-at-cairparaveltopeka-01
+cover_image: "2022/01/15/17908606124354600.jpg"
 images:
-  - id: instagram-2022-01-15-165954-natalie-s-last-silver-bells-dance-at-cairparaveltopeka-01
+  - id: "2022/01/15/17908606124354600.jpg"
     caption:
     alt:
 hashtags: []

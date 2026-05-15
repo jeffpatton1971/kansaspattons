@@ -15,7 +15,7 @@ source:
   caption: "Stopped by the #rackspacecastle today before everything gets moved…ngl…was a little sad"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2023-06-12-190049-stopped-by-the-rackspacecastle-today-before-everything-gets-moved-ngl-was-a-01
+cover_image: "2023/06/12/17944017923640939.jpg"
 related:
   - type: gallery
     id: instagram-2023-06-12-190049-stopped-by-the-rackspacecastle-today-before-everything-gets-moved-ngl-was-a

@@ -15,7 +15,7 @@ source:
   caption: "first stop of the day @nationalwwimuseum glad i finally got to visit"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2022-11-15-122940-first-stop-of-the-day-nationalwwimuseum-glad-i-finally-got-to-visit-01
+cover_image: "2022/11/15/17977900480837702.jpg"
 related:
   - type: gallery
     id: instagram-2022-11-15-122940-first-stop-of-the-day-nationalwwimuseum-glad-i-finally-got-to-visit

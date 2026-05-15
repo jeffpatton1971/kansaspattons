@@ -15,9 +15,9 @@ source:
   caption: "Planets all in a line"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2022-06-24-053656-planets-all-in-a-line-01
+cover_image: "2022/06/24/17937874331287788.jpg"
 images:
-  - id: instagram-2022-06-24-053656-planets-all-in-a-line-01
+  - id: "2022/06/24/17937874331287788.jpg"
     caption:
     alt:
 hashtags: []

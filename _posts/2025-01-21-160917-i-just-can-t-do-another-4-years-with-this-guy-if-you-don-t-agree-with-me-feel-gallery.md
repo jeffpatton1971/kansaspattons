@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to I just can’t do another 4 years with this guy. If you don’t agree with me feel free to unf...."
 gallery: instagram-2025-01-21-160917-i-just-can-t-do-another-4-years-with-this-guy-if-you-don-t-agree-with-me-feel
-cover_image: instagram-2025-01-21-160917-i-just-can-t-do-another-4-years-with-this-guy-if-you-don-t-agree-with-me-feel-01
+cover_image: "2025/01/21/18374009095139253.jpg"
 images:
-  - id: instagram-2025-01-21-160917-i-just-can-t-do-another-4-years-with-this-guy-if-you-don-t-agree-with-me-feel-01
+  - id: "2025/01/21/18374009095139253.jpg"
     caption:
     alt:
-  - id: instagram-2025-01-21-160917-i-just-can-t-do-another-4-years-with-this-guy-if-you-don-t-agree-with-me-feel-02
+  - id: "2025/01/21/17952906389872785.jpg"
     caption:
     alt:
-  - id: instagram-2025-01-21-160917-i-just-can-t-do-another-4-years-with-this-guy-if-you-don-t-agree-with-me-feel-03
+  - id: "2025/01/21/17934114563861418.jpg"
     caption:
     alt:
-  - id: instagram-2025-01-21-160917-i-just-can-t-do-another-4-years-with-this-guy-if-you-don-t-agree-with-me-feel-04
+  - id: "2025/01/21/18032397047222341.jpg"
     caption:
     alt:
 related:

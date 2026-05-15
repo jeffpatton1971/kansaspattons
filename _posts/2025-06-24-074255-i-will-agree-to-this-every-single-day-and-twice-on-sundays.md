@@ -15,9 +15,9 @@ source:
   caption: "I will agree to this every single day and twice on Sundays"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-06-24-074255-i-will-agree-to-this-every-single-day-and-twice-on-sundays-01
+cover_image: "2025/06/24/18045963098552248.jpg"
 images:
-  - id: instagram-2025-06-24-074255-i-will-agree-to-this-every-single-day-and-twice-on-sundays-01
+  - id: "2025/06/24/18045963098552248.jpg"
     caption:
     alt:
 hashtags: []

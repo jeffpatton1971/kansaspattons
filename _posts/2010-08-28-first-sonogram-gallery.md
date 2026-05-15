@@ -19,18 +19,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to First Sonogram."
 gallery: wordpress-2010-08-28-235300-august-28-2010
-cover_image: "2010-08-28-20100828-scan0001-22"
+cover_image: "2010/08/28/20100828-scan0001_22.jpg"
 images:
-  - id: "2010-08-28-20100828-scan0001-22"
+  - id: "2010/08/28/20100828-scan0001_22.jpg"
     caption:
     alt:
-  - id: "2010-08-28-20100828-scan0002-22"
+  - id: "2010/08/28/20100828-scan0002_22.jpg"
     caption:
     alt:
-  - id: "2010-08-28-20100828-scan0003-22"
+  - id: "2010/08/28/20100828-scan0003_22.jpg"
     caption:
     alt:
-  - id: "2010-08-28-20100828-scan0004-22"
+  - id: "2010/08/28/20100828-scan0004_22.jpg"
     caption:
     alt:
 related:

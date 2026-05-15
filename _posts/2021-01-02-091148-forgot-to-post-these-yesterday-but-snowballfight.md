@@ -15,12 +15,12 @@ source:
   caption: "Forgot to post these yesterday but #snowballfight"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2021-01-02-091148-forgot-to-post-these-yesterday-but-snowballfight-01
+cover_image: "2021/01/02/17921600887502114.jpg"
 images:
-  - id: instagram-2021-01-02-091148-forgot-to-post-these-yesterday-but-snowballfight-01
+  - id: "2021/01/02/17921600887502114.jpg"
     caption:
     alt:
-  - id: instagram-2021-01-02-091148-forgot-to-post-these-yesterday-but-snowballfight-02
+  - id: "2021/01/02/18136203271085882.jpg"
     caption:
     alt:
 hashtags:

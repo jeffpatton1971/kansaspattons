@@ -15,7 +15,7 @@ source:
   caption: "Was a great day for @kufootball nice to see them win! Then great meal at @biemersbbq"
   media_count: 8
   cross_post_source: "FB"
-cover_image: instagram-2019-08-31-164622-was-a-great-day-for-kufootball-nice-to-see-them-win-then-great-meal-at-01
+cover_image: "2019/08/31/18096025222004954.jpg"
 related:
   - type: gallery
     id: instagram-2019-08-31-164622-was-a-great-day-for-kufootball-nice-to-see-them-win-then-great-meal-at

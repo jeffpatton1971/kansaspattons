@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Pulled pork for dinner."
 gallery: instagram-2025-02-09-190137-pulled-pork-for-dinner
-cover_image: instagram-2025-02-09-190137-pulled-pork-for-dinner-01
+cover_image: "2025/02/09/17943902999823007.jpg"
 images:
-  - id: instagram-2025-02-09-190137-pulled-pork-for-dinner-01
+  - id: "2025/02/09/17943902999823007.jpg"
     caption:
     alt:
-  - id: instagram-2025-02-09-190137-pulled-pork-for-dinner-02
+  - id: "2025/02/09/18059848198789069.jpg"
     caption:
     alt:
-  - id: instagram-2025-02-09-190137-pulled-pork-for-dinner-03
+  - id: "2025/02/09/17934879101993559.jpg"
     caption:
     alt:
-  - id: instagram-2025-02-09-190137-pulled-pork-for-dinner-04
+  - id: "2025/02/09/18481703566060396.jpg"
     caption:
     alt:
 related:

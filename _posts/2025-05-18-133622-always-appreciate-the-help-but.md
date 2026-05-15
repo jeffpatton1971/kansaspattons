@@ -15,12 +15,12 @@ source:
   caption: "Always appreciate the help but…"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2025-05-18-133622-always-appreciate-the-help-but-01
+cover_image: "2025/05/18/18355655911148228.jpg"
 images:
-  - id: instagram-2025-05-18-133622-always-appreciate-the-help-but-01
+  - id: "2025/05/18/18355655911148228.jpg"
     caption:
     alt:
-  - id: instagram-2025-05-18-133622-always-appreciate-the-help-but-02
+  - id: "2025/05/18/18065263345841670.jpg"
     caption:
     alt:
 hashtags: []

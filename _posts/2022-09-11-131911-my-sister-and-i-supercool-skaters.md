@@ -15,9 +15,9 @@ source:
   caption: "My sister and I #supercool #skaters"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2022-09-11-131911-my-sister-and-i-supercool-skaters-01
+cover_image: "2022/09/11/17985691612604385.jpg"
 images:
-  - id: instagram-2022-09-11-131911-my-sister-and-i-supercool-skaters-01
+  - id: "2022/09/11/17985691612604385.jpg"
     caption:
     alt:
 hashtags:

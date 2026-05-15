@@ -18,24 +18,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Stopped by the #rackspacecastle today before everything gets moved…ngl…was a little sad."
 gallery: instagram-2023-06-12-190049-stopped-by-the-rackspacecastle-today-before-everything-gets-moved-ngl-was-a
-cover_image: instagram-2023-06-12-190049-stopped-by-the-rackspacecastle-today-before-everything-gets-moved-ngl-was-a-01
+cover_image: "2023/06/12/17944017923640939.jpg"
 images:
-  - id: instagram-2023-06-12-190049-stopped-by-the-rackspacecastle-today-before-everything-gets-moved-ngl-was-a-01
+  - id: "2023/06/12/17944017923640939.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-12-190049-stopped-by-the-rackspacecastle-today-before-everything-gets-moved-ngl-was-a-02
+  - id: "2023/06/12/18005641948815377.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-12-190049-stopped-by-the-rackspacecastle-today-before-everything-gets-moved-ngl-was-a-03
+  - id: "2023/06/12/17990405558019048.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-12-190049-stopped-by-the-rackspacecastle-today-before-everything-gets-moved-ngl-was-a-04
+  - id: "2023/06/12/17984991128143956.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-12-190049-stopped-by-the-rackspacecastle-today-before-everything-gets-moved-ngl-was-a-05
+  - id: "2023/06/12/17971691285220839.jpg"
     caption:
     alt:
-  - id: instagram-2023-06-12-190049-stopped-by-the-rackspacecastle-today-before-everything-gets-moved-ngl-was-a-06
+  - id: "2023/06/12/18368117896048127.jpg"
     caption:
     alt:
 related:

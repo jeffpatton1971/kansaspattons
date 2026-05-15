@@ -17,27 +17,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to Lunch with my sister."
 gallery: instagram-2025-04-11-153218-lunch-with-my-sister
-cover_image: instagram-2025-04-11-153218-lunch-with-my-sister-01
+cover_image: "2025/04/11/18058863068082490.jpg"
 images:
-  - id: instagram-2025-04-11-153218-lunch-with-my-sister-01
+  - id: "2025/04/11/18058863068082490.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-11-153218-lunch-with-my-sister-02
+  - id: "2025/04/11/17984218613808793.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-11-153218-lunch-with-my-sister-03
+  - id: "2025/04/11/17895470421193127.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-11-153218-lunch-with-my-sister-04
+  - id: "2025/04/11/18066818416771387.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-11-153218-lunch-with-my-sister-05
+  - id: "2025/04/11/18060943127155218.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-11-153218-lunch-with-my-sister-06
+  - id: "2025/04/11/17904749733134525.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-11-153218-lunch-with-my-sister-07
+  - id: "2025/04/11/17982436781676740.jpg"
     caption:
     alt:
 related:

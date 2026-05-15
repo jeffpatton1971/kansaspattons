@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Somehow a fence sprung up where I was working!."
 gallery: instagram-2019-10-27-171027-somehow-a-fence-sprung-up-where-i-was-working
-cover_image: instagram-2019-10-27-171027-somehow-a-fence-sprung-up-where-i-was-working-01
+cover_image: "2019/10/27/17849026516682377.jpg"
 images:
-  - id: instagram-2019-10-27-171027-somehow-a-fence-sprung-up-where-i-was-working-01
+  - id: "2019/10/27/17849026516682377.jpg"
     caption:
     alt:
-  - id: instagram-2019-10-27-171027-somehow-a-fence-sprung-up-where-i-was-working-02
+  - id: "2019/10/27/17844618676742951.jpg"
     caption:
     alt:
-  - id: instagram-2019-10-27-171027-somehow-a-fence-sprung-up-where-i-was-working-03
+  - id: "2019/10/27/17847902827707642.jpg"
     caption:
     alt:
-  - id: instagram-2019-10-27-171027-somehow-a-fence-sprung-up-where-i-was-working-04
+  - id: "2019/10/27/18067384012167834.jpg"
     caption:
     alt:
 related:

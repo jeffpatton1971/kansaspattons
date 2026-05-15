@@ -15,9 +15,9 @@ source:
   caption: "Nathan had a wonderful day today!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-11-28-221450-nathan-had-a-wonderful-day-today-01
+cover_image: "2014/11/28/17841867661063547.jpg"
 images:
-  - id: instagram-2014-11-28-221450-nathan-had-a-wonderful-day-today-01
+  - id: "2014/11/28/17841867661063547.jpg"
     caption:
     alt:
 hashtags: []

@@ -15,9 +15,9 @@ source:
   caption: "“I’d like to buy the world a Coke and keep it company” @cocacola"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-05-17-075435-i-d-like-to-buy-the-world-a-coke-and-keep-it-company-cocacola-01
+cover_image: "2021/05/17/17953630135449455.jpg"
 images:
-  - id: instagram-2021-05-17-075435-i-d-like-to-buy-the-world-a-coke-and-keep-it-company-cocacola-01
+  - id: "2021/05/17/17953630135449455.jpg"
     caption:
     alt:
 hashtags: []

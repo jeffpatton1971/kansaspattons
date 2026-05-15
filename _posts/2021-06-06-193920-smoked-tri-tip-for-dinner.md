@@ -15,7 +15,7 @@ source:
   caption: "Smoked Tri-Tip for dinner"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2021-06-06-193920-smoked-tri-tip-for-dinner-01
+cover_image: "2021/06/06/17954915068450411.jpg"
 related:
   - type: gallery
     id: instagram-2021-06-06-193920-smoked-tri-tip-for-dinner

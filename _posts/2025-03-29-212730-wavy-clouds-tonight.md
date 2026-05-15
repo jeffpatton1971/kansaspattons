@@ -15,9 +15,9 @@ source:
   caption: "Wavy clouds tonight"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-03-29-212730-wavy-clouds-tonight-01
+cover_image: "2025/03/29/18070680892881022.jpg"
 images:
-  - id: instagram-2025-03-29-212730-wavy-clouds-tonight-01
+  - id: "2025/03/29/18070680892881022.jpg"
     caption:
     alt:
 hashtags: []

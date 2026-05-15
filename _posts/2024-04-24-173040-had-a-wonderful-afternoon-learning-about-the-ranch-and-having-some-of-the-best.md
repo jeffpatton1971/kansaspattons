@@ -15,7 +15,7 @@ source:
   caption: "Had a wonderful afternoon learning about the ranch and having some of the best BBQ I’ve had in Texas"
   media_count: 8
   cross_post_source: "FB"
-cover_image: instagram-2024-04-24-173040-had-a-wonderful-afternoon-learning-about-the-ranch-and-having-some-of-the-best-01
+cover_image: "2024/04/24/18275428702203437.jpg"
 related:
   - type: gallery
     id: instagram-2024-04-24-173040-had-a-wonderful-afternoon-learning-about-the-ranch-and-having-some-of-the-best

@@ -19,21 +19,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to Hanging out with #TeamPikachu and #TeamEevee."
 gallery: instagram-2018-10-27-143829-hanging-out-with-teampikachu-and-teameevee
-cover_image: instagram-2018-10-27-143829-hanging-out-with-teampikachu-and-teameevee-01
+cover_image: "2018/10/27/17965480015133187.jpg"
 images:
-  - id: instagram-2018-10-27-143829-hanging-out-with-teampikachu-and-teameevee-01
+  - id: "2018/10/27/17965480015133187.jpg"
     caption:
     alt:
-  - id: instagram-2018-10-27-143829-hanging-out-with-teampikachu-and-teameevee-02
+  - id: "2018/10/27/17930409736210169.jpg"
     caption:
     alt:
-  - id: instagram-2018-10-27-143829-hanging-out-with-teampikachu-and-teameevee-03
+  - id: "2018/10/27/17902577575253593.jpg"
     caption:
     alt:
-  - id: instagram-2018-10-27-143829-hanging-out-with-teampikachu-and-teameevee-04
+  - id: "2018/10/27/17957777569168122.jpg"
     caption:
     alt:
-  - id: instagram-2018-10-27-143829-hanging-out-with-teampikachu-and-teameevee-05
+  - id: "2018/10/27/17872375312285149.jpg"
     caption:
     alt:
 related:

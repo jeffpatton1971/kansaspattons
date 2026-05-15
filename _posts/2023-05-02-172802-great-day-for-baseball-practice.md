@@ -15,9 +15,9 @@ source:
   caption: "great day for #baseball practice"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-05-02-172802-great-day-for-baseball-practice-01
+cover_image: "2023/05/02/18081163984352338.jpg"
 images:
-  - id: instagram-2023-05-02-172802-great-day-for-baseball-practice-01
+  - id: "2023/05/02/18081163984352338.jpg"
     caption:
     alt:
 hashtags:

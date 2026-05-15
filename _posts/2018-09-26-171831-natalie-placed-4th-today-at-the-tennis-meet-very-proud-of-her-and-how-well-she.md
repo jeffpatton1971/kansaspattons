@@ -15,7 +15,7 @@ source:
   caption: "Natalie placed 4th today at the tennis meet! Very proud of her and how well she played and how far she has come in tennis."
   media_count: 5
   cross_post_source: "FB"
-cover_image: instagram-2018-09-26-171831-natalie-placed-4th-today-at-the-tennis-meet-very-proud-of-her-and-how-well-she-01
+cover_image: "2018/09/26/17956810642189086.jpg"
 related:
   - type: gallery
     id: instagram-2018-09-26-171831-natalie-placed-4th-today-at-the-tennis-meet-very-proud-of-her-and-how-well-she

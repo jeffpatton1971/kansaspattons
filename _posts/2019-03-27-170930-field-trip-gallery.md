@@ -17,36 +17,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Field trip."
 gallery: instagram-2019-03-27-170930-field-trip
-cover_image: instagram-2019-03-27-170930-field-trip-01
+cover_image: "2019/03/27/18040925746075174.jpg"
 images:
-  - id: instagram-2019-03-27-170930-field-trip-01
+  - id: "2019/03/27/18040925746075174.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-27-170930-field-trip-02
+  - id: "2019/03/27/17857441840370730.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-27-170930-field-trip-03
+  - id: "2019/03/27/17939868256276305.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-27-170930-field-trip-04
+  - id: "2019/03/27/18033078826105158.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-27-170930-field-trip-05
+  - id: "2019/03/27/18051126343017225.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-27-170930-field-trip-06
+  - id: "2019/03/27/17849108143388504.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-27-170930-field-trip-07
+  - id: "2019/03/27/17955339889248519.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-27-170930-field-trip-08
+  - id: "2019/03/27/18033231538098341.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-27-170930-field-trip-09
+  - id: "2019/03/27/17858980024367793.jpg"
     caption:
     alt:
-  - id: instagram-2019-03-27-170930-field-trip-10
+  - id: "2019/03/27/18009766723172820.jpg"
     caption:
     alt:
 related:

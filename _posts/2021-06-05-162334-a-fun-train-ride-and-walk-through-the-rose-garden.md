@@ -15,7 +15,7 @@ source:
   caption: "A fun train ride and walk through the rose garden"
   media_count: 5
   cross_post_source: "FB"
-cover_image: instagram-2021-06-05-162334-a-fun-train-ride-and-walk-through-the-rose-garden-01
+cover_image: "2021/06/05/17889333260309085.jpg"
 related:
   - type: gallery
     id: instagram-2021-06-05-162334-a-fun-train-ride-and-walk-through-the-rose-garden

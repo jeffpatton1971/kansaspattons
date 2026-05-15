@@ -15,7 +15,7 @@ source:
   caption: "Dinner and good music @buckcreekcountrymusic"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2025-07-18-202507-dinner-and-good-music-buckcreekcountrymusic-01
+cover_image: "2025/07/18/17858968383397979.jpg"
 related:
   - type: gallery
     id: instagram-2025-07-18-202507-dinner-and-good-music-buckcreekcountrymusic

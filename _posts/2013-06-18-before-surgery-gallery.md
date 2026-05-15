@@ -19,30 +19,30 @@ authors:
   - "Jeff Patton"
 summary: "8 images related to Last Round Before Surgery."
 gallery: wordpress-2013-06-18-071955-june-18-2013
-cover_image: "2013-06-18-wp-20130618-002"
+cover_image: "2013/06/18/wp_20130618_002.jpg"
 images:
-  - id: "2013-06-18-wp-20130618-002"
+  - id: "2013/06/18/wp_20130618_002.jpg"
     caption:
     alt:
-  - id: "2013-06-18-wp-20130618-006"
+  - id: "2013/06/18/wp_20130618_006.jpg"
     caption:
     alt:
-  - id: "2013-06-18-wp-20130618-008"
+  - id: "2013/06/18/wp_20130618_008.jpg"
     caption:
     alt:
-  - id: "2013-06-18-wp-20130618-010"
+  - id: "2013/06/18/wp_20130618_010.jpg"
     caption:
     alt:
-  - id: "2013-06-18-wp-20130619-013"
+  - id: "2013/06/18/wp_20130619_013.jpg"
     caption:
     alt:
-  - id: "2013-06-18-wp-20130619-025"
+  - id: "2013/06/18/wp_20130619_025.jpg"
     caption:
     alt:
-  - id: "2013-06-18-wp-20130619-035"
+  - id: "2013/06/18/wp_20130619_035.jpg"
     caption:
     alt:
-  - id: "2013-06-18-wp-20130619-038"
+  - id: "2013/06/18/wp_20130619_038.jpg"
     caption:
     alt:
 related:

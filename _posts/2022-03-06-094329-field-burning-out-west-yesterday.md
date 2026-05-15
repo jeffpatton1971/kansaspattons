@@ -15,12 +15,12 @@ source:
   caption: "Field burning out west yesterday"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2022-03-06-094329-field-burning-out-west-yesterday-01
+cover_image: "2022/03/06/18120536308263596.jpg"
 images:
-  - id: instagram-2022-03-06-094329-field-burning-out-west-yesterday-01
+  - id: "2022/03/06/18120536308263596.jpg"
     caption:
     alt:
-  - id: instagram-2022-03-06-094329-field-burning-out-west-yesterday-02
+  - id: "2022/03/06/17911205852313500.jpg"
     caption:
     alt:
 hashtags: []

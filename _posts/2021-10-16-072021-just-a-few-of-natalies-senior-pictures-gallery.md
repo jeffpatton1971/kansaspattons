@@ -17,24 +17,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Just a few of Natalies senior pictures."
 gallery: instagram-2021-10-16-072021-just-a-few-of-natalies-senior-pictures
-cover_image: instagram-2021-10-16-072021-just-a-few-of-natalies-senior-pictures-01
+cover_image: "2021/10/16/17908414700162698.jpg"
 images:
-  - id: instagram-2021-10-16-072021-just-a-few-of-natalies-senior-pictures-01
+  - id: "2021/10/16/17908414700162698.jpg"
     caption:
     alt:
-  - id: instagram-2021-10-16-072021-just-a-few-of-natalies-senior-pictures-02
+  - id: "2021/10/16/17893242344391897.jpg"
     caption:
     alt:
-  - id: instagram-2021-10-16-072021-just-a-few-of-natalies-senior-pictures-03
+  - id: "2021/10/16/18130951672241221.jpg"
     caption:
     alt:
-  - id: instagram-2021-10-16-072021-just-a-few-of-natalies-senior-pictures-04
+  - id: "2021/10/16/17915254522942599.jpg"
     caption:
     alt:
-  - id: instagram-2021-10-16-072021-just-a-few-of-natalies-senior-pictures-05
+  - id: "2021/10/16/17941019554618112.jpg"
     caption:
     alt:
-  - id: instagram-2021-10-16-072021-just-a-few-of-natalies-senior-pictures-06
+  - id: "2021/10/16/17955551836513484.jpg"
     caption:
     alt:
 related:

@@ -15,7 +15,7 @@ source:
   caption: "Sunday dinner…smoked tri-tip at moms request"
   media_count: 8
   cross_post_source: "FB"
-cover_image: instagram-2025-03-09-185435-sunday-dinner-smoked-tri-tip-at-moms-request-01
+cover_image: "2025/03/09/17963214647889773.jpg"
 related:
   - type: gallery
     id: instagram-2025-03-09-185435-sunday-dinner-smoked-tri-tip-at-moms-request

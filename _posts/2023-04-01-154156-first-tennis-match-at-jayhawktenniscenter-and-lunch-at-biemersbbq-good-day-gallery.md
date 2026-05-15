@@ -17,24 +17,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to First tennis match at @jayhawktenniscenter and lunch at @biemersbbq … good day."
 gallery: instagram-2023-04-01-154156-first-tennis-match-at-jayhawktenniscenter-and-lunch-at-biemersbbq-good-day
-cover_image: instagram-2023-04-01-154156-first-tennis-match-at-jayhawktenniscenter-and-lunch-at-biemersbbq-good-day-01
+cover_image: "2023/04/01/17965737608176229.jpg"
 images:
-  - id: instagram-2023-04-01-154156-first-tennis-match-at-jayhawktenniscenter-and-lunch-at-biemersbbq-good-day-01
+  - id: "2023/04/01/17965737608176229.jpg"
     caption:
     alt:
-  - id: instagram-2023-04-01-154156-first-tennis-match-at-jayhawktenniscenter-and-lunch-at-biemersbbq-good-day-02
+  - id: "2023/04/01/17980153924897890.jpg"
     caption:
     alt:
-  - id: instagram-2023-04-01-154156-first-tennis-match-at-jayhawktenniscenter-and-lunch-at-biemersbbq-good-day-03
+  - id: "2023/04/01/18172232761275877.jpg"
     caption:
     alt:
-  - id: instagram-2023-04-01-154156-first-tennis-match-at-jayhawktenniscenter-and-lunch-at-biemersbbq-good-day-04
+  - id: "2023/04/01/17999730499734670.jpg"
     caption:
     alt:
-  - id: instagram-2023-04-01-154156-first-tennis-match-at-jayhawktenniscenter-and-lunch-at-biemersbbq-good-day-05
+  - id: "2023/04/01/17971126763236852.jpg"
     caption:
     alt:
-  - id: instagram-2023-04-01-154156-first-tennis-match-at-jayhawktenniscenter-and-lunch-at-biemersbbq-good-day-06
+  - id: "2023/04/01/17960012726451292.jpg"
     caption:
     alt:
 related:

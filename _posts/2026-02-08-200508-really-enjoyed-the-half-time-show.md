@@ -15,12 +15,12 @@ source:
   caption: "Really enjoyed the half time show!"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2026-02-08-200508-really-enjoyed-the-half-time-show-01
+cover_image: "2026/02/08/18444498868129784.jpg"
 images:
-  - id: instagram-2026-02-08-200508-really-enjoyed-the-half-time-show-01
+  - id: "2026/02/08/18444498868129784.jpg"
     caption:
     alt:
-  - id: instagram-2026-02-08-200508-really-enjoyed-the-half-time-show-02
+  - id: "2026/02/08/17936621307160512.jpg"
     caption:
     alt:
 hashtags: []

@@ -15,9 +15,9 @@ source:
   caption: "#newbeginings #goodmorning #lfk"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-06-02-072935-newbeginings-goodmorning-lfk-01
+cover_image: "2025/06/02/18357739225194424.jpg"
 images:
-  - id: instagram-2025-06-02-072935-newbeginings-goodmorning-lfk-01
+  - id: "2025/06/02/18357739225194424.jpg"
     caption:
     alt:
 hashtags:

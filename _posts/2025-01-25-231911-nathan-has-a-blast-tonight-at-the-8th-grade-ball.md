@@ -15,7 +15,7 @@ source:
   caption: "Nathan has a blast tonight at the 8th grade ball"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2025-01-25-231911-nathan-has-a-blast-tonight-at-the-8th-grade-ball-01
+cover_image: "2025/01/25/18355867117135977.jpg"
 related:
   - type: gallery
     id: instagram-2025-01-25-231911-nathan-has-a-blast-tonight-at-the-8th-grade-ball

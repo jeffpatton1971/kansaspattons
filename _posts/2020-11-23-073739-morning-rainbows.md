@@ -15,9 +15,9 @@ source:
   caption: "Morning rainbows"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2020-11-23-073739-morning-rainbows-01
+cover_image: "2020/11/23/18125307565150857.jpg"
 images:
-  - id: instagram-2020-11-23-073739-morning-rainbows-01
+  - id: "2020/11/23/18125307565150857.jpg"
     caption:
     alt:
 hashtags: []

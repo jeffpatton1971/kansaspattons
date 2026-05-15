@@ -15,7 +15,7 @@ source:
   caption: "After a visit with the audiologists at @childrensmercy off to have some fun at @daveandbusters"
   media_count: 5
   cross_post_source: "FB"
-cover_image: instagram-2019-05-30-201215-after-a-visit-with-the-audiologists-at-childrensmercy-off-to-have-some-fun-at-01
+cover_image: "2019/05/30/18044474836140977.jpg"
 related:
   - type: gallery
     id: instagram-2019-05-30-201215-after-a-visit-with-the-audiologists-at-childrensmercy-off-to-have-some-fun-at

@@ -15,12 +15,12 @@ source:
   caption: "Just a little T-Bone on Texas Independence Day"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2020-03-02-192422-just-a-little-t-bone-on-texas-independence-day-01
+cover_image: "2020/03/02/17873392609594175.jpg"
 images:
-  - id: instagram-2020-03-02-192422-just-a-little-t-bone-on-texas-independence-day-01
+  - id: "2020/03/02/17873392609594175.jpg"
     caption:
     alt:
-  - id: instagram-2020-03-02-192422-just-a-little-t-bone-on-texas-independence-day-02
+  - id: "2020/03/02/17879474986530820.jpg"
     caption:
     alt:
 hashtags: []

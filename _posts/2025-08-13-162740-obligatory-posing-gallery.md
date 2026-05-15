@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Obligatory posing."
 gallery: instagram-2025-08-13-162740-obligatory-posing
-cover_image: instagram-2025-08-13-162740-obligatory-posing-01
+cover_image: "2025/08/13/18387125917192801.jpg"
 images:
-  - id: instagram-2025-08-13-162740-obligatory-posing-01
+  - id: "2025/08/13/18387125917192801.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-13-162740-obligatory-posing-02
+  - id: "2025/08/13/18094437427639723.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-13-162740-obligatory-posing-03
+  - id: "2025/08/13/17898058596257506.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-13-162740-obligatory-posing-04
+  - id: "2025/08/13/17934510759070409.jpg"
     caption:
     alt:
 related:

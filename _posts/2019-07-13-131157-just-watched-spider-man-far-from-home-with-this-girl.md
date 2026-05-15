@@ -15,9 +15,9 @@ source:
   caption: "Just watched Spider-Man far from home with this girl!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-07-13-131157-just-watched-spider-man-far-from-home-with-this-girl-01
+cover_image: "2019/07/13/18055414069081453.jpg"
 images:
-  - id: instagram-2019-07-13-131157-just-watched-spider-man-far-from-home-with-this-girl-01
+  - id: "2019/07/13/18055414069081453.jpg"
     caption:
     alt:
 hashtags: []

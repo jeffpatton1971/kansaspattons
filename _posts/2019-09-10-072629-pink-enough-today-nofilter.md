@@ -15,9 +15,9 @@ source:
   caption: "Pink enough today #nofilter"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-09-10-072629-pink-enough-today-nofilter-01
+cover_image: "2019/09/10/18069924775084725.jpg"
 images:
-  - id: instagram-2019-09-10-072629-pink-enough-today-nofilter-01
+  - id: "2019/09/10/18069924775084725.jpg"
     caption:
     alt:
 hashtags:

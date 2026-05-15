@@ -15,7 +15,7 @@ source:
   caption: "Had a fun evening at the kids campout...Nate really enjoyed the fishing"
   media_count: 9
   cross_post_source: "FB"
-cover_image: instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing-01
+cover_image: "2018/06/24/17955488428001740.jpg"
 related:
   - type: gallery
     id: instagram-2018-06-24-060148-had-a-fun-evening-at-the-kids-campout-nate-really-enjoyed-the-fishing

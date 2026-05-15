@@ -15,9 +15,9 @@ source:
   caption: "A waning gibbous moon according to my son"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-10-02-222352-a-waning-gibbous-moon-according-to-my-son-01
+cover_image: "2023/10/02/17895156431818011.jpg"
 images:
-  - id: instagram-2023-10-02-222352-a-waning-gibbous-moon-according-to-my-son-01
+  - id: "2023/10/02/17895156431818011.jpg"
     caption:
     alt:
 hashtags: []

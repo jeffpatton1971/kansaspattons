@@ -15,9 +15,9 @@ source:
   caption: "Had a wonderful time with TFD tonight"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-09-13-192306-had-a-wonderful-time-with-tfd-tonight-01
+cover_image: "2014/09/13/17843347915063547.jpg"
 images:
-  - id: instagram-2014-09-13-192306-had-a-wonderful-time-with-tfd-tonight-01
+  - id: "2014/09/13/17843347915063547.jpg"
     caption:
     alt:
 hashtags: []

@@ -15,7 +15,7 @@ source:
   caption: "Just having a little fun at the zoo today!"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2018-09-30-142452-just-having-a-little-fun-at-the-zoo-today-01
+cover_image: "2018/09/30/17969785492129969.jpg"
 related:
   - type: gallery
     id: instagram-2018-09-30-142452-just-having-a-little-fun-at-the-zoo-today

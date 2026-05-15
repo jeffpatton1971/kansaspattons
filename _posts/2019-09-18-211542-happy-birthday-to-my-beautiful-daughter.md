@@ -15,9 +15,9 @@ source:
   caption: "Happy Birthday to my beautiful daughter"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-09-18-211542-happy-birthday-to-my-beautiful-daughter-01
+cover_image: "2019/09/18/17856701116551190.jpg"
 images:
-  - id: instagram-2019-09-18-211542-happy-birthday-to-my-beautiful-daughter-01
+  - id: "2019/09/18/17856701116551190.jpg"
     caption:
     alt:
 hashtags: []

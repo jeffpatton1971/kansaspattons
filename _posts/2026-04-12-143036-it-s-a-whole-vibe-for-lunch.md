@@ -15,12 +15,12 @@ source:
   caption: "It’s a whole vibe for lunch 🖤💛"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2026-04-12-143036-it-s-a-whole-vibe-for-lunch-01
+cover_image: "2026/04/12/18074793032322224.jpg"
 images:
-  - id: instagram-2026-04-12-143036-it-s-a-whole-vibe-for-lunch-01
+  - id: "2026/04/12/18074793032322224.jpg"
     caption:
     alt:
-  - id: instagram-2026-04-12-143036-it-s-a-whole-vibe-for-lunch-02
+  - id: "2026/04/12/18063886028352680.jpg"
     caption:
     alt:
 hashtags: []

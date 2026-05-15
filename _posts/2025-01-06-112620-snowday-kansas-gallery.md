@@ -19,21 +19,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to #snowday #kansas."
 gallery: instagram-2025-01-06-112620-snowday-kansas
-cover_image: instagram-2025-01-06-112620-snowday-kansas-01
+cover_image: "2025/01/06/17895520275105781.jpg"
 images:
-  - id: instagram-2025-01-06-112620-snowday-kansas-01
+  - id: "2025/01/06/17895520275105781.jpg"
     caption:
     alt:
-  - id: instagram-2025-01-06-112620-snowday-kansas-02
+  - id: "2025/01/06/18351845062120176.jpg"
     caption:
     alt:
-  - id: instagram-2025-01-06-112620-snowday-kansas-03
+  - id: "2025/01/06/18102979870474418.jpg"
     caption:
     alt:
-  - id: instagram-2025-01-06-112620-snowday-kansas-04
+  - id: "2025/01/06/18053138504012801.jpg"
     caption:
     alt:
-  - id: instagram-2025-01-06-112620-snowday-kansas-05
+  - id: "2025/01/06/17972409584810966.mp4"
     caption:
     alt:
 related:

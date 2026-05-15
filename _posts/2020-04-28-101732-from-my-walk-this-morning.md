@@ -15,9 +15,9 @@ source:
   caption: "From my walk this morning"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2020-04-28-101732-from-my-walk-this-morning-01
+cover_image: "2020/04/28/17895831778484867.jpg"
 images:
-  - id: instagram-2020-04-28-101732-from-my-walk-this-morning-01
+  - id: "2020/04/28/17895831778484867.jpg"
     caption:
     alt:
 hashtags: []

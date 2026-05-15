@@ -18,24 +18,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to #happybirthday to my uncle."
 gallery: instagram-2025-03-08-174500-happybirthday-to-my-uncle
-cover_image: instagram-2025-03-08-174500-happybirthday-to-my-uncle-01
+cover_image: "2025/03/08/17957717180881243.jpg"
 images:
-  - id: instagram-2025-03-08-174500-happybirthday-to-my-uncle-01
+  - id: "2025/03/08/17957717180881243.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-08-174500-happybirthday-to-my-uncle-02
+  - id: "2025/03/08/18057707471485493.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-08-174500-happybirthday-to-my-uncle-03
+  - id: "2025/03/08/18329825440089240.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-08-174500-happybirthday-to-my-uncle-04
+  - id: "2025/03/08/18082520617625484.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-08-174500-happybirthday-to-my-uncle-05
+  - id: "2025/03/08/18077338294709528.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-08-174500-happybirthday-to-my-uncle-06
+  - id: "2025/03/08/18024372260391803.jpg"
     caption:
     alt:
 related:

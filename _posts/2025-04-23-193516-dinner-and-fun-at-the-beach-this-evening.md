@@ -15,7 +15,7 @@ source:
   caption: "Dinner and fun at the beach this evening"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2025-04-23-193516-dinner-and-fun-at-the-beach-this-evening-01
+cover_image: "2025/04/23/17851542108393183.jpg"
 related:
   - type: gallery
     id: instagram-2025-04-23-193516-dinner-and-fun-at-the-beach-this-evening

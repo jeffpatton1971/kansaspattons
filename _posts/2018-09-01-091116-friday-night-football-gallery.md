@@ -17,24 +17,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Friday night football."
 gallery: instagram-2018-09-01-091116-friday-night-football
-cover_image: instagram-2018-09-01-091116-friday-night-football-01
+cover_image: "2018/09/01/17913167461216199.jpg"
 images:
-  - id: instagram-2018-09-01-091116-friday-night-football-01
+  - id: "2018/09/01/17913167461216199.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-01-091116-friday-night-football-02
+  - id: "2018/09/01/17976654652048756.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-01-091116-friday-night-football-03
+  - id: "2018/09/01/17901189151242483.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-01-091116-friday-night-football-04
+  - id: "2018/09/01/17974335085053976.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-01-091116-friday-night-football-05
+  - id: "2018/09/01/17961478972103077.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-01-091116-friday-night-football-06
+  - id: "2018/09/01/17973889426063291.jpg"
     caption:
     alt:
 related:

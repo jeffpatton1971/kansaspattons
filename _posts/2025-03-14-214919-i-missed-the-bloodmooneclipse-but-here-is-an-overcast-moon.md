@@ -15,9 +15,9 @@ source:
   caption: "I missed the #bloodmooneclipse but here is an overcast moon"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-03-14-214919-i-missed-the-bloodmooneclipse-but-here-is-an-overcast-moon-01
+cover_image: "2025/03/14/17959856636879131.jpg"
 images:
-  - id: instagram-2025-03-14-214919-i-missed-the-bloodmooneclipse-but-here-is-an-overcast-moon-01
+  - id: "2025/03/14/17959856636879131.jpg"
     caption:
     alt:
 hashtags:

@@ -18,36 +18,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to The hike up to the natural bridge and then climb down devils gulch #goodtimes."
 gallery: instagram-2025-04-21-093531-the-hike-up-to-the-natural-bridge-and-then-climb-down-devils-gulch-goodtimes
-cover_image: instagram-2025-04-21-093531-the-hike-up-to-the-natural-bridge-and-then-climb-down-devils-gulch-goodtimes-01
+cover_image: "2025/04/21/18073455043883556.jpg"
 images:
-  - id: instagram-2025-04-21-093531-the-hike-up-to-the-natural-bridge-and-then-climb-down-devils-gulch-goodtimes-01
+  - id: "2025/04/21/18073455043883556.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-21-093531-the-hike-up-to-the-natural-bridge-and-then-climb-down-devils-gulch-goodtimes-02
+  - id: "2025/04/21/18008420702725596.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-21-093531-the-hike-up-to-the-natural-bridge-and-then-climb-down-devils-gulch-goodtimes-03
+  - id: "2025/04/21/17842547373468861.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-21-093531-the-hike-up-to-the-natural-bridge-and-then-climb-down-devils-gulch-goodtimes-04
+  - id: "2025/04/21/18064430815951827.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-21-093531-the-hike-up-to-the-natural-bridge-and-then-climb-down-devils-gulch-goodtimes-05
+  - id: "2025/04/21/18279197200264679.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-21-093531-the-hike-up-to-the-natural-bridge-and-then-climb-down-devils-gulch-goodtimes-06
+  - id: "2025/04/21/18489078871013808.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-21-093531-the-hike-up-to-the-natural-bridge-and-then-climb-down-devils-gulch-goodtimes-07
+  - id: "2025/04/21/18498729682014041.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-21-093531-the-hike-up-to-the-natural-bridge-and-then-climb-down-devils-gulch-goodtimes-08
+  - id: "2025/04/21/18052028102198437.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-21-093531-the-hike-up-to-the-natural-bridge-and-then-climb-down-devils-gulch-goodtimes-09
+  - id: "2025/04/21/18339297199084517.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-21-093531-the-hike-up-to-the-natural-bridge-and-then-climb-down-devils-gulch-goodtimes-10
+  - id: "2025/04/21/18061144895280644.jpg"
     caption:
     alt:
 related:

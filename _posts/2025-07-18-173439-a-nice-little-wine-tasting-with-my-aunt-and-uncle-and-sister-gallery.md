@@ -17,30 +17,30 @@ authors:
   - "Jeff Patton"
 summary: "8 images related to A nice little wine tasting with my aunt and uncle and sister."
 gallery: instagram-2025-07-18-173439-a-nice-little-wine-tasting-with-my-aunt-and-uncle-and-sister
-cover_image: instagram-2025-07-18-173439-a-nice-little-wine-tasting-with-my-aunt-and-uncle-and-sister-01
+cover_image: "2025/07/18/18008646719784037.jpg"
 images:
-  - id: instagram-2025-07-18-173439-a-nice-little-wine-tasting-with-my-aunt-and-uncle-and-sister-01
+  - id: "2025/07/18/18008646719784037.jpg"
     caption:
     alt:
-  - id: instagram-2025-07-18-173439-a-nice-little-wine-tasting-with-my-aunt-and-uncle-and-sister-02
+  - id: "2025/07/18/18519341938041840.jpg"
     caption:
     alt:
-  - id: instagram-2025-07-18-173439-a-nice-little-wine-tasting-with-my-aunt-and-uncle-and-sister-03
+  - id: "2025/07/18/18090523735669741.jpg"
     caption:
     alt:
-  - id: instagram-2025-07-18-173439-a-nice-little-wine-tasting-with-my-aunt-and-uncle-and-sister-04
+  - id: "2025/07/18/18065907809132459.jpg"
     caption:
     alt:
-  - id: instagram-2025-07-18-173439-a-nice-little-wine-tasting-with-my-aunt-and-uncle-and-sister-05
+  - id: "2025/07/18/17968029314921483.jpg"
     caption:
     alt:
-  - id: instagram-2025-07-18-173439-a-nice-little-wine-tasting-with-my-aunt-and-uncle-and-sister-06
+  - id: "2025/07/18/18085685434775732.jpg"
     caption:
     alt:
-  - id: instagram-2025-07-18-173439-a-nice-little-wine-tasting-with-my-aunt-and-uncle-and-sister-07
+  - id: "2025/07/18/18105765424553673.jpg"
     caption:
     alt:
-  - id: instagram-2025-07-18-173439-a-nice-little-wine-tasting-with-my-aunt-and-uncle-and-sister-08
+  - id: "2025/07/18/18054366569121785.jpg"
     caption:
     alt:
 related:

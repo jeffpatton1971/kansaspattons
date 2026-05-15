@@ -15,9 +15,9 @@ source:
   caption: "Can’t believe this little girl is getting ready to start high school...where did the years go"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-08-13-090251-can-t-believe-this-little-girl-is-getting-ready-to-start-high-school-where-did-01
+cover_image: "2018/08/13/17861811448275805.jpg"
 images:
-  - id: instagram-2018-08-13-090251-can-t-believe-this-little-girl-is-getting-ready-to-start-high-school-where-did-01
+  - id: "2018/08/13/17861811448275805.jpg"
     caption:
     alt:
 hashtags: []

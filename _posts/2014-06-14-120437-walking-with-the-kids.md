@@ -15,9 +15,9 @@ source:
   caption: "Walking with the kids"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-06-14-120437-walking-with-the-kids-01
+cover_image: "2014/06/14/17843312158063547.jpg"
 images:
-  - id: instagram-2014-06-14-120437-walking-with-the-kids-01
+  - id: "2014/06/14/17843312158063547.jpg"
     caption:
     alt:
 hashtags: []

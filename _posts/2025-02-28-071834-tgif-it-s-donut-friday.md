@@ -15,9 +15,9 @@ source:
   caption: "#tgif it’s donut Friday"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-02-28-071834-tgif-it-s-donut-friday-01
+cover_image: "2025/02/28/18054335705114065.jpg"
 images:
-  - id: instagram-2025-02-28-071834-tgif-it-s-donut-friday-01
+  - id: "2025/02/28/18054335705114065.jpg"
     caption:
     alt:
 hashtags:

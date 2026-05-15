@@ -15,9 +15,9 @@ source:
   caption: "i ❤️ san antonio….but damn!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-06-19-065519-i-san-antonio-but-damn-01
+cover_image: "2023/06/19/17970695558420243.jpg"
 images:
-  - id: instagram-2023-06-19-065519-i-san-antonio-but-damn-01
+  - id: "2023/06/19/17970695558420243.jpg"
     caption:
     alt:
 hashtags: []

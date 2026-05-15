@@ -15,9 +15,9 @@ source:
   caption: "So I decided to make my own “hashbrowns” with some little potatoes we had laying around.... great success!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2020-06-28-113149-so-i-decided-to-make-my-own-hashbrowns-with-some-little-potatoes-we-had-laying-01
+cover_image: "2020/06/28/18116154463124580.jpg"
 images:
-  - id: instagram-2020-06-28-113149-so-i-decided-to-make-my-own-hashbrowns-with-some-little-potatoes-we-had-laying-01
+  - id: "2020/06/28/18116154463124580.jpg"
     caption:
     alt:
 hashtags: []

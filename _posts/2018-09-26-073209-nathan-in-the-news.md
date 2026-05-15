@@ -15,9 +15,9 @@ source:
   caption: "Nathan in the news!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-09-26-073209-nathan-in-the-news-01
+cover_image: "2018/09/26/17958282967134600.mp4"
 images:
-  - id: instagram-2018-09-26-073209-nathan-in-the-news-01
+  - id: "2018/09/26/17958282967134600.mp4"
     caption:
     alt:
 hashtags: []

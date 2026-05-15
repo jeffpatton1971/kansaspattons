@@ -15,9 +15,9 @@ source:
   caption: "View this morning"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2024-04-30-071847-view-this-morning-01
+cover_image: "2024/04/30/17917951085813517.jpg"
 images:
-  - id: instagram-2024-04-30-071847-view-this-morning-01
+  - id: "2024/04/30/17917951085813517.jpg"
     caption:
     alt:
 hashtags: []

@@ -15,9 +15,9 @@ source:
   caption: "He made contact and ran like crazy"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-06-13-185603-he-made-contact-and-ran-like-crazy-01
+cover_image: "2018/06/13/17939178040103551.mp4"
 images:
-  - id: instagram-2018-06-13-185603-he-made-contact-and-ran-like-crazy-01
+  - id: "2018/06/13/17939178040103551.mp4"
     caption:
     alt:
 hashtags: []

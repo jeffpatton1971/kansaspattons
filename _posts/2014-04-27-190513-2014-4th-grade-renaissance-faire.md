@@ -22,60 +22,60 @@ categories:
   - album
 tags: []
 gallery: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire
-cover_image: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0001
+cover_image: "2014/04/30/10152353275488340.jpg"
 images:
-  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0001
+  - id: "2014/04/30/10152353275488340.jpg"
     caption:
     alt:
-  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0002
+  - id: "2014/04/30/10152353275493340.jpg"
     caption:
     alt:
-  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0003
+  - id: "2014/04/30/10152353275498340.jpg"
     caption:
     alt:
-  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0004
+  - id: "2014/04/30/10152353275503340.jpg"
     caption:
     alt:
-  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0005
+  - id: "2014/04/30/10152353275508340.jpg"
     caption:
     alt:
-  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0006
+  - id: "2014/04/30/10152353275643340.jpg"
     caption:
     alt:
-  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0007
+  - id: "2014/04/30/10152353275648340.jpg"
     caption:
     alt:
-  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0008
+  - id: "2014/04/30/10152353275653340.jpg"
     caption:
     alt:
-  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0009
+  - id: "2014/04/30/10152353275658340.jpg"
     caption:
     alt:
-  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0010
+  - id: "2014/04/30/10152353275663340.jpg"
     caption:
     alt:
-  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0011
+  - id: "2014/04/30/10152353275828340.jpg"
     caption:
     alt:
-  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0012
+  - id: "2014/04/30/10152353275833340.jpg"
     caption:
     alt:
-  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0013
+  - id: "2014/04/30/10152353275838340.jpg"
     caption:
     alt:
-  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0014
+  - id: "2014/04/30/10152353275853340.jpg"
     caption:
     alt:
-  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0015
+  - id: "2014/04/30/10152353275858340.jpg"
     caption:
     alt:
-  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0016
+  - id: "2014/04/30/10152353276013340.jpg"
     caption:
     alt:
-  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0017
+  - id: "2014/04/30/10152353276018340.jpg"
     caption:
     alt:
-  - id: facebook-2014-04-27-190513-2014-4th-grade-renaissance-faire-0018
+  - id: "2014/04/27/10152353293908340.jpg"
     caption:
     alt:
 authors:

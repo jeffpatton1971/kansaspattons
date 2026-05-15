@@ -15,7 +15,7 @@ source:
   caption: "A great day for tennis plus @natalie__patton got to visit with @zion_marsh @ustamovalley"
   media_count: 5
   cross_post_source: "FB"
-cover_image: instagram-2019-10-08-133950-a-great-day-for-tennis-plus-natalie-patton-got-to-visit-with-zion-marsh-01
+cover_image: "2019/10/08/17856572953571402.jpg"
 related:
   - type: gallery
     id: instagram-2019-10-08-133950-a-great-day-for-tennis-plus-natalie-patton-got-to-visit-with-zion-marsh

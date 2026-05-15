@@ -15,9 +15,9 @@ source:
   caption: "Slo-mo underwater firecracker"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-07-04-183541-slo-mo-underwater-firecracker-01
+cover_image: "2018/07/04/17942292979122558.mp4"
 images:
-  - id: instagram-2018-07-04-183541-slo-mo-underwater-firecracker-01
+  - id: "2018/07/04/17942292979122558.mp4"
     caption:
     alt:
 hashtags: []

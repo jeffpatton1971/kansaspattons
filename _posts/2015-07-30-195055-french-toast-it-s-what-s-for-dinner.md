@@ -15,9 +15,9 @@ source:
   caption: "French Toast, it's what's for dinner!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2015-07-30-195055-french-toast-it-s-what-s-for-dinner-01
+cover_image: "2015/07/30/17842073305063547.jpg"
 images:
-  - id: instagram-2015-07-30-195055-french-toast-it-s-what-s-for-dinner-01
+  - id: "2015/07/30/17842073305063547.jpg"
     caption:
     alt:
 hashtags: []

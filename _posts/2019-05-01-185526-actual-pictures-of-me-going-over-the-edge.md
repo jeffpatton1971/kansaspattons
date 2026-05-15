@@ -15,7 +15,7 @@ source:
   caption: "Actual pictures of me going over the edge"
   media_count: 5
   cross_post_source: "FB"
-cover_image: instagram-2019-05-01-185526-actual-pictures-of-me-going-over-the-edge-01
+cover_image: "2019/05/01/17892384391322000.jpg"
 related:
   - type: gallery
     id: instagram-2019-05-01-185526-actual-pictures-of-me-going-over-the-edge

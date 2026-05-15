@@ -15,9 +15,9 @@ source:
   caption: "A well deserved ice cream after baseball practice"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-05-06-152035-a-well-deserved-ice-cream-after-baseball-practice-01
+cover_image: "2018/05/06/17909205985148160.jpg"
 images:
-  - id: instagram-2018-05-06-152035-a-well-deserved-ice-cream-after-baseball-practice-01
+  - id: "2018/05/06/17909205985148160.jpg"
     caption:
     alt:
 hashtags: []

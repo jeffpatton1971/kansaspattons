@@ -15,9 +15,9 @@ source:
   caption: "Nathan having ice cream at Red Robin...yummm"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-03-16-151857-nathan-having-ice-cream-at-red-robin-yummm-01
+cover_image: "2014/03/16/17842461088063547.jpg"
 images:
-  - id: instagram-2014-03-16-151857-nathan-having-ice-cream-at-red-robin-yummm-01
+  - id: "2014/03/16/17842461088063547.jpg"
     caption:
     alt:
 hashtags: []

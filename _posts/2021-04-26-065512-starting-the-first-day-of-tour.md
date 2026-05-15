@@ -15,9 +15,9 @@ source:
   caption: "Starting the first day of tour"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-04-26-065512-starting-the-first-day-of-tour-01
+cover_image: "2021/04/26/17930350225550788.jpg"
 images:
-  - id: instagram-2021-04-26-065512-starting-the-first-day-of-tour-01
+  - id: "2021/04/26/17930350225550788.jpg"
     caption:
     alt:
 hashtags: []

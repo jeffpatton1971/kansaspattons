@@ -15,12 +15,12 @@ source:
   caption: "#morningwalk and @photoshop"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2021-08-17-074022-morningwalk-and-photoshop-01
+cover_image: "2021/08/17/18185550409190366.jpg"
 images:
-  - id: instagram-2021-08-17-074022-morningwalk-and-photoshop-01
+  - id: "2021/08/17/18185550409190366.jpg"
     caption:
     alt:
-  - id: instagram-2021-08-17-074022-morningwalk-and-photoshop-02
+  - id: "2021/08/17/17953316059494305.jpg"
     caption:
     alt:
 hashtags:

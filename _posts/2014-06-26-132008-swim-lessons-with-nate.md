@@ -15,9 +15,9 @@ source:
   caption: "Swim lessons with Nate"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-06-26-132008-swim-lessons-with-nate-01
+cover_image: "2014/06/26/17843317525063547.jpg"
 images:
-  - id: instagram-2014-06-26-132008-swim-lessons-with-nate-01
+  - id: "2014/06/26/17843317525063547.jpg"
     caption:
     alt:
 hashtags: []

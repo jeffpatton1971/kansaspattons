@@ -20,18 +20,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Nathan turned 14 today #happybirthday."
 gallery: instagram-2025-03-19-212409-nathan-turned-14-today-happybirthday
-cover_image: instagram-2025-03-19-212409-nathan-turned-14-today-happybirthday-01
+cover_image: "2025/03/19/18042889262598658.jpg"
 images:
-  - id: instagram-2025-03-19-212409-nathan-turned-14-today-happybirthday-01
+  - id: "2025/03/19/18042889262598658.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-19-212409-nathan-turned-14-today-happybirthday-02
+  - id: "2025/03/19/17903699217136266.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-19-212409-nathan-turned-14-today-happybirthday-03
+  - id: "2025/03/19/18063501676797636.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-19-212409-nathan-turned-14-today-happybirthday-04
+  - id: "2025/03/19/17849400756426882.jpg"
     caption:
     alt:
 related:

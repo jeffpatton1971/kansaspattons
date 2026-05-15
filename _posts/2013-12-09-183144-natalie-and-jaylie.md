@@ -15,9 +15,9 @@ source:
   caption: "Natalie and Jaylie"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2013-12-09-183144-natalie-and-jaylie-01
+cover_image: "2013/12/09/17842411324063547.jpg"
 images:
-  - id: instagram-2013-12-09-183144-natalie-and-jaylie-01
+  - id: "2013/12/09/17842411324063547.jpg"
     caption:
     alt:
 hashtags: []

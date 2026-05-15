@@ -15,9 +15,9 @@ source:
   caption: "I missed his first hit or the season but here’s his second, an RBI single! #littleleaguebaseball"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-05-17-224448-i-missed-his-first-hit-or-the-season-but-here-s-his-second-an-rbi-single-01
+cover_image: "2021/05/17/17878463951279838.mp4"
 images:
-  - id: instagram-2021-05-17-224448-i-missed-his-first-hit-or-the-season-but-here-s-his-second-an-rbi-single-01
+  - id: "2021/05/17/17878463951279838.mp4"
     caption:
     alt:
 hashtags:

@@ -15,12 +15,12 @@ source:
   caption: "Foil packed taco chicken"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2018-08-06-173341-foil-packed-taco-chicken-01
+cover_image: "2018/08/06/17965879057059088.jpg"
 images:
-  - id: instagram-2018-08-06-173341-foil-packed-taco-chicken-01
+  - id: "2018/08/06/17965879057059088.jpg"
     caption:
     alt:
-  - id: instagram-2018-08-06-173341-foil-packed-taco-chicken-02
+  - id: "2018/08/06/17893262779243398.jpg"
     caption:
     alt:
 hashtags: []

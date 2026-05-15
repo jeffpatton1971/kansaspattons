@@ -17,36 +17,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Spent the night aboard the Lexington and had a lot of fun."
 gallery: instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun
-cover_image: instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun-01
+cover_image: "2024/04/26/18052177846624091.jpg"
 images:
-  - id: instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun-01
+  - id: "2024/04/26/18052177846624091.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun-02
+  - id: "2024/04/26/18086119312448812.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun-03
+  - id: "2024/04/26/18012351143356950.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun-04
+  - id: "2024/04/26/18048030217722599.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun-05
+  - id: "2024/04/26/18060318646555540.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun-06
+  - id: "2024/04/26/18044432344684186.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun-07
+  - id: "2024/04/26/18021686108497768.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun-08
+  - id: "2024/04/26/18023829769929990.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun-09
+  - id: "2024/04/26/17977718531689025.jpg"
     caption:
     alt:
-  - id: instagram-2024-04-26-084530-spent-the-night-aboard-the-lexington-and-had-a-lot-of-fun-10
+  - id: "2024/04/26/18028874455844611.jpg"
     caption:
     alt:
 related:

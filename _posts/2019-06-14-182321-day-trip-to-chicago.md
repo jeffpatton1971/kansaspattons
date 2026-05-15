@@ -15,7 +15,7 @@ source:
   caption: "Day trip to Chicago"
   media_count: 8
   cross_post_source: "FB"
-cover_image: instagram-2019-06-14-182321-day-trip-to-chicago-01
+cover_image: "2019/06/14/17842326688491149.jpg"
 related:
   - type: gallery
     id: instagram-2019-06-14-182321-day-trip-to-chicago

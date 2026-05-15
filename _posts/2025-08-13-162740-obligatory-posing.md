@@ -15,7 +15,7 @@ source:
   caption: "Obligatory posing"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2025-08-13-162740-obligatory-posing-01
+cover_image: "2025/08/13/18387125917192801.jpg"
 related:
   - type: gallery
     id: instagram-2025-08-13-162740-obligatory-posing

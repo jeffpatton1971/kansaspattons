@@ -19,18 +19,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Merry Christmas."
 gallery: instagram-2022-12-25-125412-merry-christmas
-cover_image: instagram-2022-12-25-125412-merry-christmas-01
+cover_image: "2022/12/25/18271091620100928.jpg"
 images:
-  - id: instagram-2022-12-25-125412-merry-christmas-01
+  - id: "2022/12/25/18271091620100928.jpg"
     caption:
     alt:
-  - id: instagram-2022-12-25-125412-merry-christmas-02
+  - id: "2022/12/25/17845172030899164.jpg"
     caption:
     alt:
-  - id: instagram-2022-12-25-125412-merry-christmas-03
+  - id: "2022/12/25/17980003879878365.jpg"
     caption:
     alt:
-  - id: instagram-2022-12-25-125412-merry-christmas-04
+  - id: "2022/12/25/17935478354542841.jpg"
     caption:
     alt:
 related:

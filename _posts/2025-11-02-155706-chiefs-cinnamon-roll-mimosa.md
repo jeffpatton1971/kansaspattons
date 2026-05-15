@@ -15,9 +15,9 @@ source:
   caption: "Chiefs + Cinnamon Roll + Mimosa"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-11-02-155706-chiefs-cinnamon-roll-mimosa-01
+cover_image: "2025/11/02/18086620846948158.jpg"
 images:
-  - id: instagram-2025-11-02-155706-chiefs-cinnamon-roll-mimosa-01
+  - id: "2025/11/02/18086620846948158.jpg"
     caption:
     alt:
 hashtags: []

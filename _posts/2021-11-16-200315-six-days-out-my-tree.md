@@ -15,7 +15,7 @@ source:
   caption: "Six days out my tree"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2021-11-16-200315-six-days-out-my-tree-01
+cover_image: "2021/11/16/18100780396282406.jpg"
 related:
   - type: gallery
     id: instagram-2021-11-16-200315-six-days-out-my-tree

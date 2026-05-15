@@ -15,9 +15,9 @@ source:
   caption: "When your tank has gold elims and kills...you’re dps players are doing it wrong #overwatch"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-03-26-202625-when-your-tank-has-gold-elims-and-kills-you-re-dps-players-are-doing-it-wrong-01
+cover_image: "2019/03/26/18031981021107912.jpg"
 images:
-  - id: instagram-2019-03-26-202625-when-your-tank-has-gold-elims-and-kills-you-re-dps-players-are-doing-it-wrong-01
+  - id: "2019/03/26/18031981021107912.jpg"
     caption:
     alt:
 hashtags:

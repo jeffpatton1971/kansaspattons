@@ -15,9 +15,9 @@ source:
   caption: "My view from the deck"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-02-28-141432-my-view-from-the-deck-01
+cover_image: "2025/02/28/18079717120643588.jpg"
 images:
-  - id: instagram-2025-02-28-141432-my-view-from-the-deck-01
+  - id: "2025/02/28/18079717120643588.jpg"
     caption:
     alt:
 hashtags: []

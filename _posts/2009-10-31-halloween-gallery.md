@@ -17,60 +17,60 @@ authors:
   - Jeff
 summary: "18 images related to Halloween."
 gallery: gallery-2009-10-31-2
-cover_image: "2009-10-31-img58973"
+cover_image: "2009/10/31/img58973.jpg"
 images:
-  - id: "2009-10-31-img58973"
+  - id: "2009/10/31/img58973.jpg"
     caption:
     alt:
-  - id: "2009-10-31-img59023"
+  - id: "2009/10/31/img59023.jpg"
     caption:
     alt:
-  - id: "2009-10-31-img59033"
+  - id: "2009/10/31/img59033.jpg"
     caption:
     alt:
-  - id: "2009-10-31-img59083"
+  - id: "2009/10/31/img59083.jpg"
     caption:
     alt:
-  - id: "2009-10-31-img59103"
+  - id: "2009/10/31/img59103.jpg"
     caption:
     alt:
-  - id: "2009-10-31-img59123"
+  - id: "2009/10/31/img59123.jpg"
     caption:
     alt:
-  - id: "2009-10-31-img59133"
+  - id: "2009/10/31/img59133.jpg"
     caption:
     alt:
-  - id: "2009-10-31-img59163"
+  - id: "2009/10/31/img59163.jpg"
     caption:
     alt:
-  - id: "2009-10-31-img59213"
+  - id: "2009/10/31/img59213.jpg"
     caption:
     alt:
-  - id: "2009-10-31-img59303"
+  - id: "2009/10/31/img59303.jpg"
     caption:
     alt:
-  - id: "2009-10-31-img59323"
+  - id: "2009/10/31/img59323.jpg"
     caption:
     alt:
-  - id: "2009-10-31-img59333"
+  - id: "2009/10/31/img59333.jpg"
     caption:
     alt:
-  - id: "2009-10-31-img59373"
+  - id: "2009/10/31/img59373.jpg"
     caption:
     alt:
-  - id: "2009-10-31-img59403"
+  - id: "2009/10/31/img59403.jpg"
     caption:
     alt:
-  - id: "2009-10-31-img59413"
+  - id: "2009/10/31/img59413.jpg"
     caption:
     alt:
-  - id: "2009-10-31-img59433"
+  - id: "2009/10/31/img59433.jpg"
     caption:
     alt:
-  - id: "2009-10-31-img59443"
+  - id: "2009/10/31/img59443.jpg"
     caption:
     alt:
-  - id: "2009-10-31-img59463"
+  - id: "2009/10/31/img59463.jpg"
     caption:
     alt:
 related:

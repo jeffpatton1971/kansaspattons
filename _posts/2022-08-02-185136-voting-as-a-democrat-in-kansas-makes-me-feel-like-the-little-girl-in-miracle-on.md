@@ -15,12 +15,12 @@ source:
   caption: "Voting as a Democrat in Kansas makes me feel like the little girl in Miracle on 34th St. I believe, I believe. It’s silly but, I believe. #vote"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2022-08-02-185136-voting-as-a-democrat-in-kansas-makes-me-feel-like-the-little-girl-in-miracle-on-01
+cover_image: "2022/08/02/17929813271300495.jpg"
 images:
-  - id: instagram-2022-08-02-185136-voting-as-a-democrat-in-kansas-makes-me-feel-like-the-little-girl-in-miracle-on-01
+  - id: "2022/08/02/17929813271300495.jpg"
     caption:
     alt:
-  - id: instagram-2022-08-02-185136-voting-as-a-democrat-in-kansas-makes-me-feel-like-the-little-girl-in-miracle-on-02
+  - id: "2022/08/02/18013592395391996.jpg"
     caption:
     alt:
 hashtags:

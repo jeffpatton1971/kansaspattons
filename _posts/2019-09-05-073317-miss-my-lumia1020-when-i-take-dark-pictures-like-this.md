@@ -15,9 +15,9 @@ source:
   caption: "Miss my Lumia1020 when I take dark pictures like this"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-09-05-073317-miss-my-lumia1020-when-i-take-dark-pictures-like-this-01
+cover_image: "2019/09/05/17861354491497402.jpg"
 images:
-  - id: instagram-2019-09-05-073317-miss-my-lumia1020-when-i-take-dark-pictures-like-this-01
+  - id: "2019/09/05/17861354491497402.jpg"
     caption:
     alt:
 hashtags: []

@@ -15,9 +15,9 @@ source:
   caption: "One of my favorite helpers"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-12-12-183701-one-of-my-favorite-helpers-01
+cover_image: "2021/12/12/17959031830527735.jpg"
 images:
-  - id: instagram-2021-12-12-183701-one-of-my-favorite-helpers-01
+  - id: "2021/12/12/17959031830527735.jpg"
     caption:
     alt:
 hashtags: []

@@ -15,9 +15,9 @@ source:
   caption: "Just another #sunset in #kansas"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2024-12-19-172505-just-another-sunset-in-kansas-01
+cover_image: "2024/12/19/18386315233103017.jpg"
 images:
-  - id: instagram-2024-12-19-172505-just-another-sunset-in-kansas-01
+  - id: "2024/12/19/18386315233103017.jpg"
     caption:
     alt:
 hashtags:

@@ -15,12 +15,12 @@ source:
   caption: "KC Strip on the skillet for dinner with @natalie.15.2003"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2025-08-12-170733-kc-strip-on-the-skillet-for-dinner-with-natalie-15-2003-01
+cover_image: "2025/08/12/17843319369548236.jpg"
 images:
-  - id: instagram-2025-08-12-170733-kc-strip-on-the-skillet-for-dinner-with-natalie-15-2003-01
+  - id: "2025/08/12/17843319369548236.jpg"
     caption:
     alt:
-  - id: instagram-2025-08-12-170733-kc-strip-on-the-skillet-for-dinner-with-natalie-15-2003-02
+  - id: "2025/08/12/18093272824657664.jpg"
     caption:
     alt:
 hashtags: []

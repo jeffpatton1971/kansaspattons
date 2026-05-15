@@ -15,9 +15,9 @@ source:
   caption: "If she were 3 yrs older this would have been more entertaining"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2022-04-26-130406-if-she-were-3-yrs-older-this-would-have-been-more-entertaining-01
+cover_image: "2022/04/26/18225295630191370.jpg"
 images:
-  - id: instagram-2022-04-26-130406-if-she-were-3-yrs-older-this-would-have-been-more-entertaining-01
+  - id: "2022/04/26/18225295630191370.jpg"
     caption:
     alt:
 hashtags: []

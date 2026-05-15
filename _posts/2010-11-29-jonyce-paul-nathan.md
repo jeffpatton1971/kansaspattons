@@ -12,7 +12,7 @@ source:
   type: wordpress
   id: 847
   url: "https://jeffspatton.wordpress.com/2010/11/29/november-29-2011/"
-cover_image: "2010-11-29-20101129-wp-000008a2"
+cover_image: "2010/11/29/20101129-wp_000008a2.jpg"
 related:
   - type: gallery
     id: wordpress-2010-11-29-175900-november-29-2011

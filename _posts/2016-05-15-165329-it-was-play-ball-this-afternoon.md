@@ -15,9 +15,9 @@ source:
   caption: "It was play ball this afternoon!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2016-05-15-165329-it-was-play-ball-this-afternoon-01
+cover_image: "2016/05/15/17847532621097675.jpg"
 images:
-  - id: instagram-2016-05-15-165329-it-was-play-ball-this-afternoon-01
+  - id: "2016/05/15/17847532621097675.jpg"
     caption:
     alt:
 hashtags: []

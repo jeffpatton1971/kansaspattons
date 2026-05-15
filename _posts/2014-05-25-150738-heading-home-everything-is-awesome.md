@@ -15,9 +15,9 @@ source:
   caption: "Heading home...\"Everything is awesome!\""
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-05-25-150738-heading-home-everything-is-awesome-01
+cover_image: "2014/05/25/17842502437063547.jpg"
 images:
-  - id: instagram-2014-05-25-150738-heading-home-everything-is-awesome-01
+  - id: "2014/05/25/17842502437063547.jpg"
     caption:
     alt:
 hashtags: []

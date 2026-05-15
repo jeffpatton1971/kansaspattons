@@ -17,21 +17,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to What a wonderful time this evening with some truly wonderful and special kids!."
 gallery: instagram-2018-09-25-193924-what-a-wonderful-time-this-evening-with-some-truly-wonderful-and-special-kids
-cover_image: instagram-2018-09-25-193924-what-a-wonderful-time-this-evening-with-some-truly-wonderful-and-special-kids-01
+cover_image: "2018/09/25/17954512633159548.jpg"
 images:
-  - id: instagram-2018-09-25-193924-what-a-wonderful-time-this-evening-with-some-truly-wonderful-and-special-kids-01
+  - id: "2018/09/25/17954512633159548.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-25-193924-what-a-wonderful-time-this-evening-with-some-truly-wonderful-and-special-kids-02
+  - id: "2018/09/25/17961579382089704.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-25-193924-what-a-wonderful-time-this-evening-with-some-truly-wonderful-and-special-kids-03
+  - id: "2018/09/25/17983760719024815.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-25-193924-what-a-wonderful-time-this-evening-with-some-truly-wonderful-and-special-kids-04
+  - id: "2018/09/25/17905192279246124.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-25-193924-what-a-wonderful-time-this-evening-with-some-truly-wonderful-and-special-kids-05
+  - id: "2018/09/25/17982851872050044.jpg"
     caption:
     alt:
 related:

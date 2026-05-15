@@ -15,7 +15,7 @@ source:
   caption: "Apparently I forgot to post pictures from the dance"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2019-05-02-181837-apparently-i-forgot-to-post-pictures-from-the-dance-01
+cover_image: "2019/05/02/18021193240171649.jpg"
 related:
   - type: gallery
     id: instagram-2019-05-02-181837-apparently-i-forgot-to-post-pictures-from-the-dance

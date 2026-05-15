@@ -15,7 +15,7 @@ source:
   caption: "Had fun at our #firstrodeo"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2023-06-17-213145-had-fun-at-our-firstrodeo-01
+cover_image: "2023/06/17/17981028932209060.jpg"
 related:
   - type: gallery
     id: instagram-2023-06-17-213145-had-fun-at-our-firstrodeo

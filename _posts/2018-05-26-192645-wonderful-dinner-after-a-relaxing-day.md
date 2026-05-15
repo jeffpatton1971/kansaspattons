@@ -15,7 +15,7 @@ source:
   caption: "Wonderful dinner after a relaxing day"
   media_count: 5
   cross_post_source: "FB"
-cover_image: instagram-2018-05-26-192645-wonderful-dinner-after-a-relaxing-day-01
+cover_image: "2018/05/26/17921522311132849.jpg"
 related:
   - type: gallery
     id: instagram-2018-05-26-192645-wonderful-dinner-after-a-relaxing-day

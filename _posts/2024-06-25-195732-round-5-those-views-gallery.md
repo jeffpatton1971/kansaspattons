@@ -17,36 +17,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Round 5 those views!."
 gallery: instagram-2024-06-25-195732-round-5-those-views
-cover_image: instagram-2024-06-25-195732-round-5-those-views-01
+cover_image: "2024/06/25/17974932962722918.jpg"
 images:
-  - id: instagram-2024-06-25-195732-round-5-those-views-01
+  - id: "2024/06/25/17974932962722918.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-195732-round-5-those-views-02
+  - id: "2024/06/25/17847376425219796.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-195732-round-5-those-views-03
+  - id: "2024/06/25/17962100762647572.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-195732-round-5-those-views-04
+  - id: "2024/06/25/17891798334043875.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-195732-round-5-those-views-05
+  - id: "2024/06/25/17992943165495818.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-195732-round-5-those-views-06
+  - id: "2024/06/25/17967417113746477.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-195732-round-5-those-views-07
+  - id: "2024/06/25/18267412261208834.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-195732-round-5-those-views-08
+  - id: "2024/06/25/18045102925721935.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-195732-round-5-those-views-09
+  - id: "2024/06/25/18015967409381406.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-195732-round-5-those-views-10
+  - id: "2024/06/25/18044330518885480.jpg"
     caption:
     alt:
 related:

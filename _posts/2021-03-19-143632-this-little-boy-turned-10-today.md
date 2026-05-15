@@ -15,12 +15,12 @@ source:
   caption: "This little boy turned 10 today"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2021-03-19-143632-this-little-boy-turned-10-today-01
+cover_image: "2021/03/19/17869182578360949.jpg"
 images:
-  - id: instagram-2021-03-19-143632-this-little-boy-turned-10-today-01
+  - id: "2021/03/19/17869182578360949.jpg"
     caption:
     alt:
-  - id: instagram-2021-03-19-143632-this-little-boy-turned-10-today-02
+  - id: "2021/03/19/17903018359813627.jpg"
     caption:
     alt:
 hashtags: []

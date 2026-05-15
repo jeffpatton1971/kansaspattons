@@ -15,7 +15,7 @@ source:
   caption: "After lunch glass bottom boat ride and then on the long road home"
   media_count: 9
   cross_post_source: "FB"
-cover_image: instagram-2021-04-29-150833-after-lunch-glass-bottom-boat-ride-and-then-on-the-long-road-home-01
+cover_image: "2021/04/29/17905204390871405.jpg"
 related:
   - type: gallery
     id: instagram-2021-04-29-150833-after-lunch-glass-bottom-boat-ride-and-then-on-the-long-road-home

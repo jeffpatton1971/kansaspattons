@@ -15,7 +15,7 @@ source:
   caption: "I just can’t do another 4 years with this guy. If you don’t agree with me feel free to unfriend me because at this point I don’t really care anymore."
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2025-01-21-160917-i-just-can-t-do-another-4-years-with-this-guy-if-you-don-t-agree-with-me-feel-01
+cover_image: "2025/01/21/18374009095139253.jpg"
 related:
   - type: gallery
     id: instagram-2025-01-21-160917-i-just-can-t-do-another-4-years-with-this-guy-if-you-don-t-agree-with-me-feel

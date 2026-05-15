@@ -15,9 +15,9 @@ source:
   caption: "Lol my shoes don’t wear out unevenly I was in marching band all through high school and college 😂"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2020-08-26-211128-lol-my-shoes-don-t-wear-out-unevenly-i-was-in-marching-band-all-through-high-01
+cover_image: "2020/08/26/18159302260021577.jpg"
 images:
-  - id: instagram-2020-08-26-211128-lol-my-shoes-don-t-wear-out-unevenly-i-was-in-marching-band-all-through-high-01
+  - id: "2020/08/26/18159302260021577.jpg"
     caption:
     alt:
 hashtags: []

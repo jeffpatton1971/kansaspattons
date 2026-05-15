@@ -15,7 +15,7 @@ source:
   caption: "Just rappelled down a cliff"
   media_count: 8
   cross_post_source: "FB"
-cover_image: instagram-2019-05-01-121450-just-rappelled-down-a-cliff-01
+cover_image: "2019/05/01/17844479509436034.jpg"
 related:
   - type: gallery
     id: instagram-2019-05-01-121450-just-rappelled-down-a-cliff

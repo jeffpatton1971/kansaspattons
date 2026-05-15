@@ -12,12 +12,12 @@ source:
   type: wordpress
   id: 1230
   url: "https://jeffspatton.wordpress.com/2013/08/08/august-8-2013/"
-cover_image: "2013-08-08-wp-20130808-10-10-50-pro"
+cover_image: "2013/08/08/wp_20130808_10_10_50_pro.jpg"
 images:
-  - id: "2013-08-08-wp-20130808-10-10-50-pro"
+  - id: "2013/08/08/wp_20130808_10_10_50_pro.jpg"
     caption:
     alt:
-  - id: "2013-08-08-wp-20130808-10-10-26-pro"
+  - id: "2013/08/08/wp_20130808_10_10_26_pro.jpg"
     caption:
     alt:
 categories:

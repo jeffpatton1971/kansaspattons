@@ -1083,6 +1083,52 @@ Detailed working notes for the React migration live here. This file is intention
   - `docs/content-model.md`
   - `docs/image-storage-migration.md`
 
+### Canonical Image Reference Migration
+
+- Added `scripts/canonicalize-image-references.ts`.
+- Added npm commands:
+  - `npm run images:canonicalize`
+  - `npm run images:canonicalize:write`
+- The migration script:
+  - Builds a legacy image ID to canonical media-key map from `_gallery/*.md`.
+  - Uses `yyyy/mm/dd/filename.ext` as the canonical media key.
+  - Rewrites `_posts` fields such as `cover_image`, `coverImage`, `coverImageId`, `images`, `image_ids`, and `imageIds`.
+  - Writes `.tmp/image-canonicalization-report.json`.
+  - Reports missing references and canonical collisions.
+  - Refuses to write if canonical collisions exist.
+- Dry-run results before cleanup:
+  - `8,526` images scanned.
+  - `1,418` posts scanned.
+  - `0` canonical collisions.
+  - `3` stale missing references.
+- Cleaned stale references to the two Instagram image records previously removed from `_gallery`:
+  - `2021-04-27-135635-some-pix-from-the-morning-gallery.md`
+  - `2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely-gallery.md`
+- Final write results:
+  - `8,526` images scanned.
+  - `1,418` posts scanned.
+  - `8,526` images mapped.
+  - `0` canonical collisions.
+  - `0` missing references.
+  - `1,418` Markdown files changed.
+  - `1,387` cover references changed.
+  - `4,768` image references changed.
+- Updated the content compiler so generated image JSON now uses:
+  - `id: yyyy/mm/dd/filename.ext`
+  - `route: /images/yyyy/mm/dd/filename.ext`
+  - canonical `images/yyyy/mm/dd/filename.ext` raw URLs
+  - canonical `thumbs/yyyy/mm/dd/filename.ext` thumbnail URLs
+- Updated React and API image detail lookup so selected image routes continue to work with canonical image IDs.
+- Verification:
+  - `npm run build` passed.
+  - `npm run api:build` passed.
+  - Generated JSON spot checks confirmed canonical IDs and URLs for Pumpkin Patch, Big Boy, and Better Late Than Never.
+  - Local Vite smoke checks returned `200` for:
+    - `/images/2009/10/18/img58363.jpg`
+    - `/galleries/2009/10/18/pumpkin-patch`
+    - `/posts/2013/05/29/big-boy`
+  - `/api/images/2009/10/18/img58363.jpg` returned the canonical image record.
+
 ### Detail Page Archive Shell And Story Metadata
 
 - Updated individual post and story detail pages to use the shared archive shell:

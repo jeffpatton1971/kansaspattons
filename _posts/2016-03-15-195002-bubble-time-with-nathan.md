@@ -15,9 +15,9 @@ source:
   caption: "Bubble time with Nathan"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2016-03-15-195002-bubble-time-with-nathan-01
+cover_image: "2016/03/15/17873036347024341.jpg"
 images:
-  - id: instagram-2016-03-15-195002-bubble-time-with-nathan-01
+  - id: "2016/03/15/17873036347024341.jpg"
     caption:
     alt:
 hashtags: []

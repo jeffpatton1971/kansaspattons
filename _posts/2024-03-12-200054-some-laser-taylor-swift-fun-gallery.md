@@ -17,24 +17,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Some Laser Taylor Swift fun."
 gallery: instagram-2024-03-12-200054-some-laser-taylor-swift-fun
-cover_image: instagram-2024-03-12-200054-some-laser-taylor-swift-fun-01
+cover_image: "2024/03/12/18253412380240199.jpg"
 images:
-  - id: instagram-2024-03-12-200054-some-laser-taylor-swift-fun-01
+  - id: "2024/03/12/18253412380240199.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-12-200054-some-laser-taylor-swift-fun-02
+  - id: "2024/03/12/18021815087027156.jpg"
     caption:
     alt:
-  - id: instagram-2024-03-12-200054-some-laser-taylor-swift-fun-03
+  - id: "2024/03/12/17916860912903137.mp4"
     caption:
     alt:
-  - id: instagram-2024-03-12-200054-some-laser-taylor-swift-fun-04
+  - id: "2024/03/12/18029831797910166.mp4"
     caption:
     alt:
-  - id: instagram-2024-03-12-200054-some-laser-taylor-swift-fun-05
+  - id: "2024/03/12/18305494387146197.mp4"
     caption:
     alt:
-  - id: instagram-2024-03-12-200054-some-laser-taylor-swift-fun-06
+  - id: "2024/03/12/18020313296107329.jpg"
     caption:
     alt:
 related:

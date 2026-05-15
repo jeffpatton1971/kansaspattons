@@ -18,30 +18,30 @@ authors:
   - "Jeff Patton"
 summary: "8 images related to Spent the afternoon @universityofkansas for #jayhawkday hard to believe she’s a senior."
 gallery: instagram-2021-11-22-174553-spent-the-afternoon-universityofkansas-for-jayhawkday-hard-to-believe-she-s-a
-cover_image: instagram-2021-11-22-174553-spent-the-afternoon-universityofkansas-for-jayhawkday-hard-to-believe-she-s-a-01
+cover_image: "2021/11/22/17920057193055181.jpg"
 images:
-  - id: instagram-2021-11-22-174553-spent-the-afternoon-universityofkansas-for-jayhawkday-hard-to-believe-she-s-a-01
+  - id: "2021/11/22/17920057193055181.jpg"
     caption:
     alt:
-  - id: instagram-2021-11-22-174553-spent-the-afternoon-universityofkansas-for-jayhawkday-hard-to-believe-she-s-a-02
+  - id: "2021/11/22/17911654739296541.jpg"
     caption:
     alt:
-  - id: instagram-2021-11-22-174553-spent-the-afternoon-universityofkansas-for-jayhawkday-hard-to-believe-she-s-a-03
+  - id: "2021/11/22/17996695843389703.jpg"
     caption:
     alt:
-  - id: instagram-2021-11-22-174553-spent-the-afternoon-universityofkansas-for-jayhawkday-hard-to-believe-she-s-a-04
+  - id: "2021/11/22/17925465163941758.jpg"
     caption:
     alt:
-  - id: instagram-2021-11-22-174553-spent-the-afternoon-universityofkansas-for-jayhawkday-hard-to-believe-she-s-a-05
+  - id: "2021/11/22/17902344980244593.jpg"
     caption:
     alt:
-  - id: instagram-2021-11-22-174553-spent-the-afternoon-universityofkansas-for-jayhawkday-hard-to-believe-she-s-a-06
+  - id: "2021/11/22/17979673252439873.jpg"
     caption:
     alt:
-  - id: instagram-2021-11-22-174553-spent-the-afternoon-universityofkansas-for-jayhawkday-hard-to-believe-she-s-a-07
+  - id: "2021/11/22/18265746232009456.jpg"
     caption:
     alt:
-  - id: instagram-2021-11-22-174553-spent-the-afternoon-universityofkansas-for-jayhawkday-hard-to-believe-she-s-a-08
+  - id: "2021/11/22/17880036611588644.jpg"
     caption:
     alt:
 related:

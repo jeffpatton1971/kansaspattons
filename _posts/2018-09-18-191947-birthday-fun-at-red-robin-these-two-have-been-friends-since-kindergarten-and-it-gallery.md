@@ -19,18 +19,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Birthday fun at Red Robin...these two have been friends since kindergarten and it’s fun to...."
 gallery: instagram-2018-09-18-191947-birthday-fun-at-red-robin-these-two-have-been-friends-since-kindergarten-and-it
-cover_image: instagram-2018-09-18-191947-birthday-fun-at-red-robin-these-two-have-been-friends-since-kindergarten-and-it-01
+cover_image: "2018/09/18/17966135371107121.jpg"
 images:
-  - id: instagram-2018-09-18-191947-birthday-fun-at-red-robin-these-two-have-been-friends-since-kindergarten-and-it-01
+  - id: "2018/09/18/17966135371107121.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-18-191947-birthday-fun-at-red-robin-these-two-have-been-friends-since-kindergarten-and-it-02
+  - id: "2018/09/18/17965397332125959.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-18-191947-birthday-fun-at-red-robin-these-two-have-been-friends-since-kindergarten-and-it-03
+  - id: "2018/09/18/17959415980080475.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-18-191947-birthday-fun-at-red-robin-these-two-have-been-friends-since-kindergarten-and-it-04
+  - id: "2018/09/18/17850398260290576.jpg"
     caption:
     alt:
 related:

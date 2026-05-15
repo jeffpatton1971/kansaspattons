@@ -15,9 +15,9 @@ source:
   caption: "Moms are mean dads are fun"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-03-27-192241-moms-are-mean-dads-are-fun-01
+cover_image: "2019/03/27/18027526546125512.jpg"
 images:
-  - id: instagram-2019-03-27-192241-moms-are-mean-dads-are-fun-01
+  - id: "2019/03/27/18027526546125512.jpg"
     caption:
     alt:
 hashtags: []

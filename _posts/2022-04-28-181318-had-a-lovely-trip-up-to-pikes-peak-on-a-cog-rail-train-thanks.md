@@ -15,7 +15,7 @@ source:
   caption: "Had a lovely trip up to Pikes Peak on a cog rail train. Thanks @pikespeakcograilway"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2022-04-28-181318-had-a-lovely-trip-up-to-pikes-peak-on-a-cog-rail-train-thanks-01
+cover_image: "2022/04/28/18162927817226102.jpg"
 related:
   - type: gallery
     id: instagram-2022-04-28-181318-had-a-lovely-trip-up-to-pikes-peak-on-a-cog-rail-train-thanks

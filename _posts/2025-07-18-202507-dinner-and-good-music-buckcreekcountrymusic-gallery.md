@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Dinner and good music @buckcreekcountrymusic."
 gallery: instagram-2025-07-18-202507-dinner-and-good-music-buckcreekcountrymusic
-cover_image: instagram-2025-07-18-202507-dinner-and-good-music-buckcreekcountrymusic-01
+cover_image: "2025/07/18/17858968383397979.jpg"
 images:
-  - id: instagram-2025-07-18-202507-dinner-and-good-music-buckcreekcountrymusic-01
+  - id: "2025/07/18/17858968383397979.jpg"
     caption:
     alt:
-  - id: instagram-2025-07-18-202507-dinner-and-good-music-buckcreekcountrymusic-02
+  - id: "2025/07/18/17955317441970472.jpg"
     caption:
     alt:
-  - id: instagram-2025-07-18-202507-dinner-and-good-music-buckcreekcountrymusic-03
+  - id: "2025/07/18/17852775408491342.jpg"
     caption:
     alt:
-  - id: instagram-2025-07-18-202507-dinner-and-good-music-buckcreekcountrymusic-04
+  - id: "2025/07/18/17882836023225282.jpg"
     caption:
     alt:
 related:

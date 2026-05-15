@@ -15,7 +15,7 @@ source:
   caption: "Nathan’s first game"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2023-01-10-192803-nathan-s-first-game-01
+cover_image: "2023/01/10/17946060413521953.jpg"
 related:
   - type: gallery
     id: instagram-2023-01-10-192803-nathan-s-first-game

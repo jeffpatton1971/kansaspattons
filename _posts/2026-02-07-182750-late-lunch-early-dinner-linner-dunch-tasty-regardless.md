@@ -15,9 +15,9 @@ source:
   caption: "Late lunch…early dinner…linner? Dunch? Tasty regardless"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2026-02-07-182750-late-lunch-early-dinner-linner-dunch-tasty-regardless-01
+cover_image: "2026/02/07/18407945413127996.jpg"
 images:
-  - id: instagram-2026-02-07-182750-late-lunch-early-dinner-linner-dunch-tasty-regardless-01
+  - id: "2026/02/07/18407945413127996.jpg"
     caption:
     alt:
 hashtags: []

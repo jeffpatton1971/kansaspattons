@@ -15,7 +15,7 @@ source:
   caption: "Watching this girl play tennis!"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2018-07-20-155114-watching-this-girl-play-tennis-01
+cover_image: "2018/07/20/17930598502165352.jpg"
 related:
   - type: gallery
     id: instagram-2018-07-20-155114-watching-this-girl-play-tennis

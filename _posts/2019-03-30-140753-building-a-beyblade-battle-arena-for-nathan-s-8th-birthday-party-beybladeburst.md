@@ -15,7 +15,7 @@ source:
   caption: "Building a BEYBLADE battle arena for Nathan’s 8th birthday party #beybladeburst #beybladegeeks"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2019-03-30-140753-building-a-beyblade-battle-arena-for-nathan-s-8th-birthday-party-beybladeburst-01
+cover_image: "2019/03/30/18024919846092754.jpg"
 related:
   - type: gallery
     id: instagram-2019-03-30-140753-building-a-beyblade-battle-arena-for-nathan-s-8th-birthday-party-beybladeburst

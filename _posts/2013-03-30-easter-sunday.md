@@ -12,7 +12,7 @@ source:
   type: wordpress
   id: 84
   url: "https://jeffspatton.wordpress.com/2013/03/30/march-30-2013/"
-cover_image: "2013-03-30-wp-20130330-002"
+cover_image: "2013/03/30/wp_20130330_002.jpg"
 related:
   - type: gallery
     id: wordpress-2013-03-30-124134-march-30-2013

@@ -15,9 +15,9 @@ source:
   caption: "Trees look spooky in black and white"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-07-14-205546-trees-look-spooky-in-black-and-white-01
+cover_image: "2021/07/14/17888482922197235.jpg"
 images:
-  - id: instagram-2021-07-14-205546-trees-look-spooky-in-black-and-white-01
+  - id: "2021/07/14/17888482922197235.jpg"
     caption:
     alt:
 hashtags: []

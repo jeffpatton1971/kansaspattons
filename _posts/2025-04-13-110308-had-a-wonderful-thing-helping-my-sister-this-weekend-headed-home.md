@@ -15,12 +15,12 @@ source:
   caption: "Had a wonderful thing helping my sister this weekend! Headed home"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2025-04-13-110308-had-a-wonderful-thing-helping-my-sister-this-weekend-headed-home-01
+cover_image: "2025/04/13/18056317340169844.jpg"
 images:
-  - id: instagram-2025-04-13-110308-had-a-wonderful-thing-helping-my-sister-this-weekend-headed-home-01
+  - id: "2025/04/13/18056317340169844.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-13-110308-had-a-wonderful-thing-helping-my-sister-this-weekend-headed-home-02
+  - id: "2025/04/13/18086090803617389.jpg"
     caption:
     alt:
 hashtags: []

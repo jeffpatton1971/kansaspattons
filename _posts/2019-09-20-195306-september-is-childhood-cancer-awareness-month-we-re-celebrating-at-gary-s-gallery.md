@@ -19,36 +19,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to September is Childhood Cancer Awareness month, we’re celebrating at Gary’s Berries with al...."
 gallery: instagram-2019-09-20-195306-september-is-childhood-cancer-awareness-month-we-re-celebrating-at-gary-s
-cover_image: instagram-2019-09-20-195306-september-is-childhood-cancer-awareness-month-we-re-celebrating-at-gary-s-01
+cover_image: "2019/09/20/17924989969325116.jpg"
 images:
-  - id: instagram-2019-09-20-195306-september-is-childhood-cancer-awareness-month-we-re-celebrating-at-gary-s-01
+  - id: "2019/09/20/17924989969325116.jpg"
     caption:
     alt:
-  - id: instagram-2019-09-20-195306-september-is-childhood-cancer-awareness-month-we-re-celebrating-at-gary-s-02
+  - id: "2019/09/20/17876562715444550.jpg"
     caption:
     alt:
-  - id: instagram-2019-09-20-195306-september-is-childhood-cancer-awareness-month-we-re-celebrating-at-gary-s-03
+  - id: "2019/09/20/18102889552021995.jpg"
     caption:
     alt:
-  - id: instagram-2019-09-20-195306-september-is-childhood-cancer-awareness-month-we-re-celebrating-at-gary-s-04
+  - id: "2019/09/20/17861785189512174.jpg"
     caption:
     alt:
-  - id: instagram-2019-09-20-195306-september-is-childhood-cancer-awareness-month-we-re-celebrating-at-gary-s-05
+  - id: "2019/09/20/18101206417048873.jpg"
     caption:
     alt:
-  - id: instagram-2019-09-20-195306-september-is-childhood-cancer-awareness-month-we-re-celebrating-at-gary-s-06
+  - id: "2019/09/20/17859951091522398.jpg"
     caption:
     alt:
-  - id: instagram-2019-09-20-195306-september-is-childhood-cancer-awareness-month-we-re-celebrating-at-gary-s-07
+  - id: "2019/09/20/18029256346217555.jpg"
     caption:
     alt:
-  - id: instagram-2019-09-20-195306-september-is-childhood-cancer-awareness-month-we-re-celebrating-at-gary-s-08
+  - id: "2019/09/20/17847760867617197.jpg"
     caption:
     alt:
-  - id: instagram-2019-09-20-195306-september-is-childhood-cancer-awareness-month-we-re-celebrating-at-gary-s-09
+  - id: "2019/09/20/17850543784603573.jpg"
     caption:
     alt:
-  - id: instagram-2019-09-20-195306-september-is-childhood-cancer-awareness-month-we-re-celebrating-at-gary-s-10
+  - id: "2019/09/20/17917781512334230.jpg"
     caption:
     alt:
 related:

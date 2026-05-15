@@ -15,7 +15,7 @@ source:
   caption: "Spent the morning exploring Jamestown"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2025-04-23-115350-spent-the-morning-exploring-jamestown-01
+cover_image: "2025/04/23/17928621806929559.jpg"
 related:
   - type: gallery
     id: instagram-2025-04-23-115350-spent-the-morning-exploring-jamestown

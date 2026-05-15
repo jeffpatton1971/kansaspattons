@@ -17,18 +17,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Had a lovely trip up to Pikes Peak on a cog rail train. Thanks @pikespeakcograilway."
 gallery: instagram-2022-04-28-181318-had-a-lovely-trip-up-to-pikes-peak-on-a-cog-rail-train-thanks
-cover_image: instagram-2022-04-28-181318-had-a-lovely-trip-up-to-pikes-peak-on-a-cog-rail-train-thanks-01
+cover_image: "2022/04/28/18162927817226102.jpg"
 images:
-  - id: instagram-2022-04-28-181318-had-a-lovely-trip-up-to-pikes-peak-on-a-cog-rail-train-thanks-01
+  - id: "2022/04/28/18162927817226102.jpg"
     caption:
     alt:
-  - id: instagram-2022-04-28-181318-had-a-lovely-trip-up-to-pikes-peak-on-a-cog-rail-train-thanks-02
+  - id: "2022/04/28/17960966233647751.jpg"
     caption:
     alt:
-  - id: instagram-2022-04-28-181318-had-a-lovely-trip-up-to-pikes-peak-on-a-cog-rail-train-thanks-03
+  - id: "2022/04/28/17860914047691577.jpg"
     caption:
     alt:
-  - id: instagram-2022-04-28-181318-had-a-lovely-trip-up-to-pikes-peak-on-a-cog-rail-train-thanks-04
+  - id: "2022/04/28/18126726289263090.jpg"
     caption:
     alt:
 related:

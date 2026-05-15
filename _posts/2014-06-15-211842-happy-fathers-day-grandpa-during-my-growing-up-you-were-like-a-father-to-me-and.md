@@ -15,9 +15,9 @@ source:
   caption: "Happy Fathers Day Grandpa. During my growing up you were like a father to me, and I just want you to know I love you"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-06-15-211842-happy-fathers-day-grandpa-during-my-growing-up-you-were-like-a-father-to-me-and-01
+cover_image: "2014/06/15/17843312986063547.jpg"
 images:
-  - id: instagram-2014-06-15-211842-happy-fathers-day-grandpa-during-my-growing-up-you-were-like-a-father-to-me-and-01
+  - id: "2014/06/15/17843312986063547.jpg"
     caption:
     alt:
 hashtags: []

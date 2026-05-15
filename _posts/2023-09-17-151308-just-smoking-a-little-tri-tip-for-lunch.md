@@ -15,7 +15,7 @@ source:
   caption: "Just #smoking a little tri-tip for lunch"
   media_count: 5
   cross_post_source: "FB"
-cover_image: instagram-2023-09-17-151308-just-smoking-a-little-tri-tip-for-lunch-01
+cover_image: "2023/09/17/18018895147704439.jpg"
 related:
   - type: gallery
     id: instagram-2023-09-17-151308-just-smoking-a-little-tri-tip-for-lunch

@@ -15,9 +15,9 @@ source:
   caption: "So many kids in the hot tub"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-08-25-184911-so-many-kids-in-the-hot-tub-01
+cover_image: "2018/08/25/17952056581089788.jpg"
 images:
-  - id: instagram-2018-08-25-184911-so-many-kids-in-the-hot-tub-01
+  - id: "2018/08/25/17952056581089788.jpg"
     caption:
     alt:
 hashtags: []

@@ -15,7 +15,7 @@ source:
   caption: "Riding an airboat…saw several gators!"
   media_count: 7
   cross_post_source: "FB"
-cover_image: instagram-2022-06-19-131003-riding-an-airboat-saw-several-gators-01
+cover_image: "2022/06/19/17933570306255772.jpg"
 related:
   - type: gallery
     id: instagram-2022-06-19-131003-riding-an-airboat-saw-several-gators

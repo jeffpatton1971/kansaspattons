@@ -15,15 +15,15 @@ source:
   caption: "First day of school for these two!"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2018-08-16-083300-first-day-of-school-for-these-two-01
+cover_image: "2018/08/16/17944005256134961.jpg"
 images:
-  - id: instagram-2018-08-16-083300-first-day-of-school-for-these-two-01
+  - id: "2018/08/16/17944005256134961.jpg"
     caption:
     alt:
-  - id: instagram-2018-08-16-083300-first-day-of-school-for-these-two-02
+  - id: "2018/08/16/17965388434071879.jpg"
     caption:
     alt:
-  - id: instagram-2018-08-16-083300-first-day-of-school-for-these-two-03
+  - id: "2018/08/16/17953303735121479.jpg"
     caption:
     alt:
 hashtags: []

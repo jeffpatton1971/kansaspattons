@@ -15,15 +15,15 @@ source:
   caption: "Strange things goin down @hoborlando"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2021-04-26-194321-strange-things-goin-down-hoborlando-01
+cover_image: "2021/04/26/17874838301354484.jpg"
 images:
-  - id: instagram-2021-04-26-194321-strange-things-goin-down-hoborlando-01
+  - id: "2021/04/26/17874838301354484.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-26-194321-strange-things-goin-down-hoborlando-02
+  - id: "2021/04/26/17951389819445699.jpg"
     caption:
     alt:
-  - id: instagram-2021-04-26-194321-strange-things-goin-down-hoborlando-03
+  - id: "2021/04/26/17883080810240063.jpg"
     caption:
     alt:
 hashtags: []

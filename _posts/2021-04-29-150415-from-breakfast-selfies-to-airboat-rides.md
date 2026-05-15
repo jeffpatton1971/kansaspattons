@@ -15,7 +15,7 @@ source:
   caption: "From breakfast selfies to airboat rides"
   media_count: 9
   cross_post_source: "FB"
-cover_image: instagram-2021-04-29-150415-from-breakfast-selfies-to-airboat-rides-01
+cover_image: "2021/04/29/17901271645920340.jpg"
 related:
   - type: gallery
     id: instagram-2021-04-29-150415-from-breakfast-selfies-to-airboat-rides

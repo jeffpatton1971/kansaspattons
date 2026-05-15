@@ -15,15 +15,15 @@ source:
   caption: "Trying to catch the #auroraborealis just North of Lawrence, KS"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2025-11-12-210150-trying-to-catch-the-auroraborealis-just-north-of-lawrence-ks-01
+cover_image: "2025/11/12/17864344848434166.jpg"
 images:
-  - id: instagram-2025-11-12-210150-trying-to-catch-the-auroraborealis-just-north-of-lawrence-ks-01
+  - id: "2025/11/12/17864344848434166.jpg"
     caption:
     alt:
-  - id: instagram-2025-11-12-210150-trying-to-catch-the-auroraborealis-just-north-of-lawrence-ks-02
+  - id: "2025/11/12/17872360860378453.jpg"
     caption:
     alt:
-  - id: instagram-2025-11-12-210150-trying-to-catch-the-auroraborealis-just-north-of-lawrence-ks-03
+  - id: "2025/11/12/18069553778345139.jpg"
     caption:
     alt:
 hashtags:

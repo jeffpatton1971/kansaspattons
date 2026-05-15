@@ -19,36 +19,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Round 2 of pictures were stopped in #nassaubahamas and bought some souvenirs. Our ship was...."
 gallery: instagram-2024-06-25-194726-round-2-of-pictures-were-stopped-in-nassaubahamas-and-bought-some-souvenirs-our
-cover_image: instagram-2024-06-25-194726-round-2-of-pictures-were-stopped-in-nassaubahamas-and-bought-some-souvenirs-our-01
+cover_image: "2024/06/25/18038424550788440.jpg"
 images:
-  - id: instagram-2024-06-25-194726-round-2-of-pictures-were-stopped-in-nassaubahamas-and-bought-some-souvenirs-our-01
+  - id: "2024/06/25/18038424550788440.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-194726-round-2-of-pictures-were-stopped-in-nassaubahamas-and-bought-some-souvenirs-our-02
+  - id: "2024/06/25/18024484115192307.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-194726-round-2-of-pictures-were-stopped-in-nassaubahamas-and-bought-some-souvenirs-our-03
+  - id: "2024/06/25/18032144785890224.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-194726-round-2-of-pictures-were-stopped-in-nassaubahamas-and-bought-some-souvenirs-our-04
+  - id: "2024/06/25/18115161019350284.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-194726-round-2-of-pictures-were-stopped-in-nassaubahamas-and-bought-some-souvenirs-our-05
+  - id: "2024/06/25/18010797134265572.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-194726-round-2-of-pictures-were-stopped-in-nassaubahamas-and-bought-some-souvenirs-our-06
+  - id: "2024/06/25/17893149879032261.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-194726-round-2-of-pictures-were-stopped-in-nassaubahamas-and-bought-some-souvenirs-our-07
+  - id: "2024/06/25/18021746948062164.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-194726-round-2-of-pictures-were-stopped-in-nassaubahamas-and-bought-some-souvenirs-our-08
+  - id: "2024/06/25/18032701958088824.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-194726-round-2-of-pictures-were-stopped-in-nassaubahamas-and-bought-some-souvenirs-our-09
+  - id: "2024/06/25/18107998519393080.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-194726-round-2-of-pictures-were-stopped-in-nassaubahamas-and-bought-some-souvenirs-our-10
+  - id: "2024/06/25/18029561840140500.jpg"
     caption:
     alt:
 related:

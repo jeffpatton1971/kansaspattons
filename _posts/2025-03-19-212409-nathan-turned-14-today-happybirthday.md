@@ -15,7 +15,7 @@ source:
   caption: "Nathan turned 14 today #happybirthday"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2025-03-19-212409-nathan-turned-14-today-happybirthday-01
+cover_image: "2025/03/19/18042889262598658.jpg"
 related:
   - type: gallery
     id: instagram-2025-03-19-212409-nathan-turned-14-today-happybirthday

@@ -19,21 +19,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to Mom and Natalie did the 5k this morning."
 gallery: instagram-2018-03-17-115752-mom-and-natalie-did-the-5k-this-morning
-cover_image: instagram-2018-03-17-115752-mom-and-natalie-did-the-5k-this-morning-01
+cover_image: "2018/03/17/17930933275045839.jpg"
 images:
-  - id: instagram-2018-03-17-115752-mom-and-natalie-did-the-5k-this-morning-01
+  - id: "2018/03/17/17930933275045839.jpg"
     caption:
     alt:
-  - id: instagram-2018-03-17-115752-mom-and-natalie-did-the-5k-this-morning-02
+  - id: "2018/03/17/17904439654148978.jpg"
     caption:
     alt:
-  - id: instagram-2018-03-17-115752-mom-and-natalie-did-the-5k-this-morning-03
+  - id: "2018/03/17/17903118676158192.jpg"
     caption:
     alt:
-  - id: instagram-2018-03-17-115752-mom-and-natalie-did-the-5k-this-morning-04
+  - id: "2018/03/17/17918590744111250.jpg"
     caption:
     alt:
-  - id: instagram-2018-03-17-115752-mom-and-natalie-did-the-5k-this-morning-05
+  - id: "2018/03/17/17932614184026407.jpg"
     caption:
     alt:
 related:

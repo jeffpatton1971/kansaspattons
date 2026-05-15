@@ -15,9 +15,9 @@ source:
   caption: "My mom made this quilt for Nathan from all the cards people wrote 5yrs ago on his end of treatment party!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-09-29-115516-my-mom-made-this-quilt-for-nathan-from-all-the-cards-people-wrote-5yrs-ago-on-01
+cover_image: "2018/09/29/17866351654302972.jpg"
 images:
-  - id: instagram-2018-09-29-115516-my-mom-made-this-quilt-for-nathan-from-all-the-cards-people-wrote-5yrs-ago-on-01
+  - id: "2018/09/29/17866351654302972.jpg"
     caption:
     alt:
 hashtags: []

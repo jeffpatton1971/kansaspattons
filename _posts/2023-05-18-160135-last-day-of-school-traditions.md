@@ -15,9 +15,9 @@ source:
   caption: "last day of school #traditions"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-05-18-160135-last-day-of-school-traditions-01
+cover_image: "2023/05/18/17970315746373483.jpg"
 images:
-  - id: instagram-2023-05-18-160135-last-day-of-school-traditions-01
+  - id: "2023/05/18/17970315746373483.jpg"
     caption:
     alt:
 hashtags:

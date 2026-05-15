@@ -15,9 +15,9 @@ source:
   caption: "Sometimes when you feel sick it's better to be in mom's bed with all your toys"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2015-03-01-200059-sometimes-when-you-feel-sick-it-s-better-to-be-in-mom-s-bed-with-all-your-toys-01
+cover_image: "2015/03/01/17841744568063547.jpg"
 images:
-  - id: instagram-2015-03-01-200059-sometimes-when-you-feel-sick-it-s-better-to-be-in-mom-s-bed-with-all-your-toys-01
+  - id: "2015/03/01/17841744568063547.jpg"
     caption:
     alt:
 hashtags: []

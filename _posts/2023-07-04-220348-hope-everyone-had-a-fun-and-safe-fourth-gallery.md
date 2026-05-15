@@ -17,24 +17,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to hope everyone had a fun and safe fourth."
 gallery: instagram-2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth
-cover_image: instagram-2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth-01
+cover_image: "2023/07/04/18290373913112066.jpg"
 images:
-  - id: instagram-2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth-01
+  - id: "2023/07/04/18290373913112066.jpg"
     caption:
     alt:
-  - id: instagram-2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth-02
+  - id: "2023/07/04/18185066749279457.jpg"
     caption:
     alt:
-  - id: instagram-2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth-03
+  - id: "2023/07/04/17983399535244738.jpg"
     caption:
     alt:
-  - id: instagram-2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth-04
+  - id: "2023/07/04/17904134126734417.jpg"
     caption:
     alt:
-  - id: instagram-2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth-05
+  - id: "2023/07/04/17961064193550924.jpg"
     caption:
     alt:
-  - id: instagram-2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth-06
+  - id: "2023/07/04/17975981618373570.jpg"
     caption:
     alt:
 related:

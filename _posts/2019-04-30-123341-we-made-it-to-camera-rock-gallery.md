@@ -17,30 +17,30 @@ authors:
   - "Jeff Patton"
 summary: "8 images related to We made it to camera rock!."
 gallery: instagram-2019-04-30-123341-we-made-it-to-camera-rock
-cover_image: instagram-2019-04-30-123341-we-made-it-to-camera-rock-01
+cover_image: "2019/04/30/17877865900349096.jpg"
 images:
-  - id: instagram-2019-04-30-123341-we-made-it-to-camera-rock-01
+  - id: "2019/04/30/17877865900349096.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-30-123341-we-made-it-to-camera-rock-02
+  - id: "2019/04/30/17875486657354651.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-30-123341-we-made-it-to-camera-rock-03
+  - id: "2019/04/30/18031237021132377.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-30-123341-we-made-it-to-camera-rock-04
+  - id: "2019/04/30/17860319227378563.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-30-123341-we-made-it-to-camera-rock-05
+  - id: "2019/04/30/18039300142127373.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-30-123341-we-made-it-to-camera-rock-06
+  - id: "2019/04/30/17966815705249529.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-30-123341-we-made-it-to-camera-rock-07
+  - id: "2019/04/30/17941500706282518.jpg"
     caption:
     alt:
-  - id: instagram-2019-04-30-123341-we-made-it-to-camera-rock-08
+  - id: "2019/04/30/17984671834227558.jpg"
     caption:
     alt:
 related:

@@ -15,7 +15,7 @@ source:
   caption: "Nathan went 3 for 3 at tennis today!"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2025-04-28-193242-nathan-went-3-for-3-at-tennis-today-01
+cover_image: "2025/04/28/18083879158643132.jpg"
 related:
   - type: gallery
     id: instagram-2025-04-28-193242-nathan-went-3-for-3-at-tennis-today

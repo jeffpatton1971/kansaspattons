@@ -21,57 +21,57 @@ authors:
   - "Jeff Patton"
 summary: "17 images related to Zoo Trip."
 gallery: wordpress-2012-08-20-232800-august-20-2012
-cover_image: "2012-08-20-wp-000206-23"
+cover_image: "2012/08/20/wp_000206-23.jpg"
 images:
-  - id: "2012-08-20-wp-000206-23"
+  - id: "2012/08/20/wp_000206-23.jpg"
     caption:
     alt:
-  - id: "2012-08-20-wp-000212-23"
+  - id: "2012/08/20/wp_000212-23.jpg"
     caption:
     alt:
-  - id: "2012-08-20-wp-000214-23"
+  - id: "2012/08/20/wp_000214-23.jpg"
     caption:
     alt:
-  - id: "2012-08-20-wp-000215-23"
+  - id: "2012/08/20/wp_000215-23.jpg"
     caption:
     alt:
-  - id: "2012-08-20-wp-000218-23"
+  - id: "2012/08/20/wp_000218-23.jpg"
     caption:
     alt:
-  - id: "2012-08-20-wp-000220-23"
+  - id: "2012/08/20/wp_000220-23.jpg"
     caption:
     alt:
-  - id: "2012-08-20-wp-000222-23"
+  - id: "2012/08/20/wp_000222-23.jpg"
     caption:
     alt:
-  - id: "2012-08-20-wp-000223-23"
+  - id: "2012/08/20/wp_000223-23.jpg"
     caption:
     alt:
-  - id: "2012-08-20-wp-000224-24"
+  - id: "2012/08/20/wp_000224-24.jpg"
     caption:
     alt:
-  - id: "2012-08-20-wp-000231-23"
+  - id: "2012/08/20/wp_000231-23.jpg"
     caption:
     alt:
-  - id: "2012-08-20-wp-000232-23"
+  - id: "2012/08/20/wp_000232-23.jpg"
     caption:
     alt:
-  - id: "2012-08-20-wp-000234-23"
+  - id: "2012/08/20/wp_000234-23.jpg"
     caption:
     alt:
-  - id: "2012-08-20-wp-000238-23"
+  - id: "2012/08/20/wp_000238-23.jpg"
     caption:
     alt:
-  - id: "2012-08-20-wp-000240-23"
+  - id: "2012/08/20/wp_000240-23.jpg"
     caption:
     alt:
-  - id: "2012-08-20-wp-000242-26"
+  - id: "2012/08/20/wp_000242-26.jpg"
     caption:
     alt:
-  - id: "2012-08-20-wp-000244-23"
+  - id: "2012/08/20/wp_000244-23.jpg"
     caption:
     alt:
-  - id: "2012-08-20-nwp-120819-00015"
+  - id: "2012/08/20/nwp_120819_00015.jpg"
     caption:
     alt:
 related:

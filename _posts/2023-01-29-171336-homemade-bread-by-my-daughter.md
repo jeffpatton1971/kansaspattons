@@ -15,9 +15,9 @@ source:
   caption: "homemade bread by my daughter"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-01-29-171336-homemade-bread-by-my-daughter-01
+cover_image: "2023/01/29/17991063583701103.jpg"
 images:
-  - id: instagram-2023-01-29-171336-homemade-bread-by-my-daughter-01
+  - id: "2023/01/29/17991063583701103.jpg"
     caption:
     alt:
 hashtags: []

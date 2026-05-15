@@ -15,9 +15,9 @@ source:
   caption: "A rare moment, Natalie smiling"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2013-12-09-212541-a-rare-moment-natalie-smiling-01
+cover_image: "2013/12/09/17842411399063547.jpg"
 images:
-  - id: instagram-2013-12-09-212541-a-rare-moment-natalie-smiling-01
+  - id: "2013/12/09/17842411399063547.jpg"
     caption:
     alt:
 hashtags: []

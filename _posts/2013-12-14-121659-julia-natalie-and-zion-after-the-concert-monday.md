@@ -15,9 +15,9 @@ source:
   caption: "Julia, Natalie and Zion after the concert Monday"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2013-12-14-121659-julia-natalie-and-zion-after-the-concert-monday-01
+cover_image: "2013/12/14/17842413379063547.jpg"
 images:
-  - id: instagram-2013-12-14-121659-julia-natalie-and-zion-after-the-concert-monday-01
+  - id: "2013/12/14/17842413379063547.jpg"
     caption:
     alt:
 hashtags: []

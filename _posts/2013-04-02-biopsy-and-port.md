@@ -12,15 +12,15 @@ source:
   type: wordpress
   id: 16
   url: "https://jeffspatton.wordpress.com/2013/04/02/april-2-2013/"
-cover_image: "2013-04-02-wp-20130401-001-e1365782575379"
+cover_image: "2013/04/02/wp_20130401_001-e1365782575379.jpg"
 images:
-  - id: "2013-04-02-wp-20130401-001-e1365782575379"
+  - id: "2013/04/02/wp_20130401_001-e1365782575379.jpg"
     caption:
     alt:
-  - id: "2013-04-02-wp-20130402-001"
+  - id: "2013/04/02/wp_20130402_001.jpg"
     caption:
     alt:
-  - id: "2013-04-02-wp-20130403-002"
+  - id: "2013/04/02/wp_20130403_002.jpg"
     caption:
     alt:
 categories:

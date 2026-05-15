@@ -19,24 +19,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to This month my son will be 10yrs cancer free. He was diagnosed with hepatoblastoma at 2yrs ...."
 gallery: instagram-2023-09-02-065953-this-month-my-son-will-be-10yrs-cancer-free-he-was-diagnosed-with
-cover_image: instagram-2023-09-02-065953-this-month-my-son-will-be-10yrs-cancer-free-he-was-diagnosed-with-01
+cover_image: "2023/09/02/18086391085374415.jpg"
 images:
-  - id: instagram-2023-09-02-065953-this-month-my-son-will-be-10yrs-cancer-free-he-was-diagnosed-with-01
+  - id: "2023/09/02/18086391085374415.jpg"
     caption:
     alt:
-  - id: instagram-2023-09-02-065953-this-month-my-son-will-be-10yrs-cancer-free-he-was-diagnosed-with-02
+  - id: "2023/09/02/18044118523460621.jpg"
     caption:
     alt:
-  - id: instagram-2023-09-02-065953-this-month-my-son-will-be-10yrs-cancer-free-he-was-diagnosed-with-03
+  - id: "2023/09/02/18016280431780652.jpg"
     caption:
     alt:
-  - id: instagram-2023-09-02-065953-this-month-my-son-will-be-10yrs-cancer-free-he-was-diagnosed-with-04
+  - id: "2023/09/02/18005428678946036.jpg"
     caption:
     alt:
-  - id: instagram-2023-09-02-065953-this-month-my-son-will-be-10yrs-cancer-free-he-was-diagnosed-with-05
+  - id: "2023/09/02/17928290939748000.jpg"
     caption:
     alt:
-  - id: instagram-2023-09-02-065953-this-month-my-son-will-be-10yrs-cancer-free-he-was-diagnosed-with-06
+  - id: "2023/09/02/18010205578880939.jpg"
     caption:
     alt:
 related:

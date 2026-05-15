@@ -14,7 +14,7 @@ source:
   timestamp: 1680382853
   caption: "First tennis meet for Nathan at Jayhawk Tennis Center with lunch at Biemers after!"
   media_count: 7
-cover_image: instagram-2023-04-01-160053-first-tennis-meet-for-nathan-at-jayhawk-tennis-center-with-lunch-at-biemers-01
+cover_image: "2023/04/01/17987885092806136.jpg"
 related:
   - type: gallery
     id: instagram-2023-04-01-160053-first-tennis-meet-for-nathan-at-jayhawk-tennis-center-with-lunch-at-biemers

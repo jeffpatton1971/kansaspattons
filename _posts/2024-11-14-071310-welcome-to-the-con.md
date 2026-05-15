@@ -15,9 +15,9 @@ source:
   caption: "Welcome to the con."
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2024-11-14-071310-welcome-to-the-con-01
+cover_image: "2024/11/14/17896188654013045.jpg"
 images:
-  - id: instagram-2024-11-14-071310-welcome-to-the-con-01
+  - id: "2024/11/14/17896188654013045.jpg"
     caption:
     alt:
 hashtags: []

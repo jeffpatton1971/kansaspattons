@@ -19,24 +19,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Labrynth Project."
 gallery: wordpress-2013-05-08-081656-may-8-2013
-cover_image: "2013-05-08-wp-20130508-001"
+cover_image: "2013/05/08/wp_20130508_001.jpg"
 images:
-  - id: "2013-05-08-wp-20130508-001"
+  - id: "2013/05/08/wp_20130508_001.jpg"
     caption:
     alt:
-  - id: "2013-05-08-wp-20130508-002"
+  - id: "2013/05/08/wp_20130508_002.jpg"
     caption:
     alt:
-  - id: "2013-05-08-wp-20130508-003"
+  - id: "2013/05/08/wp_20130508_003.jpg"
     caption:
     alt:
-  - id: "2013-05-08-wp-20130508-014"
+  - id: "2013/05/08/wp_20130508_014.jpg"
     caption:
     alt:
-  - id: "2013-05-08-wp-20130508-015"
+  - id: "2013/05/08/wp_20130508_015.jpg"
     caption:
     alt:
-  - id: "2013-05-08-wp-20130508-016"
+  - id: "2013/05/08/wp_20130508_016.jpg"
     caption:
     alt:
 related:

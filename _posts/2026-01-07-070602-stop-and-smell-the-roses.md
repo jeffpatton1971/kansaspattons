@@ -15,7 +15,7 @@ source:
   caption: "Stop and smell the roses"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2026-01-07-070602-stop-and-smell-the-roses-01
+cover_image: "2026/01/07/18067610942165314.jpg"
 related:
   - type: gallery
     id: instagram-2026-01-07-070602-stop-and-smell-the-roses

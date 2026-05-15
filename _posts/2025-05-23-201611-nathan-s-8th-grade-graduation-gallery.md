@@ -19,24 +19,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Nathan’s 8th grade graduation."
 gallery: instagram-2025-05-23-201611-nathan-s-8th-grade-graduation
-cover_image: instagram-2025-05-23-201611-nathan-s-8th-grade-graduation-01
+cover_image: "2025/05/23/17873918301349085.jpg"
 images:
-  - id: instagram-2025-05-23-201611-nathan-s-8th-grade-graduation-01
+  - id: "2025/05/23/17873918301349085.jpg"
     caption:
     alt:
-  - id: instagram-2025-05-23-201611-nathan-s-8th-grade-graduation-02
+  - id: "2025/05/23/18114180736470440.jpg"
     caption:
     alt:
-  - id: instagram-2025-05-23-201611-nathan-s-8th-grade-graduation-03
+  - id: "2025/05/23/18057918803465939.jpg"
     caption:
     alt:
-  - id: instagram-2025-05-23-201611-nathan-s-8th-grade-graduation-04
+  - id: "2025/05/23/18046411895154137.jpg"
     caption:
     alt:
-  - id: instagram-2025-05-23-201611-nathan-s-8th-grade-graduation-05
+  - id: "2025/05/23/18026541674657204.jpg"
     caption:
     alt:
-  - id: instagram-2025-05-23-201611-nathan-s-8th-grade-graduation-06
+  - id: "2025/05/23/18042200651253926.jpg"
     caption:
     alt:
 related:

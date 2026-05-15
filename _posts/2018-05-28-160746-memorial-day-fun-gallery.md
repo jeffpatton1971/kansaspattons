@@ -17,21 +17,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to Memorial Day fun."
 gallery: instagram-2018-05-28-160746-memorial-day-fun
-cover_image: instagram-2018-05-28-160746-memorial-day-fun-01
+cover_image: "2018/05/28/17947700722001924.jpg"
 images:
-  - id: instagram-2018-05-28-160746-memorial-day-fun-01
+  - id: "2018/05/28/17947700722001924.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-28-160746-memorial-day-fun-02
+  - id: "2018/05/28/17948760925051856.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-28-160746-memorial-day-fun-03
+  - id: "2018/05/28/17934837643114723.mp4"
     caption:
     alt:
-  - id: instagram-2018-05-28-160746-memorial-day-fun-04
+  - id: "2018/05/28/17920239613152221.jpg"
     caption:
     alt:
-  - id: instagram-2018-05-28-160746-memorial-day-fun-05
+  - id: "2018/05/28/17924772316140990.jpg"
     caption:
     alt:
 related:

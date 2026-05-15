@@ -15,9 +15,9 @@ source:
   caption: "End of the school year tradtion…fries and shakes @bobos1948"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-05-20-154535-end-of-the-school-year-tradtion-fries-and-shakes-bobos1948-01
+cover_image: "2021/05/20/18090812713252710.jpg"
 images:
-  - id: instagram-2021-05-20-154535-end-of-the-school-year-tradtion-fries-and-shakes-bobos1948-01
+  - id: "2021/05/20/18090812713252710.jpg"
     caption:
     alt:
 hashtags: []

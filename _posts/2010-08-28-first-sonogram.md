@@ -12,7 +12,7 @@ source:
   type: wordpress
   id: 848
   url: "https://jeffspatton.wordpress.com/2010/08/28/august-28-2010/"
-cover_image: "2010-08-28-20100828-scan0001-22"
+cover_image: "2010/08/28/20100828-scan0001_22.jpg"
 related:
   - type: gallery
     id: wordpress-2010-08-28-235300-august-28-2010

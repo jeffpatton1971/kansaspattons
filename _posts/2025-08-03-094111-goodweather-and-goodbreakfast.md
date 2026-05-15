@@ -15,9 +15,9 @@ source:
   caption: "#goodweather and #goodbreakfast"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-08-03-094111-goodweather-and-goodbreakfast-01
+cover_image: "2025/08/03/17892371583292474.jpg"
 images:
-  - id: instagram-2025-08-03-094111-goodweather-and-goodbreakfast-01
+  - id: "2025/08/03/17892371583292474.jpg"
     caption:
     alt:
 hashtags:

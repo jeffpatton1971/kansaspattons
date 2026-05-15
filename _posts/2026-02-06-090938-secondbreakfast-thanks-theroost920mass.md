@@ -15,9 +15,9 @@ source:
   caption: "#secondbreakfast thanks @theroost920mass 🖤💛"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2026-02-06-090938-secondbreakfast-thanks-theroost920mass-01
+cover_image: "2026/02/06/18101211925885982.jpg"
 images:
-  - id: instagram-2026-02-06-090938-secondbreakfast-thanks-theroost920mass-01
+  - id: "2026/02/06/18101211925885982.jpg"
     caption:
     alt:
 hashtags:

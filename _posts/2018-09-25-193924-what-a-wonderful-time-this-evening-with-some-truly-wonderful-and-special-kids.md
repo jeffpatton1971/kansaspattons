@@ -15,7 +15,7 @@ source:
   caption: "What a wonderful time this evening with some truly wonderful and special kids!"
   media_count: 5
   cross_post_source: "FB"
-cover_image: instagram-2018-09-25-193924-what-a-wonderful-time-this-evening-with-some-truly-wonderful-and-special-kids-01
+cover_image: "2018/09/25/17954512633159548.jpg"
 related:
   - type: gallery
     id: instagram-2018-09-25-193924-what-a-wonderful-time-this-evening-with-some-truly-wonderful-and-special-kids

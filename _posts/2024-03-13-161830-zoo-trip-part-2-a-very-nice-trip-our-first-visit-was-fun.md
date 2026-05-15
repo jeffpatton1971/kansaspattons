@@ -15,7 +15,7 @@ source:
   caption: "Zoo trip part 2: a very nice trip our first visit was fun"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2024-03-13-161830-zoo-trip-part-2-a-very-nice-trip-our-first-visit-was-fun-01
+cover_image: "2024/03/13/17900923394955469.jpg"
 related:
   - type: gallery
     id: instagram-2024-03-13-161830-zoo-trip-part-2-a-very-nice-trip-our-first-visit-was-fun

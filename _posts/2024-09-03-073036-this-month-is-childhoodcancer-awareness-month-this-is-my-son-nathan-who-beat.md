@@ -15,9 +15,9 @@ source:
   caption: "This month is #childhoodcancer awareness month. This is my son Nathan who beat #hepatoblastoma 11yrs ago this month!  We think about all the children we met on our journey and not all of them were as lucky as he."
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2024-09-03-073036-this-month-is-childhoodcancer-awareness-month-this-is-my-son-nathan-who-beat-01
+cover_image: "2024/09/03/17868067323185446.jpg"
 images:
-  - id: instagram-2024-09-03-073036-this-month-is-childhoodcancer-awareness-month-this-is-my-son-nathan-who-beat-01
+  - id: "2024/09/03/17868067323185446.jpg"
     caption:
     alt:
 hashtags:

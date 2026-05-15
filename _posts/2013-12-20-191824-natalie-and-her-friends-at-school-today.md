@@ -15,9 +15,9 @@ source:
   caption: "Natalie and her friends at school today"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2013-12-20-191824-natalie-and-her-friends-at-school-today-01
+cover_image: "2013/12/20/17842416166063547.jpg"
 images:
-  - id: instagram-2013-12-20-191824-natalie-and-her-friends-at-school-today-01
+  - id: "2013/12/20/17842416166063547.jpg"
     caption:
     alt:
 hashtags: []

@@ -15,7 +15,7 @@ source:
   caption: "Some more from the #brictionary exhibit"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2024-03-12-195848-some-more-from-the-brictionary-exhibit-01
+cover_image: "2024/03/12/18024510352973978.jpg"
 related:
   - type: gallery
     id: instagram-2024-03-12-195848-some-more-from-the-brictionary-exhibit

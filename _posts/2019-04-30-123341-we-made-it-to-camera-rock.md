@@ -15,7 +15,7 @@ source:
   caption: "We made it to camera rock!"
   media_count: 8
   cross_post_source: "FB"
-cover_image: instagram-2019-04-30-123341-we-made-it-to-camera-rock-01
+cover_image: "2019/04/30/17877865900349096.jpg"
 related:
   - type: gallery
     id: instagram-2019-04-30-123341-we-made-it-to-camera-rock

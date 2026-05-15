@@ -8,7 +8,7 @@ date: 2024-06-25 19:55:03
 source:
   type: instagram
   id: instagram-2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely
-  media_count: "10"
+  media_count: "9"
   cross_post_source: FB
 tags:
   - oceancaymscmarinereserve
@@ -16,38 +16,35 @@ tags:
   - gallery
 authors:
   - "Jeff Patton"
-summary: "10 images related to Round 4 of cruise pictures these were at #oceancaymscmarinereserve lovely weather and lots...."
+summary: "9 images related to Round 4 of cruise pictures these were at #oceancaymscmarinereserve lovely weather and lots...."
 gallery: instagram-2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely
-cover_image: instagram-2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely-01
+cover_image: "2024/06/25/18043096612891372.jpg"
 images:
-  - id: instagram-2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely-01
+  - id: "2024/06/25/18043096612891372.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely-02
+  - id: "2024/06/25/17927701355874258.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely-03
+  - id: "2024/06/25/18039158227917532.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely-04
+  - id: "2024/06/25/18268803211239052.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely-05
+  - id: "2024/06/25/18050218456682791.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely-06
+  - id: "2024/06/25/18054385408630455.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely-07
+  - id: "2024/06/25/18030962126108229.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely-08
+  - id: "2024/06/25/18134995474339661.jpg"
     caption:
     alt:
-  - id: instagram-2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely-09
-    caption:
-    alt:
-  - id: instagram-2024-06-25-195503-round-4-of-cruise-pictures-these-were-at-oceancaymscmarinereserve-lovely-10
+  - id: "2024/06/25/18347769508114486.jpg"
     caption:
     alt:
 related:

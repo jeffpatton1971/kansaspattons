@@ -19,18 +19,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to Cycle Four."
 gallery: wordpress-2013-06-07-141440-june-7-2013
-cover_image: "2013-06-07-wp-20130607-015"
+cover_image: "2013/06/07/wp_20130607_015.jpg"
 images:
-  - id: "2013-06-07-wp-20130607-015"
+  - id: "2013/06/07/wp_20130607_015.jpg"
     caption:
     alt:
-  - id: "2013-06-07-wp-20130607-019"
+  - id: "2013/06/07/wp_20130607_019.jpg"
     caption:
     alt:
-  - id: "2013-06-07-wp-20130607-020"
+  - id: "2013/06/07/wp_20130607_020.jpg"
     caption:
     alt:
-  - id: "2013-06-07-wp-20130607-021"
+  - id: "2013/06/07/wp_20130607_021.jpg"
     caption:
     alt:
 related:

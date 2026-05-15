@@ -15,12 +15,12 @@ source:
   caption: "#lunch with Nathan #pizza"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2025-09-27-153219-lunch-with-nathan-pizza-01
+cover_image: "2025/09/27/17947115484051702.jpg"
 images:
-  - id: instagram-2025-09-27-153219-lunch-with-nathan-pizza-01
+  - id: "2025/09/27/17947115484051702.jpg"
     caption:
     alt:
-  - id: instagram-2025-09-27-153219-lunch-with-nathan-pizza-02
+  - id: "2025/09/27/18311727931173682.jpg"
     caption:
     alt:
 hashtags:

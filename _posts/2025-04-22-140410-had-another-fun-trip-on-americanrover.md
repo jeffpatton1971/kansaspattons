@@ -15,7 +15,7 @@ source:
   caption: "Had another fun trip on @americanrover"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover-01
+cover_image: "2025/04/22/17903829435150906.jpg"
 related:
   - type: gallery
     id: instagram-2025-04-22-140410-had-another-fun-trip-on-americanrover

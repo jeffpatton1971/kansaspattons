@@ -19,27 +19,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to PICU Day 2."
 gallery: wordpress-2013-07-25-135557-july-25-2013
-cover_image: "2013-07-25-wp-20130725-003"
+cover_image: "2013/07/25/wp_20130725_003.jpg"
 images:
-  - id: "2013-07-25-wp-20130725-003"
+  - id: "2013/07/25/wp_20130725_003.jpg"
     caption:
     alt:
-  - id: "2013-07-25-wp-20130725-005"
+  - id: "2013/07/25/wp_20130725_005.jpg"
     caption:
     alt:
-  - id: "2013-07-25-wp-20130725-007"
+  - id: "2013/07/25/wp_20130725_007.jpg"
     caption:
     alt:
-  - id: "2013-07-25-wp-20130725-009"
+  - id: "2013/07/25/wp_20130725_009.jpg"
     caption:
     alt:
-  - id: "2013-07-25-wp-20130725-011"
+  - id: "2013/07/25/wp_20130725_011.jpg"
     caption:
     alt:
-  - id: "2013-07-25-wp-20130725-012"
+  - id: "2013/07/25/wp_20130725_012.jpg"
     caption:
     alt:
-  - id: "2013-07-25-wp-20130725-015"
+  - id: "2013/07/25/wp_20130725_015.jpg"
     caption:
     alt:
 related:

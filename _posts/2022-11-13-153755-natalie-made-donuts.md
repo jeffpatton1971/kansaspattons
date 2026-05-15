@@ -15,9 +15,9 @@ source:
   caption: "Natalie made donuts"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2022-11-13-153755-natalie-made-donuts-01
+cover_image: "2022/11/13/17955046595227019.jpg"
 images:
-  - id: instagram-2022-11-13-153755-natalie-made-donuts-01
+  - id: "2022/11/13/17955046595227019.jpg"
     caption:
     alt:
 hashtags: []

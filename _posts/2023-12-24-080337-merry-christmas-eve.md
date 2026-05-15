@@ -15,9 +15,9 @@ source:
   caption: "Merry Christmas Eve"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-12-24-080337-merry-christmas-eve-01
+cover_image: "2023/12/24/17960980304686173.jpg"
 images:
-  - id: instagram-2023-12-24-080337-merry-christmas-eve-01
+  - id: "2023/12/24/17960980304686173.jpg"
     caption:
     alt:
 hashtags: []

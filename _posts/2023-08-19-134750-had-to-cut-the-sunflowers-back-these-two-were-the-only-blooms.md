@@ -15,9 +15,9 @@ source:
   caption: "had to cut the #sunflowers back…these two were the only blooms"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-08-19-134750-had-to-cut-the-sunflowers-back-these-two-were-the-only-blooms-01
+cover_image: "2023/08/19/17844044124049304.jpg"
 images:
-  - id: instagram-2023-08-19-134750-had-to-cut-the-sunflowers-back-these-two-were-the-only-blooms-01
+  - id: "2023/08/19/17844044124049304.jpg"
     caption:
     alt:
 hashtags:

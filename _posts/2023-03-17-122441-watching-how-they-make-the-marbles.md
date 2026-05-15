@@ -15,7 +15,7 @@ source:
   caption: "watching how they make the marbles"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2023-03-17-122441-watching-how-they-make-the-marbles-01
+cover_image: "2023/03/17/18214536121174875.jpg"
 related:
   - type: gallery
     id: instagram-2023-03-17-122441-watching-how-they-make-the-marbles

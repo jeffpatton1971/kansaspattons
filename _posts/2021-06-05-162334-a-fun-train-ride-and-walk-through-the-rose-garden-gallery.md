@@ -17,21 +17,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to A fun train ride and walk through the rose garden."
 gallery: instagram-2021-06-05-162334-a-fun-train-ride-and-walk-through-the-rose-garden
-cover_image: instagram-2021-06-05-162334-a-fun-train-ride-and-walk-through-the-rose-garden-01
+cover_image: "2021/06/05/17889333260309085.jpg"
 images:
-  - id: instagram-2021-06-05-162334-a-fun-train-ride-and-walk-through-the-rose-garden-01
+  - id: "2021/06/05/17889333260309085.jpg"
     caption:
     alt:
-  - id: instagram-2021-06-05-162334-a-fun-train-ride-and-walk-through-the-rose-garden-02
+  - id: "2021/06/05/18133911556170110.jpg"
     caption:
     alt:
-  - id: instagram-2021-06-05-162334-a-fun-train-ride-and-walk-through-the-rose-garden-03
+  - id: "2021/06/05/17919705550726583.jpg"
     caption:
     alt:
-  - id: instagram-2021-06-05-162334-a-fun-train-ride-and-walk-through-the-rose-garden-04
+  - id: "2021/06/05/17877249110465444.jpg"
     caption:
     alt:
-  - id: instagram-2021-06-05-162334-a-fun-train-ride-and-walk-through-the-rose-garden-05
+  - id: "2021/06/05/17871803555389780.jpg"
     caption:
     alt:
 related:

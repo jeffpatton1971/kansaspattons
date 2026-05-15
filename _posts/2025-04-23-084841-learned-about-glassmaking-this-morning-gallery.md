@@ -17,36 +17,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Learned about glassmaking this morning."
 gallery: instagram-2025-04-23-084841-learned-about-glassmaking-this-morning
-cover_image: instagram-2025-04-23-084841-learned-about-glassmaking-this-morning-01
+cover_image: "2025/04/23/17919485547084939.jpg"
 images:
-  - id: instagram-2025-04-23-084841-learned-about-glassmaking-this-morning-01
+  - id: "2025/04/23/17919485547084939.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-084841-learned-about-glassmaking-this-morning-02
+  - id: "2025/04/23/18003015149773473.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-084841-learned-about-glassmaking-this-morning-03
+  - id: "2025/04/23/18493787815026870.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-084841-learned-about-glassmaking-this-morning-04
+  - id: "2025/04/23/17849402640446044.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-084841-learned-about-glassmaking-this-morning-05
+  - id: "2025/04/23/17955925589929959.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-084841-learned-about-glassmaking-this-morning-06
+  - id: "2025/04/23/18064135664479002.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-084841-learned-about-glassmaking-this-morning-07
+  - id: "2025/04/23/18276270403253372.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-084841-learned-about-glassmaking-this-morning-08
+  - id: "2025/04/23/17906438157039522.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-084841-learned-about-glassmaking-this-morning-09
+  - id: "2025/04/23/18074577145851061.jpg"
     caption:
     alt:
-  - id: instagram-2025-04-23-084841-learned-about-glassmaking-this-morning-10
+  - id: "2025/04/23/18049039490078399.jpg"
     caption:
     alt:
 related:

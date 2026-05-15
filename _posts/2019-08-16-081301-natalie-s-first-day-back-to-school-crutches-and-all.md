@@ -15,12 +15,12 @@ source:
   caption: "Natalie’s first day back to school...crutches and all!"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2019-08-16-081301-natalie-s-first-day-back-to-school-crutches-and-all-01
+cover_image: "2019/08/16/18091171261053505.jpg"
 images:
-  - id: instagram-2019-08-16-081301-natalie-s-first-day-back-to-school-crutches-and-all-01
+  - id: "2019/08/16/18091171261053505.jpg"
     caption:
     alt:
-  - id: instagram-2019-08-16-081301-natalie-s-first-day-back-to-school-crutches-and-all-02
+  - id: "2019/08/16/18091227499033683.jpg"
     caption:
     alt:
 hashtags: []

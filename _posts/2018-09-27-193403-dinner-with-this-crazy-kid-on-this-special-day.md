@@ -15,9 +15,9 @@ source:
   caption: "Dinner with this crazy kid on this special day!!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2018-09-27-193403-dinner-with-this-crazy-kid-on-this-special-day-01
+cover_image: "2018/09/27/17969046424110466.jpg"
 images:
-  - id: instagram-2018-09-27-193403-dinner-with-this-crazy-kid-on-this-special-day-01
+  - id: "2018/09/27/17969046424110466.jpg"
     caption:
     alt:
 hashtags: []

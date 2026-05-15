@@ -15,7 +15,7 @@ source:
   caption: "Nathan’s class visited Farpoint tonight, we got to see the Milky Way and all the stars he’s been studying at school"
   media_count: 4
   cross_post_source: "FB"
-cover_image: instagram-2019-11-15-211849-nathan-s-class-visited-farpoint-tonight-we-got-to-see-the-milky-way-and-all-the-01
+cover_image: "2019/11/15/18113890117056130.jpg"
 related:
   - type: gallery
     id: instagram-2019-11-15-211849-nathan-s-class-visited-farpoint-tonight-we-got-to-see-the-milky-way-and-all-the

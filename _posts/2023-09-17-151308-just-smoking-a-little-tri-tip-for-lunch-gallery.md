@@ -18,21 +18,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to Just #smoking a little tri-tip for lunch."
 gallery: instagram-2023-09-17-151308-just-smoking-a-little-tri-tip-for-lunch
-cover_image: instagram-2023-09-17-151308-just-smoking-a-little-tri-tip-for-lunch-01
+cover_image: "2023/09/17/18018895147704439.jpg"
 images:
-  - id: instagram-2023-09-17-151308-just-smoking-a-little-tri-tip-for-lunch-01
+  - id: "2023/09/17/18018895147704439.jpg"
     caption:
     alt:
-  - id: instagram-2023-09-17-151308-just-smoking-a-little-tri-tip-for-lunch-02
+  - id: "2023/09/17/17864721239960139.jpg"
     caption:
     alt:
-  - id: instagram-2023-09-17-151308-just-smoking-a-little-tri-tip-for-lunch-03
+  - id: "2023/09/17/17981337989411497.jpg"
     caption:
     alt:
-  - id: instagram-2023-09-17-151308-just-smoking-a-little-tri-tip-for-lunch-04
+  - id: "2023/09/17/18003364139050508.jpg"
     caption:
     alt:
-  - id: instagram-2023-09-17-151308-just-smoking-a-little-tri-tip-for-lunch-05
+  - id: "2023/09/17/18008070376822760.jpg"
     caption:
     alt:
 related:

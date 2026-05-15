@@ -15,15 +15,15 @@ source:
   caption: "just a little #hardwork #yardwork on a breezy and sunny #kansas day"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2023-04-16-141843-just-a-little-hardwork-yardwork-on-a-breezy-and-sunny-kansas-day-01
+cover_image: "2023/04/16/17969443022128189.jpg"
 images:
-  - id: instagram-2023-04-16-141843-just-a-little-hardwork-yardwork-on-a-breezy-and-sunny-kansas-day-01
+  - id: "2023/04/16/17969443022128189.jpg"
     caption:
     alt:
-  - id: instagram-2023-04-16-141843-just-a-little-hardwork-yardwork-on-a-breezy-and-sunny-kansas-day-02
+  - id: "2023/04/16/18056577403394369.jpg"
     caption:
     alt:
-  - id: instagram-2023-04-16-141843-just-a-little-hardwork-yardwork-on-a-breezy-and-sunny-kansas-day-03
+  - id: "2023/04/16/18103285483313261.jpg"
     caption:
     alt:
 hashtags:

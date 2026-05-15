@@ -18,27 +18,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to Had a fun day on the #magmile."
 gallery: instagram-2025-09-12-201138-had-a-fun-day-on-the-magmile
-cover_image: instagram-2025-09-12-201138-had-a-fun-day-on-the-magmile-01
+cover_image: "2025/09/12/17842427064578408.jpg"
 images:
-  - id: instagram-2025-09-12-201138-had-a-fun-day-on-the-magmile-01
+  - id: "2025/09/12/17842427064578408.jpg"
     caption:
     alt:
-  - id: instagram-2025-09-12-201138-had-a-fun-day-on-the-magmile-02
+  - id: "2025/09/12/17973629501917242.jpg"
     caption:
     alt:
-  - id: instagram-2025-09-12-201138-had-a-fun-day-on-the-magmile-03
+  - id: "2025/09/12/18058848185117438.jpg"
     caption:
     alt:
-  - id: instagram-2025-09-12-201138-had-a-fun-day-on-the-magmile-04
+  - id: "2025/09/12/17923545993107766.jpg"
     caption:
     alt:
-  - id: instagram-2025-09-12-201138-had-a-fun-day-on-the-magmile-05
+  - id: "2025/09/12/17921749818157768.jpg"
     caption:
     alt:
-  - id: instagram-2025-09-12-201138-had-a-fun-day-on-the-magmile-06
+  - id: "2025/09/12/17918026074170415.jpg"
     caption:
     alt:
-  - id: instagram-2025-09-12-201138-had-a-fun-day-on-the-magmile-07
+  - id: "2025/09/12/18060361229098718.jpg"
     caption:
     alt:
 related:

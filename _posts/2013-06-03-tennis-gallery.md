@@ -18,24 +18,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to June 3, 2013."
 gallery: wordpress-2013-06-03-094750-june-3-2013-2
-cover_image: "2013-06-03-wp-20130603-010"
+cover_image: "2013/06/03/wp_20130603_010.jpg"
 images:
-  - id: "2013-06-03-wp-20130603-010"
+  - id: "2013/06/03/wp_20130603_010.jpg"
     caption:
     alt:
-  - id: "2013-06-03-wp-20130603-012"
+  - id: "2013/06/03/wp_20130603_012.jpg"
     caption:
     alt:
-  - id: "2013-06-03-wp-20130603-014"
+  - id: "2013/06/03/wp_20130603_014.jpg"
     caption:
     alt:
-  - id: "2013-06-03-wp-20130603-015"
+  - id: "2013/06/03/wp_20130603_015.jpg"
     caption:
     alt:
-  - id: "2013-06-03-wp-20130603-018"
+  - id: "2013/06/03/wp_20130603_018.jpg"
     caption:
     alt:
-  - id: "2013-06-03-wp-20130603-019"
+  - id: "2013/06/03/wp_20130603_019.jpg"
     caption:
     alt:
 related:

@@ -22,354 +22,354 @@ categories:
   - album
 tags: []
 gallery: facebook-2017-09-30-130250-buffalo-field-trip
-cover_image: facebook-2017-09-30-130250-buffalo-field-trip-0001
+cover_image: "2017/09/30/10155661074498340.jpg"
 images:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0001
+  - id: "2017/09/30/10155661074498340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0002
+  - id: "2017/09/30/10155661074643340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0003
+  - id: "2017/09/30/10155661074668340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0004
+  - id: "2017/09/30/10155661074683340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0005
+  - id: "2017/09/30/10155661074693340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0006
+  - id: "2017/09/30/10155661210003340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0007
+  - id: "2017/09/30/10155661210128340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0008
+  - id: "2017/09/30/10155661210138340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0009
+  - id: "2017/09/30/10155661210168340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0010
+  - id: "2017/09/30/10155661210178340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0011
+  - id: "2017/09/30/10155661210343340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0012
+  - id: "2017/09/30/10155661214398340.mp4"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0013
+  - id: "2017/09/30/10155661214453340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0014
+  - id: "2017/09/30/10155661214563340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0015
+  - id: "2017/09/30/10155661214638340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0016
+  - id: "2017/09/30/10155661214743340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0017
+  - id: "2017/09/30/10155661214868340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0018
+  - id: "2017/09/30/10155661218078340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0019
+  - id: "2017/09/30/10155661218083340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0020
+  - id: "2017/09/30/10155661218153340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0021
+  - id: "2017/09/30/10155661218168340.mp4"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0022
+  - id: "2017/09/30/10155661218263340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0023
+  - id: "2017/09/30/10155661218293340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0024
+  - id: "2017/09/30/10155661278093340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0025
+  - id: "2017/09/30/10155661278188340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0026
+  - id: "2017/09/30/10155661278258340.mp4"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0027
+  - id: "2017/09/30/10155661278278340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0028
+  - id: "2017/09/30/10155661278598340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0029
+  - id: "2017/09/30/10155661278603340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0030
+  - id: "2017/09/30/10155661278623340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0031
+  - id: "2017/09/30/10155661278828340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0032
+  - id: "2017/09/30/10155661278898340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0033
+  - id: "2017/09/30/10155661278943340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0034
+  - id: "2017/09/30/10155661279048340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0035
+  - id: "2017/09/30/10155661279093340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0036
+  - id: "2017/09/30/10155661279273340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0037
+  - id: "2017/09/30/10155661280183340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0038
+  - id: "2017/09/30/10155661280348340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0039
+  - id: "2017/09/30/10155661280388340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0040
+  - id: "2017/09/30/10155661280828340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0041
+  - id: "2017/09/30/10155661280963340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0042
+  - id: "2017/09/30/10155661281268340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0043
+  - id: "2017/09/30/10155661281338340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0044
+  - id: "2017/09/30/10155661281453340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0045
+  - id: "2017/09/30/10155661281468340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0046
+  - id: "2017/09/30/10155661281478340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0047
+  - id: "2017/09/30/10155661281973340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0048
+  - id: "2017/09/30/10155661281993340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0049
+  - id: "2017/09/30/10155661281998340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0050
+  - id: "2017/09/30/10155661282798340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0051
+  - id: "2017/09/30/10155661282913340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0052
+  - id: "2017/09/30/10155661283393340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0053
+  - id: "2017/09/30/10155661283508340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0054
+  - id: "2017/09/30/10155661283823340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0055
+  - id: "2017/09/30/10155661283943340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0056
+  - id: "2017/09/30/10155661284008340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0057
+  - id: "2017/09/30/10155661284483340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0058
+  - id: "2017/09/30/10155661284538340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0059
+  - id: "2017/09/30/10155661284713340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0060
+  - id: "2017/09/30/10155661285373340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0061
+  - id: "2017/09/30/10155661285433340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0062
+  - id: "2017/09/30/10155661285918340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0063
+  - id: "2017/09/30/10155661286138340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0064
+  - id: "2017/09/30/10155661286173340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0065
+  - id: "2017/09/30/10155661366293340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0066
+  - id: "2017/09/30/10155661366308340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0067
+  - id: "2017/09/30/10155661366348340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0068
+  - id: "2017/09/30/10155661366563340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0069
+  - id: "2017/09/30/10155661366608340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0070
+  - id: "2017/09/30/10155661366648340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0071
+  - id: "2017/09/30/10155661366743340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0072
+  - id: "2017/09/30/10155661366978340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0073
+  - id: "2017/09/30/10155661367073340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0074
+  - id: "2017/09/30/10155661367083340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0075
+  - id: "2017/09/30/10155661367358340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0076
+  - id: "2017/10/01/10155661368113340.mp4"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0077
+  - id: "2017/09/30/10155661368648340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0078
+  - id: "2017/10/01/10155662986298340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0079
+  - id: "2017/10/01/10155662986378340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0080
+  - id: "2017/10/01/10155662986383340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0081
+  - id: "2017/10/01/10155662986388340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0082
+  - id: "2017/10/01/10155662986938340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0083
+  - id: "2017/10/01/10155662987113340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0084
+  - id: "2017/10/01/10155662987123340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0085
+  - id: "2017/10/01/10155662987158340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0086
+  - id: "2017/10/01/10155662987418340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0087
+  - id: "2017/10/01/10155662987468340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0088
+  - id: "2017/10/01/10155662987503340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0089
+  - id: "2017/10/01/10155662987893340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0090
+  - id: "2017/10/01/10155662987898340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0091
+  - id: "2017/10/01/10155662987903340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0092
+  - id: "2017/10/01/10155662988203340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0093
+  - id: "2017/10/01/10155662988238340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0094
+  - id: "2017/10/01/10155662988273340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0095
+  - id: "2017/10/01/10155662988383340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0096
+  - id: "2017/10/01/10155662988518340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0097
+  - id: "2017/10/01/10155662988553340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0098
+  - id: "2017/10/01/10155662988563340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0099
+  - id: "2017/10/01/10155662988718340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0100
+  - id: "2017/10/01/10155662988743340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0101
+  - id: "2017/10/01/10155662988748340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0102
+  - id: "2017/10/01/10155662988868340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0103
+  - id: "2017/10/01/10155662988983340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0104
+  - id: "2017/10/01/10155662989298340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0105
+  - id: "2017/10/01/10155662989448340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0106
+  - id: "2017/10/01/10155662989478340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0107
+  - id: "2017/10/01/10155662989588340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0108
+  - id: "2017/10/01/10155662989693340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0109
+  - id: "2017/10/01/10155662989753340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0110
+  - id: "2017/10/01/10155662989773340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0111
+  - id: "2017/10/01/10155662989873340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0112
+  - id: "2017/10/01/10155662990118340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0113
+  - id: "2017/10/01/10155662990178340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0114
+  - id: "2017/10/01/10155662990188340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0115
+  - id: "2017/10/01/10155662990303340.jpg"
     caption:
     alt:
-  - id: facebook-2017-09-30-130250-buffalo-field-trip-0116
+  - id: "2017/10/01/10155662990323340.jpg"
     caption:
     alt:
 authors:

@@ -15,7 +15,7 @@ source:
   caption: "Time flies Natalie I hope you had a wonderful 18th birthday"
   media_count: 10
   cross_post_source: "FB"
-cover_image: instagram-2021-09-18-203902-time-flies-natalie-i-hope-you-had-a-wonderful-18th-birthday-01
+cover_image: "2021/09/18/17883331664407452.jpg"
 related:
   - type: gallery
     id: instagram-2021-09-18-203902-time-flies-natalie-i-hope-you-had-a-wonderful-18th-birthday

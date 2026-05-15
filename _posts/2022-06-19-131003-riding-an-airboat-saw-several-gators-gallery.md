@@ -17,27 +17,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to Riding an airboat…saw several gators!."
 gallery: instagram-2022-06-19-131003-riding-an-airboat-saw-several-gators
-cover_image: instagram-2022-06-19-131003-riding-an-airboat-saw-several-gators-01
+cover_image: "2022/06/19/17933570306255772.jpg"
 images:
-  - id: instagram-2022-06-19-131003-riding-an-airboat-saw-several-gators-01
+  - id: "2022/06/19/17933570306255772.jpg"
     caption:
     alt:
-  - id: instagram-2022-06-19-131003-riding-an-airboat-saw-several-gators-02
+  - id: "2022/06/19/17981549830534277.jpg"
     caption:
     alt:
-  - id: instagram-2022-06-19-131003-riding-an-airboat-saw-several-gators-03
+  - id: "2022/06/19/18307418584000027.jpg"
     caption:
     alt:
-  - id: instagram-2022-06-19-131003-riding-an-airboat-saw-several-gators-04
+  - id: "2022/06/19/18303539662050822.jpg"
     caption:
     alt:
-  - id: instagram-2022-06-19-131003-riding-an-airboat-saw-several-gators-05
+  - id: "2022/06/19/18143360839253085.jpg"
     caption:
     alt:
-  - id: instagram-2022-06-19-131003-riding-an-airboat-saw-several-gators-06
+  - id: "2022/06/19/17980781566553456.jpg"
     caption:
     alt:
-  - id: instagram-2022-06-19-131003-riding-an-airboat-saw-several-gators-07
+  - id: "2022/06/19/17937051902186775.mp4"
     caption:
     alt:
 related:

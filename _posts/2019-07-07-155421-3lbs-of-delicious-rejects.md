@@ -15,9 +15,9 @@ source:
   caption: "3lbs of delicious rejects!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-07-07-155421-3lbs-of-delicious-rejects-01
+cover_image: "2019/07/07/17869676938411694.jpg"
 images:
-  - id: instagram-2019-07-07-155421-3lbs-of-delicious-rejects-01
+  - id: "2019/07/07/17869676938411694.jpg"
     caption:
     alt:
 hashtags: []

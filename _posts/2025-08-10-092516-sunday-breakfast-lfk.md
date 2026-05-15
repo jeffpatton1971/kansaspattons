@@ -15,9 +15,9 @@ source:
   caption: "#sunday #breakfast #lfk"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2025-08-10-092516-sunday-breakfast-lfk-01
+cover_image: "2025/08/10/18096920764622674.jpg"
 images:
-  - id: instagram-2025-08-10-092516-sunday-breakfast-lfk-01
+  - id: "2025/08/10/18096920764622674.jpg"
     caption:
     alt:
 hashtags:

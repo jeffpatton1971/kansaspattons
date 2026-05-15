@@ -18,18 +18,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to #traditions always a good time @bobos1948 after schools out."
 gallery: instagram-2024-05-23-121751-traditions-always-a-good-time-bobos1948-after-schools-out
-cover_image: instagram-2024-05-23-121751-traditions-always-a-good-time-bobos1948-after-schools-out-01
+cover_image: "2024/05/23/17926530431864448.jpg"
 images:
-  - id: instagram-2024-05-23-121751-traditions-always-a-good-time-bobos1948-after-schools-out-01
+  - id: "2024/05/23/17926530431864448.jpg"
     caption:
     alt:
-  - id: instagram-2024-05-23-121751-traditions-always-a-good-time-bobos1948-after-schools-out-02
+  - id: "2024/05/23/18015436262518408.jpg"
     caption:
     alt:
-  - id: instagram-2024-05-23-121751-traditions-always-a-good-time-bobos1948-after-schools-out-03
+  - id: "2024/05/23/18042204571843092.jpg"
     caption:
     alt:
-  - id: instagram-2024-05-23-121751-traditions-always-a-good-time-bobos1948-after-schools-out-04
+  - id: "2024/05/23/18271951162226541.jpg"
     caption:
     alt:
 related:

@@ -15,7 +15,7 @@ source:
   caption: "Just a few of Natalies senior pictures"
   media_count: 6
   cross_post_source: "FB"
-cover_image: instagram-2021-10-16-072021-just-a-few-of-natalies-senior-pictures-01
+cover_image: "2021/10/16/17908414700162698.jpg"
 related:
   - type: gallery
     id: instagram-2021-10-16-072021-just-a-few-of-natalies-senior-pictures

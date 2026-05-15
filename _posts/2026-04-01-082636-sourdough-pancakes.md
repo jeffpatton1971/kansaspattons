@@ -15,9 +15,9 @@ source:
   caption: "Sourdough pancakes 🖤💛"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2026-04-01-082636-sourdough-pancakes-01
+cover_image: "2026/04/01/17873769177571471.jpg"
 images:
-  - id: instagram-2026-04-01-082636-sourdough-pancakes-01
+  - id: "2026/04/01/17873769177571471.jpg"
     caption:
     alt:
 hashtags: []

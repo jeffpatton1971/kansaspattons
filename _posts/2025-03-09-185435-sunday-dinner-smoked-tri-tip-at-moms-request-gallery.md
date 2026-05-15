@@ -17,30 +17,30 @@ authors:
   - "Jeff Patton"
 summary: "8 images related to Sunday dinner…smoked tri-tip at moms request."
 gallery: instagram-2025-03-09-185435-sunday-dinner-smoked-tri-tip-at-moms-request
-cover_image: instagram-2025-03-09-185435-sunday-dinner-smoked-tri-tip-at-moms-request-01
+cover_image: "2025/03/09/17963214647889773.jpg"
 images:
-  - id: instagram-2025-03-09-185435-sunday-dinner-smoked-tri-tip-at-moms-request-01
+  - id: "2025/03/09/17963214647889773.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-09-185435-sunday-dinner-smoked-tri-tip-at-moms-request-02
+  - id: "2025/03/09/18037363037214755.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-09-185435-sunday-dinner-smoked-tri-tip-at-moms-request-03
+  - id: "2025/03/09/17926809167922487.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-09-185435-sunday-dinner-smoked-tri-tip-at-moms-request-04
+  - id: "2025/03/09/18148207627364895.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-09-185435-sunday-dinner-smoked-tri-tip-at-moms-request-05
+  - id: "2025/03/09/18242048326303823.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-09-185435-sunday-dinner-smoked-tri-tip-at-moms-request-06
+  - id: "2025/03/09/18047262941520042.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-09-185435-sunday-dinner-smoked-tri-tip-at-moms-request-07
+  - id: "2025/03/09/18034831736265773.jpg"
     caption:
     alt:
-  - id: instagram-2025-03-09-185435-sunday-dinner-smoked-tri-tip-at-moms-request-08
+  - id: "2025/03/09/18026550218381513.jpg"
     caption:
     alt:
 related:

@@ -15,9 +15,9 @@ source:
   caption: "Happy Valentine's Day from the Patton's!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2015-02-14-092528-happy-valentine-s-day-from-the-patton-s-01
+cover_image: "2015/02/14/17843551822063547.jpg"
 images:
-  - id: instagram-2015-02-14-092528-happy-valentine-s-day-from-the-patton-s-01
+  - id: "2015/02/14/17843551822063547.jpg"
     caption:
     alt:
 hashtags: []

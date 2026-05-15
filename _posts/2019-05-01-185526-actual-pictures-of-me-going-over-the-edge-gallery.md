@@ -17,21 +17,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to Actual pictures of me going over the edge."
 gallery: instagram-2019-05-01-185526-actual-pictures-of-me-going-over-the-edge
-cover_image: instagram-2019-05-01-185526-actual-pictures-of-me-going-over-the-edge-01
+cover_image: "2019/05/01/17892384391322000.jpg"
 images:
-  - id: instagram-2019-05-01-185526-actual-pictures-of-me-going-over-the-edge-01
+  - id: "2019/05/01/17892384391322000.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-01-185526-actual-pictures-of-me-going-over-the-edge-02
+  - id: "2019/05/01/17943880288301619.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-01-185526-actual-pictures-of-me-going-over-the-edge-03
+  - id: "2019/05/01/18020366869170683.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-01-185526-actual-pictures-of-me-going-over-the-edge-04
+  - id: "2019/05/01/18020561779169507.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-01-185526-actual-pictures-of-me-going-over-the-edge-05
+  - id: "2019/05/01/17844471316437981.jpg"
     caption:
     alt:
 related:

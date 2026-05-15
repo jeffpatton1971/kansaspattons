@@ -15,9 +15,9 @@ source:
   caption: "Went to the Captain Marvel movie with one of my most favorite girls"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-04-19-220828-went-to-the-captain-marvel-movie-with-one-of-my-most-favorite-girls-01
+cover_image: "2019/04/19/17963722024254801.jpg"
 images:
-  - id: instagram-2019-04-19-220828-went-to-the-captain-marvel-movie-with-one-of-my-most-favorite-girls-01
+  - id: "2019/04/19/17963722024254801.jpg"
     caption:
     alt:
 hashtags: []

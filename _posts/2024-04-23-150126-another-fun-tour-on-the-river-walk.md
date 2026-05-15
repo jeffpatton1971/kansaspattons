@@ -15,7 +15,7 @@ source:
   caption: "Another fun tour on the River Walk"
   media_count: 7
   cross_post_source: "FB"
-cover_image: instagram-2024-04-23-150126-another-fun-tour-on-the-river-walk-01
+cover_image: "2024/04/23/18343302166129348.jpg"
 related:
   - type: gallery
     id: instagram-2024-04-23-150126-another-fun-tour-on-the-river-walk

@@ -15,9 +15,9 @@ source:
   caption: "Thanks for the wonderful experience!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2017-04-25-131518-thanks-for-the-wonderful-experience-01
+cover_image: "2017/04/25/17867110732105499.jpg"
 images:
-  - id: instagram-2017-04-25-131518-thanks-for-the-wonderful-experience-01
+  - id: "2017/04/25/17867110732105499.jpg"
     caption:
     alt:
 hashtags: []

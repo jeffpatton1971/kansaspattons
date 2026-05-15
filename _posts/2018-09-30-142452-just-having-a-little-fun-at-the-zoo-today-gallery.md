@@ -17,36 +17,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Just having a little fun at the zoo today!."
 gallery: instagram-2018-09-30-142452-just-having-a-little-fun-at-the-zoo-today
-cover_image: instagram-2018-09-30-142452-just-having-a-little-fun-at-the-zoo-today-01
+cover_image: "2018/09/30/17969785492129969.jpg"
 images:
-  - id: instagram-2018-09-30-142452-just-having-a-little-fun-at-the-zoo-today-01
+  - id: "2018/09/30/17969785492129969.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-30-142452-just-having-a-little-fun-at-the-zoo-today-02
+  - id: "2018/09/30/17986159495022821.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-30-142452-just-having-a-little-fun-at-the-zoo-today-03
+  - id: "2018/09/30/17976251653076116.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-30-142452-just-having-a-little-fun-at-the-zoo-today-04
+  - id: "2018/09/30/17954163490154042.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-30-142452-just-having-a-little-fun-at-the-zoo-today-05
+  - id: "2018/09/30/17942284243194999.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-30-142452-just-having-a-little-fun-at-the-zoo-today-06
+  - id: "2018/09/30/17894893903251908.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-30-142452-just-having-a-little-fun-at-the-zoo-today-07
+  - id: "2018/09/30/17910941068230061.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-30-142452-just-having-a-little-fun-at-the-zoo-today-08
+  - id: "2018/09/30/17886386398269438.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-30-142452-just-having-a-little-fun-at-the-zoo-today-09
+  - id: "2018/09/30/17968989157118600.jpg"
     caption:
     alt:
-  - id: instagram-2018-09-30-142452-just-having-a-little-fun-at-the-zoo-today-10
+  - id: "2018/09/30/17853894970293884.jpg"
     caption:
     alt:
 related:

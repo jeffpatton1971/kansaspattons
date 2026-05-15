@@ -12,9 +12,9 @@ source:
   type: wordpress
   id: 18
   url: "https://jeffspatton.wordpress.com/2013/04/10/april-10-2013/"
-cover_image: "2013-04-10-wp-20130410-008"
+cover_image: "2013/04/10/wp_20130410_008.jpg"
 images:
-  - id: "2013-04-10-wp-20130410-008"
+  - id: "2013/04/10/wp_20130410_008.jpg"
     caption:
     alt:
 categories:

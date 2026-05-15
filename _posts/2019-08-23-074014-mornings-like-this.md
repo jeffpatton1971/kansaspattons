@@ -15,9 +15,9 @@ source:
   caption: "Mornings like this"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-08-23-074014-mornings-like-this-01
+cover_image: "2019/08/23/18054662218161606.jpg"
 images:
-  - id: instagram-2019-08-23-074014-mornings-like-this-01
+  - id: "2019/08/23/18054662218161606.jpg"
     caption:
     alt:
 hashtags: []

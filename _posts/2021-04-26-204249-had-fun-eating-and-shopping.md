@@ -15,7 +15,7 @@ source:
   caption: "Had fun eating and shopping"
   media_count: 8
   cross_post_source: "FB"
-cover_image: instagram-2021-04-26-204249-had-fun-eating-and-shopping-01
+cover_image: "2021/04/26/17847146609560047.jpg"
 related:
   - type: gallery
     id: instagram-2021-04-26-204249-had-fun-eating-and-shopping

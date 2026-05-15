@@ -17,36 +17,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to Apparently I forgot to post pictures from the dance."
 gallery: instagram-2019-05-02-181837-apparently-i-forgot-to-post-pictures-from-the-dance
-cover_image: instagram-2019-05-02-181837-apparently-i-forgot-to-post-pictures-from-the-dance-01
+cover_image: "2019/05/02/18021193240171649.jpg"
 images:
-  - id: instagram-2019-05-02-181837-apparently-i-forgot-to-post-pictures-from-the-dance-01
+  - id: "2019/05/02/18021193240171649.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-02-181837-apparently-i-forgot-to-post-pictures-from-the-dance-02
+  - id: "2019/05/02/18052325527077910.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-02-181837-apparently-i-forgot-to-post-pictures-from-the-dance-03
+  - id: "2019/05/02/17843417470439911.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-02-181837-apparently-i-forgot-to-post-pictures-from-the-dance-04
+  - id: "2019/05/02/18060931717058169.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-02-181837-apparently-i-forgot-to-post-pictures-from-the-dance-05
+  - id: "2019/05/02/18052082437078198.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-02-181837-apparently-i-forgot-to-post-pictures-from-the-dance-06
+  - id: "2019/05/02/18056737900069146.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-02-181837-apparently-i-forgot-to-post-pictures-from-the-dance-07
+  - id: "2019/05/02/18040316980124982.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-02-181837-apparently-i-forgot-to-post-pictures-from-the-dance-08
+  - id: "2019/05/02/17967612373249496.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-02-181837-apparently-i-forgot-to-post-pictures-from-the-dance-09
+  - id: "2019/05/02/18060824503028363.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-02-181837-apparently-i-forgot-to-post-pictures-from-the-dance-10
+  - id: "2019/05/02/18053307136074666.jpg"
     caption:
     alt:
 related:

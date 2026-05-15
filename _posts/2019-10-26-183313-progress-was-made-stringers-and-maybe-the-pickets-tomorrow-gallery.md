@@ -17,24 +17,24 @@ authors:
   - "Jeff Patton"
 summary: "6 images related to Progress was made. Stringers and maybe the pickets tomorrow."
 gallery: instagram-2019-10-26-183313-progress-was-made-stringers-and-maybe-the-pickets-tomorrow
-cover_image: instagram-2019-10-26-183313-progress-was-made-stringers-and-maybe-the-pickets-tomorrow-01
+cover_image: "2019/10/26/18026747551243119.jpg"
 images:
-  - id: instagram-2019-10-26-183313-progress-was-made-stringers-and-maybe-the-pickets-tomorrow-01
+  - id: "2019/10/26/18026747551243119.jpg"
     caption:
     alt:
-  - id: instagram-2019-10-26-183313-progress-was-made-stringers-and-maybe-the-pickets-tomorrow-02
+  - id: "2019/10/26/17848208386681524.jpg"
     caption:
     alt:
-  - id: instagram-2019-10-26-183313-progress-was-made-stringers-and-maybe-the-pickets-tomorrow-03
+  - id: "2019/10/26/17893472356404634.jpg"
     caption:
     alt:
-  - id: instagram-2019-10-26-183313-progress-was-made-stringers-and-maybe-the-pickets-tomorrow-04
+  - id: "2019/10/26/18079142236189585.jpg"
     caption:
     alt:
-  - id: instagram-2019-10-26-183313-progress-was-made-stringers-and-maybe-the-pickets-tomorrow-05
+  - id: "2019/10/26/18027778771236867.jpg"
     caption:
     alt:
-  - id: instagram-2019-10-26-183313-progress-was-made-stringers-and-maybe-the-pickets-tomorrow-06
+  - id: "2019/10/26/17917758841355551.jpg"
     caption:
     alt:
 related:

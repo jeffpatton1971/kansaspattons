@@ -18,18 +18,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to pre-memorial day bbq #lookslikemeatsbackonthemenuboys."
 gallery: instagram-2023-05-28-134238-pre-memorial-day-bbq-lookslikemeatsbackonthemenuboys
-cover_image: instagram-2023-05-28-134238-pre-memorial-day-bbq-lookslikemeatsbackonthemenuboys-01
+cover_image: "2023/05/28/18364398727026030.jpg"
 images:
-  - id: instagram-2023-05-28-134238-pre-memorial-day-bbq-lookslikemeatsbackonthemenuboys-01
+  - id: "2023/05/28/18364398727026030.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-28-134238-pre-memorial-day-bbq-lookslikemeatsbackonthemenuboys-02
+  - id: "2023/05/28/17987857751038034.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-28-134238-pre-memorial-day-bbq-lookslikemeatsbackonthemenuboys-03
+  - id: "2023/05/28/17960403488347833.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-28-134238-pre-memorial-day-bbq-lookslikemeatsbackonthemenuboys-04
+  - id: "2023/05/28/17890383503828789.jpg"
     caption:
     alt:
 related:

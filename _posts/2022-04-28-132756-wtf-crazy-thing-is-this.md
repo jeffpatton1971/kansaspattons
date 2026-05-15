@@ -15,15 +15,15 @@ source:
   caption: "WTF crazy thing is this?"
   media_count: 3
   cross_post_source: "FB"
-cover_image: instagram-2022-04-28-132756-wtf-crazy-thing-is-this-01
+cover_image: "2022/04/28/18018109162364396.jpg"
 images:
-  - id: instagram-2022-04-28-132756-wtf-crazy-thing-is-this-01
+  - id: "2022/04/28/18018109162364396.jpg"
     caption:
     alt:
-  - id: instagram-2022-04-28-132756-wtf-crazy-thing-is-this-02
+  - id: "2022/04/28/17911731710369624.jpg"
     caption:
     alt:
-  - id: instagram-2022-04-28-132756-wtf-crazy-thing-is-this-03
+  - id: "2022/04/28/18133092973266418.jpg"
     caption:
     alt:
 hashtags: []

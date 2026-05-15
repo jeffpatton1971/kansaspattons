@@ -17,36 +17,36 @@ authors:
   - "Jeff Patton"
 summary: "10 images related to first time visiting and definitely glad to have gone. a lot of very cool aircraft and incr...."
 gallery: instagram-2023-05-12-144356-first-time-visiting-and-definitely-glad-to-have-gone-a-lot-of-very-cool
-cover_image: instagram-2023-05-12-144356-first-time-visiting-and-definitely-glad-to-have-gone-a-lot-of-very-cool-01
+cover_image: "2023/05/12/17900019119791997.jpg"
 images:
-  - id: instagram-2023-05-12-144356-first-time-visiting-and-definitely-glad-to-have-gone-a-lot-of-very-cool-01
+  - id: "2023/05/12/17900019119791997.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-12-144356-first-time-visiting-and-definitely-glad-to-have-gone-a-lot-of-very-cool-02
+  - id: "2023/05/12/17982900958972457.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-12-144356-first-time-visiting-and-definitely-glad-to-have-gone-a-lot-of-very-cool-03
+  - id: "2023/05/12/17957677238347903.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-12-144356-first-time-visiting-and-definitely-glad-to-have-gone-a-lot-of-very-cool-04
+  - id: "2023/05/12/18263575801181556.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-12-144356-first-time-visiting-and-definitely-glad-to-have-gone-a-lot-of-very-cool-05
+  - id: "2023/05/12/18083357812345719.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-12-144356-first-time-visiting-and-definitely-glad-to-have-gone-a-lot-of-very-cool-06
+  - id: "2023/05/12/17926245692695341.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-12-144356-first-time-visiting-and-definitely-glad-to-have-gone-a-lot-of-very-cool-07
+  - id: "2023/05/12/17915099111703446.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-12-144356-first-time-visiting-and-definitely-glad-to-have-gone-a-lot-of-very-cool-08
+  - id: "2023/05/12/17844753353980163.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-12-144356-first-time-visiting-and-definitely-glad-to-have-gone-a-lot-of-very-cool-09
+  - id: "2023/05/12/18008659396648761.jpg"
     caption:
     alt:
-  - id: instagram-2023-05-12-144356-first-time-visiting-and-definitely-glad-to-have-gone-a-lot-of-very-cool-10
+  - id: "2023/05/12/17930733935596783.jpg"
     caption:
     alt:
 related:

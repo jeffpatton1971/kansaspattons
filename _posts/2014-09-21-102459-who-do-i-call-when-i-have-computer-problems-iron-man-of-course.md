@@ -15,9 +15,9 @@ source:
   caption: "Who do I call when I have computer problems? Iron Man of course!"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-09-21-102459-who-do-i-call-when-i-have-computer-problems-iron-man-of-course-01
+cover_image: "2014/09/21/17843351410063547.jpg"
 images:
-  - id: instagram-2014-09-21-102459-who-do-i-call-when-i-have-computer-problems-iron-man-of-course-01
+  - id: "2014/09/21/17843351410063547.jpg"
     caption:
     alt:
 hashtags: []

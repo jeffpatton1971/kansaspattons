@@ -15,9 +15,9 @@ source:
   caption: "My favorite #warburton #mouthpiece it’s a workhorse #trumpetlife"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2020-02-14-184158-my-favorite-warburton-mouthpiece-it-s-a-workhorse-trumpetlife-01
+cover_image: "2020/02/14/17862568510674546.jpg"
 images:
-  - id: instagram-2020-02-14-184158-my-favorite-warburton-mouthpiece-it-s-a-workhorse-trumpetlife-01
+  - id: "2020/02/14/17862568510674546.jpg"
     caption:
     alt:
 hashtags:

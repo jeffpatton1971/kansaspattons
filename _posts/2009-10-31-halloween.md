@@ -7,7 +7,7 @@ post_id:         2009-10-31-halloween
 date:       2009-10-31 09:55:00 -0600
 source:
   type: wordpress
-cover_image: "2009-10-31-img58973"
+cover_image: "2009/10/31/img58973.jpg"
 related:
   - type: gallery
     id: gallery-2009-10-31-2

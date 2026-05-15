@@ -15,9 +15,9 @@ source:
   caption: "#goodmorning #hibiscus"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2021-06-26-101142-goodmorning-hibiscus-01
+cover_image: "2021/06/26/18030270166306579.jpg"
 images:
-  - id: instagram-2021-06-26-101142-goodmorning-hibiscus-01
+  - id: "2021/06/26/18030270166306579.jpg"
     caption:
     alt:
 hashtags:

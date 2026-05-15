@@ -18,18 +18,18 @@ authors:
   - "Jeff Patton"
 summary: "4 images related to #morningwalk."
 gallery: instagram-2024-10-14-072715-morningwalk
-cover_image: instagram-2024-10-14-072715-morningwalk-01
+cover_image: "2024/10/14/18115121224406105.jpg"
 images:
-  - id: instagram-2024-10-14-072715-morningwalk-01
+  - id: "2024/10/14/18115121224406105.jpg"
     caption:
     alt:
-  - id: instagram-2024-10-14-072715-morningwalk-02
+  - id: "2024/10/14/18307954312165532.jpg"
     caption:
     alt:
-  - id: instagram-2024-10-14-072715-morningwalk-03
+  - id: "2024/10/14/18254745946269637.jpg"
     caption:
     alt:
-  - id: instagram-2024-10-14-072715-morningwalk-04
+  - id: "2024/10/14/18120742360387755.jpg"
     caption:
     alt:
 related:

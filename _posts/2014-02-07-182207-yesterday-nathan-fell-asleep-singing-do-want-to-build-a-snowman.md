@@ -15,9 +15,9 @@ source:
   caption: "Yesterday Nathan fell asleep singing, \"Do want to build a snowman\""
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2014-02-07-182207-yesterday-nathan-fell-asleep-singing-do-want-to-build-a-snowman-01
+cover_image: "2014/02/07/17842441615063547.jpg"
 images:
-  - id: instagram-2014-02-07-182207-yesterday-nathan-fell-asleep-singing-do-want-to-build-a-snowman-01
+  - id: "2014/02/07/17842441615063547.jpg"
     caption:
     alt:
 hashtags: []

@@ -15,12 +15,12 @@ source:
   caption: "Lovely evening smoking #cicgars with former and current #rackers.  #family"
   media_count: 2
   cross_post_source: "FB"
-cover_image: instagram-2025-09-23-202803-lovely-evening-smoking-cicgars-with-former-and-current-rackers-family-01
+cover_image: "2025/09/23/18401319070139068.jpg"
 images:
-  - id: instagram-2025-09-23-202803-lovely-evening-smoking-cicgars-with-former-and-current-rackers-family-01
+  - id: "2025/09/23/18401319070139068.jpg"
     caption:
     alt:
-  - id: instagram-2025-09-23-202803-lovely-evening-smoking-cicgars-with-former-and-current-rackers-family-02
+  - id: "2025/09/23/18052138985281353.jpg"
     caption:
     alt:
 hashtags:

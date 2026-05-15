@@ -15,7 +15,7 @@ source:
   caption: "#morningwalk across campus"
   media_count: 5
   cross_post_source: "FB"
-cover_image: instagram-2025-06-24-071812-morningwalk-across-campus-01
+cover_image: "2025/06/24/17901009330090795.jpg"
 related:
   - type: gallery
     id: instagram-2025-06-24-071812-morningwalk-across-campus

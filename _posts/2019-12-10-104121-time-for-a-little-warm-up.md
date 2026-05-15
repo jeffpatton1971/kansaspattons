@@ -15,9 +15,9 @@ source:
   caption: "Time for a little warm-up"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2019-12-10-104121-time-for-a-little-warm-up-01
+cover_image: "2019/12/10/17900860885410273.jpg"
 images:
-  - id: instagram-2019-12-10-104121-time-for-a-little-warm-up-01
+  - id: "2019/12/10/17900860885410273.jpg"
     caption:
     alt:
 hashtags: []

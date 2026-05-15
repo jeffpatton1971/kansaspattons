@@ -17,21 +17,21 @@ authors:
   - "Jeff Patton"
 summary: "5 images related to After a visit with the audiologists at @childrensmercy off to have some fun at @daveandbus...."
 gallery: instagram-2019-05-30-201215-after-a-visit-with-the-audiologists-at-childrensmercy-off-to-have-some-fun-at
-cover_image: instagram-2019-05-30-201215-after-a-visit-with-the-audiologists-at-childrensmercy-off-to-have-some-fun-at-01
+cover_image: "2019/05/30/18044474836140977.jpg"
 images:
-  - id: instagram-2019-05-30-201215-after-a-visit-with-the-audiologists-at-childrensmercy-off-to-have-some-fun-at-01
+  - id: "2019/05/30/18044474836140977.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-30-201215-after-a-visit-with-the-audiologists-at-childrensmercy-off-to-have-some-fun-at-02
+  - id: "2019/05/30/18070990864033474.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-30-201215-after-a-visit-with-the-audiologists-at-childrensmercy-off-to-have-some-fun-at-03
+  - id: "2019/05/30/17994827809227924.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-30-201215-after-a-visit-with-the-audiologists-at-childrensmercy-off-to-have-some-fun-at-04
+  - id: "2019/05/30/17842809529468932.jpg"
     caption:
     alt:
-  - id: instagram-2019-05-30-201215-after-a-visit-with-the-audiologists-at-childrensmercy-off-to-have-some-fun-at-05
+  - id: "2019/05/30/17967371011262923.jpg"
     caption:
     alt:
 related:

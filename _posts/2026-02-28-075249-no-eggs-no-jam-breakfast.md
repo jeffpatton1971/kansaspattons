@@ -15,9 +15,9 @@ source:
   caption: "No eggs…no jam… #breakfast 😂😂"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2026-02-28-075249-no-eggs-no-jam-breakfast-01
+cover_image: "2026/02/28/18054780305701904.jpg"
 images:
-  - id: instagram-2026-02-28-075249-no-eggs-no-jam-breakfast-01
+  - id: "2026/02/28/18054780305701904.jpg"
     caption:
     alt:
 hashtags:

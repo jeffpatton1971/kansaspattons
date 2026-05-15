@@ -17,27 +17,27 @@ authors:
   - "Jeff Patton"
 summary: "7 images related to A little Boo at the Zoo fun today!."
 gallery: instagram-2018-10-27-134711-a-little-boo-at-the-zoo-fun-today
-cover_image: instagram-2018-10-27-134711-a-little-boo-at-the-zoo-fun-today-01
+cover_image: "2018/10/27/17985768700079045.jpg"
 images:
-  - id: instagram-2018-10-27-134711-a-little-boo-at-the-zoo-fun-today-01
+  - id: "2018/10/27/17985768700079045.jpg"
     caption:
     alt:
-  - id: instagram-2018-10-27-134711-a-little-boo-at-the-zoo-fun-today-02
+  - id: "2018/10/27/17992071472019851.jpg"
     caption:
     alt:
-  - id: instagram-2018-10-27-134711-a-little-boo-at-the-zoo-fun-today-03
+  - id: "2018/10/27/17915196253244998.jpg"
     caption:
     alt:
-  - id: instagram-2018-10-27-134711-a-little-boo-at-the-zoo-fun-today-04
+  - id: "2018/10/27/17977957279114868.jpg"
     caption:
     alt:
-  - id: instagram-2018-10-27-134711-a-little-boo-at-the-zoo-fun-today-05
+  - id: "2018/10/27/17980844617107897.jpg"
     caption:
     alt:
-  - id: instagram-2018-10-27-134711-a-little-boo-at-the-zoo-fun-today-06
+  - id: "2018/10/27/17992192078020878.jpg"
     caption:
     alt:
-  - id: instagram-2018-10-27-134711-a-little-boo-at-the-zoo-fun-today-07
+  - id: "2018/10/27/17994515836015554.jpg"
     caption:
     alt:
 related:

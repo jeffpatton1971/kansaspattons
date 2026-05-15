@@ -15,9 +15,9 @@ source:
   caption: "Just some baby birds in a nest above the deck"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2020-04-07-175011-just-some-baby-birds-in-a-nest-above-the-deck-01
+cover_image: "2020/04/07/18099922843082547.jpg"
 images:
-  - id: instagram-2020-04-07-175011-just-some-baby-birds-in-a-nest-above-the-deck-01
+  - id: "2020/04/07/18099922843082547.jpg"
     caption:
     alt:
 hashtags: []

@@ -15,9 +15,9 @@ source:
   caption: "we are brother and sister but we are not the same"
   media_count: 1
   cross_post_source: "FB"
-cover_image: instagram-2023-06-17-182818-we-are-brother-and-sister-but-we-are-not-the-same-01
+cover_image: "2023/06/17/18220424722237931.jpg"
 images:
-  - id: instagram-2023-06-17-182818-we-are-brother-and-sister-but-we-are-not-the-same-01
+  - id: "2023/06/17/18220424722237931.jpg"
     caption:
     alt:
 hashtags: []

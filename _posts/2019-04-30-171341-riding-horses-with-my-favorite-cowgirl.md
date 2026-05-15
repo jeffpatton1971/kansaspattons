@@ -15,7 +15,7 @@ source:
   caption: "Riding horses with my favorite cowgirl"
   media_count: 8
   cross_post_source: "FB"
-cover_image: instagram-2019-04-30-171341-riding-horses-with-my-favorite-cowgirl-01
+cover_image: "2019/04/30/18035027176094459.jpg"
 related:
   - type: gallery
     id: instagram-2019-04-30-171341-riding-horses-with-my-favorite-cowgirl
