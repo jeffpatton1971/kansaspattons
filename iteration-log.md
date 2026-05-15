@@ -807,10 +807,17 @@ Detailed working notes for the React migration live here. This file is intention
 - Follow-up story page layout adjustment:
   - Added a story-specific detail grid so the center column is capped around the story media instead of using the broad archive/post column.
   - This keeps the right-rail metric badges visually closer to the story content and removes the large empty band between the image and metrics.
+  - Re-anchored that grid to the normal page start so the layout stays aligned with the title/nav instead of being centered in the viewport.
+- Follow-up detail shell adjustment:
+  - Replaced the story-only detail grid with a shared `page--detail` shell for posts and stories.
+  - The detail shell keeps a three-column body but gives the right rail a real proportional column instead of a narrow fixed card lane.
+  - Post and story detail content now fills the center lane, so a post without images no longer leaves a large unused band before the metrics.
 - Verification:
   - `npm run build` passed and generated `1,109` entries, `305` galleries, and `8,528` images.
   - Follow-up `npm run build` passed with the story image sizing adjustment.
   - Follow-up `npm run build` passed with the story detail grid adjustment.
+  - Follow-up `npm run build` passed with the story detail grid re-anchoring.
+  - Follow-up `npm run build` passed with the shared post/story detail shell.
 
 ### Post And Story Card Shapes
 

@@ -236,9 +236,8 @@ button {
   grid-template-columns: minmax(260px, 16vw) minmax(0, 1fr) minmax(170px, 220px);
 }
 
-.page--story-detail {
-  grid-template-columns: minmax(240px, 300px) minmax(0, 720px) minmax(170px, 220px);
-  justify-content: center;
+.page--detail {
+  grid-template-columns: minmax(260px, 18vw) minmax(0, 1fr) minmax(220px, 18vw);
 }
 
 .archive-main {
@@ -1080,7 +1079,7 @@ h1 {
 }
 
 .post-detail {
-  max-width: 820px;
+  max-width: none;
 }
 
 .post-detail header {

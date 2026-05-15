@@ -97,7 +97,7 @@ function EntryDetailPage({
   const isStory = basePath === '/stories';
 
   return (
-    <main className={isStory ? 'page page--archive page--story-detail' : 'page page--archive'}>
+    <main className="page page--archive page--detail">
       <div className="archive-rail archive-rail--left">
         <ArchiveCalendar
           basePath={basePath}
