@@ -14,6 +14,8 @@ Status: documented target shape with an initial validator.
   should not be reintroduced.
 - Keep `categories` provisional until a real site-section taxonomy is needed.
 - Treat import `source` data as optional legacy metadata.
+- Generate `taxonomy.json` so category and hashtag lists can be reviewed as
+  data instead of pulled from ad hoc scripts.
 
 Next work:
 
@@ -91,6 +93,8 @@ Next work:
 
 - Make hashtags clickable everywhere they render.
 - Add a cross-type hashtag results page.
+- Add category browse pages if categories continue to be useful as curated
+  sections.
 - Add search across title, summary, body, captions, hashtags, people, and
   locations.
 - Finish video rendering and poster handling.

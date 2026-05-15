@@ -11,7 +11,7 @@ source:
   media_count: "7"
   cross_post_source: FB
 categories:
-  - CPLS
+  - "Cair Paravel"
   - Spring
 authors:
   - "Jeff Patton"

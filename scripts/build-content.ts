@@ -41,6 +41,25 @@ type SourceCount = {
   href: string;
 };
 
+type TaxonomyContentType = 'post' | 'story' | 'gallery';
+
+type TaxonomyContentRef = {
+  id: string;
+  type: TaxonomyContentType;
+  title: string;
+  date: string;
+  route: string;
+};
+
+type TaxonomyTerm = {
+  value: string;
+  label: string;
+  slug: string;
+  count: number;
+  href: string;
+  items: TaxonomyContentRef[];
+};
+
 type EntrySource = {
   type?: string;
   subtype?: string;
@@ -276,6 +295,8 @@ async function main() {
     recentImages: images.slice(0, 10),
     sourceCounts,
   });
+
+  await writeJson('taxonomy.json', buildTaxonomy([...blogPosts, ...stories], gallerySummaries));
 
   console.log(`Generated ${posts.length} entries, ${galleries.length} galleries, and ${images.length} images.`);
 }
@@ -719,6 +740,125 @@ function archiveSourceCounts(
       href: '/galleries?source=facebook',
     },
   ];
+}
+
+function buildTaxonomy(entries: PostSummary[], galleries: GallerySummary[]) {
+  const hashtags = new Map<string, TaxonomyTerm>();
+  const categories = new Map<string, TaxonomyTerm>();
+
+  for (const entry of entries) {
+    const ref = taxonomyRef(entry);
+
+    for (const hashtag of entry.hashtags) {
+      addTaxonomyTerm(hashtags, {
+        value: normalizeHashtag(hashtag),
+        label: `#${normalizeHashtag(hashtag)}`,
+        hrefBase: '/hashtags',
+        ref,
+      });
+    }
+
+    for (const category of entry.categories) {
+      addTaxonomyTerm(categories, {
+        value: category,
+        label: category,
+        hrefBase: '/categories',
+        ref,
+      });
+    }
+  }
+
+  for (const gallery of galleries) {
+    const ref = taxonomyRef(gallery);
+
+    for (const category of gallery.categories) {
+      addTaxonomyTerm(categories, {
+        value: category,
+        label: category,
+        hrefBase: '/categories',
+        ref,
+      });
+    }
+  }
+
+  return {
+    generatedAt: new Date().toISOString(),
+    hashtags: sortedTaxonomyTerms(hashtags),
+    categories: sortedTaxonomyTerms(categories),
+  };
+}
+
+function addTaxonomyTerm(
+  terms: Map<string, TaxonomyTerm>,
+  {
+    value,
+    label,
+    hrefBase,
+    ref,
+  }: {
+    value: string;
+    label: string;
+    hrefBase: string;
+    ref: TaxonomyContentRef;
+  },
+) {
+  if (!value) {
+    return;
+  }
+
+  const slug = taxonomySlug(value);
+  const existing =
+    terms.get(slug) ??
+    ({
+      value,
+      label,
+      slug,
+      count: 0,
+      href: `${hrefBase}/${encodeURIComponent(slug)}`,
+      items: [],
+    } satisfies TaxonomyTerm);
+
+  if (!existing.items.some((item) => item.id === ref.id && item.type === ref.type)) {
+    existing.items.push(ref);
+    existing.count += 1;
+  }
+
+  terms.set(slug, existing);
+}
+
+function sortedTaxonomyTerms(terms: Map<string, TaxonomyTerm>) {
+  return [...terms.values()]
+    .map((term) => ({
+      ...term,
+      items: term.items.sort((a, b) => b.date.localeCompare(a.date)),
+    }))
+    .sort((a, b) => a.label.localeCompare(b.label));
+}
+
+function taxonomyRef(item: PostSummary | GallerySummary): TaxonomyContentRef {
+  return {
+    id: item.id,
+    type: item.type === 'article' ? 'post' : item.type,
+    title: item.title,
+    date: item.date,
+    route: item.route,
+  };
+}
+
+function taxonomySlug(value: string) {
+  return value
+    .normalize('NFKC')
+    .trim()
+    .toLowerCase()
+    .replace(/^#+/, '')
+    .replace(/['’]/g, '')
+    .replace(/&/g, ' and ')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+function normalizeHashtag(value: string) {
+  return value.normalize('NFKC').trim().replace(/^#+/, '').replace(/\s+/g, '').toLowerCase();
 }
 
 function recentHomeEntries(

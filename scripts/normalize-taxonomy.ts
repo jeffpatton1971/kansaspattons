@@ -21,8 +21,30 @@ const write = process.argv.includes('--write');
 const sourceTaxonomy = new Set(['wordpress', 'instagram', 'facebook']);
 const migrationTaxonomy = new Set(['gallery', 'album']);
 const removedTaxonomy = new Set([...sourceTaxonomy, ...migrationTaxonomy]);
-const categoryAcronyms = new Map([
-  ['cpls', 'CPLS'],
+const categoryAliases = new Map([
+  ['birthdays', 'Birthday'],
+  ['july 4th', 'July 4th'],
+  ['july fourth', 'July 4th'],
+  ['fourth of july', 'July 4th'],
+  ['4th of july', 'July 4th'],
+  ['new year', 'New Year'],
+  ['new years', 'New Year'],
+  ["new year's", 'New Year'],
+  ['new years day', 'New Year'],
+  ["new year's day", 'New Year'],
+  ['cpls', 'Cair Paravel'],
+  ['cair paravel', 'Cair Paravel'],
+  ['cair paravel latin school', 'Cair Paravel'],
+  ['crown-center', 'Crown Center'],
+  ['crown center', 'Crown Center'],
+  ['field-day', 'Field Day'],
+  ['field day', 'Field Day'],
+  ['field-trips', 'Field Trips'],
+  ['field trips', 'Field Trips'],
+  ['first-grade', 'First Grade'],
+  ['first grade', 'First Grade'],
+  ['last-day', 'Last Day'],
+  ['last day', 'Last Day'],
 ]);
 
 const stats: Stats = {
@@ -148,7 +170,8 @@ function normalizeCategories(values: string[]) {
       continue;
     }
 
-    normalized.set(key, categoryLabel(key));
+    const label = categoryLabel(key);
+    normalized.set(label.toLowerCase(), label);
   }
 
   return {
@@ -171,10 +194,10 @@ function normalizeCategoryKey(value: string) {
 }
 
 function categoryLabel(key: string) {
-  const acronym = categoryAcronyms.get(key);
+  const alias = categoryAliases.get(key);
 
-  if (acronym) {
-    return acronym;
+  if (alias) {
+    return alias;
   }
 
   return key

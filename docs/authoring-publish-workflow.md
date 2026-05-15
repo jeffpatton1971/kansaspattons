@@ -250,6 +250,17 @@ That migration folds `tags` into normalized `hashtags`, removes import/source
 labels such as `wordpress`, `instagram`, `facebook`, `gallery`, and `album`
 from user-facing taxonomy fields, and normalizes duplicate category casing.
 
+The content build emits the current aggregate taxonomy list to:
+
+```text
+public/content/taxonomy.json
+dist/content/taxonomy.json
+```
+
+The category alias rules currently merge common wording variants such as
+`Birthdays` into `Birthday`, `Fourth Of July` into `July 4th`, `New Years Day`
+into `New Year`, and `CPLS` / `Cair Paravel Latin School` into `Cair Paravel`.
+
 ## Collision Policy
 
 Filename collisions are acceptable during draft authoring because filenames are scoped at publish time.

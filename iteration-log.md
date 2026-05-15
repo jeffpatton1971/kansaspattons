@@ -1287,3 +1287,69 @@ Detailed working notes for the React migration live here. This file is intention
   - `npm run build` passed and generated `1,109` entries, `305` galleries, and
     `8,526` images.
   - `npm run api:build` passed.
+
+### Taxonomy Aliases And Generated Index
+
+- Agreed that categories should remain curated human-facing buckets: proper
+  nouns, names, seasons, holidays, and meaningful site sections.
+- Added category aliases to `normalize-taxonomy.ts`:
+  - `Birthdays` -> `Birthday`
+  - `July Fourth`, `Fourth Of July`, `4th Of July` -> `July 4th`
+  - `New Years`, `New Years Day`, `New Year's Day` -> `New Year`
+  - `CPLS`, `Cair Paravel Latin School` -> `Cair Paravel`
+  - `Crown-Center` -> `Crown Center`
+  - `Field-Day` -> `Field Day`
+  - `Field-Trips` -> `Field Trips`
+  - `First-Grade` -> `First Grade`
+  - `Last-Day` -> `Last Day`
+- Applied the alias pass:
+  - `26` content files changed.
+  - Only category fields changed.
+- Added generated `public/content/taxonomy.json` during the content build:
+  - `hashtags`: generated hashtag terms with counts and related content refs.
+  - `categories`: generated category terms with counts and related content refs.
+- Current generated taxonomy counts:
+  - `213` hashtag terms.
+  - `31` category terms.
+- The current category list is:
+  - `Birthday`
+  - `Blog`
+  - `Cair Paravel`
+  - `Cancer`
+  - `Children`
+  - `Christmas`
+  - `Concerts`
+  - `Crown Center`
+  - `Easter`
+  - `Fall`
+  - `Family`
+  - `Field Day`
+  - `Field Trips`
+  - `First Grade`
+  - `Grandma`
+  - `Grandpa`
+  - `Halloween`
+  - `Holidays`
+  - `July 4th`
+  - `Last Day`
+  - `Natalie`
+  - `Nathan`
+  - `New Year`
+  - `Sarah`
+  - `Site`
+  - `Spring`
+  - `Summer`
+  - `Tennis`
+  - `Thanksgiving`
+  - `Winter`
+  - `Zoo`
+- Still-open taxonomy modeling:
+  - People-like categories such as `Nathan`, `Natalie`, `Sarah`, `Grandma`, and
+    `Grandpa` should likely migrate to `people`.
+  - Place-like categories such as `Cair Paravel` and `Crown Center` may migrate
+    to `location` or remain categories if used as curated sections.
+- Verification:
+  - `npm run taxonomy:normalize` reports zero pending changes.
+  - `npm run content:validate` passed with `0` errors and `0` warnings.
+  - `npm run build` passed and generated `taxonomy.json`.
+  - `npm run api:build` passed.

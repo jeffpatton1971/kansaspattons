@@ -8,8 +8,8 @@ date: 2009-10-28 09:55:00 -0600
 source:
   type: wordpress
 categories:
-  - CPLS
-  - Field-Trips
+  - "Cair Paravel"
+  - "Field Trips"
   - Natalie
 authors:
   - Jeff

@@ -18,8 +18,8 @@ related:
     id: wordpress-2013-04-29-221344-april-29-2013
     rel: photos
 categories:
-  - CPLS
-  - Field-Trips
+  - "Cair Paravel"
+  - "Field Trips"
   - Natalie
 authors:
   - "Jeff Patton"

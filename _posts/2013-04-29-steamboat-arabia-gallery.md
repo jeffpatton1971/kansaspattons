@@ -10,8 +10,8 @@ source:
   id: "402"
   url: "https://jeffspatton.wordpress.com/2013/04/29/april-29-2013/"
 categories:
-  - CPLS
-  - Field-Trips
+  - "Cair Paravel"
+  - "Field Trips"
   - Natalie
 authors:
   - "Jeff Patton"

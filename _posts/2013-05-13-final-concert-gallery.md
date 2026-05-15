@@ -10,8 +10,8 @@ source:
   id: "446"
   url: "https://jeffspatton.wordpress.com/2013/05/13/may-13-2013/"
 categories:
+  - "Cair Paravel"
   - Concerts
-  - CPLS
   - Natalie
 authors:
   - "Jeff Patton"

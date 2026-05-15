@@ -26,7 +26,7 @@ handles:
   - "crystalbridgesmuseum"
 location:
 categories:
-  - "CPLS"
+  - "Cair Paravel"
 authors:
   - "Jeff Patton"
 summary: "Enjoying an afternoon @crystalbridgesmuseum #cpls"

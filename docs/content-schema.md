@@ -22,6 +22,7 @@ Authored Markdown has now been normalized so topical `tags` are folded into
 public/content/
   home.json
   site.json
+  taxonomy.json
   entries/index.json
   posts/index.json
   posts/yyyy/mm/dd/post-slug.json
@@ -30,6 +31,51 @@ public/content/
   galleries/index.json
   galleries/yyyy/mm/dd/gallery-slug.json
   images/index.json
+```
+
+## Taxonomy Index
+
+`taxonomy.json` is the generated review/browse index for user-facing taxonomy.
+It is built from the normalized `hashtags` and `categories` on posts, stories,
+and galleries.
+
+```ts
+type TaxonomyIndex = {
+  generatedAt: string;
+  hashtags: TaxonomyTerm[];
+  categories: TaxonomyTerm[];
+};
+
+type TaxonomyTerm = {
+  value: string;
+  label: string;
+  slug: string;
+  count: number;
+  href: string;
+  items: TaxonomyContentRef[];
+};
+
+type TaxonomyContentRef = {
+  id: string;
+  type: "post" | "story" | "gallery";
+  title: string;
+  date: string;
+  route: string;
+};
+```
+
+Current category aliases normalize obvious wording variants:
+
+```text
+Birthdays -> Birthday
+July Fourth / Fourth Of July / 4th Of July -> July 4th
+New Years / New Years Day / New Year's Day -> New Year
+CPLS / Cair Paravel Latin School -> Cair Paravel
+Crown-Center -> Crown Center
+Field-Day -> Field Day
+Field-Trips -> Field Trips
+First-Grade -> First Grade
+Last-Day -> Last Day
 ```
 
 ## Site Summary

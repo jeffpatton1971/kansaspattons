@@ -11,7 +11,7 @@ source:
   media_count: "6"
   cross_post_source: FB
 categories:
-  - CPLS
+  - "Cair Paravel"
 authors:
   - "Jeff Patton"
 summary: "6 images related to Enjoying an afternoon @crystalbridgesmuseum #cpls."

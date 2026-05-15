@@ -10,8 +10,8 @@ source:
   id: "464"
   url: "https://jeffspatton.wordpress.com/2013/05/16/may-16-2013/"
 categories:
-  - CPLS
-  - Last-Day
+  - "Cair Paravel"
+  - "Last Day"
   - Natalie
 authors:
   - "Jeff Patton"

@@ -18,10 +18,10 @@ related:
     id: wordpress-2011-05-26-200700-may-26-2011
     rel: photos
 categories:
-  - CPLS
-  - Crown-Center
-  - Field-Trips
-  - First-Grade
+  - "Cair Paravel"
+  - "Crown Center"
+  - "Field Trips"
+  - "First Grade"
   - Natalie
 authors:
   - "Jeff Patton"

@@ -116,6 +116,12 @@ Current normalization also removes migration-only labels such as `gallery` and
 decide whether we need curated site sections, but they should not be required
 for routing, search, or filtering yet.
 
+Current category cleanup keeps categories as proper nouns, names, seasons,
+holidays, and curated site buckets. Known aliases normalize spelling and
+readability variants such as `Birthdays` to `Birthday`, `Fourth Of July` to
+`July 4th`, `New Years Day` to `New Year`, and `CPLS` / `Cair Paravel Latin
+School` to `Cair Paravel`.
+
 ## Media References
 
 Posts, stories, and galleries reference media by canonical media key.

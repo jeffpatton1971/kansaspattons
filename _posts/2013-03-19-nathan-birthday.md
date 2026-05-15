@@ -18,7 +18,7 @@ related:
     id: wordpress-2013-03-19-102210-march-19-2013
     rel: photos
 categories:
-  - Birthdays
+  - Birthday
   - Family
   - Nathan
 authors:

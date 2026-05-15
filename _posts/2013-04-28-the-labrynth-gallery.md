@@ -10,7 +10,7 @@ source:
   id: "400"
   url: "https://jeffspatton.wordpress.com/2013/04/28/april-28-2013/"
 categories:
-  - CPLS
+  - "Cair Paravel"
   - Natalie
 authors:
   - "Jeff Patton"

@@ -8,7 +8,7 @@ date:       2009-08-10 09:02:00 -0600
 source:
   type: wordpress
 categories:
-  - "CPLS"
+  - "Cair Paravel"
 author:     Jeff
 authors:
   - Jeff

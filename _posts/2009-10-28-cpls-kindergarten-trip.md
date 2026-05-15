@@ -13,8 +13,8 @@ related:
     id: gallery-2009-10-28
     rel: photos
 categories:
-  - CPLS
-  - Field-Trips
+  - "Cair Paravel"
+  - "Field Trips"
   - Natalie
 author:     Jeff
 authors:

@@ -18,7 +18,7 @@ related:
     id: wordpress-2013-04-19-171526-april-19-2013
     rel: photos
 categories:
-  - CPLS
+  - "Cair Paravel"
   - Natalie
 authors:
   - "Jeff Patton"

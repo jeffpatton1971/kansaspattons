@@ -18,8 +18,8 @@ related:
     id: wordpress-2013-05-13-071852-may-13-2013
     rel: photos
 categories:
+  - "Cair Paravel"
   - Concerts
-  - CPLS
   - Natalie
 authors:
   - "Jeff Patton"

@@ -10,7 +10,7 @@ source:
   id: "154"
   url: "https://jeffspatton.wordpress.com/2013/03/19/march-19-2013/"
 categories:
-  - Birthdays
+  - Birthday
   - Family
   - Nathan
 authors:

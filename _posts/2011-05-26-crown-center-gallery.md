@@ -10,10 +10,10 @@ source:
   id: "844"
   url: "https://jeffspatton.wordpress.com/2011/05/26/may-26-2011/"
 categories:
-  - CPLS
-  - Crown-Center
-  - Field-Trips
-  - First-Grade
+  - "Cair Paravel"
+  - "Crown Center"
+  - "Field Trips"
+  - "First Grade"
   - Natalie
 authors:
   - "Jeff Patton"

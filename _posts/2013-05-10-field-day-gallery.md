@@ -10,9 +10,9 @@ source:
   id: "441"
   url: "https://jeffspatton.wordpress.com/2013/05/10/may-10-2013-2/"
 categories:
-  - CPLS
+  - "Cair Paravel"
   - Family
-  - Field-Day
+  - "Field Day"
 authors:
   - "Jeff Patton"
 summary: "11 images related to Field Day."

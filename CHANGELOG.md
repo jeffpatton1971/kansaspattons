@@ -71,6 +71,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Added a content validation script that checks authored Markdown shape, required metadata, unique IDs/routes, canonical media references, gallery cover/image consistency, and related-content targets.
 - Added a contract frontmatter migration script for moving old `article` compatibility values to the final `post` terminology.
 - Added a taxonomy normalization script for folding tags into hashtags, removing source/import labels from user-facing taxonomy, and normalizing category casing.
+- Added generated `taxonomy.json` output listing hashtags and categories with counts and related content items.
 
 ### Changed
 
@@ -156,6 +157,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Removed source/import values such as `wordpress`, `instagram`, `facebook`, `gallery`, and `album` from user-facing tags, hashtags, and categories.
 - Normalized category casing and duplicate category values across authored Markdown.
 - Removed raw source-type labels from post and story detail headers.
+- Merged category aliases for birthday, July 4th, New Year, Cair Paravel, and hyphenated school/event category variants.
 
 ### Fixed
 
