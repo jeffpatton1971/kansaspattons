@@ -1,10 +1,12 @@
 import { ExternalLink, Globe } from 'lucide-react';
+import type { CSSProperties } from 'react';
 import { fetchHomeSummary } from '../content';
 import { useAsyncData } from '../hooks';
 import { ArchiveMetrics } from '../components/ArchiveMetrics';
 import { ErrorState, LoadingState } from '../components/LoadingState';
 import { ImageGrid } from '../components/ImageGrid';
 import { EntrySummaryList } from '../components/PostList';
+import type { SiteBanner } from '../types';
 
 export function HomePage() {
   const state = useAsyncData(fetchHomeSummary, []);
@@ -20,19 +22,17 @@ export function HomePage() {
   const summary = state.data;
   const site = summary.site ?? { title: 'KansasPattons' };
   const author = site.author;
+  const banner = site.banner ?? {};
   const recentUpdates = summary.recentEntries.slice(0, 5);
   const recentImages = summary.recentImages.slice(0, 10);
 
   return (
     <main className="home-layout page--landing">
-      <section className="home-banner" aria-labelledby="home-title">
+      <section className="home-banner" aria-labelledby="home-title" style={bannerStyle(banner)}>
         <div className="home-banner__inner">
-          <p className="eyebrow">Family archive</p>
-          <h1 id="home-title">{site.title}</h1>
-          <p>
-            Posts, stories, galleries, and images from the family archive, rebuilt from Markdown
-            and structured media.
-          </p>
+          {banner.eyebrow ? <p className="eyebrow">{banner.eyebrow}</p> : null}
+          <h1 id="home-title">{banner.title || site.title}</h1>
+          {banner.text ? <p>{banner.text}</p> : null}
         </div>
       </section>
 
@@ -87,4 +87,16 @@ export function HomePage() {
       </section>
     </main>
   );
+}
+
+function bannerStyle(banner: SiteBanner): CSSProperties {
+  if (!banner.backgroundImage) {
+    return {};
+  }
+
+  return {
+    backgroundImage: `linear-gradient(90deg, rgba(29, 32, 39, 0.78), rgba(29, 32, 39, 0.22)), url("${banner.backgroundImage}")`,
+    backgroundPosition: banner.backgroundPosition || 'center',
+    backgroundSize: banner.backgroundSize || 'cover',
+  };
 }

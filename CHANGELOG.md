@@ -79,6 +79,8 @@ Published behavior changes and bug fixes for the React site migration.
 - Added taxonomy API endpoints for resolving hashtag, category, people, and location terms.
 - Added frontend routes for `/hashtags/{slug}`, `/categories/{slug}`, `/people/{slug}`, and `/locations/{slug}`.
 - Added a bottom-of-content taxonomy footer for rendering clickable hashtags and categories on post, story, and gallery detail pages.
+- Added `content/site.config.json` as the editable source for site title, URL, navigation, banner, author, footer, and theme settings.
+- Added site configuration documentation covering nav links, banner images, footer links/text, and theme variables.
 
 ### Changed
 
@@ -177,6 +179,11 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed related post/story links to resolve routes and render on detail pages when authored in `related`.
 - Changed post and story header metadata so hashtags and categories no longer render in the header strip.
 - Changed generated gallery summaries and detail documents to carry hashtags, allowing gallery hashtags to appear in taxonomy results and gallery footers.
+- Changed gallery detail pages to show the taxonomy footer before the image carousel so hashtags/categories are visible before scrolling through media.
+- Removed the frontend's permanent in-memory JSON cache so changed content and metadata are fetched fresh during local iteration.
+- Changed generated `site.json` and `/api/home` site metadata to include banner, footer, and theme configuration.
+- Changed the React shell to render brand, nav, footer, home banner, font, and theme colors from API-provided site configuration instead of hardcoded KansasPattons values.
+- Changed nav/footer rendering so configured links can point to either internal React routes or external pages.
 
 ### Fixed
 

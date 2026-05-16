@@ -1546,3 +1546,41 @@ Detailed working notes for the React migration live here. This file is intention
   - `people`: `5`.
   - `locations`: `2`.
 - Current generated taxonomy has `60` gallery hashtag item references.
+- Follow-up debugging:
+  - confirmed live API returns `hashtags` for `/api/stories/2026/04/05/115315-breakfast`.
+  - confirmed live API returns `hashtags` for `/api/galleries/2025/09/12/201138-had-a-fun-day-on-the-magmile`.
+  - moved gallery taxonomy above the gallery carousel so it is visible before
+    scrolling the image set.
+  - removed the frontend's permanent in-memory JSON cache so detail payloads are
+    fetched fresh while iterating locally.
+
+### Configurable Site Shell
+
+- Added `content/site.config.json` as the editable site personality file.
+- Config sections now include:
+  - `key`
+  - `title`
+  - `url`
+  - `nav`
+  - `banner`
+  - `author`
+  - `footer`
+  - `theme`
+- The content build reads the config and emits richer `site.json`.
+- `/api/home` now returns the site banner, footer, and theme in its `site`
+  object.
+- The React shell now renders from API-provided site configuration:
+  - masthead brand text.
+  - primary navigation links.
+  - home banner eyebrow/title/text/background.
+  - footer brand/text/links/copyright.
+  - font family and core theme colors.
+- Navigation and footer links can be internal React paths or external URLs.
+- Kept environment overrides for deployment:
+  - `CONTENT_SITE_TITLE`
+  - `CONTENT_SITE_URL`
+  - `CONTENT_SITE_NAV_JSON`
+  - `CONTENT_SITE_AUTHOR_JSON`
+  - `CONTENT_SITE_THEME_JSON`
+  - banner/footer-specific text/link overrides.
+- Added `docs/site-configuration.md`.

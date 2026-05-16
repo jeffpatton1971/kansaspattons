@@ -26,6 +26,7 @@ export type ContentStatus = 'draft' | 'published' | 'archived';
 export type SiteNavItem = {
   label: string;
   href: string;
+  icon?: string;
 };
 
 export type SiteAuthorLink = {
@@ -38,6 +39,37 @@ export type SiteAuthor = {
   bio?: string;
   imageUrl?: string;
   links?: SiteAuthorLink[];
+};
+
+export type SiteBanner = {
+  eyebrow?: string;
+  title?: string;
+  text?: string;
+  backgroundImage?: string;
+  backgroundPosition?: string;
+  backgroundSize?: string;
+};
+
+export type SiteFooter = {
+  brandText?: string;
+  text?: string;
+  links?: SiteNavItem[];
+  copyright?: string;
+};
+
+export type SiteTheme = {
+  fontFamily?: string;
+  background?: string;
+  text?: string;
+  surface?: string;
+  surfaceRaised?: string;
+  border?: string;
+  muted?: string;
+  accent?: string;
+  accentStrong?: string;
+  bannerBackground?: string;
+  headerBackground?: string;
+  footerBackground?: string;
 };
 
 export type SourceCount = {
@@ -53,6 +85,9 @@ export type SiteInfo = {
   url?: string;
   nav?: SiteNavItem[];
   author?: SiteAuthor;
+  banner?: SiteBanner;
+  footer?: SiteFooter;
+  theme?: SiteTheme;
   sourceCounts?: SourceCount[];
 };
 
@@ -249,6 +284,9 @@ export type SiteSummary = {
   url?: string;
   nav?: SiteNavItem[];
   author?: SiteAuthor;
+  banner?: SiteBanner;
+  footer?: SiteFooter;
+  theme?: SiteTheme;
   sourceCounts?: SourceCount[];
   entries: number;
   posts: number;

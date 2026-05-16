@@ -171,8 +171,8 @@ function GalleryDetailPage({ params }: { params: Required<GalleryParams> }) {
             )}
           </div>
         ) : null}
-        <GalleryPeekCarousel images={gallery.images} title={gallery.title} />
         <ContentTaxonomyFooter hashtags={gallery.hashtags} categories={gallery.categories} />
+        <GalleryPeekCarousel images={gallery.images} title={gallery.title} />
       </article>
 
       <aside className="archive-rail archive-rail--right">

@@ -290,6 +290,9 @@ Optional settings:
 - `CONTENT_SITE_URL`: optional canonical site URL included in `site.json`.
 - `CONTENT_SITE_AUTHOR_JSON`: optional author object included in `site.json`.
 - `CONTENT_SITE_NAV_JSON`: optional navigation array included in `site.json`.
+- `CONTENT_SITE_THEME_JSON`: optional theme object included in `site.json`.
+- `CONTENT_SITE_BANNER_EYEBROW`, `CONTENT_SITE_BANNER_TITLE`, `CONTENT_SITE_BANNER_TEXT`, `CONTENT_SITE_BANNER_IMAGE`: optional banner overrides.
+- `CONTENT_SITE_FOOTER_BRAND`, `CONTENT_SITE_FOOTER_TEXT`, `CONTENT_SITE_FOOTER_LINKS_JSON`, `CONTENT_SITE_FOOTER_COPYRIGHT`: optional footer overrides.
 - `CONTENT_PUBLISH_ROOT`: defaults to `public/content`.
 - `CONTENT_STORAGE_PREFIX`: defaults to `content/{CONTENT_SITE_KEY}/current`.
 - `CONTENT_STORAGE_CACHE_CONTROL`: defaults to `public, max-age=60`.

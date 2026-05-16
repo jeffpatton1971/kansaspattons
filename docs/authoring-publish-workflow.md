@@ -23,6 +23,9 @@ The target content envelope and child payload shapes are defined in
 The planned replacement for legacy one-file-per-image `_gallery` metadata is
 defined in [`media-manifest.md`](media-manifest.md).
 
+Site presentation settings are defined in
+[`site-configuration.md`](site-configuration.md).
+
 ## Draft Authoring
 
 Draft Markdown may use simple local filenames. The author should not need to know the final Azure Blob path.

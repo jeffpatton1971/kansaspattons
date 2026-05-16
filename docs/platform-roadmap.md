@@ -25,6 +25,25 @@ Next work:
 - Move compiler/API/frontend types toward `contentType: "post" | "story" | "gallery"`.
 - Remove compatibility fields after the frontend and API no longer need them.
 
+## 1a. Site Configuration
+
+Status: initial config-driven shell is wired up.
+
+- Use [`site-configuration.md`](site-configuration.md) for the editable site
+  personality file.
+- `content/site.config.json` controls title, URL, nav, author card, home
+  banner, footer links/text, and theme variables.
+- The content build emits those values in `site.json`.
+- The API includes them in `/api/home`.
+- The React shell reads the API-provided site object for the masthead, nav,
+  banner, footer, font, and color variables.
+
+Next work:
+
+- Decide whether each sibling site keeps this config in its own repo or whether
+  a shared theme package supplies starter configs.
+- Add visual smoke tests for at least one alternate config.
+
 ## 2. Publish Pipeline
 
 Status: workflow documented, implementation pending.

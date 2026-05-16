@@ -6,6 +6,8 @@ The JSON files are generated artifacts. Do not hand-edit files under `public/con
 
 For the final shared content envelope, see [`content-contract.md`](content-contract.md).
 For migration context and authoring examples, see [`content-model.md`](content-model.md).
+For site title, nav, banner, footer, and theme configuration, see
+[`site-configuration.md`](site-configuration.md).
 
 Migration note: the current generated schema still includes compatibility names
 such as `type: "article"`, `contentShape`, `tags`, `categories`, and `source`.
@@ -100,6 +102,9 @@ type SiteSummary = {
   url?: string;
   nav?: SiteNavItem[];
   author?: SiteAuthor;
+  banner?: SiteBanner;
+  footer?: SiteFooter;
+  theme?: SiteTheme;
   entries: number;
   posts: number;
   stories: number;
@@ -118,6 +123,7 @@ type SourceCount = {
 type SiteNavItem = {
   label: string;
   href: string;
+  icon?: string;
 };
 
 type SiteAuthor = {
@@ -128,6 +134,37 @@ type SiteAuthor = {
     label: string;
     href: string;
   }>;
+};
+
+type SiteBanner = {
+  eyebrow?: string;
+  title?: string;
+  text?: string;
+  backgroundImage?: string;
+  backgroundPosition?: string;
+  backgroundSize?: string;
+};
+
+type SiteFooter = {
+  brandText?: string;
+  text?: string;
+  links?: SiteNavItem[];
+  copyright?: string;
+};
+
+type SiteTheme = {
+  fontFamily?: string;
+  background?: string;
+  text?: string;
+  surface?: string;
+  surfaceRaised?: string;
+  border?: string;
+  muted?: string;
+  accent?: string;
+  accentStrong?: string;
+  bannerBackground?: string;
+  headerBackground?: string;
+  footerBackground?: string;
 };
 ```
 

@@ -27,7 +27,25 @@ function siteInfo(site: SiteSummary, siteKey: string | undefined): SiteInfo {
     url: site.url,
     nav: site.nav ?? defaultNav(),
     author: site.author ?? defaultAuthor(),
+    banner: site.banner ?? defaultBanner(site.title),
+    footer: site.footer ?? defaultFooter(site.title),
+    theme: site.theme ?? {},
     sourceCounts: site.sourceCounts,
+  };
+}
+
+function defaultBanner(title: string) {
+  return {
+    eyebrow: 'Family archive',
+    title,
+    text: 'Posts, stories, galleries, and images from the family archive, rebuilt from Markdown and structured media.',
+  };
+}
+
+function defaultFooter(title: string) {
+  return {
+    brandText: title,
+    links: defaultNav().filter((item) => item.href !== '/'),
   };
 }
 

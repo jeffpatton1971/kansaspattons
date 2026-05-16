@@ -14,8 +14,6 @@ import type {
   TaxonomyTerm,
 } from './types';
 
-const jsonCache = new Map<string, Promise<unknown>>();
-
 export type ArchiveQuery = {
   year?: string;
   month?: string;
@@ -54,20 +52,13 @@ export function apiUrl(path: string) {
 export function fetchJson<T>(path: string): Promise<T> {
   const url = apiUrl(path);
 
-  if (!jsonCache.has(url)) {
-    jsonCache.set(
-      url,
-      fetch(url).then((response) => {
-        if (!response.ok) {
-          throw new Error(`Unable to load ${url}: ${response.status}`);
-        }
+  return fetch(url).then((response) => {
+    if (!response.ok) {
+      throw new Error(`Unable to load ${url}: ${response.status}`);
+    }
 
-        return response.json() as Promise<T>;
-      }),
-    );
-  }
-
-  return jsonCache.get(url)! as Promise<T>;
+    return response.json() as Promise<T>;
+  });
 }
 
 export function fetchPostIndex(query: ArchiveQuery = {}) {

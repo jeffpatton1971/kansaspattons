@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs';
 import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import matter from 'gray-matter';
@@ -26,6 +27,7 @@ type ContentStatus = 'draft' | 'published' | 'archived';
 type SiteNavItem = {
   label: string;
   href: string;
+  icon?: string;
 };
 
 type SiteAuthorLink = {
@@ -38,6 +40,48 @@ type SiteAuthor = {
   bio?: string;
   imageUrl?: string;
   links?: SiteAuthorLink[];
+};
+
+type SiteBanner = {
+  eyebrow?: string;
+  title?: string;
+  text?: string;
+  backgroundImage?: string;
+  backgroundPosition?: string;
+  backgroundSize?: string;
+};
+
+type SiteFooter = {
+  brandText?: string;
+  text?: string;
+  links?: SiteNavItem[];
+  copyright?: string;
+};
+
+type SiteTheme = {
+  fontFamily?: string;
+  background?: string;
+  text?: string;
+  surface?: string;
+  surfaceRaised?: string;
+  border?: string;
+  muted?: string;
+  accent?: string;
+  accentStrong?: string;
+  bannerBackground?: string;
+  headerBackground?: string;
+  footerBackground?: string;
+};
+
+type SiteConfig = {
+  key?: string;
+  title?: string;
+  url?: string;
+  nav?: SiteNavItem[];
+  author?: SiteAuthor;
+  banner?: SiteBanner;
+  footer?: SiteFooter;
+  theme?: SiteTheme;
 };
 
 type SourceCount = {
@@ -231,9 +275,10 @@ const root = process.cwd();
 const publicRoot = path.join(root, 'public');
 const outputRoot = path.join(publicRoot, 'content');
 const postsRoot = path.join(root, '_posts');
+const siteConfigPath = path.join(root, 'content', 'site.config.json');
 const sourceMediaManifestPath = path.join(root, 'content', 'media', 'index.json');
-const siteKey = cleanSiteKey(process.env.CONTENT_SITE_KEY || process.env.SITE_KEY || 'kansaspattons');
-const siteTitle = process.env.CONTENT_SITE_TITLE || process.env.SITE_TITLE || 'KansasPattons';
+const siteKey = cleanSiteKey(process.env.CONTENT_SITE_KEY || process.env.SITE_KEY || siteConfigKeyFromDisk() || 'kansaspattons');
+const defaultSiteTitle = 'KansasPattons';
 
 const markdown = new MarkdownIt({
   html: false,
@@ -269,8 +314,10 @@ async function main() {
   await rm(outputRoot, { recursive: true, force: true });
   await mkdir(outputRoot, { recursive: true });
 
+  const siteConfig = await readSiteConfig();
+  const siteTitle = siteTitleValue(siteConfig);
   const { posts, gallerySources } = await buildPosts();
-  const mediaManifest = await loadMediaManifest();
+  const mediaManifest = await loadMediaManifest(siteTitle);
   const images = await buildImages(posts, mediaManifest);
   applyEntryImages(posts, images);
   const galleries = await buildGalleries(posts, images, gallerySources);
@@ -286,9 +333,12 @@ async function main() {
     generatedAt: new Date().toISOString(),
     key: siteKey,
     title: siteTitle,
-    url: optionalText(process.env.CONTENT_SITE_URL || process.env.SITE_URL),
-    nav: siteNav(),
-    author: siteAuthor(),
+    url: optionalText(process.env.CONTENT_SITE_URL || process.env.SITE_URL || siteConfig.url),
+    nav: siteNav(siteConfig),
+    author: siteAuthor(siteConfig),
+    banner: siteBanner(siteConfig, siteTitle),
+    footer: siteFooter(siteConfig),
+    theme: siteTheme(siteConfig),
     entries: posts.length + galleries.length,
     posts: blogPosts.length,
     stories: stories.length,
@@ -481,7 +531,7 @@ function entrySummary(post: PostDocument): PostSummary {
   return summary;
 }
 
-async function loadMediaManifest() {
+async function loadMediaManifest(siteTitle: string) {
   try {
     return await readMediaManifest(sourceMediaManifestPath);
   } catch (error) {
@@ -1487,8 +1537,40 @@ function cleanSiteKey(value: string) {
   return key;
 }
 
-function siteNav(): SiteNavItem[] {
-  return jsonArray<SiteNavItem>(process.env.CONTENT_SITE_NAV_JSON) ?? [
+function siteConfigKeyFromDisk() {
+  try {
+    const config = JSON.parse(readFileSync(siteConfigPath, 'utf8')) as SiteConfig;
+    return config.key;
+  } catch {
+    return undefined;
+  }
+}
+
+async function readSiteConfig(): Promise<SiteConfig> {
+  try {
+    return JSON.parse(await readFile(siteConfigPath, 'utf8')) as SiteConfig;
+  } catch (error) {
+    if (isMissingFileError(error)) {
+      return {};
+    }
+
+    throw error;
+  }
+}
+
+function siteTitleValue(config: SiteConfig) {
+  return process.env.CONTENT_SITE_TITLE || process.env.SITE_TITLE || config.title || defaultSiteTitle;
+}
+
+function siteNav(config: SiteConfig): SiteNavItem[] {
+  const nav = jsonArray<SiteNavItem>(process.env.CONTENT_SITE_NAV_JSON) ?? config.nav ?? defaultNav();
+  const cleanNav = nav.filter((item) => item.label && item.href);
+
+  return cleanNav.length > 0 ? cleanNav : defaultNav();
+}
+
+function defaultNav(): SiteNavItem[] {
+  return [
     { label: 'Home', href: '/' },
     { label: 'Posts', href: '/posts' },
     { label: 'Stories', href: '/stories' },
@@ -1497,11 +1579,15 @@ function siteNav(): SiteNavItem[] {
   ];
 }
 
-function siteAuthor(): SiteAuthor {
+function siteAuthor(config: SiteConfig): SiteAuthor {
   const parsed = jsonObject<SiteAuthor>(process.env.CONTENT_SITE_AUTHOR_JSON);
 
   if (parsed?.name) {
     return parsed;
+  }
+
+  if (config.author?.name) {
+    return config.author;
   }
 
   return {
@@ -1514,6 +1600,40 @@ function siteAuthor(): SiteAuthor {
       { label: 'GitHub', href: 'https://github.com/jeffpatton1971' },
       { label: 'Instagram', href: 'https://instagram.com/jspatton1971' },
     ],
+  };
+}
+
+function siteBanner(config: SiteConfig, siteTitle: string): SiteBanner {
+  return {
+    eyebrow: process.env.CONTENT_SITE_BANNER_EYEBROW || config.banner?.eyebrow || 'Family archive',
+    title: process.env.CONTENT_SITE_BANNER_TITLE || config.banner?.title || siteTitle,
+    text:
+      process.env.CONTENT_SITE_BANNER_TEXT ||
+      config.banner?.text ||
+      'Posts, stories, galleries, and images from the family archive, rebuilt from Markdown and structured media.',
+    backgroundImage: process.env.CONTENT_SITE_BANNER_IMAGE || config.banner?.backgroundImage,
+    backgroundPosition: process.env.CONTENT_SITE_BANNER_POSITION || config.banner?.backgroundPosition || 'center',
+    backgroundSize: process.env.CONTENT_SITE_BANNER_SIZE || config.banner?.backgroundSize || 'cover',
+  };
+}
+
+function siteFooter(config: SiteConfig): SiteFooter {
+  const links = jsonArray<SiteNavItem>(process.env.CONTENT_SITE_FOOTER_LINKS_JSON) ?? config.footer?.links;
+
+  return {
+    brandText: process.env.CONTENT_SITE_FOOTER_BRAND || config.footer?.brandText || siteTitleValue(config),
+    text: process.env.CONTENT_SITE_FOOTER_TEXT || config.footer?.text,
+    links: links && links.length > 0 ? links : siteNav(config).filter((item) => item.href !== '/'),
+    copyright: process.env.CONTENT_SITE_FOOTER_COPYRIGHT || config.footer?.copyright,
+  };
+}
+
+function siteTheme(config: SiteConfig): SiteTheme {
+  const parsed = jsonObject<SiteTheme>(process.env.CONTENT_SITE_THEME_JSON);
+
+  return {
+    ...(config.theme ?? {}),
+    ...(parsed ?? {}),
   };
 }
 

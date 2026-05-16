@@ -1,5 +1,8 @@
-import { BookOpen, Images, Library, Newspaper } from 'lucide-react';
+import { BookOpen, ExternalLink, Home, Images, Library, Newspaper, type LucideIcon } from 'lucide-react';
+import type { CSSProperties } from 'react';
 import { NavLink, Route, Routes } from 'react-router-dom';
+import { fetchHomeSummary } from './content';
+import { useAsyncData } from './hooks';
 import { HomePage } from './pages/HomePage';
 import { GalleriesPage } from './pages/GalleriesPage';
 import { ImagesPage } from './pages/ImagesPage';
@@ -8,35 +11,59 @@ import { NotFoundPage } from './pages/NotFoundPage';
 import { PostDetailPage, StoryDetailPage } from './pages/PostDetailPage';
 import { PostsPage, StoriesPage } from './pages/PostsPage';
 import { TaxonomyTermPage } from './pages/TaxonomyTermPage';
+import type { SiteInfo, SiteNavItem, SiteTheme } from './types';
 import { TooltipProvider } from '@/components/ui/tooltip';
 
-const primaryNav = [
-  { to: '/posts', label: 'Posts', icon: Newspaper },
-  { to: '/stories', label: 'Stories', icon: BookOpen },
-  { to: '/galleries', label: 'Galleries', icon: Images },
-  { to: '/images', label: 'Images', icon: Images },
+const defaultSite: SiteInfo = {
+  title: 'KansasPattons',
+  nav: [
+    { href: '/', label: 'Home', icon: 'home' },
+    { href: '/posts', label: 'Posts', icon: 'posts' },
+    { href: '/stories', label: 'Stories', icon: 'stories' },
+    { href: '/galleries', label: 'Galleries', icon: 'galleries' },
+    { href: '/images', label: 'Images', icon: 'images' },
+  ],
+  footer: {
+    brandText: 'KansasPattons',
+  },
+};
+
+const iconMap: Record<string, LucideIcon> = {
+  home: Home,
+  posts: Newspaper,
+  stories: BookOpen,
+  galleries: Images,
+  images: Images,
+  library: Library,
+  external: ExternalLink,
+};
+
+const fallbackNav = [
+  { href: '/posts', label: 'Posts', icon: 'posts' },
+  { href: '/stories', label: 'Stories', icon: 'stories' },
+  { href: '/galleries', label: 'Galleries', icon: 'galleries' },
+  { href: '/images', label: 'Images', icon: 'images' },
 ];
 
 export function App() {
+  const state = useAsyncData(fetchHomeSummary, []);
+  const site = state.status === 'ready' ? state.data.site ?? defaultSite : defaultSite;
+  const nav = primaryNav(site);
+  const footer = site.footer ?? {};
+  const footerLinks = footer.links && footer.links.length > 0 ? footer.links : nav;
+
   return (
     <TooltipProvider>
-      <div className="app-shell">
+      <div className="app-shell" style={themeStyle(site.theme)}>
         <header className="site-header">
-          <NavLink to="/" className="brand" aria-label="KansasPattons home">
+          <NavLink to="/" className="brand" aria-label={`${site.title} home`}>
             <Library aria-hidden="true" size={24} />
-            <span>KansasPattons</span>
+            <span>{site.title}</span>
           </NavLink>
           <nav aria-label="Primary navigation">
-            {primaryNav.map((item) => {
-              const Icon = item.icon;
-
-              return (
-                <NavLink to={item.to} key={item.to}>
-                  <Icon aria-hidden="true" size={17} />
-                  {item.label}
-                </NavLink>
-              );
-            })}
+            {nav.map((item) => (
+              <SiteNavLink item={item} key={item.href} />
+            ))}
           </nav>
         </header>
 
@@ -74,17 +101,99 @@ export function App() {
 
         <footer className="site-footer">
           <NavLink to="/" className="site-footer__brand">
-            KansasPattons
+            {footer.brandText || site.title}
           </NavLink>
+          {footer.text ? <p>{footer.text}</p> : null}
           <nav aria-label="Footer navigation">
-            {primaryNav.map((item) => (
-              <NavLink to={item.to} key={item.to}>
-                {item.label}
-              </NavLink>
+            {footerLinks.map((item) => (
+              <SiteTextLink item={item} key={item.href} />
             ))}
           </nav>
+          {footer.copyright ? <p className="site-footer__copyright">{footer.copyright}</p> : null}
         </footer>
       </div>
     </TooltipProvider>
   );
+}
+
+function primaryNav(site: SiteInfo) {
+  const nav = site.nav ?? fallbackNav;
+  return nav.length > 0 ? nav : fallbackNav;
+}
+
+function SiteNavLink({ item }: { item: SiteNavItem }) {
+  const Icon = iconMap[item.icon ?? navIcon(item.href)] ?? Library;
+
+  if (isExternalHref(item.href)) {
+    return (
+      <a href={item.href} target="_blank" rel="noreferrer">
+        <ExternalLink aria-hidden="true" size={17} />
+        {item.label}
+      </a>
+    );
+  }
+
+  return (
+    <NavLink to={item.href}>
+      <Icon aria-hidden="true" size={17} />
+      {item.label}
+    </NavLink>
+  );
+}
+
+function SiteTextLink({ item }: { item: SiteNavItem }) {
+  if (isExternalHref(item.href)) {
+    return (
+      <a href={item.href} target="_blank" rel="noreferrer">
+        {item.label}
+      </a>
+    );
+  }
+
+  return <NavLink to={item.href}>{item.label}</NavLink>;
+}
+
+function navIcon(href: string) {
+  if (href.startsWith('/posts')) {
+    return 'posts';
+  }
+
+  if (href.startsWith('/stories')) {
+    return 'stories';
+  }
+
+  if (href.startsWith('/galleries')) {
+    return 'galleries';
+  }
+
+  if (href.startsWith('/images')) {
+    return 'images';
+  }
+
+  return 'library';
+}
+
+function isExternalHref(href: string) {
+  return /^https?:\/\//i.test(href);
+}
+
+function themeStyle(theme: SiteTheme | undefined): CSSProperties {
+  if (!theme) {
+    return {};
+  }
+
+  return {
+    '--site-font-family': theme.fontFamily,
+    '--mm-bg': theme.background,
+    '--mm-text': theme.text,
+    '--mm-surface': theme.surface,
+    '--mm-surface-raised': theme.surfaceRaised,
+    '--mm-border': theme.border,
+    '--mm-muted': theme.muted,
+    '--mm-accent': theme.accent,
+    '--mm-accent-strong': theme.accentStrong,
+    '--site-banner-background': theme.bannerBackground,
+    '--site-header-background': theme.headerBackground,
+    '--site-footer-background': theme.footerBackground,
+  } as CSSProperties;
 }
