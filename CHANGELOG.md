@@ -81,6 +81,9 @@ Published behavior changes and bug fixes for the React site migration.
 - Added a bottom-of-content taxonomy footer for rendering clickable hashtags and categories on post, story, and gallery detail pages.
 - Added `content/site.config.json` as the editable source for site title, URL, navigation, banner, author, footer, and theme settings.
 - Added site configuration documentation covering nav links, banner images, footer links/text, and theme variables.
+- Added `content/taxonomy.aliases.json` and shared taxonomy-rule loading so validation, taxonomy cleanup, and people/location cleanup use the same canonical alias maps.
+- Added golden content example documentation naming reference post, story, and gallery files for future schema and rendering changes.
+- Added `npm run publish:plan` to dry-run changed Markdown, local media references, affected generated JSON, affected indexes, planned media uploads, and Markdown rewrites without publishing.
 
 ### Changed
 
@@ -100,6 +103,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Limited broad image-group thumbnail previews and added a compact overflow tile linking into the full group.
 - Changed grouped image previews from filmstrip-style thumbnail rows to larger carousel-style panels with arrow controls.
 - Added Embla Carousel for grouped image previews and restyled those previews as layered stacked carousels.
+- Changed content validation so the final `post`, `story`, and `gallery` content types are enforced, legacy `article` references fail validation, authored media references must be canonical manifest keys, and the report includes referenced media ID counts.
 - Changed `/posts` from an all-posts view to a calendar-led month/day archive view.
 - Changed `/images` to include the same calendar archive control in the left rail while preserving visual image browsing in the center.
 - Changed the home page to use the shared left/main/right shell layout.

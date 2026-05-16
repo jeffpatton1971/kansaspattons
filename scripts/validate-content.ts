@@ -1,10 +1,15 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import matter from 'gray-matter';
+import {
+  canonicalHashtag,
+  normalizeTaxonomyKey,
+  readTaxonomyRules,
+} from './taxonomy-rules';
 
 type Frontmatter = Record<string, unknown>;
 type Severity = 'error' | 'warning';
-type ContentType = 'post' | 'article' | 'story' | 'gallery';
+type ContentType = 'post' | 'story' | 'gallery';
 type TargetContentType = 'post' | 'story' | 'gallery';
 
 type Issue = {
@@ -17,6 +22,7 @@ type Issue = {
 type ContentRecord = {
   file: string;
   data: Frontmatter;
+  content: string;
   filename: string;
   id: string;
   type?: ContentType;
@@ -40,6 +46,7 @@ const sourceMediaManifestPath = path.join(root, 'content', 'media', 'index.json'
 const reportPath = path.join(root, '.tmp', 'content-validation-report.json');
 const strict = process.argv.includes('--strict');
 const maxConsoleIssues = numberArg('--max-issues') ?? 25;
+const taxonomyRules = readTaxonomyRules(root);
 
 const issues: Issue[] = [];
 const recommendations = {
@@ -48,37 +55,15 @@ const recommendations = {
   categoriesPresent: [] as string[],
   sourcePresent: [] as string[],
   relatedArticleType: [] as string[],
+  legacyGalleryIncludes: [] as string[],
   systemTaxonomyPresent: [] as string[],
   galleryMarkdownFiles: 0,
   mediaManifestAssets: 0,
 };
 
-const removedTaxonomy = new Set(['wordpress', 'instagram', 'facebook', 'gallery', 'album']);
-const hashtagAliases = new Map([
-  ['beeakfast', 'breakfast'],
-  ['breakfsst', 'breakfast'],
-  ['brekfast', 'breakfast'],
-  ['candelightconcert', 'candlelightconcert'],
-  ['cicgars', 'cigars'],
-  ['covidvacccine', 'covidvaccine'],
-  ['happythanksgivng', 'happythanksgiving'],
-  ['newbeginings', 'newbeginnings'],
-  ['tradtions', 'traditions'],
-]);
-const personCategoryAliases = new Map([
-  ['nathan', 'Nathan'],
-  ['natalie', 'Natalie'],
-  ['sarah', 'Sarah'],
-  ['grandma', 'Grandma'],
-  ['grandpa', 'Grandpa'],
-]);
-const locationCategoryAliases = new Map([
-  ['cair paravel', 'Cair Paravel'],
-  ['cair paravel latin school', 'Cair Paravel'],
-  ['cpls', 'Cair Paravel'],
-  ['crown center', 'Crown Center'],
-  ['crown-center', 'Crown Center'],
-]);
+const removedTaxonomy = taxonomyRules.removed;
+const personCategoryAliases = taxonomyRules.people;
+const locationCategoryAliases = taxonomyRules.locations;
 
 async function main() {
   const mediaIds = await readMediaIds();
@@ -97,6 +82,7 @@ async function main() {
     },
     media: {
       ids: mediaIds.size,
+      referenced: uniqueMediaReferences(records).size,
     },
     contentTypes: countBy(records, (record) => record.targetType ?? 'unknown'),
     issues: {
@@ -109,6 +95,7 @@ async function main() {
       categoriesPresent: recommendationSummary(recommendations.categoriesPresent),
       sourcePresent: recommendationSummary(recommendations.sourcePresent),
       relatedArticleType: recommendationSummary(recommendations.relatedArticleType),
+      legacyGalleryIncludes: recommendationSummary(recommendations.legacyGalleryIncludes),
       systemTaxonomyPresent: recommendationSummary(recommendations.systemTaxonomyPresent),
       galleryMarkdownFiles: recommendations.galleryMarkdownFiles,
       mediaManifestAssets: recommendations.mediaManifestAssets,
@@ -240,6 +227,7 @@ async function readContentRecords() {
     records.push({
       file: `_posts/${file}`,
       data: parsed.data,
+      content: parsed.content,
       filename,
       id,
       type,
@@ -288,9 +276,15 @@ function validateRecords(records: ContentRecord[], mediaIds: Set<string>) {
 
 function validateRequiredShape(record: ContentRecord) {
   const data = record.data;
+  const explicitType = explicitContentType(data);
 
   if (!record.type) {
-    addIssue('error', 'content.invalidType', record.file, 'content_type must be one of post, article, story, or gallery.');
+    addIssue('error', 'content.invalidType', record.file, 'content_type must be one of post, story, or gallery.');
+  }
+
+  if (explicitType === 'article') {
+    trackRecommendation(recommendations.articleContentType, record.file);
+    addIssue('error', 'content.legacyArticleType', record.file, 'Use content_type: post instead of the legacy value article.');
   }
 
   requireText(record, 'title', 'content.missingTitle');
@@ -331,11 +325,6 @@ function validateTargetWarnings(record: ContentRecord) {
   const data = record.data;
   const file = record.file;
 
-  if (record.type === 'article') {
-    trackRecommendation(recommendations.articleContentType, file);
-    maybeStrictIssue('contract.articleContentType', file, 'Use content_type: post instead of the compatibility value article.');
-  }
-
   if (stringArray(data.tags).length > 0) {
     trackRecommendation(recommendations.tagsPresent, file);
     maybeStrictIssue('contract.tagsPresent', file, 'Fold topical tags into hashtags and move import/system tags to legacy metadata.');
@@ -347,6 +336,21 @@ function validateTargetWarnings(record: ContentRecord) {
 
   if (data.source !== undefined) {
     trackRecommendation(recommendations.sourcePresent, file);
+  }
+
+  const galleryIncludes = legacyGalleryIncludes(record.content);
+
+  if (galleryIncludes.length > 0) {
+    trackRecommendation(recommendations.legacyGalleryIncludes, file);
+
+    if (record.type === 'post' || record.type === 'story') {
+      addIssue(
+        'error',
+        'contract.legacyGalleryInclude',
+        file,
+        'Posts and stories should reference galleries through frontmatter instead of Jekyll gallery includes.',
+      );
+    }
   }
 }
 
@@ -424,7 +428,21 @@ function validateMediaReferences(record: ContentRecord, mediaIds: Set<string>) {
     refs.add(id);
   }
 
+  for (const ref of markdownImageRefs(record.content)) {
+    refs.add(ref);
+  }
+
   for (const ref of refs) {
+    if (isExternalMediaReference(ref) || ref.startsWith('/')) {
+      addIssue(
+        'error',
+        'media.externalReference',
+        record.file,
+        `Media reference "${ref}" should use a canonical media key, not a URL or absolute path.`,
+      );
+      continue;
+    }
+
     if (!isCanonicalMediaKey(ref)) {
       addIssue('error', 'media.nonCanonicalReference', record.file, `Media reference "${ref}" is not shaped like yyyy/mm/dd/filename.ext.`);
       continue;
@@ -451,7 +469,7 @@ function validateRelationships(records: ContentRecord[]) {
 
       if (link.type === 'article') {
         trackRecommendation(recommendations.relatedArticleType, record.file);
-        maybeStrictIssue('contract.relatedArticleType', record.file, 'Use related.type: post instead of article.');
+        addIssue('error', 'related.legacyArticleType', record.file, 'Use related.type: post instead of article.');
       }
 
       if (type === 'gallery') {
@@ -477,20 +495,20 @@ function requireText(record: ContentRecord, key: string, code: string) {
 }
 
 function contentType(data: Frontmatter): ContentType | undefined {
-  const explicit = textValue(data.content_type || data.contentType || data.type).toLowerCase();
+  const explicit = explicitContentType(data);
 
-  if (explicit === 'post' || explicit === 'article' || explicit === 'story' || explicit === 'gallery') {
+  if (explicit === 'post' || explicit === 'story' || explicit === 'gallery') {
     return explicit;
   }
 
   return undefined;
 }
 
-function targetContentType(type: ContentType | undefined): TargetContentType | undefined {
-  if (type === 'article') {
-    return 'post';
-  }
+function explicitContentType(data: Frontmatter) {
+  return textValue(data.content_type || data.contentType || data.type).toLowerCase();
+}
 
+function targetContentType(type: ContentType | undefined): TargetContentType | undefined {
   return type;
 }
 
@@ -576,6 +594,48 @@ function imageRefs(data: Frontmatter) {
   }
 
   return refs.filter(Boolean);
+}
+
+function markdownImageRefs(content: string) {
+  const refs: string[] = [];
+
+  for (const match of content.matchAll(/!\[[^\]]*]\(([^)\s]+)(?:\s+"[^"]*")?\)/g)) {
+    const ref = match[1].trim();
+
+    if (ref) {
+      refs.push(ref);
+    }
+  }
+
+  return refs;
+}
+
+function legacyGalleryIncludes(content: string) {
+  return [...content.matchAll(/{%\s*include\s+gallery\.html\s+gallery="([^"]+)"\s*%}/g)]
+    .map((match) => match[1].trim())
+    .filter(Boolean);
+}
+
+function uniqueMediaReferences(records: ContentRecord[]) {
+  const refs = new Set<string>();
+
+  for (const record of records) {
+    const cover = textValue(record.data.cover_image || record.data.coverImage || record.data.coverImageId);
+
+    if (cover) {
+      refs.add(cover);
+    }
+
+    for (const ref of imageRefs(record.data)) {
+      refs.add(ref);
+    }
+
+    for (const ref of markdownImageRefs(record.content)) {
+      refs.add(ref);
+    }
+  }
+
+  return refs;
 }
 
 function validDate(value: unknown) {
@@ -690,13 +750,16 @@ function isCanonicalMediaKey(value: string) {
   return /^\d{4}\/\d{2}\/\d{2}\/[^/]+\.[A-Za-z0-9]+$/.test(value);
 }
 
+function isExternalMediaReference(value: string) {
+  return /^[a-z][a-z0-9+.-]*:/i.test(value);
+}
+
 function normalizeHashtag(value: string) {
-  const normalized = value.normalize('NFKC').trim().replace(/^#+/, '').replace(/\s+/g, '').toLowerCase();
-  return hashtagAliases.get(normalized) ?? normalized;
+  return canonicalHashtag(value, taxonomyRules);
 }
 
 function normalizeCategoryKey(value: string) {
-  return value.normalize('NFKC').trim().replace(/\s+/g, ' ').toLowerCase();
+  return normalizeTaxonomyKey(value);
 }
 
 async function markdownFiles(directory: string) {
@@ -781,7 +844,7 @@ function numberArg(name: string) {
 
 function printSummary(summary: {
   files: { posts: number; galleryMarkdown: number; mediaManifestAssets: number };
-  media: { ids: number };
+  media: { ids: number; referenced?: number };
   contentTypes: Record<string, number>;
   issues: { errors: number; warnings: number };
   recommendations: Record<string, { count: number; examples: string[] } | number>;
@@ -791,6 +854,9 @@ function printSummary(summary: {
   console.log(`Legacy _gallery files: ${summary.files.galleryMarkdown}`);
   console.log(`Media manifest assets: ${summary.files.mediaManifestAssets}`);
   console.log(`Media IDs: ${summary.media.ids}`);
+  if (summary.media.referenced !== undefined) {
+    console.log(`Referenced media IDs: ${summary.media.referenced}`);
+  }
   console.log(`Content types: ${JSON.stringify(summary.contentTypes)}`);
   console.log(`Errors: ${summary.issues.errors}`);
   console.log(`Warnings: ${summary.issues.warnings}`);

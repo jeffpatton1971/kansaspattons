@@ -1,6 +1,10 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import matter from 'gray-matter';
+import {
+  normalizeTaxonomyKey,
+  readTaxonomyRules,
+} from './taxonomy-rules';
 
 type Frontmatter = Record<string, unknown>;
 
@@ -16,22 +20,9 @@ type Stats = {
 
 const postsRoot = path.join(process.cwd(), '_posts');
 const write = process.argv.includes('--write');
-
-const personCategoryAliases = new Map([
-  ['nathan', 'Nathan'],
-  ['natalie', 'Natalie'],
-  ['sarah', 'Sarah'],
-  ['grandma', 'Grandma'],
-  ['grandpa', 'Grandpa'],
-]);
-
-const locationCategoryAliases = new Map([
-  ['cair paravel', 'Cair Paravel'],
-  ['cair paravel latin school', 'Cair Paravel'],
-  ['cpls', 'Cair Paravel'],
-  ['crown center', 'Crown Center'],
-  ['crown-center', 'Crown Center'],
-]);
+const taxonomyRules = readTaxonomyRules();
+const personCategoryAliases = taxonomyRules.people;
+const locationCategoryAliases = taxonomyRules.locations;
 
 const stats: Stats = {
   files: 0,
@@ -305,7 +296,7 @@ function stringArray(value: unknown) {
 }
 
 function normalizeKey(value: string) {
-  return value.normalize('NFKC').trim().replace(/\s+/g, ' ').toLowerCase();
+  return normalizeTaxonomyKey(value);
 }
 
 function textValue(value: unknown) {

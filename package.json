@@ -26,6 +26,7 @@
     "assets:migrate": "tsx scripts/migrate-image-storage.ts",
     "assets:migrate:write": "tsx scripts/migrate-image-storage.ts --write",
     "build": "npm run build:content && tsc -b && vite build",
+    "publish:plan": "tsx scripts/plan-publish.ts",
     "publish:content": "npm run build:content && tsx scripts/publish-content.ts",
     "publish:content:dry-run": "npm run build:content && tsx scripts/publish-content.ts --dry-run",
     "api:build": "npm --prefix api run build",

@@ -18,6 +18,8 @@ retirement work get heavier.
 
 ## 1. Tighten Validation
 
+Status: baseline implemented.
+
 Why this matters:
 
 The validator should become the guardrail for both old migration cleanup and new
@@ -26,22 +28,29 @@ boring.
 
 Work:
 
-- Require `content_type` to be one of `post`, `story`, or `gallery`.
-- Warn or fail when legacy `article` terminology reappears.
-- Require `title`, `date`, `slug`, and authors for published content.
-- Require hashtags to be lowercase, one word, and stored without `#`.
-- Require canonical media keys after publish rewrite:
+- `content_type` must be one of `post`, `story`, or `gallery`.
+- Legacy `article` terminology is a validation error in `content_type` and
+  `related.type`.
+- `title`, `date`, `slug`, `post_id`, `summary`, `status`, and authors are
+  required for authored content.
+- Hashtags must be lowercase, one word, and stored without `#`.
+- Media references must use canonical keys after publish rewrite:
 
 ```text
 yyyy/mm/dd/filename.ext
 ```
 
-- Require galleries to have `cover_image` and `images`.
-- Require a gallery `cover_image` to exist in that gallery's `images` list or
-  in the media manifest.
-- Require posts and stories to use direct `images` or linked `galleries`, rather
-  than legacy `_gallery` page references.
-- Check route uniqueness across posts, stories, and galleries.
+- External URLs and absolute paths are validation errors for authored media
+  references.
+- Galleries must have `cover_image` and `images`.
+- A gallery `cover_image` must exist in that gallery's `images` list.
+- Every `cover_image`, `images[].id`, and inline Markdown image reference must
+  exist in `content/media/index.json`.
+- Posts and stories cannot use legacy Jekyll `{% include gallery.html %}`
+  references.
+- Routes and content IDs must be unique across posts, stories, and galleries.
+- The validation report now includes the count of unique media IDs referenced by
+  authored content.
 
 Acceptance criteria:
 
@@ -50,8 +59,13 @@ Acceptance criteria:
   failures.
 - `.tmp/content-validation-report.json` clearly separates hard errors from
   cleanup warnings.
+- Current cleanup counters still include `source` frontmatter, remaining curated
+  `categories`, and four legacy gallery includes on excluded Facebook Mobile
+  Uploads gallery records.
 
 ## 2. Add Taxonomy Cleanup Maps
+
+Status: baseline implemented.
 
 Why this matters:
 
@@ -61,11 +75,12 @@ time.
 
 Work:
 
-- Keep hashtag aliases in one place.
-- Keep category aliases in one place.
-- Keep people aliases in one place.
-- Keep location aliases in one place.
-- Make aliases usable by both cleanup scripts and validation.
+- Keep hashtag aliases in `content/taxonomy.aliases.json`.
+- Keep category aliases in `content/taxonomy.aliases.json`.
+- Keep people aliases in `content/taxonomy.aliases.json`.
+- Keep location aliases in `content/taxonomy.aliases.json`.
+- Share those aliases through `scripts/taxonomy-rules.ts`.
+- Use the shared aliases from validation and cleanup scripts.
 
 Examples:
 
@@ -85,7 +100,14 @@ Acceptance criteria:
 - `npm run entities:normalize:write` applies known people/location aliases.
 - Validation warns when a known non-canonical term comes back.
 
+Current dry-run result:
+
+- `npm run taxonomy:normalize` reports `0` files needing changes.
+- `npm run entities:normalize` reports `0` files needing changes.
+
 ## 3. Lock Golden Content Examples
+
+Status: baseline implemented.
 
 Why this matters:
 
@@ -94,10 +116,12 @@ that describe the desired future shape without legacy noise.
 
 Work:
 
-- Create or designate one post with direct images.
-- Create or designate one post that renders a linked gallery inline.
-- Create or designate one story with images.
-- Create or designate one standalone gallery.
+- Use [`golden-content-examples.md`](golden-content-examples.md) as the
+  reference set.
+- Designate one post with direct images.
+- Designate one post that renders a linked gallery inline.
+- Designate one story with images.
+- Designate one standalone gallery.
 - Keep these examples small and easy to review.
 
 Acceptance criteria:
@@ -108,6 +132,8 @@ Acceptance criteria:
 
 ## 4. Finish Taxonomy Result Pages And Links
 
+Status: baseline implemented.
+
 Why this matters:
 
 Hashtags, categories, people, and locations should become real discovery paths,
@@ -115,12 +141,13 @@ not just metadata in generated JSON.
 
 Work:
 
-- Ensure detail pages render clickable hashtags as `#hashtag`.
-- Render categories below hashtags.
-- Decide where people and locations should appear.
-- Make taxonomy result pages show posts, stories, and galleries together.
-- Sort taxonomy results by date.
-- Add empty-state behavior for taxonomy terms with no matches.
+- Detail pages render clickable hashtags as `#hashtag`.
+- Categories render below hashtags.
+- People and locations render in the detail metadata strip as clickable chips.
+- Taxonomy result pages show posts, stories, and galleries together.
+- API taxonomy term responses sort items by descending date.
+- Frontend taxonomy result pages include an empty state for terms with no
+  matches.
 
 Acceptance criteria:
 
@@ -131,6 +158,8 @@ Acceptance criteria:
 
 ## 5. Remove User-Facing Import/Source Leftovers
 
+Status: baseline implemented.
+
 Why this matters:
 
 `wordpress`, `instagram`, and `facebook` were useful during import, but they
@@ -139,12 +168,14 @@ filter UI.
 
 Work:
 
-- Keep source information only in legacy metadata or admin metrics.
-- Remove source labels from hashtags.
-- Remove source labels from categories.
-- Ensure source labels do not render in content cards or detail taxonomy.
-- Keep the right-column source metrics only if they are intentionally useful for
-  migration review.
+- Source information remains in generated metadata for migration/debugging.
+- Source labels are removed from user-facing hashtags.
+- Source labels are removed from user-facing categories.
+- Source labels do not render in content cards or detail taxonomy.
+- The right-column archive metrics now show content totals only:
+  posts, stories, galleries, and images.
+- Source query filtering still exists as hidden migration/debug plumbing, but it
+  is not presented as a normal topic navigation path.
 
 Acceptance criteria:
 
@@ -153,6 +184,8 @@ Acceptance criteria:
 - The UI does not present import source as a normal topic.
 
 ## 6. Validate Media References Against The Manifest
+
+Status: baseline implemented.
 
 Why this matters:
 
@@ -163,9 +196,10 @@ Work:
 
 - Check every `cover_image` against `content/media/index.json`.
 - Check every `images[].id` against `content/media/index.json`.
-- Check every gallery media item against `content/media/index.json`.
+- Check gallery media items through their authored `images` list.
 - Check inline Markdown image references after publish rewrite.
 - Report missing media IDs separately from storage/blob copy issues.
+- Report the unique count of authored media references.
 
 Acceptance criteria:
 
@@ -173,7 +207,12 @@ Acceptance criteria:
 - The report identifies the content file and missing media key.
 - The site can build without reading `_gallery`.
 
+Current validation reports `4,769` unique media IDs referenced by authored
+content and `0` missing media references.
+
 ## 7. Document Exact Authoring Examples
+
+Status: baseline implemented.
 
 Why this matters:
 
@@ -182,7 +221,7 @@ are uploaded and rewritten by automation.
 
 Work:
 
-- Add final examples for:
+- `docs/authoring-publish-workflow.md` includes examples for:
   - new post with no images.
   - new post with 1-3 direct images.
   - new post with a linked gallery.
@@ -201,6 +240,8 @@ Acceptance criteria:
 
 ## 8. Add A Dry-Run Publish Plan Command
 
+Status: baseline implemented.
+
 Why this matters:
 
 Before real Azure uploads are part of the normal path, we should be able to see
@@ -208,13 +249,17 @@ exactly what publish would do.
 
 Work:
 
-- Detect changed Markdown.
-- Detect local media files referenced by changed Markdown.
-- List affected content JSON files.
-- List affected index JSON files.
-- List media files that would upload.
-- List Markdown rewrites that would happen.
-- Avoid writing files or uploading blobs in dry-run mode.
+- `npm run publish:plan` detects changed files from `git status`.
+- Changed `_posts/*.md` files are mapped to affected content JSON paths.
+- Changed local media files are listed separately.
+- Local draft media references in changed Markdown are mapped to canonical
+  `yyyy/mm/dd/filename.ext` keys.
+- Affected index JSON files are listed.
+- Planned media uploads are listed.
+- Planned Markdown rewrites are listed.
+- The command writes `.tmp/publish-plan-report.json`.
+- The command does not write Markdown, generate thumbnails, upload blobs, or
+  publish generated JSON.
 
 Acceptance criteria:
 
@@ -222,13 +267,11 @@ Acceptance criteria:
 - The command exits nonzero when planned work has collisions or missing media.
 - The dry-run output is suitable for GitHub Actions logs.
 
-Possible command shape:
-
 ```powershell
 npm run publish:plan
 ```
 
-or extend the existing dry-run command:
+The existing generated-content dry run remains:
 
 ```powershell
 npm run publish:content:dry-run

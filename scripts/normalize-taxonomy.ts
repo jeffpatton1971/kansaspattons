@@ -1,6 +1,12 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import matter from 'gray-matter';
+import {
+  canonicalHashtag,
+  categoryLabel as categoryLabelForKey,
+  normalizeTaxonomyKey,
+  readTaxonomyRules,
+} from './taxonomy-rules';
 
 type Frontmatter = Record<string, unknown>;
 
@@ -18,45 +24,8 @@ type Stats = {
 
 const postsRoot = path.join(process.cwd(), '_posts');
 const write = process.argv.includes('--write');
-const sourceTaxonomy = new Set(['wordpress', 'instagram', 'facebook']);
-const migrationTaxonomy = new Set(['gallery', 'album']);
-const removedTaxonomy = new Set([...sourceTaxonomy, ...migrationTaxonomy]);
-const categoryAliases = new Map([
-  ['birthdays', 'Birthday'],
-  ['july 4th', 'July 4th'],
-  ['july fourth', 'July 4th'],
-  ['fourth of july', 'July 4th'],
-  ['4th of july', 'July 4th'],
-  ['new year', 'New Year'],
-  ['new years', 'New Year'],
-  ["new year's", 'New Year'],
-  ['new years day', 'New Year'],
-  ["new year's day", 'New Year'],
-  ['cpls', 'Cair Paravel'],
-  ['cair paravel', 'Cair Paravel'],
-  ['cair paravel latin school', 'Cair Paravel'],
-  ['crown-center', 'Crown Center'],
-  ['crown center', 'Crown Center'],
-  ['field-day', 'Field Day'],
-  ['field day', 'Field Day'],
-  ['field-trips', 'Field Trips'],
-  ['field trips', 'Field Trips'],
-  ['first-grade', 'First Grade'],
-  ['first grade', 'First Grade'],
-  ['last-day', 'Last Day'],
-  ['last day', 'Last Day'],
-]);
-const hashtagAliases = new Map([
-  ['beeakfast', 'breakfast'],
-  ['breakfsst', 'breakfast'],
-  ['brekfast', 'breakfast'],
-  ['candelightconcert', 'candlelightconcert'],
-  ['cicgars', 'cigars'],
-  ['covidvacccine', 'covidvaccine'],
-  ['happythanksgivng', 'happythanksgiving'],
-  ['newbeginings', 'newbeginnings'],
-  ['tradtions', 'traditions'],
-]);
+const taxonomyRules = readTaxonomyRules();
+const removedTaxonomy = taxonomyRules.removed;
 
 const stats: Stats = {
   files: 0,
@@ -192,36 +161,15 @@ function normalizeCategories(values: string[]) {
 }
 
 function normalizeHashtag(value: string) {
-  const normalized = value
-    .normalize('NFKC')
-    .trim()
-    .replace(/^#+/, '')
-    .replace(/\s+/g, '')
-    .toLowerCase();
-
-  return hashtagAliases.get(normalized) ?? normalized;
+  return canonicalHashtag(value, taxonomyRules);
 }
 
 function normalizeCategoryKey(value: string) {
-  return value.normalize('NFKC').trim().replace(/\s+/g, ' ').toLowerCase();
+  return normalizeTaxonomyKey(value);
 }
 
 function categoryLabel(key: string) {
-  const alias = categoryAliases.get(key);
-
-  if (alias) {
-    return alias;
-  }
-
-  return key
-    .split(' ')
-    .map((word) =>
-      word
-        .split('-')
-        .map((part) => (part ? `${part[0].toUpperCase()}${part.slice(1)}` : part))
-        .join('-'),
-    )
-    .join(' ');
+  return categoryLabelForKey(key, taxonomyRules);
 }
 
 function setListField(yaml: string, key: string, values: string[], anchor?: string) {

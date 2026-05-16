@@ -1601,3 +1601,120 @@ Detailed working notes for the React migration live here. This file is intention
 - Linked the checklist from `docs/platform-roadmap.md`.
 - Kept this out of `CHANGELOG.md` for now because it is planning/documentation
   rather than a site behavior change.
+
+### Validator Tightening
+
+- Started the near-term checklist from the top with content validation.
+- Tightened `scripts/validate-content.ts` so authored content must use the final
+  `post`, `story`, or `gallery` types.
+- Legacy `content_type: article` and `related.type: article` now produce hard
+  validation errors instead of compatibility-only warnings.
+- Authored media references now include inline Markdown images as well as
+  `cover_image` and `images`.
+- Authored media references must be canonical manifest keys; external URLs and
+  absolute paths now fail validation.
+- The validation report now includes `media.referenced`, the count of unique
+  media IDs referenced by authored content.
+- Legacy Jekyll gallery includes are now tracked as cleanup work and remain
+  non-blocking for the current excluded Facebook Mobile Uploads gallery records.
+- Verification:
+  - `npm run content:validate`
+  - `npm run content:validate:strict`
+  - `npm run api:build`
+  - `npm run build`
+
+### Taxonomy Alias Maps And Golden Examples
+
+- Added `content/taxonomy.aliases.json` as the shared editable source for:
+  - removed source/import taxonomy values.
+  - hashtag typo aliases.
+  - category aliases.
+  - people aliases.
+  - location aliases.
+- Added `scripts/taxonomy-rules.ts` so validator and cleanup scripts use the
+  same alias rules.
+- Updated:
+  - `scripts/validate-content.ts`
+  - `scripts/normalize-taxonomy.ts`
+  - `scripts/normalize-entities.ts`
+- Added `docs/golden-content-examples.md` to name the initial reference set:
+  - `_posts/2013-05-29-big-boy.md`
+  - `_posts/2009-10-18-pumpkin-patch.md`
+  - `_posts/2026-04-16-194804-better-late-than-never.md`
+  - `_posts/2009-10-18-pumpkin-patch-gallery.md`
+- Verification:
+  - `npm run taxonomy:normalize`
+  - `npm run entities:normalize`
+  - `npm run content:validate`
+  - `npm run content:validate:strict`
+  - `npm run api:build`
+  - `npm run build`
+
+### Taxonomy Route Audit
+
+- Audited near-term checklist item 4.
+- Confirmed frontend routes exist for:
+  - `/hashtags/:slug`
+  - `/categories/:slug`
+  - `/people/:slug`
+  - `/locations/:slug`
+- Confirmed API routes exist for:
+  - `/api/taxonomy/{family}/{slug}`
+  - `/api/sites/{site}/taxonomy/{family}/{slug}`
+- Confirmed hashtags and categories render through the bottom content taxonomy
+  footer.
+- Confirmed people and locations render as linked metadata chips.
+- Updated `docs/near-term-feature-completion.md` to mark taxonomy result pages
+  and links as baseline implemented.
+
+### Source Cleanup And Media Validation Audit
+
+- Audited near-term checklist items 5 and 6.
+- Confirmed user-facing archive metrics only render:
+  - posts.
+  - stories.
+  - galleries.
+  - images.
+- Confirmed import/source labels are not rendered through detail taxonomy.
+- Kept source query filtering as hidden migration/debug plumbing for now.
+- Marked media manifest reference validation as baseline implemented because the
+  validator now checks:
+  - `cover_image`.
+  - `images[].id`.
+  - inline Markdown image references.
+  - missing media IDs against `content/media/index.json`.
+- Current validation reports:
+  - `4,769` unique authored media references.
+  - `0` missing media references.
+
+### Authoring Examples
+
+- Expanded `docs/authoring-publish-workflow.md` with copyable draft examples
+  for:
+  - post with no images.
+  - post with direct images.
+  - post with a linked gallery.
+  - story with direct images.
+  - standalone gallery.
+- Marked near-term checklist item 7 as baseline implemented.
+
+### Publish Plan Dry Run
+
+- Added `scripts/plan-publish.ts`.
+- Added `npm run publish:plan`.
+- The planner reads `git status --short --porcelain=v1` and reports:
+  - changed `_posts/*.md` files.
+  - changed local media files.
+  - affected content JSON files.
+  - affected index JSON files.
+  - local media references that would upload.
+  - Markdown media rewrites from local filenames to canonical media keys.
+  - publish-plan issues.
+- The planner writes `.tmp/publish-plan-report.json`.
+- The planner does not write Markdown or upload blobs.
+- Current run reported:
+  - `13` changed files.
+  - `0` changed content Markdown files.
+  - `0` planned media uploads.
+  - `0` issues.
+- Marked near-term checklist item 8 as baseline implemented.

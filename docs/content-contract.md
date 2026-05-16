@@ -332,6 +332,13 @@ It writes `.tmp/content-validation-report.json` and separates hard errors from
 target-contract cleanup counts so migrated content can be tightened in measured
 passes.
 
+The current validator rejects legacy `article` content types, legacy
+`related.type: article` links, external or absolute media references in
+authored content, non-canonical media keys, and media keys that are missing from
+`content/media/index.json`. It also reports the number of unique media IDs
+referenced by authored content so `_gallery` retirement can be tracked with a
+concrete number.
+
 Test coverage should include:
 
 - content compiler unit tests

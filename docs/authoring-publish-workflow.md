@@ -26,9 +26,34 @@ defined in [`media-manifest.md`](media-manifest.md).
 Site presentation settings are defined in
 [`site-configuration.md`](site-configuration.md).
 
+The current reference files for the target post/story/gallery shapes are listed
+in [`golden-content-examples.md`](golden-content-examples.md).
+
 ## Draft Authoring
 
 Draft Markdown may use simple local filenames. The author should not need to know the final Azure Blob path.
+
+Example post with no images:
+
+```yaml
+---
+content_type: post
+title: Site Update
+slug: site-update
+post_id: 2026-05-16-site-update
+date: 2026-05-16 09:00:00
+status: published
+authors:
+  - Jeff Patton
+hashtags:
+  - siteupdate
+categories:
+  - Family
+people: []
+locations: []
+summary: "A short update about the site."
+---
+```
 
 Example gallery draft:
 
@@ -36,7 +61,20 @@ Example gallery draft:
 ---
 content_type: gallery
 title: Pumpkin Patch
+slug: pumpkin-patch
+post_id: 2009-10-18-pumpkin-patch-gallery
 date: 2009-10-18
+status: published
+authors:
+  - Jeff Patton
+hashtags:
+  - pumpkinpatch
+categories:
+  - Family
+people:
+  - Natalie
+locations: []
+summary: "Fourteen photos from the family pumpkin patch trip."
 cover_image: img58363.jpg
 images:
   - id: img58363.jpg
@@ -54,7 +92,18 @@ Example post draft with a small image set:
 ---
 content_type: post
 title: Big Boy
+slug: big-boy
+post_id: 2013-05-29-big-boy
 date: 2013-05-29
+status: published
+authors:
+  - Jeff Patton
+people:
+  - Nathan
+hashtags: []
+categories: []
+locations: []
+summary: "Nathan went potty like a big boy."
 cover_image: wp-20130529-002.jpg
 images:
   - id: wp-20130529-002.jpg
@@ -69,11 +118,50 @@ Example post draft that references a gallery:
 ---
 content_type: post
 title: Pumpkin Patch
+slug: pumpkin-patch
+post_id: 2009-10-18-pumpkin-patch
 date: 2009-10-18
+status: published
+authors:
+  - Jeff Patton
+hashtags:
+  - pumpkinpatch
+categories:
+  - Family
+people:
+  - Natalie
+locations: []
+summary: "A family trip to the pumpkin patch."
 related:
   - type: gallery
     id: pumpkin-patch-gallery
     rel: photos
+---
+```
+
+Example story draft with images:
+
+```yaml
+---
+content_type: story
+title: Breakfast
+slug: breakfast
+post_id: 2026-04-12-105120-breakfast
+date: 2026-04-12 10:51:20
+status: published
+authors:
+  - Jeff Patton
+hashtags:
+  - breakfast
+categories: []
+people: []
+locations: []
+summary: "Breakfast."
+cover_image: breakfast-01.jpg
+images:
+  - id: breakfast-01.jpg
+    caption:
+    alt:
 ---
 ```
 
@@ -163,6 +251,18 @@ The publish action should:
 11. Update `content/media/index.json`.
 12. Build generated JSON from the canonical Markdown and media manifest.
 
+Before implementing the full write/upload path, use the publish planner to see
+what would be affected by the current Git working tree:
+
+```powershell
+npm run publish:plan
+```
+
+The planner writes `.tmp/publish-plan-report.json` and reports changed content
+Markdown, changed local media files, affected generated JSON, affected indexes,
+planned media uploads, planned Markdown rewrites, and publish-plan issues. It
+does not write files or upload blobs.
+
 ## GitHub Action Triggers
 
 The target publish flow should separate validation from production publishing.
@@ -228,6 +328,17 @@ The validator writes `.tmp/content-validation-report.json`, exits nonzero for
 hard publish blockers, and keeps target-contract cleanup counts separate from
 errors.
 
+Current hard blockers include invalid content types, legacy `article`
+terminology, missing required metadata, duplicate IDs/routes, non-canonical
+media keys, external or absolute media URLs in authored references, media keys
+missing from `content/media/index.json`, gallery cover/image mismatches, source
+labels in user-facing taxonomy, people/place values left in categories, and
+missing related content.
+
+The report also includes the count of unique media IDs referenced by authored
+content. That count helps verify the site is moving toward manifest-backed media
+instead of depending on one Markdown document per image.
+
 Strict mode can be used later when we are ready to promote more cleanup items to
 CI failures:
 
@@ -259,6 +370,12 @@ from user-facing taxonomy fields, and normalizes duplicate category casing.
 Hashtags are written without a leading `#`, lowercased, and with spaces removed.
 Known typo aliases are also normalized, including common breakfast misspellings,
 `tradtions`, `happythanksgivng`, and similar obvious one-off typos.
+
+The shared alias source for validation and cleanup scripts is:
+
+```text
+content/taxonomy.aliases.json
+```
 
 The content build emits the current aggregate taxonomy list to:
 
