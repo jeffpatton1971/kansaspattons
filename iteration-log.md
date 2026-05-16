@@ -1732,3 +1732,22 @@ Detailed working notes for the React migration live here. This file is intention
   - migration/canonicalization tools.
   - storage migration planning.
 - Updated docs to describe manifest-backed media as current runtime behavior.
+
+### Publish Planner Media Manifest Additions
+
+- Enhanced `npm run publish:plan` as the next publish-pipeline step.
+- The planner now reads `content/media/index.json` and can report:
+  - existing manifest asset count and storage settings.
+  - local draft media SHA-256 hashes.
+  - local draft media byte sizes.
+  - canonical raw blob paths.
+  - canonical thumb blob paths for images.
+  - planned manifest assets to add.
+  - manifest key collisions before upload.
+- The planner still does not write Markdown, update the manifest, generate
+  thumbnails, or upload blobs.
+- Updated `MediaAsset` typing to allow optional `byteSize` and `hash`.
+- Verification:
+  - `npm run publish:plan`
+  - `npm run build:content`
+  - `npx tsc -p tsconfig.node.json`

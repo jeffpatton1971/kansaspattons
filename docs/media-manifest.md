@@ -118,6 +118,17 @@ For new content:
 5. Publish updates the media manifest with the new/changed assets.
 6. Build uses the media manifest instead of `_gallery`.
 
+The current dry-run planning command is:
+
+```powershell
+npm run publish:plan
+```
+
+It reads changed Markdown from the Git working tree, resolves local draft media
+references, computes SHA-256 hashes and byte sizes, detects canonical key
+collisions against `content/media/index.json`, and reports the media manifest
+assets that would be added.
+
 For existing content:
 
 1. Generate the first source media manifest from `_gallery`.

@@ -257,6 +257,7 @@ Work:
   `yyyy/mm/dd/filename.ext` keys.
 - Affected index JSON files are listed.
 - Planned media uploads are listed.
+- Planned manifest assets are listed with canonical media keys.
 - Planned Markdown rewrites are listed.
 - The command writes `.tmp/publish-plan-report.json`.
 - The command does not write Markdown, generate thumbnails, upload blobs, or
@@ -267,6 +268,8 @@ Acceptance criteria:
 - A dry run can be reviewed before publish writes anything.
 - The command exits nonzero when planned work has collisions or missing media.
 - The dry-run output is suitable for GitHub Actions logs.
+- Local draft media is hashed with SHA-256 and checked against existing
+  manifest assets before upload work begins.
 
 ```powershell
 npm run publish:plan

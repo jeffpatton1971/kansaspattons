@@ -49,7 +49,7 @@ Next work:
 
 ## 2. Publish Pipeline
 
-Status: workflow documented, implementation pending.
+Status: workflow documented with initial dry-run planning.
 
 Target flow:
 
@@ -59,7 +59,7 @@ Target flow:
 
 Next work:
 
-- Detect changed Markdown and local media files.
+- Promote the dry-run publish plan into a write/upload implementation.
 - Upload raw media and generated thumbnails to canonical Azure paths.
 - Rewrite Markdown local media filenames to canonical `yyyy/mm/dd/filename.ext`
   keys.

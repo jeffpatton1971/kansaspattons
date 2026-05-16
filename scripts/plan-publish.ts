@@ -1,9 +1,17 @@
 import { execFile } from 'node:child_process';
+import { createHash } from 'node:crypto';
 import { existsSync } from 'node:fs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { promisify } from 'node:util';
 import matter from 'gray-matter';
+import {
+  readMediaManifest,
+  type MediaAsset,
+  type MediaKind,
+  type MediaManifest,
+  type MediaUsage,
+} from './media-manifest-lib';
 
 type Frontmatter = Record<string, unknown>;
 type ContentType = 'post' | 'story' | 'gallery';
@@ -16,6 +24,8 @@ type ChangedFile = {
 type MarkdownPlan = {
   file: string;
   contentType?: ContentType;
+  contentId: string;
+  title: string;
   route?: string;
   jsonPath?: string;
   mediaReferences: MediaRewrite[];
@@ -26,6 +36,27 @@ type MediaRewrite = {
   canonicalKey: string;
   localPath?: string;
   exists: boolean;
+  kind: MediaKind;
+  byteSize?: number;
+  hash?: {
+    algorithm: 'sha256';
+    value: string;
+  };
+  rawBlobPath: string;
+  thumbBlobPath?: string;
+  rawUrl?: string;
+  thumbUrl?: string;
+  caption?: string;
+  alt?: string;
+  role: NonNullable<MediaUsage['role']>;
+  manifestAction: 'none' | 'add' | 'reuse-existing' | 'collision';
+};
+
+type MediaReference = {
+  reference: string;
+  caption?: string;
+  alt?: string;
+  role: NonNullable<MediaUsage['role']>;
 };
 
 type Issue = {
@@ -36,11 +67,14 @@ type Issue = {
 
 const execFileAsync = promisify(execFile);
 const root = process.cwd();
+const sourceMediaManifestPath = path.join(root, 'content', 'media', 'index.json');
 const reportPath = path.join(root, '.tmp', 'publish-plan-report.json');
 const canonicalMediaKey = /^\d{4}\/\d{2}\/\d{2}\/[^/]+\.[A-Za-z0-9]+$/;
 const externalReference = /^[a-z][a-z0-9+.-]*:/i;
 
 async function main() {
+  const mediaManifest = await readMediaManifest(sourceMediaManifestPath);
+  const manifestAssetsById = new Map(mediaManifest.assets.map((asset) => [asset.id, asset]));
   const changedFiles = await gitChangedFiles();
   const markdownFiles = changedFiles
     .map((file) => file.path)
@@ -54,7 +88,7 @@ async function main() {
   const issues: Issue[] = [];
 
   for (const file of markdownFiles) {
-    markdownPlans.push(await planMarkdown(file, issues));
+    markdownPlans.push(await planMarkdown(file, mediaManifest, manifestAssetsById, issues));
   }
 
   issues.push(...collisionIssues(markdownPlans));
@@ -70,17 +104,32 @@ async function main() {
         canonicalKey: reference.canonicalKey,
         localPath: reference.localPath,
         exists: reference.exists,
+        kind: reference.kind,
+        byteSize: reference.byteSize,
+        hash: reference.hash,
+        rawBlobPath: reference.rawBlobPath,
+        thumbBlobPath: reference.thumbBlobPath,
+        rawUrl: reference.rawUrl,
+        thumbUrl: reference.thumbUrl,
+        manifestAction: reference.manifestAction,
       })),
   );
+  const plannedManifestAssets = manifestAssets(markdownPlans, mediaManifest);
 
   const report = {
     generatedAt: new Date().toISOString(),
+    mediaManifest: {
+      path: path.relative(root, sourceMediaManifestPath).replaceAll(path.sep, '/'),
+      assets: mediaManifest.assets.length,
+      storage: mediaManifest.storage,
+    },
     changedFiles,
     changedMarkdown: markdownFiles,
     changedLocalMedia,
     affectedJson,
     affectedIndexes,
     plannedMediaUploads,
+    plannedManifestAssets,
     markdownRewrites: plannedMediaUploads.map((upload) => ({
       file: upload.contentFile,
       from: upload.reference,
@@ -118,13 +167,20 @@ async function gitChangedFiles() {
     });
 }
 
-async function planMarkdown(file: string, issues: Issue[]): Promise<MarkdownPlan> {
+async function planMarkdown(
+  file: string,
+  mediaManifest: MediaManifest,
+  manifestAssetsById: Map<string, MediaAsset>,
+  issues: Issue[],
+): Promise<MarkdownPlan> {
   const fullPath = path.join(root, file);
   const raw = await fs.readFile(fullPath, 'utf8');
   const parsed = matter(raw);
   const contentType = contentTypeFromFrontmatter(parsed.data);
   const parts = dateParts(parsed.data.date);
   const slug = textValue(parsed.data.slug) || slugFromPostFilename(path.basename(file, '.md'));
+  const contentId = textValue(parsed.data.post_id || parsed.data.id) || path.basename(file, '.md');
+  const title = textValue(parsed.data.title) || titleFromSlug(slug);
   const route = contentType && parts ? routeFor(contentType, parts, slug) : undefined;
   const jsonPath = route ? `${route.replace(/^\//, '')}.json` : undefined;
 
@@ -144,29 +200,62 @@ async function planMarkdown(file: string, issues: Issue[]): Promise<MarkdownPlan
     });
   }
 
-  const mediaReferences = parts
-    ? mediaRefs(parsed.data, parsed.content).map((reference) => planMediaReference(file, reference, parts, issues))
-    : [];
+  const mediaReferences: MediaRewrite[] = [];
+
+  if (parts) {
+    for (const reference of mediaRefs(parsed.data, parsed.content)) {
+      mediaReferences.push(
+        await planMediaReference(file, reference, parts, mediaManifest, manifestAssetsById, issues),
+      );
+    }
+  }
 
   return {
     file,
     contentType,
+    contentId,
+    title,
     route,
     jsonPath,
     mediaReferences,
   };
 }
 
-function planMediaReference(file: string, reference: string, parts: DateParts, issues: Issue[]): MediaRewrite {
+async function planMediaReference(
+  file: string,
+  mediaReference: MediaReference,
+  parts: DateParts,
+  mediaManifest: MediaManifest,
+  manifestAssetsById: Map<string, MediaAsset>,
+  issues: Issue[],
+): Promise<MediaRewrite> {
+  const { reference } = mediaReference;
+  const filename = path.basename(reference);
+  const canonicalKey = isCanonicalReference(reference)
+    ? reference
+    : `${parts.year}/${parts.month}/${parts.day}/${filename}`;
+  const kind = mediaKind(canonicalKey);
+  const rawBlobPath = `${mediaManifest.storage.rawPrefix}/${canonicalKey}`;
+  const thumbBlobPath = kind === 'video' ? undefined : `${mediaManifest.storage.thumbPrefix}/${canonicalKey}`;
+  const rawUrl = assetUrl(mediaManifest, 'images', canonicalKey);
+  const thumbUrl = kind === 'video' ? undefined : assetUrl(mediaManifest, 'thumbs', canonicalKey);
+
   if (isCanonicalReference(reference)) {
     return {
       reference,
-      canonicalKey: reference,
+      canonicalKey,
       exists: true,
+      kind,
+      rawBlobPath,
+      thumbBlobPath,
+      rawUrl,
+      thumbUrl,
+      caption: mediaReference.caption,
+      alt: mediaReference.alt,
+      role: mediaReference.role,
+      manifestAction: 'none',
     };
   }
-
-  const canonicalKey = `${parts.year}/${parts.month}/${parts.day}/${path.basename(reference)}`;
 
   if (externalReference.test(reference) || reference.startsWith('/')) {
     issues.push({
@@ -179,11 +268,24 @@ function planMediaReference(file: string, reference: string, parts: DateParts, i
       reference,
       canonicalKey,
       exists: false,
+      kind,
+      rawBlobPath,
+      thumbBlobPath,
+      rawUrl,
+      thumbUrl,
+      caption: mediaReference.caption,
+      alt: mediaReference.alt,
+      role: mediaReference.role,
+      manifestAction: 'collision',
     };
   }
 
   const localPath = path.resolve(root, path.dirname(file), reference);
   const exists = fileExists(localPath);
+
+  const localMedia = exists ? await localMediaDetails(localPath) : undefined;
+  const existingAsset = manifestAssetsById.get(canonicalKey);
+  let manifestAction: MediaRewrite['manifestAction'] = 'add';
 
   if (!exists) {
     issues.push({
@@ -191,6 +293,16 @@ function planMediaReference(file: string, reference: string, parts: DateParts, i
       file,
       message: `Local media reference "${reference}" was not found at ${path.relative(root, localPath)}.`,
     });
+    manifestAction = 'collision';
+  } else if (existingAsset?.hash && localMedia?.hash.value === existingAsset.hash.value) {
+    manifestAction = 'reuse-existing';
+  } else if (existingAsset) {
+    issues.push({
+      code: 'media.manifestCollision',
+      file,
+      message: `Canonical media key "${canonicalKey}" already exists in content/media/index.json.`,
+    });
+    manifestAction = 'collision';
   }
 
   return {
@@ -198,6 +310,17 @@ function planMediaReference(file: string, reference: string, parts: DateParts, i
     canonicalKey,
     localPath: path.relative(root, localPath).replaceAll(path.sep, '/'),
     exists,
+    kind,
+    byteSize: localMedia?.byteSize,
+    hash: localMedia?.hash,
+    rawBlobPath,
+    thumbBlobPath,
+    rawUrl,
+    thumbUrl,
+    caption: mediaReference.caption,
+    alt: mediaReference.alt,
+    role: mediaReference.role,
+    manifestAction,
   };
 }
 
@@ -258,11 +381,11 @@ function affectedIndexPaths(markdownPlans: MarkdownPlan[]) {
 }
 
 function mediaRefs(data: Frontmatter, content: string) {
-  const refs = new Set<string>();
+  const refs = new Map<string, MediaReference>();
   const cover = textValue(data.cover_image || data.coverImage || data.coverImageId);
 
   if (cover) {
-    refs.add(cover);
+    refs.set(cover, { reference: cover, role: 'cover' });
   }
 
   for (const value of [data.images, data.imageIds, data.image_ids]) {
@@ -271,7 +394,7 @@ function mediaRefs(data: Frontmatter, content: string) {
         const ref = item.trim();
 
         if (ref) {
-          refs.add(ref);
+          mergeMediaReference(refs, { reference: ref, role: 'inline' });
         }
       }
     }
@@ -279,12 +402,18 @@ function mediaRefs(data: Frontmatter, content: string) {
     if (Array.isArray(value)) {
       for (const item of value) {
         if (typeof item === 'string') {
-          refs.add(item);
+          mergeMediaReference(refs, { reference: item, role: 'inline' });
         } else if (item && typeof item === 'object' && !(item instanceof Date)) {
-          const ref = textValue((item as Frontmatter).id);
+          const image = item as Frontmatter;
+          const ref = textValue(image.id || image.file || image.filename);
 
           if (ref) {
-            refs.add(ref);
+            mergeMediaReference(refs, {
+              reference: ref,
+              caption: textValue(image.caption),
+              alt: textValue(image.alt),
+              role: 'inline',
+            });
           }
         }
       }
@@ -292,10 +421,113 @@ function mediaRefs(data: Frontmatter, content: string) {
   }
 
   for (const match of content.matchAll(/!\[[^\]]*]\(([^)\s]+)(?:\s+"[^"]*")?\)/g)) {
-    refs.add(match[1].trim());
+    mergeMediaReference(refs, {
+      reference: match[1].trim(),
+      alt: match[0].replace(/^!\[([^\]]*)].*$/, '$1'),
+      role: 'inline',
+    });
   }
 
-  return [...refs].filter(Boolean);
+  return [...refs.values()].filter((ref) => ref.reference);
+}
+
+function mergeMediaReference(refs: Map<string, MediaReference>, next: MediaReference) {
+  const current = refs.get(next.reference);
+
+  if (!current) {
+    refs.set(next.reference, next);
+    return;
+  }
+
+  refs.set(next.reference, {
+    ...current,
+    caption: current.caption || next.caption,
+    alt: current.alt || next.alt,
+    role: current.role === 'cover' ? current.role : next.role,
+  });
+}
+
+function manifestAssets(markdownPlans: MarkdownPlan[], mediaManifest: MediaManifest) {
+  const assets = new Map<string, MediaAsset>();
+
+  for (const plan of markdownPlans) {
+    for (const reference of plan.mediaReferences) {
+      if (reference.manifestAction !== 'add') {
+        continue;
+      }
+
+      if (!reference.hash || !reference.byteSize) {
+        continue;
+      }
+
+      const parts = partsFromCanonicalKey(reference.canonicalKey);
+
+      if (!parts) {
+        continue;
+      }
+
+      const usage = plan.contentType
+        ? {
+            contentType: plan.contentType,
+            id: plan.contentId,
+            route: plan.route,
+            role: usageRole(plan.contentType, reference.role),
+          }
+        : undefined;
+
+      assets.set(reference.canonicalKey, {
+        siteKey: mediaManifest.site.key,
+        id: reference.canonicalKey,
+        kind: reference.kind,
+        date: `${parts.year}-${parts.month}-${parts.day}T00:00:00.000Z`,
+        filename: path.basename(reference.canonicalKey),
+        title: plan.title,
+        caption: reference.caption || undefined,
+        alt: reference.alt || reference.caption || plan.title,
+        rawUrl: reference.rawUrl || '',
+        thumbUrl: reference.thumbUrl,
+        contentType: contentTypeForFilename(reference.canonicalKey),
+        byteSize: reference.byteSize,
+        hash: reference.hash,
+        people: [],
+        locations: [],
+        usedBy: usage ? [usage] : [],
+        ...parts,
+      });
+    }
+  }
+
+  return [...assets.values()].sort((a, b) => a.id.localeCompare(b.id));
+}
+
+function partsFromCanonicalKey(value: string): DateParts | undefined {
+  const match = /^(\d{4})\/(\d{2})\/(\d{2})\//.exec(value);
+
+  if (!match) {
+    return undefined;
+  }
+
+  return {
+    year: match[1],
+    month: match[2],
+    day: match[3],
+  };
+}
+
+function usageRole(contentType: ContentType, role: NonNullable<MediaUsage['role']>) {
+  if (role === 'cover') {
+    return role;
+  }
+
+  if (contentType === 'gallery') {
+    return 'gallery-item';
+  }
+
+  if (contentType === 'story') {
+    return 'story-media';
+  }
+
+  return role;
 }
 
 type DateParts = {
@@ -327,6 +559,21 @@ function dateParts(value: unknown): DateParts | undefined {
   };
 }
 
+async function localMediaDetails(localPath: string) {
+  const [contents, details] = await Promise.all([
+    fs.readFile(localPath),
+    fs.stat(localPath),
+  ]);
+
+  return {
+    byteSize: details.size,
+    hash: {
+      algorithm: 'sha256' as const,
+      value: createHash('sha256').update(contents).digest('hex'),
+    },
+  };
+}
+
 function contentTypeFromFrontmatter(data: Frontmatter): ContentType | undefined {
   const value = textValue(data.content_type || data.contentType || data.type).toLowerCase();
 
@@ -348,6 +595,53 @@ function isCanonicalReference(value: string) {
 
 function isLikelyMediaFile(file: string) {
   return /\.(avif|gif|jpe?g|m4v|mov|mp4|png|webp)$/i.test(file);
+}
+
+function mediaKind(value: string): MediaKind {
+  return /\.(mp4|mov|m4v|webm)$/i.test(value) ? 'video' : 'image';
+}
+
+function assetUrl(mediaManifest: MediaManifest, prefix: 'images' | 'thumbs', canonicalKey: string) {
+  const storagePrefix = prefix === 'images' ? mediaManifest.storage.rawPrefix : mediaManifest.storage.thumbPrefix;
+  return `${mediaManifest.storage.baseUrl.replace(/\/?$/, '/')}${storagePrefix}/${encodePath(canonicalKey.split('/'))}`;
+}
+
+function encodePath(parts: string[]) {
+  return parts.map((part) => encodeURIComponent(part)).join('/');
+}
+
+function contentTypeForFilename(value: string) {
+  const extension = path.extname(value).toLowerCase();
+
+  switch (extension) {
+    case '.avif':
+      return 'image/avif';
+    case '.gif':
+      return 'image/gif';
+    case '.jpg':
+    case '.jpeg':
+      return 'image/jpeg';
+    case '.m4v':
+      return 'video/x-m4v';
+    case '.mov':
+      return 'video/quicktime';
+    case '.mp4':
+      return 'video/mp4';
+    case '.png':
+      return 'image/png';
+    case '.webp':
+      return 'image/webp';
+    default:
+      return 'application/octet-stream';
+  }
+}
+
+function titleFromSlug(value: string) {
+  return value
+    .split('-')
+    .filter(Boolean)
+    .map((part) => `${part[0]?.toUpperCase() ?? ''}${part.slice(1)}`)
+    .join(' ');
 }
 
 function slugFromPostFilename(filename: string) {
@@ -380,7 +674,14 @@ function printReport(report: {
   changedLocalMedia: string[];
   affectedJson: string[];
   affectedIndexes: string[];
-  plannedMediaUploads: Array<{ contentFile: string; reference: string; canonicalKey: string; exists: boolean }>;
+  plannedMediaUploads: Array<{
+    contentFile: string;
+    reference: string;
+    canonicalKey: string;
+    exists: boolean;
+    manifestAction: MediaRewrite['manifestAction'];
+  }>;
+  plannedManifestAssets: MediaAsset[];
   markdownRewrites: Array<{ file: string; from: string; to: string }>;
   issues: Issue[];
 }) {
@@ -391,6 +692,7 @@ function printReport(report: {
   console.log(`Affected content JSON: ${report.affectedJson.length}`);
   console.log(`Affected indexes: ${report.affectedIndexes.length}`);
   console.log(`Planned media uploads: ${report.plannedMediaUploads.length}`);
+  console.log(`Planned manifest assets: ${report.plannedManifestAssets.length}`);
   console.log(`Markdown rewrites: ${report.markdownRewrites.length}`);
   console.log(`Issues: ${report.issues.length}`);
   console.log(`Report: ${path.relative(root, reportPath)}`);
@@ -401,8 +703,9 @@ function printReport(report: {
   printList('Affected indexes', report.affectedIndexes);
   printList(
     'Planned media uploads',
-    report.plannedMediaUploads.map((upload) => `${upload.reference} -> ${upload.canonicalKey}`),
+    report.plannedMediaUploads.map((upload) => `${upload.reference} -> ${upload.canonicalKey} (${upload.manifestAction})`),
   );
+  printList('Planned manifest assets', report.plannedManifestAssets.map((asset) => asset.id));
 
   if (report.issues.length > 0) {
     printList(

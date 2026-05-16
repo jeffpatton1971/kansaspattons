@@ -260,8 +260,21 @@ npm run publish:plan
 
 The planner writes `.tmp/publish-plan-report.json` and reports changed content
 Markdown, changed local media files, affected generated JSON, affected indexes,
-planned media uploads, planned Markdown rewrites, and publish-plan issues. It
-does not write files or upload blobs.
+planned media uploads, planned media manifest assets, planned Markdown rewrites,
+and publish-plan issues. It computes SHA-256 hashes and byte sizes for local
+draft media, maps local references to canonical blob paths, and detects manifest
+key collisions before anything is uploaded. It does not write files or upload
+blobs.
+
+The planner is intentionally one step earlier than the generated-content publish
+dry run:
+
+```powershell
+npm run publish:content:dry-run
+```
+
+Use `publish:plan` to reason about authoring/source changes. Use
+`publish:content:dry-run` to reason about generated JSON artifact upload.
 
 ## GitHub Action Triggers
 

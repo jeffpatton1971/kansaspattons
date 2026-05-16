@@ -30,6 +30,11 @@ export type MediaAsset = DateParts & {
   thumbUrl?: string;
   posterUrl?: string;
   contentType?: string;
+  byteSize?: number;
+  hash?: {
+    algorithm: 'sha256';
+    value: string;
+  };
   people?: string[];
   locations?: string[];
   usedBy?: MediaUsage[];
