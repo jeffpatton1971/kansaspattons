@@ -1718,3 +1718,17 @@ Detailed working notes for the React migration live here. This file is intention
   - `0` planned media uploads.
   - `0` issues.
 - Marked near-term checklist item 8 as baseline implemented.
+
+### Manifest-Required Media Runtime
+
+- Continued into the next structural blocker after the near-term checklist:
+  `_gallery` retirement.
+- Removed the content build fallback that regenerated media directly from
+  `_gallery` when `content/media/index.json` was missing.
+- Removed the validator fallback that derived media IDs from `_gallery`.
+- The React/API build and validator now require `content/media/index.json`.
+- `_gallery` remains available only as temporary import backup metadata for:
+  - `npm run media:manifest:write`.
+  - migration/canonicalization tools.
+  - storage migration planning.
+- Updated docs to describe manifest-backed media as current runtime behavior.

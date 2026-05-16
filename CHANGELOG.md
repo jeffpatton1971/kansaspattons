@@ -104,6 +104,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed grouped image previews from filmstrip-style thumbnail rows to larger carousel-style panels with arrow controls.
 - Added Embla Carousel for grouped image previews and restyled those previews as layered stacked carousels.
 - Changed content validation so the final `post`, `story`, and `gallery` content types are enforced, legacy `article` references fail validation, authored media references must be canonical manifest keys, and the report includes referenced media ID counts.
+- Changed the content build and validator to require `content/media/index.json` instead of falling back to legacy `_gallery` metadata at runtime.
 - Changed `/posts` from an all-posts view to a calendar-led month/day archive view.
 - Changed `/images` to include the same calendar archive control in the left rail while preserving visual image browsing in the center.
 - Changed the home page to use the shared left/main/right shell layout.

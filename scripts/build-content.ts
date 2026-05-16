@@ -5,7 +5,6 @@ import matter from 'gray-matter';
 import MarkdownIt from 'markdown-it';
 import sanitizeHtml from 'sanitize-html';
 import {
-  buildLegacyMediaManifest,
   readMediaManifest,
   type MediaAsset,
   type MediaManifest,
@@ -536,8 +535,14 @@ async function loadMediaManifest(siteTitle: string) {
     return await readMediaManifest(sourceMediaManifestPath);
   } catch (error) {
     if (isMissingFileError(error)) {
-      console.warn('content/media/index.json was not found; building media manifest from legacy _gallery metadata.');
-      return buildLegacyMediaManifest({ root, siteKey, siteTitle });
+      throw new Error(
+        [
+          'content/media/index.json is required for the React/API build.',
+          'Run npm run media:manifest:write to regenerate it from legacy _gallery metadata during migration.',
+          'After publish owns media indexing, this file should be updated by the publish pipeline.',
+          `Site: ${siteTitle}`,
+        ].join(' '),
+      );
     }
 
     throw error;

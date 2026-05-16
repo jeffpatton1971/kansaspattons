@@ -123,8 +123,8 @@ For existing content:
 1. Generate the first source media manifest from `_gallery`.
 2. Verify generated `images/index.json` is identical or intentionally changed.
 3. Switch the compiler to read the manifest.
-4. Keep `_gallery` temporarily as a backup.
-5. Remove `_gallery` after the site/API run cleanly from manifest-backed media.
+4. Keep `_gallery` temporarily as import backup metadata only.
+5. Remove `_gallery` after the publish pipeline can update the manifest.
 
 Current commands:
 
@@ -134,9 +134,10 @@ npm run media:manifest:write
 npm run build
 ```
 
-The compiler reads `content/media/index.json` when present. If the manifest is
-missing during the transition, it can still fall back to `_gallery` so the site
-does not become brittle mid-migration.
+The compiler and validator now require `content/media/index.json`. `_gallery`
+is no longer a runtime fallback for the React/API site. During migration,
+`npm run media:manifest:write` can still regenerate the manifest from `_gallery`
+until the publish pipeline owns media indexing.
 
 ## Why Not Store This In Posts?
 

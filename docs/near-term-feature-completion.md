@@ -208,7 +208,8 @@ Acceptance criteria:
 - The site can build without reading `_gallery`.
 
 Current validation reports `4,769` unique media IDs referenced by authored
-content and `0` missing media references.
+content and `0` missing media references. The build and validator now require
+`content/media/index.json`; `_gallery` is not a runtime fallback.
 
 ## 7. Document Exact Authoring Examples
 

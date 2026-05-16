@@ -68,13 +68,13 @@ Next work:
 
 ## 3. `_gallery` Retirement
 
-Status: generated image IDs and content references are canonicalized, and the
-site now has a checked-in `content/media/index.json` source manifest. `_gallery`
-still exists as temporary import backup metadata.
+Status: generated image IDs and content references are canonicalized. The site
+now has a checked-in `content/media/index.json` source manifest, and the build
+and validator require that manifest. `_gallery` still exists as temporary import
+backup metadata for manifest regeneration and migration tools.
 
 Next work:
 
-- Verify the React site and API against manifest-backed media.
 - Move needed captions, alt text, dates, and legacy data into generated media
   assets or source manifests.
 - Stop creating new `_gallery` files.

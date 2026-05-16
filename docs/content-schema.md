@@ -292,11 +292,11 @@ type EntryDocument = EntrySummary & {
 
 ## Image Summary
 
-Images currently come from legacy `_gallery/*.md` import metadata, but generated image IDs are canonical media keys rather than Markdown document IDs.
-The planned manifest-backed replacement for `_gallery` is documented in
-[`media-manifest.md`](media-manifest.md).
-The current build reads `content/media/index.json` when present and emits the
-same manifest to `public/content/media/index.json`.
+Images now come from `content/media/index.json`, and generated image IDs are
+canonical media keys rather than Markdown document IDs. The manifest-backed
+replacement for `_gallery` is documented in [`media-manifest.md`](media-manifest.md).
+The current build requires `content/media/index.json` and emits the same
+manifest to `public/content/media/index.json`.
 
 Example:
 

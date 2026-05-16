@@ -81,7 +81,7 @@ async function main() {
       mediaManifestAssets: recommendations.mediaManifestAssets,
     },
     media: {
-      ids: mediaIds.size,
+      ids: mediaIds?.size ?? 0,
       referenced: uniqueMediaReferences(records).size,
     },
     contentTypes: countBy(records, (record) => record.targetType ?? 'unknown'),
@@ -113,46 +113,21 @@ async function main() {
 }
 
 async function readMediaIds() {
+  recommendations.galleryMarkdownFiles = (await markdownFiles(galleryRoot)).length;
   const manifestIds = await readMediaManifestIds();
 
-  if (manifestIds) {
-    recommendations.galleryMarkdownFiles = (await markdownFiles(galleryRoot)).length;
-    return manifestIds;
+  if (!manifestIds) {
+    addIssue(
+      'error',
+      'mediaManifest.missing',
+      'content/media/index.json',
+      'The media manifest is required. Run npm run media:manifest:write to regenerate it from legacy _gallery metadata during migration.',
+    );
+
+    return undefined;
   }
 
-  const ids = new Set<string>();
-  const files = await markdownFiles(galleryRoot);
-  recommendations.galleryMarkdownFiles = files.length;
-
-  for (const file of files) {
-    const fullPath = path.join(galleryRoot, file);
-    const raw = await fs.readFile(fullPath, 'utf8');
-    const parsed = matter(raw);
-    const filename = path.basename(file, '.md');
-    const parts = partsFromFrontmatter(parsed.data) ?? partsFromFilename(filename);
-
-    if (!parts) {
-      addIssue('warning', 'media.missingDateParts', `_gallery/${file}`, 'Media metadata cannot produce a canonical date-scoped ID.');
-      continue;
-    }
-
-    const sourceFilename = canonicalImageFilename(parsed.data, filename);
-
-    if (!sourceFilename) {
-      addIssue('warning', 'media.missingFilename', `_gallery/${file}`, 'Media metadata cannot produce a canonical filename.');
-      continue;
-    }
-
-    const id = `${parts.year}/${parts.month}/${parts.day}/${sourceFilename}`;
-
-    if (ids.has(id)) {
-      addIssue('error', 'media.duplicateCanonicalId', `_gallery/${file}`, `Duplicate canonical media ID: ${id}`);
-    }
-
-    ids.add(id);
-  }
-
-  return ids;
+  return manifestIds;
 }
 
 async function readMediaManifestIds() {
@@ -242,7 +217,7 @@ async function readContentRecords() {
   return records;
 }
 
-function validateRecords(records: ContentRecord[], mediaIds: Set<string>) {
+function validateRecords(records: ContentRecord[], mediaIds: Set<string> | undefined) {
   const ids = new Map<string, ContentRecord>();
   const routes = new Map<string, ContentRecord>();
 
@@ -416,7 +391,7 @@ function validateUniqueList(record: ContentRecord, field: 'people' | 'locations'
   }
 }
 
-function validateMediaReferences(record: ContentRecord, mediaIds: Set<string>) {
+function validateMediaReferences(record: ContentRecord, mediaIds: Set<string> | undefined) {
   const refs = new Set<string>();
   const cover = textValue(record.data.cover_image || record.data.coverImage || record.data.coverImageId);
 
@@ -448,7 +423,7 @@ function validateMediaReferences(record: ContentRecord, mediaIds: Set<string>) {
       continue;
     }
 
-    if (!mediaIds.has(ref)) {
+    if (mediaIds && !mediaIds.has(ref)) {
       addIssue('error', 'media.missingReference', record.file, `Media reference "${ref}" was not found in the media index.`);
     }
   }
@@ -642,18 +617,6 @@ function validDate(value: unknown) {
   return partsFromDate(value) !== undefined;
 }
 
-function partsFromFrontmatter(data: Frontmatter) {
-  const year = padDatePart(data.year, 4);
-  const month = padDatePart(data.month, 2);
-  const day = padDatePart(data.day, 2);
-
-  if (!year || !month || !day) {
-    return undefined;
-  }
-
-  return { year, month, day };
-}
-
 function partsFromDate(value: unknown): DateParts | undefined {
   if (value instanceof Date && !Number.isNaN(value.valueOf())) {
     return {
@@ -689,52 +652,6 @@ function partsFromDate(value: unknown): DateParts | undefined {
     month: match[2],
     day: match[3],
   };
-}
-
-function partsFromFilename(filename: string) {
-  const match = /^(\d{4})-(\d{2})-(\d{2})-/.exec(filename);
-
-  if (!match) {
-    return undefined;
-  }
-
-  return {
-    year: match[1],
-    month: match[2],
-    day: match[3],
-  };
-}
-
-function padDatePart(value: unknown, length: number) {
-  const text = textValue(value);
-
-  if (!text) {
-    return '';
-  }
-
-  return text.padStart(length, '0');
-}
-
-function canonicalImageFilename(data: Frontmatter, fallbackFile: string) {
-  return (
-    filenameFromUrl(textValue(data.raw_url)) ||
-    textValue(data.source_filename) ||
-    filenameFromUrl(textValue(data.thumb_url)) ||
-    path.basename(fallbackFile, '.md')
-  );
-}
-
-function filenameFromUrl(value: string) {
-  if (!value) {
-    return '';
-  }
-
-  try {
-    const url = new URL(value);
-    return decodeURIComponent(url.pathname).split('/').filter(Boolean).at(-1) ?? '';
-  } catch {
-    return value.split('/').filter(Boolean).at(-1) ?? '';
-  }
 }
 
 function isMissingFileError(error: unknown) {
