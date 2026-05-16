@@ -3,6 +3,9 @@
 This tracks the remaining work to move from the current KansasPattons migration
 prototype to a reusable content platform for multiple sites.
 
+For the immediate execution checklist, see
+[`near-term-feature-completion.md`](near-term-feature-completion.md).
+
 ## 1. Content Contract
 
 Status: documented target shape with an initial validator.

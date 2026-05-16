@@ -1584,3 +1584,20 @@ Detailed working notes for the React migration live here. This file is intention
   - `CONTENT_SITE_THEME_JSON`
   - banner/footer-specific text/link overrides.
 - Added `docs/site-configuration.md`.
+
+### Near-Term Feature Completion Checklist
+
+- Added `docs/near-term-feature-completion.md` to turn the current
+  low-friction work into an actionable checklist.
+- Documented eight near-term workstreams:
+  - validator tightening.
+  - taxonomy cleanup maps.
+  - golden content examples.
+  - taxonomy result pages and links.
+  - user-facing import/source cleanup.
+  - media manifest reference validation.
+  - exact authoring examples.
+  - dry-run publish planning.
+- Linked the checklist from `docs/platform-roadmap.md`.
+- Kept this out of `CHANGELOG.md` for now because it is planning/documentation
+  rather than a site behavior change.
