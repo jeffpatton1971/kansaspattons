@@ -267,6 +267,11 @@ Search should index:
 - people
 - location names
 
+The current baseline emits `search/index.json` for posts, stories, and
+galleries. It indexes title, summary/excerpt, body or gallery description,
+authors, people, categories, hashtags, locations, and date. Media-caption search
+is still a future extension if the raw media library needs full-text discovery.
+
 ## Publish Triggers
 
 Recommended GitHub Actions split:

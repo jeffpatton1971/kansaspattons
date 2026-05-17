@@ -78,6 +78,10 @@ Published behavior changes and bug fixes for the React site migration.
 - Added `media:manifest` and `media:manifest:write` commands for rebuilding the source media manifest.
 - Added taxonomy API endpoints for resolving hashtag, category, people, and location terms.
 - Added frontend routes for `/hashtags/{slug}`, `/categories/{slug}`, `/people/{slug}`, and `/locations/{slug}`.
+- Added generated `search/index.json` output for cross-type post, story, and gallery search.
+- Added `/api/search` and `/api/sites/{site}/search` endpoints with ranked, paged results.
+- Added the `/search` React route with a search form, content-type filter, and clickable result cards.
+- Added Search to the configurable site navigation and footer examples.
 - Added a bottom-of-content taxonomy footer for rendering clickable hashtags and categories on post, story, and gallery detail pages.
 - Added `content/site.config.json` as the editable source for site title, URL, navigation, banner, author, footer, and theme settings.
 - Added site configuration documentation covering nav links, banner images, footer links/text, and theme variables.

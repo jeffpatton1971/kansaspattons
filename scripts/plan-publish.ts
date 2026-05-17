@@ -383,7 +383,7 @@ function affectedIndexPaths(markdownPlans: MarkdownPlan[]) {
     return [];
   }
 
-  const indexes = new Set(['home.json', 'site.json', 'taxonomy.json']);
+  const indexes = new Set(['home.json', 'site.json', 'search/index.json', 'taxonomy.json']);
 
   for (const plan of markdownPlans) {
     if (plan.contentType === 'post') {

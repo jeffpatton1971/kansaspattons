@@ -999,6 +999,74 @@ h1 {
   font-weight: 700;
 }
 
+.search-card {
+  position: sticky;
+  top: 94px;
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid #d1d9d2;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.search-card h2 {
+  margin: 0;
+  color: #17201f;
+  font-size: 1.25rem;
+  line-height: 1.15;
+}
+
+.search-form {
+  display: grid;
+  gap: 10px;
+}
+
+.search-form label {
+  display: grid;
+  gap: 5px;
+  color: #697370;
+  font-size: 0.78rem;
+  font-weight: 780;
+  text-transform: uppercase;
+}
+
+.search-form input,
+.search-form select {
+  width: 100%;
+  min-height: 38px;
+  border: 1px solid #cbd8d4;
+  border-radius: 8px;
+  color: #17201f;
+  background: #fff;
+  font: inherit;
+  font-size: 0.94rem;
+  font-weight: 650;
+  text-transform: none;
+}
+
+.search-form input {
+  padding: 0 10px;
+}
+
+.search-form select {
+  padding: 0 8px;
+}
+
+.search-form button {
+  display: inline-flex;
+  min-height: 38px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid #0d5d56;
+  border-radius: 8px;
+  color: #fff;
+  background: #0d5d56;
+  font-weight: 780;
+  cursor: pointer;
+}
+
 .taxonomy-result-list {
   display: grid;
   gap: 10px;
@@ -1045,6 +1113,38 @@ h1 {
   color: #17201f;
   font-size: 1.02rem;
   line-height: 1.28;
+}
+
+.taxonomy-result-card p {
+  display: -webkit-box;
+  margin: 0;
+  overflow: hidden;
+  color: #4c5552;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.search-result-card {
+  grid-template-columns: 96px minmax(0, 1fr);
+}
+
+.search-result-card > div {
+  display: grid;
+  gap: 7px;
+}
+
+.search-result-card img {
+  width: 96px;
+  height: 96px;
+  border-radius: 8px;
+  object-fit: cover;
+  background: #dfe5df;
+}
+
+.search-result-card:not(:has(img)) {
+  grid-template-columns: 1fr;
 }
 
 .image-grid {
@@ -1937,6 +2037,7 @@ h1,
 .gallery-detail__summary,
 .gallery-detail .page-heading p:not(.eyebrow),
 .taxonomy-card p:not(.eyebrow),
+.search-form label,
 .related-gallery__heading p:not(.eyebrow),
 .rich-text,
 .image-carousel__header span,
@@ -1985,9 +2086,21 @@ time,
   color: var(--mm-text);
 }
 
+.search-form input,
+.search-form select {
+  color: var(--mm-text);
+}
+
+.search-form button {
+  border-color: var(--mm-accent);
+  background: var(--mm-accent);
+  color: #111319;
+}
+
 .author-card,
 .archive-calendar,
 .taxonomy-card,
+.search-card,
 .article-card,
 .entry-summary-card,
 .story-card,
@@ -2004,6 +2117,8 @@ time,
 .related-content-links a,
 .content-taxonomy__categories a,
 .taxonomy-result-card span,
+.search-form input,
+.search-form select,
 .entry-meta__chip {
   border-color: var(--mm-border);
   background: var(--mm-surface);
@@ -2011,6 +2126,7 @@ time,
 
 .author-card,
 .archive-calendar,
+.search-card,
 .metrics-stack {
   top: 94px;
 }
@@ -2248,6 +2364,10 @@ time,
   }
 
   .archive-calendar {
+    position: static;
+  }
+
+  .search-card {
     position: static;
   }
 

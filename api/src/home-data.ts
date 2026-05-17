@@ -56,6 +56,7 @@ function defaultNav() {
     { label: 'Stories', href: '/stories' },
     { label: 'Galleries', href: '/galleries' },
     { label: 'Images', href: '/images' },
+    { label: 'Search', href: '/search' },
   ];
 }
 

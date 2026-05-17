@@ -345,7 +345,9 @@ npm run publish:content:incremental
 
 The incremental content build still evaluates the content graph so archive
 indexes, taxonomy, and related content stay correct, but it writes and publishes
-only the JSON paths listed in `.tmp/publish-plan-report.json`.
+only the JSON paths listed in `.tmp/publish-plan-report.json`. Changed content
+Markdown also marks `search/index.json` as affected so search stays current
+with normal incremental publishes.
 
 Use `publish:plan` to reason about authoring/source changes. Use
 `publish:media:dry-run` and `publish:media` to upload local draft media to
@@ -458,6 +460,20 @@ The content build emits the current aggregate taxonomy list to:
 ```text
 public/content/taxonomy.json
 dist/content/taxonomy.json
+```
+
+The content build also emits the cross-type search artifact:
+
+```text
+public/content/search/index.json
+dist/content/search/index.json
+```
+
+That index covers posts, stories, and galleries. The API reads it through:
+
+```text
+/api/search?q={term}
+/api/sites/{site}/search?q={term}
 ```
 
 Taxonomy terms are intended to be browsable:

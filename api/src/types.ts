@@ -277,6 +277,44 @@ export type TaxonomyIndex = {
   locations: TaxonomyTerm[];
 };
 
+export type SearchContentType = 'post' | 'story' | 'gallery';
+
+export type SearchIndexItem = {
+  siteKey?: string;
+  id: string;
+  type: SearchContentType;
+  title: string;
+  date: string;
+  year: string;
+  month: string;
+  day: string;
+  route: string;
+  summary: string;
+  authors?: string[];
+  people?: string[];
+  categories: string[];
+  hashtags: string[];
+  locations?: string[];
+  imageCount?: number;
+  coverImage?: {
+    id?: string;
+    rawUrl: string;
+    thumbUrl: string;
+    alt: string;
+  };
+  searchText?: string;
+};
+
+export type SearchIndex = {
+  generatedAt: string;
+  items: SearchIndexItem[];
+};
+
+export type SearchResult = Omit<SearchIndexItem, 'searchText'> & {
+  score: number;
+  matchedTerms: string[];
+};
+
 export type SiteSummary = {
   generatedAt: string;
   key?: string;

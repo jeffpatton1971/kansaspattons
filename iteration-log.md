@@ -1884,3 +1884,35 @@ Detailed working notes for the React migration live here. This file is intention
   - `npm run build:content:incremental`
   - `npm run build:content`
   - `npm run build`
+
+### Generated Content Search
+
+- Started the next feature-completion pass with search before tests and GitHub
+  Actions.
+- Added `search/index.json` as a generated content artifact.
+- The search artifact currently indexes posts, stories, and galleries, not raw
+  media-library image records.
+- Search text is generated from title, summary/excerpt, body text or gallery
+  description, authors, people, categories, hashtags, locations, and date.
+- Added `search/index.json` to the publish-plan affected index list so
+  incremental JSON publish keeps search current after changed Markdown.
+- Added API routes:
+  - `/api/search`.
+  - `/api/sites/{site}/search`.
+- API search ranks matches by title, exact taxonomy/entity fields, summary, and
+  generated search text.
+- API search returns public result data and strips the internal `searchText`
+  field.
+- Added the React `/search` route with:
+  - a left-rail search form.
+  - a content-type filter for all/post/story/gallery.
+  - paged result cards.
+  - archive metrics in the right rail.
+- Added Search to the configured nav and footer examples.
+- Verification:
+  - `npx tsc -p tsconfig.node.json`
+  - `npm --prefix api run build`
+  - `npm run build:content`
+  - `npx tsc -p tsconfig.app.json`
+  - `npm run build`
+  - `Invoke-RestMethod -Uri 'http://localhost:7071/api/search?q=breakfast&limit=3' -Method Get`

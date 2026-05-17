@@ -25,6 +25,7 @@ public/content/
   home.json
   site.json
   taxonomy.json
+  search/index.json
   media/index.json
   entries/index.json
   posts/index.json
@@ -34,6 +35,53 @@ public/content/
   galleries/index.json
   galleries/yyyy/mm/dd/gallery-slug.json
   images/index.json
+```
+
+## Search Index
+
+`search/index.json` is the generated cross-type discovery index for posts,
+stories, and galleries. It is intentionally separate from the raw media library;
+media assets can be discovered through their owning content or gallery.
+
+```ts
+type SearchIndex = {
+  generatedAt: string;
+  items: SearchIndexItem[];
+};
+
+type SearchIndexItem = {
+  siteKey: string;
+  id: string;
+  type: "post" | "story" | "gallery";
+  title: string;
+  date: string;
+  year: string;
+  month: string;
+  day: string;
+  route: string;
+  summary: string;
+  authors: string[];
+  people: string[];
+  categories: string[];
+  hashtags: string[];
+  locations: string[];
+  imageCount?: number;
+  coverImage?: {
+    id: string;
+    rawUrl: string;
+    thumbUrl: string;
+    alt: string;
+  };
+  searchText: string;
+};
+```
+
+The API strips `searchText` from result payloads and adds `score` plus
+`matchedTerms`:
+
+```text
+/api/search?q={term}
+/api/sites/{site}/search?q={term}
 ```
 
 ## Taxonomy Index

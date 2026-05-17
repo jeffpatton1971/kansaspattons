@@ -78,6 +78,8 @@ Implemented:
   publish plan.
 - `npm run publish:content:incremental:dry-run` and
   `npm run publish:content:incremental` publish only the planned JSON paths.
+- Generated search artifacts are included in full builds and in incremental
+  publish plans as `search/index.json`.
 
 Next work:
 
@@ -121,26 +123,34 @@ Target direction:
 - Add fixtures for at least two sites before extraction so site-specific logic
   cannot sneak into the API unnoticed.
 
-Next endpoints:
+Implemented endpoints:
 
-- `/api/sites/{site}/hashtags/{hashtag}`
 - `/api/sites/{site}/taxonomy/{family}/{slug}` is available for hashtags,
   categories, people, and locations.
 - `/api/sites/{site}/search`
+
+Next endpoints:
+
 - richer paging and filtering across posts, stories, galleries, and media
 
 ## 6. Frontend Discovery
 
-Status: core archive and detail views exist.
+Status: core archive/detail views and baseline cross-type search exist.
+
+Implemented:
+
+- Hashtag, category, people, and location taxonomy pages render matching posts,
+  stories, and galleries together.
+- `/search` renders paged, clickable search results across posts, stories, and
+  galleries.
+- `/api/search` and `/api/sites/{site}/search` rank results from generated
+  `search/index.json`.
 
 Next work:
 
-- Make hashtags clickable everywhere they render.
-- Add a cross-type hashtag results page.
 - Add category browse pages if categories continue to be useful as curated
   sections.
-- Add search across title, summary, body, captions, hashtags, people, and
-  locations.
+- Expand search to media captions if raw media-library search becomes useful.
 - Finish video rendering and poster handling.
 - Add stronger empty, loading, and error states for API-backed pages.
 

@@ -15,6 +15,7 @@ manifest work.
 6. Validate media references against the media manifest.
 7. Document exact authoring examples.
 8. Add a dry-run publish plan command.
+9. Add generated content search.
 
 ## 1. Tighten Validation
 
@@ -289,6 +290,41 @@ npm run publish:prepare
 
 It applies planned Markdown rewrites and media manifest additions only when the
 publish plan has no issues.
+
+## 9. Add Generated Content Search
+
+Status: baseline implemented.
+
+Why this matters:
+
+Search is the first discovery feature that depends on posts, stories, and
+galleries sharing a stable generated shape. It also gives the API, frontend, and
+future tests a useful cross-type contract to protect.
+
+Work:
+
+- The content compiler emits `public/content/search/index.json`.
+- The search index includes posts, stories, and galleries.
+- Search text is generated from title, summary/excerpt, body text or gallery
+  description, authors, people, categories, hashtags, locations, and date.
+- The publish plan includes `search/index.json` as an affected index whenever
+  content Markdown changes.
+- Incremental content publish uploads the search index with other planned JSON
+  artifacts.
+- The API exposes `/api/search` and `/api/sites/{site}/search`.
+- Search API responses rank matches and return public result data without the
+  internal `searchText` field.
+- The React app includes `/search` with a search form, content-type filter, and
+  paged results.
+
+Acceptance criteria:
+
+- `npm run build:content` generates `public/content/search/index.json`.
+- `/api/search?q=breakfast` returns posts, stories, and galleries sorted by
+  relevance and date.
+- `/search?q=breakfast` renders clickable result cards.
+- Full and incremental content publish include `search/index.json` when
+  appropriate.
 
 ## Working Rule
 

@@ -165,6 +165,7 @@ async function assertContentLooksPublishable(contentRoot: string, files: Publish
   const expected = [
     'home.json',
     'site.json',
+    'search/index.json',
     'posts/index.json',
     'stories/index.json',
     'galleries/index.json',

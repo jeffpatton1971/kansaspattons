@@ -10,6 +10,7 @@ import type {
   PostDocument,
   PostIndex,
   PostSummary,
+  SearchResponse,
   TaxonomyFamily,
   TaxonomyTerm,
 } from './types';
@@ -139,6 +140,10 @@ export function fetchTaxonomyTerm(family: TaxonomyFamily, slug: string) {
   return fetchJson<TaxonomyTerm>(`taxonomy/${family}/${slug}`);
 }
 
+export function fetchSearch(query: { q?: string; type?: string; cursor?: number; limit?: number }) {
+  return fetchJson<SearchResponse>(`search${queryString({ limit: 12, ...query })}`);
+}
+
 function toPostIndex(response: ApiListResponse<PostSummary>): PostIndex {
   return {
     generatedAt: response.generatedAt,
@@ -148,8 +153,20 @@ function toPostIndex(response: ApiListResponse<PostSummary>): PostIndex {
   };
 }
 
-function queryString(query: ArchiveQuery & { groupBy?: string; galleryIds?: string[]; imageIds?: string[] }) {
+function queryString(
+  query: ArchiveQuery & {
+    groupBy?: string;
+    galleryIds?: string[];
+    imageIds?: string[];
+    q?: string;
+    type?: string;
+  },
+) {
   const params = new URLSearchParams();
+
+  if (query.q) {
+    params.set('q', query.q);
+  }
 
   if (query.year) {
     params.set('year', query.year);
@@ -165,6 +182,10 @@ function queryString(query: ArchiveQuery & { groupBy?: string; galleryIds?: stri
 
   if (query.source) {
     params.set('source', query.source);
+  }
+
+  if (query.type) {
+    params.set('type', query.type);
   }
 
   if (query.cursor !== undefined) {

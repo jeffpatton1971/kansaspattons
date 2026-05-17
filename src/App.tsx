@@ -1,4 +1,4 @@
-import { BookOpen, ExternalLink, Home, Images, Library, Newspaper, type LucideIcon } from 'lucide-react';
+import { BookOpen, ExternalLink, Home, Images, Library, Newspaper, Search, type LucideIcon } from 'lucide-react';
 import type { CSSProperties } from 'react';
 import { NavLink, Route, Routes } from 'react-router-dom';
 import { fetchHomeSummary } from './content';
@@ -10,6 +10,7 @@ import { LegacyPostRedirect } from './pages/LegacyPostRedirect';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { PostDetailPage, StoryDetailPage } from './pages/PostDetailPage';
 import { PostsPage, StoriesPage } from './pages/PostsPage';
+import { SearchPage } from './pages/SearchPage';
 import { TaxonomyTermPage } from './pages/TaxonomyTermPage';
 import type { SiteInfo, SiteNavItem, SiteTheme } from './types';
 import { TooltipProvider } from '@/components/ui/tooltip';
@@ -22,6 +23,7 @@ const defaultSite: SiteInfo = {
     { href: '/stories', label: 'Stories', icon: 'stories' },
     { href: '/galleries', label: 'Galleries', icon: 'galleries' },
     { href: '/images', label: 'Images', icon: 'images' },
+    { href: '/search', label: 'Search', icon: 'search' },
   ],
   footer: {
     brandText: 'KansasPattons',
@@ -34,6 +36,7 @@ const iconMap: Record<string, LucideIcon> = {
   stories: BookOpen,
   galleries: Images,
   images: Images,
+  search: Search,
   library: Library,
   external: ExternalLink,
 };
@@ -43,6 +46,7 @@ const fallbackNav = [
   { href: '/stories', label: 'Stories', icon: 'stories' },
   { href: '/galleries', label: 'Galleries', icon: 'galleries' },
   { href: '/images', label: 'Images', icon: 'images' },
+  { href: '/search', label: 'Search', icon: 'search' },
 ];
 
 export function App() {
@@ -91,6 +95,7 @@ export function App() {
             <Route path="/images/:year/:month" element={<ImagesPage />} />
             <Route path="/images/:year/:month/:day" element={<ImagesPage />} />
             <Route path="/images/:year/:month/:day/:imageId" element={<ImagesPage />} />
+            <Route path="/search" element={<SearchPage />} />
             <Route path="/hashtags/:slug" element={<TaxonomyTermPage family="hashtags" eyebrow="Hashtag" />} />
             <Route path="/categories/:slug" element={<TaxonomyTermPage family="categories" eyebrow="Category" />} />
             <Route path="/people/:slug" element={<TaxonomyTermPage family="people" eyebrow="Person" />} />
@@ -168,6 +173,10 @@ function navIcon(href: string) {
 
   if (href.startsWith('/images')) {
     return 'images';
+  }
+
+  if (href.startsWith('/search')) {
+    return 'search';
   }
 
   return 'library';

@@ -7,7 +7,8 @@
     { "label": "Posts", "href": "/posts" },
     { "label": "Stories", "href": "/stories" },
     { "label": "Galleries", "href": "/galleries" },
-    { "label": "Images", "href": "/images" }
+    { "label": "Images", "href": "/images" },
+    { "label": "Search", "href": "/search" }
   ],
   "banner": {
     "eyebrow": "Family archive",
@@ -35,7 +36,8 @@
       { "label": "Posts", "href": "/posts" },
       { "label": "Stories", "href": "/stories" },
       { "label": "Galleries", "href": "/galleries" },
-      { "label": "Images", "href": "/images" }
+      { "label": "Images", "href": "/images" },
+      { "label": "Search", "href": "/search" }
     ]
   },
   "theme": {

@@ -224,6 +224,36 @@ type GalleryDocument = GallerySummary & {
   images: ImageSummary[];
 };
 
+type SearchContentType = 'post' | 'story' | 'gallery';
+
+type SearchIndexItem = DateParts & {
+  siteKey: string;
+  id: string;
+  type: SearchContentType;
+  title: string;
+  date: string;
+  route: string;
+  summary: string;
+  authors: string[];
+  people: string[];
+  categories: string[];
+  hashtags: string[];
+  locations: string[];
+  imageCount?: number;
+  coverImage?: {
+    id: string;
+    rawUrl: string;
+    thumbUrl: string;
+    alt: string;
+  };
+  searchText: string;
+};
+
+type SearchIndex = {
+  generatedAt: string;
+  items: SearchIndexItem[];
+};
+
 type GallerySource = DateParts & {
   siteKey: string;
   id: string;
@@ -373,6 +403,7 @@ async function main() {
   });
 
   await writeJson('taxonomy.json', buildTaxonomy([...blogPosts, ...stories], gallerySummaries));
+  await writeJson('search/index.json', buildSearchIndex(posts, galleries));
 
   console.log(`Generated ${posts.length} entries, ${galleries.length} galleries, and ${images.length} images.`);
 
@@ -1038,6 +1069,101 @@ function recentHomeEntries(
     .slice(0, limit);
 }
 
+function buildSearchIndex(entries: PostDocument[], galleries: GalleryDocument[]): SearchIndex {
+  return {
+    generatedAt: new Date().toISOString(),
+    items: [
+      ...entries.map(entrySearchItem),
+      ...galleries.map(gallerySearchItem),
+    ].sort((a, b) => b.date.localeCompare(a.date)),
+  };
+}
+
+function entrySearchItem(entry: PostDocument): SearchIndexItem {
+  const type: SearchContentType = entry.type === 'article' ? 'post' : 'story';
+  const summary = entry.summary || entry.excerpt || '';
+
+  return {
+    siteKey,
+    id: entry.id,
+    type,
+    title: entry.title,
+    date: entry.date,
+    route: entry.route,
+    summary,
+    authors: entry.authors,
+    people: entry.people,
+    categories: entry.categories,
+    hashtags: entry.hashtags.map(normalizeHashtag),
+    locations: entry.locations,
+    imageCount: entry.imageIds.length,
+    coverImage: entry.coverImage,
+    searchText: searchableText([
+      entry.title,
+      summary,
+      entry.excerpt,
+      entry.bodyMarkdown,
+      entry.authors,
+      entry.people,
+      entry.categories,
+      entry.hashtags,
+      entry.locations,
+      entry.date,
+    ]),
+    year: entry.year,
+    month: entry.month,
+    day: entry.day,
+  };
+}
+
+function gallerySearchItem(gallery: GalleryDocument): SearchIndexItem {
+  const summary = gallery.summary || gallery.descriptionMarkdown || `${gallery.imageCount.toLocaleString()} images`;
+
+  return {
+    siteKey,
+    id: gallery.id,
+    type: 'gallery',
+    title: gallery.title,
+    date: gallery.date,
+    route: gallery.route,
+    summary,
+    authors: gallery.authors,
+    people: gallery.people,
+    categories: gallery.categories,
+    hashtags: gallery.hashtags.map(normalizeHashtag),
+    locations: gallery.locations,
+    imageCount: gallery.imageCount,
+    coverImage: gallery.coverImage,
+    searchText: searchableText([
+      gallery.title,
+      summary,
+      gallery.descriptionMarkdown,
+      gallery.authors,
+      gallery.people,
+      gallery.categories,
+      gallery.hashtags,
+      gallery.locations,
+      gallery.date,
+    ]),
+    year: gallery.year,
+    month: gallery.month,
+    day: gallery.day,
+  };
+}
+
+function searchableText(values: Array<string | string[] | undefined>) {
+  return values
+    .flatMap((value) => (Array.isArray(value) ? value : [value]))
+    .map((value) => (value ?? '').replace(/<[^>]*>/g, ' '))
+    .join(' ')
+    .normalize('NFKC')
+    .replace(/^#+|\B#/g, ' ')
+    .replace(/[^\p{L}\p{N}]+/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toLowerCase();
+}
+
 async function markdownFiles(directory: string) {
   const files = await readdir(directory);
   return files.filter((file) => file.endsWith('.md')).sort();
@@ -1623,6 +1749,7 @@ function defaultNav(): SiteNavItem[] {
     { label: 'Stories', href: '/stories' },
     { label: 'Galleries', href: '/galleries' },
     { label: 'Images', href: '/images' },
+    { label: 'Search', href: '/search' },
   ];
 }
 
