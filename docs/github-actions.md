@@ -66,10 +66,10 @@ After `publish:prepare` and cleanup, the workflow commits source-side publish
 updates back to `main` when needed. The commit message includes `[skip ci]` so
 that source-normalization commit does not start a second publish run.
 
-The workflow deploys the prebuilt `dist/` folder to Azure Static Web Apps and
-deploys the `api/` folder as the managed Functions API. The React app and the
-API are therefore served from the same origin, so production can keep using
-`/api/...` routes.
+The workflow lets the Azure Static Web Apps deploy action build from the repo
+root, emit the React app to `dist/`, and deploy the `api/` folder as the
+managed Functions API. The React app and the API are therefore served from the
+same origin, so production can keep using `/api/...` routes.
 
 Azure Static Web Apps reads `staticwebapp.config.json` from the deployed app
 artifact. The source file lives at:
@@ -128,8 +128,10 @@ receive the deployment. In our workflow it is used here:
   with:
     azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
     action: upload
-    app_location: dist
+    app_location: .
     api_location: api
+    output_location: dist
+    app_build_command: 'npm run build'
 ```
 
 What it can do:
@@ -643,17 +645,27 @@ The workflow deploy step uses:
 ```yaml
 uses: Azure/static-web-apps-deploy@v1
 with:
-  app_location: dist
+  app_location: .
   api_location: api
-  output_location: ''
-  skip_app_build: true
+  output_location: dist
+  app_build_command: 'npm run build'
   api_build_command: 'npm run build'
 ```
 
-`skip_app_build: true` means the site build is controlled by the explicit
-`npm run build` step earlier in the workflow. The API remains source-deployed
-from `api/` and is built by the Static Web Apps action. The API package and
+`app_location: .` keeps the React app and `api/` folder in the same deployment
+context. `output_location: dist` tells the deploy action where `npm run build`
+writes the React artifact. The API remains source-deployed from `api/` and is
+built by the Static Web Apps action. The API package and
 `staticwebapp.config.json` both target Node 22.
+
+After deployment, the workflow verifies:
+
+```text
+https://happy-sky-045677310.7.azurestaticapps.net/api/home
+```
+
+That check catches the specific failure where the static React app deploys but
+the managed Functions API is missing or not discoverable.
 
 ## Planner Modes
 

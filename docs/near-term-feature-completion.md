@@ -377,8 +377,10 @@ Work:
   publish path.
 - Tag pushes run a full generated-content publish and Azure Static Web Apps
   deployment.
-- Publish workflow deploys the prebuilt `dist/` app and the `api/` managed
-  Functions API through Azure Static Web Apps.
+- Publish workflow lets the Azure Static Web Apps action build from the repo
+  root, deploy `dist/`, and deploy the `api/` managed Functions API.
+- Publish workflow verifies `/api/home` after deployment so a missing managed
+  API fails the workflow instead of leaving the React shell with blank content.
 - `public/staticwebapp.config.json` provides the SPA fallback, static headers,
   JSON MIME type, and Node API runtime selection.
 - The publish planner supports `--base`/`--head` and

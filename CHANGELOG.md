@@ -212,6 +212,8 @@ Published behavior changes and bug fixes for the React site migration.
 - Added the Azure Static Web Apps production URL to the publish workflow environment metadata and documented the temporary SWA host variables.
 - Changed the publish workflow environment name to `Production` to match the configured GitHub deployment environment and OIDC subject.
 - Added a GitHub Pages to Azure Static Web Apps migration playbook for future smaller-site migrations.
+- Changed the Azure Static Web Apps deploy step to build from the repo root with `output_location: dist`, keeping `api/` in the same deployment context.
+- Added a post-deployment `/api/home` verification step so missing managed API deployments fail the workflow.
 
 ### Fixed
 

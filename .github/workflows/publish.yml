@@ -23,6 +23,7 @@ permissions:
 env:
   CONTENT_SITE_KEY: ${{ vars.CONTENT_SITE_KEY || 'kansaspattons' }}
   CONTENT_SITE_URL: ${{ vars.CONTENT_SITE_URL || vars.AZURE_STATIC_WEB_APP_URL || 'https://happy-sky-045677310.7.azurestaticapps.net' }}
+  AZURE_STATIC_WEB_APP_URL: ${{ vars.AZURE_STATIC_WEB_APP_URL || 'https://happy-sky-045677310.7.azurestaticapps.net' }}
   CONTENT_STORAGE_ACCOUNT: ${{ vars.CONTENT_STORAGE_ACCOUNT }}
   CONTENT_STORAGE_CONTAINER: ${{ vars.CONTENT_STORAGE_CONTAINER }}
   CONTENT_STORAGE_PREFIX: ${{ vars.CONTENT_STORAGE_PREFIX }}
@@ -112,20 +113,35 @@ jobs:
       - name: Publish planned generated content
         run: npm run publish:content:incremental
 
-      - name: Build site artifact
-        run: npm run build
-
       - name: Deploy Azure Static Web App
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: upload
-          app_location: dist
+          app_location: .
           api_location: api
-          output_location: ''
-          skip_app_build: true
+          output_location: dist
+          app_build_command: 'npm run build'
           api_build_command: 'npm run build'
+
+      - name: Verify deployed API
+        shell: bash
+        run: |
+          for attempt in {1..12}; do
+            status="$(curl -sS -o /tmp/swa-home.json -w '%{http_code}' "$AZURE_STATIC_WEB_APP_URL/api/home" || true)"
+            if [[ "$status" == "200" ]]; then
+              echo "Verified $AZURE_STATIC_WEB_APP_URL/api/home"
+              exit 0
+            fi
+
+            echo "Attempt $attempt: /api/home returned $status"
+            sleep 10
+          done
+
+          echo "Final /api/home response:"
+          cat /tmp/swa-home.json || true
+          exit 1
 
   full-tag:
     name: Full rebuild publish
@@ -178,17 +194,32 @@ jobs:
       - name: Publish full generated content
         run: npm run publish:content
 
-      - name: Build site artifact
-        run: npm run build
-
       - name: Deploy Azure Static Web App
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: upload
-          app_location: dist
+          app_location: .
           api_location: api
-          output_location: ''
-          skip_app_build: true
+          output_location: dist
+          app_build_command: 'npm run build'
           api_build_command: 'npm run build'
+
+      - name: Verify deployed API
+        shell: bash
+        run: |
+          for attempt in {1..12}; do
+            status="$(curl -sS -o /tmp/swa-home.json -w '%{http_code}' "$AZURE_STATIC_WEB_APP_URL/api/home" || true)"
+            if [[ "$status" == "200" ]]; then
+              echo "Verified $AZURE_STATIC_WEB_APP_URL/api/home"
+              exit 0
+            fi
+
+            echo "Attempt $attempt: /api/home returned $status"
+            sleep 10
+          done
+
+          echo "Final /api/home response:"
+          cat /tmp/swa-home.json || true
+          exit 1

@@ -2014,7 +2014,8 @@ Detailed working notes for the React migration live here. This file is intention
   - kept full rebuild publish for tags and manual dispatch.
   - replaced GitHub Pages artifact upload/deploy with
     `Azure/static-web-apps-deploy@v1`.
-  - deploys prebuilt `dist/` with `skip_app_build: true`.
+  - initially deployed prebuilt `dist/` with `skip_app_build: true`; this was
+    later changed to repo-root SWA builds after `/api/home` returned `404`.
   - deploys `api/` as the managed Functions API with `api_build_command:
     npm run build`.
 - Added `public/staticwebapp.config.json` for:
@@ -2066,3 +2067,26 @@ Detailed working notes for the React migration live here. This file is intention
   local-only. The same-repo `api/` folder is deployed as the SWA managed
   Functions API, so `/api/home` and other API routes should be verifiable on
   the Azure Static Web Apps hostname.
+
+### SWA Managed API Deployment Fix
+
+- After the first SWA deployment, the React app loaded but `/api/home` returned
+  `404`.
+- Confirmed the remote response from:
+  `https://happy-sky-045677310.7.azurestaticapps.net/api/home`.
+- Root cause hypothesis:
+  - The deploy workflow uploaded the prebuilt `dist/` folder as
+    `app_location`.
+  - The static site deployed, but the managed API was not available on the SWA
+    hostname.
+  - Building from the repo root gives the SWA deploy action the clearest view of
+    the sibling `api/` folder and the app output folder.
+- Changed `.github/workflows/publish.yml`:
+  - `app_location: .`
+  - `output_location: dist`
+  - `app_build_command: 'npm run build'`
+  - `api_location: api`
+  - `api_build_command: 'npm run build'`
+- Added a post-deploy verification step that retries
+  `$AZURE_STATIC_WEB_APP_URL/api/home` and fails the workflow if the managed API
+  is missing.

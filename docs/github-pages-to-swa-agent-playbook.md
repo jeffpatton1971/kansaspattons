@@ -220,14 +220,16 @@ Push to `main`:
 - rewrites source media references when needed.
 - publishes affected generated JSON to Blob Storage.
 - builds the React app.
-- deploys `dist/` and `api/` to Azure Static Web Apps.
+- builds from the repo root, deploys `dist/`, and deploys `api/` to Azure
+  Static Web Apps.
 
 Tag push:
 
 - runs validation and tests.
 - performs a full generated-content publish.
 - builds the React app.
-- deploys `dist/` and `api/` to Azure Static Web Apps.
+- builds from the repo root, deploys `dist/`, and deploys `api/` to Azure
+  Static Web Apps.
 
 Manual workflow dispatch:
 
@@ -308,9 +310,11 @@ Expected sequence:
 1. PR/main checks run validation and tests.
 2. `publish:content:incremental` writes generated JSON to Azure Blob Storage.
 3. `npm run build` builds the React app.
-4. The Static Web Apps deploy action uploads `dist/`.
-5. The Static Web Apps deploy action builds and deploys `api/` as the managed
+4. The Static Web Apps deploy action runs `npm run build` from the repo root.
+5. The Static Web Apps deploy action uploads `dist/`.
+6. The Static Web Apps deploy action builds and deploys `api/` as the managed
    Functions API.
+7. The workflow verifies `/api/home` on the SWA hostname.
 
 The API is not local-only after the workflow succeeds. While the code lives in
 this repo, Azure Static Web Apps deploys `api/` as a managed Functions API.
