@@ -129,6 +129,19 @@ references, computes SHA-256 hashes and byte sizes, detects canonical key
 collisions against `content/media/index.json`, and reports the media manifest
 assets that would be added.
 
+The current media upload dry run and write command are:
+
+```powershell
+npm run publish:media:dry-run
+npm run publish:media
+```
+
+`publish:media` uploads local draft media from the publish plan to canonical
+Azure Blob paths. It does not overwrite existing blobs by default. Image uploads
+also write the original file to the planned thumbnail path as a temporary
+fallback until the dedicated thumbnail generator is added. Video poster
+generation remains future work.
+
 The current source-prep command is:
 
 ```powershell
@@ -137,7 +150,7 @@ npm run publish:prepare
 
 It applies the planned Markdown rewrites and appends planned media assets to
 `content/media/index.json` when the plan has no issues. It intentionally does
-not upload blobs, generate thumbnails, or remove local draft media yet.
+not remove local draft media files or publish generated JSON yet.
 
 For existing content:
 

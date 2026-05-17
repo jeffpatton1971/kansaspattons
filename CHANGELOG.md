@@ -191,6 +191,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed generated `site.json` and `/api/home` site metadata to include banner, footer, and theme configuration.
 - Changed the React shell to render brand, nav, footer, home banner, font, and theme colors from API-provided site configuration instead of hardcoded KansasPattons values.
 - Changed nav/footer rendering so configured links can point to either internal React routes or external pages.
+- Added `publish:media:dry-run` and `publish:media` commands for uploading planned local media to canonical Azure Blob paths with temporary thumbnail fallbacks for images.
 
 ### Fixed
 

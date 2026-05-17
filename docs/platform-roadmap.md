@@ -49,7 +49,8 @@ Next work:
 
 ## 2. Publish Pipeline
 
-Status: workflow documented with dry-run planning and source-prep writing.
+Status: workflow documented with dry-run planning, media upload execution, and
+source-prep writing.
 
 Target flow:
 
@@ -57,12 +58,24 @@ Target flow:
 - `push` to `main`: incremental publish for changed Markdown and changed local media.
 - `workflow_dispatch`: manual full rebuild and republish.
 
+Implemented:
+
+- `npm run publish:plan` reports changed Markdown, planned media uploads,
+  manifest additions, and affected generated JSON.
+- `npm run publish:media:dry-run` previews planned Azure Blob uploads.
+- `npm run publish:media` uploads planned local media to canonical
+  `images/yyyy/mm/dd/filename.ext` paths.
+- Image media uploads currently copy the original file to the matching
+  `thumbs/yyyy/mm/dd/filename.ext` path as a temporary thumbnail fallback.
+- `npm run publish:prepare` rewrites Markdown media references and updates
+  `content/media/index.json`.
+
 Next work:
 
-- Add Azure media upload execution for prepared raw assets.
-- Add thumbnail and video poster generation.
-- Upload raw media and generated thumbnails to canonical Azure paths.
+- Add real thumbnail and video poster generation.
 - Generate JSON only for changed content plus affected indexes.
+- Remove local draft media after verified upload, manifest update, and source
+  rewrite.
 - Keep a manual full rebuild path for migrations and repair work.
 
 ## 3. `_gallery` Retirement

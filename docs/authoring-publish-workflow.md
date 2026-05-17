@@ -266,6 +266,26 @@ draft media, maps local references to canonical blob paths, and detects manifest
 key collisions before anything is uploaded. It does not write files or upload
 blobs.
 
+The media upload dry run uses that same plan and shows the exact Azure Blob
+operations that would run:
+
+```powershell
+npm run publish:media:dry-run
+```
+
+When the dry run looks right, upload the planned local media:
+
+```powershell
+npm run publish:media
+```
+
+`publish:media` uploads only planned media references whose manifest action is
+`add`. Existing manifest-backed media with a matching SHA-256 hash is skipped,
+and existing target blobs are not overwritten unless `--overwrite` is supplied
+explicitly. Until dedicated thumbnail generation lands, image uploads also copy
+the original file to the planned `thumbs/yyyy/mm/dd/filename.ext` path as a
+temporary thumbnail fallback. Video thumbnail fallbacks are not generated.
+
 The planner is intentionally one step earlier than the generated-content publish
 dry run:
 
@@ -286,9 +306,21 @@ npm run publish:content:dry-run
 ```
 
 Use `publish:plan` to reason about authoring/source changes. Use
-`publish:prepare` to apply source-side canonical media rewrites and manifest
-additions. Use `publish:content:dry-run` to reason about generated JSON artifact
-upload.
+`publish:media:dry-run` and `publish:media` to upload local draft media to
+canonical storage paths. Use `publish:prepare` to apply source-side canonical
+media rewrites and manifest additions. Use `publish:content:dry-run` to reason
+about generated JSON artifact upload.
+
+The current safe sequence is:
+
+```powershell
+npm run publish:plan
+npm run publish:media:dry-run
+npm run publish:media
+npm run publish:prepare
+npm run build
+npm run publish:content:dry-run
+```
 
 ## GitHub Action Triggers
 

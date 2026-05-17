@@ -1773,3 +1773,29 @@ Detailed working notes for the React migration live here. This file is intention
   - `npm run publish:plan`
   - `npm run publish:prepare`
   - `npx tsc -p tsconfig.node.json`
+
+### Media Publish Execution
+
+- Added `scripts/publish-media.ts`.
+- Added `npm run publish:media:dry-run`.
+- Added `npm run publish:media`.
+- The media publisher reads `.tmp/publish-plan-report.json`, so the blob upload
+  step uses the exact canonical paths, local draft paths, hashes, and manifest
+  actions produced by the planner.
+- The npm scripts refresh the plan before the media dry run or write step.
+- Write mode requires the explicit `--write` path through `npm run
+  publish:media`.
+- Existing blobs are not overwritten by default.
+- If an existing blob has matching `sha256` metadata, the upload is skipped as
+  already present.
+- Image uploads currently copy the original image to the matching
+  `thumbs/yyyy/mm/dd/filename.ext` blob as a temporary thumbnail fallback.
+- Video poster and real thumbnail generation remain the next publish-pipeline
+  step.
+- Current no-op verification reported:
+  - `0` planned media references.
+  - `0` upload operations.
+  - `0` publish-plan issues.
+- Verification:
+  - `npx tsc -p tsconfig.node.json`
+  - `npm run publish:media:dry-run`
