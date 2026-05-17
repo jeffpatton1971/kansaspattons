@@ -251,8 +251,8 @@ The publish action should:
 11. Update `content/media/index.json`.
 12. Build generated JSON from the canonical Markdown and media manifest.
 
-Before implementing the full write/upload path, use the publish planner to see
-what would be affected by the current Git working tree:
+Use the publish planner to see what would be affected by the current Git working
+tree:
 
 ```powershell
 npm run publish:plan
@@ -282,9 +282,24 @@ npm run publish:media
 `publish:media` uploads only planned media references whose manifest action is
 `add`. Existing manifest-backed media with a matching SHA-256 hash is skipped,
 and existing target blobs are not overwritten unless `--overwrite` is supplied
-explicitly. Until dedicated thumbnail generation lands, image uploads also copy
-the original file to the planned `thumbs/yyyy/mm/dd/filename.ext` path as a
-temporary thumbnail fallback. Video thumbnail fallbacks are not generated.
+explicitly. Image uploads generate resized thumbnails into
+`.tmp/media-derivatives` and upload them to
+`thumbs/yyyy/mm/dd/filename.ext`. Video uploads generate poster images with
+`ffmpeg-static` and upload those posters under the `thumbs` prefix as `.jpg`
+files.
+
+Derivative generation can be tuned with:
+
+```powershell
+$env:MEDIA_THUMBNAIL_WIDTH = "960"
+$env:MEDIA_THUMBNAIL_QUALITY = "82"
+$env:MEDIA_POSTER_TIMESTAMP = "00:00:01"
+```
+
+The `--skip-derivatives` flag keeps the old fallback behavior for images only:
+the original image is uploaded to the thumbnail path instead of a resized
+thumbnail. That flag is intended as an emergency escape hatch, not the normal
+publish path.
 
 The planner is intentionally one step earlier than the generated-content publish
 dry run:
@@ -296,8 +311,7 @@ npm run publish:prepare
 `publish:prepare` runs the same checks as `publish:plan`, but when there are no
 planning issues it rewrites local draft media references in changed Markdown to
 canonical media keys and appends planned assets to `content/media/index.json`.
-It does not remove local media files, generate thumbnails, upload blobs, or
-publish generated JSON.
+It does not remove local media files or publish generated JSON.
 
 The generated-content publish dry run remains:
 
@@ -543,8 +557,6 @@ An image may still be selectable in `/images`, but that view is a media-library 
 ## Open Decisions
 
 - Final local draft asset folder convention.
-- Thumbnail generation library and dimensions.
-- Video poster/thumbnail generation.
 - Whether publish should fail on hash mismatch or auto-rename with a deterministic suffix.
 - Whether EXIF dates can optionally override content dates for media-library sorting.
 - Whether `categories` remain as curated site sections or are removed from the

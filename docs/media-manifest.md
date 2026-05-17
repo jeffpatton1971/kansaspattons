@@ -138,9 +138,10 @@ npm run publish:media
 
 `publish:media` uploads local draft media from the publish plan to canonical
 Azure Blob paths. It does not overwrite existing blobs by default. Image uploads
-also write the original file to the planned thumbnail path as a temporary
-fallback until the dedicated thumbnail generator is added. Video poster
-generation remains future work.
+generate resized thumbnail files with `sharp`, then upload those thumbnails to
+the planned `thumbs/yyyy/mm/dd/filename.ext` paths. Video uploads generate
+poster images with `ffmpeg-static`, then upload those posters under the
+`thumbs` prefix as `.jpg` files.
 
 The current source-prep command is:
 

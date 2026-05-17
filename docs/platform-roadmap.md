@@ -65,14 +65,15 @@ Implemented:
 - `npm run publish:media:dry-run` previews planned Azure Blob uploads.
 - `npm run publish:media` uploads planned local media to canonical
   `images/yyyy/mm/dd/filename.ext` paths.
-- Image media uploads currently copy the original file to the matching
-  `thumbs/yyyy/mm/dd/filename.ext` path as a temporary thumbnail fallback.
+- Image media uploads generate resized thumbnails with `sharp` and upload them
+  to canonical `thumbs/yyyy/mm/dd/filename.ext` paths.
+- Video media uploads generate poster images with `ffmpeg-static` and upload
+  them under the `thumbs` prefix as `.jpg` files.
 - `npm run publish:prepare` rewrites Markdown media references and updates
   `content/media/index.json`.
 
 Next work:
 
-- Add real thumbnail and video poster generation.
 - Generate JSON only for changed content plus affected indexes.
 - Remove local draft media after verified upload, manifest update, and source
   rewrite.

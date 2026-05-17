@@ -45,8 +45,10 @@ type MediaRewrite = {
   };
   rawBlobPath: string;
   thumbBlobPath?: string;
+  posterBlobPath?: string;
   rawUrl?: string;
   thumbUrl?: string;
+  posterUrl?: string;
   caption?: string;
   alt?: string;
   role: NonNullable<MediaUsage['role']>;
@@ -117,8 +119,10 @@ async function main() {
         hash: reference.hash,
         rawBlobPath: reference.rawBlobPath,
         thumbBlobPath: reference.thumbBlobPath,
+        posterBlobPath: reference.posterBlobPath,
         rawUrl: reference.rawUrl,
         thumbUrl: reference.thumbUrl,
+        posterUrl: reference.posterUrl,
         manifestAction: reference.manifestAction,
       })),
   );
@@ -251,8 +255,11 @@ async function planMediaReference(
   const kind = mediaKind(canonicalKey);
   const rawBlobPath = `${mediaManifest.storage.rawPrefix}/${canonicalKey}`;
   const thumbBlobPath = kind === 'video' ? undefined : `${mediaManifest.storage.thumbPrefix}/${canonicalKey}`;
+  const posterCanonicalKey = kind === 'video' ? videoPosterKey(canonicalKey) : undefined;
+  const posterBlobPath = posterCanonicalKey ? `${mediaManifest.storage.thumbPrefix}/${posterCanonicalKey}` : undefined;
   const rawUrl = assetUrl(mediaManifest, 'images', canonicalKey);
   const thumbUrl = kind === 'video' ? undefined : assetUrl(mediaManifest, 'thumbs', canonicalKey);
+  const posterUrl = posterCanonicalKey ? assetUrl(mediaManifest, 'thumbs', posterCanonicalKey) : undefined;
 
   if (isCanonicalReference(reference)) {
     return {
@@ -262,8 +269,10 @@ async function planMediaReference(
       kind,
       rawBlobPath,
       thumbBlobPath,
+      posterBlobPath,
       rawUrl,
       thumbUrl,
+      posterUrl,
       caption: mediaReference.caption,
       alt: mediaReference.alt,
       role: mediaReference.role,
@@ -285,8 +294,10 @@ async function planMediaReference(
       kind,
       rawBlobPath,
       thumbBlobPath,
+      posterBlobPath,
       rawUrl,
       thumbUrl,
+      posterUrl,
       caption: mediaReference.caption,
       alt: mediaReference.alt,
       role: mediaReference.role,
@@ -329,8 +340,10 @@ async function planMediaReference(
     hash: localMedia?.hash,
     rawBlobPath,
     thumbBlobPath,
+    posterBlobPath,
     rawUrl,
     thumbUrl,
+    posterUrl,
     caption: mediaReference.caption,
     alt: mediaReference.alt,
     role: mediaReference.role,
@@ -500,6 +513,7 @@ function manifestAssets(markdownPlans: MarkdownPlan[], mediaManifest: MediaManif
         alt: reference.alt || reference.caption || plan.title,
         rawUrl: reference.rawUrl || '',
         thumbUrl: reference.thumbUrl,
+        posterUrl: reference.posterUrl,
         contentType: contentTypeForFilename(reference.canonicalKey),
         byteSize: reference.byteSize,
         hash: reference.hash,
@@ -675,6 +689,11 @@ function isLikelyMediaFile(file: string) {
 
 function mediaKind(value: string): MediaKind {
   return /\.(mp4|mov|m4v|webm)$/i.test(value) ? 'video' : 'image';
+}
+
+function videoPosterKey(value: string) {
+  const extension = path.extname(value);
+  return `${value.slice(0, -extension.length)}.jpg`;
 }
 
 function assetUrl(mediaManifest: MediaManifest, prefix: 'images' | 'thumbs', canonicalKey: string) {

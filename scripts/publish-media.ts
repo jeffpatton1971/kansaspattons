@@ -1,7 +1,12 @@
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { execFile } from 'node:child_process';
+import { createHash } from 'node:crypto';
+import { mkdir, readFile, stat, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { promisify } from 'node:util';
 import { DefaultAzureCredential } from '@azure/identity';
 import { BlobServiceClient, type ContainerClient } from '@azure/storage-blob';
+import ffmpegPath from 'ffmpeg-static';
+import sharp from 'sharp';
 
 type PlannedMediaUpload = {
   contentFile: string;
@@ -17,6 +22,7 @@ type PlannedMediaUpload = {
   };
   rawBlobPath: string;
   thumbBlobPath?: string;
+  posterBlobPath?: string;
   manifestAction: 'none' | 'add' | 'reuse-existing' | 'collision';
 };
 
@@ -43,11 +49,15 @@ type PublishPlanReport = {
 type MediaPublishOptions = {
   reportPath: string;
   resultPath: string;
+  derivativeRoot: string;
   write: boolean;
   overwrite: boolean;
-  skipThumbFallbacks: boolean;
+  skipDerivatives: boolean;
   concurrency: number;
   maxErrors: number;
+  thumbnailWidth: number;
+  thumbnailQuality: number;
+  posterTimestamp: string;
   cacheControl: string;
   connectionString?: string;
 };
@@ -55,8 +65,9 @@ type MediaPublishOptions = {
 type UploadOperation = {
   contentFile: string;
   canonicalKey: string;
+  sourcePath: string;
   localPath: string;
-  kind: 'raw' | 'thumb-fallback';
+  kind: 'raw' | 'thumbnail' | 'poster' | 'thumb-fallback';
   mediaKind: 'image' | 'video';
   blobName: string;
   byteSize?: number;
@@ -66,12 +77,19 @@ type UploadOperation = {
   };
 };
 
+type DerivativeStats = {
+  generatedThumbnails: number;
+  generatedPosters: number;
+  fallbackThumbs: number;
+};
+
 type PublishStats = {
   uploaded: number;
   skippedExisting: number;
   skippedReuseExisting: number;
   failed: number;
   processed: number;
+  derivatives: DerivativeStats;
 };
 
 type PublishError = {
@@ -83,6 +101,7 @@ type PublishError = {
   message: string;
 };
 
+const execFileAsync = promisify(execFile);
 const root = process.cwd();
 const args = process.argv.slice(2);
 const defaultCacheControl = 'public, max-age=31536000, immutable';
@@ -95,18 +114,20 @@ async function main() {
     (upload) => upload.manifestAction === 'reuse-existing',
   ).length;
   const operations = uploadOperations(report, options);
+  const dryDerivativeStats = derivativeStatsForOperations(operations);
 
-  printPlan(report, options, operations, skippedReuseExisting);
+  printPlan(report, options, operations, skippedReuseExisting, dryDerivativeStats);
 
   if (!options.write) {
     printDryRunSample(operations);
-    console.log('\nDry run only. Re-run with --write to upload media blobs.');
+    console.log('\nDry run only. Re-run with --write to generate derivatives and upload media blobs.');
     return;
   }
 
+  const derivativeStats = await prepareDerivatives(operations, options);
   const containerClient = await containerClientForReport(report, options);
   await containerClient.createIfNotExists();
-  const result = await uploadAll(containerClient, operations, options);
+  const result = await uploadAll(containerClient, operations, options, derivativeStats);
 
   result.stats.skippedReuseExisting = skippedReuseExisting;
   await writeResult(options.resultPath, report, options, operations.length, result.stats, result.errors);
@@ -121,8 +142,11 @@ async function main() {
 function publishOptions(): MediaPublishOptions {
   const reportPath = path.resolve(root, argValue('--report') || '.tmp/publish-plan-report.json');
   const resultPath = path.resolve(root, argValue('--result') || '.tmp/publish-media-result.json');
+  const derivativeRoot = path.resolve(root, process.env.MEDIA_DERIVATIVE_ROOT || '.tmp/media-derivatives');
   const concurrency = numberArg('--concurrency', 8);
   const maxErrors = numberArg('--max-errors', 20);
+  const thumbnailWidth = envNumber('MEDIA_THUMBNAIL_WIDTH', 960);
+  const thumbnailQuality = envNumber('MEDIA_THUMBNAIL_QUALITY', 82);
 
   if (concurrency < 1 || concurrency > 64) {
     throw new Error('--concurrency must be between 1 and 64.');
@@ -132,14 +156,26 @@ function publishOptions(): MediaPublishOptions {
     throw new Error('--max-errors must be at least 1.');
   }
 
+  if (thumbnailWidth < 64 || thumbnailWidth > 4096) {
+    throw new Error('MEDIA_THUMBNAIL_WIDTH must be between 64 and 4096.');
+  }
+
+  if (thumbnailQuality < 1 || thumbnailQuality > 100) {
+    throw new Error('MEDIA_THUMBNAIL_QUALITY must be between 1 and 100.');
+  }
+
   return {
     reportPath,
     resultPath,
+    derivativeRoot,
     write: hasArg('--write'),
     overwrite: hasArg('--overwrite'),
-    skipThumbFallbacks: hasArg('--skip-thumb-fallbacks'),
+    skipDerivatives: hasArg('--skip-derivatives') || hasArg('--skip-thumb-fallbacks'),
     concurrency,
     maxErrors,
+    thumbnailWidth,
+    thumbnailQuality,
+    posterTimestamp: process.env.MEDIA_POSTER_TIMESTAMP || '00:00:01',
     cacheControl: process.env.MEDIA_STORAGE_CACHE_CONTROL || defaultCacheControl,
     connectionString: process.env.AZURE_STORAGE_CONNECTION_STRING?.trim(),
   };
@@ -192,6 +228,7 @@ function uploadOperations(report: PublishPlanReport, options: MediaPublishOption
     operations.push({
       contentFile: upload.contentFile,
       canonicalKey: upload.canonicalKey,
+      sourcePath: upload.localPath,
       localPath: upload.localPath,
       kind: 'raw',
       mediaKind: upload.kind,
@@ -200,10 +237,11 @@ function uploadOperations(report: PublishPlanReport, options: MediaPublishOption
       hash: upload.hash,
     });
 
-    if (!options.skipThumbFallbacks && upload.kind === 'image' && upload.thumbBlobPath) {
+    if (options.skipDerivatives && upload.kind === 'image' && upload.thumbBlobPath) {
       operations.push({
         contentFile: upload.contentFile,
         canonicalKey: upload.canonicalKey,
+        sourcePath: upload.localPath,
         localPath: upload.localPath,
         kind: 'thumb-fallback',
         mediaKind: upload.kind,
@@ -211,10 +249,34 @@ function uploadOperations(report: PublishPlanReport, options: MediaPublishOption
         byteSize: upload.byteSize,
         hash: upload.hash,
       });
+    } else if (upload.kind === 'image' && upload.thumbBlobPath) {
+      operations.push({
+        contentFile: upload.contentFile,
+        canonicalKey: upload.canonicalKey,
+        sourcePath: upload.localPath,
+        localPath: derivativePath(options.derivativeRoot, upload.thumbBlobPath),
+        kind: 'thumbnail',
+        mediaKind: upload.kind,
+        blobName: upload.thumbBlobPath,
+      });
+    } else if (!options.skipDerivatives && upload.kind === 'video' && upload.posterBlobPath) {
+      operations.push({
+        contentFile: upload.contentFile,
+        canonicalKey: upload.canonicalKey,
+        sourcePath: upload.localPath,
+        localPath: derivativePath(options.derivativeRoot, upload.posterBlobPath),
+        kind: 'poster',
+        mediaKind: upload.kind,
+        blobName: upload.posterBlobPath,
+      });
     }
   }
 
   return operations.sort((a, b) => a.blobName.localeCompare(b.blobName));
+}
+
+function derivativePath(derivativeRoot: string, blobName: string) {
+  return path.relative(root, path.join(derivativeRoot, blobName)).replaceAll(path.sep, '/');
 }
 
 function printPlan(
@@ -222,6 +284,7 @@ function printPlan(
   options: MediaPublishOptions,
   operations: UploadOperation[],
   skippedReuseExisting: number,
+  derivativeStats: DerivativeStats,
 ) {
   console.log('Media publish');
   console.log(`Report: ${path.relative(root, options.reportPath)}`);
@@ -230,10 +293,16 @@ function printPlan(
   console.log(`Target: ${report.mediaManifest.storage.baseUrl}`);
   console.log(`Mode: ${options.write ? 'write' : 'dry-run'}`);
   console.log(`Overwrite existing blobs: ${options.overwrite ? 'yes' : 'no'}`);
-  console.log(`Thumbnail fallback uploads: ${options.skipThumbFallbacks ? 'no' : 'yes'}`);
+  console.log(`Derivative generation: ${options.skipDerivatives ? 'no' : 'yes'}`);
+  console.log(`Derivative root: ${path.relative(root, options.derivativeRoot)}`);
+  console.log(`Thumbnail width: ${options.thumbnailWidth}`);
+  console.log(`Poster timestamp: ${options.posterTimestamp}`);
   console.log(`Concurrency: ${options.concurrency}`);
   console.log(`Planned media references: ${report.plannedMediaUploads.length.toLocaleString()}`);
   console.log(`Upload operations: ${operations.length.toLocaleString()}`);
+  console.log(`Thumbnails to generate: ${derivativeStats.generatedThumbnails.toLocaleString()}`);
+  console.log(`Video posters to generate: ${derivativeStats.generatedPosters.toLocaleString()}`);
+  console.log(`Fallback thumbnail uploads: ${derivativeStats.fallbackThumbs.toLocaleString()}`);
   console.log(`Reuse-existing media references: ${skippedReuseExisting.toLocaleString()}`);
   console.log(`Cache-Control: ${options.cacheControl}`);
 }
@@ -247,12 +316,108 @@ function printDryRunSample(operations: UploadOperation[]) {
   console.log('\nFirst media upload operations:');
 
   for (const operation of operations.slice(0, 12)) {
-    console.log(`- ${operation.kind}: ${operation.localPath} -> ${operation.blobName}`);
+    const source = operation.kind === 'raw' || operation.kind === 'thumb-fallback'
+      ? operation.localPath
+      : `${operation.sourcePath} -> ${operation.localPath}`;
+
+    console.log(`- ${operation.kind}: ${source} -> ${operation.blobName}`);
   }
 
   if (operations.length > 12) {
     console.log(`...and ${(operations.length - 12).toLocaleString()} more.`);
   }
+}
+
+async function prepareDerivatives(operations: UploadOperation[], options: MediaPublishOptions) {
+  const stats = derivativeStatsForOperations(operations);
+
+  for (const operation of operations) {
+    if (operation.kind === 'thumbnail') {
+      await generateThumbnail(operation, options);
+    } else if (operation.kind === 'poster') {
+      await generatePoster(operation, options);
+    }
+  }
+
+  for (const operation of operations) {
+    if (operation.kind !== 'thumbnail' && operation.kind !== 'poster') {
+      continue;
+    }
+
+    const details = await fileDetails(path.resolve(root, operation.localPath));
+    operation.byteSize = details.byteSize;
+    operation.hash = details.hash;
+  }
+
+  return stats;
+}
+
+async function generateThumbnail(operation: UploadOperation, options: MediaPublishOptions) {
+  const sourcePath = path.resolve(root, operation.sourcePath);
+  const outputPath = path.resolve(root, operation.localPath);
+  await mkdir(path.dirname(outputPath), { recursive: true });
+
+  const image = sharp(sourcePath, { animated: false, failOn: 'none' })
+    .rotate()
+    .resize({
+      width: options.thumbnailWidth,
+      withoutEnlargement: true,
+    });
+
+  switch (path.extname(operation.blobName).toLowerCase()) {
+    case '.jpg':
+    case '.jpeg':
+      await image.jpeg({ quality: options.thumbnailQuality, mozjpeg: true }).toFile(outputPath);
+      break;
+    case '.png':
+      await image.png({ compressionLevel: 9, palette: true }).toFile(outputPath);
+      break;
+    case '.webp':
+      await image.webp({ quality: options.thumbnailQuality }).toFile(outputPath);
+      break;
+    case '.avif':
+      await image.avif({ quality: options.thumbnailQuality }).toFile(outputPath);
+      break;
+    case '.gif':
+      await image.gif({ effort: 7 }).toFile(outputPath);
+      break;
+    default:
+      await image.toFile(outputPath);
+      break;
+  }
+}
+
+async function generatePoster(operation: UploadOperation, options: MediaPublishOptions) {
+  if (!ffmpegPath) {
+    throw new Error('ffmpeg-static did not provide an ffmpeg binary path.');
+  }
+
+  const sourcePath = path.resolve(root, operation.sourcePath);
+  const outputPath = path.resolve(root, operation.localPath);
+  await mkdir(path.dirname(outputPath), { recursive: true });
+
+  await execFileAsync(ffmpegPath, [
+    '-y',
+    '-ss',
+    options.posterTimestamp,
+    '-i',
+    sourcePath,
+    '-frames:v',
+    '1',
+    '-vf',
+    `scale=${options.thumbnailWidth}:-2:force_original_aspect_ratio=decrease`,
+    '-q:v',
+    '3',
+    outputPath,
+  ]);
+}
+
+function derivativeStatsForOperations(operations: UploadOperation[]): DerivativeStats {
+  return {
+    generatedThumbnails: operations.filter((operation) => operation.kind === 'thumbnail').length,
+    generatedPosters: operations.filter((operation) => operation.kind === 'poster').length,
+    fallbackThumbs: operations.filter((operation) => operation.kind === 'thumb-fallback').length,
+  };
 }
 
 async function containerClientForReport(report: PublishPlanReport, options: MediaPublishOptions) {
@@ -276,6 +441,7 @@ async function uploadAll(
   containerClient: ContainerClient,
   operations: UploadOperation[],
   options: MediaPublishOptions,
+  derivativeStats: DerivativeStats,
 ) {
   const stats: PublishStats = {
     uploaded: 0,
@@ -283,6 +449,7 @@ async function uploadAll(
     skippedReuseExisting: 0,
     failed: 0,
     processed: 0,
+    derivatives: derivativeStats,
   };
   const errors: PublishError[] = [];
   const startedAt = Date.now();
@@ -354,7 +521,7 @@ async function uploadOperation(
       throw new SkipExistingError();
     }
 
-    if (operation.kind === 'thumb-fallback') {
+    if (operation.kind !== 'raw') {
       throw new SkipExistingError();
     }
 
@@ -365,7 +532,7 @@ async function uploadOperation(
 
   await blob.uploadFile(fullPath, {
     blobHTTPHeaders: {
-      blobContentType: contentType(operation.canonicalKey),
+      blobContentType: contentType(operation.blobName),
       blobCacheControl: options.cacheControl,
     },
     metadata: compactMetadata({
@@ -394,7 +561,11 @@ async function writeResult(
     operationCount,
     options: {
       overwrite: options.overwrite,
-      skipThumbFallbacks: options.skipThumbFallbacks,
+      skipDerivatives: options.skipDerivatives,
+      derivativeRoot: path.relative(root, options.derivativeRoot),
+      thumbnailWidth: options.thumbnailWidth,
+      thumbnailQuality: options.thumbnailQuality,
+      posterTimestamp: options.posterTimestamp,
       concurrency: options.concurrency,
       cacheControl: options.cacheControl,
     },
@@ -404,6 +575,18 @@ async function writeResult(
 
   await writeFile(resultPath, `${JSON.stringify(result, null, 2)}\n`, 'utf8');
   console.log(`\nWrote result: ${path.relative(root, resultPath)}`);
+}
+
+async function fileDetails(fullPath: string) {
+  const [contents, details] = await Promise.all([readFile(fullPath), stat(fullPath)]);
+
+  return {
+    byteSize: details.size,
+    hash: {
+      algorithm: 'sha256' as const,
+      value: createHash('sha256').update(contents).digest('hex'),
+    },
+  };
 }
 
 function printProgress(stats: PublishStats, total: number, startedAt: number) {
@@ -471,6 +654,22 @@ function numberArg(name: string, defaultValue: number) {
   const value = argValue(name);
 
   if (value === undefined) {
+    return defaultValue;
+  }
+
+  const parsed = Number.parseInt(value, 10);
+
+  if (!Number.isFinite(parsed)) {
+    throw new Error(`${name} must be a number.`);
+  }
+
+  return parsed;
+}
+
+function envNumber(name: string, defaultValue: number) {
+  const value = process.env[name];
+
+  if (value === undefined || value.trim() === '') {
     return defaultValue;
   }
 

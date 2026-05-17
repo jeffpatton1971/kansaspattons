@@ -1799,3 +1799,27 @@ Detailed working notes for the React migration live here. This file is intention
 - Verification:
   - `npx tsc -p tsconfig.node.json`
   - `npm run publish:media:dry-run`
+
+### Media Derivative Generation
+
+- Replaced the normal image thumbnail fallback with real derivative generation.
+- Added `sharp` for resized image thumbnails.
+- Added `ffmpeg-static` for repeatable video poster extraction on local
+  Windows/macOS machines and CI runners.
+- `publish:media` now generates derivative files under
+  `.tmp/media-derivatives` before upload:
+  - image thumbnails upload to `thumbs/yyyy/mm/dd/filename.ext`.
+  - video posters upload to `thumbs/yyyy/mm/dd/filename.jpg`.
+- `publish:plan` now includes `posterBlobPath` and `posterUrl` for planned
+  video uploads, and generated video manifest assets carry `posterUrl`.
+- Added media publish knobs:
+  - `MEDIA_THUMBNAIL_WIDTH` defaults to `960`.
+  - `MEDIA_THUMBNAIL_QUALITY` defaults to `82`.
+  - `MEDIA_POSTER_TIMESTAMP` defaults to `00:00:01`.
+  - `MEDIA_DERIVATIVE_ROOT` defaults to `.tmp/media-derivatives`.
+- Kept `--skip-derivatives` as an emergency escape hatch. In that mode, image
+  uploads can still use the original file as the thumbnail upload; videos do
+  not get fallback posters.
+- Verification:
+  - `npx tsc -p tsconfig.node.json`
+  - `npm run publish:media:dry-run`
