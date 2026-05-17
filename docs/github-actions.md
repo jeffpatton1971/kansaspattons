@@ -66,10 +66,14 @@ After `publish:prepare` and cleanup, the workflow commits source-side publish
 updates back to `main` when needed. The commit message includes `[skip ci]` so
 that source-normalization commit does not start a second publish run.
 
-The workflow lets the Azure Static Web Apps deploy action build from the repo
-root, emit the React app to `dist/`, and deploy the `api/` folder as the
-managed Functions API. The React app and the API are therefore served from the
-same origin, so production can keep using `/api/...` routes.
+The workflow currently lets the Azure Static Web Apps deploy action build from
+the repo root, emit the React app to `dist/`, and deploy the `api/` folder as
+the managed Functions API. While the API is bundled this way, production can
+use same-origin `/api/...` routes.
+
+When the API is split to its own Function App, set `VITE_API_BASE_URL` or
+`AZURE_API_BASE_URL` as a GitHub Actions variable. The React build then calls
+that external API host instead of same-origin `/api/...`.
 
 Azure Static Web Apps reads `staticwebapp.config.json` from the deployed app
 artifact. The source file lives at:
@@ -81,6 +85,27 @@ public/staticwebapp.config.json
 Vite copies that file into `dist/` during `npm run build`. The config provides
 the SPA navigation fallback and leaves `/api/*` requests for the managed
 Functions API.
+
+## API Publish
+
+Workflow:
+
+```text
+.github/workflows/api-publish.yml
+```
+
+Triggers:
+
+- push to `main` when files under `api/**` change
+- manual `workflow_dispatch`
+
+This workflow deploys the existing Azure Functions project in `api/` to a
+standalone Function App. It stays skipped until the `AZURE_API_FUNCTION_APP_NAME`
+repository/environment variable is set.
+
+The API resource should be a Function App. A Function App can run on an App
+Service plan, but a plain Azure Web App will not run this Functions project
+unless the API is converted to an Express or other Node HTTP server.
 
 ## Tag Full Rebuild
 
@@ -113,6 +138,9 @@ look similar in YAML, but they serve different jobs.
 | `AZURE_TENANT_ID` | Secret | `azure/login@v2` | Identifies the Entra tenant for Azure OIDC login. |
 | `AZURE_SUBSCRIPTION_ID` | Secret | `azure/login@v2` | Identifies the Azure subscription for Azure OIDC login. |
 | `AZURE_STATIC_WEB_APP_URL` | Variable, optional | workflow environment | Production Static Web Apps URL shown on GitHub deployments. |
+| `AZURE_API_FUNCTION_APP_NAME` | Variable, optional | `api-publish.yml` | Name of the standalone Function App that receives the split API deployment. |
+| `AZURE_API_BASE_URL` | Variable, optional | site build and API verification | Public API host, such as `https://<api-app>.azurewebsites.net`. |
+| `VITE_API_BASE_URL` | Variable, optional | React build | Explicit public API host compiled into the React app. Falls back to `AZURE_API_BASE_URL` when omitted. |
 | `CONTENT_SITE_URL` | Variable, optional | content build | Canonical public site URL emitted into generated `site.json`. |
 | `CONTENT_STORAGE_ACCOUNT` | Variable | publish scripts | Azure Storage account that receives generated JSON and media. |
 | `CONTENT_STORAGE_CONTAINER` | Variable | publish scripts | Azure Blob container for this site. |
@@ -635,6 +663,37 @@ az staticwebapp appsettings list `
 Local API development still uses `api/local.settings.json`. Azure Static Web
 Apps production settings are configured in Azure, not committed to the repo.
 
+## Split API Function App Settings
+
+Once the API is moved out of the Static Web Apps managed API, configure the
+standalone Function App with the same runtime settings:
+
+```text
+CONTENT_BASE_URL=https://prdwebappstorage.blob.core.windows.net/kansaspattons/current/
+CONTENT_SITE_KEY=kansaspattons
+CONTENT_CACHE_SECONDS=60
+```
+
+The API publish workflow deploys code only. Runtime settings should be managed
+on the Function App resource until we decide whether to let GitHub Actions own
+them.
+
+GitHub variables for the split API:
+
+```text
+AZURE_API_FUNCTION_APP_NAME=<function-app-resource-name>
+AZURE_API_BASE_URL=https://<function-app-resource-name>.azurewebsites.net
+VITE_API_BASE_URL=https://<function-app-resource-name>.azurewebsites.net
+```
+
+`VITE_API_BASE_URL` is compiled into the React app. If it is omitted, the
+publish workflow falls back to `AZURE_API_BASE_URL`. If both are omitted, the
+site keeps using same-origin `/api/...`.
+
+Because the content API is read-only and intended to be reused across sites,
+API responses include permissive CORS headers. If we later add write endpoints
+or private data, tighten this to an explicit allowed-origin list.
+
 ## Setup Checklist
 
 1. Create the Azure Static Web App resource.
@@ -653,7 +712,11 @@ Apps production settings are configured in Azure, not committed to the repo.
    variables while the Azure-generated hostname is the public URL.
 9. Configure Static Web Apps production environment variables:
    `CONTENT_BASE_URL`, `CONTENT_SITE_KEY`, and `CONTENT_CACHE_SECONDS`.
-10. Run the `Publish` workflow manually once after settings are in place.
+10. For the split API, configure the standalone Function App settings and save
+    `AZURE_API_FUNCTION_APP_NAME` plus `AZURE_API_BASE_URL` as GitHub
+    variables.
+11. Run the `API Publish` workflow manually once after the Function App exists.
+12. Run the `Publish` workflow manually once after settings are in place.
 
 ## Hosting Notes
 

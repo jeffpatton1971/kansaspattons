@@ -32,6 +32,28 @@ Local development has matching options:
 
 Resolution order for named sites is site-specific variable, JSON map, then template.
 
+### Split API Hosting
+
+The API can run as its own Azure Function App instead of as an Azure Static Web
+Apps managed API. That is the preferred shape for sharing one content API
+across multiple sites.
+
+The existing `api/` project is an Azure Functions project, so the Azure
+resource should be a **Function App**. A Function App can run on an App Service
+plan, but a plain Azure Web App will not run this project without converting it
+to an Express or other Node HTTP server.
+
+Production app settings for the split API:
+
+```text
+CONTENT_BASE_URL=https://prdwebappstorage.blob.core.windows.net/kansaspattons/current/
+CONTENT_SITE_KEY=kansaspattons
+CONTENT_CACHE_SECONDS=60
+```
+
+The API responses include permissive CORS headers because the content API is
+read-only and intended to serve multiple frontend hostnames.
+
 ## Local Setup
 
 ### Install Azure Functions Core Tools

@@ -24,6 +24,7 @@ env:
   CONTENT_SITE_KEY: ${{ vars.CONTENT_SITE_KEY || 'kansaspattons' }}
   CONTENT_SITE_URL: ${{ vars.CONTENT_SITE_URL || vars.AZURE_STATIC_WEB_APP_URL || 'https://happy-sky-045677310.7.azurestaticapps.net' }}
   AZURE_STATIC_WEB_APP_URL: ${{ vars.AZURE_STATIC_WEB_APP_URL || 'https://happy-sky-045677310.7.azurestaticapps.net' }}
+  VITE_API_BASE_URL: ${{ vars.VITE_API_BASE_URL || vars.AZURE_API_BASE_URL }}
   CONTENT_STORAGE_ACCOUNT: ${{ vars.CONTENT_STORAGE_ACCOUNT }}
   CONTENT_STORAGE_CONTAINER: ${{ vars.CONTENT_STORAGE_CONTAINER }}
   CONTENT_STORAGE_PREFIX: ${{ vars.CONTENT_STORAGE_PREFIX }}
@@ -128,11 +129,14 @@ jobs:
       - name: Verify deployed API
         shell: bash
         run: |
+          api_base="${VITE_API_BASE_URL:-$AZURE_STATIC_WEB_APP_URL}"
+          api_base="${api_base%/}"
+
           for attempt in {1..12}; do
-            status="$(curl -sS -o /tmp/swa-home.json -w '%{http_code}' "$AZURE_STATIC_WEB_APP_URL/api/home" || true)"
+            status="$(curl -sS -o /tmp/swa-home.json -w '%{http_code}' "$api_base/api/home" || true)"
             if [[ "$status" == "200" ]]; then
-              echo "Verified $AZURE_STATIC_WEB_APP_URL/api/home"
-              detail_status="$(curl -sS -o /tmp/swa-story.json -w '%{http_code}' "$AZURE_STATIC_WEB_APP_URL/api/stories/2026/04/16/194804-better-late-than-never" || true)"
+              echo "Verified $api_base/api/home"
+              detail_status="$(curl -sS -o /tmp/swa-story.json -w '%{http_code}' "$api_base/api/stories/2026/04/16/194804-better-late-than-never" || true)"
               if [[ "$detail_status" == "200" ]]; then
                 echo "Verified story detail API"
                 exit 0
@@ -151,7 +155,7 @@ jobs:
           cat /tmp/swa-home.json || true
           echo
           echo "Final /api/health response:"
-          curl -sS "$AZURE_STATIC_WEB_APP_URL/api/health" || true
+          curl -sS "$api_base/api/health" || true
           exit 1
 
   full-tag:
@@ -220,11 +224,14 @@ jobs:
       - name: Verify deployed API
         shell: bash
         run: |
+          api_base="${VITE_API_BASE_URL:-$AZURE_STATIC_WEB_APP_URL}"
+          api_base="${api_base%/}"
+
           for attempt in {1..12}; do
-            status="$(curl -sS -o /tmp/swa-home.json -w '%{http_code}' "$AZURE_STATIC_WEB_APP_URL/api/home" || true)"
+            status="$(curl -sS -o /tmp/swa-home.json -w '%{http_code}' "$api_base/api/home" || true)"
             if [[ "$status" == "200" ]]; then
-              echo "Verified $AZURE_STATIC_WEB_APP_URL/api/home"
-              detail_status="$(curl -sS -o /tmp/swa-story.json -w '%{http_code}' "$AZURE_STATIC_WEB_APP_URL/api/stories/2026/04/16/194804-better-late-than-never" || true)"
+              echo "Verified $api_base/api/home"
+              detail_status="$(curl -sS -o /tmp/swa-story.json -w '%{http_code}' "$api_base/api/stories/2026/04/16/194804-better-late-than-never" || true)"
               if [[ "$detail_status" == "200" ]]; then
                 echo "Verified story detail API"
                 exit 0
@@ -243,5 +250,5 @@ jobs:
           cat /tmp/swa-home.json || true
           echo
           echo "Final /api/health response:"
-          curl -sS "$AZURE_STATIC_WEB_APP_URL/api/health" || true
+          curl -sS "$api_base/api/health" || true
           exit 1

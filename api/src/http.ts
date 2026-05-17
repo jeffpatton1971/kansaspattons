@@ -12,6 +12,8 @@ export function jsonResponse(value: unknown, init: HttpResponseInit = {}): HttpR
     headers: {
       'content-type': 'application/json; charset=utf-8',
       'cache-control': 'public, max-age=60',
+      'access-control-allow-origin': '*',
+      'access-control-allow-methods': 'GET, OPTIONS',
       ...init.headers,
     },
     body: JSON.stringify(value),

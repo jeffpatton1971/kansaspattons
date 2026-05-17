@@ -46,8 +46,10 @@ type ApiImageListResponse = {
   page?: ApiPage;
 };
 
+const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/+$/, '');
+
 export function apiUrl(path: string) {
-  return `/api/${path.replace(/^\/+/, '')}`;
+  return `${apiBaseUrl}/api/${path.replace(/^\/+/, '')}`;
 }
 
 export function fetchJson<T>(path: string): Promise<T> {

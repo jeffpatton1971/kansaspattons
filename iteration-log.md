@@ -2110,3 +2110,15 @@ Detailed working notes for the React migration live here. This file is intention
   manifest is missing or has fewer files than the local content root.
 - Expanded the post-deploy API verification to check both `/api/home` and a
   known story detail endpoint.
+
+### Split API Prep
+
+- Made the React API client read `VITE_API_BASE_URL`, falling back to same-origin
+  `/api` when it is not configured.
+- Added permissive CORS headers to JSON API responses so a standalone API host
+  can serve the current site and future sibling sites.
+- Added `.github/workflows/api-publish.yml` for deploying the existing
+  `api/` Azure Functions project to a standalone Function App when
+  `AZURE_API_FUNCTION_APP_NAME` is configured.
+- Updated the main publish workflow so post-deploy API verification targets the
+  external API base URL when `VITE_API_BASE_URL` or `AZURE_API_BASE_URL` is set.

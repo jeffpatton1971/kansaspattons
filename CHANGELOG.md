@@ -219,6 +219,9 @@ Published behavior changes and bug fixes for the React site migration.
 - Added a temporary KansasPattons content-root fallback while the API remains bundled with this site repo.
 - Changed incremental content publishing to bootstrap a full generated-content upload when the remote publish manifest is missing or incomplete.
 - Added post-deploy verification for a known story detail API route so missing detail JSON fails deployment.
+- Added standalone API deployment workflow support for a split Azure Function App.
+- Changed the React API client to support `VITE_API_BASE_URL` while preserving same-origin `/api` fallback.
+- Added CORS headers to public JSON API responses for cross-host frontend/API deployments.
 
 ### Fixed
 
