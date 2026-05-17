@@ -5,6 +5,7 @@ _site
 .instagram/
 .facebook/
 node_modules/
+.vite/
 dist/
 public/content/
 api/dist/
