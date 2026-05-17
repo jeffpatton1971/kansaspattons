@@ -294,7 +294,7 @@ Optional settings:
 - `CONTENT_SITE_BANNER_EYEBROW`, `CONTENT_SITE_BANNER_TITLE`, `CONTENT_SITE_BANNER_TEXT`, `CONTENT_SITE_BANNER_IMAGE`: optional banner overrides.
 - `CONTENT_SITE_FOOTER_BRAND`, `CONTENT_SITE_FOOTER_TEXT`, `CONTENT_SITE_FOOTER_LINKS_JSON`, `CONTENT_SITE_FOOTER_COPYRIGHT`: optional footer overrides.
 - `CONTENT_PUBLISH_ROOT`: defaults to `public/content`.
-- `CONTENT_STORAGE_PREFIX`: defaults to `content/{CONTENT_SITE_KEY}/current`.
+- `CONTENT_STORAGE_PREFIX`: full generated-content Blob prefix; defaults to `content/{CONTENT_SITE_KEY}/current`.
 - `CONTENT_STORAGE_CACHE_CONTROL`: defaults to `public, max-age=60`.
 - `CONTENT_PUBLISH_DRY_RUN=true`: dry-run mode without passing `--dry-run`.
 
@@ -304,6 +304,12 @@ After upload, set the Function app setting:
 
 ```text
 CONTENT_BASE_URL=https://prdwebappstorage.blob.core.windows.net/kansaspattons/content/kansaspattons/current/
+```
+
+If the publish workflow explicitly sets `CONTENT_STORAGE_PREFIX=current`, use:
+
+```text
+CONTENT_BASE_URL=https://prdwebappstorage.blob.core.windows.net/kansaspattons/current/
 ```
 
 For the current HTTP reader, this URL must be readable by the Function app. That can mean public blob access for this content prefix or a future private-storage reader that uses Azure credentials.

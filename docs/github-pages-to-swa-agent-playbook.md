@@ -186,6 +186,11 @@ AZURE_STATIC_WEB_APP_URL
 CONTENT_SITE_URL
 ```
 
+`CONTENT_STORAGE_PREFIX` is the full generated-content Blob prefix. If it is
+omitted, the publish script uses `content/{siteKey}/current`. If it is set to a
+shorter value such as `current`, the API runtime setting must use that same
+shorter path.
+
 `AZURE_STATIC_WEB_APPS_API_TOKEN` is the SWA deployment token. It is not visitor
 auth and it is not used by `/api/*` requests.
 
@@ -197,7 +202,7 @@ write generated content and media to Blob Storage.
 The managed API needs runtime settings in Azure Static Web Apps:
 
 ```text
-CONTENT_BASE_URL=https://{account}.blob.core.windows.net/{container}/{prefix}/{siteKey}/current/
+CONTENT_BASE_URL=https://{account}.blob.core.windows.net/{container}/{CONTENT_STORAGE_PREFIX}/
 CONTENT_SITE_KEY={siteKey}
 CONTENT_CACHE_SECONDS=60
 ```
@@ -384,13 +389,13 @@ navigation fallback is deployed.
 Verify generated content in Blob Storage:
 
 ```text
-{prefix}/{siteKey}/current/home.json
-{prefix}/{siteKey}/current/site.json
-{prefix}/{siteKey}/current/posts/index.json
-{prefix}/{siteKey}/current/stories/index.json
-{prefix}/{siteKey}/current/galleries/index.json
-{prefix}/{siteKey}/current/images/index.json
-{prefix}/{siteKey}/current/search/index.json
+{CONTENT_STORAGE_PREFIX}/home.json
+{CONTENT_STORAGE_PREFIX}/site.json
+{CONTENT_STORAGE_PREFIX}/posts/index.json
+{CONTENT_STORAGE_PREFIX}/stories/index.json
+{CONTENT_STORAGE_PREFIX}/galleries/index.json
+{CONTENT_STORAGE_PREFIX}/images/index.json
+{CONTENT_STORAGE_PREFIX}/search/index.json
 ```
 
 ## Smaller-Site Trial Notes

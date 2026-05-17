@@ -111,7 +111,7 @@ look similar in YAML, but they serve different jobs.
 | `CONTENT_STORAGE_ACCOUNT` | Variable | publish scripts | Azure Storage account that receives generated JSON and media. |
 | `CONTENT_STORAGE_CONTAINER` | Variable | publish scripts | Azure Blob container for this site. |
 | `CONTENT_SITE_KEY` | Variable | publish scripts | Site key, currently `kansaspattons`. |
-| `CONTENT_STORAGE_PREFIX` | Variable, optional | publish scripts | Optional prefix before `{site}/current/` in Blob storage. |
+| `CONTENT_STORAGE_PREFIX` | Variable, optional | publish scripts | Full Blob prefix that receives generated JSON. Defaults to `content/{CONTENT_SITE_KEY}/current` when blank. |
 
 ### Static Web Apps Deployment Token
 
@@ -514,22 +514,26 @@ These values are not secrets, so they should be GitHub Actions variables:
 CONTENT_STORAGE_ACCOUNT=prdwebappstorage
 CONTENT_STORAGE_CONTAINER=kansaspattons
 CONTENT_SITE_KEY=kansaspattons
-CONTENT_STORAGE_PREFIX=content
+# Optional. If omitted, the publish script uses content/kansaspattons/current.
+CONTENT_STORAGE_PREFIX=current
 AZURE_STATIC_WEB_APP_URL=https://happy-sky-045677310.7.azurestaticapps.net
 CONTENT_SITE_URL=https://happy-sky-045677310.7.azurestaticapps.net
 ```
 
-`CONTENT_STORAGE_PREFIX` is optional. If it is set to `content`, the generated
-JSON root is expected to look like:
+`CONTENT_STORAGE_PREFIX` is optional. It is the complete Blob prefix that will
+contain `home.json`, `site.json`, and the other generated content artifacts.
+
+If it is blank, the generated JSON root is expected to look like:
 
 ```text
 https://prdwebappstorage.blob.core.windows.net/kansaspattons/content/kansaspattons/current/
 ```
 
-If it is blank, the generated JSON root is expected to look like:
+If it is set to `current`, as the current KansasPattons production workflow is,
+the generated JSON root is expected to look like:
 
 ```text
-https://prdwebappstorage.blob.core.windows.net/kansaspattons/kansaspattons/current/
+https://prdwebappstorage.blob.core.windows.net/kansaspattons/current/
 ```
 
 The exact URL must match the `CONTENT_BASE_URL` runtime setting on the Static
@@ -564,7 +568,7 @@ these application settings on the Azure Static Web App production environment.
 These are Azure Static Web Apps environment variables, not GitHub secrets:
 
 ```text
-CONTENT_BASE_URL=https://{account}.blob.core.windows.net/{container}/{prefix}/{site}/current/
+CONTENT_BASE_URL=https://{account}.blob.core.windows.net/{container}/{CONTENT_STORAGE_PREFIX}/
 CONTENT_SITE_KEY=kansaspattons
 CONTENT_CACHE_SECONDS=60
 ```
@@ -592,9 +596,17 @@ az staticwebapp appsettings set `
   --name <static-web-app-name> `
   --resource-group <resource-group-name> `
   --setting-names `
-    "CONTENT_BASE_URL=https://prdwebappstorage.blob.core.windows.net/kansaspattons/content/kansaspattons/current/" `
+    "CONTENT_BASE_URL=https://prdwebappstorage.blob.core.windows.net/kansaspattons/current/" `
     "CONTENT_SITE_KEY=kansaspattons" `
     "CONTENT_CACHE_SECONDS=60"
+```
+
+If `CONTENT_STORAGE_PREFIX` is later changed back to the default
+`content/kansaspattons/current`, update the Static Web Apps `CONTENT_BASE_URL`
+to match after the next content publish:
+
+```text
+CONTENT_BASE_URL=https://prdwebappstorage.blob.core.windows.net/kansaspattons/content/kansaspattons/current/
 ```
 
 Review current settings:

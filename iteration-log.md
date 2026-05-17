@@ -2090,3 +2090,9 @@ Detailed working notes for the React migration live here. This file is intention
 - Added a post-deploy verification step that retries
   `$AZURE_STATIC_WEB_APP_URL/api/home` and fails the workflow if the managed API
   is missing.
+- After merging to `main`, the managed API was available but returned
+  `Content artifact not found` for generated JSON. Confirmed the workflow had
+  published content to
+  `https://prdwebappstorage.blob.core.windows.net/kansaspattons/current/` and
+  documented that the Static Web Apps runtime setting must use the matching
+  `CONTENT_BASE_URL`.
