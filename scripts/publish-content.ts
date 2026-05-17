@@ -22,22 +22,41 @@ type PublishFile = {
   size: number;
 };
 
+type PublishManifest = {
+  fileCount?: number;
+};
+
 const defaultCacheControl = 'public, max-age=60';
 
 async function main() {
   const options = publishOptions();
   const planPaths = options.fromPlan ? await readPlanPaths(options.planPath) : undefined;
-  const files = await contentFiles(options.contentRoot, options.prefix, planPaths);
+  const allFiles = await contentFiles(options.contentRoot, options.prefix);
+  let files = options.fromPlan ? await contentFiles(options.contentRoot, options.prefix, planPaths) : allFiles;
+  let publishScope = options.fromPlan ? 'incremental plan' : 'full content root';
 
   if (!options.fromPlan) {
     await assertContentLooksPublishable(options.contentRoot, files);
   }
 
+  let containerClient: ContainerClient | undefined;
+
+  if (options.fromPlan && !options.dryRun) {
+    containerClient = await containerClientForOptions(options);
+    await containerClient.createIfNotExists();
+
+    if (await needsBootstrapPublish(containerClient, options, allFiles)) {
+      files = allFiles;
+      publishScope = 'bootstrap full content root';
+    }
+  }
+
   console.log(`Content root: ${options.contentRoot}`);
   console.log(`Target container: ${options.containerName}`);
   console.log(`Target prefix: ${options.prefix}`);
-  console.log(`Publish scope: ${options.fromPlan ? 'incremental plan' : 'full content root'}`);
+  console.log(`Publish scope: ${publishScope}`);
   console.log(`Files: ${files.length.toLocaleString()}`);
+  console.log(`Full content files: ${allFiles.length.toLocaleString()}`);
   console.log(`Bytes: ${sum(files.map((file) => file.size)).toLocaleString()}`);
 
   if (options.dryRun) {
@@ -65,10 +84,10 @@ async function main() {
     return;
   }
 
-  const containerClient = await containerClientForOptions(options);
+  containerClient ??= await containerClientForOptions(options);
   await containerClient.createIfNotExists();
   await uploadFiles(containerClient, files, options.cacheControl);
-  await uploadManifest(containerClient, options, files);
+  await uploadManifest(containerClient, options, files, allFiles, publishScope);
 
   console.log('\nPublish complete.');
   console.log(`CONTENT_BASE_URL=${contentBaseUrl(options)}`);
@@ -239,12 +258,21 @@ async function uploadFiles(containerClient: ContainerClient, files: PublishFile[
   await Promise.all(Array.from({ length: concurrency }, worker));
 }
 
-async function uploadManifest(containerClient: ContainerClient, options: PublishOptions, files: PublishFile[]) {
+async function uploadManifest(
+  containerClient: ContainerClient,
+  options: PublishOptions,
+  files: PublishFile[],
+  allFiles: PublishFile[],
+  publishScope: string,
+) {
   const manifest = {
     generatedAt: new Date().toISOString(),
     prefix: options.prefix,
-    fileCount: files.length,
-    totalBytes: sum(files.map((file) => file.size)),
+    scope: publishScope,
+    fileCount: allFiles.length,
+    uploadedFileCount: files.length,
+    totalBytes: sum(allFiles.map((file) => file.size)),
+    uploadedBytes: sum(files.map((file) => file.size)),
     contentBaseUrl: contentBaseUrl(options),
   };
   const blob = containerClient.getBlockBlobClient(`${options.prefix}/_publish.json`);
@@ -255,6 +283,61 @@ async function uploadManifest(containerClient: ContainerClient, options: Publish
       blobCacheControl: options.cacheControl,
     },
   });
+}
+
+async function needsBootstrapPublish(
+  containerClient: ContainerClient,
+  options: PublishOptions,
+  allFiles: PublishFile[],
+) {
+  const manifestBlob = containerClient.getBlockBlobClient(`${options.prefix}/_publish.json`);
+
+  try {
+    const response = await manifestBlob.download();
+    const raw = await streamToString(response.readableStreamBody);
+    const manifest = JSON.parse(raw) as PublishManifest;
+
+    if ((manifest.fileCount ?? 0) < allFiles.length) {
+      console.log(
+        `Remote publish manifest has ${manifest.fileCount ?? 0} files; local content root has ${
+          allFiles.length
+        }. Running bootstrap full publish.`,
+      );
+      return true;
+    }
+
+    return false;
+  } catch (error) {
+    if (isBlobMissingError(error)) {
+      console.log('Remote publish manifest is missing. Running bootstrap full publish.');
+      return true;
+    }
+
+    throw error;
+  }
+}
+
+async function streamToString(stream: NodeJS.ReadableStream | undefined) {
+  if (!stream) {
+    return '';
+  }
+
+  const chunks: Buffer[] = [];
+
+  for await (const chunk of stream) {
+    chunks.push(Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk));
+  }
+
+  return Buffer.concat(chunks).toString('utf8');
+}
+
+function isBlobMissingError(error: unknown) {
+  return (
+    typeof error === 'object' &&
+    error !== null &&
+    'statusCode' in error &&
+    (error as { statusCode?: number }).statusCode === 404
+  );
 }
 
 function contentBaseUrl(options: PublishOptions) {

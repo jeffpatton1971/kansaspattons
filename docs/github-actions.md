@@ -95,6 +95,12 @@ site-structure changes.
 The tag path runs validation, tests, a full generated-content publish, a fresh
 site build, and an Azure Static Web Apps deploy.
 
+Incremental publishes self-heal during the initial production bootstrap. If the
+remote `_publish.json` manifest is missing or reports fewer generated JSON
+files than the local content root, `publish:content:incremental` switches to a
+one-time full generated-content upload. This prevents archive indexes from
+deploying without the detail JSON documents they link to.
+
 ## Required GitHub Settings
 
 The publish workflow uses three different kinds of GitHub configuration. They
@@ -582,6 +588,10 @@ The API also exposes `GET /api/health` as a non-secret runtime diagnostic. It
 reports whether the deployed Function sees `CONTENT_BASE_URL`, derives the
 content root from `CONTENT_STORAGE_*`, or is using the bundled KansasPattons
 fallback while the API still lives in this repo.
+
+The publish workflow verifies both `/api/home` and one known story detail route
+after deployment so missing detail artifacts fail the deployment instead of
+showing up only when a user clicks into content.
 
 Portal setup:
 

@@ -2101,3 +2101,12 @@ Detailed working notes for the React migration live here. This file is intention
   not flow through as expected.
 - Added `/api/health` and `/api/sites/{site}/health` diagnostics to show which
   content source the deployed API is using without exposing secrets.
+- Investigated a live story detail failure for
+  `/api/stories/2026/04/16/194804-better-late-than-never`. The local generated
+  detail JSON existed, but Blob storage had only 96 generated JSON files, while
+  the local content root had 1,424 files.
+- Updated the generated-content publish script so incremental publishes
+  automatically bootstrap a full content upload when the remote publish
+  manifest is missing or has fewer files than the local content root.
+- Expanded the post-deploy API verification to check both `/api/home` and a
+  known story detail endpoint.

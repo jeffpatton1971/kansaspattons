@@ -132,7 +132,15 @@ jobs:
             status="$(curl -sS -o /tmp/swa-home.json -w '%{http_code}' "$AZURE_STATIC_WEB_APP_URL/api/home" || true)"
             if [[ "$status" == "200" ]]; then
               echo "Verified $AZURE_STATIC_WEB_APP_URL/api/home"
-              exit 0
+              detail_status="$(curl -sS -o /tmp/swa-story.json -w '%{http_code}' "$AZURE_STATIC_WEB_APP_URL/api/stories/2026/04/16/194804-better-late-than-never" || true)"
+              if [[ "$detail_status" == "200" ]]; then
+                echo "Verified story detail API"
+                exit 0
+              fi
+
+              echo "Story detail API returned $detail_status"
+              cat /tmp/swa-story.json || true
+              exit 1
             fi
 
             echo "Attempt $attempt: /api/home returned $status"
@@ -216,7 +224,15 @@ jobs:
             status="$(curl -sS -o /tmp/swa-home.json -w '%{http_code}' "$AZURE_STATIC_WEB_APP_URL/api/home" || true)"
             if [[ "$status" == "200" ]]; then
               echo "Verified $AZURE_STATIC_WEB_APP_URL/api/home"
-              exit 0
+              detail_status="$(curl -sS -o /tmp/swa-story.json -w '%{http_code}' "$AZURE_STATIC_WEB_APP_URL/api/stories/2026/04/16/194804-better-late-than-never" || true)"
+              if [[ "$detail_status" == "200" ]]; then
+                echo "Verified story detail API"
+                exit 0
+              fi
+
+              echo "Story detail API returned $detail_status"
+              cat /tmp/swa-story.json || true
+              exit 1
             fi
 
             echo "Attempt $attempt: /api/home returned $status"

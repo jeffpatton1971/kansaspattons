@@ -304,6 +304,12 @@ Optional settings:
 
 The script uploads a `_publish.json` manifest into the target prefix with the publish timestamp, file count, byte count, and content base URL.
 
+For incremental publishes, the manifest still records the full generated
+content file count. If the remote manifest is missing or reports fewer files
+than the local content root, the publish script treats the run as a bootstrap
+and uploads the full content root before returning to incremental behavior on
+later runs.
+
 After upload, set the Function app setting:
 
 ```text

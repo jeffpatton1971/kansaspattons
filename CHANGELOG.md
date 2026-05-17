@@ -217,6 +217,8 @@ Published behavior changes and bug fixes for the React site migration.
 - Clarified Static Web Apps runtime documentation so `CONTENT_BASE_URL` matches the exact generated-content Blob prefix.
 - Added `/api/health` diagnostics for deployed API content-source visibility.
 - Added a temporary KansasPattons content-root fallback while the API remains bundled with this site repo.
+- Changed incremental content publishing to bootstrap a full generated-content upload when the remote publish manifest is missing or incomplete.
+- Added post-deploy verification for a known story detail API route so missing detail JSON fails deployment.
 
 ### Fixed
 
@@ -228,3 +230,4 @@ Published behavior changes and bug fixes for the React site migration.
 - Prevented transient failed content artifact reads from being cached by the API.
 - Fixed generated image source values so object frontmatter emits the source type instead of `[object Object]`.
 - Restored the archive calendar on gallery detail pages and preserved source-filtered gallery navigation from the right-rail badges.
+- Fixed production story detail pages by ensuring generated detail JSON documents are published to Blob storage.
