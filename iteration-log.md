@@ -2036,3 +2036,13 @@ Detailed working notes for the React migration live here. This file is intention
 - Wired that URL into `.github/workflows/publish.yml` as the GitHub production
   environment URL and as the fallback `CONTENT_SITE_URL` for published builds
   until a custom domain is connected.
+- Added detailed federated identity setup instructions to
+  `docs/github-actions.md`, including the exact GitHub OIDC subject for this
+  repo at the time: `repo:jeffpatton1971/kansaspattons:environment:production`.
+- Clarified the federated credential portal fields after Azure rejected
+  `api://AzureADTokenExchange` in the credential name field. The credential
+  name should be `github-production`; `api://AzureADTokenExchange` belongs in
+  `Audience`.
+- Aligned the publish workflow and documentation to the GitHub environment name
+  the user created: `Production`. The OIDC subject for this setup is now
+  `repo:jeffpatton1971/kansaspattons:environment:Production`.

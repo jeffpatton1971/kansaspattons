@@ -33,7 +33,7 @@ jobs:
     if: github.event_name == 'push' && github.ref_type == 'branch'
     runs-on: ubuntu-latest
     environment:
-      name: production
+      name: Production
       url: ${{ vars.AZURE_STATIC_WEB_APP_URL || 'https://happy-sky-045677310.7.azurestaticapps.net' }}
     concurrency:
       group: publish-${{ github.ref_name }}
@@ -132,7 +132,7 @@ jobs:
     if: github.ref_type == 'tag' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     environment:
-      name: production
+      name: Production
       url: ${{ vars.AZURE_STATIC_WEB_APP_URL || 'https://happy-sky-045677310.7.azurestaticapps.net' }}
     concurrency:
       group: publish-full-${{ github.ref_name }}

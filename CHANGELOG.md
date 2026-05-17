@@ -210,6 +210,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed the publish workflow to deploy the React build and managed API to Azure Static Web Apps instead of GitHub Pages.
 - Added Azure Static Web Apps routing configuration for SPA fallback, static headers, JSON MIME handling, and the Node API runtime.
 - Added the Azure Static Web Apps production URL to the publish workflow environment metadata and documented the temporary SWA host variables.
+- Changed the publish workflow environment name to `Production` to match the configured GitHub deployment environment and OIDC subject.
 
 ### Fixed
 
