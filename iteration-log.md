@@ -1847,3 +1847,40 @@ Detailed working notes for the React migration live here. This file is intention
 - Verification:
   - `npx tsc -p tsconfig.node.json`
   - `npm run publish:cleanup-media`
+
+### Incremental Generated JSON And Gallery Retirement
+
+- Added `npm run build:content:incremental`.
+- Added `npm run publish:content:incremental:dry-run`.
+- Added `npm run publish:content:incremental`.
+- The incremental content build reads `.tmp/publish-plan-report.json`, evaluates
+  the full content graph, and writes only affected generated JSON paths from:
+  - `affectedJson`.
+  - `affectedIndexes`.
+- The incremental content publish step reads the same publish plan and uploads
+  only those generated JSON paths.
+- This is intentionally phase one of incremental generation: it limits writes
+  and uploads first while keeping index/taxonomy correctness simple.
+- Removed the legacy `_gallery` directory from the workspace.
+- Removed migration-only commands from `package.json`:
+  - `media:manifest`.
+  - `media:manifest:write`.
+  - `migrate:galleries`.
+  - `migrate:galleries:write`.
+  - `images:canonicalize`.
+  - `images:canonicalize:write`.
+  - `assets:manifest`.
+  - `assets:manifest:write`.
+- Removed migration-only scripts that depended directly on `_gallery`:
+  - `scripts/build-media-manifest.ts`.
+  - `scripts/canonicalize-image-references.ts`.
+  - `scripts/migrate-gallery-relationships.ts`.
+  - `scripts/image-storage-migration-manifest.ts`.
+  - stale `scripts/build-content.js`.
+- Simplified validation so it no longer counts legacy `_gallery` files.
+- Verification:
+  - `npx tsc -p tsconfig.node.json`
+  - `npm run content:validate`
+  - `npm run build:content:incremental`
+  - `npm run build:content`
+  - `npm run build`

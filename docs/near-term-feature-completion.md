@@ -2,8 +2,8 @@
 
 This is the short-list of low-friction work that clears the path toward a
 feature-complete React/API content platform. These items are not all blockers by
-themselves, but they reduce ambiguity before the publish pipeline and `_gallery`
-retirement work get heavier.
+themselves, but they reduce ambiguity around the publish pipeline and media
+manifest work.
 
 ## Recommended Order
 
@@ -189,8 +189,8 @@ Status: baseline implemented.
 
 Why this matters:
 
-Before `_gallery` can disappear, the compiler needs to trust
-`content/media/index.json` as the media source of truth.
+The compiler needs to trust `content/media/index.json` as the media source of
+truth.
 
 Work:
 
@@ -205,11 +205,11 @@ Acceptance criteria:
 
 - `npm run content:validate` reports missing media references clearly.
 - The report identifies the content file and missing media key.
-- The site can build without reading `_gallery`.
+- The site can build without one Markdown file per image.
 
 Current validation reports `4,769` unique media IDs referenced by authored
-content and `0` missing media references. The build and validator now require
-`content/media/index.json`; `_gallery` is not a runtime fallback.
+content and `0` missing media references. The build and validator require
+`content/media/index.json`.
 
 ## 7. Document Exact Authoring Examples
 

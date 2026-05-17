@@ -12,16 +12,14 @@ Images should be decoupled from posts, stories, and galleries.
 - `/posts`, `/stories`, and `/galleries` reference image assets by ID/path.
 - New image uploads should not require one Markdown page per image.
 - The only final authored content types are `post`, `story`, and `gallery`.
-- `tags` should collapse into `hashtags`; import/system labels should move to
+- `tags` should collapse into `hashtags`; import/system labels should remain in
   legacy metadata rather than user-facing filters.
-
-The existing `_gallery/*.md` files are useful import metadata from the GitHub Pages/Jekyll migration. They should be treated as legacy input, not the long-term authoring model.
 
 The target content envelope and child payload shapes are defined in
 [`content-contract.md`](content-contract.md).
 
-The planned replacement for legacy one-file-per-image `_gallery` metadata is
-defined in [`media-manifest.md`](media-manifest.md).
+The replacement for legacy one-file-per-image media metadata is defined in
+[`media-manifest.md`](media-manifest.md).
 
 Site presentation settings are defined in
 [`site-configuration.md`](site-configuration.md).
@@ -337,11 +335,24 @@ The generated-content publish dry run remains:
 npm run publish:content:dry-run
 ```
 
+For normal pushes, publish only the generated JSON paths affected by the
+current publish plan:
+
+```powershell
+npm run publish:content:incremental:dry-run
+npm run publish:content:incremental
+```
+
+The incremental content build still evaluates the content graph so archive
+indexes, taxonomy, and related content stay correct, but it writes and publishes
+only the JSON paths listed in `.tmp/publish-plan-report.json`.
+
 Use `publish:plan` to reason about authoring/source changes. Use
 `publish:media:dry-run` and `publish:media` to upload local draft media to
 canonical storage paths. Use `publish:prepare` to apply source-side canonical
-media rewrites and manifest additions. Use `publish:content:dry-run` to reason
-about generated JSON artifact upload.
+media rewrites and manifest additions. Use `publish:content:incremental:dry-run`
+to reason about generated JSON artifact upload for normal changes. Keep
+`publish:content:dry-run` for manual full republishes.
 
 The current safe sequence is:
 
@@ -352,8 +363,8 @@ npm run publish:media
 npm run publish:prepare
 npm run publish:cleanup-media
 npm run publish:cleanup-media:write
-npm run build
-npm run publish:content:dry-run
+npm run publish:content:incremental:dry-run
+npm run publish:content:incremental
 ```
 
 ## GitHub Action Triggers
@@ -373,36 +384,8 @@ large cleanup work.
 
 ## Existing Content Canonicalization
 
-Existing migrated content can be canonicalized with the image reference migration tool.
-
-Dry run:
-
-```powershell
-npm run images:canonicalize
-```
-
-Write Markdown changes:
-
-```powershell
-npm run images:canonicalize:write
-```
-
-The tool:
-
-- Builds a map from legacy `_gallery` image IDs to canonical `yyyy/mm/dd/filename.ext` media keys.
-- Rewrites `_posts` frontmatter fields such as `cover_image` and `images[].id`.
-- Writes `.tmp/image-canonicalization-report.json`.
-- Reports missing references.
-- Reports canonical path collisions.
-- Refuses to write if canonical collisions exist.
-
-After write mode, run a manual full rebuild:
-
-```powershell
-npm run build
-```
-
-The compiler then emits canonical image IDs, canonical raw/thumb URLs, and image routes shaped like:
+Existing migrated content has been canonicalized. Authored Markdown now uses
+canonical media keys, and the compiler emits image routes shaped like:
 
 ```text
 /images/yyyy/mm/dd/filename.ext

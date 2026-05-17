@@ -276,8 +276,13 @@ const outputRoot = path.join(publicRoot, 'content');
 const postsRoot = path.join(root, '_posts');
 const siteConfigPath = path.join(root, 'content', 'site.config.json');
 const sourceMediaManifestPath = path.join(root, 'content', 'media', 'index.json');
+const publishPlanPath = path.join(root, '.tmp', 'publish-plan-report.json');
 const siteKey = cleanSiteKey(process.env.CONTENT_SITE_KEY || process.env.SITE_KEY || siteConfigKeyFromDisk() || 'kansaspattons');
 const defaultSiteTitle = 'KansasPattons';
+const incremental = process.argv.includes('--incremental') || process.argv.includes('--from-plan');
+let incrementalWritePaths: Set<string> | undefined;
+let writtenJsonFiles = 0;
+let skippedJsonFiles = 0;
 
 const markdown = new MarkdownIt({
   html: false,
@@ -310,7 +315,12 @@ const sanitizeOptions: sanitizeHtml.IOptions = {
 async function main() {
   ensureGeneratedContentPath();
 
-  await rm(outputRoot, { recursive: true, force: true });
+  if (incremental) {
+    incrementalWritePaths = await readIncrementalWritePaths();
+  } else {
+    await rm(outputRoot, { recursive: true, force: true });
+  }
+
   await mkdir(outputRoot, { recursive: true });
 
   const siteConfig = await readSiteConfig();
@@ -365,6 +375,12 @@ async function main() {
   await writeJson('taxonomy.json', buildTaxonomy([...blogPosts, ...stories], gallerySummaries));
 
   console.log(`Generated ${posts.length} entries, ${galleries.length} galleries, and ${images.length} images.`);
+
+  if (incremental) {
+    console.log(
+      `Incremental JSON write: wrote ${writtenJsonFiles.toLocaleString()} file(s), skipped ${skippedJsonFiles.toLocaleString()} file(s).`,
+    );
+  }
 }
 
 function ensureGeneratedContentPath() {
@@ -538,8 +554,7 @@ async function loadMediaManifest(siteTitle: string) {
       throw new Error(
         [
           'content/media/index.json is required for the React/API build.',
-          'Run npm run media:manifest:write to regenerate it from legacy _gallery metadata during migration.',
-          'After publish owns media indexing, this file should be updated by the publish pipeline.',
+          'Media assets are now tracked by content/media/index.json and updated by the publish pipeline.',
           `Site: ${siteTitle}`,
         ].join(' '),
       );
@@ -1029,9 +1044,36 @@ async function markdownFiles(directory: string) {
 }
 
 async function writeJson(relativePath: string, value: unknown) {
+  const normalizedPath = relativePath.replaceAll('\\', '/');
+
+  if (incrementalWritePaths && !incrementalWritePaths.has(normalizedPath)) {
+    skippedJsonFiles += 1;
+    return;
+  }
+
   const fullPath = path.join(outputRoot, relativePath);
   await mkdir(path.dirname(fullPath), { recursive: true });
   await writeFile(fullPath, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
+  writtenJsonFiles += 1;
+}
+
+async function readIncrementalWritePaths() {
+  const raw = await readFile(publishPlanPath, 'utf8');
+  const report = JSON.parse(raw) as {
+    issues?: unknown[];
+    affectedJson?: string[];
+    affectedIndexes?: string[];
+  };
+
+  if ((report.issues?.length ?? 0) > 0) {
+    throw new Error(`Publish plan has ${report.issues!.length} issue(s). Run npm run publish:plan and fix them before incremental build.`);
+  }
+
+  const paths = [...(report.affectedJson ?? []), ...(report.affectedIndexes ?? [])]
+    .map((item) => item.replaceAll('\\', '/').replace(/^\/+/, ''))
+    .filter(Boolean);
+
+  return new Set(paths);
 }
 
 function archiveYears(items: DateParts[], basePath: string): ArchiveYear[] {

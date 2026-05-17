@@ -74,25 +74,28 @@ Implemented:
 - `npm run publish:cleanup-media` previews local draft media removal after
   upload and source prep.
 - `npm run publish:cleanup-media:write` removes verified local draft media.
+- `npm run build:content:incremental` writes only JSON paths affected by the
+  publish plan.
+- `npm run publish:content:incremental:dry-run` and
+  `npm run publish:content:incremental` publish only the planned JSON paths.
 
 Next work:
 
-- Generate JSON only for changed content plus affected indexes.
 - Keep a manual full rebuild path for migrations and repair work.
 
 ## 3. `_gallery` Retirement
 
-Status: generated image IDs and content references are canonicalized. The site
-now has a checked-in `content/media/index.json` source manifest, and the build
-and validator require that manifest. `_gallery` still exists as temporary import
-backup metadata for manifest regeneration and migration tools.
+Status: retired. Generated image IDs and content references are canonicalized.
+The site has a checked-in `content/media/index.json` source manifest, and the
+build and validator require that manifest. Legacy `_gallery` records and the
+migration-only scripts that consumed them have been removed from the normal
+workspace.
 
 Next work:
 
-- Move needed captions, alt text, dates, and legacy data into generated media
-  assets or source manifests.
-- Stop creating new `_gallery` files.
-- Remove `_gallery` after the publish pipeline can own media indexing.
+- Keep migration history in Git.
+- Use `content/media/index.json` and the publish pipeline for any future media
+  additions or corrections.
 
 ## 4. Existing Content Cleanup
 

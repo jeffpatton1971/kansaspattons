@@ -8,8 +8,8 @@ some compatibility fields from the Jekyll and social imports.
 
 - Only three authored content types exist: `post`, `story`, and `gallery`.
 - Images and videos are media assets, not authored content pages.
-- `_gallery` is legacy import metadata and should disappear from normal
-  authoring once the publish pipeline owns media upload and indexing.
+- Media metadata lives in `content/media/index.json`; images and videos do not
+  get one Markdown file per asset.
 - All authored content shares one envelope and one metadata block.
 - Child payloads differ only where the content actually behaves differently.
 - The contract should work across multiple sites without site-specific API code.
@@ -320,7 +320,7 @@ Validation should cover:
 - required authors are present
 - routes are unique per site
 - canonical media keys have no collisions
-- `_gallery` is not required for new authored content
+- one Markdown file per image is not required for new authored content
 
 The initial validator command is:
 
@@ -336,7 +336,7 @@ The current validator rejects legacy `article` content types, legacy
 `related.type: article` links, external or absolute media references in
 authored content, non-canonical media keys, and media keys that are missing from
 `content/media/index.json`. It also reports the number of unique media IDs
-referenced by authored content so `_gallery` retirement can be tracked with a
+referenced by authored content so manifest coverage can be tracked with a
 concrete number.
 
 Test coverage should include:

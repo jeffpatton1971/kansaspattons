@@ -12,7 +12,7 @@ contract.
 - Markdown remains the authoring format for human-written content.
 - Images are first-class media assets and can be reused by posts, stories, and galleries.
 - Posts, stories, and galleries have stable IDs and routes.
-- `_gallery` is legacy import metadata, not a permanent authoring model.
+- Media metadata lives in `content/media/index.json`, not one Markdown file per image.
 - Site identity is metadata, not business logic. Each repo can publish with its own `CONTENT_SITE_KEY`.
 - The generated JSON can evolve while old compatibility fields remain during migration.
 
@@ -265,12 +265,8 @@ For the current Azure Blob layout, `{siteId}` is the blob container name. Existi
 
 For new authored content, draft Markdown may use simple local filenames. The publish action should upload the assets, rewrite those local filenames to canonical media keys, and remove the local image files from the repo.
 
-Existing migrated content can be rewritten to the same canonical media-key shape with:
-
-```powershell
-npm run images:canonicalize
-npm run images:canonicalize:write
-```
+Existing migrated content has been rewritten to the same canonical media-key
+shape.
 
 Draft:
 

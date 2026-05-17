@@ -11,6 +11,8 @@ type PublishOptions = {
   contentRoot: string;
   cacheControl: string;
   dryRun: boolean;
+  fromPlan: boolean;
+  planPath: string;
 };
 
 type PublishFile = {
@@ -24,28 +26,42 @@ const defaultCacheControl = 'public, max-age=60';
 
 async function main() {
   const options = publishOptions();
-  const files = await contentFiles(options.contentRoot, options.prefix);
+  const planPaths = options.fromPlan ? await readPlanPaths(options.planPath) : undefined;
+  const files = await contentFiles(options.contentRoot, options.prefix, planPaths);
 
-  await assertContentLooksPublishable(options.contentRoot, files);
+  if (!options.fromPlan) {
+    await assertContentLooksPublishable(options.contentRoot, files);
+  }
 
   console.log(`Content root: ${options.contentRoot}`);
   console.log(`Target container: ${options.containerName}`);
   console.log(`Target prefix: ${options.prefix}`);
+  console.log(`Publish scope: ${options.fromPlan ? 'incremental plan' : 'full content root'}`);
   console.log(`Files: ${files.length.toLocaleString()}`);
   console.log(`Bytes: ${sum(files.map((file) => file.size)).toLocaleString()}`);
 
   if (options.dryRun) {
-    console.log('\nDry run only. First files:');
+    if (files.length === 0) {
+      console.log('\nDry run only. No content files to publish.');
+    } else {
+      console.log('\nDry run only. First files:');
 
-    for (const file of files.slice(0, 20)) {
-      console.log(`- ${file.relativePath} -> ${file.blobName}`);
-    }
+      for (const file of files.slice(0, 20)) {
+        console.log(`- ${file.relativePath} -> ${file.blobName}`);
+      }
 
-    if (files.length > 20) {
-      console.log(`...and ${(files.length - 20).toLocaleString()} more.`);
+      if (files.length > 20) {
+        console.log(`...and ${(files.length - 20).toLocaleString()} more.`);
+      }
     }
 
     console.log(`\nCONTENT_BASE_URL=${contentBaseUrl(options)}`);
+    return;
+  }
+
+  if (files.length === 0) {
+    console.log('\nNo content files to publish.');
+    console.log(`CONTENT_BASE_URL=${contentBaseUrl(options)}`);
     return;
   }
 
@@ -71,6 +87,8 @@ function publishOptions(): PublishOptions {
   const contentRoot = path.resolve(process.cwd(), process.env.CONTENT_PUBLISH_ROOT || 'public/content');
   const cacheControl = process.env.CONTENT_STORAGE_CACHE_CONTROL || defaultCacheControl;
   const dryRun = args.has('--dry-run') || process.env.CONTENT_PUBLISH_DRY_RUN === 'true';
+  const fromPlan = args.has('--from-plan') || process.env.CONTENT_PUBLISH_FROM_PLAN === 'true';
+  const planPath = path.resolve(process.cwd(), process.env.CONTENT_PUBLISH_PLAN || '.tmp/publish-plan-report.json');
 
   return {
     accountName,
@@ -80,10 +98,12 @@ function publishOptions(): PublishOptions {
     contentRoot,
     cacheControl,
     dryRun,
+    fromPlan,
+    planPath,
   };
 }
 
-async function contentFiles(contentRoot: string, prefix: string) {
+async function contentFiles(contentRoot: string, prefix: string, planPaths?: Set<string>) {
   const files: PublishFile[] = [];
 
   async function visit(directory: string) {
@@ -102,6 +122,11 @@ async function contentFiles(contentRoot: string, prefix: string) {
       }
 
       const relativePath = path.relative(contentRoot, fullPath).replaceAll(path.sep, '/');
+
+      if (planPaths && !planPaths.has(relativePath)) {
+        continue;
+      }
+
       const details = await stat(fullPath);
 
       files.push({
@@ -115,6 +140,25 @@ async function contentFiles(contentRoot: string, prefix: string) {
 
   await visit(contentRoot);
   return files.sort((a, b) => a.relativePath.localeCompare(b.relativePath));
+}
+
+async function readPlanPaths(planPath: string) {
+  const raw = await readFile(planPath, 'utf8');
+  const report = JSON.parse(raw) as {
+    issues?: unknown[];
+    affectedJson?: string[];
+    affectedIndexes?: string[];
+  };
+
+  if ((report.issues?.length ?? 0) > 0) {
+    throw new Error(`Publish plan has ${report.issues!.length} issue(s). Run npm run publish:plan and fix them before incremental content publish.`);
+  }
+
+  return new Set(
+    [...(report.affectedJson ?? []), ...(report.affectedIndexes ?? [])]
+      .map((item) => item.replaceAll('\\', '/').replace(/^\/+/, ''))
+      .filter(Boolean),
+  );
 }
 
 async function assertContentLooksPublishable(contentRoot: string, files: PublishFile[]) {

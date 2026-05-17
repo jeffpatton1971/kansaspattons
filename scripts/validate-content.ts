@@ -41,7 +41,6 @@ type DateParts = {
 
 const root = process.cwd();
 const postsRoot = path.join(root, '_posts');
-const galleryRoot = path.join(root, '_gallery');
 const sourceMediaManifestPath = path.join(root, 'content', 'media', 'index.json');
 const reportPath = path.join(root, '.tmp', 'content-validation-report.json');
 const strict = process.argv.includes('--strict');
@@ -57,7 +56,6 @@ const recommendations = {
   relatedArticleType: [] as string[],
   legacyGalleryIncludes: [] as string[],
   systemTaxonomyPresent: [] as string[],
-  galleryMarkdownFiles: 0,
   mediaManifestAssets: 0,
 };
 
@@ -77,7 +75,6 @@ async function main() {
     strict,
     files: {
       posts: records.length,
-      galleryMarkdown: recommendations.galleryMarkdownFiles,
       mediaManifestAssets: recommendations.mediaManifestAssets,
     },
     media: {
@@ -97,7 +94,6 @@ async function main() {
       relatedArticleType: recommendationSummary(recommendations.relatedArticleType),
       legacyGalleryIncludes: recommendationSummary(recommendations.legacyGalleryIncludes),
       systemTaxonomyPresent: recommendationSummary(recommendations.systemTaxonomyPresent),
-      galleryMarkdownFiles: recommendations.galleryMarkdownFiles,
       mediaManifestAssets: recommendations.mediaManifestAssets,
     },
   };
@@ -113,7 +109,6 @@ async function main() {
 }
 
 async function readMediaIds() {
-  recommendations.galleryMarkdownFiles = (await markdownFiles(galleryRoot)).length;
   const manifestIds = await readMediaManifestIds();
 
   if (!manifestIds) {
@@ -121,7 +116,7 @@ async function readMediaIds() {
       'error',
       'mediaManifest.missing',
       'content/media/index.json',
-      'The media manifest is required. Run npm run media:manifest:write to regenerate it from legacy _gallery metadata during migration.',
+      'The media manifest is required. Media assets are now tracked in content/media/index.json.',
     );
 
     return undefined;
@@ -760,7 +755,7 @@ function numberArg(name: string) {
 }
 
 function printSummary(summary: {
-  files: { posts: number; galleryMarkdown: number; mediaManifestAssets: number };
+  files: { posts: number; mediaManifestAssets: number };
   media: { ids: number; referenced?: number };
   contentTypes: Record<string, number>;
   issues: { errors: number; warnings: number };
@@ -768,7 +763,6 @@ function printSummary(summary: {
 }) {
   console.log('Content validation');
   console.log(`Posts: ${summary.files.posts}`);
-  console.log(`Legacy _gallery files: ${summary.files.galleryMarkdown}`);
   console.log(`Media manifest assets: ${summary.files.mediaManifestAssets}`);
   console.log(`Media IDs: ${summary.media.ids}`);
   if (summary.media.referenced !== undefined) {

@@ -1,15 +1,11 @@
 # Media Manifest
 
-The media manifest is the planned replacement for `_gallery/*.md`.
-
-Today, `_gallery` acts as a legacy media index: one Markdown file per image or
-video. That worked for Jekyll, but the React/API model should not need authored
-image pages. The manifest gives the compiler and API the same information in a
-single generated data set.
+The media manifest replaces the old Jekyll-era one-Markdown-file-per-image
+model. The React/API site uses this manifest as the media source of truth.
 
 ## Goals
 
-- Stop creating one Markdown file per image.
+- Avoid creating one Markdown file per image.
 - Keep images/videos decoupled from posts, stories, and galleries.
 - Track canonical Azure Storage paths.
 - Track captions, alt text, dimensions, hashes, and usage relationships.
@@ -116,7 +112,7 @@ For new content:
 3. Publish creates thumbnails or video posters.
 4. Publish rewrites Markdown media refs to canonical media keys.
 5. Publish updates the media manifest with the new/changed assets.
-6. Build uses the media manifest instead of `_gallery`.
+6. Build uses the media manifest.
 
 The current dry-run planning command is:
 
@@ -165,26 +161,19 @@ media publish result, verifies the authored Markdown now references canonical
 media keys, verifies raw upload completion for newly added media, then removes
 the local draft files only in explicit write mode.
 
-For existing content:
-
-1. Generate the first source media manifest from `_gallery`.
-2. Verify generated `images/index.json` is identical or intentionally changed.
-3. Switch the compiler to read the manifest.
-4. Keep `_gallery` temporarily as import backup metadata only.
-5. Remove `_gallery` after the publish pipeline can update the manifest.
-
-Current commands:
+The current incremental generated-content publish commands are:
 
 ```powershell
-npm run media:manifest
-npm run media:manifest:write
-npm run build
+npm run publish:content:incremental:dry-run
+npm run publish:content:incremental
 ```
 
-The compiler and validator now require `content/media/index.json`. `_gallery`
-is no longer a runtime fallback for the React/API site. During migration,
-`npm run media:manifest:write` can still regenerate the manifest from `_gallery`
-until the publish pipeline owns media indexing.
+The incremental content build writes only the generated JSON paths listed by
+the publish plan, and the publish step uploads only those same JSON paths.
+
+For existing content, the initial source manifest has already been generated
+and checked in at `content/media/index.json`. The compiler and validator require
+that manifest, and the publish pipeline now owns new media additions.
 
 ## Why Not Store This In Posts?
 

@@ -193,6 +193,8 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed nav/footer rendering so configured links can point to either internal React routes or external pages.
 - Added `publish:media:dry-run` and `publish:media` commands for uploading planned local media to canonical Azure Blob paths with generated image thumbnails and video posters.
 - Added `publish:cleanup-media` and `publish:cleanup-media:write` commands for separately removing verified local draft media after upload and source prep.
+- Added incremental generated-content commands that write and publish only the JSON paths affected by the current publish plan.
+- Removed the legacy `_gallery` media metadata directory and retired normal npm commands/scripts that regenerated data from it.
 
 ### Fixed
 
