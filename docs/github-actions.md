@@ -66,15 +66,21 @@ After `publish:prepare` and cleanup, the workflow commits source-side publish
 updates back to `main` when needed. The commit message includes `[skip ci]` so
 that source-normalization commit does not start a second publish run.
 
-The workflow also deploys `dist/` to GitHub Pages. Before upload it copies:
+The workflow deploys the prebuilt `dist/` folder to Azure Static Web Apps and
+deploys the `api/` folder as the managed Functions API. The React app and the
+API are therefore served from the same origin, so production can keep using
+`/api/...` routes.
+
+Azure Static Web Apps reads `staticwebapp.config.json` from the deployed app
+artifact. The source file lives at:
 
 ```text
-CNAME -> dist/CNAME
-dist/index.html -> dist/404.html
+public/staticwebapp.config.json
 ```
 
-The `404.html` copy keeps React routes working as a GitHub Pages single-page
-app fallback.
+Vite copies that file into `dist/` during `npm run build`. The config provides
+the SPA navigation fallback and leaves `/api/*` requests for the managed
+Functions API.
 
 ## Tag Full Rebuild
 
@@ -87,11 +93,9 @@ Tag publishes are full rebuilds. This is the release/version path for larger
 site-structure changes.
 
 The tag path runs validation, tests, a full generated-content publish, a fresh
-site build, and a GitHub Pages deploy.
+site build, and an Azure Static Web Apps deploy.
 
 ## Required Repository Settings
-
-GitHub Pages should be configured to deploy from GitHub Actions.
 
 The publish workflow uses GitHub OIDC for Azure. Configure these repository
 secrets:
@@ -100,6 +104,13 @@ secrets:
 AZURE_CLIENT_ID
 AZURE_TENANT_ID
 AZURE_SUBSCRIPTION_ID
+```
+
+The Static Web Apps deployment uses the app deployment token. Configure this
+repository secret:
+
+```text
+AZURE_STATIC_WEB_APPS_API_TOKEN
 ```
 
 Configure these repository variables:
@@ -121,6 +132,48 @@ the target storage account or container. The workflow also needs permission to
 push source-normalization commits back to `main`; if branch protection blocks
 that, allow GitHub Actions/bot commits or move `publish:prepare` earlier into
 the PR process.
+
+## Azure Static Web Apps Settings
+
+The managed API reads content from Azure Blob storage at runtime. Configure
+these application settings on the Azure Static Web App production environment:
+
+```text
+CONTENT_BASE_URL=https://{account}.blob.core.windows.net/{container}/{prefix}/{site}/current/
+CONTENT_SITE_KEY=kansaspattons
+CONTENT_CACHE_SECONDS=60
+```
+
+`CONTENT_BASE_URL` is the important one. It should point at the generated JSON
+content root that contains `home.json`, `site.json`, `posts/index.json`,
+`stories/index.json`, `galleries/index.json`, `images/index.json`,
+`taxonomy.json`, and `search/index.json`.
+
+Local API development still uses `api/local.settings.json`. Azure Static Web
+Apps production settings are configured in Azure, not committed to the repo.
+
+## Hosting Notes
+
+The site is no longer deployed through GitHub Pages. `CNAME` can stay in the
+repo for now as old hosting context, but Azure Static Web Apps custom domains
+are configured on the Static Web App resource in Azure.
+
+The workflow deploy step uses:
+
+```yaml
+uses: Azure/static-web-apps-deploy@v1
+with:
+  app_location: dist
+  api_location: api
+  output_location: ''
+  skip_app_build: true
+  api_build_command: 'npm run build'
+```
+
+`skip_app_build: true` means the site build is controlled by the explicit
+`npm run build` step earlier in the workflow. The API remains source-deployed
+from `api/` and is built by the Static Web Apps action. The API package and
+`staticwebapp.config.json` both target Node 22.
 
 ## Planner Modes
 

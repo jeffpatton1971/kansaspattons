@@ -375,9 +375,12 @@ Work:
   and runs the split test suites.
 - Main pushes use commit-range publish planning and the incremental media/content
   publish path.
-- Tag pushes run a full generated-content publish and GitHub Pages deployment.
-- Publish workflow deploys `dist/` through GitHub Pages Actions.
-- Publish workflow copies `CNAME` and `404.html` into the Pages artifact.
+- Tag pushes run a full generated-content publish and Azure Static Web Apps
+  deployment.
+- Publish workflow deploys the prebuilt `dist/` app and the `api/` managed
+  Functions API through Azure Static Web Apps.
+- `public/staticwebapp.config.json` provides the SPA fallback, static headers,
+  JSON MIME type, and Node API runtime selection.
 - The publish planner supports `--base`/`--head` and
   `PUBLISH_PLAN_BASE`/`PUBLISH_PLAN_HEAD`.
 - Workflow setup is documented in [`github-actions.md`](github-actions.md).

@@ -1997,3 +1997,33 @@ Detailed working notes for the React migration live here. This file is intention
   - `npm run publish:plan -- --base HEAD --head HEAD`.
   - `npm run publish:plan`.
   - `npm run test`.
+
+### Azure Static Web Apps Hosting
+
+- Decided to host the React site on Azure Static Web Apps instead of GitHub
+  Pages.
+- Reasoning:
+  - The deployed React app can keep using same-origin `/api/...` routes.
+  - The current `api/` Azure Functions code can deploy as the Static Web Apps
+    managed API.
+  - This aligns better with the long-term multi-site API/content direction than
+    GitHub Pages plus a separately hosted API and CORS.
+- Updated `.github/workflows/publish.yml`:
+  - kept PR CI and the content publish pipeline intact.
+  - kept incremental publish for pushes to `main`.
+  - kept full rebuild publish for tags and manual dispatch.
+  - replaced GitHub Pages artifact upload/deploy with
+    `Azure/static-web-apps-deploy@v1`.
+  - deploys prebuilt `dist/` with `skip_app_build: true`.
+  - deploys `api/` as the managed Functions API with `api_build_command:
+    npm run build`.
+- Added `public/staticwebapp.config.json` for:
+  - React SPA navigation fallback.
+  - `/api/*` passthrough to managed Functions.
+  - static security headers.
+  - JSON MIME type handling.
+  - Node 22 API runtime selection.
+- Added `engines.node: 22.x` to the API package so the managed API build and
+  runtime expectations stay aligned.
+- Documented required `AZURE_STATIC_WEB_APPS_API_TOKEN` plus runtime API app
+  settings such as `CONTENT_BASE_URL`.

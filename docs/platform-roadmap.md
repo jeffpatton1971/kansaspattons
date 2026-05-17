@@ -84,9 +84,12 @@ Implemented:
 - `.github/workflows/pr-ci.yml` runs validation and tests for pull requests and
   Dependabot updates.
 - `.github/workflows/publish.yml` runs incremental publish on `main`, full
-  rebuild publish on tags, and deploys the built React site to GitHub Pages.
+  rebuild publish on tags, and deploys the built React site plus managed API to
+  Azure Static Web Apps.
 - `publish:plan` supports commit-range planning with `--base`/`--head` or
   `PUBLISH_PLAN_BASE`/`PUBLISH_PLAN_HEAD` for clean GitHub Actions checkouts.
+- `public/staticwebapp.config.json` provides the Azure Static Web Apps SPA
+  fallback and selects the Node API runtime.
 
 Next work:
 

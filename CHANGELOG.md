@@ -207,6 +207,8 @@ Published behavior changes and bug fixes for the React site migration.
 - Added `publish:cleanup-media` and `publish:cleanup-media:write` commands for separately removing verified local draft media after upload and source prep.
 - Added incremental generated-content commands that write and publish only the JSON paths affected by the current publish plan.
 - Removed the legacy `_gallery` media metadata directory and retired normal npm commands/scripts that regenerated data from it.
+- Changed the publish workflow to deploy the React build and managed API to Azure Static Web Apps instead of GitHub Pages.
+- Added Azure Static Web Apps routing configuration for SPA fallback, static headers, JSON MIME handling, and the Node API runtime.
 
 ### Fixed
 

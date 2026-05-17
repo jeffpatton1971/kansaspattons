@@ -385,9 +385,9 @@ workflow_dispatch  manual full rebuild and republish
 The pull-request rebuild protects the shared API/content contract before a merge.
 The push-to-main incremental path keeps normal authoring fast. Tag pushes are
 the release path for larger site-structure changes and rebuild all generated
-content before deploying the React site to GitHub Pages. The manual full rebuild
-remains available for migrations, dependency updates, index repairs, and large
-cleanup work.
+content before deploying the React site and managed API to Azure Static Web
+Apps. The manual full rebuild remains available for migrations, dependency
+updates, index repairs, and large cleanup work.
 
 For dependency updates and pull requests, the current combined verification
 command is:
