@@ -10,9 +10,12 @@ type ContentLocation = {
   baseUrl?: string;
   localRoot?: string;
   cacheLabel: string;
+  source: string;
 };
 
 const jsonCache = new Map<string, CacheEntry>();
+const bundledSiteKey = 'kansaspattons';
+const bundledContentBaseUrl = 'https://prdwebappstorage.blob.core.windows.net/kansaspattons/current/';
 
 export async function readContentJson<T>(relativePath: string, siteKey?: string): Promise<T> {
   const contentPath = cleanContentPath(relativePath);
@@ -97,20 +100,26 @@ function cleanContentPath(relativePath: string) {
 
 function contentLocation(siteKey: string | undefined): ContentLocation {
   if (!siteKey) {
-    const baseUrl = normalizedBaseUrl(process.env.CONTENT_BASE_URL);
+    const baseUrl =
+      normalizedBaseUrl(process.env.CONTENT_BASE_URL) ||
+      storageBaseUrl() ||
+      bundledBaseUrl();
     const localRoot = process.env.CONTENT_LOCAL_ROOT || '../public/content';
 
     return {
       baseUrl,
       localRoot,
       cacheLabel: baseUrl || localRoot,
+      source: baseUrl ? contentLocationSource(baseUrl) : 'CONTENT_LOCAL_ROOT',
     };
   }
 
   const baseUrl =
     normalizedBaseUrl(siteSpecificEnvValue('CONTENT_BASE_URL', siteKey)) ||
     normalizedBaseUrl(mappedSiteValue('CONTENT_SITE_BASE_URLS', siteKey)) ||
-    normalizedBaseUrl(templateSiteValue('CONTENT_BASE_URL_TEMPLATE', siteKey));
+    normalizedBaseUrl(templateSiteValue('CONTENT_BASE_URL_TEMPLATE', siteKey)) ||
+    storageBaseUrl(siteKey) ||
+    bundledBaseUrl(siteKey);
   const localRoot =
     siteSpecificEnvValue('CONTENT_LOCAL_ROOT', siteKey) ||
     mappedSiteValue('CONTENT_SITE_LOCAL_ROOTS', siteKey) ||
@@ -124,6 +133,30 @@ function contentLocation(siteKey: string | undefined): ContentLocation {
     baseUrl,
     localRoot,
     cacheLabel: baseUrl || localRoot || siteKey,
+    source: baseUrl ? contentLocationSource(baseUrl) : 'site local root',
+  };
+}
+
+export function contentRuntimeDiagnostics(siteKey?: string) {
+  const location = contentLocation(siteKey ? cleanSiteKey(siteKey) : undefined);
+
+  return {
+    siteKey: siteKey || null,
+    location: {
+      source: location.source,
+      baseUrl: location.baseUrl,
+      localRoot: location.baseUrl ? undefined : location.localRoot,
+    },
+    settings: {
+      hasContentBaseUrl: hasValue(process.env.CONTENT_BASE_URL),
+      hasContentStorageAccount: hasValue(process.env.CONTENT_STORAGE_ACCOUNT),
+      hasContentStorageContainer: hasValue(process.env.CONTENT_STORAGE_CONTAINER),
+      hasContentStoragePrefix: hasValue(process.env.CONTENT_STORAGE_PREFIX),
+      hasContentSiteKey: hasValue(process.env.CONTENT_SITE_KEY),
+      hasContentLocalRoot: hasValue(process.env.CONTENT_LOCAL_ROOT),
+      hasSiteBaseUrlMap: hasValue(process.env.CONTENT_SITE_BASE_URLS),
+      hasSiteBaseUrlTemplate: hasValue(process.env.CONTENT_BASE_URL_TEMPLATE),
+    },
   };
 }
 
@@ -149,6 +182,57 @@ function normalizedBaseUrl(value: string | undefined) {
   }
 
   return trimmed.endsWith('/') ? trimmed : `${trimmed}/`;
+}
+
+function storageBaseUrl(siteKey?: string) {
+  const accountName = process.env.CONTENT_STORAGE_ACCOUNT?.trim();
+  const containerName = process.env.CONTENT_STORAGE_CONTAINER?.trim();
+
+  if (!accountName || !containerName) {
+    return undefined;
+  }
+
+  const resolvedSiteKey =
+    cleanSiteKey(siteKey) ||
+    cleanSiteKey(process.env.CONTENT_SITE_KEY) ||
+    bundledSiteKey;
+  const prefix = cleanPrefix(process.env.CONTENT_STORAGE_PREFIX || `content/${resolvedSiteKey}/current`);
+
+  return normalizedBaseUrl(`https://${accountName}.blob.core.windows.net/${containerName}/${prefix}/`);
+}
+
+function bundledBaseUrl(siteKey?: string) {
+  const resolvedSiteKey = cleanSiteKey(siteKey) || cleanSiteKey(process.env.CONTENT_SITE_KEY) || bundledSiteKey;
+
+  if (resolvedSiteKey !== bundledSiteKey) {
+    return undefined;
+  }
+
+  if (process.env.CONTENT_LOCAL_ROOT?.trim()) {
+    return undefined;
+  }
+
+  return bundledContentBaseUrl;
+}
+
+function contentLocationSource(baseUrl: string) {
+  if (normalizedBaseUrl(process.env.CONTENT_BASE_URL) === baseUrl) {
+    return 'CONTENT_BASE_URL';
+  }
+
+  if (storageBaseUrl() === baseUrl) {
+    return 'CONTENT_STORAGE_*';
+  }
+
+  return 'bundled fallback';
+}
+
+function cleanPrefix(value: string) {
+  return value.replaceAll('\\', '/').replace(/^\/+|\/+$/g, '');
+}
+
+function hasValue(value: string | undefined) {
+  return Boolean(value?.trim());
 }
 
 function mappedSiteValue(envName: string, siteKey: string) {

@@ -215,6 +215,8 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed the Azure Static Web Apps deploy step to build from the repo root with `output_location: dist`, keeping `api/` in the same deployment context.
 - Added a post-deployment `/api/home` verification step so missing managed API deployments fail the workflow.
 - Clarified Static Web Apps runtime documentation so `CONTENT_BASE_URL` matches the exact generated-content Blob prefix.
+- Added `/api/health` diagnostics for deployed API content-source visibility.
+- Added a temporary KansasPattons content-root fallback while the API remains bundled with this site repo.
 
 ### Fixed
 

@@ -141,6 +141,9 @@ jobs:
 
           echo "Final /api/home response:"
           cat /tmp/swa-home.json || true
+          echo
+          echo "Final /api/health response:"
+          curl -sS "$AZURE_STATIC_WEB_APP_URL/api/health" || true
           exit 1
 
   full-tag:
@@ -222,4 +225,7 @@ jobs:
 
           echo "Final /api/home response:"
           cat /tmp/swa-home.json || true
+          echo
+          echo "Final /api/health response:"
+          curl -sS "$AZURE_STATIC_WEB_APP_URL/api/health" || true
           exit 1

@@ -578,6 +578,11 @@ content root that contains `home.json`, `site.json`, `posts/index.json`,
 `stories/index.json`, `galleries/index.json`, `images/index.json`,
 `taxonomy.json`, and `search/index.json`.
 
+The API also exposes `GET /api/health` as a non-secret runtime diagnostic. It
+reports whether the deployed Function sees `CONTENT_BASE_URL`, derives the
+content root from `CONTENT_STORAGE_*`, or is using the bundled KansasPattons
+fallback while the API still lives in this repo.
+
 Portal setup:
 
 ```text

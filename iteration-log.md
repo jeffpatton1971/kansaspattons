@@ -2096,3 +2096,8 @@ Detailed working notes for the React migration live here. This file is intention
   `https://prdwebappstorage.blob.core.windows.net/kansaspattons/current/` and
   documented that the Static Web Apps runtime setting must use the matching
   `CONTENT_BASE_URL`.
+- Added a defensive API content-root fallback so the same-repo SWA API can read
+  the current KansasPattons generated content even if SWA runtime settings do
+  not flow through as expected.
+- Added `/api/health` and `/api/sites/{site}/health` diagnostics to show which
+  content source the deployed API is using without exposing secrets.

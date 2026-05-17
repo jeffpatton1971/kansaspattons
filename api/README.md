@@ -212,7 +212,9 @@ http://127.0.0.1:5174/
 ## Endpoints
 
 - `GET /api/home`
+- `GET /api/health`
 - `GET /api/sites/{site}/home`
+- `GET /api/sites/{site}/health`
 - `GET /api/sites/{site}/entries?year=2026&cursor=0&limit=24`
 - `GET /api/posts?year=2013&month=08&day=10&cursor=0&limit=24`
 - `GET /api/posts?source=wordpress&cursor=0&limit=24`
@@ -242,7 +244,9 @@ The list endpoints return archive calendar data, filters, and paged items. Post,
 
 1. Build JSON from Markdown and gallery records.
 2. Upload generated JSON artifacts to a storage account container/prefix.
-3. Point the Function app at that prefix with `CONTENT_BASE_URL`.
+3. Point the Function app at that prefix with `CONTENT_BASE_URL`, or configure
+   `CONTENT_STORAGE_ACCOUNT`, `CONTENT_STORAGE_CONTAINER`, and
+   `CONTENT_STORAGE_PREFIX` so the API can derive it.
 4. React consumes the Function app endpoints instead of loading large generated indexes directly.
 
 ### Publish JSON To Azure Storage
@@ -313,3 +317,7 @@ CONTENT_BASE_URL=https://prdwebappstorage.blob.core.windows.net/kansaspattons/cu
 ```
 
 For the current HTTP reader, this URL must be readable by the Function app. That can mean public blob access for this content prefix or a future private-storage reader that uses Azure credentials.
+
+`/api/health` reports which content source the deployed API is using. It does
+not expose secrets, but it does show whether `CONTENT_BASE_URL` was visible to
+the runtime or whether the API derived/fell back to another content root.
