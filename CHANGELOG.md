@@ -85,6 +85,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Added golden content example documentation naming reference post, story, and gallery files for future schema and rendering changes.
 - Added `npm run publish:plan` to dry-run changed Markdown, local media references, affected generated JSON, affected indexes, planned media uploads, and Markdown rewrites without publishing.
 - Added media-manifest planning to `npm run publish:plan`, including SHA-256 hashing, byte sizes, canonical blob paths, manifest collision checks, and planned manifest asset output for local draft media.
+- Added `npm run publish:prepare` to apply issue-free source-side publish plans by rewriting local draft media references and appending media manifest assets without uploading or deleting files.
 
 ### Changed
 

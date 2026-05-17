@@ -7,6 +7,7 @@ import { promisify } from 'node:util';
 import matter from 'gray-matter';
 import {
   readMediaManifest,
+  writeMediaManifest,
   type MediaAsset,
   type MediaKind,
   type MediaManifest,
@@ -65,12 +66,19 @@ type Issue = {
   message: string;
 };
 
+type PublishWriteResult = {
+  markdownFilesChanged: string[];
+  manifestAssetsAdded: string[];
+  mediaFilesRemoved: string[];
+};
+
 const execFileAsync = promisify(execFile);
 const root = process.cwd();
 const sourceMediaManifestPath = path.join(root, 'content', 'media', 'index.json');
 const reportPath = path.join(root, '.tmp', 'publish-plan-report.json');
 const canonicalMediaKey = /^\d{4}\/\d{2}\/\d{2}\/[^/]+\.[A-Za-z0-9]+$/;
 const externalReference = /^[a-z][a-z0-9+.-]*:/i;
+const writeSource = process.argv.includes('--write-source');
 
 async function main() {
   const mediaManifest = await readMediaManifest(sourceMediaManifestPath);
@@ -118,6 +126,7 @@ async function main() {
 
   const report = {
     generatedAt: new Date().toISOString(),
+    mode: writeSource ? 'write-source' : 'plan',
     mediaManifest: {
       path: path.relative(root, sourceMediaManifestPath).replaceAll(path.sep, '/'),
       assets: mediaManifest.assets.length,
@@ -136,7 +145,12 @@ async function main() {
       to: upload.canonicalKey,
     })),
     issues,
+    writeResult: undefined as PublishWriteResult | undefined,
   };
+
+  if (writeSource && issues.length === 0) {
+    report.writeResult = await writeSourceChanges(markdownPlans, plannedManifestAssets, mediaManifest);
+  }
 
   await fs.mkdir(path.dirname(reportPath), { recursive: true });
   await fs.writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`, 'utf8');
@@ -500,6 +514,68 @@ function manifestAssets(markdownPlans: MarkdownPlan[], mediaManifest: MediaManif
   return [...assets.values()].sort((a, b) => a.id.localeCompare(b.id));
 }
 
+async function writeSourceChanges(
+  markdownPlans: MarkdownPlan[],
+  plannedManifestAssets: MediaAsset[],
+  mediaManifest: MediaManifest,
+): Promise<PublishWriteResult> {
+  const markdownFilesChanged: string[] = [];
+
+  for (const plan of markdownPlans) {
+    const rewrites = plan.mediaReferences.filter(
+      (reference) =>
+        !isCanonicalReference(reference.reference) &&
+        (reference.manifestAction === 'add' || reference.manifestAction === 'reuse-existing'),
+    );
+
+    if (rewrites.length === 0) {
+      continue;
+    }
+
+    const fullPath = path.join(root, plan.file);
+    const current = await fs.readFile(fullPath, 'utf8');
+    let next = current;
+
+    for (const rewrite of rewrites) {
+      next = replaceAllLiteral(next, rewrite.reference, rewrite.canonicalKey);
+    }
+
+    if (next !== current) {
+      await fs.writeFile(fullPath, next, 'utf8');
+      markdownFilesChanged.push(plan.file);
+    }
+  }
+
+  const manifestAssetsAdded: string[] = [];
+
+  if (plannedManifestAssets.length > 0) {
+    const assetsById = new Map(mediaManifest.assets.map((asset) => [asset.id, asset]));
+
+    for (const asset of plannedManifestAssets) {
+      if (!assetsById.has(asset.id)) {
+        assetsById.set(asset.id, asset);
+        manifestAssetsAdded.push(asset.id);
+      }
+    }
+
+    await writeMediaManifest(sourceMediaManifestPath, {
+      ...mediaManifest,
+      generatedAt: new Date().toISOString(),
+      assets: [...assetsById.values()].sort((a, b) => b.date.localeCompare(a.date) || a.id.localeCompare(b.id)),
+    });
+  }
+
+  return {
+    markdownFilesChanged,
+    manifestAssetsAdded,
+    mediaFilesRemoved: [],
+  };
+}
+
+function replaceAllLiteral(value: string, search: string, replacement: string) {
+  return value.split(search).join(replacement);
+}
+
 function partsFromCanonicalKey(value: string): DateParts | undefined {
   const match = /^(\d{4})\/(\d{2})\/(\d{2})\//.exec(value);
 
@@ -669,6 +745,7 @@ function fileExists(file: string) {
 }
 
 function printReport(report: {
+  mode: string;
   changedFiles: ChangedFile[];
   changedMarkdown: string[];
   changedLocalMedia: string[];
@@ -684,8 +761,10 @@ function printReport(report: {
   plannedManifestAssets: MediaAsset[];
   markdownRewrites: Array<{ file: string; from: string; to: string }>;
   issues: Issue[];
+  writeResult?: PublishWriteResult;
 }) {
   console.log('Publish plan');
+  console.log(`Mode: ${report.mode}`);
   console.log(`Changed files: ${report.changedFiles.length}`);
   console.log(`Changed content Markdown: ${report.changedMarkdown.length}`);
   console.log(`Changed local media files: ${report.changedLocalMedia.length}`);
@@ -695,6 +774,11 @@ function printReport(report: {
   console.log(`Planned manifest assets: ${report.plannedManifestAssets.length}`);
   console.log(`Markdown rewrites: ${report.markdownRewrites.length}`);
   console.log(`Issues: ${report.issues.length}`);
+  if (report.writeResult) {
+    console.log(`Markdown files changed: ${report.writeResult.markdownFilesChanged.length}`);
+    console.log(`Manifest assets added: ${report.writeResult.manifestAssetsAdded.length}`);
+    console.log(`Media files removed: ${report.writeResult.mediaFilesRemoved.length}`);
+  }
   console.log(`Report: ${path.relative(root, reportPath)}`);
 
   printList('Changed content Markdown', report.changedMarkdown);
@@ -706,6 +790,11 @@ function printReport(report: {
     report.plannedMediaUploads.map((upload) => `${upload.reference} -> ${upload.canonicalKey} (${upload.manifestAction})`),
   );
   printList('Planned manifest assets', report.plannedManifestAssets.map((asset) => asset.id));
+
+  if (report.writeResult) {
+    printList('Written Markdown files', report.writeResult.markdownFilesChanged);
+    printList('Written manifest assets', report.writeResult.manifestAssetsAdded);
+  }
 
   if (report.issues.length > 0) {
     printList(

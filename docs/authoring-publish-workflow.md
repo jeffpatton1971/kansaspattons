@@ -270,11 +270,25 @@ The planner is intentionally one step earlier than the generated-content publish
 dry run:
 
 ```powershell
+npm run publish:prepare
+```
+
+`publish:prepare` runs the same checks as `publish:plan`, but when there are no
+planning issues it rewrites local draft media references in changed Markdown to
+canonical media keys and appends planned assets to `content/media/index.json`.
+It does not remove local media files, generate thumbnails, upload blobs, or
+publish generated JSON.
+
+The generated-content publish dry run remains:
+
+```powershell
 npm run publish:content:dry-run
 ```
 
 Use `publish:plan` to reason about authoring/source changes. Use
-`publish:content:dry-run` to reason about generated JSON artifact upload.
+`publish:prepare` to apply source-side canonical media rewrites and manifest
+additions. Use `publish:content:dry-run` to reason about generated JSON artifact
+upload.
 
 ## GitHub Action Triggers
 

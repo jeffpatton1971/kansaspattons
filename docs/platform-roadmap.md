@@ -49,7 +49,7 @@ Next work:
 
 ## 2. Publish Pipeline
 
-Status: workflow documented with initial dry-run planning.
+Status: workflow documented with dry-run planning and source-prep writing.
 
 Target flow:
 
@@ -59,10 +59,9 @@ Target flow:
 
 Next work:
 
-- Promote the dry-run publish plan into a write/upload implementation.
+- Add Azure media upload execution for prepared raw assets.
+- Add thumbnail and video poster generation.
 - Upload raw media and generated thumbnails to canonical Azure paths.
-- Rewrite Markdown local media filenames to canonical `yyyy/mm/dd/filename.ext`
-  keys.
 - Generate JSON only for changed content plus affected indexes.
 - Keep a manual full rebuild path for migrations and repair work.
 

@@ -1751,3 +1751,25 @@ Detailed working notes for the React migration live here. This file is intention
   - `npm run publish:plan`
   - `npm run build:content`
   - `npx tsc -p tsconfig.node.json`
+
+### Publish Source Prep
+
+- Added `npm run publish:prepare`.
+- `publish:prepare` runs `scripts/plan-publish.ts --write-source`.
+- When the plan has no issues, it can:
+  - rewrite local draft media references in changed Markdown to canonical
+    `yyyy/mm/dd/filename.ext` keys.
+  - append planned media assets to `content/media/index.json`.
+- It intentionally does not:
+  - upload blobs.
+  - generate thumbnails or video posters.
+  - remove local draft media files.
+  - publish generated JSON.
+- Current no-op verification reported:
+  - `0` changed content Markdown files.
+  - `0` Markdown files changed.
+  - `0` manifest assets added.
+- Verification:
+  - `npm run publish:plan`
+  - `npm run publish:prepare`
+  - `npx tsc -p tsconfig.node.json`

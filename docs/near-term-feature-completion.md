@@ -281,6 +281,15 @@ The existing generated-content dry run remains:
 npm run publish:content:dry-run
 ```
 
+The source-prep write step is:
+
+```powershell
+npm run publish:prepare
+```
+
+It applies planned Markdown rewrites and media manifest additions only when the
+publish plan has no issues.
+
 ## Working Rule
 
 When an item above is implemented, update this document from planned work to

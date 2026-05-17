@@ -129,6 +129,16 @@ references, computes SHA-256 hashes and byte sizes, detects canonical key
 collisions against `content/media/index.json`, and reports the media manifest
 assets that would be added.
 
+The current source-prep command is:
+
+```powershell
+npm run publish:prepare
+```
+
+It applies the planned Markdown rewrites and appends planned media assets to
+`content/media/index.json` when the plan has no issues. It intentionally does
+not upload blobs, generate thumbnails, or remove local draft media yet.
+
 For existing content:
 
 1. Generate the first source media manifest from `_gallery`.
