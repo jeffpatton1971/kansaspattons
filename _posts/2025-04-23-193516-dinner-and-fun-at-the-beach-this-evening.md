@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Dinner and fun at the beach this evening"
+content_type: story
+slug: 193516-dinner-and-fun-at-the-beach-this-evening
 post_id: 2025-04-23-193516-dinner-and-fun-at-the-beach-this-evening
 date: 2025-04-23 19:35:16
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Dinner and fun at the beach this evening"
   media_count: 4
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2025/04/23/17851542108393183.jpg"
+related:
+  - type: gallery
+    id: instagram-2025-04-23-193516-dinner-and-fun-at-the-beach-this-evening
+    rel: photos
 handles: []
 location:
-gallery: "instagram-2025-04-23-193516-dinner-and-fun-at-the-beach-this-evening"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Dinner and fun at the beach this evening"
 ---
-
 Dinner and fun at the beach this evening
-
-{% include gallery.html gallery="instagram-2025-04-23-193516-dinner-and-fun-at-the-beach-this-evening" %}
-

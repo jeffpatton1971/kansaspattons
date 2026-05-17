@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Natalie won both her sets 8-3 and 8-1!"
+content_type: story
+slug: 165914-natalie-won-both-her-sets-8-3-and-8-1
 post_id: 2018-10-01-165914-natalie-won-both-her-sets-8-3-and-8-1
 date: 2018-10-01 16:59:14
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,16 @@ source:
   caption: "Natalie won both her sets 8-3 and 8-1!"
   media_count: 4
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2018/10/01/17985107917012124.jpg"
+related:
+  - type: gallery
+    id: instagram-2018-10-01-165914-natalie-won-both-her-sets-8-3-and-8-1
+    rel: photos
 handles: []
-location:
-gallery: "instagram-2018-10-01-165914-natalie-won-both-her-sets-8-3-and-8-1"
-tags:
-  - "instagram"
-categories:
-  - "Natalie"
+authors:
+  - "Jeff Patton"
+people:
+  - Natalie
+summary: "Natalie won both her sets 8-3 and 8-1!"
 ---
-
 Natalie won both her sets 8-3 and 8-1!
-
-{% include gallery.html gallery="instagram-2018-10-01-165914-natalie-won-both-her-sets-8-3-and-8-1" %}
-

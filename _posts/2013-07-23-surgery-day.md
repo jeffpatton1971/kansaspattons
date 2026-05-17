@@ -1,20 +1,29 @@
 ---
 layout: single
 title: "Surgery Day"
+content_type: post
+slug: surgery-day
 post_id: 2013-07-23-surgery-day
 date: 2013-07-23 13:00:00
 published: true
+status: published
 comments: false
 source:
   type: wordpress
   id: 1127
   url: "https://jeffspatton.wordpress.com/2013/07/23/july-23-2013/"
-gallery: "wordpress-2013-07-23-130000-july-23-2013"
+cover_image: "2013/07/23/wp_20130723_001.jpg"
+related:
+  - type: gallery
+    id: wordpress-2013-07-23-130000-july-23-2013
+    rel: photos
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+authors:
+  - "Jeff Patton"
+people:
+  - Nathan
+summary: "Today is the day, we got moving very early this morning, he cried a little for milk when Malia woke him up, but she was able to calm him down. He got his last food/drink at about 11p the night before. We arrived at KU Med at 9a and they had"
 ---
 Today is the day, we got moving very early this morning, he cried a little for milk when Malia woke him up, but she was able to calm him down. He got his last food/drink at about 11p the night before. We arrived at KU Med at 9a and they had us back in pre-op pretty much as soon as we arrived on the second floor. His surgery was supposed to be at noon, but Dr. Schmitt (who performed the surgery) had a cancellation so Nathan got bumped up.
 
@@ -31,5 +40,3 @@ He told us that Nathan had done very well throughout the entire surgery and whil
 They brought us up to the PICU about an hour later to see Nathan. They needed that hour to make sure he was stabilized and to clean him up. It was pretty rough seeing him all hooked up to everything like he was. He is such an active little boy and seeing him laying there with tubes and wires all over was rough.
 
 This next picture is Nathan in his bed, it’s not graphic or anything but I wanted to warn you.
-
-{% include gallery.html gallery="wordpress-2013-07-23-130000-july-23-2013" %}

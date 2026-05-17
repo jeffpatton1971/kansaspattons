@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "hope everyone had a fun and safe fourth"
+content_type: story
+slug: 220348-hope-everyone-had-a-fun-and-safe-fourth
 post_id: 2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth
 date: 2023-07-04 22:03:48
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "hope everyone had a fun and safe fourth"
   media_count: 6
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2023/07/04/18290373913112066.jpg"
+related:
+  - type: gallery
+    id: instagram-2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth
+    rel: photos
 handles: []
 location:
-gallery: "instagram-2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "hope everyone had a fun and safe fourth"
 ---
-
 hope everyone had a fun and safe fourth
-
-{% include gallery.html gallery="instagram-2023-07-04-220348-hope-everyone-had-a-fun-and-safe-fourth" %}
-

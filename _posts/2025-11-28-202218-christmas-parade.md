@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Christmas parade"
+content_type: story
+slug: 202218-christmas-parade
 post_id: 2025-11-28-202218-christmas-parade
 date: 2025-11-28 20:22:18
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,17 @@ source:
   caption: "Christmas parade"
   media_count: 9
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2025/11/28/18077920052188326.jpg"
+related:
+  - type: gallery
+    id: instagram-2025-11-28-202218-christmas-parade
+    rel: photos
 handles: []
 location:
-gallery: "instagram-2025-11-28-202218-christmas-parade"
-tags:
-  - "instagram"
 categories:
   - "Christmas"
+authors:
+  - "Jeff Patton"
+summary: "Christmas parade"
 ---
-
 Christmas parade
-
-{% include gallery.html gallery="instagram-2025-11-28-202218-christmas-parade" %}
-

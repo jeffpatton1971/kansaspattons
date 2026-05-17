@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "View this morning"
+content_type: story
+slug: 071847-view-this-morning
 post_id: 2024-04-30-071847-view-this-morning
 date: 2024-04-30 07:18:47
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "View this morning"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2024/04/30/17917951085813517.jpg"
+images:
+  - id: "2024/04/30/17917951085813517.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2024-04-30-071847-view-this-morning"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "View this morning"
 ---
-
 View this morning
-
-{% include gallery.html gallery="instagram-2024-04-30-071847-view-this-morning" %}
-

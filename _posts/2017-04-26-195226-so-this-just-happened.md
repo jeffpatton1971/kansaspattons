@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "So... This just happened"
+content_type: story
+slug: 195226-so-this-just-happened
 post_id: 2017-04-26-195226-so-this-just-happened
 date: 2017-04-26 19:52:26
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "So... This just happened"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2017/04/26/17879095843035450.jpg"
+images:
+  - id: "2017/04/26/17879095843035450.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2017-04-26-195226-so-this-just-happened"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "So... This just happened"
 ---
-
 So... This just happened
-
-{% include gallery.html gallery="instagram-2017-04-26-195226-so-this-just-happened" %}
-

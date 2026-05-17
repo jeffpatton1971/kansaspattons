@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "My next shipment from @cometeer arrived…who needs to eat when you can have amazing coffee!"
+content_type: story
+slug: 191027-my-next-shipment-from-cometeer-arrived-who-needs-to-eat-when-you-can-have
 post_id: 2025-03-22-191027-my-next-shipment-from-cometeer-arrived-who-needs-to-eat-when-you-can-have
 date: 2025-03-22 19:10:27
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,16 @@ source:
   caption: "My next shipment from @cometeer arrived…who needs to eat when you can have amazing coffee!"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2025/03/22/17883924903144975.jpg"
+images:
+  - id: "2025/03/22/17883924903144975.jpg"
+    caption:
+    alt:
 handles:
   - "cometeer"
 location:
-gallery: "instagram-2025-03-22-191027-my-next-shipment-from-cometeer-arrived-who-needs-to-eat-when-you-can-have"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "My next shipment from @cometeer arrived…who needs to eat when you can have amazing coffee!"
 ---
-
 My next shipment from [@cometeer](https://www.instagram.com/cometeer/) arrived…who needs to eat when you can have amazing coffee!
-
-{% include gallery.html gallery="instagram-2025-03-22-191027-my-next-shipment-from-cometeer-arrived-who-needs-to-eat-when-you-can-have" %}
-

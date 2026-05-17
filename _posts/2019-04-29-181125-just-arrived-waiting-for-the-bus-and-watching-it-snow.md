@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Just arrived...waiting for the bus and watching it snow"
+content_type: story
+slug: 181125-just-arrived-waiting-for-the-bus-and-watching-it-snow
 post_id: 2019-04-29-181125-just-arrived-waiting-for-the-bus-and-watching-it-snow
 date: 2019-04-29 18:11:25
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Just arrived...waiting for the bus and watching it snow"
   media_count: 4
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2019/04/29/18055727332068777.jpg"
+related:
+  - type: gallery
+    id: instagram-2019-04-29-181125-just-arrived-waiting-for-the-bus-and-watching-it-snow
+    rel: photos
 handles: []
 location:
-gallery: "instagram-2019-04-29-181125-just-arrived-waiting-for-the-bus-and-watching-it-snow"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Just arrived...waiting for the bus and watching it snow"
 ---
-
 Just arrived...waiting for the bus and watching it snow
-
-{% include gallery.html gallery="instagram-2019-04-29-181125-just-arrived-waiting-for-the-bus-and-watching-it-snow" %}
-

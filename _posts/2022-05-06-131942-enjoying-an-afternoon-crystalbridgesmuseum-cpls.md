@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Enjoying an afternoon @crystalbridgesmuseum #cpls"
+content_type: story
+slug: 131942-enjoying-an-afternoon-crystalbridgesmuseum-cpls
 post_id: 2022-05-06-131942-enjoying-an-afternoon-crystalbridgesmuseum-cpls
 date: 2022-05-06 13:19:42
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,20 +15,19 @@ source:
   caption: "Enjoying an afternoon @crystalbridgesmuseum #cpls"
   media_count: 6
   cross_post_source: "FB"
+cover_image: "2022/05/06/18229237762117414.jpg"
+related:
+  - type: gallery
+    id: instagram-2022-05-06-131942-enjoying-an-afternoon-crystalbridgesmuseum-cpls
+    rel: photos
 hashtags:
   - "cpls"
 handles:
   - "crystalbridgesmuseum"
-location:
-gallery: "instagram-2022-05-06-131942-enjoying-an-afternoon-crystalbridgesmuseum-cpls"
-tags:
-  - "cpls"
-  - "instagram"
-categories:
-  - "CPLS"
+authors:
+  - "Jeff Patton"
+summary: "Enjoying an afternoon @crystalbridgesmuseum #cpls"
+locations:
+  - "Cair Paravel"
 ---
-
 Enjoying an afternoon [@crystalbridgesmuseum](https://www.instagram.com/crystalbridgesmuseum/) [#cpls](https://www.instagram.com/explore/tags/cpls/)
-
-{% include gallery.html gallery="instagram-2022-05-06-131942-enjoying-an-afternoon-crystalbridgesmuseum-cpls" %}
-

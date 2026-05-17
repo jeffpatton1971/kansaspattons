@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Had a great time with Nathan in Colonial Williamsburg today rounded off with a pirate tria..."
+content_type: story
+slug: 211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a
 post_id: 2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a
 date: 2025-04-24 21:18:10
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,16 @@ source:
   caption: "Had a great time with Nathan in Colonial Williamsburg today rounded off with a pirate trial!"
   media_count: 13
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2025/04/24/18073953901858176.jpg"
+related:
+  - type: gallery
+    id: instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a
+    rel: photos
 handles: []
-location:
-gallery: "instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a"
-tags:
-  - "instagram"
-categories:
-  - "Nathan"
+authors:
+  - "Jeff Patton"
+people:
+  - Nathan
+summary: "Had a great time with Nathan in Colonial Williamsburg today rounded off with a pirate trial!"
 ---
-
 Had a great time with Nathan in Colonial Williamsburg today rounded off with a pirate trial!
-
-{% include gallery.html gallery="instagram-2025-04-24-211810-had-a-great-time-with-nathan-in-colonial-williamsburg-today-rounded-off-with-a" %}
-

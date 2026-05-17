@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Baseball players"
+content_type: story
+slug: 200208-baseball-players
 post_id: 2015-05-26-200208-baseball-players
 date: 2015-05-26 20:02:08
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Baseball players"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2015/05/26/17843570524063547.jpg"
+images:
+  - id: "2015/05/26/17843570524063547.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2015-05-26-200208-baseball-players"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Baseball players"
 ---
-
 Baseball players
-
-{% include gallery.html gallery="instagram-2015-05-26-200208-baseball-players" %}
-

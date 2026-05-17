@@ -1,22 +1,31 @@
 ---
 layout: single
 title: "Tennis Tournament"
+content_type: post
+slug: tennis-tournament
 post_id: 2013-06-22-tennis-tournament
 date: 2013-06-22 07:47:04
 published: true
+status: published
 comments: false
 source:
   type: wordpress
   id: 717
   url: "https://jeffspatton.wordpress.com/2013/06/22/june-22-2013/"
-gallery: "wordpress-2013-06-22-074704-june-22-2013"
+cover_image: "2013/06/22/wp_20130622_004.jpg"
+related:
+  - type: gallery
+    id: wordpress-2013-06-22-074704-june-22-2013
+    rel: photos
 categories:
-  - "family"
-  - "Natalie"
-  - "Nathan"
-  - tennis
-tags:
-  - "wordpress"
+  - Family
+  - Tennis
+authors:
+  - "Jeff Patton"
+people:
+  - Natalie
+  - Nathan
+summary: "Today was a very busy day for the family. In the morning we had “Tykes on Bikes” which is an annual fundraiser for the Topeka Learning Center (I think). This is the second time we’ve gone and we had a lot of fun. They have some carnival gam"
 ---
 Today was a very busy day for the family. In the morning we had “Tykes on Bikes” which is an annual fundraiser for the Topeka Learning Center (I think). This is the second time we’ve gone and we had a lot of fun. They have some carnival games, those inflatable fun house things, a local bike shop is on site to give the kids bikes a tune-up and then a bike race. The race is broken down into age groups, Nathan has another year before he’ll be old enough to start. Natalie did pretty well she made it through the 9-10 yr old heats and came in 3rd.
 
@@ -29,5 +38,3 @@ In the afternoon Natalie had a tennis tournament at Wood Valley. They played for
 Finally we took Natalie swimming, she has been begging to go and it was really nice out. I can’t say that the water was warm, but you did eventually get used to it!
 
 {% include youtubePlayer.html id="ZZqnDFOPxFk" %}
-
-{% include gallery.html gallery="wordpress-2013-06-22-074704-june-22-2013" %}

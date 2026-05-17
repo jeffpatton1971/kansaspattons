@@ -1,19 +1,24 @@
 ---
 layout: single
 title: "Hospital Visit"
+content_type: post
+slug: hospital-visit
 post_id: 2013-03-31-hospital-visit
 date: 2013-03-31 09:32:55
 published: true
+status: published
 comments: false
 source:
   type: wordpress
   id: 14
   url: "https://jeffspatton.wordpress.com/2013/03/31/march-31-2013/"
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+authors:
+  - "Jeff Patton"
+people:
+  - Nathan
+summary: "We checked Nathan into the hospital and he goes in for a biopsy of his liver and to have a port put in his chest so they can more easily administer his chemo medicine. The biopsy will tell us exactly what type of cell started the tumor and "
 ---
 We checked Nathan into the hospital and he goes in for a biopsy of his liver and to have a port put in his chest so they can more easily administer his chemo medicine. The biopsy will tell us exactly what type of cell started the tumor and our hope is that it’s just liver cells gone crazy. This will also tell us exactly what type of medicine we need to use to shrink it down for surgery. Nathan will have two rounds of chemo that will last 6 weeks, after that time he will be re-evaluated to see how large the tumor is, and if it has shrunk enough he will go in for surgery.
 

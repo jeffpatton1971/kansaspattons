@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#morningwalk #psexpress"
+content_type: story
+slug: 070801-morningwalk-psexpress
 post_id: 2021-10-07-070801-morningwalk-psexpress
 date: 2021-10-07 07:08:01
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,20 +15,18 @@ source:
   caption: "#morningwalk #psexpress"
   media_count: 1
   cross_post_source: "FB"
+cover_image: "2021/10/07/17917563187976181.jpg"
+images:
+  - id: "2021/10/07/17917563187976181.jpg"
+    caption:
+    alt:
 hashtags:
   - "morningwalk"
   - "psexpress"
 handles: []
 location:
-gallery: "instagram-2021-10-07-070801-morningwalk-psexpress"
-tags:
-  - "morningwalk"
-  - "psexpress"
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "#morningwalk #psexpress"
 ---
-
 [#morningwalk](https://www.instagram.com/explore/tags/morningwalk/) [#psexpress](https://www.instagram.com/explore/tags/psexpress/)
-
-{% include gallery.html gallery="instagram-2021-10-07-070801-morningwalk-psexpress" %}
-

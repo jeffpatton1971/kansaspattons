@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Feels like Fall today"
+content_type: story
+slug: 074217-feels-like-fall-today
 post_id: 2020-11-11-074217-feels-like-fall-today
 date: 2020-11-11 07:42:17
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,17 @@ source:
   caption: "Feels like Fall today"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2020/11/11/17887868689768040.jpg"
+images:
+  - id: "2020/11/11/17887868689768040.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2020-11-11-074217-feels-like-fall-today"
-tags:
-  - "instagram"
 categories:
-  - "fall"
+  - Fall
+authors:
+  - "Jeff Patton"
+summary: "Feels like Fall today"
 ---
-
 Feels like Fall today
-
-{% include gallery.html gallery="instagram-2020-11-11-074217-feels-like-fall-today" %}
-

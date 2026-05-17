@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Better late than never 💛🖤"
+content_type: story
+slug: 194804-better-late-than-never
 post_id: 2026-04-16-194804-better-late-than-never
 date: 2026-04-16 19:48:04
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,18 @@ source:
   caption: "Better late than never 💛🖤"
   media_count: 2
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2026/04/16/18125308324595834.jpg"
+images:
+  - id: "2026/04/16/18125308324595834.jpg"
+    caption:
+    alt:
+  - id: "2026/04/16/18109431079856917.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2026-04-16-194804-better-late-than-never"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - Jeff Patton
+summary: "Better late than never 💛🖤"
 ---
-
 Better late than never 💛🖤
-
-{% include gallery.html gallery="instagram-2026-04-16-194804-better-late-than-never" %}
-

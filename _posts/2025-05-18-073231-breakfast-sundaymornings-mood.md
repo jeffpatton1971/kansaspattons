@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#breakfast #sundaymornings #mood"
+content_type: story
+slug: 073231-breakfast-sundaymornings-mood
 post_id: 2025-05-18-073231-breakfast-sundaymornings-mood
 date: 2025-05-18 07:32:31
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,22 +15,19 @@ source:
   caption: "#breakfast #sundaymornings #mood"
   media_count: 1
   cross_post_source: "FB"
+cover_image: "2025/05/18/17981139146825343.jpg"
+images:
+  - id: "2025/05/18/17981139146825343.jpg"
+    caption:
+    alt:
 hashtags:
-  - "breakfast"
-  - "sundaymornings"
-  - "mood"
+  - breakfast
+  - mood
+  - sundaymornings
 handles: []
 location:
-gallery: "instagram-2025-05-18-073231-breakfast-sundaymornings-mood"
-tags:
-  - "breakfast"
-  - "sundaymornings"
-  - "mood"
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "#breakfast #sundaymornings #mood"
 ---
-
 [#breakfast](https://www.instagram.com/explore/tags/breakfast/) [#sundaymornings](https://www.instagram.com/explore/tags/sundaymornings/) [#mood](https://www.instagram.com/explore/tags/mood/)
-
-{% include gallery.html gallery="instagram-2025-05-18-073231-breakfast-sundaymornings-mood" %}
-

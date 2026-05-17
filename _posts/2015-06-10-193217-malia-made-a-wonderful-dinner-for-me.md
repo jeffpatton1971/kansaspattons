@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Malia made a wonderful dinner for me!"
+content_type: story
+slug: 193217-malia-made-a-wonderful-dinner-for-me
 post_id: 2015-06-10-193217-malia-made-a-wonderful-dinner-for-me
 date: 2015-06-10 19:32:17
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Malia made a wonderful dinner for me!"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2015/06/10/17841744571063547.jpg"
+images:
+  - id: "2015/06/10/17841744571063547.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2015-06-10-193217-malia-made-a-wonderful-dinner-for-me"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Malia made a wonderful dinner for me!"
 ---
-
 Malia made a wonderful dinner for me!
-
-{% include gallery.html gallery="instagram-2015-06-10-193217-malia-made-a-wonderful-dinner-for-me" %}
-

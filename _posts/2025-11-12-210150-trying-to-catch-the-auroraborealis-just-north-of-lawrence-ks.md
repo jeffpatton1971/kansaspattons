@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Trying to catch the #auroraborealis just North of Lawrence, KS"
+content_type: story
+slug: 210150-trying-to-catch-the-auroraborealis-just-north-of-lawrence-ks
 post_id: 2025-11-12-210150-trying-to-catch-the-auroraborealis-just-north-of-lawrence-ks
 date: 2025-11-12 21:01:50
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,18 +15,23 @@ source:
   caption: "Trying to catch the #auroraborealis just North of Lawrence, KS"
   media_count: 3
   cross_post_source: "FB"
+cover_image: "2025/11/12/17864344848434166.jpg"
+images:
+  - id: "2025/11/12/17864344848434166.jpg"
+    caption:
+    alt:
+  - id: "2025/11/12/17872360860378453.jpg"
+    caption:
+    alt:
+  - id: "2025/11/12/18069553778345139.jpg"
+    caption:
+    alt:
 hashtags:
   - "auroraborealis"
 handles: []
 location:
-gallery: "instagram-2025-11-12-210150-trying-to-catch-the-auroraborealis-just-north-of-lawrence-ks"
-tags:
-  - "auroraborealis"
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Trying to catch the #auroraborealis just North of Lawrence, KS"
 ---
-
 Trying to catch the [#auroraborealis](https://www.instagram.com/explore/tags/auroraborealis/) just North of Lawrence, KS
-
-{% include gallery.html gallery="instagram-2025-11-12-210150-trying-to-catch-the-auroraborealis-just-north-of-lawrence-ks" %}
-

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Christmas concert with some brass! #trumpetplayer #nomicneeded"
+content_type: story
+slug: 185301-christmas-concert-with-some-brass-trumpetplayer-nomicneeded
 post_id: 2019-12-17-185301-christmas-concert-with-some-brass-trumpetplayer-nomicneeded
 date: 2019-12-17 18:53:01
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,21 +15,20 @@ source:
   caption: "Christmas concert with some brass! #trumpetplayer #nomicneeded"
   media_count: 1
   cross_post_source: "FB"
+cover_image: "2019/12/17/18097133308098724.jpg"
+images:
+  - id: "2019/12/17/18097133308098724.jpg"
+    caption:
+    alt:
 hashtags:
-  - "trumpetplayer"
-  - "nomicneeded"
+  - nomicneeded
+  - trumpetplayer
 handles: []
 location:
-gallery: "instagram-2019-12-17-185301-christmas-concert-with-some-brass-trumpetplayer-nomicneeded"
-tags:
-  - "trumpetplayer"
-  - "nomicneeded"
-  - "instagram"
 categories:
   - "Christmas"
+authors:
+  - "Jeff Patton"
+summary: "Christmas concert with some brass! #trumpetplayer #nomicneeded"
 ---
-
 Christmas concert with some brass! [#trumpetplayer](https://www.instagram.com/explore/tags/trumpetplayer/) [#nomicneeded](https://www.instagram.com/explore/tags/nomicneeded/)
-
-{% include gallery.html gallery="instagram-2019-12-17-185301-christmas-concert-with-some-brass-trumpetplayer-nomicneeded" %}
-

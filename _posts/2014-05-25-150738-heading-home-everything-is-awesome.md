@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Heading home...\"Everything is awesome!\""
+content_type: story
+slug: 150738-heading-home-everything-is-awesome
 post_id: 2014-05-25-150738-heading-home-everything-is-awesome
 date: 2014-05-25 15:07:38
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Heading home...\"Everything is awesome!\""
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2014/05/25/17842502437063547.jpg"
+images:
+  - id: "2014/05/25/17842502437063547.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2014-05-25-150738-heading-home-everything-is-awesome"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Heading home...\"Everything is awesome!\""
 ---
-
 Heading home..."Everything is awesome!"
-
-{% include gallery.html gallery="instagram-2014-05-25-150738-heading-home-everything-is-awesome" %}
-

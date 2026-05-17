@@ -1,0 +1,46 @@
+---
+layout: single
+title: "#morningwalk #lfk"
+content_type: gallery
+slug: "070012-morningwalk-lfk"
+post_id: "2025-06-26-070012-morningwalk-lfk-gallery"
+date: 2025-06-26 07:00:12
+source:
+  type: instagram
+  id: instagram-2025-06-26-070012-morningwalk-lfk
+  media_count: "5"
+  cross_post_source: FB
+authors:
+  - "Jeff Patton"
+summary: "5 images related to #morningwalk #lfk."
+hashtags:
+  - lfk
+  - morningwalk
+gallery: instagram-2025-06-26-070012-morningwalk-lfk
+cover_image: "2025/06/26/18071124364980693.jpg"
+images:
+  - id: "2025/06/26/18071124364980693.jpg"
+    caption:
+    alt:
+  - id: "2025/06/26/18026682692701131.jpg"
+    caption:
+    alt:
+  - id: "2025/06/26/17860577448430195.jpg"
+    caption:
+    alt:
+  - id: "2025/06/26/17992861883810623.jpg"
+    caption:
+    alt:
+  - id: "2025/06/26/18150170356381612.jpg"
+    caption:
+    alt:
+related:
+  - type: story
+    id: "2025-06-26-070012-morningwalk-lfk"
+    title: "#morningwalk #lfk"
+    rel: companion-story
+published: true
+status: published
+comments: false
+---
+Photos related to #morningwalk #lfk.

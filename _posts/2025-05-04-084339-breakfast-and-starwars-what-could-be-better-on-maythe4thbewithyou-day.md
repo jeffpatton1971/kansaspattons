@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Breakfast and @starwars what could be better on #maythe4thbewithyou day"
+content_type: story
+slug: 084339-breakfast-and-starwars-what-could-be-better-on-maythe4thbewithyou-day
 post_id: 2025-05-04-084339-breakfast-and-starwars-what-could-be-better-on-maythe4thbewithyou-day
 date: 2025-05-04 08:43:39
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,19 +15,18 @@ source:
   caption: "Breakfast and @starwars what could be better on #maythe4thbewithyou day"
   media_count: 1
   cross_post_source: "FB"
+cover_image: "2025/05/04/17862262926398208.jpg"
+images:
+  - id: "2025/05/04/17862262926398208.jpg"
+    caption:
+    alt:
 hashtags:
   - "maythe4thbewithyou"
 handles:
   - "starwars"
 location:
-gallery: "instagram-2025-05-04-084339-breakfast-and-starwars-what-could-be-better-on-maythe4thbewithyou-day"
-tags:
-  - "maythe4thbewithyou"
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Breakfast and @starwars what could be better on #maythe4thbewithyou day"
 ---
-
 Breakfast and [@starwars](https://www.instagram.com/starwars/) what could be better on [#maythe4thbewithyou](https://www.instagram.com/explore/tags/maythe4thbewithyou/) day
-
-{% include gallery.html gallery="instagram-2025-05-04-084339-breakfast-and-starwars-what-could-be-better-on-maythe4thbewithyou-day" %}
-

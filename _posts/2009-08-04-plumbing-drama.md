@@ -1,14 +1,21 @@
 ---
 layout:     single
 title:      "Plumbing Drama"
+content_type: post
+slug: plumbing-drama
 post_id:         2009-08-04-plumbing-drama
 date:       2009-08-04 08:53:00 -0600
-categories: blog
-tags:
-  - "wordpress"
+source:
+  type: wordpress
+categories:
+  - Blog
 author:     Jeff
+authors:
+  - Jeff
+summary: "So Sunday night we had invited Malia’s family over for dinner. When I got home Malia told me that when she started to drain the tub, the toilet would gurgle, not a good sign! I flushed the toilet and it immediately began to overflow, so thi"
 comments:   false
 published:  true
+status: published
 ---
 So Sunday night we had invited Malia’s family over for dinner. When I got home Malia told me that when she started to drain the tub, the toilet would gurgle, not a good sign! I flushed the toilet and it immediately began to overflow, so this was already not starting out good. Things went from bad to worse in a very short amount of time. When I realized there was nothing I could do to fix it I decided to call a plumber.
 

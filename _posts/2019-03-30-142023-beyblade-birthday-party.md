@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "BEYBLADE birthday party"
+content_type: story
+slug: 142023-beyblade-birthday-party
 post_id: 2019-03-30-142023-beyblade-birthday-party
 date: 2019-03-30 14:20:23
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,17 @@ source:
   caption: "BEYBLADE birthday party"
   media_count: 10
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2019/03/30/18025139398091861.jpg"
+related:
+  - type: gallery
+    id: instagram-2019-03-30-142023-beyblade-birthday-party
+    rel: photos
 handles: []
 location:
-gallery: "instagram-2019-03-30-142023-beyblade-birthday-party"
-tags:
-  - "instagram"
 categories:
-  - "birthday"
+  - Birthday
+authors:
+  - "Jeff Patton"
+summary: "BEYBLADE birthday party"
 ---
-
 BEYBLADE birthday party
-
-{% include gallery.html gallery="instagram-2019-03-30-142023-beyblade-birthday-party" %}
-

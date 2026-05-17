@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Dinner with this crazy kid on this special day!!"
+content_type: story
+slug: 193403-dinner-with-this-crazy-kid-on-this-special-day
 post_id: 2018-09-27-193403-dinner-with-this-crazy-kid-on-this-special-day
 date: 2018-09-27 19:34:03
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Dinner with this crazy kid on this special day!!"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2018/09/27/17969046424110466.jpg"
+images:
+  - id: "2018/09/27/17969046424110466.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2018-09-27-193403-dinner-with-this-crazy-kid-on-this-special-day"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Dinner with this crazy kid on this special day!!"
 ---
-
 Dinner with this crazy kid on this special day!!
-
-{% include gallery.html gallery="instagram-2018-09-27-193403-dinner-with-this-crazy-kid-on-this-special-day" %}
-

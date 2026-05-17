@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Morning rainbows"
+content_type: story
+slug: 073739-morning-rainbows
 post_id: 2020-11-23-073739-morning-rainbows
 date: 2020-11-23 07:37:39
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Morning rainbows"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2020/11/23/18125307565150857.jpg"
+images:
+  - id: "2020/11/23/18125307565150857.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2020-11-23-073739-morning-rainbows"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Morning rainbows"
 ---
-
 Morning rainbows
-
-{% include gallery.html gallery="instagram-2020-11-23-073739-morning-rainbows" %}
-

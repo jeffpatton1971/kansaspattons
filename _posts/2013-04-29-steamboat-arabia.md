@@ -1,24 +1,32 @@
 ---
 layout: single
 title: "Steamboat Arabia"
+content_type: post
+slug: steamboat-arabia
 post_id: 2013-04-29-steamboat-arabia
 date: 2013-04-29 22:13:44
 published: true
+status: published
 comments: false
 source:
   type: wordpress
   id: 402
   url: "https://jeffspatton.wordpress.com/2013/04/29/april-29-2013/"
-gallery: "wordpress-2013-04-29-221344-april-29-2013"
+cover_image: "2013/04/29/wp_20130429_001.jpg"
+related:
+  - type: gallery
+    id: wordpress-2013-04-29-221344-april-29-2013
+    rel: photos
 categories:
-  - "Natalie"
-  - "CPLS"
-  - field-trips
-tags:
-  - "wordpress"
+  - "Field Trips"
+authors:
+  - "Jeff Patton"
+people:
+  - Natalie
+locations:
+  - "Cair Paravel"
+summary: "Today was the field trip for the third grade class, we visited the Steamboat Arabia museum in Kansas City. The Arabia sank in 1856 with about 200 ton of merchandise destined for people headed west. It sank in the Missouri river and was disc"
 ---
 Today was the field trip for the third grade class, we visited the [Steamboat Arabia museum](http://1856.com) in Kansas City. The Arabia sank in 1856 with about 200 ton of merchandise destined for people headed west. It sank in the Missouri river and was discovered in 1988 50ft below a cornfield in Kansas. When you walk through the museum, it’s like the tour guide said, “it’s like walking through an 1800’s version of Wal-Mart.”
 
 The tour:
-
-{% include gallery.html gallery="wordpress-2013-04-29-221344-april-29-2013" %}

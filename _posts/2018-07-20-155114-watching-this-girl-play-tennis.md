@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Watching this girl play tennis!"
+content_type: story
+slug: 155114-watching-this-girl-play-tennis
 post_id: 2018-07-20-155114-watching-this-girl-play-tennis
 date: 2018-07-20 15:51:14
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Watching this girl play tennis!"
   media_count: 4
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2018/07/20/17930598502165352.jpg"
+related:
+  - type: gallery
+    id: instagram-2018-07-20-155114-watching-this-girl-play-tennis
+    rel: photos
 handles: []
 location:
-gallery: "instagram-2018-07-20-155114-watching-this-girl-play-tennis"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Watching this girl play tennis!"
 ---
-
 Watching this girl play tennis!
-
-{% include gallery.html gallery="instagram-2018-07-20-155114-watching-this-girl-play-tennis" %}
-

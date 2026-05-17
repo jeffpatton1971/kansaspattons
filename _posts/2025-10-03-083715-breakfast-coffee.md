@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#breakfast #coffee"
+content_type: story
+slug: 083715-breakfast-coffee
 post_id: 2025-10-03-083715-breakfast-coffee
 date: 2025-10-03 08:37:15
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,20 +15,18 @@ source:
   caption: "#breakfast #coffee"
   media_count: 1
   cross_post_source: "FB"
+cover_image: "2025/10/03/18165430735331219.jpg"
+images:
+  - id: "2025/10/03/18165430735331219.jpg"
+    caption:
+    alt:
 hashtags:
   - "breakfast"
   - "coffee"
 handles: []
 location:
-gallery: "instagram-2025-10-03-083715-breakfast-coffee"
-tags:
-  - "breakfast"
-  - "coffee"
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "#breakfast #coffee"
 ---
-
 [#breakfast](https://www.instagram.com/explore/tags/breakfast/) [#coffee](https://www.instagram.com/explore/tags/coffee/)
-
-{% include gallery.html gallery="instagram-2025-10-03-083715-breakfast-coffee" %}
-

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Building a BEYBLADE battle arena for Nathan’s 8th birthday party #beybladeburst #beybladeg..."
+content_type: story
+slug: 140753-building-a-beyblade-battle-arena-for-nathan-s-8th-birthday-party-beybladeburst
 post_id: 2019-03-30-140753-building-a-beyblade-battle-arena-for-nathan-s-8th-birthday-party-beybladeburst
 date: 2019-03-30 14:07:53
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,22 +15,21 @@ source:
   caption: "Building a BEYBLADE battle arena for Nathan’s 8th birthday party #beybladeburst #beybladegeeks"
   media_count: 10
   cross_post_source: "FB"
+cover_image: "2019/03/30/18024919846092754.jpg"
+related:
+  - type: gallery
+    id: instagram-2019-03-30-140753-building-a-beyblade-battle-arena-for-nathan-s-8th-birthday-party-beybladeburst
+    rel: photos
 hashtags:
   - "beybladeburst"
   - "beybladegeeks"
 handles: []
-location:
-gallery: "instagram-2019-03-30-140753-building-a-beyblade-battle-arena-for-nathan-s-8th-birthday-party-beybladeburst"
-tags:
-  - "beybladeburst"
-  - "beybladegeeks"
-  - "instagram"
 categories:
-  - "Nathan"
-  - "birthday"
+  - Birthday
+authors:
+  - "Jeff Patton"
+people:
+  - Nathan
+summary: "Building a BEYBLADE battle arena for Nathan’s 8th birthday party #beybladeburst #beybladegeeks"
 ---
-
 Building a BEYBLADE battle arena for Nathan’s 8th birthday party [#beybladeburst](https://www.instagram.com/explore/tags/beybladeburst/) [#beybladegeeks](https://www.instagram.com/explore/tags/beybladegeeks/)
-
-{% include gallery.html gallery="instagram-2019-03-30-140753-building-a-beyblade-battle-arena-for-nathan-s-8th-birthday-party-beybladeburst" %}
-

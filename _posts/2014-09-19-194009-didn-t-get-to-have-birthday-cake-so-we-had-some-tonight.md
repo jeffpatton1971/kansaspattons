@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Didn't get to have birthday cake so we had some tonight!"
+content_type: story
+slug: 194009-didn-t-get-to-have-birthday-cake-so-we-had-some-tonight
 post_id: 2014-09-19-194009-didn-t-get-to-have-birthday-cake-so-we-had-some-tonight
 date: 2014-09-19 19:40:09
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,17 @@ source:
   caption: "Didn't get to have birthday cake so we had some tonight!"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2014/09/19/17843350729063547.jpg"
+images:
+  - id: "2014/09/19/17843350729063547.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2014-09-19-194009-didn-t-get-to-have-birthday-cake-so-we-had-some-tonight"
-tags:
-  - "instagram"
 categories:
-  - "birthday"
+  - Birthday
+authors:
+  - "Jeff Patton"
+summary: "Didn't get to have birthday cake so we had some tonight!"
 ---
-
 Didn't get to have birthday cake so we had some tonight!
-
-{% include gallery.html gallery="instagram-2014-09-19-194009-didn-t-get-to-have-birthday-cake-so-we-had-some-tonight" %}
-

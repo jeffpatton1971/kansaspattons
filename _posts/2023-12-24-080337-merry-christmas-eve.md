@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Merry Christmas Eve"
+content_type: story
+slug: 080337-merry-christmas-eve
 post_id: 2023-12-24-080337-merry-christmas-eve
 date: 2023-12-24 08:03:37
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,17 @@ source:
   caption: "Merry Christmas Eve"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2023/12/24/17960980304686173.jpg"
+images:
+  - id: "2023/12/24/17960980304686173.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2023-12-24-080337-merry-christmas-eve"
-tags:
-  - "instagram"
 categories:
   - "Christmas"
+authors:
+  - "Jeff Patton"
+summary: "Merry Christmas Eve"
 ---
-
 Merry Christmas Eve
-
-{% include gallery.html gallery="instagram-2023-12-24-080337-merry-christmas-eve" %}
-

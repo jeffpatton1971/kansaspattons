@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Sometimes it’s just not enough"
+content_type: story
+slug: 104227-sometimes-it-s-just-not-enough
 post_id: 2024-11-23-104227-sometimes-it-s-just-not-enough
 date: 2024-11-23 10:42:27
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Sometimes it’s just not enough"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2024/11/23/18058423231713570.jpg"
+images:
+  - id: "2024/11/23/18058423231713570.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2024-11-23-104227-sometimes-it-s-just-not-enough"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Sometimes it’s just not enough"
 ---
-
 Sometimes it’s just not enough
-
-{% include gallery.html gallery="instagram-2024-11-23-104227-sometimes-it-s-just-not-enough" %}
-

@@ -1,23 +1,30 @@
 ---
 layout: single
 title: "Cycle Three"
+content_type: post
+slug: cycle-three
 post_id: 2013-05-23-cycle-three
 date: 2013-05-23 08:04:34
 published: true
+status: published
 comments: false
 source:
   type: wordpress
   id: 543
   url: "https://jeffspatton.wordpress.com/2013/05/23/may-23-2013/"
-gallery: "wordpress-2013-05-23-080434-may-23-2013"
+cover_image: "2013/05/23/wp_20130523_002.jpg"
+related:
+  - type: gallery
+    id: wordpress-2013-05-23-080434-may-23-2013
+    rel: photos
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+authors:
+  - "Jeff Patton"
+people:
+  - Nathan
+summary: "This is the start of our third cycle of chemo, we had hoped that he would have surgery to have it removed, but here we are. We stopped by the Cancer Center first for Nathan to get his port accessed, while I don’t think he’s getting used to "
 ---
 This is the start of our third cycle of chemo, we had hoped that he would have surgery to have it [removed](/blog/2013/05/15/2013-05-15-083129-may-15-2013.html), but here we are. We stopped by the Cancer Center first for Nathan to get his port accessed, while I don’t think he’s getting used to it, at least they get it done quick.
 
 We got a room on the other side of the hospital than what we’ve normally had, so everything was on the other side! My mom and sister brought the girls up to spend some time with Nathan. We’ll be here until tomorrow, the first day of chemo is always the longest, at least for us. The medicine they give him required 24hrs of hydration, thankfully the hydration starts before he gets the chemo, I was confused by that earlier. We wound up having to wait quite a while before the chemo started and I was worried we’d wind up in the hospital much longer.
-
-{% include gallery.html gallery="wordpress-2013-05-23-080434-may-23-2013" %}

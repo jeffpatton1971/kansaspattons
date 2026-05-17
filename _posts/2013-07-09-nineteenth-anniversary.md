@@ -1,18 +1,22 @@
 ---
 layout: single
 title: "19th Anniversary"
+content_type: post
+slug: nineteenth-anniversary
 post_id: 2013-07-09-nineteenth-anniversary
 date: 2013-07-09 07:46:50
 published: true
+status: published
 comments: false
 source:
   type: wordpress
   id: 754
   url: "https://jeffspatton.wordpress.com/2013/07/09/july-9-2013-2/"
 categories:
-  - "family"
-tags:
-  - "wordpress"
+  - Family
+authors:
+  - "Jeff Patton"
+summary: "Malia and I went to Olive Garden for our anniversary dinner. It’s been awhile since we’ve been out without the kids, so it was really nice. While it was only dinner we were able to talk and enjoy each other. The only disappointing part of t"
 ---
 Malia and I went to Olive Garden for our anniversary dinner. It’s been awhile since we’ve been out without the kids, so it was really nice. While it was only dinner we were able to talk and enjoy each other.
 

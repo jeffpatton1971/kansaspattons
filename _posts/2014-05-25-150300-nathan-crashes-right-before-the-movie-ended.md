@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nathan crashes right before the movie ended"
+content_type: story
+slug: 150300-nathan-crashes-right-before-the-movie-ended
 post_id: 2014-05-25-150300-nathan-crashes-right-before-the-movie-ended
 date: 2014-05-25 15:03:00
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,16 @@ source:
   caption: "Nathan crashes right before the movie ended"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2014/05/25/17842502431063547.jpg"
+images:
+  - id: "2014/05/25/17842502431063547.jpg"
+    caption:
+    alt:
 handles: []
-location:
-gallery: "instagram-2014-05-25-150300-nathan-crashes-right-before-the-movie-ended"
-tags:
-  - "instagram"
-categories:
-  - "Nathan"
+authors:
+  - "Jeff Patton"
+people:
+  - Nathan
+summary: "Nathan crashes right before the movie ended"
 ---
-
 Nathan crashes right before the movie ended
-
-{% include gallery.html gallery="instagram-2014-05-25-150300-nathan-crashes-right-before-the-movie-ended" %}
-

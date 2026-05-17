@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Turkeys on the run"
+content_type: story
+slug: 065530-turkeys-on-the-run
 post_id: 2022-05-15-065530-turkeys-on-the-run
 date: 2022-05-15 06:55:30
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Turkeys on the run"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2022/05/15/18294091198000145.jpg"
+images:
+  - id: "2022/05/15/18294091198000145.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2022-05-15-065530-turkeys-on-the-run"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Turkeys on the run"
 ---
-
 Turkeys on the run
-
-{% include gallery.html gallery="instagram-2022-05-15-065530-turkeys-on-the-run" %}
-

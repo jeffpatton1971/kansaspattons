@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Natalie on the violin"
+content_type: story
+slug: 194344-natalie-on-the-violin
 post_id: 2013-12-09-194344-natalie-on-the-violin
 date: 2013-12-09 19:43:44
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,16 @@ source:
   caption: "Natalie on the violin"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2013/12/09/17842411345063547.jpg"
+images:
+  - id: "2013/12/09/17842411345063547.jpg"
+    caption:
+    alt:
 handles: []
-location:
-gallery: "instagram-2013-12-09-194344-natalie-on-the-violin"
-tags:
-  - "instagram"
-categories:
-  - "Natalie"
+authors:
+  - "Jeff Patton"
+people:
+  - Natalie
+summary: "Natalie on the violin"
 ---
-
 Natalie on the violin
-
-{% include gallery.html gallery="instagram-2013-12-09-194344-natalie-on-the-violin" %}
-

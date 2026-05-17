@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Remote work with great coffee and muffins is better"
+content_type: story
+slug: 090540-remote-work-with-great-coffee-and-muffins-is-better
 post_id: 2025-12-01-090540-remote-work-with-great-coffee-and-muffins-is-better
 date: 2025-12-01 09:05:40
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Remote work with great coffee and muffins is better"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2025/12/01/17884545087411793.jpg"
+images:
+  - id: "2025/12/01/17884545087411793.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2025-12-01-090540-remote-work-with-great-coffee-and-muffins-is-better"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Remote work with great coffee and muffins is better"
 ---
-
 Remote work with great coffee and muffins is better
-
-{% include gallery.html gallery="instagram-2025-12-01-090540-remote-work-with-great-coffee-and-muffins-is-better" %}
-

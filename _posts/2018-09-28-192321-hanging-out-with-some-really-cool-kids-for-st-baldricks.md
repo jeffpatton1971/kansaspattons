@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Hanging out with some really cool kids for St Baldricks"
+content_type: story
+slug: 192321-hanging-out-with-some-really-cool-kids-for-st-baldricks
 post_id: 2018-09-28-192321-hanging-out-with-some-really-cool-kids-for-st-baldricks
 date: 2018-09-28 19:23:21
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Hanging out with some really cool kids for St Baldricks"
   media_count: 5
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2018/09/28/17866124038302062.jpg"
+related:
+  - type: gallery
+    id: instagram-2018-09-28-192321-hanging-out-with-some-really-cool-kids-for-st-baldricks
+    rel: photos
 handles: []
 location:
-gallery: "instagram-2018-09-28-192321-hanging-out-with-some-really-cool-kids-for-st-baldricks"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Hanging out with some really cool kids for St Baldricks"
 ---
-
 Hanging out with some really cool kids for St Baldricks
-
-{% include gallery.html gallery="instagram-2018-09-28-192321-hanging-out-with-some-really-cool-kids-for-st-baldricks" %}
-

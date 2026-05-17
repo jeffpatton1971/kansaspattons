@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Natalie and Julia"
+content_type: story
+slug: 120617-natalie-and-julia
 post_id: 2013-12-14-120617-natalie-and-julia
 date: 2013-12-14 12:06:17
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,16 @@ source:
   caption: "Natalie and Julia"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2013/12/14/17842413367063547.jpg"
+images:
+  - id: "2013/12/14/17842413367063547.jpg"
+    caption:
+    alt:
 handles: []
-location:
-gallery: "instagram-2013-12-14-120617-natalie-and-julia"
-tags:
-  - "instagram"
-categories:
-  - "Natalie"
+authors:
+  - "Jeff Patton"
+people:
+  - Natalie
+summary: "Natalie and Julia"
 ---
-
 Natalie and Julia
-
-{% include gallery.html gallery="instagram-2013-12-14-120617-natalie-and-julia" %}
-

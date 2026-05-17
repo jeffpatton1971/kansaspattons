@@ -1,23 +1,30 @@
 ---
 layout: single
 title: "Home Early"
+content_type: post
+slug: home-early
 post_id: 2013-05-24-home-early
 date: 2013-05-24 08:37:41
 published: true
+status: published
 comments: false
 source:
   type: wordpress
   id: 564
   url: "https://jeffspatton.wordpress.com/2013/05/24/may-24-2013/"
-gallery: "wordpress-2013-05-24-083741-may-24-2013"
+cover_image: "2013/05/24/wp_20130524_001.jpg"
+related:
+  - type: gallery
+    id: wordpress-2013-05-24-083741-may-24-2013
+    rel: photos
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+authors:
+  - "Jeff Patton"
+people:
+  - Nathan
+summary: "We get to go home today. Nathan’s oncologist came by today and talked to us about how Nathan is doing and how is body is reacting to all the medicine he’s been on. His counts this time around were good enough to start chemo, but they weren’"
 ---
 We get to go home today. Nathan’s oncologist came by today and talked to us about how Nathan is doing and how is body is reacting to all the medicine he’s been on. His counts this time around were good enough to start chemo, but they weren’t great. They want him to get a shot to boost his bone marrow production, it was a toss-up between daily shots that Malia and I would give him, or a one-time shot he would get in the hospital.
 
 While I have given shots to Malia back when we were going through fertility treatments, I think we were all more comfortable with a one-time shot. The only downside to this shot is it hangs out in his body for a long time, so not so much with the controlled release and management.
-
-{% include gallery.html gallery="wordpress-2013-05-24-083741-may-24-2013" %}

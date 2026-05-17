@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "perfect evening for some #baseball"
+content_type: story
+slug: 204105-perfect-evening-for-some-baseball
 post_id: 2023-05-10-204105-perfect-evening-for-some-baseball
 date: 2023-05-10 20:41:05
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,18 +15,23 @@ source:
   caption: "perfect evening for some #baseball"
   media_count: 3
   cross_post_source: "FB"
+cover_image: "2023/05/10/17992723486933272.jpg"
+images:
+  - id: "2023/05/10/17992723486933272.jpg"
+    caption:
+    alt:
+  - id: "2023/05/10/17976710552077024.jpg"
+    caption:
+    alt:
+  - id: "2023/05/10/17844589787983679.mp4"
+    caption:
+    alt:
 hashtags:
   - "baseball"
 handles: []
 location:
-gallery: "instagram-2023-05-10-204105-perfect-evening-for-some-baseball"
-tags:
-  - "baseball"
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "perfect evening for some #baseball"
 ---
-
 perfect evening for some [#baseball](https://www.instagram.com/explore/tags/baseball/)
-
-{% include gallery.html gallery="instagram-2023-05-10-204105-perfect-evening-for-some-baseball" %}
-

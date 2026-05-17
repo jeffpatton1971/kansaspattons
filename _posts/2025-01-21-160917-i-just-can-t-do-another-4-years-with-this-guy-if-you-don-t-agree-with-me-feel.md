@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "I just can’t do another 4 years with this guy. If you don’t agree with me feel free to unf..."
+content_type: story
+slug: 160917-i-just-can-t-do-another-4-years-with-this-guy-if-you-don-t-agree-with-me-feel
 post_id: 2025-01-21-160917-i-just-can-t-do-another-4-years-with-this-guy-if-you-don-t-agree-with-me-feel
 date: 2025-01-21 16:09:17
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "I just can’t do another 4 years with this guy. If you don’t agree with me feel free to unfriend me because at this point I don’t really care anymore."
   media_count: 4
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2025/01/21/18374009095139253.jpg"
+related:
+  - type: gallery
+    id: instagram-2025-01-21-160917-i-just-can-t-do-another-4-years-with-this-guy-if-you-don-t-agree-with-me-feel
+    rel: photos
 handles: []
 location:
-gallery: "instagram-2025-01-21-160917-i-just-can-t-do-another-4-years-with-this-guy-if-you-don-t-agree-with-me-feel"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "I just can’t do another 4 years with this guy. If you don’t agree with me feel free to unfriend me because at this point I don’t really care anymore."
 ---
-
 I just can’t do another 4 years with this guy. If you don’t agree with me feel free to unfriend me because at this point I don’t really care anymore.
-
-{% include gallery.html gallery="instagram-2025-01-21-160917-i-just-can-t-do-another-4-years-with-this-guy-if-you-don-t-agree-with-me-feel" %}
-

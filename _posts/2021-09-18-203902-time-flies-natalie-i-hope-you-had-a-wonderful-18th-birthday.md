@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Time flies Natalie I hope you had a wonderful 18th birthday"
+content_type: story
+slug: 203902-time-flies-natalie-i-hope-you-had-a-wonderful-18th-birthday
 post_id: 2021-09-18-203902-time-flies-natalie-i-hope-you-had-a-wonderful-18th-birthday
 date: 2021-09-18 20:39:02
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,18 +15,18 @@ source:
   caption: "Time flies Natalie I hope you had a wonderful 18th birthday"
   media_count: 10
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2021/09/18/17883331664407452.jpg"
+related:
+  - type: gallery
+    id: instagram-2021-09-18-203902-time-flies-natalie-i-hope-you-had-a-wonderful-18th-birthday
+    rel: photos
 handles: []
-location:
-gallery: "instagram-2021-09-18-203902-time-flies-natalie-i-hope-you-had-a-wonderful-18th-birthday"
-tags:
-  - "instagram"
 categories:
-  - "Natalie"
-  - "birthday"
+  - Birthday
+authors:
+  - "Jeff Patton"
+people:
+  - Natalie
+summary: "Time flies Natalie I hope you had a wonderful 18th birthday"
 ---
-
 Time flies Natalie I hope you had a wonderful 18th birthday
-
-{% include gallery.html gallery="instagram-2021-09-18-203902-time-flies-natalie-i-hope-you-had-a-wonderful-18th-birthday" %}
-

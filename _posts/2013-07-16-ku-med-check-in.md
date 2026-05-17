@@ -1,20 +1,29 @@
 ---
 layout: single
 title: "KU Med Check-In"
+content_type: post
+slug: ku-med-check-in
 post_id: 2013-07-16-ku-med-check-in
 date: 2013-07-16 17:34:47
 published: true
+status: published
 comments: false
 source:
   type: wordpress
   id: 818
   url: "https://jeffspatton.wordpress.com/2013/07/16/july-16-2013/"
-gallery: "wordpress-2013-07-16-173447-july-16-2013"
+cover_image: "2013/07/16/wp_20130716_001.jpg"
+related:
+  - type: gallery
+    id: wordpress-2013-07-16-173447-july-16-2013
+    rel: photos
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+authors:
+  - "Jeff Patton"
+people:
+  - Nathan
+summary: "Today was our trip to KCK to talk with the doctor’s at KU Med who will remove the tumor from Nathan’s liver. I would love to say that the process was fast, efficient and streamlined, but in reality it was one of the most disorganized visit’"
 ---
 Today was our trip to KCK to talk with the doctor’s at KU Med who will remove the tumor from Nathan’s liver. I would love to say that the process was fast, efficient and streamlined, but in reality it was one of the most disorganized visit’s we’ve ever had.  We showed up at 9a for his 930 appointment with pre-anesthesia, and they had no record of his appointment. After they started looking deeper they had him scheduled for the previous day. They asked us why we missed it, and we said we didn’t schedule this, the doctor’s and nurses scheduled everything.
 
@@ -45,5 +54,3 @@ We enjoyed the various exhibits, there was a fun little tide pool where you coul
 After the Aquarium we went back to Crown Center for dessert. We got ice cream from Sheridan’s, I had a Butterfinger and M&M concrete, everyone else had chocolate ice cream…really?
 
 While we we’re still terribly worried and concerned about Nathan, it was a nice end to the day.
-
-{% include gallery.html gallery="wordpress-2013-07-16-173447-july-16-2013" %}

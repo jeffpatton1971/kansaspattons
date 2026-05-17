@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nathan in the news!"
+content_type: story
+slug: 073209-nathan-in-the-news
 post_id: 2018-09-26-073209-nathan-in-the-news
 date: 2018-09-26 07:32:09
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,16 @@ source:
   caption: "Nathan in the news!"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2018/09/26/17958282967134600.mp4"
+images:
+  - id: "2018/09/26/17958282967134600.mp4"
+    caption:
+    alt:
 handles: []
-location:
-gallery: "instagram-2018-09-26-073209-nathan-in-the-news"
-tags:
-  - "instagram"
-categories:
-  - "Nathan"
+authors:
+  - "Jeff Patton"
+people:
+  - Nathan
+summary: "Nathan in the news!"
 ---
-
 Nathan in the news!
-
-{% include gallery.html gallery="instagram-2018-09-26-073209-nathan-in-the-news" %}
-

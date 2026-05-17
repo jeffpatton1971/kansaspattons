@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Winter fun and hard work"
+content_type: story
+slug: 152339-winter-fun-and-hard-work
 post_id: 2018-01-14-152339-winter-fun-and-hard-work
 date: 2018-01-14 15:23:39
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,17 @@ source:
   caption: "Winter fun and hard work"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2018/01/14/17918364214019323.jpg"
+images:
+  - id: "2018/01/14/17918364214019323.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2018-01-14-152339-winter-fun-and-hard-work"
-tags:
-  - "instagram"
 categories:
-  - "winter"
+  - Winter
+authors:
+  - "Jeff Patton"
+summary: "Winter fun and hard work"
 ---
-
 Winter fun and hard work
-
-{% include gallery.html gallery="instagram-2018-01-14-152339-winter-fun-and-hard-work" %}
-

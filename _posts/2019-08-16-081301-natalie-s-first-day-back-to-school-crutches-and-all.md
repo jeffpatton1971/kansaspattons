@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Natalie’s first day back to school...crutches and all!"
+content_type: story
+slug: 081301-natalie-s-first-day-back-to-school-crutches-and-all
 post_id: 2019-08-16-081301-natalie-s-first-day-back-to-school-crutches-and-all
 date: 2019-08-16 08:13:01
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,19 @@ source:
   caption: "Natalie’s first day back to school...crutches and all!"
   media_count: 2
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2019/08/16/18091171261053505.jpg"
+images:
+  - id: "2019/08/16/18091171261053505.jpg"
+    caption:
+    alt:
+  - id: "2019/08/16/18091227499033683.jpg"
+    caption:
+    alt:
 handles: []
-location:
-gallery: "instagram-2019-08-16-081301-natalie-s-first-day-back-to-school-crutches-and-all"
-tags:
-  - "instagram"
-categories:
-  - "Natalie"
+authors:
+  - "Jeff Patton"
+people:
+  - Natalie
+summary: "Natalie’s first day back to school...crutches and all!"
 ---
-
 Natalie’s first day back to school...crutches and all!
-
-{% include gallery.html gallery="instagram-2019-08-16-081301-natalie-s-first-day-back-to-school-crutches-and-all" %}
-

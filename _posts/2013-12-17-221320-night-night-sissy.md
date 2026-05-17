@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Night night sissy"
+content_type: story
+slug: 221320-night-night-sissy
 post_id: 2013-12-17-221320-night-night-sissy
 date: 2013-12-17 22:13:20
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Night night sissy"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2013/12/17/17842415113063547.jpg"
+images:
+  - id: "2013/12/17/17842415113063547.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2013-12-17-221320-night-night-sissy"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Night night sissy"
 ---
-
 Night night sissy
-
-{% include gallery.html gallery="instagram-2013-12-17-221320-night-night-sissy" %}
-

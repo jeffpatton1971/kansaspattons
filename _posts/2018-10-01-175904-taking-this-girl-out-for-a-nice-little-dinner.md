@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Taking this girl out for a nice little dinner"
+content_type: story
+slug: 175904-taking-this-girl-out-for-a-nice-little-dinner
 post_id: 2018-10-01-175904-taking-this-girl-out-for-a-nice-little-dinner
 date: 2018-10-01 17:59:04
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Taking this girl out for a nice little dinner"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2018/10/01/17943839137194022.jpg"
+images:
+  - id: "2018/10/01/17943839137194022.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2018-10-01-175904-taking-this-girl-out-for-a-nice-little-dinner"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Taking this girl out for a nice little dinner"
 ---
-
 Taking this girl out for a nice little dinner
-
-{% include gallery.html gallery="instagram-2018-10-01-175904-taking-this-girl-out-for-a-nice-little-dinner" %}
-

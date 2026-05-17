@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "These two have been playing together since first grade. ❤️ these two"
+content_type: story
+slug: 164113-these-two-have-been-playing-together-since-first-grade-these-two
 post_id: 2018-05-06-164113-these-two-have-been-playing-together-since-first-grade-these-two
 date: 2018-05-06 16:41:13
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "These two have been playing together since first grade. ❤️ these two"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2018/05/06/17943079462049076.jpg"
+images:
+  - id: "2018/05/06/17943079462049076.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2018-05-06-164113-these-two-have-been-playing-together-since-first-grade-these-two"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "These two have been playing together since first grade. ❤️ these two"
 ---
-
 These two have been playing together since first grade. ❤️ these two
-
-{% include gallery.html gallery="instagram-2018-05-06-164113-these-two-have-been-playing-together-since-first-grade-these-two" %}
-

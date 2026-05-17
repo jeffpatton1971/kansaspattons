@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Take me out to the ballgame"
+content_type: story
+slug: 092434-take-me-out-to-the-ballgame
 post_id: 2017-04-19-092434-take-me-out-to-the-ballgame
 date: 2017-04-19 09:24:34
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Take me out to the ballgame"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2017/04/19/17856614734135350.jpg"
+images:
+  - id: "2017/04/19/17856614734135350.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2017-04-19-092434-take-me-out-to-the-ballgame"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Take me out to the ballgame"
 ---
-
 Take me out to the ballgame
-
-{% include gallery.html gallery="instagram-2017-04-19-092434-take-me-out-to-the-ballgame" %}
-

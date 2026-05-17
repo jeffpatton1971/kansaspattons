@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "A waning gibbous moon according to my son"
+content_type: story
+slug: 222352-a-waning-gibbous-moon-according-to-my-son
 post_id: 2023-10-02-222352-a-waning-gibbous-moon-according-to-my-son
 date: 2023-10-02 22:23:52
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "A waning gibbous moon according to my son"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2023/10/02/17895156431818011.jpg"
+images:
+  - id: "2023/10/02/17895156431818011.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2023-10-02-222352-a-waning-gibbous-moon-according-to-my-son"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "A waning gibbous moon according to my son"
 ---
-
 A waning gibbous moon according to my son
-
-{% include gallery.html gallery="instagram-2023-10-02-222352-a-waning-gibbous-moon-according-to-my-son" %}
-

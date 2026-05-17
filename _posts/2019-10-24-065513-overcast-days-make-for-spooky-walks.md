@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Overcast days make for spooky walks"
+content_type: story
+slug: 065513-overcast-days-make-for-spooky-walks
 post_id: 2019-10-24-065513-overcast-days-make-for-spooky-walks
 date: 2019-10-24 06:55:13
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Overcast days make for spooky walks"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2019/10/24/18111401860060210.jpg"
+images:
+  - id: "2019/10/24/18111401860060210.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2019-10-24-065513-overcast-days-make-for-spooky-walks"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Overcast days make for spooky walks"
 ---
-
 Overcast days make for spooky walks
-
-{% include gallery.html gallery="instagram-2019-10-24-065513-overcast-days-make-for-spooky-walks" %}
-

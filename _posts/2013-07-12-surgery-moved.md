@@ -1,19 +1,24 @@
 ---
 layout: single
 title: "Surgery Moved"
+content_type: post
+slug: surgery-moved
 post_id: 2013-07-12-surgery-moved
 date: 2013-07-12 08:17:29
 published: true
+status: published
 comments: false
 source:
   type: wordpress
   id: 760
   url: "https://jeffspatton.wordpress.com/2013/07/12/july-12-2013/"
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+authors:
+  - "Jeff Patton"
+people:
+  - Nathan
+summary: "What a busy week! Malia got call from KU Med, we will go down Tuesday for lab work, and the surgery was moved to the following week. This is not what we wanted to hear! We both just want this tumor out, and being this close and then having "
 ---
 What a busy week! Malia got call from KU Med, we will go down Tuesday for lab work, and the surgery was moved to the following week. This is not what we wanted to hear! We both just want this tumor out, and being this close and then having it pushed back is akin to torture! They told Malia that there was no way they could have all the lab work done and before the following day. Needless to say she was NOT happy.
 

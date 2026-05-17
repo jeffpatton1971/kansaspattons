@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#newbeginings #goodmorning #lfk"
+content_type: story
+slug: 072935-newbeginings-goodmorning-lfk
 post_id: 2025-06-02-072935-newbeginings-goodmorning-lfk
 date: 2025-06-02 07:29:35
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,22 +15,19 @@ source:
   caption: "#newbeginings #goodmorning #lfk"
   media_count: 1
   cross_post_source: "FB"
+cover_image: "2025/06/02/18357739225194424.jpg"
+images:
+  - id: "2025/06/02/18357739225194424.jpg"
+    caption:
+    alt:
 hashtags:
-  - "newbeginings"
-  - "goodmorning"
-  - "lfk"
+  - goodmorning
+  - lfk
+  - newbeginnings
 handles: []
 location:
-gallery: "instagram-2025-06-02-072935-newbeginings-goodmorning-lfk"
-tags:
-  - "newbeginings"
-  - "goodmorning"
-  - "lfk"
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "#newbeginings #goodmorning #lfk"
 ---
-
 [#newbeginings](https://www.instagram.com/explore/tags/newbeginings/) [#goodmorning](https://www.instagram.com/explore/tags/goodmorning/) [#lfk](https://www.instagram.com/explore/tags/lfk/)
-
-{% include gallery.html gallery="instagram-2025-06-02-072935-newbeginings-goodmorning-lfk" %}
-

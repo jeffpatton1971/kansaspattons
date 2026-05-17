@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Field burning out west yesterday"
+content_type: story
+slug: 094329-field-burning-out-west-yesterday
 post_id: 2022-03-06-094329-field-burning-out-west-yesterday
 date: 2022-03-06 09:43:29
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,18 @@ source:
   caption: "Field burning out west yesterday"
   media_count: 2
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2022/03/06/18120536308263596.jpg"
+images:
+  - id: "2022/03/06/18120536308263596.jpg"
+    caption:
+    alt:
+  - id: "2022/03/06/17911205852313500.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2022-03-06-094329-field-burning-out-west-yesterday"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Field burning out west yesterday"
 ---
-
 Field burning out west yesterday
-
-{% include gallery.html gallery="instagram-2022-03-06-094329-field-burning-out-west-yesterday" %}
-

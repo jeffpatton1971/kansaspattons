@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#goodweather and #goodbreakfast"
+content_type: story
+slug: 094111-goodweather-and-goodbreakfast
 post_id: 2025-08-03-094111-goodweather-and-goodbreakfast
 date: 2025-08-03 09:41:11
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,20 +15,18 @@ source:
   caption: "#goodweather and #goodbreakfast"
   media_count: 1
   cross_post_source: "FB"
+cover_image: "2025/08/03/17892371583292474.jpg"
+images:
+  - id: "2025/08/03/17892371583292474.jpg"
+    caption:
+    alt:
 hashtags:
-  - "goodweather"
-  - "goodbreakfast"
+  - goodbreakfast
+  - goodweather
 handles: []
 location:
-gallery: "instagram-2025-08-03-094111-goodweather-and-goodbreakfast"
-tags:
-  - "goodweather"
-  - "goodbreakfast"
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "#goodweather and #goodbreakfast"
 ---
-
 [#goodweather](https://www.instagram.com/explore/tags/goodweather/) and [#goodbreakfast](https://www.instagram.com/explore/tags/goodbreakfast/)
-
-{% include gallery.html gallery="instagram-2025-08-03-094111-goodweather-and-goodbreakfast" %}
-

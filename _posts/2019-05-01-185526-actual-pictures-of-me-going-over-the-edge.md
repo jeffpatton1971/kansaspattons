@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Actual pictures of me going over the edge"
+content_type: story
+slug: 185526-actual-pictures-of-me-going-over-the-edge
 post_id: 2019-05-01-185526-actual-pictures-of-me-going-over-the-edge
 date: 2019-05-01 18:55:26
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Actual pictures of me going over the edge"
   media_count: 5
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2019/05/01/17892384391322000.jpg"
+related:
+  - type: gallery
+    id: instagram-2019-05-01-185526-actual-pictures-of-me-going-over-the-edge
+    rel: photos
 handles: []
 location:
-gallery: "instagram-2019-05-01-185526-actual-pictures-of-me-going-over-the-edge"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Actual pictures of me going over the edge"
 ---
-
 Actual pictures of me going over the edge
-
-{% include gallery.html gallery="instagram-2019-05-01-185526-actual-pictures-of-me-going-over-the-edge" %}
-

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Thursday’s @theroost920mass 🖤💛"
+content_type: story
+slug: 100045-thursday-s-theroost920mass
 post_id: 2026-03-05-100045-thursday-s-theroost920mass
 date: 2026-03-05 10:00:45
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,16 @@ source:
   caption: "Thursday’s @theroost920mass 🖤💛"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2026/03/05/18081412058040069.jpg"
+images:
+  - id: "2026/03/05/18081412058040069.jpg"
+    caption:
+    alt:
 handles:
   - "theroost920mass"
 location:
-gallery: "instagram-2026-03-05-100045-thursday-s-theroost920mass"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Thursday’s @theroost920mass 🖤💛"
 ---
-
 Thursday’s [@theroost920mass](https://www.instagram.com/theroost920mass/) 🖤💛
-
-{% include gallery.html gallery="instagram-2026-03-05-100045-thursday-s-theroost920mass" %}
-

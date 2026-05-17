@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Just walking in the snow daddy"
+content_type: story
+slug: 074048-just-walking-in-the-snow-daddy
 post_id: 2015-02-16-074048-just-walking-in-the-snow-daddy
 date: 2015-02-16 07:40:48
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Just walking in the snow daddy"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2015/02/16/17843552377063547.jpg"
+images:
+  - id: "2015/02/16/17843552377063547.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2015-02-16-074048-just-walking-in-the-snow-daddy"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Just walking in the snow daddy"
 ---
-
 Just walking in the snow daddy
-
-{% include gallery.html gallery="instagram-2015-02-16-074048-just-walking-in-the-snow-daddy" %}
-

@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Has a blast watching the #harlemglobetrotters"
+content_type: story
+slug: 211434-has-a-blast-watching-the-harlemglobetrotters
 post_id: 2025-03-28-211434-has-a-blast-watching-the-harlemglobetrotters
 date: 2025-03-28 21:14:34
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,18 +15,17 @@ source:
   caption: "Has a blast watching the #harlemglobetrotters"
   media_count: 5
   cross_post_source: "FB"
+cover_image: "2025/03/28/17881761780266263.jpg"
+related:
+  - type: gallery
+    id: instagram-2025-03-28-211434-has-a-blast-watching-the-harlemglobetrotters
+    rel: photos
 hashtags:
   - "harlemglobetrotters"
 handles: []
 location:
-gallery: "instagram-2025-03-28-211434-has-a-blast-watching-the-harlemglobetrotters"
-tags:
-  - "harlemglobetrotters"
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Has a blast watching the #harlemglobetrotters"
 ---
-
 Has a blast watching the [#harlemglobetrotters](https://www.instagram.com/explore/tags/harlemglobetrotters/)
-
-{% include gallery.html gallery="instagram-2025-03-28-211434-has-a-blast-watching-the-harlemglobetrotters" %}
-

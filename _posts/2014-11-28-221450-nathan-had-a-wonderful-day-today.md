@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nathan had a wonderful day today!"
+content_type: story
+slug: 221450-nathan-had-a-wonderful-day-today
 post_id: 2014-11-28-221450-nathan-had-a-wonderful-day-today
 date: 2014-11-28 22:14:50
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,16 @@ source:
   caption: "Nathan had a wonderful day today!"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2014/11/28/17841867661063547.jpg"
+images:
+  - id: "2014/11/28/17841867661063547.jpg"
+    caption:
+    alt:
 handles: []
-location:
-gallery: "instagram-2014-11-28-221450-nathan-had-a-wonderful-day-today"
-tags:
-  - "instagram"
-categories:
-  - "Nathan"
+authors:
+  - "Jeff Patton"
+people:
+  - Nathan
+summary: "Nathan had a wonderful day today!"
 ---
-
 Nathan had a wonderful day today!
-
-{% include gallery.html gallery="instagram-2014-11-28-221450-nathan-had-a-wonderful-day-today" %}
-

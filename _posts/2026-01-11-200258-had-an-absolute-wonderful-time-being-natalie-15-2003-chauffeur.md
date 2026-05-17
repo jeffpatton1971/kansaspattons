@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Had an absolute wonderful time being @natalie.15.2003 chauffeur"
+content_type: story
+slug: 200258-had-an-absolute-wonderful-time-being-natalie-15-2003-chauffeur
 post_id: 2026-01-11-200258-had-an-absolute-wonderful-time-being-natalie-15-2003-chauffeur
 date: 2026-01-11 20:02:58
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,18 +15,17 @@ source:
   caption: "Had an absolute wonderful time being @natalie.15.2003 chauffeur"
   media_count: 19
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2026/01/11/18113457016614807.jpg"
+related:
+  - type: gallery
+    id: instagram-2026-01-11-200258-had-an-absolute-wonderful-time-being-natalie-15-2003-chauffeur
+    rel: photos
 handles:
   - "natalie.15.2003"
-location:
-gallery: "instagram-2026-01-11-200258-had-an-absolute-wonderful-time-being-natalie-15-2003-chauffeur"
-tags:
-  - "instagram"
-categories:
-  - "Natalie"
+authors:
+  - "Jeff Patton"
+people:
+  - Natalie
+summary: "Had an absolute wonderful time being @natalie.15.2003 chauffeur"
 ---
-
 Had an absolute wonderful time being [@natalie.15.2003](https://www.instagram.com/natalie.15.2003/) chauffeur
-
-{% include gallery.html gallery="instagram-2026-01-11-200258-had-an-absolute-wonderful-time-being-natalie-15-2003-chauffeur" %}
-

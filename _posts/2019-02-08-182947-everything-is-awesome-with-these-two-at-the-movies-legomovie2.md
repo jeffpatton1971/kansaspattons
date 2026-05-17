@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Everything is Awesome...with these two at the movies! #legomovie2"
+content_type: story
+slug: 182947-everything-is-awesome-with-these-two-at-the-movies-legomovie2
 post_id: 2019-02-08-182947-everything-is-awesome-with-these-two-at-the-movies-legomovie2
 date: 2019-02-08 18:29:47
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,18 +15,17 @@ source:
   caption: "Everything is Awesome...with these two at the movies! #legomovie2"
   media_count: 1
   cross_post_source: "FB"
+cover_image: "2019/02/08/17865082339319535.jpg"
+images:
+  - id: "2019/02/08/17865082339319535.jpg"
+    caption:
+    alt:
 hashtags:
   - "legomovie2"
 handles: []
 location:
-gallery: "instagram-2019-02-08-182947-everything-is-awesome-with-these-two-at-the-movies-legomovie2"
-tags:
-  - "legomovie2"
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Everything is Awesome...with these two at the movies! #legomovie2"
 ---
-
 Everything is Awesome...with these two at the movies! [#legomovie2](https://www.instagram.com/explore/tags/legomovie2/)
-
-{% include gallery.html gallery="instagram-2019-02-08-182947-everything-is-awesome-with-these-two-at-the-movies-legomovie2" %}
-

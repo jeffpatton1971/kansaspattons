@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Sunday morning breakfast"
+content_type: story
+slug: 092506-sunday-morning-breakfast
 post_id: 2020-07-19-092506-sunday-morning-breakfast
 date: 2020-07-19 09:25:06
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Sunday morning breakfast"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2020/07/19/17880175897725639.jpg"
+images:
+  - id: "2020/07/19/17880175897725639.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2020-07-19-092506-sunday-morning-breakfast"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Sunday morning breakfast"
 ---
-
 Sunday morning breakfast
-
-{% include gallery.html gallery="instagram-2020-07-19-092506-sunday-morning-breakfast" %}
-

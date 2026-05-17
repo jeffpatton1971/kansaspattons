@@ -1,0 +1,48 @@
+---
+layout: single
+title: "This month my son will be 10yrs cancer free. He was diagnosed with hepatoblastoma at 2yrs ..."
+content_type: gallery
+slug: "065953-this-month-my-son-will-be-10yrs-cancer-free-he-was-diagnosed-with"
+post_id: "2023-09-02-065953-this-month-my-son-will-be-10yrs-cancer-free-he-was-diagnosed-with-gallery"
+date: 2023-09-02 06:59:53
+source:
+  type: instagram
+  id: instagram-2023-09-02-065953-this-month-my-son-will-be-10yrs-cancer-free-he-was-diagnosed-with
+  media_count: "6"
+  cross_post_source: FB
+categories:
+  - Cancer
+authors:
+  - "Jeff Patton"
+summary: "6 images related to This month my son will be 10yrs cancer free. He was diagnosed with hepatoblastoma at 2yrs ...."
+gallery: instagram-2023-09-02-065953-this-month-my-son-will-be-10yrs-cancer-free-he-was-diagnosed-with
+cover_image: "2023/09/02/18086391085374415.jpg"
+images:
+  - id: "2023/09/02/18086391085374415.jpg"
+    caption:
+    alt:
+  - id: "2023/09/02/18044118523460621.jpg"
+    caption:
+    alt:
+  - id: "2023/09/02/18016280431780652.jpg"
+    caption:
+    alt:
+  - id: "2023/09/02/18005428678946036.jpg"
+    caption:
+    alt:
+  - id: "2023/09/02/17928290939748000.jpg"
+    caption:
+    alt:
+  - id: "2023/09/02/18010205578880939.jpg"
+    caption:
+    alt:
+related:
+  - type: story
+    id: "2023-09-02-065953-this-month-my-son-will-be-10yrs-cancer-free-he-was-diagnosed-with"
+    title: "This month my son will be 10yrs cancer free. He was diagnosed with hepatoblastoma at 2yrs ..."
+    rel: companion-story
+published: true
+status: published
+comments: false
+---
+Photos related to This month my son will be 10yrs cancer free. He was diagnosed with hepatoblastoma at 2yrs ....

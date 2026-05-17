@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#sunday #breakfast #lfk"
+content_type: story
+slug: 092516-sunday-breakfast-lfk
 post_id: 2025-08-10-092516-sunday-breakfast-lfk
 date: 2025-08-10 09:25:16
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,22 +15,19 @@ source:
   caption: "#sunday #breakfast #lfk"
   media_count: 1
   cross_post_source: "FB"
+cover_image: "2025/08/10/18096920764622674.jpg"
+images:
+  - id: "2025/08/10/18096920764622674.jpg"
+    caption:
+    alt:
 hashtags:
-  - "sunday"
-  - "breakfast"
-  - "lfk"
+  - breakfast
+  - lfk
+  - sunday
 handles: []
 location:
-gallery: "instagram-2025-08-10-092516-sunday-breakfast-lfk"
-tags:
-  - "sunday"
-  - "breakfast"
-  - "lfk"
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "#sunday #breakfast #lfk"
 ---
-
 [#sunday](https://www.instagram.com/explore/tags/sunday/) [#breakfast](https://www.instagram.com/explore/tags/breakfast/) [#lfk](https://www.instagram.com/explore/tags/lfk/)
-
-{% include gallery.html gallery="instagram-2025-08-10-092516-sunday-breakfast-lfk" %}
-

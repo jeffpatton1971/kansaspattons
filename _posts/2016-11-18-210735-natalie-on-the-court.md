@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Natalie on the court"
+content_type: story
+slug: 210735-natalie-on-the-court
 post_id: 2016-11-18-210735-natalie-on-the-court
 date: 2016-11-18 21:07:35
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,16 @@ source:
   caption: "Natalie on the court"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2016/11/18/17855641705103055.mp4"
+images:
+  - id: "2016/11/18/17855641705103055.mp4"
+    caption:
+    alt:
 handles: []
-location:
-gallery: "instagram-2016-11-18-210735-natalie-on-the-court"
-tags:
-  - "instagram"
-categories:
-  - "Natalie"
+authors:
+  - "Jeff Patton"
+people:
+  - Natalie
+summary: "Natalie on the court"
 ---
-
 Natalie on the court
-
-{% include gallery.html gallery="instagram-2016-11-18-210735-natalie-on-the-court" %}
-

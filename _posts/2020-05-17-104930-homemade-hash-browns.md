@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Homemade hash browns"
+content_type: story
+slug: 104930-homemade-hash-browns
 post_id: 2020-05-17-104930-homemade-hash-browns
 date: 2020-05-17 10:49:30
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,21 @@ source:
   caption: "Homemade hash browns"
   media_count: 3
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2020/05/17/17959798846317157.jpg"
+images:
+  - id: "2020/05/17/17959798846317157.jpg"
+    caption:
+    alt:
+  - id: "2020/05/17/18062277820223077.jpg"
+    caption:
+    alt:
+  - id: "2020/05/17/17902533064467769.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2020-05-17-104930-homemade-hash-browns"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Homemade hash browns"
 ---
-
 Homemade hash browns
-
-{% include gallery.html gallery="instagram-2020-05-17-104930-homemade-hash-browns" %}
-

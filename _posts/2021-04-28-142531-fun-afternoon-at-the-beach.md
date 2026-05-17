@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Fun afternoon at the beach"
+content_type: story
+slug: 142531-fun-afternoon-at-the-beach
 post_id: 2021-04-28-142531-fun-afternoon-at-the-beach
 date: 2021-04-28 14:25:31
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Fun afternoon at the beach"
   media_count: 9
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2021/04/28/17873327870382253.jpg"
+related:
+  - type: gallery
+    id: instagram-2021-04-28-142531-fun-afternoon-at-the-beach
+    rel: photos
 handles: []
 location:
-gallery: "instagram-2021-04-28-142531-fun-afternoon-at-the-beach"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Fun afternoon at the beach"
 ---
-
 Fun afternoon at the beach
-
-{% include gallery.html gallery="instagram-2021-04-28-142531-fun-afternoon-at-the-beach" %}
-

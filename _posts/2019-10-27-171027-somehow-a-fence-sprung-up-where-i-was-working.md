@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Somehow a fence sprung up where I was working!"
+content_type: story
+slug: 171027-somehow-a-fence-sprung-up-where-i-was-working
 post_id: 2019-10-27-171027-somehow-a-fence-sprung-up-where-i-was-working
 date: 2019-10-27 17:10:27
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Somehow a fence sprung up where I was working!"
   media_count: 4
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2019/10/27/17849026516682377.jpg"
+related:
+  - type: gallery
+    id: instagram-2019-10-27-171027-somehow-a-fence-sprung-up-where-i-was-working
+    rel: photos
 handles: []
 location:
-gallery: "instagram-2019-10-27-171027-somehow-a-fence-sprung-up-where-i-was-working"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Somehow a fence sprung up where I was working!"
 ---
-
 Somehow a fence sprung up where I was working!
-
-{% include gallery.html gallery="instagram-2019-10-27-171027-somehow-a-fence-sprung-up-where-i-was-working" %}
-

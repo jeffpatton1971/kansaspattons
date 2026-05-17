@@ -1,20 +1,29 @@
 ---
 layout: single
 title: "PICU Day 3"
+content_type: post
+slug: picu-day-three
 post_id: 2013-07-26-picu-day-three
 date: 2013-07-26 14:49:34
 published: true
+status: published
 comments: false
 source:
   type: wordpress
   id: 1151
   url: "https://jeffspatton.wordpress.com/2013/07/26/july-26-2013/"
-gallery: "wordpress-2013-07-26-144934-july-26-2013"
+cover_image: "2013/07/26/wp_20130726_002.jpg"
+related:
+  - type: gallery
+    id: wordpress-2013-07-26-144934-july-26-2013
+    rel: photos
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+authors:
+  - "Jeff Patton"
+people:
+  - Nathan
+summary: "Getting pain med’s every few hours makes for long nights, thankfully it looks like his fever is starting to level out. We talked with the doctor this morning and it looks like his Hemoglobin hasn’t dropped, so I think we’re out of the woods"
 ---
 Getting pain med’s every few hours makes for long nights, thankfully it looks like his fever is starting to level out. We talked with the doctor this morning and it looks like his Hemoglobin hasn’t dropped, so I think we’re out of the woods for adding blood to Nathan. Some more good news, the doctor said it sounds as though his bowels are starting to wake up and that the tube in his nose can finally come out! The doctor also wanted us to see if we can get Nathan to walk around a bit.
 
@@ -23,5 +32,3 @@ The only bad news is, it sounds like we’ll be in the PICU over the weekend. It
 While this may sound gross, there was more good news today; Nathan had two BM’s! That means that his bowels are waking up and he should be able to eat soon! He is also much more like his normal self, having all those tubes and things out he is more animated and more talkative. I would imagine that some of that is due to less pain medication, but I think he’s also healing very well.
 
 Nathan went on two walks the first one was rather short, but the second was much longer, he walked from his room across the floor and over to the PED’s unit. They have a playroom over there that he enjoyed quite a bit. We even had a visit from Aunt Lavonne who brought Nathan a few gifts and got to watch him walk around.
-
-{% include gallery.html gallery="wordpress-2013-07-26-144934-july-26-2013" %}

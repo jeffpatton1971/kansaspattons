@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "So much happy! @strangerthingstv"
+content_type: story
+slug: 204526-so-much-happy-strangerthingstv
 post_id: 2019-07-04-204526-so-much-happy-strangerthingstv
 date: 2019-07-04 20:45:26
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,16 @@ source:
   caption: "So much happy! @strangerthingstv"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2019/07/04/18082725328042022.jpg"
+images:
+  - id: "2019/07/04/18082725328042022.jpg"
+    caption:
+    alt:
 handles:
   - "strangerthingstv"
 location:
-gallery: "instagram-2019-07-04-204526-so-much-happy-strangerthingstv"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "So much happy! @strangerthingstv"
 ---
-
 So much happy! [@strangerthingstv](https://www.instagram.com/strangerthingstv/)
-
-{% include gallery.html gallery="instagram-2019-07-04-204526-so-much-happy-strangerthingstv" %}
-

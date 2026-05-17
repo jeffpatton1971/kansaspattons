@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#littleleague #baseball"
+content_type: story
+slug: 182628-littleleague-baseball
 post_id: 2020-06-09-182628-littleleague-baseball
 date: 2020-06-09 18:26:28
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,20 +15,18 @@ source:
   caption: "#littleleague #baseball"
   media_count: 1
   cross_post_source: "FB"
+cover_image: "2020/06/09/17848764083117174.jpg"
+images:
+  - id: "2020/06/09/17848764083117174.jpg"
+    caption:
+    alt:
 hashtags:
-  - "littleleague"
-  - "baseball"
+  - baseball
+  - littleleague
 handles: []
 location:
-gallery: "instagram-2020-06-09-182628-littleleague-baseball"
-tags:
-  - "littleleague"
-  - "baseball"
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "#littleleague #baseball"
 ---
-
 [#littleleague](https://www.instagram.com/explore/tags/littleleague/) [#baseball](https://www.instagram.com/explore/tags/baseball/)
-
-{% include gallery.html gallery="instagram-2020-06-09-182628-littleleague-baseball" %}
-

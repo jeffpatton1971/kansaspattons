@@ -4,3 +4,10 @@ _site
 .tmp/
 .instagram/
 .facebook/
+node_modules/
+dist/
+public/content/
+api/dist/
+api/local.settings.json
+test-results/
+playwright-report/

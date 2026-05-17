@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Had fun at our #firstrodeo"
+content_type: story
+slug: 213145-had-fun-at-our-firstrodeo
 post_id: 2023-06-17-213145-had-fun-at-our-firstrodeo
 date: 2023-06-17 21:31:45
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,18 +15,17 @@ source:
   caption: "Had fun at our #firstrodeo"
   media_count: 10
   cross_post_source: "FB"
+cover_image: "2023/06/17/17981028932209060.jpg"
+related:
+  - type: gallery
+    id: instagram-2023-06-17-213145-had-fun-at-our-firstrodeo
+    rel: photos
 hashtags:
   - "firstrodeo"
 handles: []
 location:
-gallery: "instagram-2023-06-17-213145-had-fun-at-our-firstrodeo"
-tags:
-  - "firstrodeo"
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Had fun at our #firstrodeo"
 ---
-
 Had fun at our [#firstrodeo](https://www.instagram.com/explore/tags/firstrodeo/)
-
-{% include gallery.html gallery="instagram-2023-06-17-213145-had-fun-at-our-firstrodeo" %}
-

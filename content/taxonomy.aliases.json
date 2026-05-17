@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "2026-05-16",
+  "removed": [
+    "wordpress",
+    "instagram",
+    "facebook",
+    "gallery",
+    "album"
+  ],
+  "hashtags": {
+    "beeakfast": "breakfast",
+    "breakfsst": "breakfast",
+    "brekfast": "breakfast",
+    "candelightconcert": "candlelightconcert",
+    "cicgars": "cigars",
+    "covidvacccine": "covidvaccine",
+    "happythanksgivng": "happythanksgiving",
+    "newbeginings": "newbeginnings",
+    "tradtions": "traditions"
+  },
+  "categories": {
+    "birthdays": "Birthday",
+    "july 4th": "July 4th",
+    "july fourth": "July 4th",
+    "fourth of july": "July 4th",
+    "4th of july": "July 4th",
+    "new year": "New Year",
+    "new years": "New Year",
+    "new year's": "New Year",
+    "new years day": "New Year",
+    "new year's day": "New Year",
+    "field-day": "Field Day",
+    "field day": "Field Day",
+    "field-trips": "Field Trips",
+    "field trips": "Field Trips",
+    "first-grade": "First Grade",
+    "first grade": "First Grade",
+    "last-day": "Last Day",
+    "last day": "Last Day"
+  },
+  "people": {
+    "nathan": "Nathan",
+    "natalie": "Natalie",
+    "sarah": "Sarah",
+    "grandma": "Grandma",
+    "grandpa": "Grandpa"
+  },
+  "locations": {
+    "cair paravel": "Cair Paravel Latin School",
+    "cair paravel latin school": "Cair Paravel Latin School",
+    "cpls": "Cair Paravel Latin School",
+    "crown center": "Crown Center",
+    "crown-center": "Crown Center"
+  }
+}

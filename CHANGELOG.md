@@ -1,0 +1,225 @@
+# Changelog
+
+Published behavior changes and bug fixes for the React site migration.
+
+## Unreleased
+
+### Added
+
+- Started the React migration branch with a documented split between detailed iteration notes and public-facing changelog entries.
+- Added a Vite, React, and TypeScript application shell.
+- Added a content compiler that converts existing `_posts` and `_gallery` Markdown into generated JSON content for React.
+- Added post archive routes for all posts, year, month, day, and individual post views.
+- Added image archive routes for all images, year, month, day, and selected image views.
+- Added horizontal archive shelves for browsing years, months, and days.
+- Added carousel-style browsing for images attached to individual posts.
+- Added legacy `/blog/:year/:month/:day/:slug.html` redirect support into the new post route shape.
+- Added a reusable archive calendar control for date-based browsing.
+- Added a shared archive page shell with a left calendar rail and central content area for posts and images.
+- Added an author information card in the home page left rail.
+- Added a separate Stories archive and detail route for social/media-shaped entries.
+- Added generated content indexes for posts, stories, and all entries.
+- Added a compact generated `home.json` summary for the home page.
+- Added generated cover image metadata to entry summaries.
+- Added shared Posts, Stories, and Images metric cards to archive and detail page right rails.
+- Added generated story metadata for hashtags, Instagram handles, location, and richer source details.
+- Added metadata chips for categories, tags, hashtags, handles, and location on post and story detail pages.
+- Added recent stories to the compact home page summary.
+- Added a shared compact home entry card for recent posts and recent stories.
+- Added a generated `recentEntries` home feed that combines recent posts and stories.
+- Added a TypeScript Azure Functions API scaffold for storage-backed content endpoints.
+- Added API endpoints for home, posts, stories, images, entry details, and image details.
+- Added API list filtering and paging by date with cursor/limit query parameters.
+- Added API documentation and local settings sample for reading generated content from local files or a storage URL.
+- Added short-lived API artifact caching with configurable `CONTENT_CACHE_SECONDS`.
+- Added Windows and macOS setup documentation for Azure Functions Core Tools and Azurite.
+- Added troubleshooting notes for Azurite npm warnings and missing `func` PATH setup.
+- Added a Vite `/api` proxy for local React development against Azure Functions.
+- Added an `/api/entries` endpoint for legacy redirect lookups.
+- Added frontend API adapters so existing pages can consume API list responses.
+- Added `galleryId` filtering to the image API for related-image lookups.
+- Added grouped image API consumption for year, month, and day archive browsing.
+- Added an Azure Blob Storage publish script for generated JSON content artifacts.
+- Added dry-run publishing support and publish documentation for storage-backed API content.
+- Added a `_publish.json` manifest to storage publishes.
+- Added generated content schema documentation for site, home, entry, image, archive, and API response shapes.
+- Added multi-site content hosting documentation for separate site repos, shared storage prefixes, and named API routes.
+- Added site-aware API routes under `/api/sites/{site}/...` for home, entries, posts, stories, and images.
+- Added target content-model documentation for Articles, Stories, Galleries, and reusable Image assets.
+- Added generated gallery indexes and gallery detail documents derived from grouped image records.
+- Added API endpoints and React routes for `/galleries` and gallery detail pages.
+- Added support for authored `content_type: gallery` Markdown sources that enrich generated galleries.
+- Added source-count badges for WordPress, Instagram, and Facebook in the archive right rail.
+- Added `source` filtering to post, story, and gallery API list endpoints.
+- Added Tailwind CSS v4 and shadcn/ui as the shared styling foundation for this site and future sibling sites.
+- Added initial shadcn primitives for buttons, cards, badges, separators, skeletons, and tooltips.
+- Added design-system documentation for the Tailwind/shadcn setup and cross-site styling direction.
+- Added a repeatable `normalize:posts` script for applying the new frontmatter shape across imported Markdown posts.
+- Added rich direct `images` frontmatter support for posts that attach images without creating a gallery page.
+- Added `imageId` filtering to the image API so post details can fetch direct image attachments.
+- Added inline rendering for galleries referenced through post/story `related` metadata.
+- Added a repeatable gallery relationship migration script with dry-run validation and an explicit write command.
+- Added focused, non-clickable story image carousel controls for story detail pages.
+- Added a gallery peek carousel that shows the selected image with previous/next images angled beside it.
+- Added an image storage migration manifest script for planning canonical raw/thumb blob paths.
+- Added image storage migration documentation for the shared storage-account, site-container asset layout.
+- Added an image storage blob migration runner with dry-run, batch, skip-existing, and explicit write modes.
+- Added video-thumbnail awareness to image storage migration planning and copy execution.
+- Added a persistent site footer below the shared application body.
+- Added a shared content contract document defining the target `post`, `story`, and `gallery` envelope, metadata, media references, publish triggers, API direction, and validation expectations.
+- Added a platform roadmap covering publish pipeline work, `_gallery` retirement, shared API extraction, hashtag/search discovery, Azure cleanup, and test coverage.
+- Added a content validation script that checks authored Markdown shape, required metadata, unique IDs/routes, canonical media references, gallery cover/image consistency, and related-content targets.
+- Added a contract frontmatter migration script for moving old `article` compatibility values to the final `post` terminology.
+- Added a taxonomy normalization script for folding tags into hashtags, removing source/import labels from user-facing taxonomy, and normalizing category casing.
+- Added generated `taxonomy.json` output listing hashtags and categories with counts and related content items.
+- Added an entity normalization script for moving people and places out of categories into `people` and `locations` metadata.
+- Added media manifest documentation for replacing legacy one-file-per-image `_gallery` metadata with a generated media asset inventory.
+- Added a checked-in `content/media/index.json` media manifest generated from legacy `_gallery` metadata.
+- Added `media:manifest` and `media:manifest:write` commands for rebuilding the source media manifest.
+- Added taxonomy API endpoints for resolving hashtag, category, people, and location terms.
+- Added frontend routes for `/hashtags/{slug}`, `/categories/{slug}`, `/people/{slug}`, and `/locations/{slug}`.
+- Added generated `search/index.json` output for cross-type post, story, and gallery search.
+- Added `/api/search` and `/api/sites/{site}/search` endpoints with ranked, paged results.
+- Added the `/search` React route with a search form, content-type filter, and clickable result cards.
+- Added Search to the configurable site navigation and footer examples.
+- Added split test commands for site and API verification.
+- Added Playwright browser smoke tests for the built React site.
+- Added API-local tests for search normalization, ranking, filtering, and public result shape.
+- Added testing documentation for local and CI/Dependabot usage.
+- Added pull-request CI for content validation, site build, Playwright tests, and API tests.
+- Added GitHub Actions publishing for incremental `main` publishes and full tag rebuilds.
+- Added GitHub Pages deployment from the built React `dist` artifact.
+- Added commit-range planning support to `publish:plan` for clean GitHub Actions checkouts.
+- Added a bottom-of-content taxonomy footer for rendering clickable hashtags and categories on post, story, and gallery detail pages.
+- Added `content/site.config.json` as the editable source for site title, URL, navigation, banner, author, footer, and theme settings.
+- Added site configuration documentation covering nav links, banner images, footer links/text, and theme variables.
+- Added `content/taxonomy.aliases.json` and shared taxonomy-rule loading so validation, taxonomy cleanup, and people/location cleanup use the same canonical alias maps.
+- Added golden content example documentation naming reference post, story, and gallery files for future schema and rendering changes.
+- Added `npm run publish:plan` to dry-run changed Markdown, local media references, affected generated JSON, affected indexes, planned media uploads, and Markdown rewrites without publishing.
+- Added media-manifest planning to `npm run publish:plan`, including SHA-256 hashing, byte sizes, canonical blob paths, manifest collision checks, and planned manifest asset output for local draft media.
+- Added `npm run publish:prepare` to apply issue-free source-side publish plans by rewriting local draft media references and appending media manifest assets without uploading or deleting files.
+
+### Changed
+
+- Added `source.type: wordpress` frontmatter to older WordPress-tagged posts that were missing structured source metadata.
+- Split generated entries into WordPress-shaped Posts and Instagram/Facebook-shaped Stories.
+- Updated legacy `/blog/...` redirects to resolve to either Posts or Stories based on generated entry metadata.
+- Changed the home page to load the compact summary instead of full post, story, and image indexes.
+- Changed the home page to show posts and stories together in a single date-sorted Recent Updates stream.
+- Changed WordPress-shaped Posts to render as article-style cards with expanded excerpts.
+- Changed Stories to render as image-first media cards.
+- Made post cards fully clickable instead of using a separate `Open` button.
+- Changed image archive browsing so thumbnails render only after selecting a specific day.
+- Changed image archive navigation to show a single year/month/day shelf at a time instead of stacked shelves.
+- Changed month-level image browsing to show thumbnails grouped by day.
+- Changed year-level image browsing to show thumbnails grouped by month.
+- Changed root image browsing to show thumbnails grouped by year.
+- Limited broad image-group thumbnail previews and added a compact overflow tile linking into the full group.
+- Changed grouped image previews from filmstrip-style thumbnail rows to larger carousel-style panels with arrow controls.
+- Added Embla Carousel for grouped image previews and restyled those previews as layered stacked carousels.
+- Changed content validation so the final `post`, `story`, and `gallery` content types are enforced, legacy `article` references fail validation, authored media references must be canonical manifest keys, and the report includes referenced media ID counts.
+- Changed the content build and validator to require `content/media/index.json` instead of falling back to legacy `_gallery` metadata at runtime.
+- Changed `/posts` from an all-posts view to a calendar-led month/day archive view.
+- Changed `/images` to include the same calendar archive control in the left rail while preserving visual image browsing in the center.
+- Changed the home page to use the shared left/main/right shell layout.
+- Moved the home page Posts and Images metric cards into the right rail.
+- Changed individual post and story detail pages to use the shared archive shell with a left calendar rail and right metric rail.
+- Changed story detail pages to lead with the attached image carousel before rendering the story body.
+- Changed the content compiler to preserve scalar category and tag frontmatter values.
+- Changed the React content fetch layer to use `/api/...` endpoints instead of direct `/content/...` JSON files.
+- Changed post and story archive pages to request filtered, paged API results instead of full client-side indexes.
+- Changed image archive pages to request grouped or day-scoped API results instead of the full image index.
+- Changed post and story detail pages to fetch related images through targeted gallery API queries.
+- Changed legacy redirect lookups to query entries by date scope instead of loading all entries.
+- Simplified selected image detail into a breadcrumb-led view with the image as the primary focus.
+- Changed generated `site.json` to include a site key, navigation, and author metadata.
+- Changed the content publish script so its default storage prefix is based on `CONTENT_SITE_KEY`.
+- Changed the home page author card to read from API-provided site metadata.
+- Changed generated article and story JSON to include the future content graph fields: `type`, `siteKey`, `status`, `authors`, `summary`, `imageIds`, and `related`.
+- Changed archive metrics and generated site counts to include galleries.
+- Added sample `content_type`, `authors`, and `summary` frontmatter to representative article/story Markdown files.
+- Marked the Mobile Uploads Facebook album posts as excluded from post/story/gallery archives.
+- Changed the Christmas 2008 Facebook album post into the active authored gallery sample.
+- Updated legacy `/blog/...` redirects so a legacy gallery post can redirect to its `/galleries/...` route.
+- Changed Facebook album imports to generate as galleries instead of story entries.
+- Excluded Facebook Mobile Uploads albums from story and gallery archives while keeping their individual images in `/images`.
+- Changed the archive right rail to use shadcn cards, badges, separators, and skeleton loading states.
+- Converted all `_posts` Markdown files to explicit `content_type`, `slug`, `post_id`, `status`, `authors`, and `summary` frontmatter.
+- Changed the content compiler to honor explicit post `slug` and top-level `id` frontmatter during JSON generation.
+- Changed the Pumpkin Patch sample into an article plus a first-class gallery source with rich image references.
+- Changed the Big Boy sample into an article with a direct image attachment instead of a one-image gallery.
+- Changed imported image relationships so `1-3` images attach directly to articles/stories and `4+` images become first-class gallery documents.
+- Changed WordPress and Instagram entries with larger image sets to link related gallery documents instead of carrying old Jekyll gallery includes.
+- Changed small Facebook album imports into direct-image stories while keeping larger named Facebook albums as gallery documents.
+- Reduced generated galleries from broad imported image groups to meaningful `4+` image gallery sets, while keeping Facebook Mobile Uploads excluded.
+- Changed story detail rendering so stories backed by related galleries still lead with an image carousel.
+- Changed gallery detail pages and inline related galleries to use the gallery peek carousel instead of thumbnail grids or clickable image strips.
+- Centered story carousel media and capped its frame width so story photos no longer render oversized or left-aligned.
+- Removed two Instagram image records whose raw source files are absent from both Azure Storage and the Instagram export.
+- Changed three Instagram image records with missing thumbnail blobs to use their raw image as the thumbnail fallback.
+- Replaced the story-only detail grid with a shared post/story detail shell using a larger center column and balanced side rails.
+- Changed the app frame to use a header, shared three-column body, and footer layout.
+- Changed landing pages to reserve a consistent body viewport between the header and footer.
+- Changed the home Recent Updates feed to include posts, stories, and galleries, capped at five items.
+- Changed the home Recent Images feed to return and render ten items.
+- Changed the React shell to use a PattonTech/Minimal Mistakes-inspired dark skin with a masthead, constrained three-column archive body, dark cards, and side-rail profile/metric styling.
+- Changed the home intro copy from prototype language to archive-focused production copy.
+- Changed the home page intro to render as a full-width banner below the header before the three-column body begins, matching the PattonTech page structure more closely.
+- Changed post, story, and gallery archive pages to render four items per page with linked pagination controls.
+- Changed image archive group browsing to paginate visible year, month, and day group tiles while preserving the grouped carousel presentation.
+- Removed home page secondary heading links from Recent Updates and Recent Images.
+- Removed the source filter card from the archive metrics rail.
+- Removed archive heading reset buttons from post, story, gallery, and image archive pages.
+- Removed item counts from post, story, and gallery archive titles.
+- Changed image archive group browsing to show one grouped tile per page.
+- Removed image archive breadcrumb links from image browsing and selected image views.
+- Changed selected image page titles to show only the image date instead of date plus daily image count.
+- Added image reference canonicalization tooling for rewriting migrated Markdown image references to `yyyy/mm/dd/filename.ext`.
+- Changed generated image IDs, image routes, and raw/thumb URLs to use canonical date-scoped media keys and storage paths.
+- Changed image detail lookup to resolve canonical media IDs from `/images/yyyy/mm/dd/filename.ext` routes.
+- Clarified documentation so the final authored content model has only `post`, `story`, and `gallery`, while current `article`, `tags`, `categories`, and `source` fields are treated as migration compatibility data.
+- Changed all authored WordPress-shaped Markdown files from `content_type: article` to `content_type: post`.
+- Changed gallery back-links from `related.type: article` and `companion-article` to `related.type: post` and `companion-post`.
+- Updated content normalization and gallery relationship migration tooling so future authoring migrations write `post` terminology.
+- Changed authored content taxonomy so `tags` are folded into normalized `hashtags` and the `tags` field is removed from Markdown.
+- Removed source/import values such as `wordpress`, `instagram`, `facebook`, `gallery`, and `album` from user-facing tags, hashtags, and categories.
+- Normalized category casing and duplicate category values across authored Markdown.
+- Removed raw source-type labels from post and story detail headers.
+- Merged category aliases for birthday, July 4th, New Year, and hyphenated school/event category variants.
+- Enforced normalized hashtag formatting in content validation: lowercase, no leading `#`, and no spaces.
+- Added conservative hashtag typo aliases for obvious misspellings such as `brekfast`, `breakfsst`, `beeakfast`, `tradtions`, `happythanksgivng`, and similar one-off terms.
+- Moved person-like category values such as `Nathan`, `Natalie`, `Sarah`, `Grandma`, and `Grandpa` into `people` metadata.
+- Moved place-like category values such as `Cair Paravel` and `Crown Center` into `locations` metadata.
+- Changed generated taxonomy output to include `people` and `locations` term indexes alongside hashtags and categories.
+- Changed post, story, and gallery metadata rendering to show people and locations separately from categories.
+- Changed content generation to read media from `content/media/index.json` when present, while keeping `_gallery` as a temporary fallback during migration.
+- Changed generated output to publish the media manifest at `media/index.json` beside the existing image browse index.
+- Changed hashtag, category, people, and location chips on detail pages into internal links.
+- Changed related post/story links to resolve routes and render on detail pages when authored in `related`.
+- Changed post and story header metadata so hashtags and categories no longer render in the header strip.
+- Changed generated gallery summaries and detail documents to carry hashtags, allowing gallery hashtags to appear in taxonomy results and gallery footers.
+- Changed gallery detail pages to show the taxonomy footer before the image carousel so hashtags/categories are visible before scrolling through media.
+- Removed the frontend's permanent in-memory JSON cache so changed content and metadata are fetched fresh during local iteration.
+- Changed generated `site.json` and `/api/home` site metadata to include banner, footer, and theme configuration.
+- Changed the React shell to render brand, nav, footer, home banner, font, and theme colors from API-provided site configuration instead of hardcoded KansasPattons values.
+- Changed nav/footer rendering so configured links can point to either internal React routes or external pages.
+- Added `publish:media:dry-run` and `publish:media` commands for uploading planned local media to canonical Azure Blob paths with generated image thumbnails and video posters.
+- Added `publish:cleanup-media` and `publish:cleanup-media:write` commands for separately removing verified local draft media after upload and source prep.
+- Added incremental generated-content commands that write and publish only the JSON paths affected by the current publish plan.
+- Removed the legacy `_gallery` media metadata directory and retired normal npm commands/scripts that regenerated data from it.
+- Changed the publish workflow to deploy the React build and managed API to Azure Static Web Apps instead of GitHub Pages.
+- Added Azure Static Web Apps routing configuration for SPA fallback, static headers, JSON MIME handling, and the Node API runtime.
+- Added the Azure Static Web Apps production URL to the publish workflow environment metadata and documented the temporary SWA host variables.
+- Changed the publish workflow environment name to `Production` to match the configured GitHub deployment environment and OIDC subject.
+- Added a GitHub Pages to Azure Static Web Apps migration playbook for future smaller-site migrations.
+
+### Fixed
+
+- Added Vite client type declarations so TypeScript accepts the app stylesheet import during production builds.
+- Prevented TypeScript from emitting generated JavaScript for Vite configuration during production builds.
+- Fixed generated legacy post dates with spaced timezone offsets that could blank the `/posts` route at runtime.
+- Made date label rendering defensive so malformed dates do not crash archive pages.
+- Fixed missing numeric source metadata being emitted as `0` in generated content.
+- Prevented transient failed content artifact reads from being cached by the API.
+- Fixed generated image source values so object frontmatter emits the source type instead of `[object Object]`.
+- Restored the archive calendar on gallery detail pages and preserved source-filtered gallery navigation from the right-rail badges.

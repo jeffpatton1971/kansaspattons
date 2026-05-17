@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Natalie made donuts"
+content_type: story
+slug: 153755-natalie-made-donuts
 post_id: 2022-11-13-153755-natalie-made-donuts
 date: 2022-11-13 15:37:55
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,16 @@ source:
   caption: "Natalie made donuts"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2022/11/13/17955046595227019.jpg"
+images:
+  - id: "2022/11/13/17955046595227019.jpg"
+    caption:
+    alt:
 handles: []
-location:
-gallery: "instagram-2022-11-13-153755-natalie-made-donuts"
-tags:
-  - "instagram"
-categories:
-  - "Natalie"
+authors:
+  - "Jeff Patton"
+people:
+  - Natalie
+summary: "Natalie made donuts"
 ---
-
 Natalie made donuts
-
-{% include gallery.html gallery="instagram-2022-11-13-153755-natalie-made-donuts" %}
-

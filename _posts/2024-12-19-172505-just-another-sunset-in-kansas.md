@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Just another #sunset in #kansas"
+content_type: story
+slug: 172505-just-another-sunset-in-kansas
 post_id: 2024-12-19-172505-just-another-sunset-in-kansas
 date: 2024-12-19 17:25:05
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,20 +15,18 @@ source:
   caption: "Just another #sunset in #kansas"
   media_count: 1
   cross_post_source: "FB"
+cover_image: "2024/12/19/18386315233103017.jpg"
+images:
+  - id: "2024/12/19/18386315233103017.jpg"
+    caption:
+    alt:
 hashtags:
-  - "sunset"
-  - "kansas"
+  - kansas
+  - sunset
 handles: []
 location:
-gallery: "instagram-2024-12-19-172505-just-another-sunset-in-kansas"
-tags:
-  - "sunset"
-  - "kansas"
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Just another #sunset in #kansas"
 ---
-
 Just another [#sunset](https://www.instagram.com/explore/tags/sunset/) in [#kansas](https://www.instagram.com/explore/tags/kansas/)
-
-{% include gallery.html gallery="instagram-2024-12-19-172505-just-another-sunset-in-kansas" %}
-

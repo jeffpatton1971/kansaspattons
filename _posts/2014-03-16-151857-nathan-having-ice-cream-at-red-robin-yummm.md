@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nathan having ice cream at Red Robin...yummm"
+content_type: story
+slug: 151857-nathan-having-ice-cream-at-red-robin-yummm
 post_id: 2014-03-16-151857-nathan-having-ice-cream-at-red-robin-yummm
 date: 2014-03-16 15:18:57
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,16 @@ source:
   caption: "Nathan having ice cream at Red Robin...yummm"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2014/03/16/17842461088063547.jpg"
+images:
+  - id: "2014/03/16/17842461088063547.jpg"
+    caption:
+    alt:
 handles: []
-location:
-gallery: "instagram-2014-03-16-151857-nathan-having-ice-cream-at-red-robin-yummm"
-tags:
-  - "instagram"
-categories:
-  - "Nathan"
+authors:
+  - "Jeff Patton"
+people:
+  - Nathan
+summary: "Nathan having ice cream at Red Robin...yummm"
 ---
-
 Nathan having ice cream at Red Robin...yummm
-
-{% include gallery.html gallery="instagram-2014-03-16-151857-nathan-having-ice-cream-at-red-robin-yummm" %}
-

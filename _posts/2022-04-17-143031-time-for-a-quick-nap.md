@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Time for a quick nap"
+content_type: story
+slug: 143031-time-for-a-quick-nap
 post_id: 2022-04-17-143031-time-for-a-quick-nap
 date: 2022-04-17 14:30:31
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,16 +15,15 @@ source:
   caption: "Time for a quick nap"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2022/04/17/17960089924715839.jpg"
+images:
+  - id: "2022/04/17/17960089924715839.jpg"
+    caption:
+    alt:
 handles: []
 location:
-gallery: "instagram-2022-04-17-143031-time-for-a-quick-nap"
-tags:
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "Time for a quick nap"
 ---
-
 Time for a quick nap
-
-{% include gallery.html gallery="instagram-2022-04-17-143031-time-for-a-quick-nap" %}
-

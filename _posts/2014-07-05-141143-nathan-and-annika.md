@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Nathan and Annika"
+content_type: story
+slug: 141143-nathan-and-annika
 post_id: 2014-07-05-141143-nathan-and-annika
 date: 2014-07-05 14:11:43
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,16 @@ source:
   caption: "Nathan and Annika"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2014/07/05/17843321482063547.jpg"
+images:
+  - id: "2014/07/05/17843321482063547.jpg"
+    caption:
+    alt:
 handles: []
-location:
-gallery: "instagram-2014-07-05-141143-nathan-and-annika"
-tags:
-  - "instagram"
-categories:
-  - "Nathan"
+authors:
+  - "Jeff Patton"
+people:
+  - Nathan
+summary: "Nathan and Annika"
 ---
-
 Nathan and Annika
-
-{% include gallery.html gallery="instagram-2014-07-05-141143-nathan-and-annika" %}
-

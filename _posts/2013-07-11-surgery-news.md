@@ -1,19 +1,24 @@
 ---
 layout: single
 title: "Surgery News"
+content_type: post
+slug: surgery-news
 post_id: 2013-07-11-surgery-news
 date: 2013-07-11 08:10:52
 published: true
+status: published
 comments: false
 source:
   type: wordpress
   id: 758
   url: "https://jeffspatton.wordpress.com/2013/07/11/july-11-2013/"
 categories:
-  - "Nathan"
-  - cancer
-tags:
-  - "wordpress"
+  - Cancer
+authors:
+  - "Jeff Patton"
+people:
+  - Nathan
+summary: "Nathan’s Oncologist called Malia today and told her she had spoken with the surgeon about Nathan. We are supposed to head to KU Med on Tuesday for lab work, and to talk with the doctor there, and then his surgery will be the following day. "
 ---
 Nathan’s Oncologist called Malia today and told her she had spoken with the surgeon about Nathan. We are supposed to head to KU Med on Tuesday for lab work, and to talk with the doctor there, and then his surgery will be the following day. She said we should hear from KU Med prior to Tuesday for more details.
 

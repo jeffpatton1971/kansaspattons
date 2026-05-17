@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "#tgif it’s donut Friday"
+content_type: story
+slug: 071834-tgif-it-s-donut-friday
 post_id: 2025-02-28-071834-tgif-it-s-donut-friday
 date: 2025-02-28 07:18:34
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,18 +15,17 @@ source:
   caption: "#tgif it’s donut Friday"
   media_count: 1
   cross_post_source: "FB"
+cover_image: "2025/02/28/18054335705114065.jpg"
+images:
+  - id: "2025/02/28/18054335705114065.jpg"
+    caption:
+    alt:
 hashtags:
   - "tgif"
 handles: []
 location:
-gallery: "instagram-2025-02-28-071834-tgif-it-s-donut-friday"
-tags:
-  - "tgif"
-  - "instagram"
-categories: []
+authors:
+  - "Jeff Patton"
+summary: "#tgif it’s donut Friday"
 ---
-
 [#tgif](https://www.instagram.com/explore/tags/tgif/) it’s donut Friday
-
-{% include gallery.html gallery="instagram-2025-02-28-071834-tgif-it-s-donut-friday" %}
-

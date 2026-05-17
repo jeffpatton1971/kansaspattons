@@ -1,9 +1,12 @@
 ---
 layout: single
 title: "Sky Observations with Nathan"
+content_type: story
+slug: 214216-sky-observations-with-nathan
 post_id: 2023-09-24-214216-sky-observations-with-nathan
 date: 2023-09-24 21:42:16
 published: true
+status: published
 comments: false
 source:
   type: instagram
@@ -12,17 +15,16 @@ source:
   caption: "Sky Observations with Nathan"
   media_count: 1
   cross_post_source: "FB"
-hashtags: []
+cover_image: "2023/09/24/18058492201454490.jpg"
+images:
+  - id: "2023/09/24/18058492201454490.jpg"
+    caption:
+    alt:
 handles: []
-location:
-gallery: "instagram-2023-09-24-214216-sky-observations-with-nathan"
-tags:
-  - "instagram"
-categories:
-  - "Nathan"
+authors:
+  - "Jeff Patton"
+people:
+  - Nathan
+summary: "Sky Observations with Nathan"
 ---
-
 Sky Observations with Nathan
-
-{% include gallery.html gallery="instagram-2023-09-24-214216-sky-observations-with-nathan" %}
-
