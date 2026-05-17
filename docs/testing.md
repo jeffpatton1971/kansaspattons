@@ -77,3 +77,11 @@ npm run test
 ```
 
 This is the command Dependabot and pull-request CI should run after install.
+
+The pull-request workflow is:
+
+```text
+.github/workflows/pr-ci.yml
+```
+
+Publishing workflows are documented in [`github-actions.md`](github-actions.md).

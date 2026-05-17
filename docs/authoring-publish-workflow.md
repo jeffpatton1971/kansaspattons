@@ -24,6 +24,8 @@ The replacement for legacy one-file-per-image media metadata is defined in
 Site presentation settings are defined in
 [`site-configuration.md`](site-configuration.md).
 
+GitHub Actions publishing is defined in [`github-actions.md`](github-actions.md).
+
 The current reference files for the target post/story/gallery shapes are listed
 in [`golden-content-examples.md`](golden-content-examples.md).
 
@@ -376,13 +378,16 @@ The target publish flow should separate validation from production publishing.
 ```text
 pull_request       full validation and full site rebuild, no production publish
 push to main       incremental publish for changed Markdown and local media
+tag push           full rebuild and republish for versioned site changes
 workflow_dispatch  manual full rebuild and republish
 ```
 
 The pull-request rebuild protects the shared API/content contract before a merge.
-The push-to-main incremental path keeps normal authoring fast. The manual full
-rebuild remains available for migrations, dependency updates, index repairs, and
-large cleanup work.
+The push-to-main incremental path keeps normal authoring fast. Tag pushes are
+the release path for larger site-structure changes and rebuild all generated
+content before deploying the React site to GitHub Pages. The manual full rebuild
+remains available for migrations, dependency updates, index repairs, and large
+cleanup work.
 
 For dependency updates and pull requests, the current combined verification
 command is:

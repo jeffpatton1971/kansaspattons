@@ -20,6 +20,7 @@ type ContentType = 'post' | 'story' | 'gallery';
 type ChangedFile = {
   status: string;
   path: string;
+  previousPath?: string;
 };
 
 type MarkdownPlan = {
@@ -74,28 +75,49 @@ type PublishWriteResult = {
   mediaFilesRemoved: string[];
 };
 
+type PublishPlanOptions = {
+  writeSource: boolean;
+  base?: string;
+  head?: string;
+};
+
 const execFileAsync = promisify(execFile);
 const root = process.cwd();
 const sourceMediaManifestPath = path.join(root, 'content', 'media', 'index.json');
 const reportPath = path.join(root, '.tmp', 'publish-plan-report.json');
 const canonicalMediaKey = /^\d{4}\/\d{2}\/\d{2}\/[^/]+\.[A-Za-z0-9]+$/;
 const externalReference = /^[a-z][a-z0-9+.-]*:/i;
-const writeSource = process.argv.includes('--write-source');
+const args = process.argv.slice(2);
+const options = publishPlanOptions();
+const writeSource = options.writeSource;
 
 async function main() {
   const mediaManifest = await readMediaManifest(sourceMediaManifestPath);
   const manifestAssetsById = new Map(mediaManifest.assets.map((asset) => [asset.id, asset]));
-  const changedFiles = await gitChangedFiles();
-  const markdownFiles = changedFiles
+  const changedFiles = await gitChangedFiles(options);
+  const deletedMarkdownFiles = changedFiles
+    .filter((file) => /^_posts\/.+\.md$/i.test(file.path) && isDeletedStatus(file.status))
     .map((file) => file.path)
-    .filter((file) => /^_posts\/.+\.md$/i.test(file))
+    .sort();
+  const markdownFiles = changedFiles
+    .filter((file) => /^_posts\/.+\.md$/i.test(file.path) && !isDeletedStatus(file.status))
+    .map((file) => file.path)
     .sort();
   const changedLocalMedia = changedFiles
+    .filter((file) => isLikelyMediaFile(file.path) && !isDeletedStatus(file.status))
     .map((file) => file.path)
-    .filter((file) => isLikelyMediaFile(file))
     .sort();
   const markdownPlans: MarkdownPlan[] = [];
   const issues: Issue[] = [];
+
+  for (const file of deletedMarkdownFiles) {
+    issues.push({
+      code: 'content.deletionRequiresFullPublish',
+      file,
+      message:
+        'Incremental publish cannot safely remove generated JSON for deleted content yet. Restore the file or run a tagged full rebuild/republish after handling the deleted artifact.',
+    });
+  }
 
   for (const file of markdownFiles) {
     markdownPlans.push(await planMarkdown(file, mediaManifest, manifestAssetsById, issues));
@@ -131,6 +153,11 @@ async function main() {
   const report = {
     generatedAt: new Date().toISOString(),
     mode: writeSource ? 'write-source' : 'plan',
+    changeDetection: {
+      mode: changeDetectionMode(options),
+      base: options.base,
+      head: options.head,
+    },
     mediaManifest: {
       path: path.relative(root, sourceMediaManifestPath).replaceAll(path.sep, '/'),
       assets: mediaManifest.assets.length,
@@ -166,7 +193,32 @@ async function main() {
   }
 }
 
-async function gitChangedFiles() {
+function publishPlanOptions(): PublishPlanOptions {
+  const base =
+    optionalArgValue('--base') ||
+    optionalText(process.env.PUBLISH_PLAN_BASE) ||
+    optionalText(process.env.GITHUB_EVENT_BEFORE);
+  const head =
+    optionalArgValue('--head') ||
+    optionalText(process.env.PUBLISH_PLAN_HEAD) ||
+    optionalText(process.env.GITHUB_SHA);
+
+  return {
+    writeSource: hasArg('--write-source'),
+    base,
+    head,
+  };
+}
+
+async function gitChangedFiles(options: PublishPlanOptions) {
+  if (options.base && isZeroSha(options.base)) {
+    return gitRootCommitChangedFiles(options.head || 'HEAD');
+  }
+
+  if (options.base) {
+    return gitDiffChangedFiles(options.base, options.head || 'HEAD');
+  }
+
   const { stdout } = await execFileAsync('git', ['status', '--short', '--porcelain=v1'], { cwd: root });
 
   return stdout
@@ -176,13 +228,52 @@ async function gitChangedFiles() {
     .map((line): ChangedFile => {
       const status = line.slice(0, 2);
       const rawPath = line.slice(3);
-      const renamedPath = rawPath.includes(' -> ') ? rawPath.split(' -> ').at(-1)! : rawPath;
+      const renamedParts = rawPath.includes(' -> ') ? rawPath.split(' -> ') : undefined;
+      const renamedPath = renamedParts ? renamedParts.at(-1)! : rawPath;
 
       return {
         status,
         path: renamedPath.replaceAll('\\', '/'),
+        previousPath: renamedParts ? renamedParts[0].replaceAll('\\', '/') : undefined,
       };
     });
+}
+
+async function gitDiffChangedFiles(base: string, head: string) {
+  const { stdout } = await execFileAsync('git', ['diff', '--name-status', '-M', base, head], { cwd: root });
+  return parseNameStatus(stdout);
+}
+
+async function gitRootCommitChangedFiles(head: string) {
+  const { stdout } = await execFileAsync('git', ['diff-tree', '--no-commit-id', '--name-status', '-r', '--root', head], {
+    cwd: root,
+  });
+  return parseNameStatus(stdout);
+}
+
+function parseNameStatus(stdout: string): ChangedFile[] {
+  return stdout
+    .split(/\r?\n/)
+    .map((line) => line.trimEnd())
+    .filter(Boolean)
+    .map((line): ChangedFile => {
+      const parts = line.split('\t');
+      const status = parts[0];
+
+      if ((status.startsWith('R') || status.startsWith('C')) && parts.length >= 3) {
+        return {
+          status,
+          previousPath: parts[1].replaceAll('\\', '/'),
+          path: parts[2].replaceAll('\\', '/'),
+        };
+      }
+
+      return {
+        status,
+        path: (parts[1] || '').replaceAll('\\', '/'),
+      };
+    })
+    .filter((file) => file.path);
 }
 
 async function planMarkdown(
@@ -763,8 +854,52 @@ function fileExists(file: string) {
   return existsSync(file);
 }
 
+function isDeletedStatus(status: string) {
+  return status.trim().startsWith('D');
+}
+
+function changeDetectionMode(options: PublishPlanOptions) {
+  if (options.base && isZeroSha(options.base)) {
+    return 'root-diff';
+  }
+
+  if (options.base) {
+    return 'commit-range';
+  }
+
+  return 'working-tree';
+}
+
+function isZeroSha(value: string) {
+  return /^0+$/.test(value);
+}
+
+function optionalArgValue(name: string) {
+  const direct = args.find((arg) => arg.startsWith(`${name}=`));
+
+  if (direct) {
+    return optionalText(direct.slice(name.length + 1));
+  }
+
+  const index = args.indexOf(name);
+  return index >= 0 ? optionalText(args[index + 1]) : undefined;
+}
+
+function hasArg(name: string) {
+  return args.includes(name);
+}
+
+function optionalText(value: string | undefined) {
+  return value?.trim() || undefined;
+}
+
 function printReport(report: {
   mode: string;
+  changeDetection?: {
+    mode: string;
+    base?: string;
+    head?: string;
+  };
   changedFiles: ChangedFile[];
   changedMarkdown: string[];
   changedLocalMedia: string[];
@@ -784,6 +919,15 @@ function printReport(report: {
 }) {
   console.log('Publish plan');
   console.log(`Mode: ${report.mode}`);
+  if (report.changeDetection) {
+    console.log(`Change detection: ${report.changeDetection.mode}`);
+    if (report.changeDetection.base) {
+      console.log(`Base: ${report.changeDetection.base}`);
+    }
+    if (report.changeDetection.head) {
+      console.log(`Head: ${report.changeDetection.head}`);
+    }
+  }
   console.log(`Changed files: ${report.changedFiles.length}`);
   console.log(`Changed content Markdown: ${report.changedMarkdown.length}`);
   console.log(`Changed local media files: ${report.changedLocalMedia.length}`);

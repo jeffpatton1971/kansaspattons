@@ -1952,3 +1952,48 @@ Detailed working notes for the React migration live here. This file is intention
   - `npx tsc -p tsconfig.node.json`
   - `npm run test:site:e2e`
   - `npm run test`
+
+### GitHub Actions
+
+- Agreed on:
+  - pull-request and Dependabot CI.
+  - incremental publish on pushes to `main`.
+  - full rebuild/publish on new tags.
+- Added `.github/workflows/pr-ci.yml`.
+- PR CI runs:
+  - root `npm ci`.
+  - API `npm ci`.
+  - Playwright Chromium install.
+  - `npm run content:validate`.
+  - `npm run test`.
+- Added `.github/workflows/publish.yml`.
+- Publish workflow triggers:
+  - push to `main` for incremental publish.
+  - any tag push for full rebuild publish.
+  - manual `workflow_dispatch` for a full rebuild publish.
+- Added GitHub Pages deployment to the publish workflow.
+- Pages artifact preparation copies:
+  - `CNAME` into `dist/CNAME`.
+  - `dist/index.html` into `dist/404.html` for React route fallback.
+- Publish workflow uses Azure OIDC through `azure/login`.
+- Documented required secrets:
+  - `AZURE_CLIENT_ID`.
+  - `AZURE_TENANT_ID`.
+  - `AZURE_SUBSCRIPTION_ID`.
+- Documented required repository variables:
+  - `CONTENT_STORAGE_ACCOUNT`.
+  - `CONTENT_STORAGE_CONTAINER`.
+  - `CONTENT_SITE_KEY`.
+- Added commit-range support to `scripts/plan-publish.ts`:
+  - `--base <sha>`.
+  - `--head <sha>`.
+  - `PUBLISH_PLAN_BASE`.
+  - `PUBLISH_PLAN_HEAD`.
+- Kept default local behavior as working-tree planning.
+- Added a conservative hard issue for deleted Markdown in incremental plans
+  because generated JSON deletion from Azure Storage is not implemented yet.
+- Verification:
+  - `npx tsc -p tsconfig.node.json`.
+  - `npm run publish:plan -- --base HEAD --head HEAD`.
+  - `npm run publish:plan`.
+  - `npm run test`.

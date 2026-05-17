@@ -49,13 +49,14 @@ Next work:
 
 ## 2. Publish Pipeline
 
-Status: workflow documented with dry-run planning, media upload execution, and
-source-prep writing.
+Status: workflow documented with dry-run planning, media upload execution,
+source-prep writing, and initial GitHub Actions automation.
 
 Target flow:
 
 - `pull_request`: full validation and full site rebuild with no production publish.
 - `push` to `main`: incremental publish for changed Markdown and changed local media.
+- tag push: full rebuild and republish for versioned site changes.
 - `workflow_dispatch`: manual full rebuild and republish.
 
 Implemented:
@@ -80,10 +81,18 @@ Implemented:
   `npm run publish:content:incremental` publish only the planned JSON paths.
 - Generated search artifacts are included in full builds and in incremental
   publish plans as `search/index.json`.
+- `.github/workflows/pr-ci.yml` runs validation and tests for pull requests and
+  Dependabot updates.
+- `.github/workflows/publish.yml` runs incremental publish on `main`, full
+  rebuild publish on tags, and deploys the built React site to GitHub Pages.
+- `publish:plan` supports commit-range planning with `--base`/`--head` or
+  `PUBLISH_PLAN_BASE`/`PUBLISH_PLAN_HEAD` for clean GitHub Actions checkouts.
 
 Next work:
 
-- Keep a manual full rebuild path for migrations and repair work.
+- Validate the workflows against repository secrets/variables in GitHub.
+- Add content deletion handling for incremental publish, or keep deletions on
+  the tagged full-rebuild path.
 
 ## 3. `_gallery` Retirement
 

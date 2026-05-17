@@ -86,6 +86,10 @@ Published behavior changes and bug fixes for the React site migration.
 - Added Playwright browser smoke tests for the built React site.
 - Added API-local tests for search normalization, ranking, filtering, and public result shape.
 - Added testing documentation for local and CI/Dependabot usage.
+- Added pull-request CI for content validation, site build, Playwright tests, and API tests.
+- Added GitHub Actions publishing for incremental `main` publishes and full tag rebuilds.
+- Added GitHub Pages deployment from the built React `dist` artifact.
+- Added commit-range planning support to `publish:plan` for clean GitHub Actions checkouts.
 - Added a bottom-of-content taxonomy footer for rendering clickable hashtags and categories on post, story, and gallery detail pages.
 - Added `content/site.config.json` as the editable source for site title, URL, navigation, banner, author, footer, and theme settings.
 - Added site configuration documentation covering nav links, banner images, footer links/text, and theme variables.

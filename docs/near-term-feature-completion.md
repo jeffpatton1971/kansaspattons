@@ -17,6 +17,7 @@ manifest work.
 8. Add a dry-run publish plan command.
 9. Add generated content search.
 10. Split site and API test suites.
+11. Add GitHub Actions.
 
 ## 1. Tighten Validation
 
@@ -354,6 +355,39 @@ Acceptance criteria:
 - `npm run api:test` runs API-local tests.
 - `npm run test` runs both.
 - A fresh machine can install Chromium with `npx playwright install chromium`.
+
+## 11. Add GitHub Actions
+
+Status: baseline implemented.
+
+Why this matters:
+
+The local workflow is now solid enough that the repo should protect pull
+requests and Dependabot updates automatically, then publish only after changes
+reach `main` or a release tag.
+
+Work:
+
+- Added PR CI for pull requests to `main`.
+- Added publish workflow for pushes to `main`, tag pushes, and manual full
+  rebuilds.
+- PR CI installs root/API dependencies, installs Chromium, validates content,
+  and runs the split test suites.
+- Main pushes use commit-range publish planning and the incremental media/content
+  publish path.
+- Tag pushes run a full generated-content publish and GitHub Pages deployment.
+- Publish workflow deploys `dist/` through GitHub Pages Actions.
+- Publish workflow copies `CNAME` and `404.html` into the Pages artifact.
+- The publish planner supports `--base`/`--head` and
+  `PUBLISH_PLAN_BASE`/`PUBLISH_PLAN_HEAD`.
+- Workflow setup is documented in [`github-actions.md`](github-actions.md).
+
+Acceptance criteria:
+
+- Pull requests and Dependabot updates run validation plus tests.
+- Pushes to `main` run incremental publish.
+- New tags run a full content rebuild/publish and deploy the site.
+- Required Azure OIDC secrets and content storage variables are documented.
 
 ## Working Rule
 
