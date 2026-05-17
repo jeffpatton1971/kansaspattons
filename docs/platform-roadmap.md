@@ -6,6 +6,10 @@ prototype to a reusable content platform for multiple sites.
 For the immediate execution checklist, see
 [`near-term-feature-completion.md`](near-term-feature-completion.md).
 
+For a future smaller-site migration from GitHub Pages/Jekyll to this React,
+generated-content, Azure Static Web Apps layout, see
+[`github-pages-to-swa-agent-playbook.md`](github-pages-to-swa-agent-playbook.md).
+
 ## 1. Content Contract
 
 Status: documented target shape with an initial validator.

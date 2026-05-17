@@ -2046,3 +2046,23 @@ Detailed working notes for the React migration live here. This file is intention
 - Aligned the publish workflow and documentation to the GitHub environment name
   the user created: `Production`. The OIDC subject for this setup is now
   `repo:jeffpatton1971/kansaspattons:environment:Production`.
+
+### GitHub Pages To SWA Agent Playbook
+
+- Added `docs/github-pages-to-swa-agent-playbook.md` as a handoff document for
+  a future Copilot/Codex/GitHub agent migrating a smaller GitHub Pages/Jekyll
+  site to the React, generated-content, Azure Static Web Apps architecture.
+- The playbook covers:
+  - target architecture.
+  - expected repo shape.
+  - content contract and media manifest expectations.
+  - Azure resources and GitHub settings.
+  - OIDC subject rules for the `Production` environment.
+  - merge/deploy expectations.
+  - GitHub Pages coexistence expectations.
+  - post-deployment verification.
+  - the later API extraction phase.
+- Clarified that after a successful SWA workflow deploy, the API is not
+  local-only. The same-repo `api/` folder is deployed as the SWA managed
+  Functions API, so `/api/home` and other API routes should be verifiable on
+  the Azure Static Web Apps hostname.

@@ -25,6 +25,8 @@ Site presentation settings are defined in
 [`site-configuration.md`](site-configuration.md).
 
 GitHub Actions publishing is defined in [`github-actions.md`](github-actions.md).
+The cross-site migration handoff for Copilot/Codex-style agents is defined in
+[`github-pages-to-swa-agent-playbook.md`](github-pages-to-swa-agent-playbook.md).
 
 The current reference files for the target post/story/gallery shapes are listed
 in [`golden-content-examples.md`](golden-content-examples.md).
