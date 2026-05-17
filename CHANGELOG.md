@@ -82,6 +82,10 @@ Published behavior changes and bug fixes for the React site migration.
 - Added `/api/search` and `/api/sites/{site}/search` endpoints with ranked, paged results.
 - Added the `/search` React route with a search form, content-type filter, and clickable result cards.
 - Added Search to the configurable site navigation and footer examples.
+- Added split test commands for site and API verification.
+- Added Playwright browser smoke tests for the built React site.
+- Added API-local tests for search normalization, ranking, filtering, and public result shape.
+- Added testing documentation for local and CI/Dependabot usage.
 - Added a bottom-of-content taxonomy footer for rendering clickable hashtags and categories on post, story, and gallery detail pages.
 - Added `content/site.config.json` as the editable source for site title, URL, navigation, banner, author, footer, and theme settings.
 - Added site configuration documentation covering nav links, banner images, footer links/text, and theme variables.

@@ -156,7 +156,17 @@ Next work:
 
 ## 7. Validation And Test Suite
 
-Status: initial content validation is wired up and passing with zero hard errors.
+Status: initial content validation and split test suites are wired up.
+
+Implemented:
+
+- `npm run test:site` runs the production build and Playwright browser smoke
+  tests for the React site.
+- `npm run api:test` runs API-local tests under `api/`.
+- `npm run test` runs both suites from the repo root.
+- Site Playwright tests mock `/api/*` from generated `public/content` JSON, so
+  they can run without a local Functions host.
+- API tests use API-local dependencies so they can move with the API repo later.
 
 Next work:
 
@@ -164,6 +174,5 @@ Next work:
 - Add compiler tests.
 - Add publish dry-run tests.
 - Add API endpoint tests against fixture content.
-- Add frontend smoke tests for key routes.
 - Ensure Dependabot updates run the same validation/build/test suite before
   merge.

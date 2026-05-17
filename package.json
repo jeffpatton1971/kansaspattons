@@ -30,8 +30,13 @@
     "publish:content:incremental": "npm run build:content:incremental && tsx scripts/publish-content.ts --from-plan",
     "publish:content:incremental:dry-run": "npm run build:content:incremental && tsx scripts/publish-content.ts --dry-run --from-plan",
     "api:build": "npm --prefix api run build",
+    "api:test": "npm --prefix api test",
     "api:start": "npm --prefix api start",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "npm run test:site && npm run api:test",
+    "test:site": "npm run test:site:build && npm run test:site:e2e",
+    "test:site:build": "npm run build",
+    "test:site:e2e": "playwright test --config playwright.config.ts"
   },
   "dependencies": {
     "@fontsource-variable/geist": "^5.2.8",
@@ -50,6 +55,7 @@
   "devDependencies": {
     "@azure/identity": "^4.13.1",
     "@azure/storage-blob": "^12.31.0",
+    "@playwright/test": "^1.60.0",
     "@tailwindcss/vite": "^4.3.0",
     "@types/markdown-it": "^14.1.2",
     "@types/node": "^25.7.0",

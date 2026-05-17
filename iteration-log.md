@@ -1916,3 +1916,39 @@ Detailed working notes for the React migration live here. This file is intention
   - `npx tsc -p tsconfig.app.json`
   - `npm run build`
   - `Invoke-RestMethod -Uri 'http://localhost:7071/api/search?q=breakfast&limit=3' -Method Get`
+
+### Split Site And API Test Suites
+
+- Agreed to keep two test suites:
+  - root/site tests for React build and browser behavior.
+  - API-local tests under `api/` so the suite can move with the API later.
+- Added root scripts:
+  - `npm run test`.
+  - `npm run test:site`.
+  - `npm run test:site:build`.
+  - `npm run test:site:e2e`.
+  - `npm run api:test`.
+- Added `@playwright/test` to the root dev dependencies.
+- Added `playwright.config.ts`.
+- Added Playwright site smoke tests in `tests/site/site-smoke.spec.ts`.
+- The site smoke tests run against the built app with Vite preview and mock
+  `/api/*` from generated `public/content` JSON so Functions does not need to
+  run in the site test job.
+- Current site smoke coverage:
+  - home page shell and recent content.
+  - posts archive cards and pagination summary.
+  - search form and clickable cross-type results.
+- Added API-local `npm test` using `tsx --test`.
+- Added `api/src/search.ts` to keep search ranking logic testable outside the
+  Azure Functions registration layer.
+- Added API tests in `api/test/search.test.ts`.
+- Added `test-results/` and `playwright-report/` to `.gitignore`.
+- Added `docs/testing.md`.
+- First Playwright run failed because Chromium was not installed locally.
+- Installed Chromium with `npx playwright install chromium`.
+- Verification:
+  - `npm --prefix api test`
+  - `npm --prefix api run build`
+  - `npx tsc -p tsconfig.node.json`
+  - `npm run test:site:e2e`
+  - `npm run test`

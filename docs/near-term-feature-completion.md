@@ -16,6 +16,7 @@ manifest work.
 7. Document exact authoring examples.
 8. Add a dry-run publish plan command.
 9. Add generated content search.
+10. Split site and API test suites.
 
 ## 1. Tighten Validation
 
@@ -325,6 +326,34 @@ Acceptance criteria:
 - `/search?q=breakfast` renders clickable result cards.
 - Full and incremental content publish include `search/index.json` when
   appropriate.
+
+## 10. Split Site And API Test Suites
+
+Status: baseline implemented.
+
+Why this matters:
+
+The React site and Azure Functions API will likely separate into different
+repos. The tests should already reflect that boundary so dependency updates and
+future extraction do not tangle the two concerns.
+
+Work:
+
+- Root-level site tests run the production build and Playwright browser smoke
+  tests.
+- Site Playwright tests run against Vite preview and mock `/api/*` from
+  generated `public/content` JSON.
+- API tests live under `api/`.
+- API test dependencies live in `api/package.json`.
+- The root `npm run test` command runs the site suite and then the API suite.
+- Test setup is documented in [`testing.md`](testing.md).
+
+Acceptance criteria:
+
+- `npm run test:site` builds the site and runs Playwright.
+- `npm run api:test` runs API-local tests.
+- `npm run test` runs both.
+- A fresh machine can install Chromium with `npx playwright install chromium`.
 
 ## Working Rule
 

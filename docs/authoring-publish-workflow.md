@@ -384,6 +384,16 @@ The push-to-main incremental path keeps normal authoring fast. The manual full
 rebuild remains available for migrations, dependency updates, index repairs, and
 large cleanup work.
 
+For dependency updates and pull requests, the current combined verification
+command is:
+
+```powershell
+npm run test
+```
+
+That command runs the site build, Playwright smoke tests, and the API-local test
+suite. See [`testing.md`](testing.md) for details.
+
 ## Existing Content Canonicalization
 
 Existing migrated content has been canonicalized. Authored Markdown now uses

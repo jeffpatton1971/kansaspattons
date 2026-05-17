@@ -9,3 +9,5 @@ dist/
 public/content/
 api/dist/
 api/local.settings.json
+test-results/
+playwright-report/
