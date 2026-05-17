@@ -130,7 +130,7 @@ async function main() {
   const result = await uploadAll(containerClient, operations, options, derivativeStats);
 
   result.stats.skippedReuseExisting = skippedReuseExisting;
-  await writeResult(options.resultPath, report, options, operations.length, result.stats, result.errors);
+  await writeResult(options.resultPath, report, options, operations, result.stats, result.errors);
 
   if (result.errors.length > 0) {
     throw new Error(`Media publish completed with ${result.errors.length.toLocaleString()} failed operations.`);
@@ -548,7 +548,7 @@ async function writeResult(
   resultPath: string,
   report: PublishPlanReport,
   options: MediaPublishOptions,
-  operationCount: number,
+  operations: UploadOperation[],
   stats: PublishStats,
   errors: PublishError[],
 ) {
@@ -558,7 +558,15 @@ async function writeResult(
     generatedAt: new Date().toISOString(),
     reportGeneratedAt: report.generatedAt,
     target: report.mediaManifest.storage,
-    operationCount,
+    operationCount: operations.length,
+    operations: operations.map((operation) => ({
+      contentFile: operation.contentFile,
+      canonicalKey: operation.canonicalKey,
+      localPath: operation.localPath,
+      sourcePath: operation.sourcePath,
+      kind: operation.kind,
+      blobName: operation.blobName,
+    })),
     options: {
       overwrite: options.overwrite,
       skipDerivatives: options.skipDerivatives,

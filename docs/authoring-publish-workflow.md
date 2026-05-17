@@ -313,6 +313,24 @@ planning issues it rewrites local draft media references in changed Markdown to
 canonical media keys and appends planned assets to `content/media/index.json`.
 It does not remove local media files or publish generated JSON.
 
+After media upload and source prep, preview the local draft media cleanup:
+
+```powershell
+npm run publish:cleanup-media
+```
+
+When the cleanup dry run looks right, remove the uploaded local draft media:
+
+```powershell
+npm run publish:cleanup-media:write
+```
+
+The cleanup command reads `.tmp/publish-plan-report.json` and
+`.tmp/publish-media-result.json`. It only deletes local media files when the
+Markdown/frontmatter no longer references the local filename and the raw media
+upload was verified, or when the media was marked `reuse-existing` by the
+manifest hash check.
+
 The generated-content publish dry run remains:
 
 ```powershell
@@ -332,6 +350,8 @@ npm run publish:plan
 npm run publish:media:dry-run
 npm run publish:media
 npm run publish:prepare
+npm run publish:cleanup-media
+npm run publish:cleanup-media:write
 npm run build
 npm run publish:content:dry-run
 ```

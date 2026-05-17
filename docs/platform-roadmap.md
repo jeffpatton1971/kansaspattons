@@ -71,12 +71,13 @@ Implemented:
   them under the `thumbs` prefix as `.jpg` files.
 - `npm run publish:prepare` rewrites Markdown media references and updates
   `content/media/index.json`.
+- `npm run publish:cleanup-media` previews local draft media removal after
+  upload and source prep.
+- `npm run publish:cleanup-media:write` removes verified local draft media.
 
 Next work:
 
 - Generate JSON only for changed content plus affected indexes.
-- Remove local draft media after verified upload, manifest update, and source
-  rewrite.
 - Keep a manual full rebuild path for migrations and repair work.
 
 ## 3. `_gallery` Retirement

@@ -1823,3 +1823,27 @@ Detailed working notes for the React migration live here. This file is intention
 - Verification:
   - `npx tsc -p tsconfig.node.json`
   - `npm run publish:media:dry-run`
+
+### Local Draft Media Cleanup
+
+- Added `scripts/cleanup-published-media.ts`.
+- Added `npm run publish:cleanup-media` as a dry run.
+- Added `npm run publish:cleanup-media:write` as the explicit delete step.
+- Kept cleanup separate from upload and source prep so deletion stays easy to
+  inspect and hard to trigger accidentally.
+- Cleanup reads `.tmp/publish-plan-report.json` and
+  `.tmp/publish-media-result.json`.
+- Cleanup candidates are limited to local draft media references from the
+  publish plan with `manifestAction` of `add` or `reuse-existing`.
+- Cleanup verifies:
+  - the path is inside the repository.
+  - the path has a media extension.
+  - the authored Markdown/frontmatter no longer references the local filename.
+  - the authored Markdown/frontmatter does reference the canonical media key.
+  - newly added media had a successful raw upload in the media publish result.
+- Current no-op verification reported:
+  - `0` cleanup candidates.
+  - `0` issues.
+- Verification:
+  - `npx tsc -p tsconfig.node.json`
+  - `npm run publish:cleanup-media`

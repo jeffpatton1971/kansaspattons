@@ -192,6 +192,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed the React shell to render brand, nav, footer, home banner, font, and theme colors from API-provided site configuration instead of hardcoded KansasPattons values.
 - Changed nav/footer rendering so configured links can point to either internal React routes or external pages.
 - Added `publish:media:dry-run` and `publish:media` commands for uploading planned local media to canonical Azure Blob paths with generated image thumbnails and video posters.
+- Added `publish:cleanup-media` and `publish:cleanup-media:write` commands for separately removing verified local draft media after upload and source prep.
 
 ### Fixed
 

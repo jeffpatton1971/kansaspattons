@@ -153,6 +153,18 @@ It applies the planned Markdown rewrites and appends planned media assets to
 `content/media/index.json` when the plan has no issues. It intentionally does
 not remove local draft media files or publish generated JSON yet.
 
+The current local draft media cleanup commands are:
+
+```powershell
+npm run publish:cleanup-media
+npm run publish:cleanup-media:write
+```
+
+Cleanup is separate from upload and source prep. It reads the publish plan and
+media publish result, verifies the authored Markdown now references canonical
+media keys, verifies raw upload completion for newly added media, then removes
+the local draft files only in explicit write mode.
+
 For existing content:
 
 1. Generate the first source media manifest from `_gallery`.
