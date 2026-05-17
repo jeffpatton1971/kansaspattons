@@ -209,6 +209,7 @@ Published behavior changes and bug fixes for the React site migration.
 - Removed the legacy `_gallery` media metadata directory and retired normal npm commands/scripts that regenerated data from it.
 - Changed the publish workflow to deploy the React build and managed API to Azure Static Web Apps instead of GitHub Pages.
 - Added Azure Static Web Apps routing configuration for SPA fallback, static headers, JSON MIME handling, and the Node API runtime.
+- Added the Azure Static Web Apps production URL to the publish workflow environment metadata and documented the temporary SWA host variables.
 
 ### Fixed
 

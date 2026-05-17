@@ -2027,3 +2027,12 @@ Detailed working notes for the React migration live here. This file is intention
   runtime expectations stay aligned.
 - Documented required `AZURE_STATIC_WEB_APPS_API_TOKEN` plus runtime API app
   settings such as `CONTENT_BASE_URL`.
+- Expanded the GitHub Actions documentation to clarify that
+  `AZURE_STATIC_WEB_APPS_API_TOKEN` is the Static Web Apps deployment token,
+  not a visitor-facing API token, and documented how it differs from Azure OIDC
+  secrets, content storage variables, and runtime API app settings.
+- Recorded the current Static Web Apps production URL:
+  `https://happy-sky-045677310.7.azurestaticapps.net`.
+- Wired that URL into `.github/workflows/publish.yml` as the GitHub production
+  environment URL and as the fallback `CONTENT_SITE_URL` for published builds
+  until a custom domain is connected.
