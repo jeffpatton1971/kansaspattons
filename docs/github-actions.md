@@ -138,6 +138,7 @@ look similar in YAML, but they serve different jobs.
 | `AZURE_TENANT_ID` | Secret | `azure/login@v2` | Identifies the Entra tenant for Azure OIDC login. |
 | `AZURE_SUBSCRIPTION_ID` | Secret | `azure/login@v2` | Identifies the Azure subscription for Azure OIDC login. |
 | `AZURE_WEBAPP_NAME` | Variable | `Azure/webapps-deploy@v3` | Name of the Azure App Service Web App that receives the React site package. |
+| `AZURE_WEBAPP_RESOURCE_GROUP` | Variable | `Azure/webapps-deploy@v3` and preflight check | Resource group containing the Azure App Service Web App. |
 | `AZURE_WEBAPP_URL` | Variable, optional | workflow environment and verification | Public Web App URL. Defaults to `https://{AZURE_WEBAPP_NAME}.azurewebsites.net` when omitted. |
 | `AZURE_WEBAPP_SLOT_NAME` | Variable, optional | `Azure/webapps-deploy@v3` | Deployment slot. Defaults to `production` when omitted. |
 | `AZURE_API_FUNCTION_APP_NAME` | Variable, optional | `api-publish.yml` | Name of the standalone Function App that receives the split API deployment. |
@@ -156,6 +157,7 @@ look similar in YAML, but they serve different jobs.
   uses: Azure/webapps-deploy@v3
   with:
     app-name: ${{ vars.AZURE_WEBAPP_NAME }}
+    resource-group-name: ${{ vars.AZURE_WEBAPP_RESOURCE_GROUP }}
     slot-name: ${{ vars.AZURE_WEBAPP_SLOT_NAME || 'production' }}
     package: .tmp/webapp-package
 ```
@@ -497,6 +499,7 @@ CONTENT_SITE_KEY=kansaspattons
 # Optional. If omitted, the publish script uses content/kansaspattons/current.
 CONTENT_STORAGE_PREFIX=current
 AZURE_WEBAPP_NAME=<site-web-app-name>
+AZURE_WEBAPP_RESOURCE_GROUP=<site-web-app-resource-group>
 AZURE_WEBAPP_URL=https://<site-web-app-name>.azurewebsites.net
 AZURE_API_BASE_URL=https://<api-function-app-name>.azurewebsites.net
 CONTENT_SITE_URL=https://<site-web-app-name>.azurewebsites.net
@@ -663,8 +666,9 @@ or private data, tighten this to an explicit allowed-origin list.
    account or site container.
 7. Save `AZURE_CLIENT_ID`, `AZURE_TENANT_ID`, and `AZURE_SUBSCRIPTION_ID` in
    GitHub Actions secrets.
-8. Save `AZURE_WEBAPP_NAME`, optional `AZURE_WEBAPP_URL`, and optional
-   `AZURE_WEBAPP_SLOT_NAME` as GitHub Actions variables.
+8. Save `AZURE_WEBAPP_NAME`, `AZURE_WEBAPP_RESOURCE_GROUP`, optional
+   `AZURE_WEBAPP_URL`, and optional `AZURE_WEBAPP_SLOT_NAME` as GitHub Actions
+   variables.
 9. Save `CONTENT_STORAGE_ACCOUNT`, `CONTENT_STORAGE_CONTAINER`,
    `CONTENT_SITE_KEY`, and optional `CONTENT_STORAGE_PREFIX` as GitHub Actions
    variables.
@@ -695,6 +699,7 @@ The workflow deploy step uses:
 uses: Azure/webapps-deploy@v3
 with:
   app-name: ${{ vars.AZURE_WEBAPP_NAME }}
+  resource-group-name: ${{ vars.AZURE_WEBAPP_RESOURCE_GROUP }}
   slot-name: ${{ vars.AZURE_WEBAPP_SLOT_NAME || 'production' }}
   package: .tmp/webapp-package
 ```

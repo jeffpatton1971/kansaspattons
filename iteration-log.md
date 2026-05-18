@@ -2135,7 +2135,13 @@ Detailed working notes for the React migration live here. This file is intention
   - `/api/*` can proxy only when the Web App runtime has `API_BASE_URL`,
     `AZURE_API_BASE_URL`, or `VITE_API_BASE_URL` configured.
 - The publish workflow now requires `AZURE_WEBAPP_NAME` plus
-  `VITE_API_BASE_URL` or `AZURE_API_BASE_URL`.
+  `AZURE_WEBAPP_RESOURCE_GROUP` plus `VITE_API_BASE_URL` or
+  `AZURE_API_BASE_URL`.
+- The deploy action receives `resource-group-name` explicitly because App
+  Service lookup by name alone can fail when the authenticated Azure context
+  cannot infer or search the resource group.
+- Added a pre-deploy `az webapp show` check to make subscription, resource
+  group, and RBAC problems fail before package deployment.
 - The workflow deploys with `Azure/webapps-deploy@v3` after the existing Azure
   OIDC login, so the service principal now needs Web App deployment rights in
   addition to Blob Storage rights.

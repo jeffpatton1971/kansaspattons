@@ -103,6 +103,7 @@ Published behavior changes and bug fixes for the React site migration.
 ### Changed
 
 - Changed the publish workflow to deploy the React site package to Azure App Service Web App instead of Azure Static Web Apps.
+- Changed Azure Web App deployment to pass the target resource group explicitly and verify Web App access before deploying.
 - Changed publish verification to check the deployed Web App root, direct React route refresh, and the standalone API host.
 - Added `source.type: wordpress` frontmatter to older WordPress-tagged posts that were missing structured source metadata.
 - Split generated entries into WordPress-shaped Posts and Instagram/Facebook-shaped Stories.
