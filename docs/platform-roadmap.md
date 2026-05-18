@@ -7,7 +7,7 @@ For the immediate execution checklist, see
 [`near-term-feature-completion.md`](near-term-feature-completion.md).
 
 For a future smaller-site migration from GitHub Pages/Jekyll to this React,
-generated-content, Azure Static Web Apps layout, see
+generated-content, Azure hosting layout, see
 [`github-pages-to-swa-agent-playbook.md`](github-pages-to-swa-agent-playbook.md).
 
 ## 1. Content Contract
@@ -88,12 +88,13 @@ Implemented:
 - `.github/workflows/pr-ci.yml` runs validation and tests for pull requests and
   Dependabot updates.
 - `.github/workflows/publish.yml` runs incremental publish on `main`, full
-  rebuild publish on tags, and deploys the built React site plus managed API to
-  Azure Static Web Apps.
+  rebuild publish on tags, and deploys the built React site package to Azure
+  App Service Web App.
 - `publish:plan` supports commit-range planning with `--base`/`--head` or
   `PUBLISH_PLAN_BASE`/`PUBLISH_PLAN_HEAD` for clean GitHub Actions checkouts.
-- `public/staticwebapp.config.json` provides the Azure Static Web Apps SPA
-  fallback and selects the Node API runtime.
+- `webapp/server.cjs` provides App Service static hosting, direct React route
+  fallback, and optional `/api/*` proxying when an API base URL is configured
+  on the Web App.
 
 Next work:
 

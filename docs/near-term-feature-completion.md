@@ -375,14 +375,12 @@ Work:
   and runs the split test suites.
 - Main pushes use commit-range publish planning and the incremental media/content
   publish path.
-- Tag pushes run a full generated-content publish and Azure Static Web Apps
-  deployment.
-- Publish workflow lets the Azure Static Web Apps action build from the repo
-  root, deploy `dist/`, and deploy the `api/` managed Functions API.
-- Publish workflow verifies `/api/home` after deployment so a missing managed
-  API fails the workflow instead of leaving the React shell with blank content.
-- `public/staticwebapp.config.json` provides the SPA fallback, static headers,
-  JSON MIME type, and Node API runtime selection.
+- Tag pushes run a full generated-content publish and Azure Web App deployment.
+- Publish workflow builds `dist/`, packages it with the Node host under
+  `webapp/`, and deploys the package to Azure App Service.
+- Publish workflow verifies the Web App root route, a direct React route
+  refresh, `/api/home`, and a known story detail API route after deployment.
+- The API deploys separately through the standalone Function App workflow.
 - The publish planner supports `--base`/`--head` and
   `PUBLISH_PLAN_BASE`/`PUBLISH_PLAN_HEAD`.
 - Workflow setup is documented in [`github-actions.md`](github-actions.md).

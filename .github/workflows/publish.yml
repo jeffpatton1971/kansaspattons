@@ -22,8 +22,9 @@ permissions:
 
 env:
   CONTENT_SITE_KEY: ${{ vars.CONTENT_SITE_KEY || 'kansaspattons' }}
-  CONTENT_SITE_URL: ${{ vars.CONTENT_SITE_URL || vars.AZURE_STATIC_WEB_APP_URL || 'https://happy-sky-045677310.7.azurestaticapps.net' }}
-  AZURE_STATIC_WEB_APP_URL: ${{ vars.AZURE_STATIC_WEB_APP_URL || 'https://happy-sky-045677310.7.azurestaticapps.net' }}
+  CONTENT_SITE_URL: ${{ vars.CONTENT_SITE_URL || vars.AZURE_WEBAPP_URL || 'https://kansaspattons.org' }}
+  AZURE_WEBAPP_NAME: ${{ vars.AZURE_WEBAPP_NAME }}
+  AZURE_WEBAPP_URL: ${{ vars.AZURE_WEBAPP_URL || format('https://{0}.azurewebsites.net', vars.AZURE_WEBAPP_NAME) }}
   VITE_API_BASE_URL: ${{ vars.VITE_API_BASE_URL || vars.AZURE_API_BASE_URL }}
   CONTENT_STORAGE_ACCOUNT: ${{ vars.CONTENT_STORAGE_ACCOUNT }}
   CONTENT_STORAGE_CONTAINER: ${{ vars.CONTENT_STORAGE_CONTAINER }}
@@ -36,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: Production
-      url: ${{ vars.AZURE_STATIC_WEB_APP_URL || 'https://happy-sky-045677310.7.azurestaticapps.net' }}
+      url: ${{ vars.AZURE_WEBAPP_URL || format('https://{0}.azurewebsites.net', vars.AZURE_WEBAPP_NAME) }}
     concurrency:
       group: publish-${{ github.ref_name }}
       cancel-in-progress: false
@@ -68,6 +69,20 @@ jobs:
 
       - name: Install Playwright browser
         run: npx playwright install --with-deps chromium
+
+      - name: Validate Web App deployment settings
+        shell: bash
+        run: |
+          if [[ -z "${AZURE_WEBAPP_NAME:-}" ]]; then
+            echo "AZURE_WEBAPP_NAME must be set as a GitHub Actions variable."
+            exit 1
+          fi
+
+          if [[ -z "${VITE_API_BASE_URL:-}" ]]; then
+            echo "Set VITE_API_BASE_URL or AZURE_API_BASE_URL as a GitHub Actions variable."
+            echo "The React site is now deployed to Azure Web App, which does not deploy api/ as a managed Functions API."
+            exit 1
+          fi
 
       - name: Validate content
         run: npm run content:validate
@@ -114,22 +129,53 @@ jobs:
       - name: Publish planned generated content
         run: npm run publish:content:incremental
 
-      - name: Deploy Azure Static Web App
-        uses: Azure/static-web-apps-deploy@v1
+      - name: Build site
+        run: npm run build
+
+      - name: Prepare Azure Web App package
+        shell: bash
+        run: |
+          rm -rf .tmp/webapp-package
+          mkdir -p .tmp/webapp-package/public
+          cp -R dist/. .tmp/webapp-package/public/
+          cp webapp/package.json webapp/server.cjs .tmp/webapp-package/
+
+      - name: Deploy Azure Web App
+        uses: Azure/webapps-deploy@v3
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          action: upload
-          app_location: .
-          api_location: api
-          output_location: dist
-          app_build_command: 'npm run build'
-          api_build_command: 'npm run build'
+          app-name: ${{ vars.AZURE_WEBAPP_NAME }}
+          slot-name: ${{ vars.AZURE_WEBAPP_SLOT_NAME || 'production' }}
+          package: .tmp/webapp-package
+
+      - name: Verify deployed site
+        shell: bash
+        run: |
+          site_url="${AZURE_WEBAPP_URL%/}"
+
+          for attempt in {1..12}; do
+            status="$(curl -sS -o /tmp/webapp-home.html -w '%{http_code}' "$site_url/" || true)"
+            posts_status="$(curl -sS -o /tmp/webapp-posts.html -w '%{http_code}' "$site_url/posts" || true)"
+
+            if [[ "$status" == "200" && "$posts_status" == "200" ]]; then
+              echo "Verified $site_url/ and direct React route refresh at $site_url/posts"
+              exit 0
+            fi
+
+            echo "Attempt $attempt: / returned $status and /posts returned $posts_status"
+            sleep 10
+          done
+
+          echo "Final / response:"
+          cat /tmp/webapp-home.html || true
+          echo
+          echo "Final /posts response:"
+          cat /tmp/webapp-posts.html || true
+          exit 1
 
       - name: Verify deployed API
         shell: bash
         run: |
-          api_base="${VITE_API_BASE_URL:-$AZURE_STATIC_WEB_APP_URL}"
+          api_base="${VITE_API_BASE_URL:-$AZURE_WEBAPP_URL}"
           api_base="${api_base%/}"
 
           for attempt in {1..12}; do
@@ -164,7 +210,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: Production
-      url: ${{ vars.AZURE_STATIC_WEB_APP_URL || 'https://happy-sky-045677310.7.azurestaticapps.net' }}
+      url: ${{ vars.AZURE_WEBAPP_URL || format('https://{0}.azurewebsites.net', vars.AZURE_WEBAPP_NAME) }}
     concurrency:
       group: publish-full-${{ github.ref_name }}
       cancel-in-progress: false
@@ -193,6 +239,20 @@ jobs:
       - name: Install Playwright browser
         run: npx playwright install --with-deps chromium
 
+      - name: Validate Web App deployment settings
+        shell: bash
+        run: |
+          if [[ -z "${AZURE_WEBAPP_NAME:-}" ]]; then
+            echo "AZURE_WEBAPP_NAME must be set as a GitHub Actions variable."
+            exit 1
+          fi
+
+          if [[ -z "${VITE_API_BASE_URL:-}" ]]; then
+            echo "Set VITE_API_BASE_URL or AZURE_API_BASE_URL as a GitHub Actions variable."
+            echo "The React site is now deployed to Azure Web App, which does not deploy api/ as a managed Functions API."
+            exit 1
+          fi
+
       - name: Validate content
         run: npm run content:validate
 
@@ -209,22 +269,53 @@ jobs:
       - name: Publish full generated content
         run: npm run publish:content
 
-      - name: Deploy Azure Static Web App
-        uses: Azure/static-web-apps-deploy@v1
+      - name: Build site
+        run: npm run build
+
+      - name: Prepare Azure Web App package
+        shell: bash
+        run: |
+          rm -rf .tmp/webapp-package
+          mkdir -p .tmp/webapp-package/public
+          cp -R dist/. .tmp/webapp-package/public/
+          cp webapp/package.json webapp/server.cjs .tmp/webapp-package/
+
+      - name: Deploy Azure Web App
+        uses: Azure/webapps-deploy@v3
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          action: upload
-          app_location: .
-          api_location: api
-          output_location: dist
-          app_build_command: 'npm run build'
-          api_build_command: 'npm run build'
+          app-name: ${{ vars.AZURE_WEBAPP_NAME }}
+          slot-name: ${{ vars.AZURE_WEBAPP_SLOT_NAME || 'production' }}
+          package: .tmp/webapp-package
+
+      - name: Verify deployed site
+        shell: bash
+        run: |
+          site_url="${AZURE_WEBAPP_URL%/}"
+
+          for attempt in {1..12}; do
+            status="$(curl -sS -o /tmp/webapp-home.html -w '%{http_code}' "$site_url/" || true)"
+            posts_status="$(curl -sS -o /tmp/webapp-posts.html -w '%{http_code}' "$site_url/posts" || true)"
+
+            if [[ "$status" == "200" && "$posts_status" == "200" ]]; then
+              echo "Verified $site_url/ and direct React route refresh at $site_url/posts"
+              exit 0
+            fi
+
+            echo "Attempt $attempt: / returned $status and /posts returned $posts_status"
+            sleep 10
+          done
+
+          echo "Final / response:"
+          cat /tmp/webapp-home.html || true
+          echo
+          echo "Final /posts response:"
+          cat /tmp/webapp-posts.html || true
+          exit 1
 
       - name: Verify deployed API
         shell: bash
         run: |
-          api_base="${VITE_API_BASE_URL:-$AZURE_STATIC_WEB_APP_URL}"
+          api_base="${VITE_API_BASE_URL:-$AZURE_WEBAPP_URL}"
           api_base="${api_base%/}"
 
           for attempt in {1..12}; do

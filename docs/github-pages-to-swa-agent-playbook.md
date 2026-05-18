@@ -1,5 +1,11 @@
 # GitHub Pages To Azure Static Web Apps Agent Playbook
 
+> Current hosting note: this playbook records the earlier Azure Static Web Apps
+> migration pattern. The active KansasPattons publish workflow now deploys the
+> React frontend to Azure App Service Web App and keeps the API as a standalone
+> Azure Function App. Use [`github-actions.md`](github-actions.md) for the
+> current deployment settings.
+
 This document is written for a future GitHub Copilot agent, Codex agent, or
 human maintainer migrating a smaller GitHub Pages/Jekyll site to the React,
 generated-content, Azure Static Web Apps layout proven here.

@@ -2122,3 +2122,23 @@ Detailed working notes for the React migration live here. This file is intention
   `AZURE_API_FUNCTION_APP_NAME` is configured.
 - Updated the main publish workflow so post-deploy API verification targets the
   external API base URL when `VITE_API_BASE_URL` or `AZURE_API_BASE_URL` is set.
+
+### Azure Web App Frontend Deployment
+
+- Changed the main publish workflow from Azure Static Web Apps deployment to
+  Azure App Service Web App deployment.
+- Added `webapp/package.json` and `webapp/server.cjs` as the production host
+  package for the React build:
+  - `dist/` is copied to `.tmp/webapp-package/public`.
+  - `server.cjs` serves static assets and falls back to `index.html` for React
+    route refreshes.
+  - `/api/*` can proxy only when the Web App runtime has `API_BASE_URL`,
+    `AZURE_API_BASE_URL`, or `VITE_API_BASE_URL` configured.
+- The publish workflow now requires `AZURE_WEBAPP_NAME` plus
+  `VITE_API_BASE_URL` or `AZURE_API_BASE_URL`.
+- The workflow deploys with `Azure/webapps-deploy@v3` after the existing Azure
+  OIDC login, so the service principal now needs Web App deployment rights in
+  addition to Blob Storage rights.
+- Kept the API as a separate Azure Function App concern; a plain Azure Web App
+  still does not run the current `api/` Functions project without converting it
+  to a normal Node HTTP server.

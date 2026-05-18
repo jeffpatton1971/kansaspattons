@@ -6,6 +6,7 @@ Published behavior changes and bug fixes for the React site migration.
 
 ### Added
 
+- Added a small Node-based Azure Web App host package for serving the built React app with SPA route fallback.
 - Started the React migration branch with a documented split between detailed iteration notes and public-facing changelog entries.
 - Added a Vite, React, and TypeScript application shell.
 - Added a content compiler that converts existing `_posts` and `_gallery` Markdown into generated JSON content for React.
@@ -101,6 +102,8 @@ Published behavior changes and bug fixes for the React site migration.
 
 ### Changed
 
+- Changed the publish workflow to deploy the React site package to Azure App Service Web App instead of Azure Static Web Apps.
+- Changed publish verification to check the deployed Web App root, direct React route refresh, and the standalone API host.
 - Added `source.type: wordpress` frontmatter to older WordPress-tagged posts that were missing structured source metadata.
 - Split generated entries into WordPress-shaped Posts and Instagram/Facebook-shaped Stories.
 - Updated legacy `/blog/...` redirects to resolve to either Posts or Stories based on generated entry metadata.
