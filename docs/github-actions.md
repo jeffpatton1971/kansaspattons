@@ -145,7 +145,7 @@ look similar in YAML, but they serve different jobs.
 | `AZURE_API_FUNCTION_APP_NAME` | Variable, optional | `api-publish.yml` | Name of the standalone Function App that receives the split API deployment. |
 | `AZURE_API_BASE_URL` | Variable | site build and API verification | Public API host, such as `https://<api-app>.azurewebsites.net`. |
 | `VITE_API_BASE_URL` | Variable, optional | React build | Explicit public API host compiled into the React app. Falls back to `AZURE_API_BASE_URL` when omitted. |
-| `VITE_API_SITE_ID` | Variable, optional | React build | Explicit site id compiled into external API paths, such as `/api/kansaspattons/home`. Falls back to `CONTENT_SITE_KEY`. |
+| `VITE_API_SITE_ID` | Variable | React build | Explicit site id compiled into external API paths, such as `/api/kansaspattons/home`. Can match `CONTENT_SITE_KEY`. |
 | `REQUIRE_API_VERIFICATION` | Variable, optional | publish workflow | Set to `true` only after the shared API repo is live and API health should block frontend deploys. |
 | `ENABLE_LEGACY_API_PUBLISH` | Variable, optional | `api-publish.yml` | Set to `true` only for a temporary/manual API deploy from this repo before the separate API repo takes over. |
 | `CONTENT_SITE_URL` | Variable, optional | content build | Canonical public site URL emitted into generated `site.json`. |
@@ -175,7 +175,7 @@ What it can do:
 What it does not do:
 
 - It does not grant users access to the site.
-- It does not authenticate calls to `/api/home`, `/api/search`, or other API routes.
+- It does not authenticate calls to `/api/{siteid}/home`, `/api/{siteid}/search`, or other API routes.
 - It does not deploy `api/` as a managed Functions API.
 - It does not upload generated JSON or media to Blob storage.
 
@@ -593,12 +593,12 @@ content root that contains `home.json`, `site.json`, `posts/index.json`,
 `stories/index.json`, `galleries/index.json`, `images/index.json`,
 `taxonomy.json`, and `search/index.json`.
 
-The API also exposes `GET /api/health` as a non-secret runtime diagnostic. It
+The API also exposes `GET /api/{siteid}/health` as a non-secret runtime diagnostic. It
 reports whether the deployed Function sees `CONTENT_BASE_URL`, derives the
 content root from `CONTENT_STORAGE_*`, or is using the bundled KansasPattons
 fallback while the API still lives in this repo.
 
-The publish workflow verifies both `/api/home` and one known story detail route
+The publish workflow verifies both `/api/{siteid}/home` and one known story detail route
 after deployment so missing detail artifacts fail the deployment instead of
 showing up only when a user clicks into content.
 
@@ -661,9 +661,9 @@ publish workflow falls back to `AZURE_API_BASE_URL`. If both are omitted, the
 publish workflow fails because Azure Web App does not deploy the `api/` folder
 as a managed Functions API.
 
-When `VITE_API_BASE_URL` is set, `VITE_API_SITE_ID` is also compiled into API
-paths so the shared API receives explicit site-aware requests like
-`/api/kansaspattons/home`.
+When `VITE_API_BASE_URL` is set, `VITE_API_SITE_ID` is also required and is
+compiled into API paths so the shared API receives explicit site-aware requests
+like `/api/kansaspattons/home`.
 
 Because the content API is read-only and intended to be reused across sites,
 API responses include permissive CORS headers. If we later add write endpoints
@@ -694,8 +694,8 @@ or private data, tighten this to an explicit allowed-origin list.
     variables.
 13. Deploy the shared API from its own repository to the Function App.
 14. Run the `Publish` workflow manually once after settings are in place.
-15. Set `REQUIRE_API_VERIFICATION=true` only after `/api/health` and
-    `/api/home` work on the shared API host.
+15. Set `REQUIRE_API_VERIFICATION=true` only after `/api/{siteid}/health` and
+    `/api/{siteid}/home` work on the shared API host.
 
 ## Hosting Notes
 
@@ -729,7 +729,7 @@ After deployment, the workflow verifies:
 ```text
 https://{AZURE_WEBAPP_NAME}.azurewebsites.net/
 https://{AZURE_WEBAPP_NAME}.azurewebsites.net/posts
-https://<api-function-app>.azurewebsites.net/api/home
+https://<api-function-app>.azurewebsites.net/api/kansaspattons/home
 ```
 
 Those checks catch App Service startup/routing failures and API content

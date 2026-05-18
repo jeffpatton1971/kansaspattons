@@ -17,8 +17,8 @@ The React shell reads that API-provided site object, so sibling sites can change
 site identity without changing React components.
 
 The top-level `key` is the site id for shared API calls. In GitHub Actions,
-`VITE_API_SITE_ID` defaults to `CONTENT_SITE_KEY`, and both should match this
-configured `key`.
+`VITE_API_SITE_ID` should match this configured `key`; `CONTENT_SITE_KEY` is
+used by the publish scripts and should match it too.
 
 ## Shape
 

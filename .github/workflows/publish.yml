@@ -27,7 +27,7 @@ env:
   AZURE_WEBAPP_RESOURCE_GROUP: ${{ vars.AZURE_WEBAPP_RESOURCE_GROUP }}
   AZURE_WEBAPP_URL: ${{ vars.AZURE_WEBAPP_URL || format('https://{0}.azurewebsites.net', vars.AZURE_WEBAPP_NAME) }}
   VITE_API_BASE_URL: ${{ vars.VITE_API_BASE_URL || vars.AZURE_API_BASE_URL }}
-  VITE_API_SITE_ID: ${{ vars.VITE_API_SITE_ID || vars.CONTENT_SITE_KEY || 'kansaspattons' }}
+  VITE_API_SITE_ID: ${{ vars.VITE_API_SITE_ID || vars.CONTENT_SITE_KEY }}
   REQUIRE_API_VERIFICATION: ${{ vars.REQUIRE_API_VERIFICATION || 'false' }}
   CONTENT_STORAGE_ACCOUNT: ${{ vars.CONTENT_STORAGE_ACCOUNT }}
   CONTENT_STORAGE_CONTAINER: ${{ vars.CONTENT_STORAGE_CONTAINER }}
@@ -95,6 +95,12 @@ jobs:
           if [[ -z "${VITE_API_BASE_URL:-}" ]]; then
             echo "Set VITE_API_BASE_URL or AZURE_API_BASE_URL as a GitHub Actions variable."
             echo "The React site is now deployed to Azure Web App, which does not deploy api/ as a managed Functions API."
+            exit 1
+          fi
+
+          if [[ -z "${VITE_API_SITE_ID:-}" ]]; then
+            echo "Set VITE_API_SITE_ID or CONTENT_SITE_KEY as a GitHub Actions variable."
+            echo "The shared API requires explicit site-id routes, for example /api/kansaspattons/home."
             exit 1
           fi
 
@@ -225,7 +231,7 @@ jobs:
           echo "Final /api/${VITE_API_SITE_ID}/home response:"
           cat /tmp/swa-home.json || true
           echo
-          echo "Final /api/health response:"
+          echo "Final /api/${VITE_API_SITE_ID}/health response:"
           curl -sS "$api_base/api/${VITE_API_SITE_ID}/health" || true
 
           if [[ "$require_api" == "true" ]]; then
@@ -292,6 +298,12 @@ jobs:
           if [[ -z "${VITE_API_BASE_URL:-}" ]]; then
             echo "Set VITE_API_BASE_URL or AZURE_API_BASE_URL as a GitHub Actions variable."
             echo "The React site is now deployed to Azure Web App, which does not deploy api/ as a managed Functions API."
+            exit 1
+          fi
+
+          if [[ -z "${VITE_API_SITE_ID:-}" ]]; then
+            echo "Set VITE_API_SITE_ID or CONTENT_SITE_KEY as a GitHub Actions variable."
+            echo "The shared API requires explicit site-id routes, for example /api/kansaspattons/home."
             exit 1
           fi
 
@@ -393,7 +405,7 @@ jobs:
           echo "Final /api/${VITE_API_SITE_ID}/home response:"
           cat /tmp/swa-home.json || true
           echo
-          echo "Final /api/health response:"
+          echo "Final /api/${VITE_API_SITE_ID}/health response:"
           curl -sS "$api_base/api/${VITE_API_SITE_ID}/health" || true
 
           if [[ "$require_api" == "true" ]]; then
