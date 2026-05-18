@@ -139,7 +139,7 @@ look similar in YAML, but they serve different jobs.
 | `AZURE_SUBSCRIPTION_ID` | Secret | `azure/login@v2` | Identifies the Azure subscription for Azure OIDC login. |
 | `AZURE_WEBAPP_NAME` | Variable | `Azure/webapps-deploy@v3` | Name of the Azure App Service Web App that receives the React site package. |
 | `AZURE_WEBAPP_RESOURCE_GROUP` | Variable | `Azure/webapps-deploy@v3` and preflight check | Resource group containing the Azure App Service Web App. |
-| `AZURE_WEBAPP_URL` | Variable, optional | workflow environment and verification | Public Web App URL. Defaults to `https://{AZURE_WEBAPP_NAME}.azurewebsites.net` when omitted. |
+| `AZURE_WEBAPP_URL` | Variable, optional | workflow environment and verification | Public Web App URL, including `https://`. Defaults to `https://{AZURE_WEBAPP_NAME}.azurewebsites.net` when omitted. |
 | `AZURE_WEBAPP_SLOT_NAME` | Variable, optional | `Azure/webapps-deploy@v3` | Deployment slot. Defaults to `production` when omitted. |
 | `AZURE_API_FUNCTION_APP_NAME` | Variable, optional | `api-publish.yml` | Name of the standalone Function App that receives the split API deployment. |
 | `AZURE_API_BASE_URL` | Variable | site build and API verification | Public API host, such as `https://<api-app>.azurewebsites.net`. |

@@ -84,6 +84,11 @@ jobs:
             exit 1
           fi
 
+          if [[ -n "${AZURE_WEBAPP_URL:-}" && ! "$AZURE_WEBAPP_URL" =~ ^https?:// ]]; then
+            echo "AZURE_WEBAPP_URL must include the scheme, for example https://kansaspattons.azurewebsites.net."
+            exit 1
+          fi
+
           if [[ -z "${VITE_API_BASE_URL:-}" ]]; then
             echo "Set VITE_API_BASE_URL or AZURE_API_BASE_URL as a GitHub Actions variable."
             echo "The React site is now deployed to Azure Web App, which does not deploy api/ as a managed Functions API."
@@ -265,6 +270,11 @@ jobs:
 
           if [[ -z "${AZURE_WEBAPP_RESOURCE_GROUP:-}" ]]; then
             echo "AZURE_WEBAPP_RESOURCE_GROUP must be set as a GitHub Actions variable."
+            exit 1
+          fi
+
+          if [[ -n "${AZURE_WEBAPP_URL:-}" && ! "$AZURE_WEBAPP_URL" =~ ^https?:// ]]; then
+            echo "AZURE_WEBAPP_URL must include the scheme, for example https://kansaspattons.azurewebsites.net."
             exit 1
           fi
 
