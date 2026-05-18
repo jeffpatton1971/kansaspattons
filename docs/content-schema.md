@@ -80,8 +80,7 @@ The API strips `searchText` from result payloads and adds `score` plus
 `matchedTerms`:
 
 ```text
-/api/search?q={term}
-/api/sites/{site}/search?q={term}
+/api/{site}/search?q={term}
 ```
 
 ## Taxonomy Index
@@ -228,7 +227,7 @@ npm run build:content
 
 ## Home Summary
 
-`home.json` is the compact home-page payload. The API combines it with `site.json` and returns a `site` object in `/api/home`.
+`home.json` is the compact home-page payload. The shared API combines it with `site.json` and returns a `site` object in `/api/{site}/home`.
 
 ```ts
 type HomeSummary = {

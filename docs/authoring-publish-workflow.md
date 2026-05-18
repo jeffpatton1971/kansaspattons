@@ -25,8 +25,6 @@ Site presentation settings are defined in
 [`site-configuration.md`](site-configuration.md).
 
 GitHub Actions publishing is defined in [`github-actions.md`](github-actions.md).
-The cross-site migration handoff for Copilot/Codex-style agents is defined in
-[`github-pages-to-swa-agent-playbook.md`](github-pages-to-swa-agent-playbook.md).
 
 The current reference files for the target post/story/gallery shapes are listed
 in [`golden-content-examples.md`](golden-content-examples.md).
@@ -489,8 +487,7 @@ dist/content/search/index.json
 That index covers posts, stories, and galleries. The API reads it through:
 
 ```text
-/api/search?q={term}
-/api/sites/{site}/search?q={term}
+/api/{site}/search?q={term}
 ```
 
 Taxonomy terms are intended to be browsable:
@@ -505,8 +502,7 @@ Taxonomy terms are intended to be browsable:
 The matching API shape is:
 
 ```text
-/api/taxonomy/{family}/{slug}
-/api/sites/{site}/taxonomy/{family}/{slug}
+/api/{site}/taxonomy/{family}/{slug}
 ```
 
 Each term response returns related posts, stories, and galleries together,

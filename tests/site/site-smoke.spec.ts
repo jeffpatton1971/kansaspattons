@@ -40,7 +40,8 @@ test('search page returns clickable cross-type results', async ({ page }) => {
 async function mockContentApi(page: Page) {
   await page.route('**/api/**', async (route) => {
     const url = new URL(route.request().url());
-    const apiPath = url.pathname.replace(/^\/api\/+/, '');
+    const pathParts = url.pathname.replace(/^\/api\/+/, '').split('/').filter(Boolean);
+    const apiPath = pathParts[0] === 'kansaspattons' ? pathParts.slice(1).join('/') : pathParts.join('/');
 
     if (apiPath === 'home') {
       const [home, site] = await Promise.all([readContentJson('home.json'), readContentJson('site.json')]);

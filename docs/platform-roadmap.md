@@ -6,9 +6,9 @@ prototype to a reusable content platform for multiple sites.
 For the immediate execution checklist, see
 [`near-term-feature-completion.md`](near-term-feature-completion.md).
 
-For a future smaller-site migration from GitHub Pages/Jekyll to this React,
-generated-content, Azure hosting layout, see
-[`github-pages-to-swa-agent-playbook.md`](github-pages-to-swa-agent-playbook.md).
+Future smaller-site migrations should use this repo as the React site/content
+pipeline reference and the separate `ptech-sites-api` repo as the shared API
+reference.
 
 ## 1. Content Contract
 
@@ -41,7 +41,7 @@ Status: initial config-driven shell is wired up.
 - `content/site.config.json` controls title, URL, nav, author card, home
   banner, footer links/text, and theme variables.
 - The content build emits those values in `site.json`.
-- The API includes them in `/api/home`.
+- The shared API includes them in `/api/{site}/home`.
 - The React shell reads the API-provided site object for the masthead, nav,
   banner, footer, font, and color variables.
 
@@ -144,19 +144,17 @@ Target direction:
 
 Implemented:
 
-- `/api/health` reports the content-source runtime configuration without
+- `/api/{site}/health` reports the content-source runtime configuration without
   exposing secrets.
-- `.github/workflows/api-publish.yml` is now manual/bootstrap-only and gated by
-  `ENABLE_LEGACY_API_PUBLISH=true`; normal API deploys belong to the shared API
-  repo.
+- API deployment belongs to the shared `ptech-sites-api` repo.
 - The React app uses `VITE_API_BASE_URL` when present and otherwise falls back
   to same-origin `/api`.
 
 Implemented endpoints:
 
-- `/api/sites/{site}/taxonomy/{family}/{slug}` is available for hashtags,
+- `/api/{site}/taxonomy/{family}/{slug}` is available for hashtags,
   categories, people, and locations.
-- `/api/sites/{site}/search`
+- `/api/{site}/search`
 
 Next endpoints:
 
@@ -172,7 +170,7 @@ Implemented:
   stories, and galleries together.
 - `/search` renders paged, clickable search results across posts, stories, and
   galleries.
-- `/api/search` and `/api/sites/{site}/search` rank results from generated
+- `/api/{site}/search` ranks results from generated
   `search/index.json`.
 
 Next work:
@@ -191,7 +189,7 @@ Implemented:
 
 - `npm run test:site` runs the production build and Playwright browser smoke
   tests for the React site.
-- `npm run api:test` runs API-local tests under `api/`.
+- API-local tests run from the separate `ptech-sites-api` repository.
 - `npm run test` runs both suites from the repo root.
 - Site Playwright tests mock `/api/*` from generated `public/content` JSON, so
   they can run without a local Functions host.

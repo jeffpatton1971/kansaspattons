@@ -5,7 +5,7 @@ The content pipeline should work for KansasPattons and other sites without forci
 1. Each site keeps its own source repository and authoring workflow.
 2. Each repository runs the same Markdown-to-JSON build.
 3. GitHub Actions publishes that site's generated JSON to a site-specific Azure Storage prefix.
-4. One Azure Functions API can serve either the default site routes or named site routes.
+4. One Azure Functions API serves explicit site-id routes.
 
 ## Storage Layout
 
@@ -51,30 +51,23 @@ $env:CONTENT_STORAGE_PREFIX = "content/kansaspattons/current"
 
 The publish script writes a `_publish.json` manifest beside the generated artifacts.
 
-## API Route Options
+## API Routes
 
-The original one-site routes still work:
-
-```text
-GET /api/home
-GET /api/posts
-GET /api/stories
-GET /api/images
-```
-
-Named site routes are available for a shared API:
+The shared API uses one route shape:
 
 ```text
-GET /api/sites/{site}/home
-GET /api/sites/{site}/entries
-GET /api/sites/{site}/posts
-GET /api/sites/{site}/posts/{year}/{month}/{day}/{slug}
-GET /api/sites/{site}/stories
-GET /api/sites/{site}/stories/{year}/{month}/{day}/{slug}
-GET /api/sites/{site}/galleries
-GET /api/sites/{site}/galleries/{year}/{month}/{day}/{slug}
-GET /api/sites/{site}/images
-GET /api/sites/{site}/images/{year}/{month}/{day}/{imageId}
+GET /api/{site}/home
+GET /api/{site}/entries
+GET /api/{site}/posts
+GET /api/{site}/posts/{year}/{month}/{day}/{slug}
+GET /api/{site}/stories
+GET /api/{site}/stories/{year}/{month}/{day}/{slug}
+GET /api/{site}/galleries
+GET /api/{site}/galleries/{year}/{month}/{day}/{slug}
+GET /api/{site}/images
+GET /api/{site}/images/{year}/{month}/{day}/{imageId}
+GET /api/{site}/search
+GET /api/{site}/taxonomy/{family}/{slug}
 ```
 
 Site keys are lowercase letters, numbers, and hyphens. Examples:
@@ -87,19 +80,13 @@ another-site
 
 ## API Storage Configuration
 
-For a single default site, use the existing setting:
-
-```text
-CONTENT_BASE_URL=https://prdwebappstorage.blob.core.windows.net/sites/content/kansaspattons/current/
-```
-
-For a shared API, the easiest configuration is a template:
+The easiest shared API configuration is a template:
 
 ```text
 CONTENT_BASE_URL_TEMPLATE=https://prdwebappstorage.blob.core.windows.net/sites/content/{site}/current/
 ```
 
-Then `/api/sites/kansaspattons/home` reads:
+Then `/api/kansaspattons/home` reads:
 
 ```text
 https://prdwebappstorage.blob.core.windows.net/sites/content/kansaspattons/current/home.json
@@ -136,26 +123,19 @@ Resolution order for named sites:
 
 The same order applies to local roots.
 
-## Recommended First Deployment
+## Recommended Configuration
 
-Start with KansasPattons as the default site:
-
-```text
-CONTENT_BASE_URL=https://prdwebappstorage.blob.core.windows.net/sites/content/kansaspattons/current/
-```
-
-Then add named-site support before onboarding the second site:
+Use a template before onboarding the next site:
 
 ```text
 CONTENT_BASE_URL_TEMPLATE=https://prdwebappstorage.blob.core.windows.net/sites/content/{site}/current/
 ```
 
-That lets the same Function app serve both:
+That lets the same Function App serve both:
 
 ```text
-/api/home
-/api/sites/kansaspattons/home
-/api/sites/patton-tech/home
+/api/kansaspattons/home
+/api/patton-tech/home
 ```
 
 If blob content is private, the current HTTP reader will need to be replaced or extended with an authenticated Azure Blob reader. The generated JSON shape and route design do not need to change for that.

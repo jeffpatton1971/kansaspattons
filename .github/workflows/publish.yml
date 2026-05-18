@@ -60,15 +60,10 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: |
-            package-lock.json
-            api/package-lock.json
+          cache-dependency-path: package-lock.json
 
       - name: Install site dependencies
         run: npm ci
-
-      - name: Install API dependencies
-        run: npm --prefix api ci
 
       - name: Install Playwright browser
         run: npx playwright install --with-deps chromium
@@ -94,7 +89,7 @@ jobs:
 
           if [[ -z "${VITE_API_BASE_URL:-}" ]]; then
             echo "Set VITE_API_BASE_URL or AZURE_API_BASE_URL as a GitHub Actions variable."
-            echo "The React site is now deployed to Azure Web App, which does not deploy api/ as a managed Functions API."
+            echo "The React site is deployed separately from the shared API. Set the shared API host explicitly."
             exit 1
           fi
 
@@ -263,15 +258,10 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: |
-            package-lock.json
-            api/package-lock.json
+          cache-dependency-path: package-lock.json
 
       - name: Install site dependencies
         run: npm ci
-
-      - name: Install API dependencies
-        run: npm --prefix api ci
 
       - name: Install Playwright browser
         run: npx playwright install --with-deps chromium
@@ -297,7 +287,7 @@ jobs:
 
           if [[ -z "${VITE_API_BASE_URL:-}" ]]; then
             echo "Set VITE_API_BASE_URL or AZURE_API_BASE_URL as a GitHub Actions variable."
-            echo "The React site is now deployed to Azure Web App, which does not deploy api/ as a managed Functions API."
+            echo "The React site is deployed separately from the shared API. Set the shared API host explicitly."
             exit 1
           fi
 

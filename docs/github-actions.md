@@ -20,14 +20,14 @@ What it runs:
 
 ```powershell
 npm ci
-npm --prefix api ci
 npx playwright install --with-deps chromium
 npm run content:validate
 npm run test
 ```
 
 This is the Dependabot gate. It validates content, builds the React site, runs
-Playwright smoke tests, and runs API-local tests.
+Playwright smoke tests, and leaves shared API validation to the
+`ptech-sites-api` repository.
 
 ## Main Branch Publish
 
@@ -70,10 +70,9 @@ The workflow builds the React app, wraps the `dist/` artifact in the small
 Node host under `webapp/`, and deploys that package to Azure App Service with
 `Azure/webapps-deploy@v3`.
 
-Azure Web App does not deploy the `api/` folder as a managed Functions API.
-Set `VITE_API_BASE_URL` or `AZURE_API_BASE_URL` as a GitHub Actions variable so
-the React build calls the standalone Function App instead of same-origin
-`/api/...`.
+The API is deployed from the shared API repository. Set `VITE_API_BASE_URL` or
+`AZURE_API_BASE_URL` plus `VITE_API_SITE_ID` as GitHub Actions variables so the
+React build calls explicit shared API routes such as `/api/kansaspattons/home`.
 
 The deployed Web App package contains:
 
@@ -83,31 +82,8 @@ server.cjs
 public/
 ```
 
-`server.cjs` serves React static assets, falls back to `index.html` for direct
-route refreshes, and can proxy `/api/*` only when the Web App runtime has
-`API_BASE_URL`, `AZURE_API_BASE_URL`, or `VITE_API_BASE_URL` configured.
-
-## API Publish
-
-Workflow:
-
-```text
-.github/workflows/api-publish.yml
-```
-
-Triggers:
-
-- push to `main` when files under `api/**` change
-- manual `workflow_dispatch`
-
-This workflow is now a manual legacy/bootstrap path only. The shared API is
-intended to deploy from its own repository, because it will serve multiple
-sites. This site repo keeps the workflow disabled unless both
-`ENABLE_LEGACY_API_PUBLISH=true` and `AZURE_API_FUNCTION_APP_NAME` are set.
-
-The API resource should be a Function App. A Function App can run on an App
-Service plan, but a plain Azure Web App will not run this Functions project
-unless the API is converted to an Express or other Node HTTP server.
+`server.cjs` serves React static assets and falls back to `index.html` for
+direct route refreshes. API runtime code is not packaged with this site.
 
 ## Tag Full Rebuild
 
@@ -142,12 +118,10 @@ look similar in YAML, but they serve different jobs.
 | `AZURE_WEBAPP_RESOURCE_GROUP` | Variable | `Azure/webapps-deploy@v3` and preflight check | Resource group containing the Azure App Service Web App. |
 | `AZURE_WEBAPP_URL` | Variable, optional | workflow environment and verification | Public Web App URL. Prefer including `https://`; the workflow normalizes hostname-only values. Defaults to `https://{AZURE_WEBAPP_NAME}.azurewebsites.net` when omitted. |
 | `AZURE_WEBAPP_SLOT_NAME` | Variable, optional | `Azure/webapps-deploy@v3` | Deployment slot. Defaults to `production` when omitted. |
-| `AZURE_API_FUNCTION_APP_NAME` | Variable, optional | `api-publish.yml` | Name of the standalone Function App that receives the split API deployment. |
 | `AZURE_API_BASE_URL` | Variable | site build and API verification | Public API host, such as `https://<api-app>.azurewebsites.net`. |
 | `VITE_API_BASE_URL` | Variable, optional | React build | Explicit public API host compiled into the React app. Falls back to `AZURE_API_BASE_URL` when omitted. |
 | `VITE_API_SITE_ID` | Variable | React build | Explicit site id compiled into external API paths, such as `/api/kansaspattons/home`. Can match `CONTENT_SITE_KEY`. |
 | `REQUIRE_API_VERIFICATION` | Variable, optional | publish workflow | Set to `true` only after the shared API repo is live and API health should block frontend deploys. |
-| `ENABLE_LEGACY_API_PUBLISH` | Variable, optional | `api-publish.yml` | Set to `true` only for a temporary/manual API deploy from this repo before the separate API repo takes over. |
 | `CONTENT_SITE_URL` | Variable, optional | content build | Canonical public site URL emitted into generated `site.json`. |
 | `CONTENT_STORAGE_ACCOUNT` | Variable | publish scripts | Azure Storage account that receives generated JSON and media. |
 | `CONTENT_STORAGE_CONTAINER` | Variable | publish scripts | Azure Blob container for this site. |
@@ -176,7 +150,7 @@ What it does not do:
 
 - It does not grant users access to the site.
 - It does not authenticate calls to `/api/{siteid}/home`, `/api/{siteid}/search`, or other API routes.
-- It does not deploy `api/` as a managed Functions API.
+- It does not deploy the shared API.
 - It does not upload generated JSON or media to Blob storage.
 
 The GitHub OIDC identity must have permission to deploy to the Web App, such as
@@ -640,17 +614,13 @@ az functionapp config appsettings list `
   --resource-group <resource-group-name>
 ```
 
-Local API development still uses `api/local.settings.json`. Function App
-production settings are configured in Azure, not committed to the repo.
-
-The API should normally be deployed from the shared API repository. The
-`api-publish.yml` workflow in this repo is retained only as a temporary manual
-bootstrap path and requires `ENABLE_LEGACY_API_PUBLISH=true`.
+Local API development now belongs to the shared `ptech-sites-api` repository.
+Function App production settings are configured in Azure, not committed to this
+site repo.
 
 GitHub variables for the split API:
 
 ```text
-AZURE_API_FUNCTION_APP_NAME=<function-app-resource-name>
 AZURE_API_BASE_URL=https://<function-app-resource-name>.azurewebsites.net
 VITE_API_BASE_URL=https://<function-app-resource-name>.azurewebsites.net
 VITE_API_SITE_ID=kansaspattons
@@ -658,8 +628,8 @@ VITE_API_SITE_ID=kansaspattons
 
 `VITE_API_BASE_URL` is compiled into the React app. If it is omitted, the
 publish workflow falls back to `AZURE_API_BASE_URL`. If both are omitted, the
-publish workflow fails because Azure Web App does not deploy the `api/` folder
-as a managed Functions API.
+publish workflow fails because the site repo no longer contains API runtime
+code.
 
 When `VITE_API_BASE_URL` is set, `VITE_API_SITE_ID` is also required and is
 compiled into API paths so the shared API receives explicit site-aware requests
@@ -688,10 +658,10 @@ or private data, tighten this to an explicit allowed-origin list.
    variables.
 10. Save `CONTENT_SITE_URL` while the Azure-generated hostname is the public
     URL, or let `content/site.config.json` provide the canonical domain.
-11. Configure the standalone Function App settings:
-    `CONTENT_BASE_URL`, `CONTENT_SITE_KEY`, and `CONTENT_CACHE_SECONDS`.
-12. Save `AZURE_API_FUNCTION_APP_NAME` plus `AZURE_API_BASE_URL` as GitHub
-    variables.
+11. Configure the standalone Function App settings from the `ptech-sites-api`
+    repository.
+12. Save `AZURE_API_BASE_URL`, or `VITE_API_BASE_URL`, plus
+    `VITE_API_SITE_ID` as GitHub variables.
 13. Deploy the shared API from its own repository to the Function App.
 14. Run the `Publish` workflow manually once after settings are in place.
 15. Set `REQUIRE_API_VERIFICATION=true` only after `/api/{siteid}/health` and

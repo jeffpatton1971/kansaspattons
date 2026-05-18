@@ -14,6 +14,7 @@ import type {
   TaxonomyFamily,
   TaxonomyTerm,
 } from './types';
+import siteConfig from '../content/site.config.json';
 
 export type ArchiveQuery = {
   year?: string;
@@ -47,11 +48,15 @@ type ApiImageListResponse = {
 };
 
 const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/+$/, '');
-const apiSiteId = (import.meta.env.VITE_API_SITE_ID || '').trim().toLowerCase();
+const apiSiteId = (import.meta.env.VITE_API_SITE_ID || siteConfig.key || '').trim().toLowerCase();
 
 export function apiUrl(path: string) {
+  if (!apiSiteId) {
+    throw new Error('A site id is required for shared API routes. Set VITE_API_SITE_ID or content/site.config.json key.');
+  }
+
   const cleanPath = path.replace(/^\/+/, '');
-  const sitePath = apiBaseUrl && apiSiteId ? `${apiSiteId}/${cleanPath}` : cleanPath;
+  const sitePath = `${apiSiteId}/${cleanPath}`;
 
   return `${apiBaseUrl}/api/${sitePath}`;
 }

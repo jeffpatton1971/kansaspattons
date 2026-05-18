@@ -294,13 +294,13 @@ this repo during early development.
 Target endpoint families:
 
 ```text
-/api/sites/{site}/home
-/api/sites/{site}/posts
-/api/sites/{site}/stories
-/api/sites/{site}/galleries
-/api/sites/{site}/images
-/api/sites/{site}/hashtags/{hashtag}
-/api/sites/{site}/search
+/api/{site}/home
+/api/{site}/posts
+/api/{site}/stories
+/api/{site}/galleries
+/api/{site}/images
+/api/{site}/taxonomy/{family}/{slug}
+/api/{site}/search
 ```
 
 Before extracting the API to its own repo, the site-specific assumptions should

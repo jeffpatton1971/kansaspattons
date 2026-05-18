@@ -313,7 +313,7 @@ Work:
   content Markdown changes.
 - Incremental content publish uploads the search index with other planned JSON
   artifacts.
-- The API exposes `/api/search` and `/api/sites/{site}/search`.
+- The shared API exposes `/api/{site}/search`.
 - Search API responses rank matches and return public result data without the
   internal `searchText` field.
 - The React app includes `/search` with a search form, content-type filter, and
@@ -322,7 +322,7 @@ Work:
 Acceptance criteria:
 
 - `npm run build:content` generates `public/content/search/index.json`.
-- `/api/search?q=breakfast` returns posts, stories, and galleries sorted by
+- `/api/kansaspattons/search?q=breakfast` returns posts, stories, and galleries sorted by
   relevance and date.
 - `/search?q=breakfast` renders clickable result cards.
 - Full and incremental content publish include `search/index.json` when
@@ -344,16 +344,15 @@ Work:
   tests.
 - Site Playwright tests run against Vite preview and mock `/api/*` from
   generated `public/content` JSON.
-- API tests live under `api/`.
-- API test dependencies live in `api/package.json`.
-- The root `npm run test` command runs the site suite and then the API suite.
+- API tests live in the separate `ptech-sites-api` repository.
+- The root `npm run test` command runs the site suite.
 - Test setup is documented in [`testing.md`](testing.md).
 
 Acceptance criteria:
 
 - `npm run test:site` builds the site and runs Playwright.
-- `npm run api:test` runs API-local tests.
-- `npm run test` runs both.
+- API-local tests run from the `ptech-sites-api` repository.
+- `npm run test` runs the site suite.
 - A fresh machine can install Chromium with `npx playwright install chromium`.
 
 ## 11. Add GitHub Actions

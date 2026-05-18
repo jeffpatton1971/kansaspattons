@@ -23,15 +23,10 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: |
-            package-lock.json
-            api/package-lock.json
+          cache-dependency-path: package-lock.json
 
       - name: Install site dependencies
         run: npm ci
-
-      - name: Install API dependencies
-        run: npm --prefix api ci
 
       - name: Install Playwright browser
         run: npx playwright install --with-deps chromium

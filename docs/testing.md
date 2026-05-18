@@ -1,7 +1,8 @@
 # Testing
 
-The test plan is split intentionally so the API suite can move with the API
-when it becomes its own repo.
+This repository now owns the React site, content compiler, publish tooling, and
+browser smoke tests. The shared API test suite lives in the separate
+`ptech-sites-api` repository.
 
 ## Site Suite
 
@@ -47,30 +48,9 @@ Linux GitHub Actions runners can use:
 npx playwright install --with-deps chromium
 ```
 
-## API Suite
+## Default Suite
 
-The API suite lives under `api/` and has API-local dev dependencies.
-
-```powershell
-npm run api:test
-```
-
-or from the API folder:
-
-```powershell
-npm test
-```
-
-Current API coverage:
-
-- Search term normalization.
-- Ranked search result filtering.
-- Search results do not expose internal `searchText`.
-- Content-type filtering for search.
-
-## Combined Suite
-
-Run both suites from the repo root:
+Run the site suite from the repo root:
 
 ```powershell
 npm run test
