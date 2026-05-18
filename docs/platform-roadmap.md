@@ -8,7 +8,8 @@ For the immediate execution checklist, see
 
 Future smaller-site migrations should use this repo as the React site/content
 pipeline reference and the separate `ptech-sites-api` repo as the shared API
-reference.
+reference. The agent-facing migration checklist lives in
+[`react-api-site-migration-agent-playbook.md`](react-api-site-migration-agent-playbook.md).
 
 ## 1. Content Contract
 

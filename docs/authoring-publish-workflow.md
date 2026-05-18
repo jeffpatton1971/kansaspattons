@@ -26,6 +26,10 @@ Site presentation settings are defined in
 
 GitHub Actions publishing is defined in [`github-actions.md`](github-actions.md).
 
+Reusable AI-agent migration instructions for moving another site from GitHub
+Pages/Jekyll into this React/API architecture are defined in
+[`react-api-site-migration-agent-playbook.md`](react-api-site-migration-agent-playbook.md).
+
 The current reference files for the target post/story/gallery shapes are listed
 in [`golden-content-examples.md`](golden-content-examples.md).
 
