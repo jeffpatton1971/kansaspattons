@@ -145,6 +145,7 @@ look similar in YAML, but they serve different jobs.
 | `AZURE_API_FUNCTION_APP_NAME` | Variable, optional | `api-publish.yml` | Name of the standalone Function App that receives the split API deployment. |
 | `AZURE_API_BASE_URL` | Variable | site build and API verification | Public API host, such as `https://<api-app>.azurewebsites.net`. |
 | `VITE_API_BASE_URL` | Variable, optional | React build | Explicit public API host compiled into the React app. Falls back to `AZURE_API_BASE_URL` when omitted. |
+| `VITE_API_SITE_ID` | Variable, optional | React build | Explicit site id compiled into external API paths, such as `/api/kansaspattons/home`. Falls back to `CONTENT_SITE_KEY`. |
 | `REQUIRE_API_VERIFICATION` | Variable, optional | publish workflow | Set to `true` only after the shared API repo is live and API health should block frontend deploys. |
 | `ENABLE_LEGACY_API_PUBLISH` | Variable, optional | `api-publish.yml` | Set to `true` only for a temporary/manual API deploy from this repo before the separate API repo takes over. |
 | `CONTENT_SITE_URL` | Variable, optional | content build | Canonical public site URL emitted into generated `site.json`. |
@@ -652,12 +653,17 @@ GitHub variables for the split API:
 AZURE_API_FUNCTION_APP_NAME=<function-app-resource-name>
 AZURE_API_BASE_URL=https://<function-app-resource-name>.azurewebsites.net
 VITE_API_BASE_URL=https://<function-app-resource-name>.azurewebsites.net
+VITE_API_SITE_ID=kansaspattons
 ```
 
 `VITE_API_BASE_URL` is compiled into the React app. If it is omitted, the
 publish workflow falls back to `AZURE_API_BASE_URL`. If both are omitted, the
 publish workflow fails because Azure Web App does not deploy the `api/` folder
 as a managed Functions API.
+
+When `VITE_API_BASE_URL` is set, `VITE_API_SITE_ID` is also compiled into API
+paths so the shared API receives explicit site-aware requests like
+`/api/kansaspattons/home`.
 
 Because the content API is read-only and intended to be reused across sites,
 API responses include permissive CORS headers. If we later add write endpoints

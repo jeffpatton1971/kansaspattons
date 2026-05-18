@@ -47,9 +47,13 @@ type ApiImageListResponse = {
 };
 
 const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/+$/, '');
+const apiSiteId = (import.meta.env.VITE_API_SITE_ID || '').trim().toLowerCase();
 
 export function apiUrl(path: string) {
-  return `${apiBaseUrl}/api/${path.replace(/^\/+/, '')}`;
+  const cleanPath = path.replace(/^\/+/, '');
+  const sitePath = apiBaseUrl && apiSiteId ? `${apiSiteId}/${cleanPath}` : cleanPath;
+
+  return `${apiBaseUrl}/api/${sitePath}`;
 }
 
 export function fetchJson<T>(path: string): Promise<T> {

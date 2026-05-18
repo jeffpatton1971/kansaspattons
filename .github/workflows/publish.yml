@@ -27,6 +27,7 @@ env:
   AZURE_WEBAPP_RESOURCE_GROUP: ${{ vars.AZURE_WEBAPP_RESOURCE_GROUP }}
   AZURE_WEBAPP_URL: ${{ vars.AZURE_WEBAPP_URL || format('https://{0}.azurewebsites.net', vars.AZURE_WEBAPP_NAME) }}
   VITE_API_BASE_URL: ${{ vars.VITE_API_BASE_URL || vars.AZURE_API_BASE_URL }}
+  VITE_API_SITE_ID: ${{ vars.VITE_API_SITE_ID || vars.CONTENT_SITE_KEY || 'kansaspattons' }}
   REQUIRE_API_VERIFICATION: ${{ vars.REQUIRE_API_VERIFICATION || 'false' }}
   CONTENT_STORAGE_ACCOUNT: ${{ vars.CONTENT_STORAGE_ACCOUNT }}
   CONTENT_STORAGE_CONTAINER: ${{ vars.CONTENT_STORAGE_CONTAINER }}
@@ -203,10 +204,10 @@ jobs:
           require_api="$(echo "${REQUIRE_API_VERIFICATION:-false}" | tr '[:upper:]' '[:lower:]')"
 
           for attempt in {1..12}; do
-            status="$(curl -sS -o /tmp/swa-home.json -w '%{http_code}' "$api_base/api/home" || true)"
+            status="$(curl -sS -o /tmp/swa-home.json -w '%{http_code}' "$api_base/api/${VITE_API_SITE_ID}/home" || true)"
             if [[ "$status" == "200" ]]; then
-              echo "Verified $api_base/api/home"
-              detail_status="$(curl -sS -o /tmp/swa-story.json -w '%{http_code}' "$api_base/api/stories/2026/04/16/194804-better-late-than-never" || true)"
+              echo "Verified $api_base/api/${VITE_API_SITE_ID}/home"
+              detail_status="$(curl -sS -o /tmp/swa-story.json -w '%{http_code}' "$api_base/api/${VITE_API_SITE_ID}/stories/2026/04/16/194804-better-late-than-never" || true)"
               if [[ "$detail_status" == "200" ]]; then
                 echo "Verified story detail API"
                 exit 0
@@ -217,15 +218,15 @@ jobs:
               exit 1
             fi
 
-            echo "Attempt $attempt: /api/home returned $status"
+            echo "Attempt $attempt: /api/${VITE_API_SITE_ID}/home returned $status"
             sleep 10
           done
 
-          echo "Final /api/home response:"
+          echo "Final /api/${VITE_API_SITE_ID}/home response:"
           cat /tmp/swa-home.json || true
           echo
           echo "Final /api/health response:"
-          curl -sS "$api_base/api/health" || true
+          curl -sS "$api_base/api/${VITE_API_SITE_ID}/health" || true
 
           if [[ "$require_api" == "true" ]]; then
             exit 1
@@ -371,10 +372,10 @@ jobs:
           require_api="$(echo "${REQUIRE_API_VERIFICATION:-false}" | tr '[:upper:]' '[:lower:]')"
 
           for attempt in {1..12}; do
-            status="$(curl -sS -o /tmp/swa-home.json -w '%{http_code}' "$api_base/api/home" || true)"
+            status="$(curl -sS -o /tmp/swa-home.json -w '%{http_code}' "$api_base/api/${VITE_API_SITE_ID}/home" || true)"
             if [[ "$status" == "200" ]]; then
-              echo "Verified $api_base/api/home"
-              detail_status="$(curl -sS -o /tmp/swa-story.json -w '%{http_code}' "$api_base/api/stories/2026/04/16/194804-better-late-than-never" || true)"
+              echo "Verified $api_base/api/${VITE_API_SITE_ID}/home"
+              detail_status="$(curl -sS -o /tmp/swa-story.json -w '%{http_code}' "$api_base/api/${VITE_API_SITE_ID}/stories/2026/04/16/194804-better-late-than-never" || true)"
               if [[ "$detail_status" == "200" ]]; then
                 echo "Verified story detail API"
                 exit 0
@@ -385,15 +386,15 @@ jobs:
               exit 1
             fi
 
-            echo "Attempt $attempt: /api/home returned $status"
+            echo "Attempt $attempt: /api/${VITE_API_SITE_ID}/home returned $status"
             sleep 10
           done
 
-          echo "Final /api/home response:"
+          echo "Final /api/${VITE_API_SITE_ID}/home response:"
           cat /tmp/swa-home.json || true
           echo
           echo "Final /api/health response:"
-          curl -sS "$api_base/api/health" || true
+          curl -sS "$api_base/api/${VITE_API_SITE_ID}/health" || true
 
           if [[ "$require_api" == "true" ]]; then
             exit 1
