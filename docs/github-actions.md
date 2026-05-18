@@ -100,9 +100,10 @@ Triggers:
 - push to `main` when files under `api/**` change
 - manual `workflow_dispatch`
 
-This workflow deploys the existing Azure Functions project in `api/` to a
-standalone Function App. It stays skipped until the `AZURE_API_FUNCTION_APP_NAME`
-repository/environment variable is set.
+This workflow is now a manual legacy/bootstrap path only. The shared API is
+intended to deploy from its own repository, because it will serve multiple
+sites. This site repo keeps the workflow disabled unless both
+`ENABLE_LEGACY_API_PUBLISH=true` and `AZURE_API_FUNCTION_APP_NAME` are set.
 
 The API resource should be a Function App. A Function App can run on an App
 Service plan, but a plain Azure Web App will not run this Functions project
@@ -144,6 +145,8 @@ look similar in YAML, but they serve different jobs.
 | `AZURE_API_FUNCTION_APP_NAME` | Variable, optional | `api-publish.yml` | Name of the standalone Function App that receives the split API deployment. |
 | `AZURE_API_BASE_URL` | Variable | site build and API verification | Public API host, such as `https://<api-app>.azurewebsites.net`. |
 | `VITE_API_BASE_URL` | Variable, optional | React build | Explicit public API host compiled into the React app. Falls back to `AZURE_API_BASE_URL` when omitted. |
+| `REQUIRE_API_VERIFICATION` | Variable, optional | publish workflow | Set to `true` only after the shared API repo is live and API health should block frontend deploys. |
+| `ENABLE_LEGACY_API_PUBLISH` | Variable, optional | `api-publish.yml` | Set to `true` only for a temporary/manual API deploy from this repo before the separate API repo takes over. |
 | `CONTENT_SITE_URL` | Variable, optional | content build | Canonical public site URL emitted into generated `site.json`. |
 | `CONTENT_STORAGE_ACCOUNT` | Variable | publish scripts | Azure Storage account that receives generated JSON and media. |
 | `CONTENT_STORAGE_CONTAINER` | Variable | publish scripts | Azure Blob container for this site. |
@@ -568,6 +571,11 @@ The preferred production path is still to set `VITE_API_BASE_URL` or
 `AZURE_API_BASE_URL` as a GitHub Actions variable so the React bundle calls the
 Function App directly.
 
+The frontend publish workflow checks the external API after deployment, but the
+check is non-blocking by default because the shared API deploys from a separate
+repo. Set `REQUIRE_API_VERIFICATION=true` only when the API repo is live and
+you want KansasPattons frontend deploys to fail when the shared API is down.
+
 ## Split API Function App Settings
 
 The API reads content from Azure Blob storage at runtime. Configure these
@@ -634,9 +642,9 @@ az functionapp config appsettings list `
 Local API development still uses `api/local.settings.json`. Function App
 production settings are configured in Azure, not committed to the repo.
 
-The API publish workflow deploys code only. Runtime settings should be managed
-on the Function App resource until we decide whether to let GitHub Actions own
-them.
+The API should normally be deployed from the shared API repository. The
+`api-publish.yml` workflow in this repo is retained only as a temporary manual
+bootstrap path and requires `ENABLE_LEGACY_API_PUBLISH=true`.
 
 GitHub variables for the split API:
 
@@ -678,8 +686,10 @@ or private data, tighten this to an explicit allowed-origin list.
     `CONTENT_BASE_URL`, `CONTENT_SITE_KEY`, and `CONTENT_CACHE_SECONDS`.
 12. Save `AZURE_API_FUNCTION_APP_NAME` plus `AZURE_API_BASE_URL` as GitHub
     variables.
-13. Run the `API Publish` workflow manually once after the Function App exists.
+13. Deploy the shared API from its own repository to the Function App.
 14. Run the `Publish` workflow manually once after settings are in place.
+15. Set `REQUIRE_API_VERIFICATION=true` only after `/api/health` and
+    `/api/home` work on the shared API host.
 
 ## Hosting Notes
 
@@ -706,8 +716,7 @@ with:
 
 The workflow builds `dist/`, copies it to `.tmp/webapp-package/public`, copies
 `webapp/package.json` and `webapp/server.cjs`, and deploys that package. The
-API is not deployed by this workflow; use `api-publish.yml` for the standalone
-Function App.
+API is not deployed by this workflow. Deploy the shared API from its own repo.
 
 After deployment, the workflow verifies:
 

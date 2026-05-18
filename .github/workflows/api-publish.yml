@@ -1,12 +1,6 @@
 name: API Publish
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - api/**
-      - .github/workflows/api-publish.yml
   workflow_dispatch:
 
 permissions:
@@ -15,8 +9,8 @@ permissions:
 
 jobs:
   deploy-api:
-    name: Deploy API
-    if: vars.AZURE_API_FUNCTION_APP_NAME != ''
+    name: Legacy API deploy
+    if: vars.ENABLE_LEGACY_API_PUBLISH == 'true' && vars.AZURE_API_FUNCTION_APP_NAME != ''
     runs-on: ubuntu-latest
     environment:
       name: Production

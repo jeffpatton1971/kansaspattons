@@ -130,14 +130,13 @@ Next work:
 
 ## 5. Shared API
 
-Status: API still lives in this repo, but it can now be deployed as a
-standalone Function App and the React frontend can call an external API host
-through `VITE_API_BASE_URL`.
+Status: the frontend is now treated as a client of an external shared API host.
+The API source still exists here as extraction source material, but normal API
+deployment should move to a separate shared API repository.
 
 Target direction:
 
-- Extract the API to a separate repo once the standalone Azure deployment is
-  proven from this repo.
+- Extract the API to a separate repo and deploy it from that repo.
 - Keep site-specific behavior in config, storage prefixes, and generated
   content artifacts.
 - Add fixtures for at least two sites before extraction so site-specific logic
@@ -147,9 +146,9 @@ Implemented:
 
 - `/api/health` reports the content-source runtime configuration without
   exposing secrets.
-- `.github/workflows/api-publish.yml` deploys the existing `api/` Azure
-  Functions project to a standalone Function App when
-  `AZURE_API_FUNCTION_APP_NAME` is configured.
+- `.github/workflows/api-publish.yml` is now manual/bootstrap-only and gated by
+  `ENABLE_LEGACY_API_PUBLISH=true`; normal API deploys belong to the shared API
+  repo.
 - The React app uses `VITE_API_BASE_URL` when present and otherwise falls back
   to same-origin `/api`.
 

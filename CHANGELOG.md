@@ -106,6 +106,8 @@ Published behavior changes and bug fixes for the React site migration.
 - Changed Azure Web App deployment to pass the target resource group explicitly and verify Web App access before deploying.
 - Added publish setting normalization so hostname-only `AZURE_WEBAPP_URL` values are promoted to `https://...`.
 - Changed publish verification to check the deployed Web App root, direct React route refresh, and the standalone API host.
+- Changed external API verification to be non-blocking by default, with `REQUIRE_API_VERIFICATION=true` available once the shared API repo is live.
+- Changed the API publish workflow into a manual legacy/bootstrap path gated by `ENABLE_LEGACY_API_PUBLISH=true`.
 - Added `source.type: wordpress` frontmatter to older WordPress-tagged posts that were missing structured source metadata.
 - Split generated entries into WordPress-shaped Posts and Instagram/Facebook-shaped Stories.
 - Updated legacy `/blog/...` redirects to resolve to either Posts or Stories based on generated entry metadata.

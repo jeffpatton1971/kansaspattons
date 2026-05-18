@@ -27,6 +27,7 @@ env:
   AZURE_WEBAPP_RESOURCE_GROUP: ${{ vars.AZURE_WEBAPP_RESOURCE_GROUP }}
   AZURE_WEBAPP_URL: ${{ vars.AZURE_WEBAPP_URL || format('https://{0}.azurewebsites.net', vars.AZURE_WEBAPP_NAME) }}
   VITE_API_BASE_URL: ${{ vars.VITE_API_BASE_URL || vars.AZURE_API_BASE_URL }}
+  REQUIRE_API_VERIFICATION: ${{ vars.REQUIRE_API_VERIFICATION || 'false' }}
   CONTENT_STORAGE_ACCOUNT: ${{ vars.CONTENT_STORAGE_ACCOUNT }}
   CONTENT_STORAGE_CONTAINER: ${{ vars.CONTENT_STORAGE_CONTAINER }}
   CONTENT_STORAGE_PREFIX: ${{ vars.CONTENT_STORAGE_PREFIX }}
@@ -194,11 +195,12 @@ jobs:
           cat /tmp/webapp-posts.html || true
           exit 1
 
-      - name: Verify deployed API
+      - name: Check external API
         shell: bash
         run: |
-          api_base="${VITE_API_BASE_URL:-$AZURE_WEBAPP_URL}"
+          api_base="${VITE_API_BASE_URL}"
           api_base="${api_base%/}"
+          require_api="$(echo "${REQUIRE_API_VERIFICATION:-false}" | tr '[:upper:]' '[:lower:]')"
 
           for attempt in {1..12}; do
             status="$(curl -sS -o /tmp/swa-home.json -w '%{http_code}' "$api_base/api/home" || true)"
@@ -224,7 +226,13 @@ jobs:
           echo
           echo "Final /api/health response:"
           curl -sS "$api_base/api/health" || true
-          exit 1
+
+          if [[ "$require_api" == "true" ]]; then
+            exit 1
+          fi
+
+          echo "::warning::External API verification failed for $api_base, but REQUIRE_API_VERIFICATION is not true. Frontend deployment is complete; deploy or repair the shared API from its own repository."
+          exit 0
 
   full-tag:
     name: Full rebuild publish
@@ -355,11 +363,12 @@ jobs:
           cat /tmp/webapp-posts.html || true
           exit 1
 
-      - name: Verify deployed API
+      - name: Check external API
         shell: bash
         run: |
-          api_base="${VITE_API_BASE_URL:-$AZURE_WEBAPP_URL}"
+          api_base="${VITE_API_BASE_URL}"
           api_base="${api_base%/}"
+          require_api="$(echo "${REQUIRE_API_VERIFICATION:-false}" | tr '[:upper:]' '[:lower:]')"
 
           for attempt in {1..12}; do
             status="$(curl -sS -o /tmp/swa-home.json -w '%{http_code}' "$api_base/api/home" || true)"
@@ -385,4 +394,10 @@ jobs:
           echo
           echo "Final /api/health response:"
           curl -sS "$api_base/api/health" || true
-          exit 1
+
+          if [[ "$require_api" == "true" ]]; then
+            exit 1
+          fi
+
+          echo "::warning::External API verification failed for $api_base, but REQUIRE_API_VERIFICATION is not true. Frontend deployment is complete; deploy or repair the shared API from its own repository."
+          exit 0

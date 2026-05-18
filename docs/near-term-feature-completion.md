@@ -378,9 +378,12 @@ Work:
 - Tag pushes run a full generated-content publish and Azure Web App deployment.
 - Publish workflow builds `dist/`, packages it with the Node host under
   `webapp/`, and deploys the package to Azure App Service.
-- Publish workflow verifies the Web App root route, a direct React route
-  refresh, `/api/home`, and a known story detail API route after deployment.
-- The API deploys separately through the standalone Function App workflow.
+- Publish workflow verifies the Web App root route and a direct React route
+  refresh after deployment.
+- Publish workflow checks the external shared API as a warning by default; set
+  `REQUIRE_API_VERIFICATION=true` after the separate API repo is live to make
+  API health a hard deployment gate.
+- The API deploys separately from its own shared API repository.
 - The publish planner supports `--base`/`--head` and
   `PUBLISH_PLAN_BASE`/`PUBLISH_PLAN_HEAD`.
 - Workflow setup is documented in [`github-actions.md`](github-actions.md).

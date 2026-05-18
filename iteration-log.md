@@ -2148,3 +2148,20 @@ Detailed working notes for the React migration live here. This file is intention
 - Kept the API as a separate Azure Function App concern; a plain Azure Web App
   still does not run the current `api/` Functions project without converting it
   to a normal Node HTTP server.
+
+### Shared API Repo Boundary
+
+- Reconfirmed that the content API should be split from the KansasPattons site
+  repo and deployed from its own shared API repository because it will serve
+  multiple sites.
+- Changed KansasPattons frontend publish so external API verification is
+  non-blocking by default. The workflow still reports a warning if
+  `VITE_API_BASE_URL/api/home` fails, but it does not block the Web App
+  frontend deployment unless `REQUIRE_API_VERIFICATION=true`.
+- Changed `.github/workflows/api-publish.yml` into a manual bootstrap-only path
+  gated by `ENABLE_LEGACY_API_PUBLISH=true`; normal API deploys should come
+  from the future shared API repo.
+- Live check at the time showed `https://ptech-sites-api.azurewebsites.net/`
+  returning the default Function App page, while `/api/health` and `/api/home`
+  returned `404`, meaning the Function App exists but the KansasPattons API
+  functions are not currently deployed/registered there.
