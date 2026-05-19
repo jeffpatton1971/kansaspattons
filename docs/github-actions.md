@@ -557,24 +557,27 @@ The API reads content from Azure Blob storage at runtime. Configure these
 application settings on the standalone Function App production environment:
 
 ```text
-CONTENT_BASE_URL=https://{account}.blob.core.windows.net/{container}/{CONTENT_STORAGE_PREFIX}/
-CONTENT_SITE_KEY=kansaspattons
+CONTENT_BASE_URL_TEMPLATE=https://{account}.blob.core.windows.net/{site}/current/
 CONTENT_CACHE_SECONDS=60
 ```
 
-`CONTENT_BASE_URL` is the important one. It should point at the generated JSON
-content root that contains `home.json`, `site.json`, `posts/index.json`,
-`stories/index.json`, `galleries/index.json`, `images/index.json`,
-`taxonomy.json`, and `search/index.json`.
+`CONTENT_BASE_URL_TEMPLATE` is the preferred multi-site setting. The API
+replaces `{site}` with the route site id, so `/api/sysop71/home` reads from
+`https://{account}.blob.core.windows.net/sysop71/current/home.json`.
+
+Legacy single-site settings such as `CONTENT_BASE_URL` plus
+`CONTENT_SITE_KEY=kansaspattons` only serve that configured site. Keep them only
+as a migration bridge, and add `CONTENT_BASE_URL_TEMPLATE` or
+`CONTENT_SITE_BASE_URLS` before enabling another site id.
 
 The API also exposes `GET /api/{siteid}/health` as a non-secret runtime diagnostic. It
-reports whether the deployed Function sees `CONTENT_BASE_URL`, derives the
-content root from `CONTENT_STORAGE_*`, or is using the bundled KansasPattons
-fallback while the API still lives in this repo.
+reports whether the deployed Function sees `CONTENT_BASE_URL_TEMPLATE`,
+`CONTENT_SITE_BASE_URLS`, `CONTENT_STORAGE_*`, or a legacy `CONTENT_BASE_URL`.
 
-The publish workflow verifies both `/api/{siteid}/home` and one known story detail route
-after deployment so missing detail artifacts fail the deployment instead of
-showing up only when a user clicks into content.
+The publish workflow verifies both `/api/{siteid}/home` and the detail route
+for the first recent entry returned by the home payload after deployment, so
+missing detail artifacts fail the deployment instead of showing up only when a
+user clicks into content.
 
 Portal setup:
 

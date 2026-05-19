@@ -10,6 +10,12 @@ For repeatable seeding, use the repo template kit in
 script, and a conformance checklist that should be copied into every migrated
 site repo.
 
+Important: this is not a prompt to build a similar React app. The migrated repo
+must use the reference site framework files and generated-content contract. Do
+not invent alternate package scripts, alternate JSON shapes, a simpler React
+shell, or a custom publish workflow unless the framework itself is being changed
+first.
+
 ## Mission
 
 Convert the repository from a GitHub Pages/Jekyll blog into a React site that:
@@ -24,6 +30,44 @@ Convert the repository from a GitHub Pages/Jekyll blog into a React site that:
 
 Do not deploy an API from the site repo. The shared API lives in
 `ptech-sites-api` and must serve this site by site id.
+
+## Framework Source Of Truth
+
+Use the current reference site repo as the source of truth for framework code.
+At the time this playbook was written, that reference is `kansaspattons`.
+
+Framework-owned paths must be copied from the reference repo, not reimplemented:
+
+```text
+src/
+scripts/
+tests/
+webapp/
+.github/workflows/pr-ci.yml
+.github/workflows/publish.yml
+components.json
+index.html
+package.json
+package-lock.json
+playwright.config.ts
+tsconfig.app.json
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+```
+
+After copying, make only site-specific substitutions:
+
+- package name,
+- `content/site.config.json`,
+- smoke-test expected site title/search term,
+- documentation text,
+- optional theme/branding values.
+
+Do not replace the framework app with a minimal React app that dumps JSON. Do
+not replace TypeScript scripts with smaller `.mjs` equivalents. Do not upload
+`public/content` with ad hoc Azure CLI commands when the framework publish
+scripts already own that behavior.
 
 ## Required Inputs
 
@@ -93,6 +137,15 @@ Gemfile.lock
 Keep `_posts/` unless the migration also rewrites the content compiler to use a
 new source folder. In this architecture, `_posts/` is authored source content,
 not a Jekyll runtime dependency.
+
+Run the framework drift check from the reference repo after applying the
+template:
+
+```powershell
+.\templates\react-api-site\check-framework.ps1 -TargetRepo C:\code\sites\<target>
+```
+
+This check must pass before the migration is considered framework-aligned.
 
 ## GitHub Setup
 
@@ -186,6 +239,13 @@ Preferred API setting:
 CONTENT_BASE_URL_TEMPLATE=https://<storage-account>.blob.core.windows.net/<container>/{site}/current/
 ```
 
+Important: if the API Function App still has legacy single-site settings such
+as `CONTENT_BASE_URL=https://.../kansaspattons/current/` and
+`CONTENT_SITE_KEY=kansaspattons`, it will continue serving only that one site
+unless a multi-site setting is also present. Add `CONTENT_BASE_URL_TEMPLATE` or
+`CONTENT_SITE_BASE_URLS` to the API Function App settings before expecting a new
+site id to work.
+
 If using a shared `sites` container and default prefix:
 
 ```text
@@ -197,15 +257,25 @@ with a site map or site-specific setting as documented in `ptech-sites-api`.
 
 ## File Migration Steps
 
-1. Copy the React site application files from the reference site repo into the
-   target repo:
+1. Apply the seed template from the reference repo:
+
+```powershell
+Copy-Item .\templates\react-api-site\variables.example.json .\.tmp\<siteid>.vars.json
+# Edit .tmp\<siteid>.vars.json
+.\templates\react-api-site\apply-template.ps1 `
+  -TargetRepo C:\code\sites\<siteid> `
+  -VariablesPath .\.tmp\<siteid>.vars.json
+```
+
+2. Copy the React site application files from the reference site repo into the
+   target repo. These are framework-owned files; copy them directly rather than
+   hand-porting behavior:
 
 ```text
 src/
 scripts/
 tests/
 webapp/
-docs/
 components.json
 index.html
 package.json
@@ -215,9 +285,19 @@ tsconfig*.json
 vite.config.ts
 ```
 
-2. Preserve or import authored content into `_posts/`.
+3. Patch site-specific values:
 
-3. Create `content/site.config.json`:
+- `package.json` package name.
+- top-level package name in `package-lock.json`.
+- `webapp/package.json` package name.
+- `content/site.config.json`.
+- `content/media/index.json`.
+- smoke-test expected site title and a search term that exists in the target
+  content.
+
+4. Preserve or import authored content into `_posts/`.
+
+5. Create or update `content/site.config.json`:
 
 ```json
 {
@@ -242,7 +322,7 @@ vite.config.ts
 }
 ```
 
-4. Create `content/taxonomy.aliases.json` with empty families if there are no
+6. Create `content/taxonomy.aliases.json` with empty families if there are no
    known aliases:
 
 ```json
@@ -254,7 +334,7 @@ vite.config.ts
 }
 ```
 
-5. Create `content/media/index.json`:
+7. Create `content/media/index.json`:
 
 ```json
 {
@@ -275,7 +355,7 @@ vite.config.ts
 }
 ```
 
-6. Create or update `.gitignore`:
+8. Create or update `.gitignore`:
 
 ```text
 .tmp/
@@ -289,9 +369,63 @@ test-results/
 playwright-report/
 ```
 
-7. Create `.github/workflows/pr-ci.yml` and `.github/workflows/publish.yml`
+9. Create `.github/workflows/pr-ci.yml` and `.github/workflows/publish.yml`
    using the reference repo workflows. The publish workflow must deploy the
    React site to Azure Web App and must not deploy `api/`.
+
+10. Run the framework drift check. Fix every failure before continuing.
+
+## Generated Content Contract
+
+The shared API does not read arbitrary flat JSON files. The site build must
+produce the same generated-content shape as the reference framework.
+
+Required generated files include:
+
+```text
+public/content/site.json
+public/content/home.json
+public/content/entries/index.json
+public/content/posts/index.json
+public/content/posts/{year}/{month}/{day}/{slug}.json
+public/content/stories/index.json
+public/content/stories/{year}/{month}/{day}/{slug}.json
+public/content/galleries/index.json
+public/content/galleries/{year}/{month}/{day}/{slug}.json
+public/content/images/index.json
+public/content/search/index.json
+public/content/taxonomy/index.json
+```
+
+Some indexes may contain empty arrays for sites with no stories, galleries, or
+images, but the API path shape must still exist where the framework expects it.
+
+Do not generate only this simplified shape:
+
+```text
+public/content/posts.json
+public/content/stories.json
+public/content/search.json
+```
+
+That shape is not enough for `ptech-sites-api`.
+
+The package scripts must include the framework names:
+
+```text
+build:content
+content:validate
+build
+test
+publish:plan
+publish:media
+publish:prepare
+publish:content
+publish:content:incremental
+```
+
+Do not rename `build:content` to `content:generate` or replace the publish
+scripts with placeholders.
 
 ## Content Conversion Rules
 
@@ -568,6 +702,16 @@ npm run build
 npm run test
 ```
 
+Also run:
+
+```powershell
+.\templates\react-api-site\check-framework.ps1 -TargetRepo C:\code\sites\<target>
+```
+
+Validation is not complete just because a custom build passes. The generated
+content must satisfy `npm run content:validate`, and the framework drift check
+must pass.
+
 For publish dry runs:
 
 ```powershell
@@ -594,6 +738,10 @@ npx playwright install chromium
 2. Configure GitHub `Production` environment secrets and variables.
 3. Configure Azure OIDC federated credential and RBAC.
 4. Configure `ptech-sites-api` so it can resolve this site id.
+   Confirm the live API health response reports `hasSiteBaseUrlTemplate: true`,
+   `hasSiteBaseUrlMap: true`, or `source: CONTENT_STORAGE_*` for multi-site
+   operation. If it only reports `source: CONTENT_BASE_URL`, the API is still
+   in legacy single-site mode.
 5. Run local validation commands.
 6. Push the migration branch and open a pull request.
 7. Confirm PR CI passes.
@@ -649,6 +797,7 @@ Do not change DNS until high-value legacy URLs have a planned behavior.
 ## Agent Safety Rules
 
 - Read the existing repo before editing.
+- Copy framework files from the reference repo instead of rebuilding a lookalike.
 - Do not delete `_posts/` unless replacing the content source and updating all
   scripts.
 - Do not delete source media until uploaded blobs and rewritten Markdown are
@@ -656,6 +805,11 @@ Do not change DNS until high-value legacy URLs have a planned behavior.
 - Do not create API runtime code in the site repo.
 - Do not support fallback site ids or ambiguous API route shapes.
 - Use `/api/{siteid}/...` only.
+- Do not generate flat `posts.json`/`search.json`-only content for the shared
+  API.
+- Do not deploy the whole repository as the Web App package; package `dist/`
+  under `.tmp/webapp-package/public` with `webapp/server.cjs` and
+  `webapp/package.json`.
 - Keep generated `public/content/` out of Git unless the repo explicitly chooses
   to commit generated artifacts.
 - Keep historical changelogs and iteration logs intact unless asked to curate
@@ -669,6 +823,7 @@ The migration is complete when:
 - `npm run build` succeeds.
 - `npm run test` succeeds.
 - `npm run content:validate` succeeds.
+- The framework drift check succeeds.
 - The site deploys to Azure Web App.
 - Generated content and media publish to Blob Storage.
 - The shared API returns `/api/{siteid}/home`.
@@ -676,6 +831,21 @@ The migration is complete when:
 - Jekyll runtime files and GitHub Pages workflows are removed.
 - GitHub environment variables/secrets and Azure OIDC/RBAC are documented.
 - Any intentionally retained legacy files are listed with reasons.
+
+## Anti-Patterns That Mean The Migration Missed
+
+If you see any of these, stop and realign with the reference framework:
+
+- `src/App.jsx` is a tiny custom app that renders `<pre>{JSON.stringify(...)}</pre>`.
+- package scripts use `content:generate` instead of `build:content`.
+- generated content is only flat files such as `posts.json` and `search.json`.
+- publish scripts only print placeholder messages.
+- the workflow deploys `package: .` to Azure Web App.
+- `webapp/server.cjs` serves `../dist` instead of the packaged `public` folder.
+- the repo has an `api/` folder or deploys Azure Functions.
+- `CONTENT_SITE_KEY` or `VITE_API_SITE_ID` falls back to another site's id.
+- tests only validate frontmatter helpers and do not smoke test the rendered
+  React site.
 
 ## Common Gaps To Check
 
