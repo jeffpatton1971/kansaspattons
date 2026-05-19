@@ -1,0 +1,16 @@
+{
+  "siteId": "example-site",
+  "siteTitle": "Example Site",
+  "canonicalUrl": "https://example-site.azurewebsites.net",
+  "azureWebAppName": "example-site",
+  "azureWebAppResourceGroup": "WebApplications",
+  "sharedApiBaseUrl": "https://ptech-sites-api.azurewebsites.net",
+  "storageAccount": "prdwebappstorage",
+  "storageContainer": "example-site",
+  "storagePrefix": "current",
+  "authorName": "",
+  "authorImageUrl": "/assets/images/bio-photo.jpg",
+  "bannerEyebrow": "Archive",
+  "bannerText": "Posts, stories, galleries, and images.",
+  "footerText": "Posts, stories, galleries, and images."
+}

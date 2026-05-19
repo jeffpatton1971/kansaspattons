@@ -5,6 +5,11 @@ similar AI agent. Drop it into a legacy GitHub Pages/Jekyll-style site repo and
 use it as the migration contract for moving that site to the shared React site
 and `ptech-sites-api` architecture.
 
+For repeatable seeding, use the repo template kit in
+`templates/react-api-site/`. It contains placeholder scaffold files, an apply
+script, and a conformance checklist that should be copied into every migrated
+site repo.
+
 ## Mission
 
 Convert the repository from a GitHub Pages/Jekyll blog into a React site that:

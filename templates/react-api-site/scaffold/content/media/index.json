@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "2026-05-15",
+  "generatedAt": "2026-05-18T00:00:00.000Z",
+  "site": {
+    "key": "__SITE_ID__",
+    "title": "__SITE_TITLE__"
+  },
+  "storage": {
+    "accountName": "__STORAGE_ACCOUNT__",
+    "containerName": "__STORAGE_CONTAINER__",
+    "baseUrl": "https://__STORAGE_ACCOUNT__.blob.core.windows.net/__STORAGE_CONTAINER__",
+    "rawPrefix": "images",
+    "thumbPrefix": "thumbs"
+  },
+  "assets": []
+}

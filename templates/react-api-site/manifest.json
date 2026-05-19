@@ -1,0 +1,74 @@
+{
+  "template": "react-api-site",
+  "version": "2026-05-18",
+  "description": "Framework seed for React frontend repos served by the shared ptech-sites-api.",
+  "requiredTokens": [
+    "siteId",
+    "siteTitle",
+    "canonicalUrl",
+    "azureWebAppName",
+    "azureWebAppResourceGroup",
+    "sharedApiBaseUrl",
+    "storageAccount",
+    "storageContainer",
+    "storagePrefix"
+  ],
+  "scaffoldRoot": "scaffold",
+  "referenceCopyPaths": [
+    "src/",
+    "scripts/",
+    "tests/",
+    "webapp/",
+    "components.json",
+    "index.html",
+    "package.json",
+    "package-lock.json",
+    "playwright.config.ts",
+    "tsconfig.app.json",
+    "tsconfig.json",
+    "tsconfig.node.json",
+    "vite.config.ts"
+  ],
+  "forbiddenRuntimePaths": [
+    "api/",
+    "_config.yml",
+    "_data/",
+    "_includes/",
+    "_layouts/",
+    "_pages/",
+    "_sass/",
+    "_site/",
+    "Gemfile",
+    "Gemfile.lock"
+  ],
+  "requiredScripts": [
+    "build:content",
+    "content:validate",
+    "build",
+    "test",
+    "publish:plan",
+    "publish:media",
+    "publish:prepare",
+    "publish:content",
+    "publish:content:incremental"
+  ],
+  "requiredEnvironmentVariables": [
+    "AZURE_WEBAPP_NAME",
+    "AZURE_WEBAPP_RESOURCE_GROUP",
+    "AZURE_WEBAPP_URL",
+    "AZURE_API_BASE_URL",
+    "VITE_API_BASE_URL",
+    "VITE_API_SITE_ID",
+    "CONTENT_SITE_KEY",
+    "CONTENT_SITE_URL",
+    "CONTENT_STORAGE_ACCOUNT",
+    "CONTENT_STORAGE_CONTAINER",
+    "CONTENT_STORAGE_PREFIX",
+    "REQUIRE_API_VERIFICATION"
+  ],
+  "requiredEnvironmentSecrets": [
+    "AZURE_CLIENT_ID",
+    "AZURE_TENANT_ID",
+    "AZURE_SUBSCRIPTION_ID"
+  ]
+}
