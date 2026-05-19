@@ -20,6 +20,12 @@ The top-level `key` is the site id for shared API calls. In GitHub Actions,
 `VITE_API_SITE_ID` should match this configured `key`; `CONTENT_SITE_KEY` is
 used by the publish scripts and should match it too.
 
+Optional presentation sections are opt-in. If a site omits `banner`, the home
+banner should not render. If a site omits `author`, the author card should not
+render. An `author.imageUrl` by itself does not create an author card; provide a
+name, bio, or links. The content build must not fill missing site sections with
+reference site defaults.
+
 ## Shape
 
 ```ts
@@ -93,6 +99,7 @@ reasonable icon from the link path.
 ## Banner
 
 The home banner sits below the masthead. It can be text-only or image-backed.
+Omit the `banner` object entirely when the site should not render a home banner.
 
 ```json
 {
