@@ -10,6 +10,9 @@ For repeatable seeding, use the repo template kit in
 script, and a conformance checklist that should be copied into every migrated
 site repo.
 
+For adding route families such as `/stories`, see
+[`adding-content-routes.md`](adding-content-routes.md).
+
 Important: this is not a prompt to build a similar React app. The migrated repo
 must use the reference site framework files and generated-content contract. Do
 not invent alternate package scripts, alternate JSON shapes, a simpler React
