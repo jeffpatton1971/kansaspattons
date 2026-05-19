@@ -3,8 +3,15 @@
 This tracks the remaining work to move from the current KansasPattons migration
 prototype to a reusable content platform for multiple sites.
 
+For an AI-agent-oriented overview of the current architecture and direction,
+start with [`agent-briefing.md`](agent-briefing.md).
+
 For the immediate execution checklist, see
 [`near-term-feature-completion.md`](near-term-feature-completion.md).
+
+For the longer-term framework architecture, including base items, extensible
+collections, layout presets, themes, and icon strategy, see
+[`framework-evolution-roadmap.md`](framework-evolution-roadmap.md).
 
 Future smaller-site migrations should use this repo as the React site/content
 pipeline reference and the separate `ptech-sites-api` repo as the shared API
