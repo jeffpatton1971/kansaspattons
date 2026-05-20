@@ -1,0 +1,14 @@
+bin/
+obj/
+node_modules/
+packages/
+dist/
+build/
+coverage/
+.terraform/
+terraform/
+artifacts/
+.vs/
+.idea/
+.git/
+*.log
